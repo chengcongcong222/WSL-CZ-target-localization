@@ -1,0 +1,4 @@
+key,reference,r_first_km,r_last_km,common_cells,delay_ms_min,delay_ms_max,median_nearest_arrival_ms,max_numerical_shift_ms,min_environment_matches,environment_count,max_environment_shift_ms,median_rel_db,jacobian_cells,current_status
+S0B1_s1r0,S0B1_s0r1,52.0,54.25,9,-3.3150,-2.9641,1.5145,0.0114,4,8,0.8087,-19.9863,6,HOLD_OR_REJECT
+S1B2_s1r0,S0B1_s0r1,52.0,54.5,11,979.4655,1015.9187,47.9431,0.0038,7,8,5.3253,-18.1471,11,HOLD_OR_REJECT
+S3B2_s0r1,S0B1_s0r1,52.0,54.5,11,1074.7109,1119.5831,51.4488,0.0077,7,8,5.9128,-18.9096,11,HOLD_OR_REJECT

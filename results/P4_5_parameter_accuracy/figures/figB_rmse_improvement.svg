@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="400" viewBox="0 0 780 400">
+<rect width="780" height="400" fill="#f7f4ef"/>
+<text x="390.0" y="28" text-anchor="middle" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600">图B  RMSE 改善率 (1 − RMSE_RC3/RMSE_RC2)</text>
+<line x1="80" y1="210.0" x2="740" y2="210.0" stroke="#999"/>
+<text x="72" y="214.0" text-anchor="end" font-size="11" font-family="sans-serif">0</text>
+<text x="72" y="74.0" text-anchor="end" font-size="11" font-family="sans-serif">+100%</text>
+<text x="72" y="354.0" text-anchor="end" font-size="11" font-family="sans-serif">−100%</text>
+<rect x="80" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="94" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<rect x="115" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="129" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<rect x="150" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="164" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<text x="120" y="370" text-anchor="middle" font-size="12" font-family="sans-serif">r</text>
+<rect x="210" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="224" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<rect x="245" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="259" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<rect x="280" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="294" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<text x="250" y="370" text-anchor="middle" font-size="12" font-family="sans-serif">theta</text>
+<rect x="340" y="202.0" width="28" height="16" fill="#ddd"/>
+<rect x="375" y="202.0" width="28" height="16" fill="#ddd"/>
+<rect x="410" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="424" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<text x="380" y="370" text-anchor="middle" font-size="12" font-family="sans-serif">z</text>
+<rect x="470" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="484" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<rect x="505" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="519" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<rect x="540" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="554" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<text x="510" y="370" text-anchor="middle" font-size="12" font-family="sans-serif">v</text>
+<rect x="600" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="614" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<rect x="635" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="649" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<rect x="670" y="200.0" width="28" height="20" fill="#4a0f0f"/>
+<text x="684" y="214.0" text-anchor="middle" font-size="7" fill="#fff" font-family="sans-serif">INV</text>
+<text x="640" y="370" text-anchor="middle" font-size="12" font-family="sans-serif">psi</text>
+<text x="660" y="80" font-size="11" fill="#b45309" font-family="sans-serif">B-L</text>
+<text x="700" y="80" font-size="11" fill="#0f766e" font-family="sans-serif">B-M</text>
+<text x="740" y="80" font-size="11" fill="#1d4ed8" font-family="sans-serif">B-U</text>
+<text x="40" y="392" font-size="10" fill="#777" font-family="sans-serif">结构不可辨识维度不硬画百分比</text></svg>

@@ -1,0 +1,37 @@
+{
+  "g4_revision": "G4_PARTIAL_BOUNDARY_VALIDATED",
+  "why": "Nested filtering holds for all revised cells (n_RC2+RC3<=n_RC2). Standardized residual J uses fixed threshold across SNR. Display is retain-first. Integrated RC2+RC3 statuses: OK r=1, INVALID=1, UNRESOLVED=1.",
+  "nested_all_ok": true,
+  "snr_issues": [],
+  "integrated_status_counts": {
+    "OK_r": 1,
+    "INVALID_r": 1,
+    "UNRESOLVED_r": 1
+  },
+  "frozen_unaffected_conclusions": [
+    "RC2: long-range pure bearing cannot provide practical ranging; collinear r-v ridge is intrinsic.",
+    "RC3: under frozen theory propagation + pre-locked hard pairs, CZ provides independent increment on range/range-trajectory candidates.",
+    "Depth: z=200/220 m essentially unconstrained in current model; depth remains UNRESOLVED.",
+    "Maneuver wording (no re-run): 0–15° small turns change kinematic candidate structure, but no stable monotonic range/course performance gain in this far-range limited-T study.",
+    "Environment (no re-run): mismatch can change candidate structure; three points E0/E1/E2 insufficient for a monotone robustness boundary; E1 spikes are not evidence that mild mismatch improves performance."
+  ],
+  "outputs": [
+    "P4_G4_REVISION.md",
+    "boundary_source_snr_revised.csv",
+    "integrated_CL_CM_CU_revised.csv",
+    "rc1_rc2_rc3_contraction_revised.csv",
+    "figures/core_fig2_source_snr.svg",
+    "figures/core_fig5_five_state.svg",
+    "figures/core_fig6_stage_contraction.svg"
+  ],
+  "created_utc": "2026-09-20T04:43:28.628249+00:00",
+  "not_rerun": [
+    "depth scan",
+    "P2",
+    "P3",
+    "Bellhop",
+    "maneuver scan",
+    "T×sigma scan"
+  ],
+  "next": "stop; do not auto-enter P5 in this revision round"
+}

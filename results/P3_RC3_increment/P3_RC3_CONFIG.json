@@ -1,0 +1,75 @@
+{
+  "project": "B3D-3",
+  "package": "P3_RC3_increment",
+  "created_utc": "2026-09-19T02:50:14.737520+00:00",
+  "gate": "G3",
+  "p2_handoff": "results\\P2_RC2_kinematic_boundary\\hard_candidate_pairs_rc3_handoff.csv",
+  "p2_crlb_policy": "rank-deficient CRLB(r)=UNDEFINED/UNBOUNDED; maneuver wording downgraded (no P2 re-run)",
+  "scene": {
+    "name": "E-STD",
+    "depth_m": 5000.0,
+    "z_s_m": 200.0,
+    "z_r_m": 200.0,
+    "ssp": "Munk-like deep SOFAR (z_a=1300 m, B=1300 m, c0=1500, eps=0.00737)",
+    "range_km": [
+      45.0,
+      60.0
+    ],
+    "band_hz": [
+      150.0,
+      375.0
+    ],
+    "horizontal_stratified": true
+  },
+  "propagation": {
+    "primary": "normal-mode-inspired deep waveguide (deterministic theory model)",
+    "kraken_on_host": false,
+    "note": "KRAKEN/ACT not installed on this Windows host; P3 uses a modal sum + CZ focusing model consistent with E-STD physics for theory-boundary comparison. Bellhop not used.",
+    "n_modes_base": 24,
+    "unknown_source": "S(f) eliminated by LS / time-profile normalization per candidate"
+  },
+  "sources": {
+    "S0": "continuous broadband, unknown S(f), no stable lines",
+    "S1": "parametric shaft/burst/harmonics (+drift); QiandaoEar audio optional, not blocking",
+    "S2": "stable lines 166/201/235/283/338 Hz (upper bound, not real UUV spectrum)"
+  },
+  "layers": [
+    "RC2",
+    "RC2+CZ",
+    "RC2+Doppler",
+    "RC2+CZ+Doppler"
+  ],
+  "snr_db": [
+    20.0,
+    10.0,
+    0.0,
+    -10.0
+  ],
+  "n_trials_noise": 8,
+  "f_grid_hz": [
+    150.0,
+    170.45454545454544,
+    190.9090909090909,
+    211.36363636363637,
+    231.8181818181818,
+    252.27272727272725,
+    272.72727272727275,
+    293.1818181818182,
+    313.6363636363636,
+    334.09090909090907,
+    354.5454545454545,
+    375.0
+  ],
+  "array": {
+    "n": 8,
+    "d_m": 12.0
+  },
+  "selection_rule": "per mechanism ≤10 pairs; prefer low bearing RMSE; meaningful state delta; no post-acoustic swaps; log all selected/rejected",
+  "stop": [
+    "no Bellhop A2 audit",
+    "no full P2 re-run",
+    "no new sensors",
+    "no hand-crafted acoustic features if result negative",
+    "no auto-enter P4"
+  ]
+}

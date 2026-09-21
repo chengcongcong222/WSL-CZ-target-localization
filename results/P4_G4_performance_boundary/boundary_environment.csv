@@ -1,0 +1,4 @@
+﻿env,label,z_a_shift_m,c0_shift,layer,w_r_km,contr_r,w_z_m,contr_z,retain_r,retain_z,unresolved_r,n_acc
+E0,完全匹配,0.0,0.0,RC2+RC3,7.0,0.5333333333333333,100.0,0.0,1.0,1.0,0.0,27.0
+E1,轻度SSP偏差,50.0,0.0,RC2+RC3,0.0,1.0,0.0,1.0,1.0,1.0,0.0,2.0
+E2,中等SSP偏差,150.0,2.0,RC2+RC3,9.0,0.4,100.0,0.0,1.0,1.0,0.0,39.0

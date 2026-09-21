@@ -1,0 +1,7 @@
+﻿scenario,name,sigma_deg,T_s,turn_deg,source,snr_db,layer,n_RC2,n_RC2_RC3,n_acc,nested_ok,stage_reject_rate,r_status,r_width,r_contraction,theta_status,theta_width,theta_contraction,z_status,z_width,z_contraction,v_status,v_width,v_contraction,psi_status,psi_width,psi_contraction,retain_r,retain_theta,retain_z,retain_v,retain_psi,raw_w_r_km,raw_contr_r
+C-L,C-L困难,0.2,300.0,0.0,S1,0.0,RC2,4180,819,4180,True,,UNRESOLVED,15.0,0.0,OK,0.0,1.0,UNRESOLVED,100.0,0.0,UNRESOLVED,2.0,0.0,UNRESOLVED,29.999999999999996,0.0,True,True,True,True,True,15.0,0.0
+C-L,C-L困难,0.2,300.0,0.0,S1,0.0,RC2+RC3,4180,819,819,True,0.804066985645933,UNRESOLVED,15.0,0.0,OK,0.0,1.0,UNRESOLVED,100.0,0.0,UNRESOLVED,2.0,0.0,UNRESOLVED,29.999999999999996,0.0,True,True,True,True,True,15.0,0.0
+C-M,C-M基准,0.1,600.0,5.0,S1,10.0,RC2,1075,1,1075,True,,UNRESOLVED,15.0,0.0,OK,0.0,1.0,UNRESOLVED,100.0,0.0,UNRESOLVED,2.0,0.0,OK,11.999999999999998,0.6000000000000001,True,True,True,True,True,15.0,0.0
+C-M,C-M基准,0.1,600.0,5.0,S1,10.0,RC2+RC3,1075,1,1,True,0.9990697674418605,INVALID_NOT_COVERED,,,OK,0.0,1.0,UNRESOLVED,,,INVALID_NOT_COVERED,,,INVALID_NOT_COVERED,,,False,True,True,False,False,0.0,1.0
+C-U,C-U理论上界,0.02,1200.0,15.0,S2,20.0,RC2,105,1,105,True,,OK,9.0,0.4,OK,0.0,1.0,UNRESOLVED,100.0,0.0,UNRESOLVED,2.0,0.0,OK,6.0,0.8,True,True,True,True,True,9.0,0.4
+C-U,C-U理论上界,0.02,1200.0,15.0,S2,20.0,RC2+RC3,105,1,1,True,0.9904761904761905,OK,0.0,1.0,OK,0.0,1.0,INVALID_NOT_COVERED,,,INVALID_NOT_COVERED,,,OK,0.0,1.0,True,True,False,False,True,0.0,1.0

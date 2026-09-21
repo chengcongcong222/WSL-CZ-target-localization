@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>B3D-3 · P2 RC2 运动学边界</title>
+  <link rel="stylesheet" href="assets/p2_style.css" />
+</head>
+<body>
+  <header>
+    <h1>B3D-3 · P2 RC2 运动学候选边界</h1>
+    <div class="sub" id="meta-line">加载中…</div>
+    <div class="chips">
+      <span class="chip ok">G1 标准场景 <strong>已冻结</strong></span>
+      <span class="chip ok">G2 RC2 边界 <strong>本轮形成</strong></span>
+      <span class="chip hold">G3 RC3 增量 <strong>未开始</strong></span>
+      <span class="chip hold">G4 性能边界 <strong>未开始</strong></span>
+      <span class="chip">传播模型 <strong>本包不用</strong></span>
+      <span class="chip">真值泄露 <strong>无</strong></span>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>关口判断</h2>
+      <div id="verdict" class="verdict">…</div>
+      <div id="kpis" class="kpi-row"></div>
+      <div class="controls">
+        <label class="field">σθ (°)
+          <select id="f-sigma"></select>
+        </label>
+        <label class="field">T (s)
+          <select id="f-T"></select>
+        </label>
+        <button id="f-apply" type="button">查看该点</button>
+      </div>
+      <div id="filter-out" class="note"></div>
+    </section>
+
+    <section>
+      <h2>三类核心图（交互曲线）</h2>
+      <p class="note">完整 SVG 图集在下方“静态图”与 <code>results/P2_RC2_kinematic_boundary/figures/</code>。曲线为浏览器内嵌重绘，数据来自 <code>assets/p2_results.js</code>。</p>
+      <h3>图1 · σθ × T → 状态误差</h3>
+      <canvas id="chart1" class="chart"></canvas>
+      <canvas id="chart1b" class="chart" style="margin-top:10px"></canvas>
+      <div class="table-wrap" style="margin-top:10px">
+        <table></table>
+      </div>
+      <div id="tbl-sigma"></div>
+
+      <h3>图2 · 航向差 ψ × T → 可辨识性</h3>
+      <canvas id="chart2" class="chart"></canvas>
+      <div id="tbl-head" style="margin-top:10px"></div>
+
+      <h3>图3 · 平台转角 × T → 几何增益</h3>
+      <canvas id="chart3" class="chart"></canvas>
+      <canvas id="chart3b" class="chart" style="margin-top:10px"></canvas>
+      <div id="tbl-man" style="margin-top:10px"></div>
+    </section>
+
+    <section>
+      <h2>off-grid 对照</h2>
+      <p class="note">真值故意不在粗网格节点上。若估计器被“真值入格”污染，此处误差会异常变好或崩溃；当前结果应与基准同量级。</p>
+      <div id="tbl-off"></div>
+    </section>
+
+    <section>
+      <h2>困难候选 → 仅允许 RC3 使用</h2>
+      <p class="note">原理：连续方位 RMSE 很小，但 (r0,v,ψ) 相差大，或 RC2 接受集同时容纳参考假设与备择假设。P3 只允许对这些对比较 “RC2 only” vs “RC2+传播”。</p>
+      <div id="tbl-hard"></div>
+    </section>
+
+    <section>
+      <h2>静态 SVG 图集</h2>
+      <div id="figures" class="grid-2"></div>
+    </section>
+
+    <section>
+      <h2>交付文件</h2>
+      <div id="files" class="files"></div>
+    </section>
+
+    <section>
+      <h2>P3 / G3（RC3 独立增量）</h2>
+      <div class="verdict ok" id="p3-g3">G3：<strong>PROPAGATION_INCREMENT_CONFIRMED</strong> — S0 困难候选错误排除率 RC2≈0% → RC2+CZ≈97%。Doppler 对恒定 Δv_rad 的 r–v 对几乎无效（未知源频偏置吸收）。S1 线谱点少，CZ≈23%；S2 稳定五线谱 CZ≈97%（上界工况）。</div>
+      <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>
+      <div class="files">
+        <a class="file" href="results/P3_RC3_increment/P3_RC3_REPORT.md" target="_blank" rel="noopener">P3_RC3_REPORT.md<span>主报告</span></a>
+        <a class="file" href="results/P3_RC3_increment/P3_RC3_GPT_SYNC.md" target="_blank" rel="noopener">P3_RC3_GPT_SYNC.md<span>GPT同步</span></a>
+        <a class="file" href="results/P3_RC3_increment/g3_decision.json" target="_blank" rel="noopener">g3_decision.json<span>G3判定</span></a>
+        <a class="file" href="results/P3_RC3_increment/selected_hard_pairs.csv" target="_blank" rel="noopener">selected_hard_pairs.csv<span>困难候选</span></a>
+        <a class="file" href="results/P3_RC3_increment/rc2_vs_rc3_summary.csv" target="_blank" rel="noopener">rc2_vs_rc3_summary.csv<span>四层对比</span></a>
+      </div>
+    </section>
+
+    <section>
+      <h2>方法冻结（摘要）</h2>
+      <ul>
+        <li>标准场景 <strong>E-STD</strong>：深海第一会聚区理论算例；z=200 m 固定。</li>
+        <li>观测：完整二维几何 <code>θ=atan2(yt−yp, xt−xp)+ν</code>，不用 <code>r(t)=r0+(v−U)t</code>。</li>
+        <li>状态搜索：<code>[r0, θ0, v, ψ]</code>；θ0 未知；候选=粗网格+局部细化，<strong>真值不写入网格</strong>。</li>
+        <li><strong>LIN 极限</strong>：用户冻结基准 ψ=0、v=U 时方位恒为 0，r–v 脊线本征不可辨识（RC2 理论下界）。</li>
+        <li><strong>CR5/CR10</strong>：弱/中等交叉，用于展示有方位变化率时的性能边界。</li>
+        <li>主指标：接受集边际宽度、代价加权<strong>后验σ</strong>、r 可辨识比例；点估计在脊线上不唯一。</li>
+        <li>σθ 扫描含 0°（理想上限）与 0.01°–1.0°；非零误差多次随机试验。</li>
+        <li>机动：0/2/5/10/15° 单次转角；只评几何增益，不评阵列波束。</li>
+        <li>停止条件：不要求“结果必须好”；不可辨识是合法理论边界；不自动进入 RC3。</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    B3D-3 P2 RC2 · 本地静态预览 · 数据以 results/ 目录 CSV 与报告为准
+  </footer>
+
+  <script src="assets/p2_results.js"></script>
+  <script src="assets/p2_app.js"></script>
+</body>
+</html>

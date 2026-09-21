@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+<rect width="720" height="420" fill="#f7f4ef"/>
+<text x="360.0" y="28" text-anchor="middle" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#1a1a1a">图1a  σθ×T → 距离误差 |Δr|（RC2 直航）</text>
+<rect x="70" y="48" width="490" height="316" fill="#ffffff" stroke="#d0ccc4" stroke-width="1"/>
+<line x1="70.00" y1="48" x2="70.00" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="70.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">60</text>
+<line x1="151.67" y1="48" x2="151.67" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="151.67" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">98.85</text>
+<line x1="233.33" y1="48" x2="233.33" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="233.33" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">162.9</text>
+<line x1="315.00" y1="48" x2="315.00" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="315.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">268.3</text>
+<line x1="396.67" y1="48" x2="396.67" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="396.67" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">442.1</text>
+<line x1="478.33" y1="48" x2="478.33" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="478.33" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">728.4</text>
+<line x1="560.00" y1="48" x2="560.00" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="560.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">1200</text>
+<line x1="70" y1="364.00" x2="560" y2="364.00" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="368.00" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">2.454</text>
+<line x1="70" y1="300.80" x2="560" y2="300.80" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="304.80" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">3.667</text>
+<line x1="70" y1="237.60" x2="560" y2="237.60" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="241.60" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">4.88</text>
+<line x1="70" y1="174.40" x2="560" y2="174.40" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="178.40" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">6.093</text>
+<line x1="70" y1="111.20" x2="560" y2="111.20" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="115.20" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">7.306</text>
+<line x1="70" y1="48.00" x2="560" y2="48.00" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="52.00" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">8.519</text>
+<text x="315.0" y="406" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">观测时间 T (s)</text>
+<text x="16" y="206.0" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif" transform="rotate(-90 16 206.0)">平均 |Δr| (km)</text>
+<polyline fill="none" stroke="#c45c26" stroke-width="2" points="70.00,243.00 183.38,150.14 333.25,150.01 446.62,188.08 512.94,150.91 560.00,69.79"/>
+<circle cx="70.00" cy="243.00" r="2.8" fill="#c45c26"/>
+<circle cx="183.38" cy="150.14" r="2.8" fill="#c45c26"/>
+<circle cx="333.25" cy="150.01" r="2.8" fill="#c45c26"/>
+<circle cx="446.62" cy="188.08" r="2.8" fill="#c45c26"/>
+<circle cx="512.94" cy="150.91" r="2.8" fill="#c45c26"/>
+<circle cx="560.00" cy="69.79" r="2.8" fill="#c45c26"/>
+<polyline fill="none" stroke="#1f6f8b" stroke-width="2" points="70.00,270.73 183.38,228.03 333.25,101.19 446.62,138.33 512.94,100.87 560.00,140.44"/>
+<circle cx="70.00" cy="270.73" r="2.8" fill="#1f6f8b"/>
+<circle cx="183.38" cy="228.03" r="2.8" fill="#1f6f8b"/>
+<circle cx="333.25" cy="101.19" r="2.8" fill="#1f6f8b"/>
+<circle cx="446.62" cy="138.33" r="2.8" fill="#1f6f8b"/>
+<circle cx="512.94" cy="100.87" r="2.8" fill="#1f6f8b"/>
+<circle cx="560.00" cy="140.44" r="2.8" fill="#1f6f8b"/>
+<polyline fill="none" stroke="#2d6a4f" stroke-width="2" points="70.00,306.26 183.38,290.89 333.25,179.89 446.62,131.79 512.94,226.77 560.00,194.93"/>
+<circle cx="70.00" cy="306.26" r="2.8" fill="#2d6a4f"/>
+<circle cx="183.38" cy="290.89" r="2.8" fill="#2d6a4f"/>
+<circle cx="333.25" cy="179.89" r="2.8" fill="#2d6a4f"/>
+<circle cx="446.62" cy="131.79" r="2.8" fill="#2d6a4f"/>
+<circle cx="512.94" cy="226.77" r="2.8" fill="#2d6a4f"/>
+<circle cx="560.00" cy="194.93" r="2.8" fill="#2d6a4f"/>
+<polyline fill="none" stroke="#7b2cbf" stroke-width="2" points="70.00,322.93 183.38,338.13 333.25,271.41 446.62,120.77 512.94,201.63 560.00,244.85"/>
+<circle cx="70.00" cy="322.93" r="2.8" fill="#7b2cbf"/>
+<circle cx="183.38" cy="338.13" r="2.8" fill="#7b2cbf"/>
+<circle cx="333.25" cy="271.41" r="2.8" fill="#7b2cbf"/>
+<circle cx="446.62" cy="120.77" r="2.8" fill="#7b2cbf"/>
+<circle cx="512.94" cy="201.63" r="2.8" fill="#7b2cbf"/>
+<circle cx="560.00" cy="244.85" r="2.8" fill="#7b2cbf"/>
+<polyline fill="none" stroke="#bc4749" stroke-width="2" points="70.00,314.78 183.38,336.22 333.25,249.13 446.62,247.14 512.94,186.75 560.00,278.32"/>
+<circle cx="70.00" cy="314.78" r="2.8" fill="#bc4749"/>
+<circle cx="183.38" cy="336.22" r="2.8" fill="#bc4749"/>
+<circle cx="333.25" cy="249.13" r="2.8" fill="#bc4749"/>
+<circle cx="446.62" cy="247.14" r="2.8" fill="#bc4749"/>
+<circle cx="512.94" cy="186.75" r="2.8" fill="#bc4749"/>
+<circle cx="560.00" cy="278.32" r="2.8" fill="#bc4749"/>
+<polyline fill="none" stroke="#023e8d" stroke-width="2" points="70.00,246.32 183.38,257.90 333.25,289.49 446.62,317.21 512.94,342.21 560.00,237.66"/>
+<circle cx="70.00" cy="246.32" r="2.8" fill="#023e8d"/>
+<circle cx="183.38" cy="257.90" r="2.8" fill="#023e8d"/>
+<circle cx="333.25" cy="289.49" r="2.8" fill="#023e8d"/>
+<circle cx="446.62" cy="317.21" r="2.8" fill="#023e8d"/>
+<circle cx="512.94" cy="342.21" r="2.8" fill="#023e8d"/>
+<circle cx="560.00" cy="237.66" r="2.8" fill="#023e8d"/>
+<rect x="572" y="56" width="14" height="3" fill="#c45c26"/>
+<text x="592" y="60" font-size="11" fill="#333" font-family="sans-serif">σθ=0.02°</text>
+<rect x="572" y="74" width="14" height="3" fill="#1f6f8b"/>
+<text x="592" y="78" font-size="11" fill="#333" font-family="sans-serif">σθ=0.05°</text>
+<rect x="572" y="92" width="14" height="3" fill="#2d6a4f"/>
+<text x="592" y="96" font-size="11" fill="#333" font-family="sans-serif">σθ=0.1°</text>
+<rect x="572" y="110" width="14" height="3" fill="#7b2cbf"/>
+<text x="592" y="114" font-size="11" fill="#333" font-family="sans-serif">σθ=0.2°</text>
+<rect x="572" y="128" width="14" height="3" fill="#bc4749"/>
+<text x="592" y="132" font-size="11" fill="#333" font-family="sans-serif">σθ=0.5°</text>
+<rect x="572" y="146" width="14" height="3" fill="#023e8d"/>
+<text x="592" y="150" font-size="11" fill="#333" font-family="sans-serif">σθ=1.0°</text>
+<text x="70" y="418" font-size="10" fill="#777" font-family="sans-serif">E-STD 真值 r0=50km, v=2m/s, ψ=0°; 候选搜索不使用真值; 误差为 refined 估计</text>
+</svg>

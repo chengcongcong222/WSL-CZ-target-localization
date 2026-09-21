@@ -1,0 +1,205 @@
+{
+  "project": "B3D-3",
+  "package": "P2_RC2_kinematic_boundary",
+  "created_utc": "2026-09-18T10:34:34.446192+00:00",
+  "scene": "E-STD",
+  "z_fixed_m": 200.0,
+  "platform_speed_mps": 2.0,
+  "baseline_truth": {
+    "r0_km": 50.0,
+    "theta0_deg": 0.0,
+    "v_mps": 2.0,
+    "psi_deg": 0.0
+  },
+  "T_s": [
+    60.0,
+    120.0,
+    300.0,
+    600.0,
+    900.0,
+    1200.0
+  ],
+  "sigma_theta_deg": [
+    0.0,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "platform_turn_deg": [
+    0.0,
+    2.0,
+    5.0,
+    10.0,
+    15.0
+  ],
+  "psi_scan_deg": [
+    -15.0,
+    -10.0,
+    -5.0,
+    -3.0,
+    0.0,
+    3.0,
+    5.0,
+    10.0,
+    15.0
+  ],
+  "n_trials": 8,
+  "dt_obs_s": 10.0,
+  "rng_seed": 20260912,
+  "candidate_box": {
+    "r0_km": [
+      45.0,
+      60.0
+    ],
+    "theta0_deg": [
+      -5.0,
+      5.0
+    ],
+    "v_mps": [
+      1.0,
+      3.0
+    ],
+    "psi_deg": [
+      -15.0,
+      15.0
+    ]
+  },
+  "coarse_grid": {
+    "r0_km": [
+      45.0,
+      46.0,
+      47.0,
+      48.0,
+      49.0,
+      50.0,
+      51.0,
+      52.0,
+      53.0,
+      54.0,
+      55.0,
+      56.0,
+      57.0,
+      58.0,
+      59.0,
+      60.0
+    ],
+    "theta0_deg": [
+      -5.0,
+      -4.5,
+      -4.0,
+      -3.5,
+      -3.0,
+      -2.5,
+      -2.0,
+      -1.5,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0
+    ],
+    "v_mps": [
+      1.0,
+      1.2,
+      1.4,
+      1.5999999999999999,
+      1.7999999999999998,
+      1.9999999999999998,
+      2.1999999999999997,
+      2.3999999999999995,
+      2.5999999999999996,
+      2.8,
+      2.9999999999999996
+    ],
+    "psi_deg": [
+      -15.0,
+      -14.0,
+      -13.0,
+      -12.0,
+      -11.0,
+      -10.0,
+      -9.0,
+      -8.0,
+      -7.0,
+      -6.0,
+      -5.0,
+      -4.0,
+      -3.0,
+      -2.0,
+      -1.0,
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      13.0,
+      14.0,
+      15.0
+    ],
+    "n_nodes": 114576,
+    "note": "psi grid includes 0°"
+  },
+  "scenarios": {
+    "LIN": {
+      "r0_m": 50000.0,
+      "theta0_deg": 0.0,
+      "v": 2.0,
+      "psi_deg": 0.0,
+      "label": "共线基准 LIN（ψ=0,v=U）",
+      "note": "方位恒为0，r–v本征不可辨识；RC2理论下界"
+    },
+    "CR5": {
+      "r0_m": 50000.0,
+      "theta0_deg": 0.0,
+      "v": 2.0,
+      "psi_deg": 5.0,
+      "label": "弱交叉 CR5（ψ=5°）",
+      "note": "存在方位变化率，RC2可部分约束"
+    },
+    "CR10": {
+      "r0_m": 50000.0,
+      "theta0_deg": 0.0,
+      "v": 2.0,
+      "psi_deg": 10.0,
+      "label": "中等交叉 CR10（ψ=10°）",
+      "note": "方位变化率更强"
+    }
+  },
+  "primary_scenario": "CR5",
+  "limit_scenario": "LIN",
+  "method_notes": [
+    "Full 2D motion geometry; no r(t)=r0+(v-U)t shortcut.",
+    "theta0 unknown; estimator never receives truth.",
+    "sigma_theta=0 is ideal upper bound (deterministic match).",
+    "FIM/Jacobian evaluated at truth for local observability only.",
+    "Candidate set = coarse grid + local continuous refinement from top-k, not truth-injected.",
+    "Primary metrics = accepted-set widths / contraction (set-valued).",
+    "LIN is a true RC2 unobservable limit (constant bearing); CR5/CR10 open bearing-rate geometry."
+  ],
+  "forbidden": [
+    "TRUE_BEARING_FIXED",
+    "truth written into every candidate",
+    "guaranteeing truth on candidate grid",
+    "using acoustic field H to generate/filter candidates"
+  ]
+}

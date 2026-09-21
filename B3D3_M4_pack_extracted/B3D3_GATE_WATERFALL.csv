@@ -1,0 +1,10 @@
+stage,gate,survivors,cumulative_fraction,comment
+0,all_mature_model_candidates,26,1.000000,existing admission-table pool
+1,adequate_common_range_window,25,0.961538,one short-window candidate removed
+2,numerically_stable,23,0.884615,existing 0.075 ms diagnostic
+3,resolvable_at_B900Hz,9,0.346154,neighboring-arrival ambiguity removes 14 of the numerically stable/full-window pool cumulatively
+4,not_weak_relative_to_strongest,3,0.115385,pre-environment shortlist
+5,associated_in_all_8_diagnostic_environments,0,0.000000,first gate that annihilates the shortlist
+6,environment_delay_shift_le_0p15ms,0,0.000000,all 26 individually exceed the current environment-shift gate
+7,observed_traceable_SSP_present,0,0.000000,not available in existing run
+8,full_waveform_extraction_passed,0,0.000000,not passed in existing admission table

@@ -1,0 +1,4 @@
+﻿case,note,r_true_km,z_true_m,beta_hat,beta_score,r_hat_km,err_r_km,fringe_align_width_km,n_freqs,method
+PAPER_LIKE_IDEAL,"E-STD modal field, matched env, noiseless — algorithm fidelity",50.0,200.0,2.5,1.1321501327645316,54.25,4.25,0.0,46,WI-like fringe alignment after range-frequency de-trend (paper-like beta search + range warp)
+OFFGRID,off-grid truth,52.3,213.0,2.5,1.5141822214280771,51.5,-0.7999999999999972,0.25,46,WI-like fringe alignment after range-frequency de-trend (paper-like beta search + range warp)
+S2_LINES,fringes sampled on S2 line freqs only,50.0,200.0,2.5,0.7064675833707953,45.0,-5.0,2.5,5,WI-like fringe alignment after range-frequency de-trend (paper-like beta search + range warp)

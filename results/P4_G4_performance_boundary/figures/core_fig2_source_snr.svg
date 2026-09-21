@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="400" viewBox="0 0 760 400">
+<rect width="760" height="400" fill="#f7f4ef"/>
+<text x="380.0" y="28" text-anchor="middle" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#1a1a1a">核心图2（修正） source×SNR → r 候选收缩（retain优先）</text>
+<rect x="70.0" y="245.3" width="147.5" height="98.7" fill="rgb(31,111,139)" stroke="#eee"/>
+<text x="143.8" y="297.7" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">1.00</text>
+<rect x="217.5" y="245.3" width="147.5" height="98.7" fill="#4a0f0f" stroke="#eee"/>
+<text x="291.2" y="297.7" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">INVALID</text>
+<rect x="365.0" y="245.3" width="147.5" height="98.7" fill="#4a0f0f" stroke="#eee"/>
+<text x="438.8" y="297.7" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">INVALID</text>
+<rect x="512.5" y="245.3" width="147.5" height="98.7" fill="#c4c4c4" stroke="#eee"/>
+<text x="586.2" y="297.7" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">UNRES</text>
+<rect x="70.0" y="146.7" width="147.5" height="98.7" fill="#4a0f0f" stroke="#eee"/>
+<text x="143.8" y="199.0" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">INVALID</text>
+<rect x="217.5" y="146.7" width="147.5" height="98.7" fill="rgb(31,111,139)" stroke="#eee"/>
+<text x="291.2" y="199.0" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">1.00</text>
+<rect x="365.0" y="146.7" width="147.5" height="98.7" fill="#4a0f0f" stroke="#eee"/>
+<text x="438.8" y="199.0" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">INVALID</text>
+<rect x="512.5" y="146.7" width="147.5" height="98.7" fill="#c4c4c4" stroke="#eee"/>
+<text x="586.2" y="199.0" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">UNRES</text>
+<rect x="70.0" y="48.0" width="147.5" height="98.7" fill="#4a0f0f" stroke="#eee"/>
+<text x="143.8" y="100.3" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">INVALID</text>
+<rect x="217.5" y="48.0" width="147.5" height="98.7" fill="#4a0f0f" stroke="#eee"/>
+<text x="291.2" y="100.3" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">INVALID</text>
+<rect x="365.0" y="48.0" width="147.5" height="98.7" fill="#c4c4c4" stroke="#eee"/>
+<text x="438.8" y="100.3" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">UNRES</text>
+<rect x="512.5" y="48.0" width="147.5" height="98.7" fill="#c4c4c4" stroke="#eee"/>
+<text x="586.2" y="100.3" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">UNRES</text>
+<text x="143.8" y="362" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">20</text>
+<text x="291.2" y="362" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">10</text>
+<text x="438.8" y="362" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">0</text>
+<text x="586.2" y="362" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">-10</text>
+<text x="62" y="298.7" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">S0</text>
+<text x="62" y="200.0" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">S1</text>
+<text x="62" y="101.3" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">S2</text>
+<text x="365.0" y="386" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">SNR (dB)</text>
+<text x="16" y="196.0" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif" transform="rotate(-90 16 196.0)">source</text>
+<text x="70" y="398" font-size="10" fill="#777" font-family="sans-serif">嵌套筛选 C_RC2∩C_RC3；标准化残差 J=Σ|y-ŷ|²/σ² 固定阈值  深红=INVALID_NOT_COVERED；灰=UNRESOLVED</text></svg>

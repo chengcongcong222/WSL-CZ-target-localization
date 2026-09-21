@@ -1,0 +1,17 @@
+﻿kind,ref_name,turn_deg,T_s,sigma_test_deg,ref_r0_km,ref_theta0_deg,ref_v,ref_psi_deg,alt_r0_km,alt_theta0_deg,alt_v,alt_psi_deg,rmse_bearing_deg,delta_r_km,delta_v,delta_psi_deg,delta_theta0_deg,grid_alt_in_accept_rate,rank,note
+search,LIN,0.0,300.0,0.1,50.0,0.0,2.0,0.0,60.0,0.0,3.0,0.0,0.0,10.0,0.9999999999999996,0.0,0.0,1.0,0.0,"RC2-hard: bearings close, kinematics far"
+search,LIN,0.0,300.0,0.1,50.0,0.0,2.0,0.0,57.0,0.0,2.0,0.0,0.0,7.0,2.220446049250313e-16,0.0,0.0,1.0,1.0,"RC2-hard: bearings close, kinematics far"
+search,LIN,0.0,300.0,0.1,50.0,0.0,2.0,0.0,54.0,0.0,1.4,0.0,0.0,4.0,0.6000000000000001,0.0,0.0,1.0,2.0,"RC2-hard: bearings close, kinematics far"
+search,LIN,0.0,300.0,0.1,50.0,0.0,2.0,0.0,60.0,0.0,1.7999999999999998,0.0,0.0,10.0,0.2000000000000001,0.0,0.0,1.0,3.0,"RC2-hard: bearings close, kinematics far"
+search,LIN,0.0,300.0,0.1,50.0,0.0,2.0,0.0,47.0,0.0,2.8,0.0,0.0,3.0,0.7999999999999998,0.0,0.0,1.0,4.0,"RC2-hard: bearings close, kinematics far"
+search,LIN,0.0,600.0,0.1,50.0,0.0,2.0,0.0,45.0,0.0,1.2,0.0,0.0,5.0,0.8,0.0,0.0,1.0,1.0,"RC2-hard: bearings close, kinematics far"
+search,LIN,0.0,600.0,0.1,50.0,0.0,2.0,0.0,50.0,0.0,3.0,0.0,0.0,0.0,0.9999999999999996,0.0,0.0,1.0,2.0,"RC2-hard: bearings close, kinematics far"
+search,LIN,0.0,600.0,0.1,50.0,0.0,2.0,0.0,55.0,0.0,2.3999999999999995,0.0,0.0,5.0,0.3999999999999994,0.0,0.0,1.0,3.0,"RC2-hard: bearings close, kinematics far"
+search,LIN,0.0,600.0,0.1,50.0,0.0,2.0,0.0,60.0,0.0,2.6,0.0,0.0,10.0,0.5999999999999996,0.0,0.0,1.0,4.0,"RC2-hard: bearings close, kinematics far"
+search,LIN,0.0,1200.0,0.1,50.0,0.0,2.0,0.0,45.0,0.0,2.3999999999999995,0.0,0.0,5.0,0.3999999999999994,0.0,0.0,1.0,1.0,"RC2-hard: bearings close, kinematics far"
+search,LIN,0.0,1200.0,0.1,50.0,0.0,2.0,0.0,52.0,0.0,3.0,0.0,0.0,2.0,0.9999999999999996,0.0,0.0,1.0,2.0,"RC2-hard: bearings close, kinematics far"
+search,LIN,0.0,1200.0,0.1,50.0,0.0,2.0,0.0,60.0,0.0,2.2,0.0,0.0,10.0,0.1999999999999997,0.0,0.0,1.0,3.0,"RC2-hard: bearings close, kinematics far"
+dedicated,RS2,0.0,60.0,0.1,50.0,0.0,2.0,0.0,46.0,0.0,1.5,0.0,0.0,4.0,0.5,0.0,0.0,1.0,,near-slow vs LIN
+search,CR5,0.0,300.0,0.1,50.0,0.0,2.0,5.0,54.0,0.0,1.7999999999999998,6.000000000000001,1.2866896605258629e-05,4.0,0.2000000000000001,1.0000000000000009,0.0,0.9999999917221486,0.0,"RC2-hard: bearings close, kinematics far"
+search,CR5,0.0,300.0,0.1,50.0,0.0,2.0,5.0,56.0,0.0,1.6,7.0,2.1103322882264797e-05,6.0,0.4000000000000001,2.0000000000000004,0.0,0.9999999777324884,1.0,"RC2-hard: bearings close, kinematics far"
+search,CR5,5.0,300.0,0.1,50.0,0.0,2.0,5.0,50.0,0.0,1.0,10.0,3.2494011077105824e-05,0.0,1.0,5.0,0.0,0.9999999472069636,0.0,"RC2-hard: bearings close, kinematics far"

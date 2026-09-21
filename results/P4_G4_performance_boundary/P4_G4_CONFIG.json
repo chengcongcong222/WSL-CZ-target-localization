@@ -1,0 +1,207 @@
+{
+  "project": "B3D-3",
+  "package": "P4_G4_performance_boundary",
+  "created_utc": "2026-09-20T04:00:10.954087+00:00",
+  "gate": "G4",
+  "frozen": {
+    "G1": "E-STD scene frozen",
+    "G2": "RC2 not long-range ranging; LIN r-v ridge; maneuvers insufficient for practical range; CRLB rank-def=UNDEFINED",
+    "G3": "PROPAGATION_INCREMENT_CONFIRMED in frozen theory model; Doppler weak on constant v_rad pairs"
+  },
+  "B0": {
+    "r0_m": 50000.0,
+    "theta0_deg": 0.0,
+    "z": 200.0,
+    "v": 2.0,
+    "psi_deg": 5.0,
+    "U": 2.0,
+    "T": 600.0,
+    "sigma_deg": 0.1,
+    "turn_deg": 0.0,
+    "source": "S1",
+    "snr_db": 10.0
+  },
+  "scenarios": {
+    "C-L": {
+      "name": "C-L困难",
+      "sigma_deg": 0.2,
+      "T": 300.0,
+      "turn_deg": 0.0,
+      "source": "S1",
+      "snr_db": 0.0,
+      "r0_m": 50000.0,
+      "theta0_deg": 0.0,
+      "z": 200.0,
+      "v": 2.0,
+      "psi_deg": 5.0
+    },
+    "C-M": {
+      "name": "C-M基准",
+      "sigma_deg": 0.1,
+      "T": 600.0,
+      "turn_deg": 5.0,
+      "source": "S1",
+      "snr_db": 10.0,
+      "r0_m": 50000.0,
+      "theta0_deg": 0.0,
+      "z": 200.0,
+      "v": 2.0,
+      "psi_deg": 5.0
+    },
+    "C-U": {
+      "name": "C-U理论上界",
+      "sigma_deg": 0.02,
+      "T": 1200.0,
+      "turn_deg": 15.0,
+      "source": "S2",
+      "snr_db": 20.0,
+      "r0_m": 50000.0,
+      "theta0_deg": 0.0,
+      "z": 200.0,
+      "v": 2.0,
+      "psi_deg": 5.0
+    }
+  },
+  "prior_widths": {
+    "r_km": 15.0,
+    "theta_deg": 10.0,
+    "z_m": 100.0,
+    "v_mps": 2.0,
+    "psi_deg": 29.999999999999996
+  },
+  "grids": {
+    "r_km": [
+      45000.0,
+      46000.0,
+      47000.0,
+      48000.0,
+      49000.0,
+      50000.0,
+      51000.0,
+      52000.0,
+      53000.0,
+      54000.0,
+      55000.0,
+      56000.0,
+      57000.0,
+      58000.0,
+      59000.0,
+      60000.0
+    ],
+    "theta_deg": [
+      -5.0,
+      -4.0,
+      -3.0000000000000004,
+      -2.0,
+      -1.0,
+      0.0,
+      1.0,
+      2.0,
+      3.0000000000000004,
+      4.0,
+      5.0
+    ],
+    "v_mps": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0
+    ],
+    "psi_deg": [
+      -14.999999999999998,
+      -12.000000000000002,
+      -9.0,
+      -6.000000000000001,
+      -3.0000000000000004,
+      0.0,
+      3.0000000000000004,
+      6.000000000000001,
+      9.0,
+      12.000000000000002,
+      14.999999999999998
+    ],
+    "z_m": [
+      150.0,
+      180.0,
+      200.0,
+      220.0,
+      250.0
+    ]
+  },
+  "scans": {
+    "T_s": [
+      60,
+      120,
+      300,
+      600,
+      1200
+    ],
+    "sigma_deg": [
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5
+    ],
+    "source": [
+      "S0",
+      "S1",
+      "S2"
+    ],
+    "snr_db": [
+      20,
+      10,
+      0,
+      -10
+    ],
+    "z_true_m": [
+      180,
+      200,
+      220
+    ],
+    "turn_deg": [
+      0,
+      5,
+      10,
+      15
+    ],
+    "T_maneuver_s": [
+      300,
+      600,
+      1200
+    ],
+    "env": {
+      "E0": {
+        "label": "完全匹配",
+        "z_a_shift_m": 0.0,
+        "c0_shift": 0.0
+      },
+      "E1": {
+        "label": "轻度SSP偏差",
+        "z_a_shift_m": 50.0,
+        "c0_shift": 0.0
+      },
+      "E2": {
+        "label": "中等SSP偏差",
+        "z_a_shift_m": 150.0,
+        "c0_shift": 2.0
+      }
+    }
+  },
+  "array_param": "sigma_theta + RC3 multi-element joint residual (no specific array length as requirement)",
+  "ten_percent_policy": "10% reference only for positive states r,z,v; angles use absolute width/deg",
+  "method": "set-valued candidate view; multi-modal retained; UNRESOLVED if contraction low / width~prior",
+  "no_cartesian_product": true,
+  "propagation": "modal theory model consistent with E-STD (KRAKEN not on host); single env form: channel-axis shift",
+  "forbidden": [
+    "Bellhop A2 audit",
+    "new propagation features",
+    "full P2 re-run",
+    "redo P3 hard-pair selection",
+    "new sensors",
+    "full cartesian product",
+    "S2 as real UUV",
+    "auto-enter P5"
+  ]
+}

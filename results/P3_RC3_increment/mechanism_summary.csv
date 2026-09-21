@@ -1,0 +1,10 @@
+﻿mechanism,source,mean_reject_RC2,mean_reject_RC2CZ,mean_reject_RC2Dop,mean_reject_combined
+A,S0,0.0,0.9,,0.9
+A,S1,0.0,0.2,0.0,0.2
+A,S2,0.0,0.9,0.0,0.9
+B,S0,0.0,1.0,,1.0
+B,S1,0.0,0.2,0.0,0.2
+B,S2,0.0,1.0,0.0,1.0
+C,S0,0.0,1.0,,1.0
+C,S1,0.0,0.3,0.0,0.2
+C,S2,0.0,1.0,0.0,1.0

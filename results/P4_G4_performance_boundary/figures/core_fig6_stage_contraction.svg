@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400">
+<rect width="720" height="400" fill="#f7f4ef"/>
+<text x="360.0" y="28" text-anchor="middle" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#1a1a1a">核心图6  RC1→RC2→RC3 候选数（强制嵌套 n3≤n2）</text>
+<rect x="70" y="48" width="510" height="292" fill="#fff" stroke="#d0ccc4"/>
+<rect x="78.5" y="48.0" width="31.9" height="292.0" fill="#8a8a8a"/>
+<text x="94.2" y="44.0" text-anchor="middle" font-size="9" fill="#333" font-family="sans-serif">48400</text>
+<rect x="121.0" y="314.8" width="31.9" height="25.2" fill="#b45309"/>
+<text x="136.7" y="310.8" text-anchor="middle" font-size="9" fill="#333" font-family="sans-serif">4180</text>
+<rect x="163.5" y="335.1" width="31.9" height="4.9" fill="#0f766e"/>
+<text x="179.2" y="331.1" text-anchor="middle" font-size="9" fill="#333" font-family="sans-serif">819</text>
+<text x="155.0" y="358" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">C-L</text>
+<rect x="248.5" y="48.0" width="31.9" height="292.0" fill="#8a8a8a"/>
+<text x="264.2" y="44.0" text-anchor="middle" font-size="9" fill="#333" font-family="sans-serif">48400</text>
+<rect x="291.0" y="333.5" width="31.9" height="6.5" fill="#b45309"/>
+<text x="306.7" y="329.5" text-anchor="middle" font-size="9" fill="#333" font-family="sans-serif">1075</text>
+<rect x="333.5" y="340.0" width="31.9" height="0.5" fill="#0f766e"/>
+<text x="349.2" y="336.0" text-anchor="middle" font-size="9" fill="#333" font-family="sans-serif">1</text>
+<text x="325.0" y="358" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">C-M</text>
+<rect x="418.5" y="48.0" width="31.9" height="292.0" fill="#8a8a8a"/>
+<text x="434.2" y="44.0" text-anchor="middle" font-size="9" fill="#333" font-family="sans-serif">48400</text>
+<rect x="461.0" y="339.4" width="31.9" height="0.6" fill="#b45309"/>
+<text x="476.7" y="335.4" text-anchor="middle" font-size="9" fill="#333" font-family="sans-serif">105</text>
+<rect x="503.5" y="340.0" width="31.9" height="0.5" fill="#0f766e"/>
+<text x="519.2" y="336.0" text-anchor="middle" font-size="9" fill="#333" font-family="sans-serif">1</text>
+<text x="495.0" y="358" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">C-U</text>
+<text x="16" y="194.0" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif" transform="rotate(-90 16 194.0)">候选数</text>
+<rect x="590" y="56" width="14" height="3" fill="#8a8a8a"/>
+<text x="608" y="60" font-size="11" fill="#333" font-family="sans-serif">RC1先验</text>
+<rect x="590" y="74" width="14" height="3" fill="#b45309"/>
+<text x="608" y="78" font-size="11" fill="#333" font-family="sans-serif">RC2</text>
+<rect x="590" y="92" width="14" height="3" fill="#0f766e"/>
+<text x="608" y="96" font-size="11" fill="#333" font-family="sans-serif">RC2∩RC3</text>
+<text x="70" y="394" font-size="10" fill="#777" font-family="sans-serif">C-L: 48400→4180→819；C-M: 48400→1075→1；C-U: 48400→105→1</text></svg>

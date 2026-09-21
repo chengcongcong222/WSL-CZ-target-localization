@@ -1,0 +1,78 @@
+{
+  "package": "R3_A1_fidelity",
+  "created_utc": "2026-09-20T07:26:06.389540+00:00",
+  "anchor_paper": "Chuprov waveguide-invariant line; practical range-frequency fringe ranging (e.g. waveguide-invariant passive ranging literature). Controlled reproduction uses standard two-mode interference: I(r,f)=|A1 e^{i k1 r}+A2 e^{i k2 r}|^2, beta_true = omega * d(k1-k2)/d(omega) / (k1-k2).",
+  "pe_scenario": {
+    "name": "PE-WI 理想波导两模态条纹（锚定文献等价受控场景）",
+    "c0": 1500.0,
+    "gamma1": 0.0005,
+    "gamma2": 0.05,
+    "A1": 1.0,
+    "A2": 0.9,
+    "r_true_km": 25.0,
+    "f_lo": 150.0,
+    "f_hi": 375.0,
+    "n_f": 51,
+    "r_lo_km": 8.0,
+    "r_hi_km": 45.0,
+    "n_r": 151
+  },
+  "estd": {
+    "r_km": [
+      45,
+      60
+    ],
+    "z_m": [
+      150,
+      250
+    ],
+    "r_true_km": 50.0,
+    "z_true_m": 200.0,
+    "band_hz": [
+      150,
+      375
+    ],
+    "propagation": "E-STD modal theory (P3-compatible), no Bellhop"
+  },
+  "hla_configs": [
+    {
+      "tag": "single",
+      "n": 1,
+      "d_m": 0.0,
+      "note": "单通道/当前R3-0参考"
+    },
+    {
+      "tag": "hla_8x2m",
+      "n": 8,
+      "d_m": 2.0,
+      "note": "基准水平阵 8×2m（孔径约14m）"
+    },
+    {
+      "tag": "hla_diag_8x10m",
+      "n": 8,
+      "d_m": 10.0,
+      "note": "大孔径诊断参考 8×10m（孔径约70m，非装备要求）"
+    }
+  ],
+  "metric_separation": [
+    "fringe_score_width (alignment score peak width) — NOT localization accuracy",
+    "range_error |r_hat-r_true|",
+    "MC RMSE — only if A1-PASS (not this round unless pass)"
+  ],
+  "beta_judgment": [
+    "CONSTANT",
+    "LOCALLY_CONSTANT",
+    "NON_CONSTANT"
+  ],
+  "rc3a_decision": [
+    "A1-PASS",
+    "A1-CONDITIONAL",
+    "A1-NOT-DIRECTLY-TRANSFERABLE"
+  ],
+  "stop": "after R3-A1; no hard-pair MC unless A1-PASS; no R3-B/C; no P5",
+  "r3_0_freeze_corrected": [
+    "R3-0 MFP = frozen-observation matched-field reference ambiguity (not full HLA physical ceiling)",
+    "R3-0 RC3-A = algorithm skeleton only, method fidelity NOT yet verified",
+    "score width != localization RMSE"
+  ]
+}

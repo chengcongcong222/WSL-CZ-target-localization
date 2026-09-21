@@ -1,0 +1,172 @@
+{
+  "project": "B3D-3",
+  "package": "P4_5_parameter_accuracy",
+  "created_utc": "2026-09-20T06:16:37.298488+00:00",
+  "purpose": "standardized parameter RMSE: RC1 prior vs RC2 vs RC2+CZ",
+  "n_truth": 30,
+  "n_noise": 20,
+  "scenarios": {
+    "B-L": {
+      "name": "B-L极限几何",
+      "r0": 50000.0,
+      "theta0": 0.0,
+      "z": 200.0,
+      "v": 2.0,
+      "psi": 0.0,
+      "T": 600.0,
+      "sigma_deg": 0.1,
+      "source": "S1",
+      "snr_db": 10.0,
+      "turn_deg": 0.0,
+      "truth_spread": {
+        "r_km": 2.0,
+        "theta_deg": 1.0,
+        "z_m": 20.0,
+        "v": 0.3,
+        "psi_deg": 2.0
+      }
+    },
+    "B-M": {
+      "name": "B-M标准开放几何",
+      "r0": 50000.0,
+      "theta0": 0.0,
+      "z": 200.0,
+      "v": 2.0,
+      "psi": 5.0,
+      "T": 600.0,
+      "sigma_deg": 0.1,
+      "source": "S1",
+      "snr_db": 10.0,
+      "turn_deg": 0.0,
+      "truth_spread": {
+        "r_km": 2.0,
+        "theta_deg": 1.0,
+        "z_m": 20.0,
+        "v": 0.3,
+        "psi_deg": 2.0
+      }
+    },
+    "B-U": {
+      "name": "B-U有利理论场景",
+      "r0": 50000.0,
+      "theta0": 0.0,
+      "z": 200.0,
+      "v": 2.0,
+      "psi": 8.0,
+      "T": 1200.0,
+      "sigma_deg": 0.02,
+      "source": "S2",
+      "snr_db": 20.0,
+      "turn_deg": 15.0,
+      "truth_spread": {
+        "r_km": 2.0,
+        "theta_deg": 1.0,
+        "z_m": 20.0,
+        "v": 0.3,
+        "psi_deg": 2.0
+      }
+    }
+  },
+  "grids": {
+    "r_km": [
+      45000.0,
+      45500.0,
+      46000.0,
+      46500.0,
+      47000.0,
+      47500.0,
+      48000.0,
+      48500.0,
+      49000.0,
+      49500.0,
+      50000.0,
+      50500.0,
+      51000.0,
+      51500.0,
+      52000.0,
+      52500.0,
+      53000.0,
+      53500.0,
+      54000.0,
+      54500.0,
+      55000.0,
+      55500.0,
+      56000.0,
+      56500.0,
+      57000.0,
+      57500.0,
+      58000.0,
+      58500.0,
+      59000.0,
+      59500.0,
+      60000.0
+    ],
+    "theta_deg": [
+      -4.0,
+      -3.5,
+      -3.0000000000000004,
+      -2.5,
+      -2.0,
+      -1.5000000000000002,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      1.5000000000000002,
+      2.0,
+      2.5,
+      3.0000000000000004,
+      3.5,
+      4.0
+    ],
+    "z_m": [
+      180.0,
+      200.0,
+      220.0
+    ],
+    "v_mps": [
+      1.2,
+      1.4,
+      1.5999999999999999,
+      1.7999999999999998,
+      1.9999999999999998,
+      2.1999999999999997,
+      2.3999999999999995,
+      2.5999999999999996,
+      2.8
+    ],
+    "psi_deg": [
+      -12.000000000000002,
+      -10.0,
+      -8.0,
+      -6.000000000000001,
+      -4.0,
+      -2.0,
+      0.0,
+      2.0,
+      4.0,
+      6.000000000000001,
+      8.0,
+      10.0,
+      12.000000000000002
+    ]
+  },
+  "same_for_M1_M2": [
+    "truth",
+    "bearing_noise",
+    "candidate_space",
+    "optimization"
+  ],
+  "point_estimate": "coarse grid argmin → local continuous-ish refine",
+  "ci": "accepted set / profile-like: J <= J_min + Delta_chi2",
+  "coverage_ok": "RMSE small AND coverage in [0.85,1.0] else OVERCONFIDENT/INVALID_COVERAGE",
+  "forbidden": [
+    "Bellhop",
+    "modify P3 propagation",
+    "new features",
+    "tune prior for pretty RMSE",
+    "drop failed trials",
+    "auto-enter P5"
+  ]
+}

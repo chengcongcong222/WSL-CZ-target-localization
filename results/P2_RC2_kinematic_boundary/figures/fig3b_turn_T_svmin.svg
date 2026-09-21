@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+<rect width="720" height="420" fill="#f7f4ef"/>
+<text x="360.0" y="28" text-anchor="middle" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#1a1a1a">图3b  平台转角×T → FIM/雅可比最小奇异值 (σθ=0.1° 标度)</text>
+<rect x="70" y="48" width="490" height="316" fill="#ffffff" stroke="#d0ccc4" stroke-width="1"/>
+<line x1="70.00" y1="48" x2="70.00" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="70.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">60</text>
+<line x1="151.67" y1="48" x2="151.67" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="151.67" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">98.85</text>
+<line x1="233.33" y1="48" x2="233.33" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="233.33" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">162.9</text>
+<line x1="315.00" y1="48" x2="315.00" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="315.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">268.3</text>
+<line x1="396.67" y1="48" x2="396.67" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="396.67" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">442.1</text>
+<line x1="478.33" y1="48" x2="478.33" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="478.33" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">728.4</text>
+<line x1="560.00" y1="48" x2="560.00" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="560.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">1200</text>
+<line x1="70" y1="364.00" x2="560" y2="364.00" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="368.00" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">1e-12</text>
+<line x1="70" y1="300.80" x2="560" y2="300.80" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="304.80" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">3.039e-11</text>
+<line x1="70" y1="237.60" x2="560" y2="237.60" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="241.60" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">9.235e-10</text>
+<line x1="70" y1="174.40" x2="560" y2="174.40" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="178.40" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">2.806e-08</text>
+<line x1="70" y1="111.20" x2="560" y2="111.20" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="115.20" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">8.529e-07</text>
+<line x1="70" y1="48.00" x2="560" y2="48.00" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="52.00" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">2.592e-05</text>
+<text x="315.0" y="406" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">观测时间 T (s)</text>
+<text x="16" y="206.0" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif" transform="rotate(-90 16 206.0)">最小奇异值</text>
+<polyline fill="none" stroke="#c45c26" stroke-width="2" points="70.00,364.00 183.38,364.00 333.25,364.00 446.62,364.00 512.94,364.00 560.00,364.00"/>
+<circle cx="70.00" cy="364.00" r="2.8" fill="#c45c26"/>
+<circle cx="183.38" cy="364.00" r="2.8" fill="#c45c26"/>
+<circle cx="333.25" cy="364.00" r="2.8" fill="#c45c26"/>
+<circle cx="446.62" cy="364.00" r="2.8" fill="#c45c26"/>
+<circle cx="512.94" cy="364.00" r="2.8" fill="#c45c26"/>
+<circle cx="560.00" cy="364.00" r="2.8" fill="#c45c26"/>
+<polyline fill="none" stroke="#1f6f8b" stroke-width="2" points="70.00,163.03 183.38,146.36 333.25,122.67 446.62,104.02 512.94,92.97 560.00,85.08"/>
+<circle cx="70.00" cy="163.03" r="2.8" fill="#1f6f8b"/>
+<circle cx="183.38" cy="146.36" r="2.8" fill="#1f6f8b"/>
+<circle cx="333.25" cy="122.67" r="2.8" fill="#1f6f8b"/>
+<circle cx="446.62" cy="104.02" r="2.8" fill="#1f6f8b"/>
+<circle cx="512.94" cy="92.97" r="2.8" fill="#1f6f8b"/>
+<circle cx="560.00" cy="85.08" r="2.8" fill="#1f6f8b"/>
+<polyline fill="none" stroke="#2d6a4f" stroke-width="2" points="70.00,146.08 183.38,129.42 333.25,105.73 446.62,87.08 512.94,76.02 560.00,68.14"/>
+<circle cx="70.00" cy="146.08" r="2.8" fill="#2d6a4f"/>
+<circle cx="183.38" cy="129.42" r="2.8" fill="#2d6a4f"/>
+<circle cx="333.25" cy="105.73" r="2.8" fill="#2d6a4f"/>
+<circle cx="446.62" cy="87.08" r="2.8" fill="#2d6a4f"/>
+<circle cx="512.94" cy="76.02" r="2.8" fill="#2d6a4f"/>
+<circle cx="560.00" cy="68.14" r="2.8" fill="#2d6a4f"/>
+<polyline fill="none" stroke="#7b2cbf" stroke-width="2" points="70.00,133.32 183.38,116.65 333.25,92.97 446.62,74.32 512.94,63.27 560.00,55.38"/>
+<circle cx="70.00" cy="133.32" r="2.8" fill="#7b2cbf"/>
+<circle cx="183.38" cy="116.65" r="2.8" fill="#7b2cbf"/>
+<circle cx="333.25" cy="92.97" r="2.8" fill="#7b2cbf"/>
+<circle cx="446.62" cy="74.32" r="2.8" fill="#7b2cbf"/>
+<circle cx="512.94" cy="63.27" r="2.8" fill="#7b2cbf"/>
+<circle cx="560.00" cy="55.38" r="2.8" fill="#7b2cbf"/>
+<polyline fill="none" stroke="#bc4749" stroke-width="2" points="70.00,125.94 183.38,109.27 333.25,85.58 446.62,66.94 512.94,55.88 560.00,48.00"/>
+<circle cx="70.00" cy="125.94" r="2.8" fill="#bc4749"/>
+<circle cx="183.38" cy="109.27" r="2.8" fill="#bc4749"/>
+<circle cx="333.25" cy="85.58" r="2.8" fill="#bc4749"/>
+<circle cx="446.62" cy="66.94" r="2.8" fill="#bc4749"/>
+<circle cx="512.94" cy="55.88" r="2.8" fill="#bc4749"/>
+<circle cx="560.00" cy="48.00" r="2.8" fill="#bc4749"/>
+<rect x="572" y="56" width="14" height="3" fill="#c45c26"/>
+<text x="592" y="60" font-size="11" fill="#333" font-family="sans-serif">转角=0°</text>
+<rect x="572" y="74" width="14" height="3" fill="#1f6f8b"/>
+<text x="592" y="78" font-size="11" fill="#333" font-family="sans-serif">转角=2°</text>
+<rect x="572" y="92" width="14" height="3" fill="#2d6a4f"/>
+<text x="592" y="96" font-size="11" fill="#333" font-family="sans-serif">转角=5°</text>
+<rect x="572" y="110" width="14" height="3" fill="#7b2cbf"/>
+<text x="592" y="114" font-size="11" fill="#333" font-family="sans-serif">转角=10°</text>
+<rect x="572" y="128" width="14" height="3" fill="#bc4749"/>
+<text x="592" y="132" font-size="11" fill="#333" font-family="sans-serif">转角=15°</text>
+<text x="70" y="418" font-size="10" fill="#777" font-family="sans-serif">sv_min↑ / cond↓ 表示距离–速度–航向耦合被机动打破</text>
+</svg>

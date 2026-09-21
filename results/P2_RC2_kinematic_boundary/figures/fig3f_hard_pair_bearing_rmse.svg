@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+<rect width="720" height="420" fill="#f7f4ef"/>
+<text x="360.0" y="28" text-anchor="middle" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#1a1a1a">图3f  困难候选对方位 RMSE vs T</text>
+<rect x="70" y="48" width="490" height="316" fill="#ffffff" stroke="#d0ccc4"/>
+<line x1="70.00" y1="48" x2="70.00" y2="364" stroke="#e8e4dc"/>
+<text x="70.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">60</text>
+<line x1="151.67" y1="48" x2="151.67" y2="364" stroke="#e8e4dc"/>
+<text x="151.67" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">98.85</text>
+<line x1="233.33" y1="48" x2="233.33" y2="364" stroke="#e8e4dc"/>
+<text x="233.33" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">162.9</text>
+<line x1="315.00" y1="48" x2="315.00" y2="364" stroke="#e8e4dc"/>
+<text x="315.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">268.3</text>
+<line x1="396.67" y1="48" x2="396.67" y2="364" stroke="#e8e4dc"/>
+<text x="396.67" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">442.1</text>
+<line x1="478.33" y1="48" x2="478.33" y2="364" stroke="#e8e4dc"/>
+<text x="478.33" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">728.4</text>
+<line x1="560.00" y1="48" x2="560.00" y2="364" stroke="#e8e4dc"/>
+<text x="560.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">1200</text>
+<line x1="70" y1="364.00" x2="560" y2="364.00" stroke="#e8e4dc"/>
+<text x="62" y="368.00" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">-0.01331</text>
+<line x1="70" y1="300.80" x2="560" y2="300.80" stroke="#e8e4dc"/>
+<text x="62" y="304.80" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.02529</text>
+<line x1="70" y1="237.60" x2="560" y2="237.60" stroke="#e8e4dc"/>
+<text x="62" y="241.60" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.06388</text>
+<line x1="70" y1="174.40" x2="560" y2="174.40" stroke="#e8e4dc"/>
+<text x="62" y="178.40" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.1025</text>
+<line x1="70" y1="111.20" x2="560" y2="111.20" stroke="#e8e4dc"/>
+<text x="62" y="115.20" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.1411</text>
+<line x1="70" y1="48.00" x2="560" y2="48.00" stroke="#e8e4dc"/>
+<text x="62" y="52.00" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.1797</text>
+<text x="315.0" y="406" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">T (s)</text>
+<text x="16" y="206.0" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif" transform="rotate(-90 16 206.0)">方位 RMSE (deg)</text>
+<polyline fill="none" stroke="#b45309" stroke-width="2" points="70.00,342.21 183.38,342.21 333.25,342.21 446.62,342.21 512.94,342.21 560.00,342.21"/>
+<circle cx="70.00" cy="342.21" r="2.6" fill="#b45309"/>
+<circle cx="183.38" cy="342.21" r="2.6" fill="#b45309"/>
+<circle cx="333.25" cy="342.21" r="2.6" fill="#b45309"/>
+<circle cx="446.62" cy="342.21" r="2.6" fill="#b45309"/>
+<circle cx="512.94" cy="342.21" r="2.6" fill="#b45309"/>
+<circle cx="560.00" cy="342.21" r="2.6" fill="#b45309"/>
+<polyline fill="none" stroke="#0f766e" stroke-width="2" points="70.00,340.95 183.38,339.85 333.25,336.49 446.62,330.69 512.94,324.65 560.00,318.36"/>
+<circle cx="70.00" cy="340.95" r="2.6" fill="#0f766e"/>
+<circle cx="183.38" cy="339.85" r="2.6" fill="#0f766e"/>
+<circle cx="333.25" cy="336.49" r="2.6" fill="#0f766e"/>
+<circle cx="446.62" cy="330.69" r="2.6" fill="#0f766e"/>
+<circle cx="512.94" cy="324.65" r="2.6" fill="#0f766e"/>
+<circle cx="560.00" cy="318.36" r="2.6" fill="#0f766e"/>
+<polyline fill="none" stroke="#1d4ed8" stroke-width="2" points="70.00,328.06 183.38,314.47 333.25,273.69 446.62,205.73 512.94,137.76 560.00,69.79"/>
+<circle cx="70.00" cy="328.06" r="2.6" fill="#1d4ed8"/>
+<circle cx="183.38" cy="314.47" r="2.6" fill="#1d4ed8"/>
+<circle cx="333.25" cy="273.69" r="2.6" fill="#1d4ed8"/>
+<circle cx="446.62" cy="205.73" r="2.6" fill="#1d4ed8"/>
+<circle cx="512.94" cy="137.76" r="2.6" fill="#1d4ed8"/>
+<circle cx="560.00" cy="69.79" r="2.6" fill="#1d4ed8"/>
+<polyline fill="none" stroke="#9f1239" stroke-width="2" points="70.00,328.06 183.38,314.47 333.25,273.70 446.62,205.77 512.94,137.86 560.00,69.96"/>
+<circle cx="70.00" cy="328.06" r="2.6" fill="#9f1239"/>
+<circle cx="183.38" cy="314.47" r="2.6" fill="#9f1239"/>
+<circle cx="333.25" cy="273.70" r="2.6" fill="#9f1239"/>
+<circle cx="446.62" cy="205.77" r="2.6" fill="#9f1239"/>
+<circle cx="512.94" cy="137.86" r="2.6" fill="#9f1239"/>
+<circle cx="560.00" cy="69.96" r="2.6" fill="#9f1239"/>
+<polyline fill="none" stroke="#6d28d9" stroke-width="2" points="70.00,334.32 183.38,326.74 333.25,304.08 446.62,266.48 512.94,229.10 560.00,191.94"/>
+<circle cx="70.00" cy="334.32" r="2.6" fill="#6d28d9"/>
+<circle cx="183.38" cy="326.74" r="2.6" fill="#6d28d9"/>
+<circle cx="333.25" cy="304.08" r="2.6" fill="#6d28d9"/>
+<circle cx="446.62" cy="266.48" r="2.6" fill="#6d28d9"/>
+<circle cx="512.94" cy="229.10" r="2.6" fill="#6d28d9"/>
+<circle cx="560.00" cy="191.94" r="2.6" fill="#6d28d9"/>
+<polyline fill="none" stroke="#166534" stroke-width="2" points="70.00,333.18 183.38,324.62 333.25,298.98 446.62,256.35 512.94,213.81 560.00,171.38"/>
+<circle cx="70.00" cy="333.18" r="2.6" fill="#166534"/>
+<circle cx="183.38" cy="324.62" r="2.6" fill="#166534"/>
+<circle cx="333.25" cy="298.98" r="2.6" fill="#166534"/>
+<circle cx="446.62" cy="256.35" r="2.6" fill="#166534"/>
+<circle cx="512.94" cy="213.81" r="2.6" fill="#166534"/>
+<circle cx="560.00" cy="171.38" r="2.6" fill="#166534"/>
+<polyline fill="none" stroke="#334155" stroke-width="2" points="70.00,334.68 183.38,327.46 333.25,305.79 446.62,269.74 512.94,233.73 560.00,197.79"/>
+<circle cx="70.00" cy="334.68" r="2.6" fill="#334155"/>
+<circle cx="183.38" cy="327.46" r="2.6" fill="#334155"/>
+<circle cx="333.25" cy="305.79" r="2.6" fill="#334155"/>
+<circle cx="446.62" cy="269.74" r="2.6" fill="#334155"/>
+<circle cx="512.94" cy="233.73" r="2.6" fill="#334155"/>
+<circle cx="560.00" cy="197.79" r="2.6" fill="#334155"/>
+<polyline fill="none" stroke="#c2410c" stroke-width="2" points="70.00,333.89 183.38,325.96 333.25,302.18 446.62,262.46 512.94,222.62 560.00,182.67"/>
+<circle cx="70.00" cy="333.89" r="2.6" fill="#c2410c"/>
+<circle cx="183.38" cy="325.96" r="2.6" fill="#c2410c"/>
+<circle cx="333.25" cy="302.18" r="2.6" fill="#c2410c"/>
+<circle cx="446.62" cy="262.46" r="2.6" fill="#c2410c"/>
+<circle cx="512.94" cy="222.62" r="2.6" fill="#c2410c"/>
+<circle cx="560.00" cy="182.67" r="2.6" fill="#c2410c"/>
+<rect x="570" y="56" width="14" height="3" fill="#b45309"/>
+<text x="588" y="60" font-size="11" fill="#333" font-family="sans-serif">RS1,转0°</text>
+<rect x="570" y="72" width="14" height="3" fill="#0f766e"/>
+<text x="588" y="76" font-size="11" fill="#333" font-family="sans-serif">RS1,转15°</text>
+<rect x="570" y="88" width="14" height="3" fill="#1d4ed8"/>
+<text x="588" y="92" font-size="11" fill="#333" font-family="sans-serif">RS3,转0°</text>
+<rect x="570" y="104" width="14" height="3" fill="#9f1239"/>
+<text x="588" y="108" font-size="11" fill="#333" font-family="sans-serif">RS3,转15°</text>
+<rect x="570" y="120" width="14" height="3" fill="#6d28d9"/>
+<text x="588" y="124" font-size="11" fill="#333" font-family="sans-serif">RS6,转0°</text>
+<rect x="570" y="136" width="14" height="3" fill="#166534"/>
+<text x="588" y="140" font-size="11" fill="#333" font-family="sans-serif">RS6,转15°</text>
+<rect x="570" y="152" width="14" height="3" fill="#334155"/>
+<text x="588" y="156" font-size="11" fill="#333" font-family="sans-serif">RS7,转0°</text>
+<rect x="570" y="168" width="14" height="3" fill="#c2410c"/>
+<text x="588" y="172" font-size="11" fill="#333" font-family="sans-serif">RS7,转15°</text>
+<text x="70" y="418" font-size="10" fill="#777" font-family="sans-serif">RMSE越小越难区分；RC3仅允许使用仍困难的对</text>
+</svg>

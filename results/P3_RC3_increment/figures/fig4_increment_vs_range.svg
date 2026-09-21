@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400">
+<rect width="720" height="400" fill="#f7f4ef"/>
+<text x="360.0" y="28" text-anchor="middle" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#1a1a1a">图4  RC3 排除率 vs Δrange（S0）</text>
+<rect x="60" y="48" width="520" height="296" fill="#fff" stroke="#d0ccc4"/>
+<line x1="60" y1="344.0" x2="580" y2="344.0" stroke="#e8e4dc"/>
+<text x="52" y="348.0" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">-0.08</text>
+<text x="60.0" y="362" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">1</text>
+<line x1="60" y1="270.0" x2="580" y2="270.0" stroke="#e8e4dc"/>
+<text x="52" y="274.0" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.21</text>
+<text x="190.0" y="362" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">4.5</text>
+<line x1="60" y1="196.0" x2="580" y2="196.0" stroke="#e8e4dc"/>
+<text x="52" y="200.0" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.5</text>
+<text x="320.0" y="362" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">8</text>
+<line x1="60" y1="122.0" x2="580" y2="122.0" stroke="#e8e4dc"/>
+<text x="52" y="126.0" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.79</text>
+<text x="450.0" y="362" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">11.5</text>
+<line x1="60" y1="48.0" x2="580" y2="48.0" stroke="#e8e4dc"/>
+<text x="52" y="52.0" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">1.08</text>
+<text x="580.0" y="362" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">15</text>
+<polyline fill="none" stroke="#8a8a8a" stroke-width="2" points="60.0,323.6 134.3,323.6 208.6,323.6 320.0,323.6 580.0,323.6"/>
+<polyline fill="none" stroke="#b45309" stroke-width="2" points="60.0,68.4 134.3,68.4 208.6,68.4 320.0,323.6 580.0,68.4"/>
+<rect x="590" y="56" width="14" height="3" fill="#8a8a8a"/>
+<text x="608" y="60" font-size="11" fill="#333" font-family="sans-serif">RC2</text>
+<rect x="590" y="74" width="14" height="3" fill="#b45309"/>
+<text x="608" y="78" font-size="11" fill="#333" font-family="sans-serif">RC2+CZ</text>
+<text x="320.0" y="386" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">Δrange</text>
+<text x="60" y="398" font-size="10" fill="#777" font-family="sans-serif">按状态差分箱的平均排除率</text>
+</svg>

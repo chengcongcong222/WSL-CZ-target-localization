@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360">
+<rect width="980" height="360" fill="#f7f4ef"/>
+<text x="490.0" y="26" text-anchor="middle" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#1a1a1a">核心图1  σθ×T → 五维候选收缩（RC2+RC3，B0其它条件）</text>
+<text x="160" y="50" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">θ 收缩</text>
+<rect x="40.0" y="236.0" width="48.0" height="44.0" fill="rgb(100,150,166)" stroke="#eee"/>
+<rect x="88.0" y="236.0" width="48.0" height="44.0" fill="rgb(100,150,166)" stroke="#eee"/>
+<rect x="136.0" y="236.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="184.0" y="236.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="232.0" y="236.0" width="48.0" height="44.0" fill="rgb(31,111,139)" stroke="#eee"/>
+<rect x="40.0" y="192.0" width="48.0" height="44.0" fill="rgb(100,150,166)" stroke="#eee"/>
+<rect x="88.0" y="192.0" width="48.0" height="44.0" fill="rgb(100,150,166)" stroke="#eee"/>
+<rect x="136.0" y="192.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="184.0" y="192.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="232.0" y="192.0" width="48.0" height="44.0" fill="rgb(31,111,139)" stroke="#eee"/>
+<rect x="40.0" y="148.0" width="48.0" height="44.0" fill="rgb(100,150,166)" stroke="#eee"/>
+<rect x="88.0" y="148.0" width="48.0" height="44.0" fill="rgb(100,150,166)" stroke="#eee"/>
+<rect x="136.0" y="148.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="184.0" y="148.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="232.0" y="148.0" width="48.0" height="44.0" fill="rgb(31,111,139)" stroke="#eee"/>
+<rect x="40.0" y="104.0" width="48.0" height="44.0" fill="rgb(31,111,139)" stroke="#eee"/>
+<rect x="88.0" y="104.0" width="48.0" height="44.0" fill="rgb(100,150,166)" stroke="#eee"/>
+<rect x="136.0" y="104.0" width="48.0" height="44.0" fill="rgb(100,150,166)" stroke="#eee"/>
+<rect x="184.0" y="104.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="232.0" y="104.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="40.0" y="60.0" width="48.0" height="44.0" fill="rgb(31,111,139)" stroke="#eee"/>
+<rect x="88.0" y="60.0" width="48.0" height="44.0" fill="rgb(100,150,166)" stroke="#eee"/>
+<rect x="136.0" y="60.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="184.0" y="60.0" width="48.0" height="44.0" fill="rgb(31,111,139)" stroke="#eee"/>
+<rect x="232.0" y="60.0" width="48.0" height="44.0" fill="rgb(31,111,139)" stroke="#eee"/>
+<text x="64.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">60</text>
+<text x="112.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">120</text>
+<text x="160.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">300</text>
+<text x="208.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">600</text>
+<text x="256.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">1200</text>
+<text x="34" y="261.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.02</text>
+<text x="34" y="217.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.05</text>
+<text x="34" y="173.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.1</text>
+<text x="34" y="129.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.2</text>
+<text x="34" y="85.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.5</text>
+<text x="160" y="310.0" text-anchor="middle" font-size="10" fill="#555" font-family="sans-serif">T(s) →</text>
+<text x="14" y="170.0" font-size="10" fill="#555" font-family="sans-serif" transform="rotate(-90 14 170.0)">σθ°</text>
+<text x="470" y="50" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">ψ 收缩</text>
+<rect x="350.0" y="236.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="398.0" y="236.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="446.0" y="236.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="494.0" y="236.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="542.0" y="236.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="350.0" y="192.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="398.0" y="192.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="446.0" y="192.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="494.0" y="192.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="542.0" y="192.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="350.0" y="148.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="398.0" y="148.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="446.0" y="148.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="494.0" y="148.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="542.0" y="148.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="350.0" y="104.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="398.0" y="104.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="446.0" y="104.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="494.0" y="104.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="542.0" y="104.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="350.0" y="60.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="398.0" y="60.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="446.0" y="60.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="494.0" y="60.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="542.0" y="60.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<text x="374.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">60</text>
+<text x="422.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">120</text>
+<text x="470.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">300</text>
+<text x="518.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">600</text>
+<text x="566.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">1200</text>
+<text x="344" y="261.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.02</text>
+<text x="344" y="217.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.05</text>
+<text x="344" y="173.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.1</text>
+<text x="344" y="129.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.2</text>
+<text x="344" y="85.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.5</text>
+<text x="470" y="310.0" text-anchor="middle" font-size="10" fill="#555" font-family="sans-serif">T(s) →</text>
+<text x="14" y="170.0" font-size="10" fill="#555" font-family="sans-serif" transform="rotate(-90 14 170.0)">σθ°</text>
+<text x="780" y="50" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">r 收缩</text>
+<rect x="660.0" y="236.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="708.0" y="236.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="756.0" y="236.0" width="48.0" height="44.0" fill="rgb(31,111,139)" stroke="#eee"/>
+<rect x="804.0" y="236.0" width="48.0" height="44.0" fill="rgb(47,120,145)" stroke="#eee"/>
+<rect x="852.0" y="236.0" width="48.0" height="44.0" fill="rgb(111,156,170)" stroke="#eee"/>
+<rect x="660.0" y="192.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="708.0" y="192.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="756.0" y="192.0" width="48.0" height="44.0" fill="rgb(31,111,139)" stroke="#eee"/>
+<rect x="804.0" y="192.0" width="48.0" height="44.0" fill="rgb(63,129,151)" stroke="#eee"/>
+<rect x="852.0" y="192.0" width="48.0" height="44.0" fill="rgb(111,156,170)" stroke="#eee"/>
+<rect x="660.0" y="148.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="708.0" y="148.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="756.0" y="148.0" width="48.0" height="44.0" fill="rgb(79,138,157)" stroke="#eee"/>
+<rect x="804.0" y="148.0" width="48.0" height="44.0" fill="rgb(47,120,145)" stroke="#eee"/>
+<rect x="852.0" y="148.0" width="48.0" height="44.0" fill="rgb(63,129,151)" stroke="#eee"/>
+<rect x="660.0" y="104.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="708.0" y="104.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="756.0" y="104.0" width="48.0" height="44.0" fill="rgb(95,147,163)" stroke="#eee"/>
+<rect x="804.0" y="104.0" width="48.0" height="44.0" fill="rgb(63,129,151)" stroke="#eee"/>
+<rect x="852.0" y="104.0" width="48.0" height="44.0" fill="rgb(31,111,139)" stroke="#eee"/>
+<rect x="660.0" y="60.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="708.0" y="60.0" width="48.0" height="44.0" fill="rgb(240,230,220)" stroke="#eee"/>
+<rect x="756.0" y="60.0" width="48.0" height="44.0" fill="rgb(31,111,139)" stroke="#eee"/>
+<rect x="804.0" y="60.0" width="48.0" height="44.0" fill="rgb(47,120,145)" stroke="#eee"/>
+<rect x="852.0" y="60.0" width="48.0" height="44.0" fill="rgb(47,120,145)" stroke="#eee"/>
+<text x="684.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">60</text>
+<text x="732.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">120</text>
+<text x="780.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">300</text>
+<text x="828.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">600</text>
+<text x="876.0" y="294.0" text-anchor="middle" font-size="9" fill="#555" font-family="sans-serif">1200</text>
+<text x="654" y="261.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.02</text>
+<text x="654" y="217.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.05</text>
+<text x="654" y="173.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.1</text>
+<text x="654" y="129.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.2</text>
+<text x="654" y="85.0" text-anchor="end" font-size="9" fill="#555" font-family="sans-serif">0.5</text>
+<text x="780" y="310.0" text-anchor="middle" font-size="10" fill="#555" font-family="sans-serif">T(s) →</text>
+<text x="14" y="170.0" font-size="10" fill="#555" font-family="sans-serif" transform="rotate(-90 14 170.0)">σθ°</text>
+<text x="40" y="350" font-size="10" fill="#777" font-family="sans-serif">收缩=1-宽度/先验宽度；v收缩见 CSV（辅助）</text></svg>

@@ -1,0 +1,21 @@
+{
+  "stage": "B3D-3",
+  "date": "2026-09-09",
+  "evidence_closure": "COMPLETE",
+  "real_anchor_admission": "HOLD",
+  "fully_admitted_anchor_count_under_current_evidence": 0,
+  "real_ocean_anchor_count": "UNRESOLVED",
+  "p1_candidates": [
+    "S1B2_s1r0",
+    "S3B2_s0r1"
+  ],
+  "p2_candidates": [
+    "S0B1_s1r0"
+  ],
+  "research_content_3_freeze": false,
+  "new_mature_solver_run_in_completion_push": false,
+  "fortran_bellhop_run": false,
+  "kraken_run": false,
+  "ram_run": false,
+  "woa23_or_scspod_propagation_rerun": false
+}

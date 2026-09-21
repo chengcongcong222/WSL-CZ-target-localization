@@ -1,0 +1,9 @@
+﻿method_id,selected_mainline,project_impl_degree,gap_vs_paper,next_validation_step
+MFP,True,未用完整复声压MFP；P3/P4.5仅用CZ幅度轮廓简化特征,P4.5 simplified CZ profile ≠ paper algorithm,R3-0 this round: paper-like MFP ambiguity on E-STD
+WI_FRINGE,True,未按原文条纹提取/β公式复现；仅有简化CZ轮廓,P4.5 simplified CZ profile ≠ paper algorithm,R3-0 this round: paper-like fringe/β reproduction; then E-STD+RC2 hard pairs
+MMAC,True,未正式实现角+时延联合；历史M4包有多途相对延迟候选但环境关联门失败,P4.5 simplified CZ profile ≠ paper algorithm,R3-C later: angle+delay joint after HLA AOA
+HLA_MODAL_SA,True,仅讨论过、未正式实现；P4.5深度UNRESOLVED不能替代本方法验证,P4.5 simplified CZ profile ≠ paper algorithm,R3-B later: k-spectrum/synthetic aperture depth
+MATCHED_MODE,False,未实现,not started / out of scope,defer
+ARRAY_INVARIANT,False,未实现,not started / out of scope,defer
+DOPPLER_TMA,False,P3对照支路已做，增量近零（恒定v_rad对）,not started / out of scope,defer
+PBPR_SHALLOW,False,不迁移,not started / out of scope,defer

@@ -1,0 +1,59 @@
+{
+  "package": "R3_RC3_method_recovery",
+  "created_utc": "2026-09-20T07:03:13.529234+00:00",
+  "reanchor": "RC3 formal literature-method validation; P4.5 is simplified baseline only, NOT RC3 upper bound",
+  "project_progress": {
+    "RC1": "scene frozen, basis formed",
+    "RC2": "kinematic baseline + hard candidates largely done",
+    "RC3": "formal method validation just entering main phase",
+    "five_state_perf": "prior results = simplified baseline only"
+  },
+  "E_STD": {
+    "r_true_km": 50.0,
+    "z_true_m": 200.0,
+    "zs_zr_m": 200.0,
+    "r_search_km": [
+      45.0,
+      60.0
+    ],
+    "z_search_m": [
+      150.0,
+      250.0
+    ],
+    "band_hz": [
+      150.0,
+      375.0
+    ],
+    "propagation": "normal-mode theory model consistent with P3 (no Bellhop)"
+  },
+  "frozen_mainlines": {
+    "upper": "Broadband MFP (range-depth ambiguity) — physics ceiling, not final engineering method",
+    "RC3-A": "CZ broadband interference fringes / waveguide-invariant distance (r, r-change)",
+    "RC3-B": "MMAC multipath angle+delay joint match (r,z)",
+    "RC3-C": "HLA modal/wavenumber spectrum + synthetic-aperture depth discrimination (z)"
+  },
+  "protocol": [
+    "1 paper-like reproduction (original observables/formulas)",
+    "2 migrate to E-STD",
+    "3 RC2 hard-pair comparison",
+    "4 parameter RMSE/coverage (P4.5-style)"
+  ],
+  "allowed_conclusions": [
+    "可用",
+    "有条件可用",
+    "与RC2冗余",
+    "当前场景不适用"
+  ],
+  "stop_this_round": [
+    "literature matrix",
+    "freeze three RC3 mainlines",
+    "MFP upper bound",
+    "RC3-A first paper-like reproduction"
+  ],
+  "not_this_round": [
+    "R3-B full",
+    "R3-C full",
+    "P5",
+    "Bellhop audit"
+  ]
+}

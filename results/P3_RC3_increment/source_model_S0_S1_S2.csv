@@ -1,0 +1,28 @@
+﻿source,f_hz,rel_amp,kind,drift_frac,note
+S0,150.0,1.0,continuum,0.0,unknown S(f)
+S0,170.45454545454544,1.0,continuum,0.0,unknown S(f)
+S0,190.9090909090909,1.0,continuum,0.0,unknown S(f)
+S0,211.36363636363637,1.0,continuum,0.0,unknown S(f)
+S0,231.8181818181818,1.0,continuum,0.0,unknown S(f)
+S0,252.27272727272725,1.0,continuum,0.0,unknown S(f)
+S0,272.72727272727275,1.0,continuum,0.0,unknown S(f)
+S0,293.1818181818182,1.0,continuum,0.0,unknown S(f)
+S0,313.6363636363636,1.0,continuum,0.0,unknown S(f)
+S0,334.09090909090907,1.0,continuum,0.0,unknown S(f)
+S0,354.5454545454545,1.0,continuum,0.0,unknown S(f)
+S0,375.0,1.0,continuum,0.0,unknown S(f)
+S1,4.0,0.4,shaft_harm,0.01,parametric mechanical
+S1,8.0,0.2,shaft_harm,0.01,parametric mechanical
+S1,12.0,0.13333333333333333,shaft_harm,0.01,parametric mechanical
+S1,20.0,0.6,bpf_harm,0.01,parametric mechanical
+S1,40.0,0.3,bpf_harm,0.01,parametric mechanical
+S1,60.0,0.19999999999999998,bpf_harm,0.01,parametric mechanical
+S1,168.0,0.25,machinery,0.02,parametric mechanical
+S1,204.0,0.22,machinery,0.02,parametric mechanical
+S1,232.0,0.18,machinery,0.02,parametric mechanical
+S1,279.0,0.15,machinery,0.02,parametric mechanical
+S2,166.0,1.0,swellex_stable,0.0,ideal stable multi-line upper bound
+S2,201.0,0.5,swellex_stable,0.0,ideal stable multi-line upper bound
+S2,235.0,0.3333333333333333,swellex_stable,0.0,ideal stable multi-line upper bound
+S2,283.0,0.25,swellex_stable,0.0,ideal stable multi-line upper bound
+S2,338.0,0.2,swellex_stable,0.0,ideal stable multi-line upper bound

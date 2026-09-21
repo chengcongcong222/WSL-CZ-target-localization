@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+<rect width="720" height="420" fill="#f7f4ef"/>
+<text x="360.0" y="28" text-anchor="middle" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#1a1a1a">图1d  σθ×T → 航向误差 |Δψ|</text>
+<rect x="70" y="48" width="490" height="316" fill="#ffffff" stroke="#d0ccc4" stroke-width="1"/>
+<line x1="70.00" y1="48" x2="70.00" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="70.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">60</text>
+<line x1="151.67" y1="48" x2="151.67" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="151.67" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">98.85</text>
+<line x1="233.33" y1="48" x2="233.33" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="233.33" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">162.9</text>
+<line x1="315.00" y1="48" x2="315.00" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="315.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">268.3</text>
+<line x1="396.67" y1="48" x2="396.67" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="396.67" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">442.1</text>
+<line x1="478.33" y1="48" x2="478.33" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="478.33" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">728.4</text>
+<line x1="560.00" y1="48" x2="560.00" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="560.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">1200</text>
+<line x1="70" y1="364.00" x2="560" y2="364.00" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="368.00" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">-1.053</text>
+<line x1="70" y1="300.80" x2="560" y2="300.80" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="304.80" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">2.255</text>
+<line x1="70" y1="237.60" x2="560" y2="237.60" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="241.60" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">5.564</text>
+<line x1="70" y1="174.40" x2="560" y2="174.40" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="178.40" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">8.872</text>
+<line x1="70" y1="111.20" x2="560" y2="111.20" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="115.20" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">12.18</text>
+<line x1="70" y1="48.00" x2="560" y2="48.00" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="52.00" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">15.49</text>
+<text x="315.0" y="406" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">观测时间 T (s)</text>
+<text x="16" y="206.0" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif" transform="rotate(-90 16 206.0)">平均 |Δψ| (deg)</text>
+<polyline fill="none" stroke="#c45c26" stroke-width="2" points="70.00,212.76 183.38,294.06 333.25,331.96 446.62,340.18 512.94,341.64 560.00,342.21"/>
+<circle cx="70.00" cy="212.76" r="2.8" fill="#c45c26"/>
+<circle cx="183.38" cy="294.06" r="2.8" fill="#c45c26"/>
+<circle cx="333.25" cy="331.96" r="2.8" fill="#c45c26"/>
+<circle cx="446.62" cy="340.18" r="2.8" fill="#c45c26"/>
+<circle cx="512.94" cy="341.64" r="2.8" fill="#c45c26"/>
+<circle cx="560.00" cy="342.21" r="2.8" fill="#c45c26"/>
+<polyline fill="none" stroke="#1f6f8b" stroke-width="2" points="70.00,154.20 183.38,208.03 333.25,317.94 446.62,332.13 512.94,334.48 560.00,339.15"/>
+<circle cx="70.00" cy="154.20" r="2.8" fill="#1f6f8b"/>
+<circle cx="183.38" cy="208.03" r="2.8" fill="#1f6f8b"/>
+<circle cx="333.25" cy="317.94" r="2.8" fill="#1f6f8b"/>
+<circle cx="446.62" cy="332.13" r="2.8" fill="#1f6f8b"/>
+<circle cx="512.94" cy="334.48" r="2.8" fill="#1f6f8b"/>
+<circle cx="560.00" cy="339.15" r="2.8" fill="#1f6f8b"/>
+<polyline fill="none" stroke="#2d6a4f" stroke-width="2" points="70.00,130.41 183.38,200.78 333.25,290.45 446.62,328.44 512.94,331.64 560.00,335.90"/>
+<circle cx="70.00" cy="130.41" r="2.8" fill="#2d6a4f"/>
+<circle cx="183.38" cy="200.78" r="2.8" fill="#2d6a4f"/>
+<circle cx="333.25" cy="290.45" r="2.8" fill="#2d6a4f"/>
+<circle cx="446.62" cy="328.44" r="2.8" fill="#2d6a4f"/>
+<circle cx="512.94" cy="331.64" r="2.8" fill="#2d6a4f"/>
+<circle cx="560.00" cy="335.90" r="2.8" fill="#2d6a4f"/>
+<polyline fill="none" stroke="#7b2cbf" stroke-width="2" points="70.00,93.55 183.38,117.73 333.25,212.85 446.62,308.80 512.94,318.35 560.00,331.00"/>
+<circle cx="70.00" cy="93.55" r="2.8" fill="#7b2cbf"/>
+<circle cx="183.38" cy="117.73" r="2.8" fill="#7b2cbf"/>
+<circle cx="333.25" cy="212.85" r="2.8" fill="#7b2cbf"/>
+<circle cx="446.62" cy="308.80" r="2.8" fill="#7b2cbf"/>
+<circle cx="512.94" cy="318.35" r="2.8" fill="#7b2cbf"/>
+<circle cx="560.00" cy="331.00" r="2.8" fill="#7b2cbf"/>
+<polyline fill="none" stroke="#bc4749" stroke-width="2" points="70.00,69.79 183.38,89.91 333.25,174.43 446.62,243.06 512.94,296.82 560.00,298.43"/>
+<circle cx="70.00" cy="69.79" r="2.8" fill="#bc4749"/>
+<circle cx="183.38" cy="89.91" r="2.8" fill="#bc4749"/>
+<circle cx="333.25" cy="174.43" r="2.8" fill="#bc4749"/>
+<circle cx="446.62" cy="243.06" r="2.8" fill="#bc4749"/>
+<circle cx="512.94" cy="296.82" r="2.8" fill="#bc4749"/>
+<circle cx="560.00" cy="298.43" r="2.8" fill="#bc4749"/>
+<rect x="572" y="56" width="14" height="3" fill="#c45c26"/>
+<text x="592" y="60" font-size="11" fill="#333" font-family="sans-serif">σθ=0.02°</text>
+<rect x="572" y="74" width="14" height="3" fill="#1f6f8b"/>
+<text x="592" y="78" font-size="11" fill="#333" font-family="sans-serif">σθ=0.05°</text>
+<rect x="572" y="92" width="14" height="3" fill="#2d6a4f"/>
+<text x="592" y="96" font-size="11" fill="#333" font-family="sans-serif">σθ=0.1°</text>
+<rect x="572" y="110" width="14" height="3" fill="#7b2cbf"/>
+<text x="592" y="114" font-size="11" fill="#333" font-family="sans-serif">σθ=0.2°</text>
+<rect x="572" y="128" width="14" height="3" fill="#bc4749"/>
+<text x="592" y="132" font-size="11" fill="#333" font-family="sans-serif">σθ=0.5°</text>
+<text x="70" y="418" font-size="10" fill="#777" font-family="sans-serif">直航几何下 ψ 与 r0/v 强耦合，属 RC2 本征边界</text>
+</svg>

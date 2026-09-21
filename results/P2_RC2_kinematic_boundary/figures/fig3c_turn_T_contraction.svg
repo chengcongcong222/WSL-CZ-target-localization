@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+<rect width="720" height="420" fill="#f7f4ef"/>
+<text x="360.0" y="28" text-anchor="middle" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#1a1a1a">图3c  平台转角×T → 候选收缩率 (σθ=0.1°)</text>
+<rect x="70" y="48" width="490" height="316" fill="#ffffff" stroke="#d0ccc4" stroke-width="1"/>
+<line x1="70.00" y1="48" x2="70.00" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="70.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">60</text>
+<line x1="151.67" y1="48" x2="151.67" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="151.67" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">98.85</text>
+<line x1="233.33" y1="48" x2="233.33" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="233.33" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">162.9</text>
+<line x1="315.00" y1="48" x2="315.00" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="315.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">268.3</text>
+<line x1="396.67" y1="48" x2="396.67" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="396.67" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">442.1</text>
+<line x1="478.33" y1="48" x2="478.33" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="478.33" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">728.4</text>
+<line x1="560.00" y1="48" x2="560.00" y2="364" stroke="#e8e4dc" stroke-width="1"/>
+<text x="560.00" y="382" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">1200</text>
+<line x1="70" y1="364.00" x2="560" y2="364.00" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="368.00" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">-0.0728</text>
+<line x1="70" y1="300.80" x2="560" y2="300.80" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="304.80" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.1383</text>
+<line x1="70" y1="237.60" x2="560" y2="237.60" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="241.60" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.3494</text>
+<line x1="70" y1="174.40" x2="560" y2="174.40" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="178.40" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.5606</text>
+<line x1="70" y1="111.20" x2="560" y2="111.20" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="115.20" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.7717</text>
+<line x1="70" y1="48.00" x2="560" y2="48.00" stroke="#e8e4dc" stroke-width="1"/>
+<text x="62" y="52.00" text-anchor="end" font-size="11" fill="#555" font-family="sans-serif">0.9828</text>
+<text x="315.0" y="406" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">观测时间 T (s)</text>
+<text x="16" y="206.0" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif" transform="rotate(-90 16 206.0)">平均候选收缩率</text>
+<polyline fill="none" stroke="#c45c26" stroke-width="2" points="70.00,342.21 183.38,342.21 333.25,319.76 446.62,162.59 512.94,98.98 560.00,70.04"/>
+<circle cx="70.00" cy="342.21" r="2.8" fill="#c45c26"/>
+<circle cx="183.38" cy="342.21" r="2.8" fill="#c45c26"/>
+<circle cx="333.25" cy="319.76" r="2.8" fill="#c45c26"/>
+<circle cx="446.62" cy="162.59" r="2.8" fill="#c45c26"/>
+<circle cx="512.94" cy="98.98" r="2.8" fill="#c45c26"/>
+<circle cx="560.00" cy="70.04" r="2.8" fill="#c45c26"/>
+<polyline fill="none" stroke="#1f6f8b" stroke-width="2" points="70.00,342.21 183.38,342.21 333.25,322.25 446.62,160.10 512.94,93.99 560.00,69.79"/>
+<circle cx="70.00" cy="342.21" r="2.8" fill="#1f6f8b"/>
+<circle cx="183.38" cy="342.21" r="2.8" fill="#1f6f8b"/>
+<circle cx="333.25" cy="322.25" r="2.8" fill="#1f6f8b"/>
+<circle cx="446.62" cy="160.10" r="2.8" fill="#1f6f8b"/>
+<circle cx="512.94" cy="93.99" r="2.8" fill="#1f6f8b"/>
+<circle cx="560.00" cy="69.79" r="2.8" fill="#1f6f8b"/>
+<polyline fill="none" stroke="#2d6a4f" stroke-width="2" points="70.00,342.21 183.38,342.21 333.25,313.52 446.62,156.36 512.94,96.49 560.00,72.66"/>
+<circle cx="70.00" cy="342.21" r="2.8" fill="#2d6a4f"/>
+<circle cx="183.38" cy="342.21" r="2.8" fill="#2d6a4f"/>
+<circle cx="333.25" cy="313.52" r="2.8" fill="#2d6a4f"/>
+<circle cx="446.62" cy="156.36" r="2.8" fill="#2d6a4f"/>
+<circle cx="512.94" cy="96.49" r="2.8" fill="#2d6a4f"/>
+<circle cx="560.00" cy="72.66" r="2.8" fill="#2d6a4f"/>
+<polyline fill="none" stroke="#7b2cbf" stroke-width="2" points="70.00,342.21 183.38,334.72 333.25,312.27 446.62,157.60 512.94,102.72 560.00,76.40"/>
+<circle cx="70.00" cy="342.21" r="2.8" fill="#7b2cbf"/>
+<circle cx="183.38" cy="334.72" r="2.8" fill="#7b2cbf"/>
+<circle cx="333.25" cy="312.27" r="2.8" fill="#7b2cbf"/>
+<circle cx="446.62" cy="157.60" r="2.8" fill="#7b2cbf"/>
+<circle cx="512.94" cy="102.72" r="2.8" fill="#7b2cbf"/>
+<circle cx="560.00" cy="76.40" r="2.8" fill="#7b2cbf"/>
+<polyline fill="none" stroke="#bc4749" stroke-width="2" points="70.00,342.21 183.38,339.71 333.25,319.76 446.62,162.59 512.94,111.45 560.00,89.85"/>
+<circle cx="70.00" cy="342.21" r="2.8" fill="#bc4749"/>
+<circle cx="183.38" cy="339.71" r="2.8" fill="#bc4749"/>
+<circle cx="333.25" cy="319.76" r="2.8" fill="#bc4749"/>
+<circle cx="446.62" cy="162.59" r="2.8" fill="#bc4749"/>
+<circle cx="512.94" cy="111.45" r="2.8" fill="#bc4749"/>
+<circle cx="560.00" cy="89.85" r="2.8" fill="#bc4749"/>
+<rect x="572" y="56" width="14" height="3" fill="#c45c26"/>
+<text x="592" y="60" font-size="11" fill="#333" font-family="sans-serif">转角=0°</text>
+<rect x="572" y="74" width="14" height="3" fill="#1f6f8b"/>
+<text x="592" y="78" font-size="11" fill="#333" font-family="sans-serif">转角=2°</text>
+<rect x="572" y="92" width="14" height="3" fill="#2d6a4f"/>
+<text x="592" y="96" font-size="11" fill="#333" font-family="sans-serif">转角=5°</text>
+<rect x="572" y="110" width="14" height="3" fill="#7b2cbf"/>
+<text x="592" y="114" font-size="11" fill="#333" font-family="sans-serif">转角=10°</text>
+<rect x="572" y="128" width="14" height="3" fill="#bc4749"/>
+<text x="592" y="132" font-size="11" fill="#333" font-family="sans-serif">转角=15°</text>
+</svg>

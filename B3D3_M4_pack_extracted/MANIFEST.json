@@ -1,0 +1,72 @@
+[
+  {
+    "file": "00_M4_README.md",
+    "bytes": 1842,
+    "sha256": "9d4d459730814e7b0179301c0a84549b769cb73401e47c0ba4a95597f306f189"
+  },
+  {
+    "file": "01_MIMO_M4_PROMPT.md",
+    "bytes": 5411,
+    "sha256": "1a58b772608a456f814e9a8ced226074d766c609d700597edece2bfbf02ffce9"
+  },
+  {
+    "file": "B3D3_GATE_BOTTLENECK_AUDIT.md",
+    "bytes": 4828,
+    "sha256": "4dcb298f2e233259fc03f12adf86c2f6ecf631f32e6d84c05606fb2d31e88b19"
+  },
+  {
+    "file": "B3D3_GATE_WATERFALL.csv",
+    "bytes": 828,
+    "sha256": "34c6c2c2902120984c0448999414346f633489f43c64a8dabbb1990617932641"
+  },
+  {
+    "file": "B3D3_P1_ANCHOR_DECISION.csv",
+    "bytes": 1010,
+    "sha256": "89402f7cc7ddb3e2614fe17654f7e615faf235bf975d38170aafa091f9650e9d"
+  },
+  {
+    "file": "B3D3_P1_LOCAL_JACOBIAN_20260911.csv",
+    "bytes": 1341,
+    "sha256": "507d18839ba05db0c3d6ae6ac93fb184475ad6d04fff7f4220ea37e12bbd548b"
+  },
+  {
+    "file": "B3D3_P1_LOCAL_JACOBIAN_AUDIT_20260911.md",
+    "bytes": 3289,
+    "sha256": "6184734a5f03174e070e827fef7dccbace289afae0ee109b7d317a98ce83d450"
+  },
+  {
+    "file": "B3D3_PRE_ENVIRONMENT_SHORTLIST.csv",
+    "bytes": 545,
+    "sha256": "78ed40e82098d6574bcc63aaf10264461f120650ee634e83eb3e7fac977e0275"
+  },
+  {
+    "file": "B3D3_PRE_ENVIRONMENT_SHORTLIST_ENRICHED.csv",
+    "bytes": 1408,
+    "sha256": "c893de666bb9d9f881675773c21e2bff260adba24a14e08772a21da22768eb63"
+  },
+  {
+    "file": "B3D3_RAY_RETURN_PREFLIGHT.csv",
+    "bytes": 53209,
+    "sha256": "db2e9156bb77a5b62d552c9d30aa09dbf1e911e2f406ad0b8e8e72a4cb2d6f61"
+  },
+  {
+    "file": "B3D3_RAY_RETURN_SUMMARY.csv",
+    "bytes": 1074,
+    "sha256": "e40773543c5f5c829322a96e676f176573941d11fc02061685f370c8c76d0661"
+  },
+  {
+    "file": "B3D3_SSP_DIAGNOSTIC_ENSEMBLE.csv",
+    "bytes": 51335,
+    "sha256": "dcc0d36631397b28be908d13abbb80fad3bc7be14724c9215bd4d22c4290946c"
+  },
+  {
+    "file": "B3D3_STAGE_STATUS.json",
+    "bytes": 530,
+    "sha256": "c368b5dad12a87ccfe3082af75e348296af267bb44a8fb36f779bad5f6e25dc5"
+  },
+  {
+    "file": "README_B3D3_ENVBUILD_PREFLIGHT.md",
+    "bytes": 3995,
+    "sha256": "bb9902666c4f26f9df60daf4f376fe4da4b0b2c57e2f4b82bcb40671c2794c45"
+  }
+]

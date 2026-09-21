@@ -1,0 +1,42 @@
+{
+  "g3_result": "PROPAGATION_INCREMENT_CONFIRMED",
+  "g3_why": "CZ increased wrong-candidate rejection on S0 hard pairs by delta=0.967 (RC2=0.000 -> RC2+CZ=0.967). Doppler control branch is weak on constant-v_rad collinear pairs (absorbed by unknown source frequency bias).",
+  "rej_rc2_s0": 0.0,
+  "rej_cz_s0": 0.9666666666666667,
+  "cz_gain_s0": 0.9666666666666667,
+  "rej_matrix": {
+    "S0": {
+      "RC2": 0.0,
+      "RC2+CZ": 0.9666666666666667,
+      "RC2+Doppler": NaN,
+      "RC2+CZ+Doppler": 0.9666666666666667
+    },
+    "S1": {
+      "RC2": 0.0,
+      "RC2+CZ": 0.23333333333333334,
+      "RC2+Doppler": 0.0,
+      "RC2+CZ+Doppler": 0.2
+    },
+    "S2": {
+      "RC2": 0.0,
+      "RC2+CZ": 0.9666666666666667,
+      "RC2+Doppler": 0.0,
+      "RC2+CZ+Doppler": 0.9666666666666667
+    }
+  },
+  "line_gain_max": 0.9666666666666667,
+  "client_lines": {
+    "S0": "无稳定谱线时：RC2错误候选排除率约 0%；加入会聚区传播后约 97%；Doppler支路对恒定径向速度差不可用（被未知源频偏置吸收）。",
+    "S1": "典型机械谱线时：RC2约 0%；CZ约 23%；bearing+Doppler约 0%；联合约 20%。（线谱频点少，CZ轮廓自由度低于S0连续谱。）",
+    "S2": "理想稳定多谱线时：RC2约 0%；CZ约 97%；bearing+Doppler约 0%；联合约 97%。（S2为上界工况，非真实UUV谱。）"
+  },
+  "n_selected_pairs": 30,
+  "notes": [
+    "RC2-only rejection is not always 0: some hard pairs retain small bearing RMSE.",
+    "CZ layer: multi-freq amplitude profile with unknown S(f) LS elimination + time-normalized contrast.",
+    "Doppler: constant v_rad differences act as unknown f0 bias; only time-varying Doppler is informative.",
+    "KRAKEN not installed on host; modal theory model recorded in CONFIG (no Bellhop audit).",
+    "Mode-count absolute amplitude is not fully converged; range-profile CONTRAST is the stable discrimination quantity.",
+    "P2 CRLB rank-deficient = UNDEFINED/UNBOUNDED; maneuver wording downgraded; P2 not re-run."
+  ]
+}
