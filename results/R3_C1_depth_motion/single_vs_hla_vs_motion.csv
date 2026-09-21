@@ -1,0 +1,4 @@
+﻿config,f_hz,T_s,z_true_m,n_el,aperture_m,motion,z_hat_m,err_z_m,peak,fwhm_m,width_3db_m,psl,n_local_peaks,multimodal
+A_single_motion,235.0,600.0,200.0,1,0.0,True,200.0,0.0,0.9999999999999947,120.0,120.0,0.9982869395319605,1,False
+B_hla14m_motion,235.0,600.0,200.0,8,14.0,True,200.0,0.0,0.9999999999999947,120.0,120.0,0.9982869411216572,1,False
+C_hla14m_static,235.0,600.0,200.0,8,14.0,False,258.0,58.0,1.313717310304514e-15,2.0,0.0,0.25000000000000006,1,False

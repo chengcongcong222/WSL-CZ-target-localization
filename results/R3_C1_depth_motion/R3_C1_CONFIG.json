@@ -1,0 +1,49 @@
+{
+  "package": "R3_C1_depth_motion",
+  "created_utc": "2026-09-21T07:52:08.343563+00:00",
+  "anchor": {
+    "primary": "Zhu F., Li F., Zhang Y., et al. Moving source depth estimation in deep ocean direct arrival zone with a horizontal line array. JASA Express Letters, 2023, 3(9):096003.",
+    "backup": "T.C. Yang 2015 synthetic aperture beamforming for moving source depth",
+    "methods": [
+      "improved Fourier integral Q_F(z)",
+      "matched sound intensity structure (paper internal control)"
+    ]
+  },
+  "source_levels": {
+    "C-S2": "stable lines 201/235 Hz + multi-line joint",
+    "C-S1": "in-band stable machinery lines only",
+    "C-S0": "no trackable line → METHOD_NOT_APPLICABLE_WITHOUT_TRACKABLE_LINE"
+  },
+  "estd": {
+    "r_km": [
+      45,
+      60
+    ],
+    "z_true_m": [
+      150,
+      180,
+      200,
+      220,
+      250
+    ],
+    "z_r_m": 200,
+    "T_s": [
+      300,
+      600,
+      1200
+    ],
+    "U_rel_mps": 2.0,
+    "propagation": "E-STD modal theory (frozen); algorithm stays Zhu track-intensity form"
+  },
+  "comparisons": [
+    "single-channel+motion",
+    "14m HLA+motion",
+    "HLA static snapshot"
+  ],
+  "stop": [
+    "no C2",
+    "no P5",
+    "no RC3-B",
+    "no env mismatch / MC this round"
+  ]
+}

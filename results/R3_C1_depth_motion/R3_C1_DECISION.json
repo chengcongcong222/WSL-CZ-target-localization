@@ -1,0 +1,35 @@
+{
+  "rc3c1_decision": "C1_PAPER_REPRO_PASS_CZ_NOT_TRANSFERABLE",
+  "why": "Paper-method logic accepted at algorithm level, but E-STD first-CZ modal track intensity does not yield narrow unique depth peaks (mean FWHM=120.0 m, PSL=0.9927083151735492, pair mean D=1.157129456910447, frac=0.7). Self-match err≈0 must not be read as depth accuracy.",
+  "next_step": "next RC3-C candidate in order: Yang 2015 SA beamforming → HLA modal/k-spectrum → Emmetière 2019",
+  "notes": {
+    "paper_quality": {
+      "QF_fourier_like": {
+        "mean_abs_err": 0.25,
+        "mean_fwhm": 42.5,
+        "mean_psl": 0.7782065962786785,
+        "frac_err_lt_15m": 1.0
+      },
+      "matched_intensity_structure": {
+        "mean_abs_err": 0.25,
+        "mean_fwhm": 27.833333333333332,
+        "mean_psl": 0.7419416179803937,
+        "frac_err_lt_15m": 1.0
+      }
+    },
+    "paper_pass_strict": true,
+    "paper_peak_on_truth_but_flat": true,
+    "C-S0": "METHOD_NOT_APPLICABLE_WITHOUT_TRACKABLE_LINE",
+    "cz_mean_abs_err_m": 0.0,
+    "cz_mean_fwhm_m": 120.0,
+    "cz_mean_psl": 0.9927083151735492,
+    "cz_frac_fwhm_lt_40m": 0.0,
+    "cz_true_in_peak": 1.0,
+    "pair_mean_D": 1.157129456910447,
+    "pair_max_D": 1.998162960451633,
+    "pair_resolvable_frac": 0.7
+  },
+  "created_utc": "2026-09-21T07:55:14.688558+00:00",
+  "stop": "after R3-C1; no C2/P5/RC3-B",
+  "b1_status": "PERMANENTLY_CLOSED B1_NO_STABLE_MULTIPATH_IDENTITY"
+}
