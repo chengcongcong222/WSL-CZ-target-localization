@@ -1,0 +1,32 @@
+{
+  "rc3b1_status": "B1_DECISION_PENDING_CORRECTION → refined terminal",
+  "rc3b1_1_decision": "B1_DELAY_AMBIGUITY_LIMITED",
+  "why": "Local delay mainlobe ms-scale OK (S0_DENSE 0.00520000000000001 s) but global ambiguity remains (S0_23 comb side=0.9999551387640602, S0_DENSE side=0.4907037600350636). CRB vs ambiguity must stay separated.",
+  "next_step": "do not kill MMAC; resolve global delay ambiguity or restrict to local peak tracking",
+  "notes": {
+    "S0_DENSE_local_mainlobe_s": 0.00520000000000001,
+    "S0_DENSE_global_side": 0.4907037600350636,
+    "S0_23POINT_global_side": 0.9999551387640602,
+    "S0_23POINT_T_amb_s": 0.09777777777777785,
+    "delay_local_ok": true,
+    "delay_global_ok_S0_DENSE": false,
+    "delay_comb_ambiguity_S0_23": true,
+    "n_branch_ids": 12,
+    "n_stable_for_fisher": 4,
+    "max_residual_m": 0.09861705982609692,
+    "branches_ge3_ranges": 4,
+    "hla_resolved_corr_14m": 0.0,
+    "hla_resolved_corr_70m": 0.43333333333333335,
+    "HLA_ELEVATION_PROJECTION_WEAK": true,
+    "HLA_projection_note": "Corrected gate uses actual E-STD branch Delta-u + steering corr; prior False flag from composite CRB approximation is NOT frozen.",
+    "estd_ideal_crb_r_m": NaN,
+    "estd_hla_crb_r_m": NaN,
+    "estd_delay_crb_r_m": NaN,
+    "estd_ideal_ok": false,
+    "estd_hla_ok": false,
+    "estd_delay_fish_ok": false
+  },
+  "controlled_model_label": "50 km direct/surface weak-geometry sanity check — NOT E-STD CZ MMAC performance",
+  "created_utc": "2026-09-21T03:26:14.655763+00:00",
+  "stop": "after R3-B1.1; no B2/RC3-C/P5/MC RMSE"
+}

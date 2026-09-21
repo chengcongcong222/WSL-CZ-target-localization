@@ -1,0 +1,4 @@
+﻿r_km,modal_delay_peaks_s,modal_n_peaks,ray_admitted_taus_s,ray_n_admitted,ray_min_s,ray_max_s,note
+49.0,[],0,"[32.66817, 33.16912, 33.16913, 33.23237]",4,32.668168645161785,33.232374880017616,sanity check: ray delay clusters vs modal IFFT energy; not full mode-id
+50.0,[],0,"[33.33054, 33.81346]",2,33.33053677842697,33.813455896268046,sanity check: ray delay clusters vs modal IFFT energy; not full mode-id
+51.0,[],0,"[33.99292, 34.45896, 34.45898]",3,33.99292156409898,34.45898401298983,sanity check: ray delay clusters vs modal IFFT energy; not full mode-id

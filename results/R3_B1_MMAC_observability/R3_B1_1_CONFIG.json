@@ -1,0 +1,23 @@
+{
+  "package": "R3_B1_1_correction",
+  "created_utc": "2026-09-21T03:26:14.655763+00:00",
+  "prior_decision_revoked": "B1_DELAY_BANDWIDTH_LIMITED",
+  "pending_status": "B1_DECISION_PENDING_CORRECTION",
+  "corrections": [
+    "delay mainlobe = contiguous A>=0.5 around true peak (not global span)",
+    "S0_DENSE continuous band vs S0_23POINT comb control",
+    "eigenray root-solve with residual |z_hit-z_r|<=0.1 m",
+    "branch_id via continuous association, not round(launch/2°)",
+    "E-STD Fisher from actual stable branches, not controlled_paths",
+    "ray-modal delay crosscheck via modal transfer IFFT",
+    "HLA_ELEVATION_PROJECTION_WEAK based on actual branch Delta-u"
+  ],
+  "controlled_model_label": "50 km direct/surface weak-geometry sanity check — NOT E-STD CZ MMAC performance",
+  "stop": [
+    "no B2",
+    "no RC3-C",
+    "no P5",
+    "no MC RMSE",
+    "no new features"
+  ]
+}

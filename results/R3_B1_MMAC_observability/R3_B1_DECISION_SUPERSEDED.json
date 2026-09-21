@@ -1,0 +1,61 @@
+{
+  "rc3b1_decision": "B1_DELAY_BANDWIDTH_LIMITED",
+  "why": "Delay observability weak/periodic across S0/S1/S2 under current band; delay_df=[{'source': 'S0', 'n_freqs': 23, 'effective_bandwidth_Hz': 235.00483554019206, 'amb_mainlobe_width_s': 0.2982, 'amb_sidelobe_max': 0.4964808349270524, 'crb_sigma_tau_s': 0.00023460321322941465, 'periodic_ambiguity_risk': False, 'delay_usable': False, 'note': 'S2 multi-line can create periodic delay ambiguity; do not assume best'}, {'source': 'S1', 'n_freqs': 5, 'effective_bandwidth_Hz': 186.31070822687568, 'amb_mainlobe_width_s': 0.39840000000000003, 'amb_sidelobe_max': 0.4996524926456676, 'crb_sigma_tau_s': 0.0002959190594404395, 'periodic_ambiguity_risk': False, 'delay_usable': False, 'note': 'S2 multi-line can create periodic delay ambiguity; do not assume best'}, {'source': 'S2', 'n_freqs': 5, 'effective_bandwidth_Hz': 209.9668545270896, 'amb_mainlobe_width_s': 0.3834, 'amb_sidelobe_max': 0.49985338502952864, 'crb_sigma_tau_s': 0.00026257901356076203, 'periodic_ambiguity_risk': False, 'delay_usable': False, 'note': 'S2 multi-line can create periodic delay ambiguity; do not assume best'}].",
+  "next_step": "do not claim practical delay MMAC; consider RC3-C or broader bandwidth studies later",
+  "notes": {
+    "gate0_hla_elevation_projection_weak": false,
+    "resolved_corr_14m_frac": 0.038461538461538464,
+    "resolved_corr_70m_frac": 0.4230769230769231,
+    "resolved_sigma_u_14m_frac": 0.5769230769230769,
+    "n_estd_branches": 28,
+    "stable_branches_ge2": true,
+    "ideal_joint_ok": false,
+    "hla_joint_ok": false,
+    "delay_only_ok": false,
+    "delay_usable_any_source": false,
+    "physics_angle_helps": false
+  },
+  "gate0_ref_delta_u": [
+    {
+      "abs_phi_deg": 1.0,
+      "delta_u_theta0": 0.00015230484360873042,
+      "L_req_200Hz_m": 49243.34526922481,
+      "L_req_300Hz_m": 32828.89684614987
+    },
+    {
+      "abs_phi_deg": 2.0,
+      "delta_u_theta0": 0.0006091729809042379,
+      "L_req_200Hz_m": 12311.773888702726,
+      "L_req_300Hz_m": 8207.84925913515
+    },
+    {
+      "abs_phi_deg": 5.0,
+      "delta_u_theta0": 0.003805301908254455,
+      "L_req_200Hz_m": 1970.9342861156463,
+      "L_req_300Hz_m": 1313.9561907437642
+    },
+    {
+      "abs_phi_deg": 10.0,
+      "delta_u_theta0": 0.01519224698779198,
+      "L_req_200Hz_m": 493.67285866447327,
+      "L_req_300Hz_m": 329.1152391096489
+    },
+    {
+      "abs_phi_deg": 15.0,
+      "delta_u_theta0": 0.03407417371093169,
+      "L_req_200Hz_m": 220.10805202867905,
+      "L_req_300Hz_m": 146.7387013524527
+    },
+    {
+      "abs_phi_deg": 20.0,
+      "delta_u_theta0": 0.06030737921409157,
+      "L_req_200Hz_m": 124.36289054072394,
+      "L_req_300Hz_m": 82.90859369381596
+    }
+  ],
+  "created_utc": "2026-09-21T02:08:15.582906+00:00",
+  "stop": "after R3-B1; no MC RMSE; no RC2 hard pairs; no RC3-C; no P5",
+  "superseded_by": "R3_B1_1_DECISION.json",
+  "superseded_note": "B1_DELAY_BANDWIDTH_LIMITED revoked: delay mainlobe metric incorrect; pending B1.1",
+  "revoked_utc": "2026-09-21T03:26:14.655763+00:00"
+}
