@@ -1,0 +1,74 @@
+{
+  "rc3b1_final_decision": "B1_NO_STABLE_MULTIPATH_IDENTITY",
+  "why": "Only 1 continuation-continuous AND modal-energy-supported branches at center.",
+  "next_step": "B1 permanently closed; RC3-B MMAC not established",
+  "notes": {
+    "M_observable": 1,
+    "n_independent_delays": 0,
+    "observable_branch_ids": [
+      "C0"
+    ],
+    "ray_modal_energy_peaks_50km": [
+      [
+        -0.5986,
+        0.724
+      ],
+      [
+        -0.5922,
+        0.491
+      ],
+      [
+        -0.5821,
+        0.74
+      ],
+      [
+        -0.5753,
+        0.393
+      ],
+      [
+        -0.57,
+        0.415
+      ],
+      [
+        -0.5632,
+        0.845
+      ],
+      [
+        -0.5531,
+        0.386
+      ],
+      [
+        -0.5467,
+        0.692
+      ]
+    ],
+    "energy_tol_s": 0.015,
+    "s0_global_usable": true,
+    "s1_s2_globally_ambiguous": true,
+    "delay_only_2d_allowed": false,
+    "fisher_nesting_ok": true,
+    "all_asserts_pass": false,
+    "ideal_ok": false,
+    "hla_ok": false,
+    "delay_ok": false,
+    "HLA_elevation_weak_frozen": true,
+    "local_delay_ms_scale_frozen": true,
+    "branch_table_status_counts": {
+      "OBSERVABLE_BRANCH": 1,
+      "NOT_OBSERVABLE": 1
+    }
+  },
+  "created_utc": "2026-09-21T06:06:52.832098+00:00",
+  "b1_status": "PERMANENTLY_CLOSED",
+  "stop": "no B2 / RC3-C / P5; no further B1.x",
+  "frozen_positive": [
+    "S0 continuous broadband local delay ~5ms, PSL acceptable in window when properly measured",
+    "S1/S2 sparse lines globally ambiguous",
+    "HLA elevation projection weak"
+  ],
+  "revoked": [
+    "B1_MMAC_PHYSICS_CONFIRMED from R3-B1.2 (invalid delay-only Fisher / possible branch swap)",
+    "delay-only CRB with n_obs=3 at M=2",
+    "any Fisher using shoot-fill without continuation continuity"
+  ]
+}
