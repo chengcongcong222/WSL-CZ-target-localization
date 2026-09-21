@@ -1,0 +1,21 @@
+{
+  "package": "R3_B1_MMAC_observability",
+  "created_utc": "2026-09-21T02:08:15.582906+00:00",
+  "coords": {
+    "array_axis": "x-hat a",
+    "theta_rel": "horizontal LOS vs array axis (not global theta0)",
+    "phi": "elevation from horizontal, 0=horizontal",
+    "u": "cos(theta_rel)*cos(phi) — HLA spatial observation",
+    "mirror": "u(+phi)=u(-phi) — HLA cannot separate sign of elevation from phase alone"
+  },
+  "r3a1_erratum": "beta_align_search is empirical alignment score, not physical beta; fidelity from beta_local≈0.959 vs beta_true≈1.001 and range err≈0.02 km",
+  "gate0": "if 14m/70m cannot resolve typical first-CZ Delta-u → HLA_ELEVATION_PROJECTION_WEAK",
+  "stop": [
+    "no MC RMSE",
+    "no RC2 hard pairs",
+    "no RC3-C",
+    "no P5",
+    "no Bellhop",
+    "no new features"
+  ]
+}

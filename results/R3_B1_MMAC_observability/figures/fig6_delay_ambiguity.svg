@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380">
+<rect width="760" height="380" fill="#f7f4ef"/>
+<text x="380.0" y="26" text-anchor="middle" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="600">图6  源条件时延可观测性（主瓣宽 ms）</text>
+<rect x="70" y="48" width="550" height="272" fill="#fff" stroke="#ccc"/>
+<rect x="74.0" y="116.4" width="48.9" height="203.6" fill="#b45309"/>
+<rect x="257.3" y="48.0" width="48.9" height="272.0" fill="#b45309"/>
+<rect x="440.7" y="58.2" width="48.9" height="261.8" fill="#b45309"/>
+<text x="80.0" y="336" font-size="10" fill="#333" font-family="sans-serif"></text>
+<rect x="135.1" y="319.7" width="48.9" height="0.5" fill="#8a8a8a"/>
+<rect x="318.4" y="319.7" width="48.9" height="0.5" fill="#8a8a8a"/>
+<rect x="501.8" y="319.7" width="48.9" height="0.5" fill="#8a8a8a"/>
+<text x="100.0" y="336" font-size="10" fill="#333" font-family="sans-serif"></text>
+<text x="161.7" y="338" text-anchor="middle" font-size="11" font-family="sans-serif">S0</text>
+<text x="345.0" y="338" text-anchor="middle" font-size="11" font-family="sans-serif">S1</text>
+<text x="528.3" y="338" text-anchor="middle" font-size="11" font-family="sans-serif">S2</text>
+<rect x="628" y="56" width="12" height="3" fill="#b45309"/>
+<text x="644" y="60" font-size="10" font-family="sans-serif">mainlobe ms</text>
+<rect x="628" y="72" width="12" height="3" fill="#8a8a8a"/>
+<text x="644" y="76" font-size="10" font-family="sans-serif">sidelobe</text>
+<text x="70" y="372" font-size="10" fill="#777" font-family="sans-serif">S2 可能周期模糊，不默认最优  ylab=ms / ratio</text></svg>

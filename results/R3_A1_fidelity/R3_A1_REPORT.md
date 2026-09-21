@@ -16,6 +16,8 @@ Paper repro passed but E-STD beta_eff NON_CONSTANT (median=0.8235755194946945, I
 
 ## 2. 论文条件复现（PE-WI）
 
+> **R3-A1 收口勘误（文字，不重跑）**：`beta_align_search=2.2` 是条纹对齐评分中的**经验最优参数**，不作为物理 β 估计值。方法保真主要依据：`beta_local≈0.959` 对 `beta_true≈1.001`，以及距离峰值复现误差 ≈0.02 km。判定保持 `A1-NOT-DIRECTLY-TRANSFERABLE`：经典常数 β 模型不能直接迁移到 E-STD；广义/局部 β 条纹整类方法降为后备，不关闭。
+
 | β_true | β_local | β_align | r误差 peak/count/pl | 评分峰宽 | pass |
 | --- | --- | --- | --- | --- | --- |
 | 1.0013 | 0.9594 | 2.2000 | 0.020 / 1.257 / -5.160 | 0.493 | β:True r:True |

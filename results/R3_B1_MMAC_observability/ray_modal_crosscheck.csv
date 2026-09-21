@@ -1,0 +1,5 @@
+﻿r_km,n_ray_branches,ray_tau_min_s,ray_tau_max_s,ray_tau_span_s,shoot_n_coarse,shoot_n_fine,shoot_stable,shoot_tau_max_diff_s,note
+45.0,8,30.026252672669006,30.688826188439126,0.66257351577012,8,8,True,7.811308855565358e-05,ray-modal identity not forced; only order-of-magnitude tau structure
+50.0,11,33.330977309796495,35.021476980584076,1.690499670787581,11,11,True,0.0007263528940910646,ray-modal identity not forced; only order-of-magnitude tau structure
+55.0,10,36.65353580356944,38.161411622127495,1.5078758185580554,10,10,True,0.0018561000131853689,ray-modal identity not forced; only order-of-magnitude tau structure
+60.0,10,39.95527012856392,41.26395593696698,1.3086858084030624,10,10,True,0.01255391445585019,ray-modal identity not forced; only order-of-magnitude tau structure

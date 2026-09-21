@@ -1,0 +1,4 @@
+﻿source,n_freqs,effective_bandwidth_Hz,amb_mainlobe_width_s,amb_sidelobe_max,crb_sigma_tau_s,periodic_ambiguity_risk,delay_usable,note
+S0,23,235.00483554019206,0.2982,0.4964808349270524,0.00023460321322941465,False,False,S2 multi-line can create periodic delay ambiguity; do not assume best
+S1,5,186.31070822687568,0.39840000000000003,0.4996524926456676,0.0002959190594404395,False,False,S2 multi-line can create periodic delay ambiguity; do not assume best
+S2,5,209.9668545270896,0.3834,0.49985338502952864,0.00026257901356076203,False,False,S2 multi-line can create periodic delay ambiguity; do not assume best

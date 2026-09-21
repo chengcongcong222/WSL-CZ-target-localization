@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380">
+<rect width="760" height="380" fill="#f7f4ef"/>
+<text x="380.0" y="26" text-anchor="middle" font-family="-apple-system,PingFang SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="600">图1  受控MMAC：CRB_r（km）角度/时延/联合</text>
+<rect x="70" y="48" width="550" height="272" fill="#fff" stroke="#ccc"/>
+<rect x="74.0" y="320.0" width="36.7" height="0.5" fill="#0f766e"/>
+<rect x="257.3" y="320.0" width="36.7" height="0.5" fill="#0f766e"/>
+<rect x="440.7" y="320.0" width="36.7" height="0.5" fill="#0f766e"/>
+<text x="80.0" y="336" font-size="10" fill="#333" font-family="sans-serif"></text>
+<rect x="119.8" y="320.0" width="36.7" height="0.5" fill="#b45309"/>
+<rect x="303.2" y="320.0" width="36.7" height="0.5" fill="#b45309"/>
+<rect x="486.5" y="320.0" width="36.7" height="0.5" fill="#b45309"/>
+<text x="100.0" y="336" font-size="10" fill="#333" font-family="sans-serif"></text>
+<rect x="165.7" y="48.0" width="36.7" height="272.0" fill="#8a8a8a"/>
+<rect x="349.0" y="48.0" width="36.7" height="272.0" fill="#8a8a8a"/>
+<rect x="532.3" y="48.0" width="36.7" height="272.0" fill="#8a8a8a"/>
+<text x="120.0" y="336" font-size="10" fill="#333" font-family="sans-serif"></text>
+<text x="161.7" y="338" text-anchor="middle" font-size="11" font-family="sans-serif">θ=0°</text>
+<text x="345.0" y="338" text-anchor="middle" font-size="11" font-family="sans-serif">θ=30°</text>
+<text x="528.3" y="338" text-anchor="middle" font-size="11" font-family="sans-serif">θ=60°</text>
+<rect x="628" y="56" width="12" height="3" fill="#0f766e"/>
+<text x="644" y="60" font-size="10" font-family="sans-serif">IDEAL elev+delay</text>
+<rect x="628" y="72" width="12" height="3" fill="#b45309"/>
+<text x="644" y="76" font-size="10" font-family="sans-serif">HLA u+delay</text>
+<rect x="628" y="88" width="12" height="3" fill="#8a8a8a"/>
+<text x="644" y="92" font-size="10" font-family="sans-serif">delay only</text>
+<text x="70" y="372" font-size="10" fill="#777" font-family="sans-serif">IDEAL成立而HLA弱 → B1_PHYSICS_ONLY_HLA_LIMITED  ylab=CRB_r km</text></svg>
