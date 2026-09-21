@@ -1,0 +1,26 @@
+{
+  "package": "R3_C1_1_fidelity",
+  "created_utc": "2026-09-21T09:42:20.014012+00:00",
+  "supersedes": "C1_PAPER_REPRO_PASS_CZ_NOT_TRANSFERABLE",
+  "anchor": "Zhu et al. 2023 JASA-EL 3(9):096003 — bottom HLA, endfire moving source, I'=I*R^2, Q_F on s=sin(theta)",
+  "paper_geom": {
+    "H_m": 900.0,
+    "z_s_m": 55.0,
+    "f_hz": 100.0,
+    "r_lo_m": 800.0,
+    "r_hi_m": 2400.0,
+    "fourier_peak_paper_m": 62.0,
+    "matched_peak_paper_m": 54.0
+  },
+  "metrics": {
+    "pair_D": "D_abs = 1 - |corr|  (NOT 1-corr when matcher uses |corr|)",
+    "fwhm": "contiguous FWHM around global maximum",
+    "old_qf": "SUPERSEDED_SIMPLIFICATION (template corr)"
+  },
+  "stop": [
+    "no Yang 2015",
+    "no C2",
+    "no P5",
+    "no new methods"
+  ]
+}

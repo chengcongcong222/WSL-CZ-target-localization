@@ -1,0 +1,137 @@
+{
+  "rc3c1_1_decision": "C1_PAPER_REPRO_PASS_CZ_NOT_TRANSFERABLE",
+  "why": "Zhu-faithful paper-condition PASSED, but first-CZ E-STD still lacks narrow depth peaks / pair separability: mean local FWHM=91.7 m, PSL=0.47, pair D_abs frac=0.67, mean D=0.148. Near-neighbour z 180/200/220 remain weakly separated. This is a CZ-scenario transfer result, not a premature method kill.",
+  "next_step": "close Zhu route for this CZ; next RC3-C candidate in order: Yang 2015 SA beamforming (not this round)",
+  "notes": {
+    "paper_pass": true,
+    "paper_detail": {
+      "passF": true,
+      "passM": false,
+      "sep": true,
+      "metF": {
+        "z_hat": 56.0,
+        "peak": 1.0,
+        "fwhm_local_m": 22.0,
+        "fwhm_global_span_m": 22.0,
+        "psl": 0.4922929635743795,
+        "n_competing_peaks": 0,
+        "imax": 36
+      },
+      "metM": {
+        "z_hat": 55.0,
+        "peak": 0.9999999999999999,
+        "fwhm_local_m": 4.0,
+        "fwhm_global_span_m": 17.0,
+        "psl": 0.8168244000129826,
+        "n_competing_peaks": 2,
+        "imax": 35
+      },
+      "metFs": {
+        "z_hat": 26.0,
+        "peak": 0.9999999999999857,
+        "fwhm_local_m": 11.0,
+        "fwhm_global_span_m": 55.0,
+        "psl": 0.9009287569162947,
+        "n_competing_peaks": 2,
+        "imax": 6
+      },
+      "metMs": {
+        "z_hat": 74.0,
+        "peak": 0.13606774916995648,
+        "fwhm_local_m": 5.0,
+        "fwhm_global_span_m": 64.0,
+        "psl": 0.8474138639243677,
+        "n_competing_peaks": 3,
+        "imax": 54
+      }
+    },
+    "C-S0": "METHOD_NOT_APPLICABLE_WITHOUT_TRACKABLE_LINE",
+    "metric_pair": "D=1-|corr|",
+    "metric_fwhm": "contiguous around global max",
+    "cz_mean_fwhm_m": 91.66666666666667,
+    "cz_mean_psl": 0.47216686543305236,
+    "cz_frac_fwhm_lt_40m": 0.0,
+    "cz_focus_180_200_220": [
+      {
+        "z_true_m": 180.0,
+        "z_hat_m": 260.0,
+        "err_z_m": 80.0,
+        "fwhm_local_m": 120.0,
+        "psl": 0.0
+      },
+      {
+        "z_true_m": 180.0,
+        "z_hat_m": 180.0,
+        "err_z_m": 0.0,
+        "fwhm_local_m": 44.0,
+        "psl": 0.8605675085594535
+      },
+      {
+        "z_true_m": 200.0,
+        "z_hat_m": 140.0,
+        "err_z_m": -60.0,
+        "fwhm_local_m": 120.0,
+        "psl": 0.0
+      },
+      {
+        "z_true_m": 200.0,
+        "z_hat_m": 200.0,
+        "err_z_m": 0.0,
+        "fwhm_local_m": 74.0,
+        "psl": 0.9771847208670924
+      },
+      {
+        "z_true_m": 220.0,
+        "z_hat_m": 260.0,
+        "err_z_m": 40.0,
+        "fwhm_local_m": 120.0,
+        "psl": 0.0
+      },
+      {
+        "z_true_m": 220.0,
+        "z_hat_m": 220.0,
+        "err_z_m": 0.0,
+        "fwhm_local_m": 72.0,
+        "psl": 0.9952489631717683
+      }
+    ],
+    "pair_mean_D_abs": 0.147915246744988,
+    "pair_frac_D_abs_gt_0p05": 0.6666666666666666,
+    "pair_rows": [
+      {
+        "f_hz": 235.0,
+        "T_s": 600.0,
+        "z_i_m": 180.0,
+        "z_j_m": 200.0,
+        "corr": -0.7452916412839312,
+        "D_abs_1minus_abs_corr": 0.2547083587160688,
+        "distinguishable_D_abs_gt_0p05": true,
+        "metric_note": "D=1-|corr| (matcher uses |corr|)"
+      },
+      {
+        "f_hz": 235.0,
+        "T_s": 600.0,
+        "z_i_m": 180.0,
+        "z_j_m": 220.0,
+        "corr": -0.8177415512708064,
+        "D_abs_1minus_abs_corr": 0.1822584487291936,
+        "distinguishable_D_abs_gt_0p05": true,
+        "metric_note": "D=1-|corr| (matcher uses |corr|)"
+      },
+      {
+        "f_hz": 235.0,
+        "T_s": 600.0,
+        "z_i_m": 200.0,
+        "z_j_m": 220.0,
+        "corr": 0.9932210672102985,
+        "D_abs_1minus_abs_corr": 0.006778932789701542,
+        "distinguishable_D_abs_gt_0p05": false,
+        "metric_note": "D=1-|corr| (matcher uses |corr|)"
+      }
+    ]
+  },
+  "created_utc": "2026-09-21T09:42:20.014012+00:00",
+  "supersedes": "C1_PAPER_REPRO_PASS_CZ_NOT_TRANSFERABLE",
+  "stop": "after R3-C1.1; no Yang/C2/P5",
+  "b1": "PERMANENTLY_CLOSED B1_NO_STABLE_MULTIPATH_IDENTITY"
+}

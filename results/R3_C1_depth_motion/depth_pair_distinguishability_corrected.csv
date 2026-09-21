@@ -1,0 +1,4 @@
+﻿f_hz,T_s,z_i_m,z_j_m,corr,D_abs_1minus_abs_corr,distinguishable_D_abs_gt_0p05,metric_note
+235.0,600.0,180.0,200.0,-0.7452916412839312,0.2547083587160688,True,D=1-|corr| (matcher uses |corr|)
+235.0,600.0,180.0,220.0,-0.8177415512708064,0.1822584487291936,True,D=1-|corr| (matcher uses |corr|)
+235.0,600.0,200.0,220.0,0.9932210672102985,0.006778932789701542,False,D=1-|corr| (matcher uses |corr|)

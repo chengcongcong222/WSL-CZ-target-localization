@@ -1,0 +1,5 @@
+﻿method,source_case,z_true_m,z_hat_m,err_z_m,fwhm_local_m,fwhm_global_span_m,psl,n_competing_peaks,paper_fourier_ref_m,paper_matched_ref_m,old_implementation
+QF_fourier_zhu,submerged_55m,55.0,56.0,1.0,22.0,22.0,0.4922929635743795,0,62.0,54.0,SUPERSEDED_SIMPLIFICATION
+QM_matched_zhu,submerged_55m,55.0,55.0,0.0,4.0,17.0,0.8168244000129826,2,62.0,54.0,SUPERSEDED_SIMPLIFICATION
+QF_fourier_zhu,surface,0.0,26.0,26.0,11.0,55.0,0.9009287569162947,2,62.0,54.0,SUPERSEDED_SIMPLIFICATION
+QM_matched_zhu,surface,0.0,74.0,74.0,5.0,64.0,0.8474138639243677,3,62.0,54.0,SUPERSEDED_SIMPLIFICATION

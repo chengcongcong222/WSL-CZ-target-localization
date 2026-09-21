@@ -1,0 +1,3 @@
+﻿method,our_peak_submerged_m,paper_peak_m,delta_vs_paper_m,our_fwhm_m,our_psl,surface_peak_m,submerged_vs_surface_separated
+QF_fourier_zhu,56.0,62.0,-6.0,22.0,0.4922929635743795,26.0,True
+QM_matched_zhu,55.0,54.0,1.0,4.0,0.8168244000129826,74.0,True
