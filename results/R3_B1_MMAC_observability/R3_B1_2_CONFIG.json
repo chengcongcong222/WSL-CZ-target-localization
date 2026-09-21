@@ -1,0 +1,34 @@
+{
+  "package": "R3_B1_2_final",
+  "created_utc": "2026-09-21T04:24:50.929091+00:00",
+  "grid": {
+    "r_km": [
+      49.0,
+      49.5,
+      50.0,
+      50.5,
+      51.0
+    ],
+    "z_s_m": [
+      190.0,
+      195.0,
+      200.0,
+      205.0,
+      210.0
+    ],
+    "center": [
+      50.0,
+      200.0
+    ]
+  },
+  "admit_tol_m": 0.1,
+  "branch_rule": "topology + continuous launch/phi/tau/turning across r AND z_s; cover center ± neighbors only",
+  "delay_rule": "S0_DENSE: PSL outside first-null of central peak; S1/S2: existing multipath peaks",
+  "ray_modal": "NOT_VALIDATED unless complex H used; abs(H) IFFT forbidden",
+  "stop": [
+    "no B2",
+    "no RC3-C",
+    "no P5",
+    "no new methods"
+  ]
+}

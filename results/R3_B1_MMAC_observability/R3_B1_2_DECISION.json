@@ -1,0 +1,51 @@
+{
+  "rc3b1_2_decision": "B1_MMAC_PHYSICS_CONFIRMED",
+  "why": "2D stable branches + HLA+delay Fisher + S0 global delay usable.",
+  "next_step": "eligible for B2 later (not this round)",
+  "notes": {
+    "n_branch_ids": 8,
+    "n_jac_ready": 2,
+    "n_eligible_2d": 2,
+    "n_center": 2,
+    "S0_DENSE_psl": 0.21720242688437139,
+    "S0_DENSE_status": "GLOBAL_DELAY_USABLE_IN_TEST_WINDOW",
+    "S1_status": "GLOBAL_AMBIGUOUS",
+    "S2_status": "GLOBAL_AMBIGUOUS",
+    "S0_local_ms": 5.20000000000001,
+    "fish_ideal_crb_r_m": 90.64434099232672,
+    "fish_ideal_crb_z_m": 1.0424848140946068,
+    "fish_ideal_rank": 2,
+    "fish_ideal_corr": -0.9999885825508489,
+    "fish_ideal_sv_min": 5.462660757879962e-05,
+    "fish_hla_crb_r_m": 3553.8839402329977,
+    "fish_hla_crb_z_m": 40.86905939735556,
+    "fish_hla_rank": 2,
+    "fish_hla_corr": -0.9999999925693552,
+    "fish_hla_sv_min": 2.3474836755518595e-06,
+    "fish_delay_crb_r_m": 102.23037022792411,
+    "fish_delay_crb_z_m": 1.175893831154125,
+    "fish_delay_rank": 2,
+    "fish_delay_corr": -0.999991046920806,
+    "fish_delay_sv_min": 2.3474836755518595e-06,
+    "ideal_ok": true,
+    "hla_ok": true,
+    "delay_ok": true,
+    "ray_modal": "COMPLEX_H_USED",
+    "HLA_elevation_weak_frozen": true,
+    "center_branches": [
+      "R0",
+      "R1"
+    ],
+    "fd_branch_sets": [
+      "[\"R0\", \"R1\"]"
+    ]
+  },
+  "created_utc": "2026-09-21T04:35:40.295705+00:00",
+  "stop": "after R3-B1.2; no B2/RC3-C/P5",
+  "frozen_from_b1_1": [
+    "HLA elevation projection weak",
+    "local delay mainlobe ms-scale; old 300-400ms revoked",
+    "eigenray residual <= 0.1 m",
+    "S0_DENSE local delay usable; S1/S2 globally ambiguous"
+  ]
+}

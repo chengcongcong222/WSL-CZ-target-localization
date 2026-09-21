@@ -1,0 +1,9 @@
+﻿branch_id,topology,n_cells,r_vals_km,zs_vals_m,has_center,cover_center,cover_r_neighbor,cover_z_neighbor,cover_plus_r,cover_minus_r,cover_plus_z,cover_minus_z,jac_ready,eligible_2d,launch_drift_deg,phi_drift_deg,tau_drift_s,max_residual_m
+R0,refracted,25,"[49.0, 49.5, 50.0, 50.5, 51.0]","[190.0, 195.0, 200.0, 205.0, 210.0]",True,True,True,True,True,True,True,True,True,True,1.7395833333333344,1.8505241666326666,0.6624492292611706,0.09798259319251201
+R1,surface_bounce,12,"[49.0, 49.5, 50.0, 50.5, 51.0]","[190.0, 195.0, 200.0, 205.0, 210.0]",True,True,True,True,False,False,True,True,True,True,27.674479166666664,16.748084142539103,1.1274529120804502,0.09861705982609692
+R2,surface_bounce,12,"[49.0, 49.5, 50.0, 50.5, 51.0]","[190.0, 195.0, 210.0]",False,False,True,True,False,False,False,True,False,False,0.46028645833333215,0.4734195559209269,0.6486342340703004,0.09891516938358791
+R3,surface_bounce,11,"[49.0, 49.5, 50.0, 50.5, 51.0]","[190.0, 195.0, 200.0, 205.0, 210.0]",False,False,True,True,True,True,True,True,False,False,0.5169270833333339,0.4631285515470793,0.6462619330278372,0.08077544559583316
+R4,surface_bounce,4,"[49.5, 50.0, 50.5]","[200.0, 205.0]",False,False,True,True,False,True,True,False,False,False,9.7890625,9.784752269060924,0.850033647142439,0.09255806628158325
+R5,surface_bounce,1,[50.0],[205.0],False,False,False,True,False,False,True,False,False,False,0.0,0.0,0.0,0.06780327559010857
+R6,surface_bounce,9,"[49.0, 49.5, 50.5, 51.0]","[190.0, 195.0, 200.0, 205.0, 210.0]",False,False,True,True,False,False,False,False,False,False,10.072265625,10.083562493794563,0.7959750735766917,0.08627357613465847
+R7,surface_bounce,1,[50.5],[205.0],False,False,True,True,False,False,False,False,False,False,0.0,0.0,0.0,0.09541466264857945
