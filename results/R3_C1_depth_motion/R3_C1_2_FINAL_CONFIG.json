@@ -1,0 +1,22 @@
+{
+  "package": "R3_C1_2_FINAL_INTEGRITY",
+  "created_utc": "2026-09-22T03:02:17.181130+00:00",
+  "fixes": [
+    "true HLA endfire beamforming B=|w^H p|^2 with steering vector",
+    "multifreq: per-freq unit-norm demean; D=1-mean_f|corr_f|",
+    "fixed spatial sampling dr=5/10/20 m convergence",
+    "FULL_WINDOW_UNRESOLVED when FWHM fills search window"
+  ],
+  "groups": {
+    "A": "single+235",
+    "B": "HLA14m beam+235",
+    "C": "single+multi",
+    "D": "HLA beam+multi"
+  },
+  "stop": [
+    "no new methods",
+    "no C1.x after this",
+    "no Yang this round",
+    "no P5"
+  ]
+}
