@@ -1,0 +1,5 @@
+﻿f_hz,old_n_modes,phys_n_modes,old_median_dk,phys_median_dk,old_phi_m_span_180_220,phys_phi_m_span_180_220,old_phi_f_dependence,artifact_flags
+201.0,15,400,1.717497091524578e-05,0.0005924459139815541,0.0015350543074218203,4.144218596822394e-17,NONE (phi built from gamma only),phi identical across f in old model → depth signature f-invariance is ARTIFACT_OF_SIMPLIFIED_MODEMODEL
+235.0,15,400,1.4689764599895572e-05,0.000701802786383876,0.0015350543074218203,7.323164448898205e-17,NONE (phi built from gamma only),phi identical across f in old model → depth signature f-invariance is ARTIFACT_OF_SIMPLIFIED_MODEMODEL
+283.0,15,400,1.219799177654135e-05,0.0008522844343521463,0.0015350543074218203,8.869274148581394e-16,NONE (phi built from gamma only),phi identical across f in old model → depth signature f-invariance is ARTIFACT_OF_SIMPLIFIED_MODEMODEL
+338.0,15,400,1.0212987679225627e-05,0.0010222903527195015,0.0015350543074218203,9.17793944985848e-16,NONE (phi built from gamma only),phi identical across f in old model → depth signature f-invariance is ARTIFACT_OF_SIMPLIFIED_MODEMODEL

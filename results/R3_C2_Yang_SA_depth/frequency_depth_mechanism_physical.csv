@@ -1,0 +1,5 @@
+﻿f_hz,C1_corr_200_220,phys_n_eff_0p1,phys_n_eff_0p2,phys_D_200_220,phys_D_200_210,C1_338_explanation,note
+201.0,0.579,31,8,0.2220812848678595,0.3813657825773895,PARTIALLY_EXPLAINED,some f-dependence in physical mode depth vectors; check mode count/spacing columns
+235.0,0.994,41,14,0.42371023363572125,0.41686974003844735,PARTIALLY_EXPLAINED,some f-dependence in physical mode depth vectors; check mode count/spacing columns
+283.0,1.0,28,12,0.47777087467724033,0.2858286384399107,PARTIALLY_EXPLAINED,some f-dependence in physical mode depth vectors; check mode count/spacing columns
+338.0,0.067,27,13,0.6711041750241682,0.3618339187394721,PARTIALLY_EXPLAINED,some f-dependence in physical mode depth vectors; check mode count/spacing columns

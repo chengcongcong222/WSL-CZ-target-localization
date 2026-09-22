@@ -1,0 +1,50 @@
+{
+  "rc3c2_0r_decision": "C2_0_PAPER_RECOVERY_BLOCKED",
+  "why": "Yang 2015 framework confirmed at high level; 2018 Erratum exact formula still NOT_RECOVERED (PubMed/AIP/Crossref unreachable). No Yang formulas invented. Physical 1D normal-mode baseline built for future C2 validity. Old ModeModel f-invariant phi is ARTIFACT; η Fourier gate is Rayleigh-scale only.",
+  "next_step": "recover Yang2015+Erratum exact formulas, then re-evaluate C2 with physical modes",
+  "notes": {
+    "literature": "framework OK; erratum formulas NOT_RECOVERED",
+    "old_model_artifact": "phi_m(z) f-independent → identical D across 201/235/283/338 in C2.0",
+    "fourier_gate_wording": "2.4 km insufficient under Fourier/Rayleigh criterion — NOT a fundamental Yang limit",
+    "C1_338_explanation": "PARTIALLY_EXPLAINED",
+    "C1_338_note": "some f-dependence in physical mode depth vectors; check mode count/spacing columns",
+    "phys_D_200_220_by_f": {
+      "201.0": 0.2220812848678595,
+      "235.0": 0.42371023363572125,
+      "283.0": 0.47777087467724033,
+      "338.0": 0.6711041750241682
+    },
+    "L_eta1": [
+      {
+        "f_hz": 201.0,
+        "median_dk": 0.00022443601317512218,
+        "L_eta1_median_m": 27995.441632965398,
+        "L_eta1_p10_m": 7380.809876193186,
+        "L_eta1_p90_m": 58470.701777590395
+      },
+      {
+        "f_hz": 235.0,
+        "median_dk": 0.00017852599987827622,
+        "L_eta1_median_m": 35194.79129910281,
+        "L_eta1_p10_m": 7864.003079569927,
+        "L_eta1_p90_m": 62747.86574034514
+      },
+      {
+        "f_hz": 283.0,
+        "median_dk": 0.00027190278115529765,
+        "L_eta1_median_m": 23108.205368414147,
+        "L_eta1_p10_m": 8355.789649021042,
+        "L_eta1_p90_m": 70008.97832253811
+      },
+      {
+        "f_hz": 338.0,
+        "median_dk": 0.0002929053357368927,
+        "L_eta1_median_m": 21451.24905755751,
+        "L_eta1_p10_m": 9840.795995269189,
+        "L_eta1_p90_m": 58196.25228012
+      }
+    ]
+  },
+  "created_utc": "2026-09-22T06:33:52.618776+00:00",
+  "stop": "no full Yang / Doppler / f0 error / MC / P5"
+}
