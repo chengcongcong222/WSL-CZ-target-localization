@@ -1,0 +1,53 @@
+{
+  "rc3c2_0r_fix_decision": "C2_0R_MODE_BASELINE_VALIDATED",
+  "why": "Operator sign corrected; constant-c test PASS (k_r exact, subspace covers sin(γ_n z)); assert k_r≤ω/c_min PASS; 2001/4001 converged. Erratum recovered (δ). C1_338=NOT_EXPLAINED. Prior R3-C2.0R D/L_eta1/338 numbers SUPERSEDED_PENDING→_fixed.",
+  "next_step": "no full Yang / δ-z search / Doppler / f0 / MC / P5",
+  "erratum": "RECOVERED: g=b_m φ_m(z_r) exp(i k_m δ)",
+  "unit_test_pass": true,
+  "grid_convergence_ok": true,
+  "C1_338_explanation": "NOT_EXPLAINED",
+  "fr_table": [
+    {
+      "f_hz": 201.0,
+      "C1_corr_200_220": 0.579,
+      "n_propagating": 1206,
+      "n_eff_0p2": 105,
+      "phys_D_200_220": 0.9420337687664633,
+      "phys_D_200_210": 0.9161837689908995,
+      "max_k_r": 0.8418808171562576,
+      "kr_max_allowed": 0.8419468311620646
+    },
+    {
+      "f_hz": 235.0,
+      "C1_corr_200_220": 0.994,
+      "n_propagating": 1436,
+      "n_eff_0p2": 101,
+      "phys_D_200_220": 0.9390570173699108,
+      "phys_D_200_210": 0.93475526479214,
+      "max_k_r": 0.984299680952022,
+      "kr_max_allowed": 0.9843656981248018
+    },
+    {
+      "f_hz": 283.0,
+      "C1_corr_200_220": 1.0,
+      "n_propagating": 1793,
+      "n_eff_0p2": 104,
+      "phys_D_200_220": 0.9149688636129663,
+      "phys_D_200_210": 0.985506316760958,
+      "max_k_r": 1.1853616076551463,
+      "kr_max_allowed": 1.1854276279545486
+    },
+    {
+      "f_hz": 338.0,
+      "C1_corr_200_220": 0.067,
+      "n_propagating": 2292,
+      "n_eff_0p2": 99,
+      "phys_D_200_220": 0.9380293109798903,
+      "phys_D_200_210": 0.9488637254341699,
+      "max_k_r": 1.4157450664868356,
+      "kr_max_allowed": 1.4158110892178002
+    }
+  ],
+  "yang_main_equations": "YANG_MAIN_EQUATIONS_PARTIAL",
+  "created_utc": "2026-09-22T08:07:38.691452+00:00"
+}
