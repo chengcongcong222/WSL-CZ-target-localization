@@ -1,0 +1,2 @@
+﻿plane_wave_endfire,w_correct,w_wrong_old,out_correct_steering,out_wrong_steering,out_broadside,out_anti_plane_wave,phase_slope_expected_rad_per_2m,unit_test_pass
+p_m=exp(-j k0 x_m),exp(-j k0 x_m)/N,exp(+j k0 x_m)/N,1.0,3.2241134417795544e-05,0.02251239159061721,3.2241134417795544e-05,-1.9687313962496036,True

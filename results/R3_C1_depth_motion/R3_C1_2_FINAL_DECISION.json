@@ -1,96 +1,99 @@
 {
   "rc3c1_2_final_decision": "C1_QM_MULTIFREQ_ONLY_CONDITIONAL",
-  "why": "FINAL-INTEGRITY passed (real endfire B=|w^H p|^2 differs from unsteered; unified D=1-mean_f|corr_f|; dr=10m converged). 10 m pairs (200/210) inseparable at all T (D~0.001–0.003 << 0.05). 20 m pair (200/220) only limited multifreq gain at T=1200s (D_D=0.260 vs A~0.006) while FWHM stays 63–80 m. 10 m not reached; 20 m weak/conditional only. Not reliable 10–20 m depth discrimination under known-track ceiling.",
-  "next_step": "Zhu route PERMANENTLY_CLOSED after this gate; Yang 2015 next (not this round)",
+  "why": "HLA increment still weak (ΔD220_600=0.0000). Multifreq long-track 20 m signal holds under sampling (D220_T1200=0.340, conv_stable=True); 10 m still not separable (D210=0.0090). Frequency-selective depth cue (e.g. 338 Hz) noted — aligns with Yang modal-depth idea.",
+  "next_step": "Zhu route PERMANENTLY_CLOSED; Yang 2015 modal synthetic aperture next (not this round)",
   "notes": {
-    "beam_steered_differs": "True",
+    "unit_test": {
+      "plane_wave_endfire": "p_m=exp(-j k0 x_m)",
+      "w_correct": "exp(-j k0 x_m)/N",
+      "w_wrong_old": "exp(+j k0 x_m)/N",
+      "out_correct_steering": 1.0,
+      "out_wrong_steering": 3.2241134417795544e-05,
+      "out_broadside": 0.02251239159061721,
+      "out_anti_plane_wave": 3.2241134417795544e-05,
+      "phase_slope_expected_rad_per_2m": -1.9687313962496036,
+      "unit_test_pass": true
+    },
+    "steering": "CORRECTED w_m=exp(-j k0 x_m)",
     "stats_T600": {
       "A": {
         "mean_fwhm": 47.8,
         "frac_full": 0.0,
-        "D_200_210": 0.003092018090518067,
-        "D_200_220": 0.006724881500635216,
-        "pair_frac": 0.5,
-        "mean_D": 0.13525984484497267
+        "D_200_210": 0.003092018090518,
+        "D_200_220": 0.0067248815006352,
+        "pair_frac": 0.5
       },
       "B": {
         "mean_fwhm": 47.8,
         "frac_full": 0.0,
-        "D_200_210": 0.003060223365232151,
-        "D_200_220": 0.006666482504573357,
-        "pair_frac": 0.3333333333333333,
-        "mean_D": 0.1352125354317315
+        "D_200_210": 0.0030920246599942525,
+        "D_200_220": 0.0067248940718934724,
+        "pair_frac": 0.5
       },
       "C": {
         "mean_fwhm": 80.0,
         "frac_full": 1.0,
-        "D_200_210": 0.0012003740740533786,
-        "D_200_220": 0.009307019033525932,
-        "pair_frac": 0.3333333333333333,
-        "mean_D": 0.035986844808763
+        "D_200_210": 0.0012003740740533,
+        "D_200_220": 0.0093070190335259,
+        "pair_frac": 0.3333333333333333
       },
       "D": {
         "mean_fwhm": 80.0,
         "frac_full": 1.0,
-        "D_200_210": 0.0011939049052258621,
-        "D_200_220": 0.009345774001961682,
-        "pair_frac": 0.3333333333333333,
-        "mean_D": 0.035990326549554384
+        "D_200_210": 0.0012003755507714597,
+        "D_200_220": 0.009307016731321616,
+        "pair_frac": 0.3333333333333333
       }
     },
     "stats_T1200": {
       "A": {
         "mean_fwhm": 64.2,
         "frac_full": 0.0,
-        "D_200_210": 0.002296583359001736,
-        "D_200_220": 0.006232328540802912,
-        "pair_frac": 0.3333333333333333,
-        "mean_D": 0.04069485163645244
+        "D_200_210": 0.0022965833590017,
+        "D_200_220": 0.0062323285408029,
+        "pair_frac": 0.3333333333333333
       },
       "B": {
         "mean_fwhm": 64.2,
         "frac_full": 0.0,
-        "D_200_210": 0.002281960334343691,
-        "D_200_220": 0.006200467280076616,
-        "pair_frac": 0.3333333333333333,
-        "mean_D": 0.040478149745810155
+        "D_200_210": 0.0022965861588480907,
+        "D_200_220": 0.006232335334245387,
+        "pair_frac": 0.3333333333333333
       },
       "C": {
         "mean_fwhm": 76.6,
         "frac_full": 0.8,
-        "D_200_210": 0.008977813842033111,
-        "D_200_220": 0.34014513061390717,
-        "pair_frac": 0.3333333333333333,
-        "mean_D": 0.11173696115829862
+        "D_200_210": 0.0089778138420331,
+        "D_200_220": 0.3401451306139071,
+        "pair_frac": 0.3333333333333333
       },
       "D": {
         "mean_fwhm": 76.6,
         "frac_full": 0.8,
-        "D_200_210": 0.009021486589256278,
-        "D_200_220": 0.3422338211115028,
-        "pair_frac": 0.3333333333333333,
-        "mean_D": 0.11233286690734888
+        "D_200_210": 0.008977809064180775,
+        "D_200_220": 0.34014498301657714,
+        "pair_frac": 0.3333333333333333
       }
     },
-    "hla_helps": false,
-    "multifreq_helps": false,
-    "D_200_210": {
-      "A": 0.003092018090518067,
-      "B": 0.003060223365232151,
-      "C": 0.0012003740740533786,
-      "D": 0.0011939049052258621
+    "hla_increment_600": {
+      "dD_200_220": 1.257125827221206e-08,
+      "dD_200_210": 6.569476252490242e-09,
+      "dFWHM": 0.0
     },
-    "D_200_220": {
-      "A": 0.006724881500635216,
-      "B": 0.006666482504573357,
-      "C": 0.009307019033525932,
-      "D": 0.009345774001961682
+    "hla_increment_1200": {
+      "dD_200_220": 6.793442486503765e-09,
+      "dFWHM": 0.0
     },
-    "depth_resolution_bound": "10 m 未达到；20 m 仅多频且 T=1200 s 时弱可分（D≈0.34）",
-    "dr_final_m": 10.0,
-    "metric": "D=1-mean_f|corr_f| unit-norm per freq",
-    "T1200_D_200_220": 0.259648468482795
+    "D_vs_C_T1200": {
+      "dD_200_220": -1.4759732996916242e-07,
+      "dD_200_210": -4.777852325582588e-09
+    },
+    "T1200_D_200_220": 0.34014498301657714,
+    "T1200_D_200_210": 0.008977809064180775,
+    "sampling_conv_stable": true,
+    "A_C_frozen": "kept from previous final (single-channel)"
   },
   "Zhu_route": "PERMANENTLY_CLOSED",
-  "created_utc": "2026-09-22T03:19:50.624847+00:00"
+  "created_utc": "2026-09-22T03:47:21.743561+00:00",
+  "stop": "no C1.x after this; Yang next not this round; no P5"
 }
