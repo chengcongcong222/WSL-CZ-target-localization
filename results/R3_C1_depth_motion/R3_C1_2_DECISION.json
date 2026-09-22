@@ -1,0 +1,97 @@
+{
+  "rc3c1_2_decision": "C1_QM_CZ_DEPTH_WEAK",
+  "why": "Four QM groups fail to separate 200±10/20 m clearly on first CZ. A: FWHM=47.8m D200/210=0.0031 D200/220=0.0068; D joint: FWHM=80.0m D200/210=0.0002 D200/220=0.0018; HLA help=False, multifreq help=False. Known-track ceiling already optimistic.",
+  "next_step": "permanently close Zhu-QM route; proceed to Yang 2015 modal synthetic aperture next (not this round)",
+  "notes": {
+    "QF": "CLOSED",
+    "stats_T600": {
+      "A": {
+        "mean_fwhm": 47.8,
+        "mean_psl": 0.9193900669003504,
+        "mean_abs_err": 0.0,
+        "pair_D_mean": 0.1361310966438907,
+        "pair_frac": 0.5,
+        "D_200_210": 0.003116061982161855,
+        "D_200_220": 0.006777802199671057
+      },
+      "B": {
+        "mean_fwhm": 47.8,
+        "mean_psl": 0.9193894118764783,
+        "mean_abs_err": 0.0,
+        "pair_D_mean": 0.13613066254046594,
+        "pair_frac": 0.5,
+        "D_200_210": 0.003116285295551635,
+        "D_200_220": 0.006778219776966465
+      },
+      "C": {
+        "mean_fwhm": 80.0,
+        "mean_psl": 0.0,
+        "mean_abs_err": 0.0,
+        "pair_D_mean": 0.014053328396193165,
+        "pair_frac": 0.0,
+        "D_200_210": 0.006806356625471688,
+        "D_200_220": 0.030733905736708533
+      },
+      "D": {
+        "mean_fwhm": 80.0,
+        "mean_psl": 0.0,
+        "mean_abs_err": 0.0,
+        "pair_D_mean": 0.0005858228073846358,
+        "pair_frac": 0.0,
+        "D_200_210": 0.0001763116131390241,
+        "D_200_220": 0.0017716366347492185
+      }
+    },
+    "stats_T1200": {
+      "A": {
+        "mean_fwhm": 64.2,
+        "mean_psl": 0.7863912824304927,
+        "mean_abs_err": 0.0,
+        "pair_D_mean": 0.041059634427336976,
+        "pair_frac": 0.3333333333333333,
+        "D_200_210": 0.002332576839710221,
+        "D_200_220": 0.00633124321738876
+      },
+      "B": {
+        "mean_fwhm": 64.2,
+        "mean_psl": 0.7863871753651838,
+        "mean_abs_err": 0.0,
+        "pair_D_mean": 0.04106184793162574,
+        "pair_frac": 0.3333333333333333,
+        "D_200_210": 0.00233267685602645,
+        "D_200_220": 0.006331471033943603
+      },
+      "C": {
+        "mean_fwhm": 76.6,
+        "mean_psl": 0.122181382962399,
+        "mean_abs_err": 0.0,
+        "pair_D_mean": 0.014505549055663184,
+        "pair_frac": 0.0,
+        "D_200_210": 0.007091362715789806,
+        "D_200_220": 0.032278590304416155
+      },
+      "D": {
+        "mean_fwhm": 76.6,
+        "mean_psl": 0.1217581220782834,
+        "mean_abs_err": 0.0,
+        "pair_D_mean": 0.0018960071007940356,
+        "pair_frac": 0.0,
+        "D_200_210": 0.0007781387745385837,
+        "D_200_220": 0.005386013242690613
+      }
+    },
+    "hla_helps": false,
+    "multifreq_helps": false,
+    "joint_helps": false,
+    "fwhm_200m_D_T600": 80.0,
+    "D_200_210_D": 0.0001763116131390241,
+    "D_200_220_D": 0.0017716366347492185,
+    "depth_resolution_bound_m": null,
+    "known_track_ceiling": true
+  },
+  "created_utc": "2026-09-22T02:32:48.390339+00:00",
+  "Zhu_route": "PERMANENTLY_CLOSED after this gate",
+  "QF": "CLOSED (direct transfer)",
+  "stop": "no C1.x, no Yang this round, no P5",
+  "b1": "PERMANENTLY_CLOSED"
+}
