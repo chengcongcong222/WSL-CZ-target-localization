@@ -1,0 +1,19 @@
+{
+  "package": "R3_C2_Yang_SA_depth / R3_C2_0",
+  "created_utc": "2026-09-22T05:17:48.914782+00:00",
+  "anchor": {
+    "yang2015": "T.C. Yang, JASA 138(3) 1678-1686 (2015), DOI 10.1121/1.4929748",
+    "erratum": "JASA 144(6) 3075 (2018), DOI 10.1121/1.5081712",
+    "retrieval": "network fetch of PubMed/AIP blocked (cookies/transport) — erratum content NOT recovered"
+  },
+  "f0_condition": "KNOWN_F0 / KNOWN_TRUE_RANGE_INCREMENT (physics ceiling only)",
+  "aperture_note": "L = |r(t_end)-r(t_start)| radial range change, NOT total track length",
+  "eta": "eta_m = L |k_r,m+1-k_r,m| / (2π); Δk_SA ≈ 2π/L",
+  "stop": [
+    "no full Yang estimator",
+    "no Doppler error",
+    "no f0 error",
+    "no MC",
+    "no P5"
+  ]
+}
