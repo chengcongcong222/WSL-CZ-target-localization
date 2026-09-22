@@ -1,7 +1,7 @@
 {
-  "rc3c1_2_final_decision": "C1_QM_CZ_DEPTH_WEAK",
-  "why": "FINAL-INTEGRITY: real endfire B=|w^H p|^2 (differs=True), unified D=1-mean|corr_f|, dr=10.0m; 200±10/20 m still weak. T=600 A D210=0.0031 D220=0.0067 FWHM=47.8; D D210=0.0012 D220=0.0093 FWHM=80.0; hla_help=False multi_help=False. 在已测10/20 m近邻内未达到可用分辨. Known-track ceiling.",
-  "next_step": "Zhu PERMANENTLY_CLOSED; Yang 2015 next (not this round)",
+  "rc3c1_2_final_decision": "C1_QM_MULTIFREQ_ONLY_CONDITIONAL",
+  "why": "FINAL-INTEGRITY passed (real endfire B=|w^H p|^2 differs from unsteered; unified D=1-mean_f|corr_f|; dr=10m converged). 10 m pairs (200/210) inseparable at all T (D~0.001–0.003 << 0.05). 20 m pair (200/220) only limited multifreq gain at T=1200s (D_D=0.260 vs A~0.006) while FWHM stays 63–80 m. 10 m not reached; 20 m weak/conditional only. Not reliable 10–20 m depth discrimination under known-track ceiling.",
+  "next_step": "Zhu route PERMANENTLY_CLOSED after this gate; Yang 2015 next (not this round)",
   "notes": {
     "beam_steered_differs": "True",
     "stats_T600": {
@@ -86,9 +86,10 @@
       "C": 0.009307019033525932,
       "D": 0.009345774001961682
     },
-    "depth_resolution_bound": "在已测10/20 m近邻内未达到可用分辨",
+    "depth_resolution_bound": "10 m 未达到；20 m 仅多频且 T=1200 s 时弱可分（D≈0.34）",
     "dr_final_m": 10.0,
-    "metric": "D=1-mean_f|corr_f| unit-norm per freq"
+    "metric": "D=1-mean_f|corr_f| unit-norm per freq",
+    "T1200_D_200_220": 0.259648468482795
   },
   "Zhu_route": "PERMANENTLY_CLOSED",
   "created_utc": "2026-09-22T03:19:50.624847+00:00"
