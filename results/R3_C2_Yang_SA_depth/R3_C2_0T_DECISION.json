@@ -1,0 +1,100 @@
+{
+  "rc3c2_0t_decision": "C2_0T_CLUSTER_NOT_CONVERGED",
+  "why": "Cluster subspaces 4001↔8001 not fully stable. C1_338=NOT_EXPLAINED",
+  "next_step": "stop; no full Yang / δ-z / Doppler / f0 / MC / P5",
+  "C1_338": "NOT_EXPLAINED",
+  "cluster_converged": false,
+  "recovery_L2p4": [
+    {
+      "f_hz": 201.0,
+      "L_m": 2400.0,
+      "v_r_T600": 4.0,
+      "v_r_T1200": 2.0,
+      "n_clusters_injected": 13,
+      "n_clusters_observed": 1,
+      "n_resolved_single": 1,
+      "n_resolved_cluster": 0,
+      "n_spurious": 1
+    },
+    {
+      "f_hz": 235.0,
+      "L_m": 2400.0,
+      "v_r_T600": 4.0,
+      "v_r_T1200": 2.0,
+      "n_clusters_injected": 12,
+      "n_clusters_observed": 1,
+      "n_resolved_single": 1,
+      "n_resolved_cluster": 0,
+      "n_spurious": 0
+    },
+    {
+      "f_hz": 283.0,
+      "L_m": 2400.0,
+      "v_r_T600": 4.0,
+      "v_r_T1200": 2.0,
+      "n_clusters_injected": 11,
+      "n_clusters_observed": 1,
+      "n_resolved_single": 1,
+      "n_resolved_cluster": 0,
+      "n_spurious": 0
+    },
+    {
+      "f_hz": 338.0,
+      "L_m": 2400.0,
+      "v_r_T600": 4.0,
+      "v_r_T1200": 2.0,
+      "n_clusters_injected": 10,
+      "n_clusters_observed": 1,
+      "n_resolved_single": 1,
+      "n_resolved_cluster": 0,
+      "n_spurious": 0
+    }
+  ],
+  "freq": [
+    {
+      "f_hz": 201.0,
+      "C1_corr_200_220": 0.579,
+      "D_obs_coh_200_220": 0.0,
+      "D_obs_energy_200_220": 0.0,
+      "D_oracle_cluster_200_220": 0.2717962905525412,
+      "D_oracle_mode_200_220": 0.44387361544637094,
+      "n_clusters_observed": 1.0,
+      "n_resolved_cluster": 0.0,
+      "n_resolved_single": 1.0
+    },
+    {
+      "f_hz": 235.0,
+      "C1_corr_200_220": 0.994,
+      "D_obs_coh_200_220": 0.0,
+      "D_obs_energy_200_220": 0.0,
+      "D_oracle_cluster_200_220": 0.01610244554634843,
+      "D_oracle_mode_200_220": 0.4453940574279469,
+      "n_clusters_observed": 1.0,
+      "n_resolved_cluster": 0.0,
+      "n_resolved_single": 1.0
+    },
+    {
+      "f_hz": 283.0,
+      "C1_corr_200_220": 1.0,
+      "D_obs_coh_200_220": 0.0,
+      "D_obs_energy_200_220": 0.0,
+      "D_oracle_cluster_200_220": 0.013500351330909877,
+      "D_oracle_mode_200_220": 0.46074038348081825,
+      "n_clusters_observed": 1.0,
+      "n_resolved_cluster": 0.0,
+      "n_resolved_single": 1.0
+    },
+    {
+      "f_hz": 338.0,
+      "C1_corr_200_220": 0.067,
+      "D_obs_coh_200_220": 0.0,
+      "D_obs_energy_200_220": 0.0,
+      "D_oracle_cluster_200_220": 0.025454120501299582,
+      "D_oracle_mode_200_220": 0.49012941168830504,
+      "n_clusters_observed": 1.0,
+      "n_resolved_cluster": 0.0,
+      "n_resolved_single": 1.0
+    }
+  ],
+  "created_utc": "2026-09-23T05:44:11.953337+00:00"
+}

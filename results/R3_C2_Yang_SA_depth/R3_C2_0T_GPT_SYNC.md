@@ -1,0 +1,7 @@
+# R3-C2.0T
+
+**C2_0T_CLUSTER_NOT_CONVERGED**
+
+Cluster subspaces 4001↔8001 not fully stable. C1_338=NOT_EXPLAINED
+
+C1_338=NOT_EXPLAINED
