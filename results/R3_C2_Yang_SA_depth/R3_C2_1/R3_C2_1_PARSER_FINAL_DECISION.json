@@ -1,0 +1,13 @@
+{
+  "rc3c2_1_parser_final_decision": "C2_1_PARSER_VALIDATED",
+  "why": "12/12 case ok=True, missing=[], zgrid_cover=True, cross-zs consistent=True, MODE_COUNT_DISCREPANCY_283=True. phi now read only NMat complex from real depth record (no linspace fallback).",
+  "superseded": {
+    "C2_1_YANG_FORMULA_BLOCKED": "route undetermined; parser was not OK",
+    "C2_1_YANG_APERTURE_LIMITED": "SUPERSEDED",
+    "parser_status_was": "C2_1_KRAKEN_PARSER_FAIL"
+  },
+  "k_block": "RECOVERED for 201/235/338 (checksum pass); 283 MODE_COUNT_DISCREPANCY",
+  "yang": "NOT EVALUATED THIS ROUND",
+  "created_utc": "2026-09-23T08:12:42.907979+00:00",
+  "stop": "no Yang/AR/δ/Doppler/f0/MC/P5"
+}

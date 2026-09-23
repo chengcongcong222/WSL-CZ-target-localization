@@ -1,0 +1,17 @@
+﻿f_hz,zs,header_ok,depth_ok,M_ok,k_checksum_ok,phi_ok,overall_ok,M_mod,M_prt,MODE_COUNT_DISCREPANCY,case
+201.0,180.0,True,True,True,True,True,True,641,641.0,False,
+201.0,200.0,True,True,True,True,True,True,641,641.0,False,
+201.0,220.0,True,True,True,True,True,True,641,641.0,False,
+235.0,180.0,True,True,True,True,True,True,749,749.0,False,
+235.0,200.0,True,True,True,True,True,True,749,749.0,False,
+235.0,220.0,True,True,True,True,True,True,749,749.0,False,
+283.0,180.0,True,True,True,True,True,True,902,903.0,True,
+283.0,200.0,True,True,True,True,True,True,902,903.0,True,
+283.0,220.0,True,True,True,True,True,True,902,903.0,True,
+338.0,180.0,True,True,True,True,True,True,1078,1078.0,False,
+338.0,200.0,True,True,True,True,True,True,1078,1078.0,False,
+338.0,220.0,True,True,True,True,True,True,1078,1078.0,False,
+201.0,200.0,True,True,True,True,True,True,641,,,zgrid
+235.0,200.0,True,True,True,True,True,True,749,,,zgrid
+283.0,200.0,True,True,True,True,True,True,902,,,zgrid
+338.0,200.0,True,True,True,True,True,True,1078,,,zgrid
