@@ -1,0 +1,12 @@
+OpenAlex main: abs_len=1252 oa={'is_oa': False, 'oa_status': 'closed', 'oa_url': None, 'any_repository_has_fulltext': False}
+OpenAlex erratum: abs_len=0 oa={'is_oa': False, 'oa_status': 'closed', 'oa_url': None, 'any_repository_has_fulltext': False}
+unpaywall_main: OK 938
+unpaywall_err: OK 1106
+crossref_main: OK 7362
+crossref_err: OK 2979
+eupmc_main: OK 3500
+eupmc_err: OK 2191
+PDF hindawi_liang: ERR HTTP Error 403: Forbidden
+PDF wiley_liang: ERR HTTP Error 403: Forbidden
+PDF aip_main_guess1: ERR HTTP Error 403: Forbidden
+PDF aip_err_guess1: ERR HTTP Error 403: Forbidden

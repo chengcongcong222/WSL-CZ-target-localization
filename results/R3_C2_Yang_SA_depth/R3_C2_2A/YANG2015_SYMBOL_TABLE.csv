@@ -1,0 +1,13 @@
+﻿symbol,definition,evidence,status,open_questions
+"k_m / k_{r,m}",modal horizontal wavenumber,Erratum + abstract framework,NAME_ONLY,spectral peak location of g; NOT a recovered equation definition
+phi_m(z),mode depth function from nominal environment,abstract: mode depth functions from nominal sound speed and bottom profile,NAME_ONLY,which normalization (unit peak / flux / etc.) NOT_RECOVERED
+b_m,"modal coefficient multiplying phi_m(z_r) in g(k_m,z_r)",Erratum form g = b_m phi_m(z_r) exp(i k_m delta),SYMBOL_PRESENT_FACTORS_UNKNOWN,"whether includes phi_m(z_s), 1/sqrt(k_m), source level, attenuation, range spreading, other mode factors: NOT_RECOVERED"
+delta δ,initial range offset: δ = r1 − r1_data = r2 − r2_data,Erratum 2018 (prior recovery note + protocol restatement),RECOVERED_FROM_ERRATUM,"enters g as exp(i k_m δ); changes depth ambiguity, not wavenumber spectral density; δ=0 ↔ original simulation/data processing synchronization; joint vs staged search with z: NOT_RECOVERED"
+z_r,receiver depth,framework,NAME_ONLY,
+z_s / source depth,estimated parameter,framework,NAME_ONLY,
+f0,original CW frequency used with Doppler for aperture increment,abstract,ABSTRACT_ONLY,exact Doppler–Δr formula NOT_RECOVERED
+Δr(t) / range increment,synthetic aperture sample coordinate (radial range change),abstract: range increment determined by Doppler,ABSTRACT_ONLY,exact integration variable in Eq.(1) NOT_RECOVERED
+PLL,phase locked loop removing fast random phase,abstract,ABSTRACT_ONLY,input/output equations NOT_RECOVERED
+"g(k_m, z_r)",beam/spectral output at modal wavenumber for assumed or true z_r,Erratum-corrected form only,ERRATUM_FORM,"whether g is complex beam output, spectral amplitude, or normalized modal coefficient: NOT_RECOVERED"
+beam output,observable used for depth estimation,abstract,ABSTRACT_ONLY,exact mathematical object compared to phi_m(z) NOT_RECOVERED
+source level / unknown amplitude,nuisance amplitude of CW source,not mentioned in abstract,NOT_RECOVERED,normalization / relative amplitudes / analytic cancel / correlation ambiguity: NOT_RECOVERED

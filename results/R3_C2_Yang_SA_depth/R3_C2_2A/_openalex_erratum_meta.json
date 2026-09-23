@@ -1,0 +1,26 @@
+{
+  "title": "Erratum: Source depth estimation based on synthetic aperture beamforming for a moving source [J. Acoust. Soc. Am. 138 , 1678–1686 (2015)]",
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "has_fulltext": false,
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "locations": [
+    {
+      "pdf_url": null,
+      "landing": "https://doi.org/10.1121/1.5081712",
+      "is_oa": false
+    },
+    {
+      "pdf_url": null,
+      "landing": "https://pubmed.ncbi.nlm.nih.gov/30599696",
+      "is_oa": false
+    }
+  ]
+}

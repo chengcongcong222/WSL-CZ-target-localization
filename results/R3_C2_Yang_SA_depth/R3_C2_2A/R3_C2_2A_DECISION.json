@@ -1,0 +1,74 @@
+{
+  "stage": "R3-C2.2A",
+  "rc3c2_2a_decision": "C2_2A_PRIMARY_FORMULA_NOT_RECOVERED",
+  "why": "Yang 2015 Eq.(1)–Eq.(9) 全文未取得（closed access；官方 PDF/落地页 403；OpenAlex/Unpaywall 无仓库全文；CORE/仅元数据）。摘要仅提供方法框架。Erratum 提供 g(k_m,z_r)=b_m φ_m(z_r) exp(i k_m δ) 的修正形式及 δ 定义，并指出影响 Eq.(1)(5)(6)(9)，但不恢复主文全部原式。b_m 分解、深度 ambiguity Eq.(6)/(9)、SA 求和核、source-level 处理均为 NOT_RECOVERED。未重构任何 estimator。",
+  "three_state": {
+    "kraken_data_baseline": "C2_1_PARSER_VALIDATED",
+    "yang_formula_recovery": "YANG_FORMULA_RECOVERY_PARTIAL",
+    "yang_route_in_E_STD": "YANG_ROUTE_UNDECIDED"
+  },
+  "allowed_terminal_only": [
+    "C2_2A_FORMULA_RECOVERED",
+    "C2_2A_PRIMARY_FORMULA_NOT_RECOVERED"
+  ],
+  "not_done": [
+    "new Yang simulation",
+    "APERTURE_LIMITED / DEPTH_AMBIGUOUS verdicts",
+    "close Yang candidate",
+    "delta scan",
+    "Doppler error sim",
+    "Monte Carlo",
+    "AR methods",
+    "P5",
+    "KRAKEN new scenarios",
+    "z_hat/FWHM/PSL",
+    "self-built estimator from abstract/secondary"
+  ],
+  "equation_recovery_summary": {
+    "Eq.(1)": "NOT_RECOVERED",
+    "Eq.(2)": "NOT_RECOVERED",
+    "Eq.(3)": "NOT_RECOVERED",
+    "Eq.(4)": "NOT_RECOVERED",
+    "Eq.(5)": "ERRATUM_CORRECTED_FORM_ONLY",
+    "Eq.(6)": "NOT_RECOVERED",
+    "Eq.(7)": "NOT_RECOVERED",
+    "Eq.(8)": "NOT_RECOVERED",
+    "Eq.(9)": "NOT_RECOVERED"
+  },
+  "key_locks": {
+    "A_eq1_sa_sum_steering": "NOT_RECOVERED",
+    "B_eq5_g_form": "ERRATUM_FORM_ONLY",
+    "C_eq6_depth_ambiguity": "NOT_RECOVERED",
+    "D_eq9_relation": "NOT_RECOVERED",
+    "b_m_factorization": "NOT_RECOVERED",
+    "observable_object": "NOT_RECOVERED",
+    "source_level_nuisance": "NOT_RECOVERED",
+    "delta_search_strategy": "NOT_RECOVERED"
+  },
+  "created_utc": "2026-09-23T08:46:33.049990+00:00",
+  "retrieval": {
+    "doi_main": "10.1121/1.4929748",
+    "doi_erratum": "10.1121/1.5081712",
+    "pmid_main": "26428805",
+    "pmid_erratum": "30599696",
+    "openalex_main": "closed; has_fulltext=false; has_content.pdf=false; any_repository_has_fulltext=false",
+    "unpaywall_main": "is_oa=false; oa_status=closed; has_repository_copy=false; oa_locations=[]",
+    "unpaywall_erratum": "is_oa=false; oa_status=closed; has_repository_copy=false",
+    "semantic_scholar": "openAccessPdf empty/CLOSED; abstract elided by publisher",
+    "crossref_pdf_main": "https://pubs.aip.org/asa/jasa/article-pdf/138/3/1678/15317235/1678_1_online.pdf -> HTTP 403",
+    "crossref_pdf_erratum": "https://pubs.aip.org/asa/jasa/article-pdf/144/6/3075/14737039/3075_1_online.pdf -> HTTP 403",
+    "aip_landing": "HTTP 403",
+    "pubmed_html": "cookie wall",
+    "europepmc": "abstract only; hasPDF=N; inPMC=N; Subscription required",
+    "core": "totalHits=1 metadata only; fullText Not available for public API users",
+    "researchgate_282528816": "HTTP 403",
+    "hindawi_liang_7824671_pdf": "HTTP 403 (secondary literature)",
+    "wiley_liang_pdf": "HTTP 403 (secondary literature)",
+    "local_user_pdfs": "none matching yang/4929748/5081712/JASA",
+    "sci_hub": "NOT USED (unauthorized redistribution)",
+    "abstract_main_recovered": true,
+    "abstract_erratum_recovered": false,
+    "eq_1_to_9_fulltext": "NOT_OBTAINED",
+    "erratum_formula_text_this_session": "NOT_REOBTAINED_FROM_PDF; forms carried from prior recovery note + protocol/user restatement"
+  }
+}

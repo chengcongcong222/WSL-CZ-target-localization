@@ -86,16 +86,18 @@
     <section>
       <h2>研究主线状态（R3 重锚定后）</h2>
       <div class="verdict">
-        <strong>RC3-C / Yang SA 预关口（R3-C2.1）</strong>：已改用成熟 <strong>KRAKEN</strong>（AT Win10），
-        判定 <code>C2_1_PARSER_VALIDATED</code>（.mod 解析终审；K-BLOCK 已恢复，φ 按 NMat 真实深度；不评价 Yang）（L≤2.4 km 理想径向孔径下峰组/深度峰不足）。
-        Yang 公式 <code>YANG_FORMULA_RECOVERY_PARTIAL</code>（δ=0）。
-        自研模态求解器：<strong>NOT ADMISSIBLE</strong>（停止继续研发）。
+        <strong>三态分离</strong>：KRAKEN 数据基线 <code>C2_1_PARSER_VALIDATED</code>；
+        Yang 公式恢复 <code>YANG_FORMULA_RECOVERY_PARTIAL</code>；
+        Yang 在 E-STD 可用性 <code>YANG_ROUTE_UNDECIDED</code>。
+        R3-C2.2A 判定 <code>C2_2A_PRIMARY_FORMULA_NOT_RECOVERED</code>（Eq.(1)–(9) 主文全文未取得；仅 Erratum 给出 g 修正形式；未补 estimator）。
+        自研模态求解器：<strong>NOT ADMISSIBLE</strong>。
+        283 Hz：<code>MODE_COUNT_DISCREPANCY</code>（M_mod=902 / M_prt=903）。
         C1_338：<code>NOT_EXPLAINED</code>。
       </div>
       <p class="note">
-        结果目录：<code>results/R3_C2_Yang_SA_depth/R3_C2_1/</code> ·
-        详见 <code>R3_C2_1_REPORT.md</code> / <code>R3_C2_1_DECISION.json</code>。
-        不进入 δ/Doppler/f0/MC/P5。
+        结果目录：<code>results/R3_C2_Yang_SA_depth/R3_C2_2A/</code> ·
+        详见 <code>R3_C2_2A_REPORT.md</code> / <code>R3_C2_2A_DECISION.json</code>。
+        不跑算法、不评价 APERTURE/DEPTH、不关闭 Yang、不进 P5。
       </p>
     </section>
 
