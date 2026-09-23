@@ -1,0 +1,19 @@
+{
+  "rc3c2_1_fix_decision": "C2_1_YANG_FORMULA_BLOCKED",
+  "why": "Parser OK; multiple peak groups appear (n_peaks={201.0: 2.0, 235.0: 3.0, 283.0: 0.0, 338.0: 3.0}) but YANG_FORMULA_RECOVERY_PARTIAL — cannot close Yang on self-made depth score alone.",
+  "next_step": "recover full Yang depth estimator equations before ADMISSION/DEPTH_AMBIGUOUS",
+  "superseded": "C2_1_YANG_APERTURE_LIMITED → SUPERSEDED_PENDING_PARSER_FIX → this fix",
+  "n_groups_L2p4": {
+    "201.0": 2.0,
+    "235.0": 3.0,
+    "283.0": 0.0,
+    "338.0": 3.0
+  },
+  "d220_fwhm": {
+    "201.0": 50.0,
+    "235.0": 50.0,
+    "283.0": NaN,
+    "338.0": 50.0
+  },
+  "created_utc": "2026-09-23T07:54:09.501452+00:00"
+}
