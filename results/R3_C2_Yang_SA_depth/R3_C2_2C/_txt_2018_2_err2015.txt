@@ -1,0 +1,49 @@
+--- page 1 ---
+Erratum: Source depth estimation based on synthetic aperture beamforming for a
+moving source [J. Acoust. Soc. Am. 138, 1678–1686 (2015)]
+T. C. Yang
+Citation: The Journal of the Acoustical Society of America 144, 3075 (2018); doi: 10.1121/1.5081712
+View online: https://doi.org/10.1121/1.5081712
+View Table of Contents: http://asa.scitation.org/toc/jas/144/6
+Published by the Acoustical Society of America
+--- page 2 ---
+Erratum: Source depth estimation based on synthetic aperture
+beamforming for a moving source [J. Acoust. Soc. Am. 138,
+1678–1686 (2015)]
+T. C.Y anga)
+College of Information Science and Electronic Engineering, Zhejiang University, Hangzhou, 310058, China
+(Received 3 November 2018; accepted 13 November 2018; published online 4 December 2018)
+https://doi.org/10.1121/1.5081712
+[JFL] Page: 3075
+While it is not obvious, it was realized after the publica-
+tion of this paper that Eq. (1), the expression of synthetic
+array beamforming, has implicitly assumed that the range
+integration is synchronized with the range of the data, as is
+the case for the Hankel transform. In real data, as pointed
+out in Ref.1, the range of the data and the range of synthetic
+beamforming can differ by an “offset-range,” d ¼ r1
+/C0 rdata
+1 ¼ r2 /C0 rdata
+2 , where r1 and r2 are the ranges of syn-
+thetic beamforming or limits of the range integration, and
+rdata
+1 ; rdata
+2 are the (true) source ranges at the beginning and
+end of the data. In this case, the spectral peak atkr ¼ km is
+given by gðkm; zrÞ¼ bm/mðzrÞeikmd in contrast with Eq. (5)
+given in the paper. The phase eikmd has no effect on the
+wavenumber spectral density but does affect the depth ambi-
+guity function. The simulations and data analysis presented
+in the paper had assumed the use of Eq. (5), or thatd is zero.
+The statement in the conclusions that “The advantage of the
+proposed method, Eqs. (6) or (9), is that the source range is
+not known nor is it a required input” is not strictly correct.
+(This is the author’s error.) In processing real data, the
+source initial range, or range offsetd, needs to be searched
+for as in Ref.1.
+1T. C. Yang and W. Xu, “Data-based depth estimation of an incoming
+autonomous underwater vehicle,”J. Acoust. Soc. Am.140, EL302–EL306
+(2016).
+a)Electronic mail: tsihyang@gmail.com
+J. Acoust. Soc. Am.144 (6), December 2018 VC 2018 Acoustical Society of America 30750001-4966/2018/144(6)/3075/1/$30.00
+

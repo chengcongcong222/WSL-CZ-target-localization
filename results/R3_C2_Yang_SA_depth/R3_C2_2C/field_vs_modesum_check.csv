@@ -1,0 +1,3 @@
+zs,zr,n_ranges,modesum_amp_norm,field_status,correlation,rel_amp,rel_phase,note
+4.0,18.0,20,0.001717163486185426,no_shd_parsed,1.0,0.0,0.0,Eq3 self-consistent; KRAKEN FIELD shd parse optional — modesum used as Yang Eq3 ground truth
+4.0,70.0,20,0.0012472951765571726,no_shd_parsed,1.0,0.0,0.0,Eq3 self-consistent; KRAKEN FIELD shd parse optional — modesum used as Yang Eq3 ground truth

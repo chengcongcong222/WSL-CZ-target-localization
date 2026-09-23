@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+<text x="360" y="20" text-anchor="middle" font-size="14">Eq1 vs Eq5 relative complex error vs dr</text>
+<rect x="60" y="40" width="620" height="260" fill="none" stroke="#333"/>
+<polyline fill="none" stroke="#050" stroke-width="1.5" points="60.0,300.0 116.4,300.0 172.7,300.0 229.1,300.0 285.5,300.0 341.8,300.0 398.2,300.0 454.5,300.0 510.9,300.0 567.3,300.0 623.6,300.0 680.0,300.0"/>
+<polyline fill="none" stroke="#090" stroke-width="1.5" points="60.0,300.0 116.4,300.0 172.7,300.0 229.1,300.0 285.5,300.0 341.8,300.0 398.2,300.0 454.5,300.0 510.9,300.0 567.3,300.0 623.6,300.0 680.0,300.0"/>
+<polyline fill="none" stroke="#0130" stroke-width="1.5" points="60.0,300.0 116.4,300.0 172.7,300.0 229.1,300.0 285.5,300.0 341.8,300.0 398.2,300.0 454.5,300.0 510.9,300.0 567.3,300.0 623.6,300.0 680.0,300.0"/>
+<text x="360" y="340" text-anchor="middle" font-size="12">mode_id 1..12; lower=better</text></svg>

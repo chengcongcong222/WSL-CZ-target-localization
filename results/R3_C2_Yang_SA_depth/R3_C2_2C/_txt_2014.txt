@@ -1,0 +1,1406 @@
+--- page 1 ---
+Data-based matched-mode source localization for a moving
+source
+T. C. Y anga)
+Institute of Applied Marine Physics and Undersea Technology, National Sun Yat-sen University,
+Kaohsiung 80424, Taiwan
+(Received 2 September 2013; revised 7 January 2014; accepted 10 January 2014)
+A data-based matched-mode source localization method is proposed in this paper for a moving
+source, using mode wavenumbers and depth functions estimated directly from the data, without
+requiring any environmental acoustic information and assuming any propagation model. The
+method is in theory free of the environmental mismatch problem because the mode replicas are
+estimated from the same data used to localize the source. Besides the estimation error due to
+the approximations made in deriving the data-based algorithms, the method has some inherent
+drawbacks: (1) It uses a smaller number of modes than theoretically possible because some modes
+are not resolved in the measurements, and (2) the depth search is limited to the depth covered by the
+receivers. Using simulated data, it is found that the performance degradation due to the afore-mentioned
+approximation/limitation is marginal compared with the original m atched-mode source localization
+method. The proposed method has a potential to es timate the source range and depth for real data
+and be free of the environmental m ismatch problem, noting that certain aspects of the (estimation)
+algorithms have previously been tested against data. The key issues are discussed in this paper.
+VC 2014 Acoustical Society of America.[ http://dx.doi.org/10.1121/1.4863270]
+PACS number(s): 43.60.Kx, 43.60.Jn, 43.30.Wi [ZHM] Pages: 1218–1230
+I. INTRODUCTION
+Matched ﬁeld processing (MFP) was introduced some-
+times ago as a method to localize the source in range and
+depth using acoustic data received on a vertical line array
+(VLA).1 The received data are steered by the calculated ﬁeld
+(for an assumed source position) using a propagation model,
+referred to as the replica ﬁeld, given known sound speed and
+bottom proﬁles. Source location is determined by the peak of
+the range-depth ambiguity function where the calculated
+(replica) ﬁeld best matches the data ﬁeld.2,3 When the sound
+propagation is accurately modeled, as in a slowly varying
+environment, matched ﬁeld processing yields good source
+localization results.4 In a temporally varying, and range de-
+pendent environment, the results are not as good (i.e., in
+error) because the sound speed and bottom proﬁles are not
+exactly known as a function of range and time. Often there
+appear many high level sidelobes making the identiﬁcation
+of source location ambiguous. This is known as the environ-
+mental mismatch problem—due to sparse and not real time
+environmental measurements. One solution is to estimate the
+environmental parameters and source parameters simultane-
+ously based on the received data.5 The number of parameters
+that can be searched for is restricted by the independent
+degrees of freedom in the input data, limiting the search usu-
+ally to a range independent environment. Others have pro-
+posed modiﬁed (signal processing) methods designed
+to tolerate environmental mismatches. They include: (1)
+Using multiple neighboring location constraints6 or sound-
+speed perturbation constraints 7 to improve the robustness of
+the matched ﬁeld solution and (2) assigning a priori proba-
+bility distributions of the unknown source location and prop-
+agation parameters and then approximating the maximum
+a posteriori probability distribution of the source location,
+given the received data. 8 These methods generally involve
+intensive computations and address, to a large extent, the
+performance related to the main lobe (level and position uncer-
+tainty). In practice, the problemof incorrect source localization
+often comes from anomalous peaks (at locations far away
+from the true source range and depth) due to environmental
+mismatch, noise, and/or interference, etc., resulting in ﬂuctuat-
+ing and inconsistent answers over the measurement time. In
+other words, the robustness of the estimations is not assured.
+This aspect of the problem (the mismatch) may require an in-
+formation theoretical approach.9
+Source localization using normal mode theory has
+drawn much attention in shallow water applications due to
+the modal nature of sound propagation, particularly at low
+frequencies. Shang et al. pointed out that the source range
+can be estimated using the phase difference between the
+modes.10 Similarly, source depth can be estimated from the
+ratio of excitation of different modes or from the closure
+relation of normal modes given that source range has been
+estimated.11 Yang applied modal beamforming to the mode
+amplitudes, which were estimated by applying modal
+decomposition to the VLA data, 12 where to avoid mode
+estimation bias, he used eigenvector decomposition for the
+covariance matrix of the mode depth functions. This
+method can also be considered as matched mode processing
+(MMP) because the mode steering vector is the calculated
+mode amplitudes of the replica ﬁeld. The main difference
+(between this and earlier work) is that MMP produces an
+array gain13 (similar to MFP) to enhance the signal-to-noise
+a)Author to whom correspondence should be addressed. Electronic mail:
+tsihyang@gmail.com
+1218 J. Acoust. Soc. Am. 135 (3), March 2014 0001-4966/2014/135(3)/1218/13/$30.00 VC 2014 Acoustical Society of America
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17
+--- page 2 ---
+ratio (SNR), providing better estimates in low SNR cases.
+Source localization was demonstrated with Arctic data tak-
+ing advantage of its stable sound speed proﬁle. It was the
+ﬁrst published demonstration of matched mode/ﬁeld process-
+ing. One advantage of MMP is the mode ﬁlter, i.e., the
+ability to drop (ﬁlter) the modes that are sensitive to environ-
+mental mismatches at the expense of some (slight) degrada-
+tion in the array gain. (For example, in the Arctic case, one
+drops the high order modes that interact with the ice cover.)
+To assure the quality of mode decomposition and increase
+the array gain, a relatively large aperture VLA is usually
+used.
+For a review of the variety of MFP work before 1993,
+one is referred to Refs. 2 and 3 for comprehensive
+discussions.
+The vulnerability of MFP/MMP to environmental
+mismatches has suggested alternative approaches to source
+location that are model independent. A well-known model-
+independent approach is time reversal, which focuses the
+signal to the source position based on the probe signal emit-
+ted by the source.14 For passive detection, one uses a guide
+source (or a source of opportunity) as the probe source. 15–17
+In this case, one passive-conjugates the receiver data with
+the signal from the guide source to create “data” at a virtual
+receiver. The environmental dependence is reduced (largely
+removed) if the guide source is located at short distances to
+the target. In practice, the guide source is not always avail-
+able and is often located at a different depth than the target.
+In this paper, we present a model-independent approach
+to source localization and tracking, assuming a moving
+source. It is conducted in the mode domain using mode
+wavenumbers and depth functions directly estimated from
+the data without requiring any environmental information
+and assuming any propagation model. In the phone space, it
+is a model-independent MFP method. As the name implies,
+the main advantage of this method is that it is potentially
+free of the environmental mismatch problem and is applica-
+ble to (slowly) time-varying environments if the mode pa-
+rameters (wavenumbers and depth functions) are estimated
+from the data emitted from the target of interest—the target
+to be localized and tracked. One can also use data of oppor-
+tunity to estimate the modal parameters if the data come
+from a source in the proximity of the target (in range, depth,
+or time). The latter case will not be studied here.
+The method can also be applied to a reduced-aperture or
+sparsely populated VLA as is the case for MFP with a
+degraded performance (lower signal or array gain) with the
+following limitations: Only the source the depth of which is
+within the depth span of the receiving VLA can be localized,
+and the depth resolution is limited by the phone spacing, or
+the Cramer-Rao bound,18 whichever is larger. In contrast,
+the conventional MFP does not have the additional
+constraints.
+The paper is organized as follows. In Sec. II, one brieﬂy
+reviews the Hankel transform that was used to estimate the
+mode wavenumbers by integrating the narrowband signal
+(from a moving source) over range in a range independent or
+adiabatic environment. 19,20 The method is generalized in
+Sec. III to a VLA, without knowing the source range, to
+estimate the mode wavenumber and, in addition, the depth
+functions. The estimated mode wavenumbers and depth
+functions are then used to estimate the source location by
+matched mode/ﬁeld processing. One notes that the data-
+based generalized “Hankel” transform is an approximation
+of the original Hankel transform; as a result, the estimated
+wavenumbers and depth functions may not be accurate com-
+pared with the true values. The question is how the approxi-
+mation affects the source localization performance
+compared with the original matched mode/ﬁeld processing
+with no environmental mismatch. This issue is investigated
+using numerical simulations in a summer sound speed proﬁle
+(SSP) assuming long VLAs with different phone spacing. As
+is well known, source localization with a narrowband signal
+often suffers from the sidelobe problem, and the usual prac-
+tice (to overcome this problem) is to use a broadband signal.
+With this in mind, we propose a data-based broadband
+source localization method in Sec.IV. For coherent broad-
+band signals (with a well-deﬁned waveform), one can repeat
+the preceding processing for each frequency components, and
+sum the range and depth ambiguity functions. For practical
+applications, the more challenging and interesting problem is
+to localize a target using the broadband noise radiated by the
+target, which is random and incoherent in nature, and for
+which the Hankel transform does not work. Assuming that the
+target also radiates narrowband signals, from which one esti-
+mates the mode wavenumbers and depth functions at the
+given frequencies, we propose a data-based method for source
+localization using the incoherent broadband frequencies. To
+estimate the mode wavenumbers for the broadband frequency
+components, we use an interpolation formula based on the
+equation for the mode group velocity. To interpolate the mode
+depth functions between frequencies, we employ the WKB
+approximation for the mode depth functions. The approxima-
+tions are discussed, and the performance degradations are
+evaluated for the broadband case using simulation data. In
+Sec. VI, one studies the localization performance for a short
+VLA and its limitations. A short summary for the data-based
+approach is given in Sec.VI. This approach has a potential to
+be applied to real data. Signal processing issues for real data
+are discussed in this section.
+II. MODE WAVENUMBER ESTIMATION USING
+HANKEL TRANSFORM
+The Hankel transform provides a general theoretical
+framework for studying acoustic propagation due to a narrow-
+band point source in a horizontally stratiﬁed medium. The
+solution of the Helmholtz equation can be expressed as the
+zero-order Hankel transform of the depth-dependent Green’s
+function,gðkrÞ,g i v e nb y pðrÞ¼
+Ð1
+0 gðkrÞJ0ðkrrÞkrdkr and
+vice versa, gðkrÞ¼ Ð1
+0 pðrÞJ0ðkrrÞrdr,w h e r eJ0 is the Bessel
+function of order zero. 19,20 At large ranges, krr /C29 1, the
+Hankel transform can be approximated by a Fourier trans-
+form, given as follows:19,20
+pðrÞ/C24 e/C0 ip=4
+ﬃﬃﬃﬃﬃﬃﬃ ﬃ
+2pr
+p
+ð1
+0
+gðkrÞe/C0 kr r ﬃﬃﬃﬃ
+kr
+p
+dkr; krr /C29 1; r > 0;
+(1)
+J. Acoust. Soc. Am., Vol. 135, No. 3, March 2014 T. C. Y ang: Data-based source localization 1219
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17
+--- page 3 ---
+gðkrÞ/C24 eip=4
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃ2pkr
+p
+ð1
+0
+pðrÞeikrr ﬃﬃrp dr; krr /C29 1; kr > 0:
+(2)
+Using the normal mode representation for the pressure ﬁeld,
+pðr; zÞ¼
+XM
+m¼1
+AmðrÞ/mðzÞ;
+AmðrÞ¼
+ﬃﬃﬃﬃﬃﬃﬃ
+2p
+kmr
+r
+/mðzsÞe/C0 ikmr/C0 amr/C0 ip=4; (3)
+where km and am are the mode wavenumber and attenuation
+coefﬁcient, /m is the mode depth function, Am denotes the
+mode amplitude of the mth mode, and zs and z denote the
+source and receiver depth, respectively, one obtains for a ﬁ-
+nite range R,
+gðkrÞ/C24
+XM
+m¼1
+/mðzsÞ/mðzÞﬃﬃﬃﬃﬃﬃﬃﬃﬃkrkm
+p
+ðR
+0
+eiðkr/C0 km/C0 iamÞrdr
+’
+XM
+m¼1
+am
+/mðzsÞ/mðzÞ
+kr /C0 km /C0 iam
+; (4)
+where
+am ¼ eiðkr/C0 kmÞR/C0 amR /C0 1
+ikm
+: (5)
+It was observed that the modal wavenumber spectrum, given
+by Eq. (4), contains many peaks, which occur when the
+wavenumber equals the mode wavenumbers, noting that the
+mode attenuation is generally orders of magnitude smaller
+than the mode wavenumbers. Thus one can measure/estimate
+the mode wavenumbers from the peaks of the wavenumber
+spectrum by taking Fourier (wavenumber) transform of the
+pressure ﬁeld with respect to range. 19,20 The method has
+been generalized to weakly range dependent environments
+where adiabatic normal modes are valid and tested against
+experimental data in various ocean environments.19–21
+III. DATA-BASED MODAL BEAMFORMING
+To illustrate the data-based source localization method,
+we shall consider a range independent environment and
+assume that the source moves at a constant speed during the
+observation time. The source range is unknown, and its
+depth can be slowly changing with time; for the present dis-
+cussion, we shall assume it is at a ﬁxed depth. The source ge-
+ometry relative to the VLA is shown in Fig. 1. We assume
+that the source radiates narrowband tones (for narrowband
+source localization) and broadband noise-like signals
+(for broad band source localization). By Fourier analysis
+(using long time integration), one obtains a high resolution
+estimate of the Doppler shifts of the narrowband signals,
+from which one determines: (1) The radial speed of the tar-
+get, v ¼ CðDf =f Þ, where C is the average sound speed, Df is
+the Doppler shift, and f is the known source frequency; and
+(2) the radial range traveled (the distance traveled projected
+along the radial direction) over a time period T, DR ¼ vT.
+The data received by the VLA over time T are used to esti-
+mate the mode wavenumber and depth functions, which are
+assumed time-invariant during this period. To estimate the
+source range and depth, the data are divided into K blocks.
+For each block of data, one applies the data-based source
+localization algorithm to estimate the range and depth using
+the narrowband and/or broadband signal components. The
+results can be used to track the source range and depth as a
+function of time. The key issues are the accuracies of the
+estimated range and depth, and the (degree of) ambiguities
+of the estimation; for the latter one investigates the sidelobe-
+to-main lobe ratio of the ambiguity function.
+A. Estimation of the mode wavenumbers and mode
+depth functions
+Because the source range is unknown, one cannot use the
+wavenumber transform, Eq. (2), to estimate the mode wave-
+numbers. The modiﬁed equation to use is given as follows,
+/C22gðkr; zjÞ¼ eip=4
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃ2pkr
+p
+ðr2
+r1
+pðr; zjÞeikr rSðrÞdr; krr1 /C29 1; (6)
+where /C22g denotes the estimated Green’s function, pðr; zjÞ is a
+narrowband signal received on the jth receiver, r ¼ r1 þ vt,
+where t ¼ ti, for the ith block of data, r1 is the unknown ini-
+tial source range, and r2 ¼ r1 þ DR. The function S(r)i s
+intended to compensate for the spreading loss and will be
+determined from data using
+SðrÞ¼
+XN
+j¼1
+jpðr; zjÞj2 Dz
+2
+4
+3
+5
+/C0 1=2
+; (7)
+where Dz is the phone spacing. Given a large aperture VLA,
+one ﬁnds based on Eq. (3) and the mode orthogonality
+relation
+XN
+j¼1
+/mðzjÞ/lðzjÞDz ¼ dml; (8)
+FIG. 1. (Color online) The source track (solid line) relative to the VLA with
+an inset of the sound speed proﬁle.
+1220 J. Acoust. Soc. Am., Vol. 135, No. 3, March 2014 T. C. Y ang: Data-based source localization
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17
+--- page 4 ---
+that
+SðrÞ¼
+ﬃﬃﬃﬃﬃ ﬃr
+2p
+r XM
+m¼1
+/2
+mðzsÞ e/C0 2amr
+km
+"# /C0 1=2
+¼
+ﬃﬃﬃﬃﬃ ﬃr
+2p
+r
+~SðrÞ; (9)
+where, one notes that ~SðrÞ¼ ea1r1 ½PM
+m¼1 /2
+mðzsÞ e/C0 2ðam/C0 a1Þr1ð
+/C2 e/C0 2amðr/C0 r1Þ=kmÞ/C138/C0 1=2 varies slowly with respect to r and can
+be approximated by a constant because 0 /C20ð am /C0 a1Þr1 /C28 1
+and 0 /C20 amðr /C0 r1Þ/C20 amDR /C28 1 over the range span DR,
+hence e/C0 2ðam/C0 a1Þr1 e/C0 2amðr/C0 r1Þ ’ 1. Normalizing ~Sðr1Þ to unity,
+one ﬁnds
+/C22gðkr; zjÞ/C24
+XM
+m¼1
+/mðzsÞ/mðzjÞﬃﬃﬃﬃﬃﬃﬃﬃﬃkrkm
+p
+ðr2
+r1
+eiðkr /C0 km/C0 iamÞrdr
+¼
+XM
+m¼1
+am
+/mðzsÞ/mðzjÞ
+kr /C0 km /C0 iam
+; (10)
+where
+am ¼ eiðkr/C0 kmÞr2/C0 amr2 /C0 eiðkr /C0 kmÞr1/C0 amr1
+ikm
+: (11)
+One ﬁnds that for a large aperture VLA, approximating ~SðrÞ
+by a constant, Eq. (10) yields the same result as Eq. (4).I n
+practice, for a ﬁnite aperture VLA, ~SðrÞ is likely to oscil-
+late with respect to r due to the residual mode interference.
+[For example, ~SðrÞ’ s0 þ s1 sin klmr with s1 /C28 s0,w h e r e
+klm ¼ 2p=klm is the mode cycle distance between the l and
+mth modes.] In this case, it helps to smooth the oscillation
+by range averaging. For a non-constant ~SðrÞ, the wave-
+number spectrum is given by convolving Eq. (10) with
+~SðkrÞ¼ Ðr2
+r1
+e/C0 ikr r ~SðrÞdr, which has an effect of broadening
+the widths of the peaks without changing the peak
+position.
+Note that the widths of the spectral peaks of individual
+modes are inversely proportional to the range span,DR. When
+the range span is equal or less than the mode cycle distance,
+the modes involved may not be resolved by the wavenumber
+analysis. In that case, one obtains an estimate of the average
+wavenumber of the unresolved modes. In general, this is not
+the case given data over a sufﬁcient range span. The estimated
+mode wavenumbers (from the spectral analysis) will be
+denoted by /C22km to differentiate them from the true wavenum-
+bers. For the theoretical analysis to follow, we shall approxi-
+mate~SðrÞ by a constant with ~Sðr1Þ normalized to unity. In
+this case, /C22gðkm; zjÞ¼ gðkm; zjÞ as mentioned in the preceding
+text. The spectrum value atkr ¼ /C22km is then given by
+gð/C22km; zjÞ/C24 bm/mðzjÞ; (12)
+where using Eq. (11), one ﬁnds22
+bm ¼ 2e/C0 amr0
+amkm
+sinh amDR
+2
+/C18/C19
+/mðzsÞ; (13)
+where r0 ¼ð r2 þ r1Þ=2 and DR ¼ r2 /C0 r1. Note that bm is a
+real number in Eq. (13). The important thing is that it does
+not carry mode and range dependent phases, which would
+otherwise inﬂuence/bias the range estimation. From
+Eq.(12), one obtains an estimate of the mode depth function
+/C22/mðzjÞ at the receiver depth zj using the amplitude measured
+at the spectral peaks,
+/C22/mðzjÞ¼ gð/C22km; zjÞﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+XN
+j¼1
+jgð/C22km; zjÞj2Dz
+vuut
+¼ bm/ðzjÞﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+jbmj2XN
+j¼1
+/2
+mðzjÞDz
+vuut
+’ /ðzjÞ; (14)
+where the mode depth functions are normalized byPN
+j¼1 j/mðzjÞj2Dz ¼ 1 using Eq. (8) for a large aperture
+VLA. In practice, the estimated mode depth function /C22/mðzjÞ
+will deviate from the true mode depth function.
+To summarize, a method is proposed in this section to
+estimate the mode wavenumbers [using Eq. (6)] and depth
+functions [using Eq. (14)] for data received on a VLA
+from a moving source. Equation (6) c a nb ev i e w e da sa
+data-based generalized Hankel transform (at large ranges)
+that does not require knowledge about the source range; a
+large aperture VLA is required in principle. Because of
+the approximation involved (not knowing the source
+range), the estimated mode wavenumbers and mode depth
+functions may not be accurate. Also some of the modes
+may not be resolved by the wavenumber analysis. The
+effects of the approximation on the performance of source
+localization will be evaluated in Sec.III C using numerical
+examples, after a discussion of the data-based source
+localization algorithm, given in the next section,
+Sec.III B.
+B. Data-based source localization: Narrowband signal
+Given the estimated mode wavenumbers and depth
+functions, one can estimate the source range and depth as a
+function of time (by estimating the source range and depth
+for each snapshot or block of the data). To estimate the
+source location for a given (ith) block of data, one constructs
+a range and depth ambiguity function,
+DMMPðr;zÞ¼
+/C12/C12/C12/C12
+X/C22M
+m¼1
+/C22/mðzÞ ei/C22kmr
+ﬃﬃﬃﬃﬃ ﬃ/C22km
+p
+XN
+j¼1
+/C22/mðzjÞpðrs; zjÞDz
+/C12/C12/C12/C12
+2
+;
+(15)
+where z ¼ zj, j ¼ 1t o N; /C22M denotes the total number of
+modes (or /C22km) measured/resolved by the wavenumber analy-
+sis, and pðrs; zjÞ is the pressure ﬁeld and rs is the unknown
+source range at time ti. Equation (15) can be applied to a
+VLA of arbitrary conﬁguration with the understanding that
+the performance will be aperture dependent. For the theoreti-
+cal analyses given in the following text, we shall assume a
+large aperture VLA so that we can compare the data-based
+method with the original MMP/MFP. Using the mode ortho-
+gonality condition Eq. (8) for a large aperture VLA, Eq. (15)
+can be simpliﬁed to
+J. Acoust. Soc. Am., Vol. 135, No. 3, March 2014 T. C. Y ang: Data-based source localization 1221
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17
+--- page 5 ---
+DMMPðr; zÞ¼ 2p
+rs
+/C12/C12/C12/C12
+X/C22M
+l;m¼1
+/C22/mðzÞ/lðzsÞ
+XN
+j¼1
+/C22/mðzjÞ/lðzjÞ
+/C2 Dz ei½/C22kmr/C0 klrs/C138/C0alrs
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ/C22kmk1
+p
+/C12/C12/C12/C12
+2
+¼ 2p
+rs
+/C12/C12/C12/C12
+X/C22M
+m¼1
+/mðzÞ/mðzsÞ eikmðr/C0 rsÞ/C0 amrs
+km
+/C12/C12/C12/C12
+2
+;
+(16)
+where we assumed /C22km ¼ km, /C22/mðzjÞ¼ /mðzjÞ, given a sufﬁ-
+cient range span so that the mode wavenumbers are well
+resolved. Equation (15) can be interpreted as a data-based
+MMP, namely, DMMP ðr; zÞ¼ r=2pðÞ j P /C22M
+m¼1 Arplc
+m ðr; zÞ
+/C0/C1 /C3
+/C2 Adata
+m j2, where Adata
+m /C17PN
+j¼1
+/C22/mðzjÞpðrs; zjÞDz is the mth
+mode amplitude estimated from the data, and Arplc
+m ðr; zÞ
+¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2p=r /C22km
+/C0/C1q
+/C22/mðzÞei/C22kmr is the mth mode amplitude of the
+replica ﬁeld for a hypothetical source located at ðr; zÞ; z ¼ zj,
+j ¼ 1t o N. [In comparing with MMP, we assumed that given
+a large aperture VLA, the mode amplitudes can be obtained
+by multiplying the pressure ﬁeld by the mode depth func-
+tions with little or no mode leakage problem. Note that no
+mode decomposition is used nor required for the data-based
+MMP as given in Eq. (15).] Now if all the modes are
+included, i.e., /C22M ¼ M by the wavenumber analysis, one ﬁnds
+that Eq. (16) becomes the original MMP ambiguity function.
+In practice, /C22M < M as illustrated in Sec. III C. Consequently,
+the data-based MMP is likely to deviate from the MMP in
+the range-depth resolution and the sidelobe structure.
+Equation (15) can also be written as
+DMFPðr; zÞ¼ r
+2p
+/C12/C12/C12/C12
+XN
+j¼1
+p/C3
+rplcðr; zjÞpðrs; zjÞDz
+/C12/C12/C12/C12
+2
+; (17)
+where prplcðr;zjÞ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2p=r
+p P /C22M
+m¼1
+/C22/mðzÞ/C22/mðzjÞðe/C0 i/C22kmr=
+ﬃﬃﬃﬃﬃ ﬃ/C22km
+p
+Þ
+denotes the replica ﬁeld (of a reduced number of modes)
+with zj denoting the receiver depth. Equation (17) is often
+referred to as the Bartlett processor. Note that Eq. (17) can
+be applied to a short or limited aperture VLA (covering parts
+of the water column) as is the case for the original MFP. The
+difference is that for the conventional MFP, one can search
+for any source range and depth becauseprplcðr;zjÞ is based
+on a model, but for the data-based MFP, prplcðr; zjÞ can be
+calculated at any range but only at discrete depths; /C22/mðzÞ is
+only known only for z¼zj, j¼1;2;… ;N. In other words, the
+depth search is limited to the depths of the physical
+receivers. For application to a short VLA, one assumes that
+the array has enough receivers to couple to the modes
+excited by the source, else it may lack the ability to localize
+the source.
+It is noted that the data-based source localization algo-
+rithm, Eq. (15), follows the same spirit as the matched
+ﬁeld/mode processing except that no environmental acous-
+tic information (such as SSP and/or bottom proﬁle) is
+required, and no propagation model is used to calculate the
+replica ﬁeld as a function of range and depth. It is
+computationally simple and may be carried out by in-buoy
+processing. The drawback is that not all the modes will be
+resolved by the Hankel wavenumber analysis. The total
+number of modes estimated from the wavenumber spectral
+analysis is usually smaller than that allowed by the theory
+ð/C22M < MÞ as will be shown by the numerical examples in
+the next section (Sec. III C).
+C. Numerical examples
+Numerical examples are given in this section to examine
+the properties of the data-based ambiguity surfaces, Eq. (15),
+for a narrowband signal to compare with that using MMP,
+Eq. (16). The SSP used for the simulation is similar to that
+collected on the New Jersey shelf in the summer time. See
+Fig. 1. It consists of a thermocline layer of 10 m with a sound
+speed of 1533 m/s. The sound speed decreases almost line-
+arly with depth to 1478 m/s at depth of 40 m and remains at
+that value until a depth of 88 m. The bottom has a sound
+speed /C24 1650 m/s, density 1.76 g/cm3, and attenuation 0.8 dB
+per wavelength as used before. Two VLAs will be used in
+the simulation, one contains 20 elements spaced at 4 m, and
+the other contains 40 elements spaced at 2 m, both covering
+the water column from 2 to 80 m. Assume a source moves
+away from the VLA with a speed of 5 kn, transmitting a nar-
+rowband signal at 350 Hz. The narrowband pressure ﬁeld is
+estimated every second, corresponding to a range increment
+of 2.5 m between samples of data. For the simulation, the
+pressure ﬁeld is generated using the KRAKEN normal mode
+program.23 (The source starts out at a range of 5010 m, but
+this information is assumed unknown.24) The pressure ﬁelds,
+covering a range span of 490 m, are used to estimate the
+wavenumber spectrum for each receiver using Eqs.(6) and
+(7). The wavenumber spectra summed over all receivers are
+shown in Fig. 2(a), where the identiﬁed spectral peaks are
+marked by “x.” Twelve mode wavenumbers are estimated
+from the spectral peaks. Also shown in Fig. 2(a) is the true
+wavenumbers (from the normal mode program) of the lowest
+16 modes, marked by symbols “þ.” Compared with the true
+wavenumbers, one ﬁnds that the third, seventh, and 12th
+order modes are “absent” in Fig. 2(a), and the ﬁfth order
+mode has a weak spectral value and is not identiﬁed by the
+peak picking program used. For the data-based MMP, which
+order normal mode is associated with which resolved mode
+is not known nor is it relevant. The number of modes meas-
+ured/resolved by data is the important parameter—the larger
+the number of the resolved modes, the lower the sidelobe
+levels relative to the main lobe.
+From the wavenumber spectra, the complex amplitudes
+associated with the spectral peaks at a given wavenumber
+are used to estimate the mode depth functions as a function
+of the receiver depth for the mode identiﬁed by the wave-
+number. To determine how good is the estimation, one cal-
+culates the correlation coefﬁcient between the estimated and
+true mode depth functions, deﬁned by the maximum value of
+the cross correlation between the estimated and true mode
+depth functions, normalized by the square root of the product
+of the maxima autocorrelation of the estimated mode depth
+function and that of the true mode depth function. One ﬁnds
+1222 J. Acoust. Soc. Am., Vol. 135, No. 3, March 2014 T. C. Y ang: Data-based source localization
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17
+--- page 6 ---
+that the correlation coefﬁcient is equal or greater than /C24 0.99
+for the 12 resolved modes, indicating a high level of match-
+ing between the estimated and true mode depth functions.
+The estimated mode depth functions (not shown here) agree
+well with the true mode depth functions when properly
+normalized.
+The 12 estimated mode wavenumbers and depth func-
+tions are used to create the range and depth ambiguity surfa-
+ces using Eq. (15) for each block of data to compare with
+that using MMP, Eq. (16). A range and depth ambiguity sur-
+face is shown in Fig. 3, for example, for a block of data
+where the source is located at a range of 7000 m and depth
+of 50 m. Figures3(a) and 3(b) show the MMP (or MFP) and
+data-based MMP ambiguity surfaces for the 40 element
+VLA, spaced at 2 m with a 10 dB color scale. Figures 3(c)
+and 3(d) show the MMP (or MFP) and data-based MMP am-
+biguity surfaces for the 20 element VLA, spaced at 4 m with
+the same color scale. (For a VLA covering the water column,
+MFP and MMP are basically the same.) Comparing Fig.3(a)
+with Fig. 3(c) [or Fig. 3(b) with Fig. 3(d)], one ﬁnds that
+both give the correct source range estimation, but the depth
+resolution is doubled from 2 to 4 m (due to doubling of
+phone spacing), and the peak value is decreased by /C24 6 dB,
+due to the decreased signal gain (halved number of phones).
+Comparing the data-based MMP ambiguity surfaces
+[Figs. 3(b) and 3(d)] with the conventional MMP/MFP surfa-
+ces [Figs. 3(a) and 3(c)], one ﬁnds a slight increase in the
+sidelobe-to-main lobe ratio (i.e., increased sidelobe level rel-
+ative to the main lobe level or smaller difference between
+the two). The reason is due to the fact that only 12 modes are
+used in the data-based MMP compared with 20 modes used
+in the conventional MMP. One notes that the range-depth
+ambiguity surfaces in Fig. 3 have many high level sidelobes
+due to the narrowband nature of the data; this is not unex-
+pected. In general, higher sidelobe-to-main lobe ratios imply
+higher probability of incorrect source localization in the
+presence of noise and/or environmental mismatch. To
+improve the source localization performance and source
+FIG. 2. (Color online) Wavenumber spectrum at 350 Hz (a) and 400 Hz (b).
+Spectral peaks identiﬁed by the peak picking algorithm are marked by “x”
+and the mode wavenumbers calculated by the KRAKEN mode program are
+shown by “þ.” The dashed lines pointing upward indicate the modes found
+at 350 Hz but not at 400 Hz, and the dashed lines pointing upward show the
+modes found at 400 Hz but not at 350 Hz.
+FIG. 3. (Color online) Range and
+depth ambiguity surface for the 40 ele-
+ment VLA spaced at 2 m using
+(a) MMP and (b) data-based MMP and
+for the 20 element VLA spaced at 4 m
+using (c) MMP and (d) data-based
+MMP. The input data are a 350 Hz
+tonal signal from a source at 7000 m
+range and 50 m depth.
+J. Acoust. Soc. Am., Vol. 135, No. 3, March 2014 T. C. Y ang: Data-based source localization 1223
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17
+--- page 7 ---
+range and depth tracking (as a function of time), conven-
+tional wisdom suggests the use of broadband signals, which
+are known to effectively suppress the sidelobe levels. A
+data-based broadband source localization approach will be
+presented next.
+IV. BROAD BAND SOURCE LOCALIZATION
+For broadband source localization, a common practice
+is to average the ambiguity surfaces over different frequen-
+cies within the band because sidelobe positions vary with
+frequencies. For multi-tonal signals emitted by a moving
+source, or a coherent broadband signal (with a well-deﬁned
+waveform) transmitted by a moving (controlled) source, one
+can apply the method of Sec.III to each frequency compo-
+nent and add up the ambiguity surfaces. In real life, many
+broadband signals are (temporally) incoherent like the
+broadband noise radiated by a ship, for which the preceding
+Hankel transform method cannot be applied because the
+noise-like signal contains random (time-dependent) phases
+for each frequency component. Nonetheless, each snapshot
+of the noise-like data can still be used to provide an estimate
+of the source location because even though the noise-like
+signal waveform is random and unknown, the signals
+received on the VLA are spatially correlated between the
+receivers. The ambiguity functions so obtained can then be
+averaged over many snapshots to minimize the variance of
+the estimation. For data-based approaches to broadband
+source localization, one needs to know the mode wavenum-
+bers and depth functions for the broadband frequency com-
+ponents. Because they could not be directly estimated from
+the broadband noise data, we propose to estimate them by
+interpolation from the mode wavenumbers and depth func-
+tions of the tonal frequencies, assuming that the source also
+radiates narrowband tones. The interpolation of the mode
+wavenumbers is derived based on the mode equation for the
+mode group velocity, 25 and the interpolation of the mode
+depth functions is based on the WKB approximation.25,26
+A. Wavenumber estimation across frequencies
+To estimate the mode wavenumbers over broad band
+frequencies, we use the following equation for the mode
+group velocity,25
+1
+Um
+/C17ð2pÞ/C0 1 @km
+@f ¼ 4p2 f
+km
+ðH
+0
+/2
+mðzÞ
+qðzÞC2ðzÞ dz; (18)
+from which one obtains
+k2
+mðf Þ/C0 k2
+mðf0Þ¼ cmðf 2 /C0 f 2
+0 Þ; (19)
+where cm ¼ð 2pÞ3ÐH
+0 ½/mðzÞ2=qðzÞC2ðzÞ/C138dz is a mode-
+dependent function for a given SSP and can be determined
+from the data given wavenumber measurements for two tonal
+frequencies, cm ¼½ k2
+mðf1Þ/C0 k2
+mðf0Þ/C138 ðf 2
+1 /C0 f 2
+0 Þ/C0 1.O n et h e n
+obtains a data-based interpolation/extrapolation formula,
+k2
+mðf Þ/C0 k2
+mðf0Þ¼½ k2
+mðf1Þ/C0 k2
+mðf0Þ/C138f 2 /C0 f 2
+0
+f 2
+1 /C0 f 2
+0
+; (20)
+where we dropped the overhead bar for the estimated mode
+wavenumbers.
+To check the accuracy of Eq. (20), we create simulated
+data at 400 Hz generated by a moving source using the same
+environment and geometry as discussed in Sec.III C.W et h e n
+estimate the mode wavenumbers at 400 Hz following the same
+approach for 350 Hz (the data-based Hankel transform) as
+described in Sec.III C. The wavenumber spectrum is shown in
+Fig. 2(b) to compare with that at 350 Hz shown in Fig.2(a).B y
+changing the wavenumber scale using Eq.(20), one can associ-
+ate the (mode) orders between the two sets of wavenumbers
+between Figs.2(a) and 2(b) as shown in Fig. 2.O n eﬁ n d sa t
+400 Hz that 13 modes, marked by “x,” are resolved by wave-
+number analysis out of 16 true modes marked by “ þ.” (For
+completeness, we shall state the mode order for each resolved
+mode based on that determined from the normal mode pro-
+gram. At 400 Hz, we ﬁnd that the third, ninth, and 14th order
+modes were weakly excited by thes o u r c e . )F o rt h ed a t a - b a s e d
+analysis, the true mode orders are not known nor are they im-
+portant. The task is to associate the resolved modes at 350 Hz
+with those at 400 Hz. For that purpose, we shall name the mode
+number for the resolved modes sequentially in terms of
+decreasing wavenumbers. Comparing Fig.2(a) with Fig. 2(b),
+one ﬁnds that for the number 6 and 10 modes at 350 Hz, there
+are no counter parts at 400 Hz. See the dashed line with arrows
+pointing upward in Fig. 2. (They are physically the ninth and
+14th order modes). Similarly, for the number 4, 6, and 10
+modes at 400 Hz, there are no counter parts at 350 Hz. See the
+dashed line with arrows pointing downward in Fig. 2.( T h e y
+are physically the ﬁfth, seventh, and 12th modes). For the
+remaining modes, one can assoc iate the following numbered
+modes [1,2,3,4,5,7,8,9,11,12] at 350 Hz with the following
+numbered modes [1,2,3,5,7,8,9,11,12,13] at 400 Hz. In other
+words, only ten pairs of the modes are common to both 350
+and 400 Hz frequencies and can be used for interpolation for
+frequencies in between 350 and 400 Hz (of the physically 16
+pairs of modes). The price pai d for data-based method is a
+reduced number of modes available for source localization.
+The mode wavenumbers for frequencies between 350
+and 400 Hz can be estimated from the wavenumbers meas-
+ured at 350 and 400 Hz using Eq. (20) (for those modes that
+are common to both). The results are shown in Fig. 4,
+marked by “þ” for nine frequencies from 355 to 395 Hz to
+compare with the mode wavenumbers calculated by the nor-
+mal mode program, marked by “x” for each frequency. One
+ﬁnds good agreement between numerically estimated wave-
+numbers and true wavenumbers.
+B. Depth function estimation across frequencies
+To estimate the mode depth function over broad fre-
+quencies, we assume the WKB approximation. 25,26 The
+WKB modes between the ray turning points in a sound chan-
+nel are given by
+/mðzÞ¼ AmðzÞsin gmðzÞ; (21)
+where AmðzÞ is a slowly varying amplitude given by
+AmðzÞ¼ k/C0 1=2
+v;m ðzÞ¼½ x2=C2ðzÞ/C0 k2
+m/C138/C0 1=4. Here kv;mðzÞ is the
+1224 J. Acoust. Soc. Am., Vol. 135, No. 3, March 2014 T. C. Y ang: Data-based source localization
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17
+--- page 8 ---
+mode vertical wavenumber, and the WKB phase is given by
+gmðzÞ¼ ga þ
+Ðz
+a kv;mðz0Þdz0, where the quantity ga is the
+phase at the upper turning point. The WKB modes can be
+interpreted as the interference pattern created by two plane
+waves. One travels upward at a grazing anglehðzÞ, given by
+kv;mðzÞ¼ kðzÞsin hðzÞ, where kðzÞ¼ x=CðzÞ, and the other
+travels downward at the same angle. To maintain the same
+number of interference nulls (i.e., the mode number) as
+frequency is changed, the angle of propagation must
+change accordingly. Note that the mode wavenumber kmðzÞ
+¼ kðzÞcos hðzÞ generally increases with frequency, and hence
+kv;mðzÞ generally decreases with frequency. Equation (21)
+suggests that the mode depth functions at different frequen-
+cies maintain the same number of nulls or axis-crossing
+points where /mðzÞ¼ 0, but the spatial extent (coverage)
+decreases with increasing frequencies due to decreasing
+kv;mðzÞ, as observed based on numerical calculations of
+mode depth functions.25 Generally speaking, the mode depth
+functions change slowly within a narrow frequency band
+betweenf0 and f1,i f ðf1 /C0 f0Þ/C28ð f1 þ f0Þ. In this case, to
+estimate the mode depth functions at frequencies between
+f0 and f1, we propose the following procedures: (1)
+Determine whether the mode depth functions estimated at
+the two frequencies f0 and f1 have the same order (number of
+intensity nulls or maxima) by cross-correlating the mode
+depth functions. The pairs of modes having the largest nor-
+malized cross-correlation coefﬁcients are hypothesized to
+have the same order. (2) Determine the mode depth func-
+tions for the ordered pairs at frequencies betweenf0 and f1
+by linear interpretation.
+For the mode depth functions estimated at 350 and
+400 Hz, we plot the absolute values of the mode depth func-
+tions for the [1,2,3,4,5,7,8,9,11,12] modes at 350 Hz and
+compare with the mode depth functions for the
+[1,2,3,5,7,8,9,11,12,13] modes at 400 Hz one by one. We
+ﬁnd that for each pair of modes (between the 350 and
+400 Hz), the amplitudes have the same number of peaks and
+valleys as expected for the same order of mode, conﬁrming
+that the modes paired based on the wavenumber scaling rule
+(Sec. IV B) were correctly associated. Also the cross correla-
+tion of the mode depth functions between each pair of asso-
+ciated modes shows higher correlation than cross correlation
+with other non-associated modes, conﬁrming that the mode
+association is correct. It is noted that when the ﬁrst (order)
+mode is not found in the wavenumber spectrum (as for a sur-
+face source), the mode association by wavenumber scaling
+may be ambiguous because in this case, one does not have
+the lowest order mode to serve as a reference. In that case,
+cross correlation of the estimated mode amplitudes can be
+used to associate the modes for those mode depth functions
+that are adequately (Nyquist) sampled.
+The mode depth functions at frequencies between 350
+and 400 Hz are obtained by linearly interpolating the mode
+depths functions estimated at 350 and 400 Hz for the ten
+pairs of modes. The interpolated mode depth functions are
+in good agreement with that obtained from the KRAKEN nor-
+mal mode program. There are minor differences but they
+do not affect source localization. The results are not shown
+here.
+For two frequencies f0 and f1 that are widely separated,
+one can estimate the WKB mode depth function
+AmðzÞsin gmðzÞ by evaluating the vertical mode wavenumber
+kv;mðz; f Þ at frequency f. One ﬁnds, using Eq. (19),
+k2
+v;mðz; f Þ/C0 k2
+v;mðz; f0Þ¼
+/C20 4p2
+C2ðzÞ /C0 cm
+/C21
+ðf 2 /C0 f 2
+0 Þ
+¼½ k2
+v;mðz; f1Þ/C0 k2
+v;mðz; f0Þ/C138f 2 /C0 f 2
+0
+f 2
+1 /C0 f 2
+0
+;
+(22)
+where kv;mðz; f0Þ and kv;mðz; f1Þ are estimated from the
+mode depth functions at z ¼ zi, i ¼ 1; 2; 3; … ; N.
+Interpolation of mode depth functions in this case is more
+complicated.
+C. Broadband ambiguity surfaces
+One obtains the broadband ambiguity surfaces by sum-
+ming the ambiguity surfaces over the narrowband frequen-
+cies. For the numerical simulations, we choose 11
+frequencies between 351 and 399 Hz. Repeating the narrow-
+band source localization for 11 frequencies (for the source at
+7000 m range and 50 m depth, see Sec. III C and Fig. 3), the
+broadband ambiguity surface, summing over the 11 ambigu-
+ity surfaces, are shown in Figs. 5(a) and 5(b) for the 40
+element VLA, spaced at 2 m, using the conventional
+FIG. 4. (Color online) Mode wave-
+numbers at nine frequencies from 355
+to 395 Hz are estimated from the mode
+wavenumbers at 350 and 400 Hz using
+Eq. (20) and marked by “ þ” to com-
+pare with that calculated by the KRAKEN
+program, marked by “x”.
+J. Acoust. Soc. Am., Vol. 135, No. 3, March 2014 T. C. Y ang: Data-based source localization 1225
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17
+--- page 9 ---
+MMP/MFP and data-based MMP methods, respectively. The
+color scale shows a 10 dB dynamic range for both of them.
+One observes that the source range and depth are clearly
+identiﬁed using a broadband signal. Comparing Fig.5(b)
+with Fig. 5(a), the sidelobe-to main lobe ratios are a little bit
+higher ( /C24 1 dB) for the data-based MMP than the conven-
+tional MMP. One of the reasons is that the data-based MMP
+uses only ten modes, whereas the conventional MMP uses
+20 modes. For this simulation, the ratio of the input signal
+level averaged over receivers and frequencies with respect to
+the noise level averaged the same way is about 20 dB. The
+ambiguity surfaces shown in Fig. 5 are for one snapshot of
+broadband data. In this case, there is interference between
+the signal and noise; this contributes to higher sidelobe lev-
+els. It can be veriﬁed that the ambiguity surface averaged
+over many snapshots has a reduced sidelobe level; the SNR
+at the main peak compared with the input SNR is the array
+gain. The detection problem is outside the scope of this
+paper.
+Figures 5(c) and 5(d) show the broadband MMP/MFP
+and data-based MMP ambiguity surfaces for the 40 element
+VLA, spaced at 4 m. One ﬁnds that the 20 element VLA pro-
+vides equally good source location in terms of sidelobe
+structure, albeit with a poorer depth resolution (from 2 to
+4 m) and smaller signal gain. The sidelobe-to-main lobe
+ratios are approximately the same comparing Figs. 5(c) to
+5(a) and Figs. 5(d) to 5(b).
+Figures 6(a) and 6(b) show the broadband MMP/MFP
+and data-based MMP ambiguity surfaces for a near surface
+source located at 4 m depth using the 40 element VLA,
+spaced at 2 m. The same 11 frequencies from 355 to 395
+Hz were used. For the data-based MMP, the mode wave-
+number and depth functions are estimated for 11 modes
+excited by the moving surface source in the same manner
+as discussed in Sec. III. (The 4 m source excites predomi-
+nantly the seventh to 16th modes with intensities peaked at
+the 11th and 12th modes.) Figures6(c) and 6(d) show the
+broadband MMP/MFP and data-based MMP ambiguity
+surfaces for the 20 element VLA, spaced at 4 m, for the
+same 11 frequencies. One notes that the ambiguity surfaces
+for the shallow source (Fig. 6) have higher sidelobes
+compared with that for the 50 m source (Fig. 5). The reason
+is that the high order modes generated by the near surface
+source are not so well resolved by the VLA.
+V. SHORT VLA
+A VLA, which spans only a portion of the water col-
+umn, is desirable from the system point of view (reduced
+cost, easy deployment, and extended life time when powered
+by battery) if it can be used to estimate the source location
+reliably for the targets of interest. The conventional
+approach by averaging the ambiguity surfaces over frequen-
+cies requires that the main lobe locations are consistent
+between frequencies. Now at a ﬁxed frequency, the range-
+depth ambiguity surface for a short/sparse VLA generally
+contains more high level sidelobes than that for a VLA cov-
+ering the full water column because the mode functions are
+(severely) under sampled. This is likely to lead to source
+localization errors in the presence of environmental mis-
+match (in real data). If the mismatch problem goes away
+using the data-based source localization method, the utility
+of a short VLA may become attractive again, for example,
+when the VLAs are deployed as part of a distributed system.
+As an example, we show in Fig. 7 the broadband range
+and depth ambiguity surfaces obtained by averaging over
+FIG. 5. (Color online) Broadband
+range and depth ambiguity surface,
+obtained by summing the narrowband
+ambiguity surfaces for 11 frequencies
+between 350 and 400 Hz, are shown
+for the 40 element VLA spaced at 2 m
+using (a) MMP and (b) data-based
+MMP and for the 20 element VLA
+spaced at 4 m using (c) MMP and (d)
+data-based MMP. The source is
+located at 7000 m range and 50 m
+depth.
+1226 J. Acoust. Soc. Am., Vol. 135, No. 3, March 2014 T. C. Y ang: Data-based source localization
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17
+--- page 10 ---
+11 frequencies (as discussed in Sec. IV C) for a VLA with
+13 elements extending from 30 to 78 m at 4 m spacing.
+Figure 7(a) is for the conventional MFP, using 20 modes
+for a given frequency, and Fig. 7(b) is obtained by the data-
+based MFP [Eq. (17)], using ten modes for each frequency.
+One ﬁnds that the broad band MFP ambiguity surface has
+higher sidelobe-to-main lobe ratios for the short VLA
+[Fig.7(a)] compared with that using that using the full
+water column array [Fig. 5(d)]. On the other hand, the am-
+biguity surfaces for the short VLA have similar sidelobe-
+to-main lobe ratios for the data-based MFP as well as the
+conventional MFP.
+While the data-based MFP can, strictly speaking,
+only be used to search for sources the depth of which is
+within the depth span of the VLA, one may extend the
+depth search for a short VLA by extrapolating the mode
+depth functions using the WKB modes, Eq.(21), deter-
+mined using the mode depth functions measured at the
+receiver depths. This topic will not be pursued in this
+paper.
+VI. SUMMARY AND DISCUSSIONS
+In this paper, we developed the data-based matched
+mode/ﬁeld source localization algorithms for a moving
+source, using mode wavenumbers and depth functions esti-
+mated directly from the data. The method is in principle free
+of the environmental mismatch problem because the mode
+replicas are estimated from the same data used to localize
+the source, and the approximations made (in deriving the
+data-based algorithms) are very general and independent of
+the environments. The proposed method does have some in-
+herent disadvantages: (1) It uses a smaller number of modes
+than theoretically possible because some modes are not
+resolved in the measurements and (2) the depth search is
+limited to the depth covered by the receivers. The ﬁrst
+FIG. 6. (Color online) Broadband
+range and depth ambiguity surfaces,
+obtained by summing the narrowband
+ambiguity surfaces for 11 frequencies
+between 350 and 400 Hz, are shown
+for the 40 element VLA spaced at 2 m
+using (a) MMP and (b) data-based
+MMP and for the 20 element VLA
+spaced at 4 m using (c) MMP and (d)
+data-based MMP. The source is
+located at 7000 m range and 4 m depth.
+FIG. 7. (Color online) Broadband
+range and depth ambiguity surfaces,
+obtained by summing the narrowband
+ambiguity surfaces for 11 frequencies
+between 350 and 400 Hz, are shown
+for the 13 element VLA, extending
+from 30 to 78 m, using (a) MFP and
+(b) data-based MFP. The source is
+located at 7000 m range and 50 m
+depth.
+J. Acoust. Soc. Am., Vol. 135, No. 3, March 2014 T. C. Y ang: Data-based source localization 1227
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17
+--- page 11 ---
+order issue is whether and how the approximations and the
+limitations affect the source localization performance. To
+address this issue, we conduct numerical simulations to
+study/evaluate the performance difference between the data-
+based and the original MMP/MFP. One ﬁnds that for the
+cases studied, the sidelobe-to-main lobe ratio increases by
+/C24 1 dB comparing the data-based MMP range/depth ambigu-
+ity surfaces with that of the original MMP/MFP. The results
+suggest that the data-based MMP/MFP is capable of localiz-
+ing the source with a performance comparable to that of the
+original MMP/MFP. The advantage is that the data-based
+MMP/MFP does not require any environmental information
+nor does it require a propagation model to calculate the rep-
+lica ﬁelds.
+Speciﬁcally, for the narrowband signals, we proposed a
+data-based generalized Hankel transform to estimate the
+mode wavenumbers and mode depth functions. The original
+Hankel transform, used previously to estimate the mode
+wavenumbers, requires knowledge of the source range. To
+compensate for the cylindrical spreading loss of the signal
+(without knowing the source range), we used the depth-
+averaged signal intensity measured from data. This algo-
+rithm requires in principle a large aperture VLA. It can be
+applied to short VLAs by range-averaging the depth-
+averaged intensities. From the Hankel-transformed wave-
+number spectra, one estimates the mode wavenumbers from
+the spectral peaks. In addition, the mode depth functions can
+be estimated based on the complex amplitudes of the spectral
+peaks for each receiver. For the numerical simulation, one
+assumes that the source travels 450 m radially within 3 min
+observation time (at a speed 5 kn). One ﬁnds that 12 modes
+(of 16) can be resolved by the generalized Hankel transform.
+The data-based range-depth ambiguity surface shows a
+slightly higher sidelobe-to-main lobe ratio due to the smaller
+number of modes used and (spectral) estimation errors.
+To localize a target using the noise-like signals radiated
+by the target, we assume that the target also radiates narrow-
+band tonal signals as is often the case. Given the wavenum-
+bers estimated at the tonal frequencies, we use an equation
+for the mode group velocity to interpolate the mode wave-
+numbers for the broadband frequency components. To esti-
+mate the mode depth functions for the broadband signals, we
+assume the WKB approximation. Numerical examples are
+given for a broadband signal by summing incoherently the
+range-depth ambiguity surfaces over 11 frequencies between
+350 and 400 Hz. Only ten modes are used out of 16 normal
+modes because only ten modes are resolved at both the 350
+and 400 Hz. This reduced number of modes is responsible
+for a /C24 1 dB higher sidelobe-to-main lobe ratio for the data-
+based approach compared the original MMP/MFP.
+The proposed method has a potential to be applied to
+real data and be free of the environmental mismatch prob-
+lem, noting that certain aspects of the (generalized) Hankel
+transform have already been tested against data. The state of
+the art and the processing issues are summarized in the fol-
+lowing text.
+(1) First, one notes that the original Hankel transform
+has been successfully applied to experimental data in
+different waters including weakly range-dependent envi-
+ronments where adiabatic propagation can be assumed.
+In testing the original Hankel transform against data, the
+source range was assumed known.19–21 For the algorithm
+proposed here, the source range is assumed unknown,
+but the range span is assumed to be estimated from data
+for a source traveling a straight line with a constant
+speed. [For a non-radial run, the range span is given by
+DR ¼ ÐT
+o vðtÞdt ¼ /C22vT, where the radial velocity v (meas-
+ured from the Doppler shift) is changing with time. 27]I t
+is likely that the range span DR may only be approxi-
+mate due to uncertainty in the Doppler estimation. The
+question is how this will affect the source range
+estimation.
+Assuming that the velocity estimate is off by a factora, so
+will the range span be. Based on Eq. (6), one ﬁnds that if
+the estimated range span is in error by a factor of a, the
+wavenumber is reduced/enlarged by a factor 1/a, which in
+turn implies that the search range is scaled up/down by a
+factor of a. This implies that the range estimation for the
+source will have an error on the order of (1/C0 a) times the
+true range. It is noted that the scale change is not expected
+to affect the distribution or the “landscape” of the ambigu-
+ity surface. In other words, one expects that the source
+will be consistently localized over time despite the scale
+change (or shift in target position) because there is no
+environmental mismatch. The fact that the peaks of the
+ambiguity surfaces will form a (target) track as a function
+of time (with a small variance) is very important from the
+system point of view; it provides an important cue on
+whether a target exists or not. (The problem with the con-
+ventional MFP is that the source localization results are
+often inconsistent over time in the presence of environ-
+mental mismatch, making the results questionable.)
+(2) For real data, the radiated tonal signals often encounter a
+time-varying phase change due to the unsteady source
+motion; the tonal signal is no longer a pure sinusoidal.
+For example, a source towed behind a ship is affected by
+the motion of the towing ship, which moves up and
+down following the waves, inducing a jittering motion
+(acceleration/deceleration) on the tow body. Before
+applying the (generalized) Hankel transform, the ﬂuctu-
+ating phase due to source acceleration/deceleration needs
+to be removed. Likewise, for a source moving in a non-
+radial direction, the radial velocity is no longer a con-
+stant. In this case, although the phase introduced by the
+source acceleration deceleration is deterministic, it can
+induce error if the data is processed (integrated) over an
+extended period of time. This problem was recently
+addressed by Walker et al.,27 who proposed a high reso-
+lution nonlinear frequency tracking technique to measure
+the instantaneous frequency response of the signal.
+Based on that, one introduces a transform to remove
+unwanted phase (distortion). This method was (success-
+fully) applied to tonal data from the SWellEx 96 experi-
+ment to estimate the Doppler shifts and mode depth
+functions of individual modes. 27 From the signal proc-
+essing point of view, what is required here is the equiva-
+lent of a phase locked loop 28 (used in radio and acoustic
+1228 J. Acoust. Soc. Am., Vol. 135, No. 3, March 2014 T. C. Y ang: Data-based source localization
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17
+--- page 12 ---
+communications) to remove the random phase ﬂuctua-
+tion and track the (slowly varying) range dependent
+phase. The phase compensation mechanism is discussed
+in the appendix.
+(3) For real data, one may not be able to integrate the data
+over a large range span due to signal ﬂuctuations. Given a
+limited range span, certain modes may not be resolved by
+the (generalized) Hankel transform. This is likely to intro-
+duce performance degradation (increased sidelobe-to-main
+lobe ratio) but is not likely to introduce mismatch because
+one is matching the unresolved (composite) mode deduced
+from the data against the data. (Consequently, the robust-
+ness of the result may be maintained.) For short range-
+span data, one can apply high resolution methods as
+proposed in the literature.29 In that respect, one notes that
+wavenumber estimation is no different from spectral esti-
+mation. Various techniques proposed/developed in the lit-
+erature for spectral estimation of real world data (such as
+maximum entropy, maximum likelihood estimation meth-
+ods) can be readily applied for wavenumber estimation.
+The preceding discussions indicate that while various
+aspects of the wavenumber estimation method have been
+investigated before, the use of the generalized Hankel trans-
+form still remains to be demonstrated with real data. It is
+noted that so long as the mode wavenumbers for the ener-
+getic modes can be resolved and estimated from the data, the
+corresponding mode depth functions can be estimated
+accordingly without much loss of information. Given the
+estimation of the mode wavenumbers and depth functions
+from data, the proposed method has a potential to estimate
+the source range and depth from data and be free of the envi-
+ronmental mismatch problem. Numerical simulations con-
+ducted in this paper suggest small performance degradation
+in source localization between the data-based MMP/MFP
+and the original MMP/MFP (without mismatch). The actual
+performance degradation is likely to be not only dependent
+on the array aperture but also on the acoustic environment. It
+also will depend on the accuracy of the signal processing
+approaches in estimating the mode wavenumbers.
+ACKNOWLEDGMENTS
+This work is supported by the Taiwan National Science
+Council Grant No. 101-2218-E-110-001. The author thanks
+S. Walker, W.-B. Yang, and L. Fialkowski for discussions.
+APPENDIX: PHASE ESTIMATION AND
+COMPENSATION
+It is well known that source accelerations (decelera-
+tions) lead to Doppler broadening of the signal frequency.
+The signal from a moving narrowband source with an angu-
+lar frequencyxc can be expressed as
+pðr; z; tÞ¼ Re
+/C20XM
+m¼1
+ﬃﬃﬃﬃﬃﬃﬃ
+2p
+kmr
+r
+/mðzsÞ
+/C2 eixst/C0 ikmrðtÞ/C0 amrðtÞ/C0 ip=4/mðzÞ
+/C21
+; (A1)
+where xs is the transmitted frequency, r is the source range,
+rðtÞ¼ rk þ vt þ 1=2at2 þ/C1/C1/C1¼rk þ vt þ ~rðtÞ, where rk is
+the initial range associated with the kth block of data, /C22vi s
+the average radial velocity, and ~rðtÞ contains the source
+acceleration a. The spectrum amplitude obtained by a
+Fourier transform of the kth block of data evaluated at the
+Doppler shifted frequency xc ¼ xs /C0 k0v, where
+k0 ¼ xs=C0, is given by
+pðrk; zÞ¼
+XM
+m¼1
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2p
+kmrk
+r
+/mðzsÞe/C0 ikmrk/C0 amrk/C0 ip=4
+/C2 /mðzÞe/C0 ikm /C22rðtÞ þ Oðvðk0 /C0 kmÞÞ: (A2)
+Compared with Eq. (3), the extra term e/C0 ikm /C22rðtÞ contains the
+phase distortion due to the source acceleration or jittering.
+To compensate for this phase distortion, one needs to esti-
+mate the instantaneous frequency of the signal. To this end,
+Walker et al. proposed a time domain least mean square ﬁt
+between the received short-time duration signal and a sinu-
+soidal signal. Dividing the block of data into many short time
+durations, the instantaneous frequency ^x at time tl is obtained
+by minimizing the least square error summed/averaged over
+the receivers,
+Qð^xÞ¼
+XN
+j¼1
+ðtlþD
+tl
+jPðr; zj; t0Þ/C0 Dj sinð^xt0 þ rjÞj2 dt0;
+(A3)
+where Pðr; zj; t0Þ is the narrowband time series for the jth re-
+ceiver obtained by applying a narrowband ﬁlter to the
+received data, and Dj and rj are unknown parameters to ﬁt
+the data, which are time dependent. Having obtained the in-
+stantaneous frequency ^xðtÞ’ xs /C0 k0/C22v /C0 k0 _~rðtÞ, one inte-
+grates _~rðtÞ¼ xc /C0 ^xðtÞ=k0½/C138 /C0 /C22v over time to estimate the
+phase distortion ~rðtÞ¼
+Ðt
+0
+_~rðt0Þdt0. One then multiplies the
+data of Eq. (A2) by eikm~rðtÞ to remove the phase distortion.
+An alternative approach is to employ a phase locked
+loop28 that estimates the phase compensation eikm ~rðtÞ /C17eihðtÞ
+by minimizing the mean square error
+MSE ¼
+XN
+j¼1
+ðtlþD
+tl
+jPðr; zj; t0Þ/C0 Dj sinðxct0 þ hðtÞÞj2 dt0;
+(A4)
+where the desired signal is locked to the Doppler shifted fre-
+quency xc.
+1H. P. Bucker, “Use of calculated sound ﬁelds and matched-ﬁeld detection
+to locate sound sources in shallow water,” J. Acoust. Soc. Am. 59,
+368–373 (1976).
+2A. B. Baggeroer, W. A. Kuperman, and P. N. Mikhalevsky, “An overview
+of matched ﬁeld methods in ocean acoustics,” IEEE J. Ocean. Eng.18,
+401–424 (1993).
+3A. Tolstoy, Matched Field Processing for Underwater Acoustics(World
+Scientiﬁc Publishing, Singapore, 1993), pp. 1–212.
+4N. O. Booth, P. A. Baxley, J. A. Rice, P. W. Schey, W. S. Hodgkiss, G. L.
+D’Spain, and J. J. Murray, “Source localization with broad-band matched-
+ﬁeld processing in shallow water,” IEEE J. Ocean. Eng. 21, 402–412
+(1996).
+J. Acoust. Soc. Am., Vol. 135, No. 3, March 2014 T. C. Y ang: Data-based source localization 1229
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17
+--- page 13 ---
+5M. D. Collins and W. A. Kuperman, “Focalization: Environmental focus-
+ing and source localization,” J. Acoust. Soc. Am. 90, 1410–1422 (1991).
+6H. S. Schmidt, A. B. Baggeroer, W. A. Kuperman, and E. K. Scheer,
+“Environmentally tolerant beamforming for high-resolution matched ﬁeld
+processing: Deterministic mismatch,” J. Acoust. Soc. Am. 73, 813–825
+(1979).
+7J. L. Krolik, “Matched-ﬁeld minimum variance beamforming in a random
+ocean channel,” J. Acoust. Soc. Am.92, 1408–1419 (1992).
+8A. M. Richardson and L. W. Nolte, “A posteriori probability source local-
+ization in an uncertain sound speed, deep ocean environment,” J. Acoust.
+Soc. Am. 89, 2280–2284 (1991).
+9J. R. Buck, “Information theoretic bounds on source localization perform-
+ance,” in Proceedings of the IEEE SAM Workshop, 2002.
+10E. C. Shang, C. S. Clay, and Y. Y. Wang,. “Passive harmonic source rang-
+ing in waveguides by using mode ﬁlter,” J. Acoust. Soc. Am. 78, 172–175
+(1985).
+11E. C. Shang, “Source depth estimation in waveguides,” J. Acoust. Soc.
+Am.77, 1413–1418 (1985).
+12T. C. Yang, “A method of range and depth estimation by modal decom-
+position,” J. Acoust. Soc. Am. 82, 1736–1745 (1987).
+13T. C. Yang, “Modal beamforming array gain,” J. Acoust. Soc. Am. 85,
+146–151 (1989).
+14W. A. Kuperman, W. S. Hodgkiss, H. C. Song, T. Akal, C. Ferla, and D.
+R. Jackson, “Phase conjugation in the ocean: Experimental demonstration
+of an acoustic time-reversal mirror,” J. Acoust. Soc. Am. 103, 25–40
+(1998), and references therein.
+15P. D. Mourad, D. Rouseff, R. P. Porter, and A. Al-Kurd, “Source localiza-
+tion using a reference wave to correct for oceanic variability,” J. Acoust.
+Soc. Am. 92, 1031–1039 (1992).
+16M. Siderius, D. R. Jackson, D. Rouseff, and R. Porter, “Multipath compen-
+sation in shallow water environments using a virtual receiver,” J. Acoust.
+Soc. Am. 102, 3439–3449 (1997).
+17M. Thode, “Source ranging with minimal environmental information using
+a virtual receiver and waveguide invariant theory,” J. Acoust. Soc. Am.
+108, 1582–1594 (2000).
+18B. Baggeroer, W. A. Kuperman, and H. Schmidt, “Matched ﬁeld process-
+ing: Source localization in correlated noise as an optimum parameter esti-
+mation problem,” J. Acoust. Soc. Am. 83, 571–587 (1988).
+19G. V. Frisk and J. F. Lynch, “Shallow water waveguide characterization
+using the Hankel transform,” J. Acoust. Soc. Am. 76, 205–216 (1984).
+20G. V. Frisk, J. F. Lynch, and S. D. Rajan, “Determination of compres-
+sional wave speed proﬁles using modal inverse techniques in a range-
+dependent environment in Nantucket Sound,” J. Acoust. Soc. Am. 86,
+1928–1939 (1989).
+21K. Ohta and G. V. Frisk, “Model evolution and inversion for seabed geoa-
+coustic properties in weakly range-dependent shallow-water waveguides,”
+IEEE J. Ocean. Eng. 22, 501–521 (1997).
+22If the source is changing depth during the observation time, bm will be a
+weight sum/integral of /m (zs). Mode depth function can still be estimated
+from Eq. (12) without being affected by the source depth change.
+23M. B. Porter, “The KRAKEN normal mode program,” Report No. SM-245,
+SACLANT Undersea Research Center, La Spezia, Italy (1991).
+24Note that the estimation of the mode wavenumbers and depth functions
+are not affected by the initial range. The initial ranger0 enters only in the
+variable bm in Eq. (13), which is removed by normalization as shown in
+Eq. (14).
+25F. B. Jensen, W. A. Kuperman, M. B. Porter, and H. Schmidt,
+Computational Ocean Acoustics, (Springer, New York, 2011), Chaps.
+5.9.2. and 2.5.2.
+26D. M. F. Chapman and Dale D. Ellis, “The group velocity of normal mod-
+es,” J. Acoust. Soc. Am.74, 973–979 (1983).
+27S. C. Walker, P. Roux and W. A. Kuperman, “Modal Doppler theory of an
+arbitrarily accelerating continuous-wave source applied to mode extraction
+in the oceanic waveguide,” J. Acoust. Soc. Am. 122, 1426–1439 (2007).
+28J. G. Proakis, Digital Communications, 4th ed. (McGraw-Hill, New York,
+2001), Sec. 6.2.2.
+29K. M. Becker and G. V. Frisk, “Evaluation of an autoregressive spectral
+estimator for modal wave number estimation in range-dependent
+shallow water waveguides,” J. Acoust. Soc. Am.120, 1423–1434,
+(2006), and references therein.
+1230 J. Acoust. Soc. Am., Vol. 135, No. 3, March 2014 T. C. Y ang: Data-based source localization
+ Redistribution subject to ASA license or copyright; see http://acousticalsociety.org/content/terms. Download to IP:  84.55.60.68 On: Wed, 23 Apr 2014 18:19:17

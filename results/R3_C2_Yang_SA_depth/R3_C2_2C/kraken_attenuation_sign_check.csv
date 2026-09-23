@@ -1,0 +1,6 @@
+method,alpha_convention,abs_p_r1,abs_p_r2,abs_ratio_r2_over_r1,decays
+mode_sum_eq3,alpha=+|Im k|,0.0004023009632706156,0.00021506079762354733,0.5345768895882124,True
+mode_sum_eq3,alpha=-|Im k|,0.008868889860925874,3.358523568387766,378.68590331520375,False
+conclusion,alpha_m = +|Im(k_m)|  (decay)  [eq3 convention e^{-i k r - alpha r}],,,,True
+field_run,"field rc=STOP Fatal Error: See print file for details
+ files=[WindowsPath('C:/Users/ccc/XiaomiMiMoProjects/WSL系统汇聚区目标定位/results/R3_C2_Yang_SA_depth/R3_C2_2C/_kraken_paper/field_f350.env')]",,,,True

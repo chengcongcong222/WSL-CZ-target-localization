@@ -1,0 +1,23 @@
+{
+  "stage": "R3-C2.2C",
+  "freq_hz": 350.0,
+  "H_m": 88.0,
+  "r1_m": 5010.0,
+  "r2_m": 10000.0,
+  "span_m": 4990.0,
+  "dr_paper_m": 2.5,
+  "zs_m": [
+    4.0,
+    50.0
+  ],
+  "zr_m": [
+    18.0,
+    70.0
+  ],
+  "delta_baseline": 0.0,
+  "delta_meaning": "ORACLE_OFFSET_ALIGNMENT",
+  "source_amplitude": "common unit",
+  "noise": "NONE",
+  "mode_id_main": "ORACLE_MODE_ID",
+  "created_utc": "2026-09-23T12:44:30.356064+00:00"
+}

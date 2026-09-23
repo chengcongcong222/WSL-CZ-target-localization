@@ -1,0 +1,53 @@
+ _________________________________________________
+
+ KRAKEN- YANG2014                                                                
+ Frequency =   350.0    Hz
+ NMedia    =   1
+
+
+     C-Linear approximation to SSP
+     Attenuation units: dB/wavelength
+     THORP attenuation added
+     VACUUM
+
+
+   z (m)     alphaR (m/s)   betaR  rho (g/cm^3)  alphaI     betaI
+
+
+       ( # mesh points =  2001  RMS rough =   0.00     )
+      0.00      1533.00      0.00     1.00       0.0000    0.0000
+     10.00      1533.00      0.00     1.00       0.0000    0.0000
+     40.00      1478.00      0.00     1.00       0.0000    0.0000
+     88.00      1478.00      0.00     1.00       0.0000    0.0000
+
+                                 ( RMS rough =   0.00     )
+     Perfectly RIGID
+
+ cLow =   5010.0    m/s      cHigh =   10000.    m/s
+ RMax =    60.000000000000000      km
+
+ __________________________________________________________________________
+
+
+ Number of source   depths =            1
+ Source depths (m)
+   4.00000    
+
+ Number of receiver depths =            2
+ Receiver depths (m)
+   18.0000       70.0000    
+
+ Mesh multiplier   CPU seconds
+                --- Number of modes =           41
+        1             0.00    s
+                --- Number of modes =           41
+        2             0.00    s
+        4             0.00    s
+
+    I    k (1/m)            alpha (1/m)   Phase Speed (m/s) Group Speed (m/s)
+    1  0.4243381236     -0.6653831089E-05   5182.458835       431.1641447    
+    2  0.2794982675     -0.1010197048E-04   7868.080462       284.7666323    
+ _________________________________________________
+
+ KRAKEN- R                                                                       
+ End of environmental file

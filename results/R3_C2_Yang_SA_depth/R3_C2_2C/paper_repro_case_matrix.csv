@@ -1,0 +1,7 @@
+zs,zr,overall_ok,z_hat,near_true,note
+4.0,18.0,True,5.0,True,
+4.0,70.0,True,5.0,True,
+50.0,18.0,True,50.0,True,
+50.0,70.0,True,50.0,True,
+IMPL,eq1_eq5,True,,True,max_rel_fine=3.646345590530277e-08
+ENV,mode_count,True,,True,MODE_COUNT 23 vs paper ~16 (2014: 16 true / 12 resolved)

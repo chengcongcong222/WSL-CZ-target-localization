@@ -1,0 +1,25 @@
+ _________________________________________________
+
+ KRAKEN- YANG2014                                                                
+ Frequency =   350.0    Hz
+ NMedia    =   1
+
+
+     C-Linear approximation to SSP
+     Attenuation units: dB/wavelength
+     VACUUM
+
+
+   z (m)     alphaR (m/s)   betaR  rho (g/cm^3)  alphaI     betaI
+
+
+       ( # mesh points =  2001  RMS rough =   0.00     )
+      0.00      1533.00      0.00     1.00       0.0000    0.0000
+     10.00      1533.00      0.00     1.00       0.0000    0.0000
+     40.00      1478.00      0.00     1.00       0.0000    0.0000
+     88.00      1478.00      0.00     1.00       0.0000    0.0000
+
+                                 ( RMS rough =   0.00     )
+     reading PRECALCULATED IRC
+
+ cLow =   0.0000    m/s      cHigh =   1650.0    m/s

@@ -1,0 +1,19 @@
+{
+  "stage": "R3-C2.2C",
+  "rc3c2_2c_decision": "C2_2C_PAPER_REPRO_CONFIRMED",
+  "why": "all 4 cases peak within 5 m under ORACLE_MODE_ID + delta=0 + matched env; Eq1-Eq5 closed; alpha/delta gates passed",
+  "implementation_valid": true,
+  "environment_fidelity": "MODE_COUNT 23 vs paper ~16 (2014: 16 true / 12 resolved)",
+  "cases_ok": 4,
+  "cases_total": 4,
+  "delta_baseline": 0.0,
+  "delta_meaning": "ORACLE_OFFSET_ALIGNMENT",
+  "yang_route": "YANG_ROUTE_UNDECIDED",
+  "not_claimed": [
+    "YANG_ESTD_FAIL",
+    "YANG_APERTURE_LIMITED_IN_CZ",
+    "DEPTH_CANNOT_BE_ESTIMATED",
+    "RC3-C_FAIL"
+  ],
+  "created_utc": "2026-09-23T12:44:30.356064+00:00"
+}

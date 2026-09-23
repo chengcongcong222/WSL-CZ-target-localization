@@ -1,0 +1,68 @@
+--- page 1 ---
+Erratum: Data-based matched-mode source localization for a
+moving source [J. Acoust. Soc. Am. 135, 1218–1230 (2014)]
+T. C.Y anga)
+Institute of Applied Marine Physics and Undersea Technology, National Sun Yat-sen University,
+Kaohsiung 80424, Taiwan
+(Received 15 March 2015; accepted 24 March 2015)
+[http://dx.doi.org/10.1121/1.4919288]
+[JFL]
+On page 1222, line 22 in Sec. III C, “490 m” should be “4990 m.” This is an oversight by the author.
+a)Current address: Department of Information Science and Electronic Engineering, Zhejiang University, Hangzhou 310058, China. Electronic mail:
+tsihyang@gmail.com
+2986 J. Acoust. Soc. Am. 137 (5), May 2015 0001-4966/2015/137(5)/2986/1/$30.00 VC 2015 Acoustical Society of America
+
+--- page 2 ---
+Copyright
+of
+Journal
+of
+the
+Acoustical
+Society
+of
+America
+is
+the
+property
+of
+American
+Institute
+of
+Physics
+and
+its
+content
+may
+not
+be
+copied
+or
+emailed
+to
+multiple
+sites
+or
+posted
+to
+a
+listserv
+without
+the
+copyright
+holder's
+express
+written
+permission.
+However,
+users
+may
+print,
+download,
+or
+email
+articles
+for
+individual
+use.
+
