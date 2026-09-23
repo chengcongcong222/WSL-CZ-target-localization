@@ -81,6 +81,22 @@
     </section>
 
     <section>
+      <h2>研究主线状态（R3 重锚定后）</h2>
+      <div class="verdict">
+        <strong>RC3-C / Yang SA 预关口（R3-C2.1）</strong>：已改用成熟 <strong>KRAKEN</strong>（AT Win10），
+        判定 <code>C2_1_YANG_APERTURE_LIMITED</code>（L≤2.4 km 理想径向孔径下峰组/深度峰不足）。
+        Yang 公式 <code>YANG_FORMULA_RECOVERY_PARTIAL</code>（δ=0）。
+        自研模态求解器：<strong>NOT ADMISSIBLE</strong>（停止继续研发）。
+        C1_338：<code>NOT_EXPLAINED</code>。
+      </div>
+      <p class="note">
+        结果目录：<code>results/R3_C2_Yang_SA_depth/R3_C2_1/</code> ·
+        详见 <code>R3_C2_1_REPORT.md</code> / <code>R3_C2_1_DECISION.json</code>。
+        不进入 δ/Doppler/f0/MC/P5。
+      </p>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict ok" id="p3-g3">G3：<strong>PROPAGATION_INCREMENT_CONFIRMED</strong> — S0 困难候选错误排除率 RC2≈0% → RC2+CZ≈97%。Doppler 对恒定 Δv_rad 的 r–v 对几乎无效（未知源频偏置吸收）。S1 线谱点少，CZ≈23%；S2 稳定五线谱 CZ≈97%（上界工况）。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>
