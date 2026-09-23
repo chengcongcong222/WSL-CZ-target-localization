@@ -1,0 +1,16 @@
+﻿item,status,note
+Eq1_sign_checked,PASS,"steering e^{+i k_r r}, prefactor e^{i pi/4}/sqrt(2 pi k_r) visual ok"
+Eq1_weight_checked,PASS,S(r) in integrand numerator; S=<|p|^2>^{-1/2}; S~sqrt(r)->Hankel
+Eq3_phase_checked,PASS,e^{-i k_m r - alpha_m r - i pi/4} and sqrt(2 pi/(k_m r)) visual ok
+Eq4_algebra_checked,PASS,Eq3->Eq1->Eq4 first form->Eq5 closed; second form see note
+Eq4_second_form_consistent,FAIL,printed second form vs first form (alpha sign / a_m numerator order)
+Eq5_bm_checked,PASS,b_m=(2e^{-alpha r0})/(alpha k_m)sinh[(alpha dR)/2]phi_s matches peak integral
+Eq6_regularization_checked,PASS,phi_bar_inv=phi_m/(phi_m^2+Delta^2); Delta=EMPIRICAL_NOT_UNIQUE
+Eq6_observable_checked,PASS,"complex peaks g(k_m,z_r) in Bartlett sum; k_m not in depth score"
+depth_normalization_checked,PASS,D(z)/sum_grid D(z) is paper normalized distribution
+mode_identification_role_checked,PASS,ORACLE_MODE_ID vs PRACTICAL_MODE_ID separated
+delta_zero_baseline_checked,PASS,PAPER_REPRODUCTION_BASELINE delta=0; erratum carry-forward
+paper_span_4990m_checked,PASS,paper aperture ~4990 m; 2.4 km excluded from first repro
+Ref7_dependency_checked,PASS,gap listed; status PAPER_REPRO_NEEDS_REF7
+appendix_vs_eq3_phase,UNRESOLVED,A1-A3 spatial phase +i k_m r vs Eq.(3) -i k_m r; main chain uses Eq.(3)
+eq7_pll_coefficients,PASS,"K1=0.001, K2=0.0001 confirmed"

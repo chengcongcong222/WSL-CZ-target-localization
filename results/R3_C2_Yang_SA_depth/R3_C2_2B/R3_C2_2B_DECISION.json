@@ -1,0 +1,60 @@
+{
+  "stage": "R3-C2.2B",
+  "rc3c2_2b_decision": "C2_2B_METHOD_SPEC_LOCKED",
+  "why": "Yang 2015 主文 PDF 已由用户提供并完成视觉+文本双通道锁定：Eq.(1)-(10) 与附录 A1-A4 全部写入；Eq3->Eq4(第一形式)->Eq5 代数闭环 PASS；Eq.(6) 复谱峰 observable 与正则化逆 phi_bar_inv=phi_m/(phi_m^2+Delta^2) 已锁定，Delta=EMPIRICAL_NOT_UNIQUE；归一化 D/sum D 已锁定。论文复现条件已分 DIRECTLY_SPECIFIED / REFERENCED_TO_REF7；环境完整复现状态 PAPER_REPRO_NEEDS_REF7。Eq.(4) 第二形式与附录空间相位存在论文内部不一致，已记录且实现规避。未运行任何算法。YANG_ROUTE_UNDECIDED。",
+  "three_state": {
+    "kraken_data_baseline": "C2_1_PARSER_VALIDATED",
+    "yang_formula_recovery": "PRIMARY_SOURCE_LOCKED (user PDF)",
+    "yang_route_in_E_STD": "YANG_ROUTE_UNDECIDED"
+  },
+  "supersedes": {
+    "C2_2A_PRIMARY_FORMULA_NOT_RECOVERED": "SUPERSEDED_BY_USER_PRIMARY_PDF"
+  },
+  "paper_repro_env": "PAPER_REPRO_NEEDS_REF7",
+  "paper_reproduction_baseline": {
+    "delta": 0,
+    "range_span_m": 4990,
+    "freq_hz": 350,
+    "speed_kn": 5
+  },
+  "mode_id_layers": [
+    "ORACLE_MODE_ID",
+    "PRACTICAL_MODE_ID"
+  ],
+  "regularization": {
+    "symbol": "Delta",
+    "status": "EMPIRICAL_NOT_UNIQUE",
+    "order": "0.1 * max|phi_m|"
+  },
+  "eq6_observable": "complex modal peaks g(k_m,z_r); wavenumbers NOT in depth score",
+  "known_paper_internal_issues": [
+    "Eq.(4) second form vs first form (alpha sign / a_m numerator order)",
+    "Appendix A1-A3 spatial phase +i k_m r vs Eq.(3) e^{-i k_m r}"
+  ],
+  "checklist_unresolved": [
+    "appendix_vs_eq3_phase"
+  ],
+  "checklist_failed": [
+    "Eq4_second_form_consistent"
+  ],
+  "not_done": [
+    "run Yang",
+    "run E-STD",
+    "z_hat",
+    "FWHM",
+    "PSL",
+    "delta scan",
+    "Doppler error",
+    "MC",
+    "AR",
+    "P5",
+    "close any candidate"
+  ],
+  "primary_pdf": {
+    "path": "literature/yang2015_Yang2015_JASA138_1678.pdf",
+    "sha256": "b34952ead13fdaabdf9f1e7d87728fc2cb72fd09497240aac20ebdfc47f4b5b4",
+    "pages": 10,
+    "doi": "10.1121/1.4929748"
+  },
+  "created_utc": "2026-09-23T11:30:59.914058+00:00"
+}

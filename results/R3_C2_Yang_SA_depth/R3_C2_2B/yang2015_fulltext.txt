@@ -1,0 +1,921 @@
+--- page 1 ---
+Source depth estimation based on synthetic aperture beamfoming for a moving source
+T. C. YangZHM
+Citation: J. Acoust. Soc. Am. 138, 1678 (2015); doi: 10.1121/1.4929748
+View online: http://dx.doi.org/10.1121/1.4929748
+View Table of Contents: http://asa.scitation.org/toc/jas/138/3
+Published by the Acoustical Society of America
+
+--- page 2 ---
+Source depth estimation based on synthetic aperture
+beamfoming for a moving source
+T. C.Y anga)
+College of Information Science and Electronic Engineering, Zhejiang University, Hangzhou, 310058, China
+(Received 30 March 2015; revised 29 June 2015; accepted 14 August 2015; published online 29
+September 2015)
+A continuous wave signal received on a single hydrophone from a moving source is beamformed
+using the synthetic aperture created by the source, where the signal at each range is steered by a
+range-dependent phase, relative to the starting point. The range increment (aperture) is determined
+based on the Doppler shift estimated from the data, knowing the original signal frequency. Given a
+sufﬁcient signal-to-noise ratio, the source depth can be estimated from the beam output, assuming
+knowledge of the mode depth functions based on the nominal sound speed and bottom proﬁle in the
+area. The method is illustrated with simulated data and at-sea data. For real data, the signal phase
+contains a random, incoherent component caused by the (random) source motion and media ﬂuctua-
+tions in addition to the deterministic range-dependent component due to source range change. A
+phase locked loop is introduced to remove the random component assuming that the random com-
+ponent ﬂuctuates faster with time than the range-dependent phase. When a vertical array of
+receivers are available covering the depth span of interest, the beam output can be used directly to
+estimate the source depth. In this case, no knowledge of the acoustic environment is needed.
+VC 2015 Acoustical Society of America.[ http://dx.doi.org/10.1121/1.4929748]
+[ZHM] Pages: 1678–1686
+I. INTRODUCTION
+Acoustic methods for localizing a target, particularly a
+submerged target, in an underwater acoustic waveguide are a
+topic of great interest. A popular method for estimating the
+source range and depth is the matched ﬁeld processing
+(MFP)1,2 or matched mode processing (MMP) 3,4 (also
+known as modal beamforming), which require a vertical line
+array (VLA), or an array with an effective vertical aperture
+[such as a horizontal line array (HLA) in the endﬁre direc-
+tion5], and also knowledge about the environment [such as
+the sound speed proﬁle (SSP) and bottom proﬁle]. Source
+localization generally requires simultaneous searches for the
+source range and depth using the range-depth ambiguity
+function. One often ﬁnds an erroneous estimate of the source
+depth given an incorrectly estimated source range and vice
+versa, as is the case when high sidelobes are present. The
+sidelobe problem is greatly exempliﬁed when the assumed
+environment differs from the true environment, referred to
+as the environmental mismatch problem. Estimation of the
+source depth or range is in general not robust, when the esti-
+mation of the one depends on the other.
+For some applications, such as determining if a potential
+target is submerged or not, an approximate estimation of the
+source depth will sufﬁce, with or without knowledge of the
+source range. (In passive listening, the source range is often
+not known and difﬁcult to estimate.) This is known as the
+depth classiﬁcation or discrimination problem. This paper
+proposes a method to estimate the source depth of a moving
+source, traveling at a constant depth and speed in a range-
+independent environment, without knowing the source
+range. (The generalization to other cases is outside the scope
+of this paper.) It assumes a continuous wave (CW) signal
+with a high signal-to-noise ratio and is intended for low fre-
+quency signals where the effect of the medium ﬂuctuation is
+less signiﬁcant. The method applies array beamforming to
+the moving source data, based on the synthetic aperture cre-
+ated by the source motion. The signals at various ranges are
+multiplied by a range-dependent steering vector; absolute
+range is not known. The beam output is used to estimate the
+source depth.
+The application of synthetic beamforming to estimate
+the source depth based on data received on a single receiver
+is new, to be the best of the author’s knowledge. As
+remarked above, in order to estimate the source depth using
+the MFP or MMP, one needs a VLA, and must know or
+search for the source range. In order to estimate the source
+range using a normal mode propagation model, one must
+know the mode wavenumbers to a high precision (e.g., the
+third or fourth decimal point). The mode wavenumbers are
+sensitive to the sound speed changes, and hence MFP/MMP
+requires precise and timely knowledge of the SSP and (prior)
+knowledge of the ocean bottom, else the results are often
+unreliable (the environmental mismatch problem). The pro-
+posed method does not require knowledge of, nor needs to
+estimate the source range, hence it is thus more robust than
+the MFP or MMP method. It does require knowledge of the
+mode depth functions. For approximate depth estimation, the
+mode depth functions based on the nominal sound speed and
+bottom proﬁle will often sufﬁce. The proposed method,
+developed for a single receiver, can be extended to a VLA
+(Sec.IV B). In this case, the source depth is estimated
+directly from the beam output as a function of depth. No
+knowledge of the environment is needed.a)Electronic mail: tsihyang@gmail.com
+1678 J. Acoust. Soc. Am. 138 (3), September 2015 0001-4966/2015/138(3)/1678/9/$30.00 VC 2015 Acoustical Society of America
+
+--- page 3 ---
+II. SYNTHETIC APERTURE MODAL BEAMFORMING
+We shall consider a range-independent environment and
+assume that the source moves away from the receiver at a
+constant speed during the observation time. The source range
+is unknown and its depth can be slowly changing with time;
+for the present discussion we shall assume it is at a ﬁxed
+depth. We assume that the source radiates a tonal signal, and
+the source speed can be estimated based on the Doppler
+shifts of the signal, v¼ C(Df/f), whereC is the average sound
+speed, Df is the Doppler shift, andf is the known source fre-
+quency. The received data as a function of time are implic-
+itly related to the source range byr ¼ r1 þ vt, wherer1 is the
+unknown source range att ¼ 0. During the observation time
+T, the source travels a distanceDR ¼ vT, which is known
+and is the aperture of the synthetic array. The pressure ﬁeld
+at different ranges is beamformed as follows:
+gk r; zrðÞ ¼ eip=4
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃ2pkr
+p
+ðr2
+r1
+pr ; zrðÞ eikr rSrðÞ dr; krr1 /C29 1;
+(1)
+where p(r, zr) is the signal received at a receiver at a depthzr
+and ranger ¼ r1 þ vt, wheret ¼ tn, for thenth block of data,
+eikrr is the steering vector, andS(r) is the weighting coefﬁ-
+cient for the data (known as the array shading coefﬁcient for
+plane wave beamforming). The functionS(r) is intended to
+compensate for the spreading loss and will be determined
+from data using
+SðrÞ¼h j pðr; zrÞj2i/C0 1=2; (2)
+where the angular bracketshi denote range averaging and/or
+smoothing operation. Note that if the source range is known,
+by settingSðrÞ¼ ﬃﬃrp , Eq. (1) reduces to the Hankel trans-
+form.6 In this case,g(kr, zr) is known as the depth-dependent
+Green’s function. Range averaging/smoothing is required in
+the present case to obtain an approximateﬃﬃrp dependence as
+discussed in Sec.III. Errors induced by this approximation
+will be evaluated using simulated data.
+To guide the discussions, let us express the pressure
+ﬁeld in terms of the normal modes as follows:
+pr ; zrðÞ ¼
+XM
+m¼1
+ﬃﬃﬃﬃﬃﬃﬃ
+2p
+kmr
+r
+/m zsðÞ /m zrðÞ e/C0 ikmr/C0 amr/C0 ip=4; (3)
+where /m(z) is the mode depth function,km is the mode wave-
+number andam is the mode attenuation coefﬁcient. Assuming
+that S(r) is approximately proportional toﬃﬃrp , one ﬁnds, after
+substituting the normal mode expression into Eq.(1),t h a t
+gk r; zrðÞ ’
+XM
+m¼1
+/m zsðÞ /m zrðÞﬃﬃﬃﬃﬃﬃﬃﬃﬃkrkm
+p
+ðr2
+r1
+eik r/C0 kmðÞ r/C0 amrdr
+¼
+XM
+m¼1
+am
+/m zsðÞ /m zrðÞ
+kr /C0 km /C0 iam
+; (4)
+where am ¼½ eiðkr/C0 kmÞr2/C0 amr2 /C0 eiðkr /C0 kmÞr1/C0 amr1 /C138 =ikm. The wave-
+number spectrum g(kr, zr) has many peaks at the modal
+wavenumbers.6,7 The spectral peak atkr ¼ km is given by
+gðkm; zrÞ¼ bm/mðzrÞ; (5)
+where bm ¼ð 2e/C0 amr0 Þ=ðamkmÞsinh½ðamDRÞ=2/C138 /mðzsÞ is a real
+number, withr0 /C17 (r2 þ r1)/2. Realizing thatbm contains in-
+formation about the source depth zs, we deﬁne a source-
+depth ambiguity function for a single receiver by
+DzðÞ ¼
+/C12/C12/C12/C12/C12
+XM
+m¼1
+/m zðÞ gk m; zrðÞ
+/C22/m zrðÞ
+/C12/C12/C12/C12/C12
+2
+; (6)
+where /C22/mðzrÞ is a regularized mode depth function given by
+/C22/
+/C0 1
+m ðzrÞ¼½ /mðzrÞ/C138 =½/2
+mðzrÞþ D2/C138 , whereD is chosen empir-
+ically (on the order of one tenth of the maximum value of
+the mode depth functions) to prevent blow up of the inverse
+mode depth function at zero-crossing points. In this approach
+(given only a single receiver), the mode depth function
+/m(z) will be estimated using a nominal SSP; no knowledge
+of mode wavenumbers is required. Note that the mode depth
+functions are insensitive to the sound speed ﬂuctuations over
+the observation time, and the ones estimated from the nomi-
+nal SSP are generally good enough for coarse estimation of
+the source depth. [The depth estimation error is due to mis-
+match between the calculated mode depth functions/m(zs)
+and the true mode source depth functions bm /C24 /data
+m ðzsÞ
+at the source depth. The depth ambiguity functions
+j PM
+m¼1 /mðzÞ/mðzsÞj2 and j PM
+m¼1 /mðzÞ/data
+m ðzsÞj2 differ
+slightly in shape since /m (zs) and /data
+m ðzsÞ are real and
+insensitive to the sound speed variations. Consequently, one
+expects a “small or moderate” error in the source depth esti-
+mation. In practice, the depth resolution is limited by the
+hydrophone spacing (due to ﬁnite number of receivers used),
+which is often larger than the depth estimation error due to
+SSP uncertainty.] To compare the depth distributions for
+sources at different depths, we deﬁne a normalized depth
+distribution function, given by Eq.(6) divided by the sum of
+D(z) over the depth grids or sample points used in the depth
+search/estimation.
+The above method is illustrated using simulated data
+given in Ref.7 for a downward refractive SSP. (The readers
+are referred to Ref.7 for details.) We consider two sources,
+one at depth of 50 m, referred to as the deep source, and
+another at a depth of 4 m, referred to as the shallow source
+and one receiver. To study the performance as a function of
+the receiver depth, we consider two cases: the ﬁrst case
+involves a receiver located at a depth of 70 m, and the second
+case considers a receiver located at a depth 18 m. Assume
+each source moves away from the receiver with a speed of
+5 kn, transmitting a narrowband signal at 350 Hz. (The wave-
+number estimation is governed by the synthetic aperture, not
+the speed.) We will calculate the depth ambiguity function
+based on data received from each source and determine
+whether one can discriminate the deep source against the
+shallow source. In the simulation, we assume that the source
+starts out at a range of 5010 m, but this information is
+unknown to the receiver, nor is it critical (see discussions in
+the following paragraph). The received pressure ﬁeld is
+sampled every second.7 The pressure ﬁeld data sampled over
+J. Acoust. Soc. Am.138 (3), September 2015 T. C. Y ang 1679
+
+--- page 4 ---
+time, covering a range span of 4990 m, are used to estimate
+the wavenumber spectrum for each receiver using Eq.(1).
+The wavenumber spectrum estimated using Eq.(1) for a re-
+ceiver at 70 m depth is shown in Fig.1(a) for each of the two
+sources; the symbols “þ” denote the true mode wavenum-
+bers used to identify the mode number for each spectral
+peak. Figure1(a) shows that the deep source (solid lines)
+and shallow source (dashed lines) excite different groups of
+modes, providing the basis for depth classiﬁcation. To esti-
+mate the source depth, we calculate the depth ambiguity
+functions, Eq.(6), based on the wavenumber spectrum
+deduced from a single receiver data. We assume knowledge
+of the mode depth functions, which are calculated using the
+given SSP (Fig. 1, Ref.7). The normalized depth distribution
+functions for the deep and shallow sources are shown in
+Fig.2(a) for the receiver at a depth zr¼ 70 m. One ﬁnds that
+the depths of the two sources are correctly estimated based
+on the depth distribution functions. For the receiver at a
+depth zr¼ 18 m, the normalized depth distribution functions
+are shown in Fig.2(b). The distribution for the deep source
+has higher sidelobes, but the source depth is still reliably
+estimated.
+How is the performance inﬂuenced by the unknown ini-
+tial source range? One notes that sources at different ranges
+will excite modes somewhat differently since mode attenua-
+tions are range-dependent. For synthetic beamforming, the
+dependence on the initial source range is throughe/C0 amr0 in
+bm [see the derivation leading to Eq. (5)]. Consider, for
+example, two different data sets where the source travels the
+same range span but starts out at different initial ranges,r1
+and r0
+1. One ﬁnds that the spectral terms are related by
+bmðr0
+1Þ¼ bmðr1Þeamðr0
+1/C0 r1Þ. In practice, jr0
+1 /C0 r1j is on the
+order of km or less (depending on the detection range). For
+the simulated data,am is on the order of 10/C0 4–10/C0 5 for the
+low (<10) order modes. For these modes, one ﬁnds that
+bmðr0
+1Þ’ bmðr1Þ. For the high (10–20) order modes,bm may
+change by /C24 30% for jr0
+1 /C0 r1j/C24 4 km, but these modes are
+weakly excited and the effect on mode depth function is
+negligible.
+III. SWellEx96 DATA ANALYSIS
+The SWellEx96 experiment was conducted near San
+Diego, CA in the spring of 1996. The environmental infor-
+mation and data are available online.8 In this section, we an-
+alyze 35 min of data, 5 min after the start of event S5, in
+which the source-ship traveled along an isobath of a mildly
+sloping environment at a distance from 8 to 3 km from the
+receiving VLA.8 The water depth was approximately 210 m.
+The data analyzed involved two tonal signals, one at 127 Hz
+projected by a shallow source (zs¼ 9 m), and the other at
+130 Hz projected by a deep source (zs¼ 54 m). The data
+were received simultaneously on a VLA. We shall focus on
+the signals received on the bottom most hydrophone on the
+VLA to see how well the proposed method can estimate the
+two source depths. We assume knowledge of the mode depth
+functions, which are calculated based on the SSP observed
+during this event.8
+As remarked in Ref. 7, real data requires signal pre-
+conditioning as it is unrealistic to expect a ship to travel with
+a constant (radial) velocity over a long time. The motions by
+the surface waves are known to induce instantaneous accel-
+eration and deceleration on the ship, causing jittering motion
+on the sources towed behind. Based on the GPS data, the
+range from the ship to the VLA is shown in Fig.3(a) for the
+time period of interest. The data were interpolated (using the
+Matlab interpolation program) to calculate the velocity as
+shown in Fig.3(b). While the estimated velocity may not be
+FIG. 1. (Color online) Modal wave-
+number spectra estimated using syn-
+thetic aperture beamforming based on
+signals from a shallow (zs¼ 4m ) a n d
+deep (zs¼ 50 m) source: (a) for a single
+receiver at 70 m depth, and (b) summed
+over the VLA. The “þ” symbols denote
+the true modal wavenumbers.
+FIG. 2. (Color online) Normalized
+depth ambiguity functions for the shal-
+low (zs¼ 4 m) and deep (zs¼ 50 m)
+sources using data collected: (a) from a
+single receiver at 70 m depth, (b) from
+a single receiver at 18 m depth, and (c)
+using a VLA.
+1680 J. Acoust. Soc. Am. 138 (3), September 2015 T. C. Y ang
+
+--- page 5 ---
+accurate, it does indicate that the ship encounters instantane-
+ous acceleration and deceleration.
+For the source traveling with a constant (radial) veloc-
+ity, the range change is known to induce a linearly time-
+varying signal phase, known as the Doppler shift. Random
+instantaneous acceleration and deceleration on the source
+introduce a (oscillating) time-varying phase on the projected
+signal, leading to Doppler broadening of the signal fre-
+quency.9 The random phase (for even a small amount of
+Doppler broadening) can severely degrade the ability to esti-
+mate/resolve the mode wavenumbers using the synthetic
+aperture beamforming method. The same data were proc-
+essed by Walkeret al.9 who addressed the effect of radial
+source accelerations on the estimation of modal frequency
+shifts. They found “Doppler broadening due to radial source
+accelerations degrades the effectiveness of the (mode)
+extraction method,” requiring a technique to compensate for
+Doppler broadening in order to recover the original signal
+phase for a source moving with a constant (radial) velocity.
+The ﬂuctuating ocean media also introduce a random
+phase on the received signal. The random media effects on
+sound propagation are expected to be not so signiﬁcant at low
+frequencies. (MFP assumes that the signal phases between the
+receivers can be modeled as a function of depth using the so
+called replica ﬁeld.) We assume that the phase distortion due
+to jittering source motion and the random media vary rela-
+tively fast with time, faster than the phase change due to
+source range change, which varies slowly with time for a
+source traveling at a low speed. To remove the random (oscil-
+lating) phase, we propose: (1) a second order phase locked
+loop (PLL)10 to estimate the time varying phase of the tonal
+signal ~hðtÞ,d e ﬁ n e db ypðtÞ¼ Pe/C0 i2pfctþi~hðtÞ,w h e r eP is treated
+as a constant, and (2) a low pass ﬁlter to remove the oscillat-
+ing/jittering phase, yielding/C22hðtÞ, and an estimate of the ran-
+dom phase^hðtÞ¼ ~hðtÞ/C0 /C22hðtÞ. The PLL has been widely used
+in radio, telecommunications, computers and other electronic
+applications. In earlier days, it was implemented with a vari-
+able frequency oscillator and a phase detector. The oscillator
+generates a periodic signal. The phase detector compares the
+phase of that signal with the phase of the input periodic signal
+and adjusts the oscillator to keep the phases as closely
+matched with the input signal as possible. Through the feed-
+back loop it tracks the phase between the input and output sig-
+nal. Today, the PLL is mostly implemented digitally. In this
+work, we shall use a second order phase locked loop which
+employs a proportional tracking coefﬁcientK1 and an integral
+tracking coefﬁcientK2 as given below
+~hðn þ 1Þ¼ ~hðnÞþ K1uðnÞþ K2
+Xn
+m¼0
+uðmÞ; (7)
+where u(m) is the phase error between the input signal (data)
+and the oscillator at timem, and ~hðnÞ is the output phase.
+We use K1 ¼ 0.001 and K2 ¼ 0.0001 as commonly used in
+underwater acoustic communications.11
+The data are ﬁrst processed by Fourier analysis to esti-
+mate the Doppler shift for each tonal signal. One ﬁnds an av-
+erage Doppler shift of/C24 0.21 Hz, yielding a target speed of
+2.42 m/s which is consistent with the estimated speed of
+2.43 m/s based on GPS log. For each signal of interest,
+applying a band pass ﬁlter centered on the Doppler-shifted
+frequency, with a bandwidth of 1 Hz, we obtain a time series
+for the corresponding (narrowband) signal, upon which we
+next apply the phase locked loop and a low pass ﬁlter to
+remove the phase jitter. Figures3(c) and 3(d) show the phase
+as a function of time over two different time scales for the
+127 Hz signal—the phase time series measured using the
+PLL are shown by wiggly lines, and the ﬁltered phase time
+series are shown by the smooth lines. The rapid phase
+change (with period<0.2 min) is attributed to the source
+FIG. 3. (Color online) (a) Ship range
+to the VLA as a function of time. (b)
+Velocity of the ship deduced from (a).
+(c) and (d) Phase of the 127 Hz signal
+for two different time periods; wriggly
+lines show the original phase and
+smooth lines show the ﬁltered phase.
+J. Acoust. Soc. Am.138 (3), September 2015 T. C. Y ang 1681
+
+--- page 6 ---
+motion and media ﬂuctuation and is low pass ﬁltered. The
+ﬁltered phase is used to construct the ﬁltered signal time se-
+ries from moving source as if it were moving at a constant
+speed. The time series is divided into blocks, each with 4096
+samples, with a time duration of/C24 2.73 s, corresponding to a
+range increment ofDr ’ 6:63 m. The pressure ﬁeldp(rn, zr)
+is next estimated for each block of data [to be used as input
+to Eq.(1)] according to the procedure given in the
+Appendix, where rn ¼ r1 þ nDr, with an unknown initial
+range r1. The Appendix also provides an error analysis. To
+estimate S(r) in Eq.(1), the signal intensityjp(rn, zr)j2 was
+range averaged to produce a smooth curve. It was then ﬁtted
+in the log domain by a linear function. The resultingS(r)i s
+used in Eq. (1) to compensate for the spreading loss. The
+above processing is applied to the 127 and 130 Hz signals
+separately. The resulting wavenumber spectra using Eq.(1)
+and the depth distribution functions using Eq.(6) will be pre-
+sented below.
+To guide the data analysis, we ﬁrst create simulated data
+for event S5 assuming a source run with a range span of
+/C245 km using the SWellEx96 environment as posted on the
+website.8 Figure 4(a) shows the mode wavenumber spectra
+deduced from the simulated data received on a sensor at the
+ocean bottom for the 127 Hz signal projected by the shallow
+(zs¼ 9 m) source and the 130 Hz signal projected by the
+deep (zs¼ 54 m) source. Figure4(b) shows the normalized
+depth distribution function based on the single-receiver algo-
+rithm, Eq.(6), for both signals. As expected, the depth ambi-
+guity function for the 127 Hz signal shows a peak at a depth
+of /C24 10 m and the depth ambiguity function for the 130 Hz
+signal shows a peak at/C24 56 m in agreement with the true
+source depth (within the depth resolution). Next we present
+the result using the SWellEx96 data. Figure4(c) shows the
+mode wavenumber spectra estimated from the bottom-most
+receiver for both signals using Eq.(1). Figure4(d) shows the
+corresponding normalized depth distribution functions using
+Eq. (6) for both signals. One ﬁnds that the depth ambiguity
+function at 127 Hz peaks at 8 m and the depth ambiguity
+function at 130 Hz peaks at 38 m. The source depths of the
+two signals seem to be separately estimated. Note that to cal-
+culate the depth ambiguity function using Eq.(6), one needs
+to identify the mode number associated with the spectral
+peaks—some spectral peaks are treated as sidelobes and not
+selected. We use the calculated modal wavenumber spec-
+trum (based on simulated data) as a guide to help with the
+mode identiﬁcation. We note that the mode wavenumber
+decreases monotonically with the mode number. The abso-
+lute value of the difference of the mode wavenumbers
+between adjacent modes increases monotonically with the
+mode number for the low order (e.g., 1–20) modes.
+Although the mode wavenumbers are not precisely known
+due to uncertainty in the SSP and bottom, the mode wave-
+number differences (between the adjacent modes) and the
+rate of increase are approximately known (to the ﬁrst valid
+digit). [For the present case, the mode wavenumber differ-
+ence increases approximately linearly with the mode number
+for the low order (<20) modes.] Now, if the ﬁrst mode is
+excited (as for a submerged target), since the ﬁrst mode has
+the largest wavenumber, the right most spectral peak in the
+data will be associated with the ﬁrst mode. As an example,
+compare the solid line in Fig.4(c) with that in Fig. 4(a).
+Once the ﬁrst mode is identiﬁed, the rest follows naturally
+(by matching the data with the simulated data by the rate of
+increase of the mode wavenumber differences). If only
+higher order modes are excited (as for a surface ship), one
+can identify the modes by estimating the wavenumber spac-
+ing, and matching that with the calculated mode wavenum-
+ber spacing. This mode identiﬁcation process involves
+(admittedly) an educated guess since the wavenumber spac-
+ing (and its rate of increase) is not precisely known. (For a
+FIG. 4. (Color online) Modal wave-
+number spectra for (a) simulated data
+and (c) at-sea data. Normalized depth
+ambiguity functions estimated using
+(b) simulated data and (d) at-sea data.
+The shallow source (zs ¼ 9 m) trans-
+mitted a tonal signal at 127 Hz and the
+deep (zs¼ 54 m) source transmitted a
+tonal signal at 130 Hz.
+1682 J. Acoust. Soc. Am. 138 (3), September 2015 T. C. Y ang
+
+--- page 7 ---
+crude estimate of the depth error, we note that mode identiﬁ-
+cation error between then and m modes is expected to pro-
+duce a depth estimation error on the order of H/n–H/m,
+where H is the water depth. Which mode is in error is case-
+dependent, so is the sensitivity analysis.) Also, as discussed
+in the Appendix, one ﬁnds that the measured wavenumbers
+are subject to the uncertainty in the Doppler shift estimation.
+In the data analysis, we identify the modes by ﬁne-tuning the
+residue Doppler shift (or shifting the measured wavenumber
+spectrum up or down the wavenumber axis) until one
+achieves a good match (correlation) between the data spec-
+trum and calculated wavenumber spectrum. In practice, one
+can use the signals from either an augmented source or a
+known surface ship as training data to help the mode
+identiﬁcation.
+Comparing the depth ambiguity function estimated
+from data [Fig. 4(d)] with that estimated from the model
+[Fig. 4(b)], one ﬁnds the peak at 8 m in the data is smaller
+than that shown in the simulation. The reason is because
+there is an aliased peak close to the ocean bottom in the
+depth ambiguity function estimated from the data (not shown
+here). It seems that a near-surface and near-ocean-bottom
+source excites similar groups of modes which are resolved in
+simulated data but not so in the at-sea data. In that case, one
+will have a “grating” lobe. In practice, this is not likely to
+present a problem as no moving target is expected near the
+ocean bottom. For the deep source, one notices that the depth
+ambiguity function has only one peak; the source is
+“uniquely” localized. Comparing the performance, one ﬁnds
+that the main lobe level in the data [Fig.4(d)] is somewhat
+lower than that found in the simulation [Fig.4(b)]. This is
+because the real data have more sidelobes [Fig.4(d)]. Note
+the horizontal scales in Figs. 4(b) and 4(d) are slightly
+different.
+IV. SYSTEM IMPLICATIONS
+A. HLA
+The above method assumes a strong signal. The method
+can in principle be applied to a weak signal given a HLA,
+whereby the signal is enhanced by array gain when steered
+to the target direction (bearing). This creates an ability for
+the HLA to distinguish a submerged target from a surface
+ship (even) in the broadside directions of the array. This
+capability did not exist before.
+B. VLA
+Given a VLA that spans the water column, one can
+apply synthetic beamforming to the moving source data for
+each receiver. In this case, one ﬁnds that the source depth
+can be estimated directly from data without any knowledge
+of the mode depth function nor the SSP. For a VLA of many
+receivers, the weighting coefﬁcient in Eq.(1) will be esti-
+mated using
+SðrÞ¼
+*/C20 XN
+j¼1
+jpðr; zjÞj2Dz
+/C21 +/C0 1=2
+: (8)
+In this case, one ﬁndsSðrÞ/C24 ﬃﬃrp ignoring small corrections
+due to differences in mode attenuation coefﬁcients.7 The
+source-depth ambiguity function is given by the beam power
+for each receiver. Using Eq.(5), one ﬁnds
+DðzjÞ¼
+/C12/C12/C12/C12
+XM
+m¼1
+gðkm; zjÞ
+/C12/C12/C12/C12
+2
+¼
+/C12/C12/C12/C12
+XM
+m¼1
+/mðzjÞ/mðzsÞdm
+/C12/C12/C12/C12
+2
+;
+j ¼ 1;2;3;… ;N; (9)
+where zj is the receiver depth of thejth hydrophone, anddm
+¼ð 2e/C0 amr0 Þ=ðamkmÞsinh½ðamDRÞ=2/C138 is referred to as the
+mode shading coefﬁcient.13 Equation (9) shows that the
+depth ambiguity function is related in theory to the mode
+depth functions and can be used to estimate the source depth;
+it is related to the MFP/MMP depth function evaluated at the
+depths of the receivers as shown below in the subsection,
+Sec. IV B 1. Experimentally, the depth ambiguity will be
+obtained by performing the synthetic aperture beamforming
+analysis on the received data for each hydrophone. The spec-
+tral energy [the second term of Eq.(9)] is displayed as a
+function of the hydrophone depth. The depth where the depth
+ambiguity function is the largest is the estimated source
+depth. No mode depth functions are used in this analysis,
+hence no knowledge of the propagation environment is
+required. To estimate the probability distribution function of
+the source depth, we deﬁneP(zjzs) ¼ KD(z), forz ¼ zj, j ¼ 1,
+2, 3,…, N, where K ¼½PN
+j¼1 DðzjÞ/C138 /C0 1 is a normalization
+factor. The depth resolution is limited by the receiver separa-
+tionDz.
+The above method is illustrated using simulated data
+given in Ref.7 (See Sec.II and Ref.7 for details.) The VLA
+contains 20 element spaced at 4 m covering the water col-
+umn from 2 to 80 m. The wavenumber spectrum, Eq.(1)
+summed over all receivers, is shown in Fig.1(b) as a func-
+tion of wavenumber. The normalized depth ambiguity func-
+tion is shown in Fig. 2(c) for both the deep and shallow
+sources. Again, the depth ambiguity functions are deduced
+directly from the simulated data without assuming any
+knowledge of the SSP and/or the bottom proﬁle. This
+method can also be applied to multiple receivers deployed at
+different depths, but not necessarily at the same location
+(such as a slanted VLA), since the data are independently
+processed. To estimate the source depth, the depth span of
+the receivers should cover the depth where the target is
+expected to travel, and be sufﬁciently wide to see a distribu-
+tion. (The target depth should be within the search depths.)
+For SWellEx96 data, the receiving VLA is located at the
+lower half of the water column whereas the towed source is
+in the upper half of the water column. The model-
+independent depth estimation method, Eq. (9), cannot be
+applied here.
+1. Relation with the MFP
+In this section, Eq.(9) will be shown to be the similar to
+the matched-mode ambiguity function evaluated at the source
+range. Recall the matched-moderange-depth ambiguity function
+given by3 DMMPðr; zÞ¼ ðr=2pÞj PM
+m¼1½Arplc
+m ðr; zÞ/C138 /C3 Adata
+m j2,
+J. Acoust. Soc. Am.138 (3), September 2015 T. C. Y ang 1683
+
+--- page 8 ---
+where Adata
+m ¼ PN
+j¼1 /mðzjÞpðrs; zjÞDz is themth mode ampli-
+tude estimated from the data,p(rs, zj) is the pressure ﬁeld on a
+receiver at depthzj from a source at rangers, Dz is the phone
+spacing, and Arplc
+m ðr; zÞ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ð2p=rkmÞ
+p
+/mðzÞeikmr is the mth
+mode amplitude of the replica ﬁeld for a hypothetical source
+located at (r, z), wherekm is the complex wavenumber for the
+mth mode. Given a VLA spanning the water column, perform-
+ing the mode decomposition using the mode orthogonality
+condition, one obtains Adata
+m ðr; zÞ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ð2p=rkmÞ
+p
+/mðzsÞeikmrs .
+If the source range is correctly estimated,r ¼ rs, one ﬁnds
+DMMPðr ¼ rs; zÞ¼
+/C12/C12/C12/C12
+XM
+m¼1
+/mðzÞ/mðzsÞd0
+m
+/C12/C12/C12/C12
+2
+; (10)
+where d0
+m /C17 e/C0 2amrs =km. One notes that the depth ambiguity
+function of the proposed method, Eq.(9), is similar to the
+matched-mode ambiguity function evaluated at the source
+range, Eq.(10). The difference lies in the use of the mode
+shading coefﬁcients, which modiﬁes the shape of the distribu-
+tion function and usually does not impact (the accuracy of)
+the depth estimation. (The same is true for MFP given a large
+aperture VLA.) However, as remarked above, to estimate the
+source depth, one must estimate the source range ﬁrst or
+search for range and depth simultaneously, which requires
+knowing the mode wavenumbers to a high precision (third
+decimal point). As the mode wavenumbers are very sensitive
+to the environmental acoustic inputs, when the calculated
+mode wavenumbersk0
+m does not match the true wavenumbers
+km, the MFP/MMP depth ambiguity function becomes
+DMMPðr ¼rs;zÞ¼j PM
+m¼1 /mðzÞ/mðzsÞeiðk0
+m/C0 kmÞrs/C0 2amrs =kmj2.
+In this case, the depth ambiguity function is still a function of
+the mode wavenumbers, and has the environmental mismatch
+problem. Likewise, when the assumed source range is differ-
+ent from the true source range, the MMP/MFP depth ambigu-
+ity function is a function of the mode wavenumbers (with or
+without environmental mismatch) and is expected to yield a
+wrong source depth. In comparison, the proposed method, Eq.
+(9), does not requires knowledge of the source range and is
+not an explicit function of the mode wavenumbers.
+C. Requirements and resolution
+The above analyses are based on Eq.(1), which is often
+referred to as the conventional (synthetic range) beamform-
+ing. Conventional (synthetic range) beamforming usually
+requires a large range span; to resolve the wavenumbers
+between the n and mth modes, the range needs to be larger
+than the mode interference distanceknm ¼ 2p/(kn /C0 km). One
+ﬁnds, for example, k12 /C24 2.3 km; higher order modes
+requires a smaller mode interference distance to resolve
+them. Practical problems may present data with a short range
+span, e.g., 1 km, for which one must apply the high resolu-
+tion algorithms,12 which are capable of resolving modes
+with a less range span but may have the snapshot deﬁcient
+problem. Data with a short range span can often be consid-
+ered range-independent, presenting an additional incentive
+for the high resolution algorithms.
+Similarly, Eqs.(6), (9),o r(10) belongs to a class of the
+Bartlett processor. The depth resolution is in this case deter-
+mined by the mode vertical wavenumbers, and has been
+widely studied in the literature for various environments,
+including that using MFP/MMP. To improve the depth reso-
+lution, one can also apply a high resolution method.13 These
+topics will be pursued in future work.
+V. SUMMARY AND DISCUSSIONS
+A method for estimating the source depth is presented
+for a single receiver based on the synthetic aperture created
+by a moving source relative to the receiver. The received sig-
+nal as a function of range is steered by a range-dependent
+phase and beamformed. The beamformed output yields the
+modal wavenumber spectrum; the spectral peaks contain in-
+formation about the source depth. A source–depth ambiguity
+function is proposed by multiplying the modal spectral peaks
+with the mode depth functions, given proper identiﬁcation of
+the modes. Note that the mode depth function is insensitive
+to SSP variations. Mode depth functions calculated using the
+nominal SSP is found good enough for coarse estimation of
+the source depth.
+This method is tested with simulated data, and real data
+with reasonable success; for the latter, we choose the
+SWellex96 data with a sufﬁciently high SNR. For real data,
+the source jittering motion (due to ocean waves) is known to
+introduce instantaneous acceleration and deceleration, inject-
+ing a random phase to the signal. This creates Doppler spread
+for a CW signal, and severely impacts the performance of
+synthetic beamforming. In this paper, a PLL is used to remove
+the random phase components of the signal due to source jit-
+tering motion and random media ﬂuctuations. Modal wave-
+number spectrum is reasonably recovered from the data.
+Given a VLA covering the (upper) water column includ-
+ing the depths where the source is expected to travel, the
+beam power from individual hydrophones yields the depth
+ambiguity function as a function of depth. No information
+on the environment, such as SSP or bottom proﬁle is needed.
+In other words, it is free of the environmental mismatch
+problem.
+As remarked in the Introduction, to estimate the source
+depth using MMP, or MFP, one needs to estimate the source
+range and depth simultaneously, else one must know the
+source range to determine the source depth and vice versa.
+The advantage of the proposed method, Eqs.(6) or (9),i s
+that the source range is not known nor is it a required input.
+The disadvantage of this method is that it requires a moving
+source traveling a sufﬁcient radial distance whereas MMP/
+MFP can be applied to a ﬁxed as well as a moving source.
+More effort is needed for application to real world problems
+as remarked in Sec.IV, which is left for future work.
+ACKNOWLEDGMENT
+The work was initiated when the author was at the
+National Sun Yat-sen University, Kaohsiung, Taiwan. The
+work is supported by the Taiwan National Science Council
+grant 101-2218-E-110-001, and the Pao Yu-Kong Foundation,
+Zhejiang, China.
+1684 J. Acoust. Soc. Am. 138 (3), September 2015 T. C. Y ang
+
+--- page 9 ---
+APPENDIX: ESTIMATING THE NARROWBAND
+SPECTRAL DENSITY FOR A MOVING SOURCE
+The time series for a narrowband signal can be
+expressed as follows:
+pr ; z0; tðÞ ¼ btðÞ
+XM
+m¼1
+ﬃﬃﬃﬃﬃﬃﬃ
+2p
+kmr
+r
+/m zsðÞ /m z0ðÞ
+/C2 e/C0 i 2pfct/C0 kmrðÞ /C0 amr/C0 ip=4 þ ntðÞ ; (A1)
+where fc is the signal frequency,b(t) is a random variable
+reﬂecting the effect of the random medium and the source
+motion, andn(t) denotes the ambient noise. Dividing the
+data into blocks, each with a durationT and containing L
+samples, i.e., T ¼ LDt, where Dt is the sample duration, one
+can express time for the lth sample in the nth block as
+tn.l ¼ Tn þ lDt, whereTn /C17 nT, l¼ 1, 2, …, L. For a moving
+source with a radial velocity of v, the range can be expressed
+asrn,l ¼ rn þ lDr, wherern ¼ vTn and Dr ¼ vDt. The time se-
+ries for a moving source can be expressed as14
+pr ;z0;tn;lðÞ ’eih tn;lðÞ
+XM
+m¼1
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2p
+kmrn
+r
+/m zsðÞ /m z0ðÞ
+/C2 e/C0 i 2pfcTn/C0 kmrnðÞ /C0 amrn/C0 ip=4e/C0 i2pfD lDtðÞ þnt n;lðÞ ;
+(A2)
+where fD ¼ fc(1 þ v/c) is the Doppler shifted frequency. In
+deriving Eq.(A2), we have: (1) assumed a constant Doppler
+shift for the dominant modes, namely,kmDr ’ 2pfcðv=cÞDt;
+where c ¼ 2pfc=/C22km, /C22km is wavenumber averaged over the
+dominant modes; (2) expressedbðtÞ¼j bjeihðtÞ, and assumed
+jbj’ 1, since the amplitude varies much more slowly with
+phase, and has a small effect on the spectral estimation com-
+pared with the phase; and (3) approximatede/C0 amðlDrÞ ’ 1,
+since l < L and amLDr /C28 1. As stated in the text, we assume
+that the random phaseh(t) is caused by source jittering motion
+and random medium and can be ﬁltered out by the PLL.
+Applying PLL to estimate the random phase^hðtÞ (see
+Sec. III) and carrying out the Fourier transform for thenth
+block of data (for a givenrn), one obtains an estimate of the
+pressure ﬁeld,
+~pr n; z0; fðÞ ¼
+XL
+l¼1
+ei2pft n:l e/C0 i^h tn;lðÞ pr n;l; tn;lðÞ
+/C16/C17
+¼ ei2p f /C0 fcðÞ Tn
+XL
+l¼1
+ei2pfl DtðÞ e/C0 i2pfD lDtðÞ eiDh tn;lðÞ
+/C2
+XM
+m¼1
+ﬃﬃﬃﬃﬃﬃﬃ
+2p
+kmr
+r
+/m zsðÞ /m z0ðÞ eikmrn/C0 amrn/C0 ip=4 ;
+(A3)
+where ^hðtn;lÞ is the estimated phase, and Dhðtn;lÞ¼ hðtn;lÞ
+/C0 ^hðtn;lÞ is the phase estimation error. One then ﬁnds for
+f ¼ f0,
+~pðrn; z0; fDÞ¼ Lei2pðDf ÞTn eiDhðTnÞpðrn; z0Þ; (A4)
+where Df ¼ fD – fc is the Doppler frequency shift, andp(rn, z0)
+is pressure ﬁeld given in Eq.(3), and we have approximated
+the phase error, assuming it is small, using PL
+l¼1 eiDhðtn;lÞ
+’ LeiDhðTnÞ,w h e r eDhðTnÞ¼ð 1=LÞ PL
+l¼1 Dhðtn;lÞ.E q u a t i o n
+(A4) states that the pressure ﬁeldp (rn, z0) can be estimated
+from the moving source data, block by block, by correcting
+for the Doppler phase for each block using
+e/C0 i2pðDf ÞTn ~pðrn; z0; fDÞ, if there is no error in the random phase
+estimation, Dh ¼ 0. The pressure ﬁeldp(rn, z0) can then be
+used to estimate the mode wavenumber spectrum using Eq.
+(1)as demonstrated in Sec.III.
+One ﬁnds that the mode wavenumber spectrum in real
+data processing is sensitive to small errors in the estimation
+of the Doppler shift, since a small change/error inDf, e.g.,
+d(Df) ¼ 0.05 Hz, produces a large phase shiftd(Df)Tn over a
+long time period. While the shape (or the mode structure) of
+the wavenumber spectrum remains unchanged for different
+Df, or different sizes of Fourier transform, the mode wave-
+numbers (theposition of the spectrum) are sensitive to small
+changes in Df. This is because a linear phase shift with
+respect to range (time) produces a delay shift in the wave-
+number. In this regard, one notes that the slope of the ﬁltered
+phase in Fig.3(c) or Fig.3(d) is about 1.1 times smaller than
+that expected from the estimated Doppler shift—the differ-
+ence is partially due to unwrapping errors [see phase jumps
+in Fig.3(c)] as well as uncertainty in the Doppler estimation.
+Second, in the above derivation we have assumed a constant
+Doppler shift for all the (dominant) modes, but in reality, dif-
+ferent modes have slightly different Doppler shifts, produc-
+ing effectively a (small) Doppler spread. The Doppler shift
+estimated from the spectrum has an uncertainty on the order
+of the maximum of the Doppler spread and the inverse of the
+Fourier transform window. For the present caseDf is known
+to the ﬁrst decimal point but not precisely known to the sec-
+ond decimal point.
+Equation (6) was used to estimate the source depth.
+Note that Eq.(6) uses only the spectrum amplitudes not the
+corresponding mode wavenumbers. To use Eq. (6), one
+needs to associate the spectrum peaks with the proper modes.
+To do so, one can adjust the Doppler shift until the measured
+spectrum grossly lines up with the modeled spectrum—as
+remarked above the spectrum itself (the structure of the
+modes and the mode amplitudes) is insensitive to the
+Doppler shift error. While there is an uncertainty in estimat-
+ing the mode wavenumbers it will not affect the depth esti-
+mation so long as modes are properly identiﬁed (using the
+simulated wavenumber spectrum as a guide).
+1A. B. Baggeroer, W. A. Kuperman, and P. N. Mikhalevsky, “An overview
+of matched ﬁeld methods in ocean acoustics,”IEEE J. Oceanic Eng.18,
+401–424 (1993).
+2A. Tolstoy, Matched Field Processing for Underwater Acoustics(World
+Scientiﬁc, Singapore,1993), pp. 1–212.
+3T. C. Yang, “A method of range and depth estimation by modal decom-
+position,”J. Acoust. Soc. Am.82, 1736–1745 (1987).
+4E. C. Shang, “Source depth estimation in waveguides,”J. Acoust. Soc.
+Am. 77, 1413–1418 (1985).
+5C. W. Bogart and T. C. Yang, “Matched ﬁeld localization with horizontal
+arrays in shallow water; spatial sampling and effective aperture,”
+J. Acoust. Soc. Am.96, 1677–1686 (1994).
+J. Acoust. Soc. Am.138 (3), September 2015 T. C. Y ang 1685
+
+--- page 10 ---
+6G. V. Frisk and J. F. Lynch, “Shallow water waveguide characteriza-
+tion using the Hankel transform,” J. Acoust. Soc. Am. 76, 205–216
+(1984).
+7T. C. Yang, “Data-based matched-mode source localization for a moving
+source,”J. Acoust. Soc. Am. 135, 1218–1230 (2014). Equation (1) is
+referred to in this paper as the generalized Hankel transform.
+8Information and data for the SWellEx96 experiment available athttp://
+www.mpl.ucsd.edu/swellex96/index.htm (Last viewed August 2014).
+9S. C. Walker, P. Roux, and W. A. Kuperman, “Modal Doppler theory of
+an arbitrarily accelerating continuous-wave source applied to mode extrac-
+tion in the oceanic waveguide,” J. Acoust. Soc. Am. 122, 1426–1439
+(2007).
+10W. C. Lindsey and C. M. Chie, “A survey of digital phase-locked loops,”
+IEEE Trans. Commun.COM-69, 410–431 (1981).
+11M. Stojanovic, J. Catipovic, and J. G. Proakis, “Adaptive multichannel
+combining and equalization for underwater acoustic communications,”
+J. Acoust. Soc. Am.94, 1621–1631 (1993).
+12K. M. Becker and G. V. Frisk, “Evaluation of an autoregressive spectral
+estimator for modal wave number estimation in range-dependent shallow
+water waveguides,”J. Acoust. Soc. Am.120, 1423–1434 (2006) and refer-
+ences therein.
+13T. C. Yang, “Modal shading coefﬁcients for high resolution source depth
+localization,”J. Acoust. Soc. Am.87, 668–672 (1990).
+14The effect of the source motion induces not only a shift of the source fre-
+quency but also a shift of the mode wavenumber byDkm ¼ km(v/Um), where
+Um is the mode group velocity, as discussed by K. E. Hawker [J. Acoust.
+Soc. Am.65, 675–681 (1979)]. The shifts in the mode wavenumbers are not
+resolved by the proposed modal beamforming and will be ignored.
+1686 J. Acoust. Soc. Am. 138 (3), September 2015 T. C. Y ang
+
