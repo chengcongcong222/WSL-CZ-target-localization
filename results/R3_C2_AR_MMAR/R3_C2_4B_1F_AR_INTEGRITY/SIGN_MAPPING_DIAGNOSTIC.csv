@@ -1,0 +1,10 @@
+ok,dr,k_true,omega_peak,k_if_plus,k_if_minus,err_plus,err_minus,frozen_mapping
+False,1.885,,,,,,,
+True,0.5,1.32,0.0,0.0,-0.0,1.32,1.32,k=-omega/dr
+False,2.5,,,,,,,
+False,1.885,,,,,,,
+True,0.5,1.41,0.0,0.0,-0.0,1.41,1.41,k=-omega/dr
+False,2.5,,,,,,,
+False,1.885,,,,,,,
+True,0.5,1.5,0.0,0.0,-0.0,1.5,1.5,k=-omega/dr
+False,2.5,,,,,,,

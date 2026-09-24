@@ -1,0 +1,1 @@
+# R3-C2.4B-1F\n\n**AR_K_RECOVERY_NUMERICALLY_UNSTABLE**\n\np=133 rank/cond unstable; single F1=0.444\n\nsign=k=-omega/dr; F1_st=0.444; multi_complete=0.67\n

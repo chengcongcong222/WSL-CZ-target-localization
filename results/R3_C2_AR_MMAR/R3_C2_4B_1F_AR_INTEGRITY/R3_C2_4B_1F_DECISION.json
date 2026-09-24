@@ -1,0 +1,29 @@
+{
+  "stage": "R3-C2.4B-1F",
+  "decision": "AR_K_RECOVERY_NUMERICALLY_UNSTABLE",
+  "why": "p=133 rank/cond unstable; single F1=0.444",
+  "frozen_sign_mapping": "k=-omega/dr",
+  "modified_cov_backward_dup_forward": false,
+  "eq24_solver_ok": true,
+  "single_f1_power1": 0.4444444444444444,
+  "single_precision": 0.4444444444444444,
+  "single_recall": 0.4444444444444444,
+  "single_fp_mean": 0.0,
+  "multi_complete_rate_power1": 0.6666666666666666,
+  "multi_f1_power1": 0.8425925925925926,
+  "p133_unstable": true,
+  "p_branches": {
+    "PRINTED_LITERAL_CONTROL": 7,
+    "OUR_MOVING_SAMPLE_INTERPRETATION": 133
+  },
+  "not_done": [
+    "Hankel",
+    "D(z)",
+    "FIELD",
+    "E-STD",
+    "MC",
+    "P5",
+    "4B-2"
+  ],
+  "created_utc": "2026-09-24T10:18:32.049426+00:00"
+}

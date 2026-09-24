@@ -1,0 +1,4 @@
+p,N_r,n_forward,n_backward,n_equations,expected_2_Nr_minus_p,n_params,rank,cond,backward_dup_forward,sufficient_independent
+1,200,199,199,398,398,1,1,1.0,False,True
+7,200,193,193,386,386,7,2,132187810759627.22,False,False
+133,200,67,67,134,134,133,2,3.030928470890434e+16,False,False
