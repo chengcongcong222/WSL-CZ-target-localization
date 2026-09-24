@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380">
+<text x="360" y="22" text-anchor="middle" font-size="14">mode |C| at D=0.1</text>
+<rect x="50" y="40" width="640" height="280" fill="none" stroke="#333"/>
+<polyline fill="none" stroke="#c44" stroke-width="1.5" points="690.0,320.0 636.7,260.2 583.3,318.8 530.0,171.7 476.7,309.1 423.3,186.3 370.0,166.7 316.7,312.6 263.3,50.0 210.0,314.5 156.7,85.4 103.3,238.6 50.0,303.0"/>
+<polyline fill="none" stroke="#44c" stroke-width="1.5" points="690.0,273.9 636.7,280.1 583.3,298.1 530.0,170.2 476.7,315.5 423.3,188.6 370.0,148.6 316.7,318.5 263.3,86.6 210.0,132.9 156.7,179.1 103.3,168.3 50.0,290.7"/>
+<text x="360" y="360" text-anchor="middle" font-size="12">mode_id</text></svg>

@@ -51,3 +51,6 @@ M=1 vs M=23 rel diff 1.41; 9999==23 hash. Incremental m=2 corr~1.0. field_status
 
 Shallow/deep separable; prominence 1/3/5/10% stable. 3/4 engineering gate => PAPER_REPRO_PARTIAL.
 Not a Yang accuracy claim. YANG_ROUTE_UNDECIDED.
+
+## 措辞修正 (R3-C2.2D)
+incremental check 仅验证 **m=2** 且 PASS。不得写 modes 2-8 全过。聚合 M=1/2/4/8/16/23 与 fixed c_ref 已足够支持 FIELD_EQ3_MULTIMODE_VALIDATED。

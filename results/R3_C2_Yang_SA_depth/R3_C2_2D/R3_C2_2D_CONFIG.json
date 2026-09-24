@@ -1,0 +1,36 @@
+{
+  "frozen_base_tools": true,
+  "main_case": [
+    50.0,
+    18.0
+  ],
+  "control_case": [
+    50.0,
+    70.0
+  ],
+  "delta_ratios": [
+    0.02,
+    0.03,
+    0.05,
+    0.075,
+    0.1,
+    0.125,
+    0.15,
+    0.175,
+    0.2,
+    0.25
+  ],
+  "smooth_windows_m": [
+    100.0,
+    250.0,
+    500.0
+  ],
+  "apertures_m": [
+    2500.0,
+    3750.0,
+    4990.0
+  ],
+  "scipy_available": false,
+  "peak_picker_main": "SCIPY_STYLE (algorithm-compatible; managed runtime lacks scipy)",
+  "created_utc": "2026-09-24T05:07:24.472480+00:00"
+}

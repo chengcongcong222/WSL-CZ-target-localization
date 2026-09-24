@@ -1,0 +1,25 @@
+{
+  "stage": "R3-C2.2D",
+  "rc3_c2_2d_decision": "C2_2D_REGULARIZER_SENSITIVE",
+  "why": "zs=50,zr=18 的 43↔50 排序随 Delta 翻转：0.05–0.10 主峰 43（50 为强竞争峰），0.20 主峰 50；zr=70 control 对 Delta 稳定。属于 Eq.(6) 经验正则化下的竞争峰排序，不是 Yang 失败。",
+  "mechanism_labels": [
+    "C2_2D_FINITE_APERTURE_LEAKAGE",
+    "C2_2D_REGULARIZER_SENSITIVE",
+    "C2_2D_SHADING_SENSITIVE",
+    "PEAK_IMPLEMENTATION_NOT_CAUSE",
+    "RECEIVER_DEPTH_REGULARIZATION_SENSITIVITY"
+  ],
+  "paper_reproduction_freeze": "C2_PAPER_METHOD_MECHANISM_REPRODUCED",
+  "caveat": null,
+  "frozen": [
+    "C2_1_PARSER_VALIDATED",
+    "C2_2B_METHOD_SPEC_LOCKED",
+    "FIELD_EQ3_MULTIMODE_VALIDATED",
+    "C2_2C_FIX2_PAPER_REPRO_PARTIAL"
+  ],
+  "incremental_note": "only m=2 incremental PASS; aggregate M=1/2/4/8/16/23 all corr~1 residual~5e-4; fixed c_ref holds; sufficient for FIELD_EQ3_MULTIMODE_VALIDATED",
+  "fact_D50_over_Dmax_at_0.1": 0.86,
+  "next_stage": "R3-C2.3 E-STD migration (after this paper stage closes)",
+  "yang_route": "YANG_ROUTE_UNDECIDED",
+  "created_utc": "2026-09-24T05:07:24.472480+00:00"
+}

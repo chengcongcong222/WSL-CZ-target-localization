@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380">
+<text x="360" y="22" text-anchor="middle" font-size="14">D43 vs D50</text>
+<rect x="50" y="40" width="640" height="280" fill="none" stroke="#333"/>
+<polyline fill="none" stroke="#c44" stroke-width="1.5" points="50.0,200.8 77.8,170.1 133.5,129.1 203.0,105.5 272.6,96.6 342.2,94.8 411.7,96.6 481.3,100.1 550.9,104.5 690.0,114.2"/>
+<polyline fill="none" stroke="#44c" stroke-width="1.5" points="50.0,320.0 77.8,290.9 133.5,235.6 203.0,179.9 272.6,137.3 342.2,106.2 411.7,84.2 481.3,69.2 550.9,59.3 690.0,50.0"/>
+<text x="360" y="360" text-anchor="middle" font-size="12">Delta/max|phi|</text></svg>

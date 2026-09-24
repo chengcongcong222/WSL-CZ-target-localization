@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380">
+<text x="360" y="22" text-anchor="middle" font-size="14">z_hat & D50/D43 vs Delta</text>
+<rect x="50" y="40" width="640" height="280" fill="none" stroke="#333"/>
+<polyline fill="none" stroke="#c44" stroke-width="1.5" points="50.0,131.6 77.8,137.0 133.5,88.1 203.0,88.1 272.6,88.1 342.2,88.1 411.7,50.0 481.3,50.0 550.9,50.0 690.0,50.0"/>
+<polyline fill="none" stroke="#44c" stroke-width="1.5" points="50.0,320.0 77.8,319.6 133.5,318.8 203.0,318.0 272.6,317.3 342.2,316.8 411.7,316.3 481.3,316.0 550.9,315.7 690.0,315.3"/>
+<text x="360" y="360" text-anchor="middle" font-size="12">Delta/max|phi|</text></svg>

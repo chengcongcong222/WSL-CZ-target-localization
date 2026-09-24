@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380">
+<text x="360" y="22" text-anchor="middle" font-size="14">observable layers z_hat</text>
+<rect x="50" y="40" width="640" height="280" fill="none" stroke="#333"/>
+<polyline fill="none" stroke="#c44" stroke-width="1.5" points="50.0,50.0 370.0,320.0 690.0,320.0"/>
+<text x="360" y="360" text-anchor="middle" font-size="12"></text></svg>
