@@ -1,0 +1,31 @@
+﻿equation_id,exact_formula_latex,paper_page,symbols,input,output,purpose,implementation_required,confidence
+Eq.(1),"p_l(r_i,z_r)=\sqrt{2\pi}e^{-j(\pi/4)}\sum_{m=1}^M \phi_m(z_s)\phi_m(z_r)\frac{\exp\{-j(k_m-j\alpha_m)[r_i+ld\sin\theta_i]\}}{\sqrt{k_m[r_i+ld\sin\theta_i]}}",P2,see SYMBOL_TABLE / lock body,,,HLA element normal-mode field with path r_i+ld sinθ_i,YES,VISUAL_TEXT
+Eq.(2),"p_l(r_i,z_r)=\sum_m A_m\exp\{-j(k_m-j\alpha_m)[r_i+ld\sin\theta_i]\},\quad A_m=\sqrt{2\pi}e^{-j\pi/4}\frac{\phi_m(z_s)\phi_m(z_r)}{\sqrt{k_m r_i}}",P3,see SYMBOL_TABLE / lock body,,,far-field r_i+ld sinθ≈r_i; modal amp A_m,YES,VISUAL_TEXT
+Eq.(3),"B(\hat\theta_i)=\frac{1}{2L+1}\sum_{l=-L}^{L} e^{j k l d \sin\hat\theta_i}\, p_l(r_i,z_r)",P3,see SYMBOL_TABLE / lock body,,,conventional HLA beamforming weights,YES,VISUAL_TEXT
+Eq.(4),"B(\hat\theta_i)=\frac{1}{2L+1}\sum_m A_m e^{-jk_m r_i-\alpha_m r_i}\frac{\sin[(L+1/2)d X_m]}{\sin((d/2)X_m)},\ X_m=-(k_m-j\alpha_m)\sin\theta_i+k\sin\hat\theta_i",P3,see SYMBOL_TABLE / lock body,,,array factor; BEAM_FACTOR_FROM_EQ4 = sin[(L+1/2)dX]/sin((d/2)X),YES,VISUAL_TEXT
+Eq.(5),"p(r;z_s,z_r)=\int_0^\infty g(k_r)J_0(k_r r)k_r dk_r,\quad g(k_r)=\int_0^\infty p(r)J_0(k_r r) r dr",P3,see SYMBOL_TABLE / lock body,,,Hankel pair,DOC,VISUAL_TEXT
+Eq.(6),"g(k_r;z_s,z_r)\sim\frac{e^{i\pi/4}}{\sqrt{2\pi k_r}}\int_{-\infty}^{+\infty}p(r;z_s,z_r)e^{i k_r r}\sqrt{r}\,dr,\ k_r r\gg1",P3,see SYMBOL_TABLE / lock body,,,FT approx of Hankel,DOC,VISUAL_TEXT
+Eq.(7),"g(k_r,z_r)=\frac{e^{i\pi/4}}{\sqrt{2\pi k_r}}\int_{r_0}^{r_0+R} B(r)\,e^{i k_r r}\,S(r)\,dr,\ k_r r_0\gg1",P3,see SYMBOL_TABLE / lock body,,,generalized Hankel on beam output,YES,VISUAL_TEXT
+Eq.(8),S(r)=\langle |B(r)|^2\rangle^{-1/2},P3,see SYMBOL_TABLE / lock body,,,data spreading compensation,YES,VISUAL_TEXT
+Eq.(9),g\sim\sum_m \frac{\phi_m(z_s)\phi_m(z_r)}{\sqrt{k_r k_m}}\sin b(X_m)\int_{r_0}^{r_0+R}e^{j(k_r-k_m)r-\alpha_m r}dr=\sum_m a_m\frac{\phi_m(z_s)\phi_m(z_r)}{k_r-k_m+j\alpha_m},P3,see SYMBOL_TABLE / lock body,,,closed form after Eq4+Eq7; integral kernel exp[j(kr-km)r - αm r],YES,VISUAL_TEXT
+Eq.(10),"a_m=\frac{e^{j[(k_r-k_m)-\alpha_m](r_0+R)}-e^{j[(k_r-k_m)-\alpha_m]r_0}}{j\sqrt{k_r k_m}\,\sin b(X_m)}",P3,see SYMBOL_TABLE / lock body,,,PRINTED a_m — algebra audit flagged,YES,VISUAL_TEXT
+Eq.(11),"g(k_m,z_r)\sim b_m\phi_m(z_r)",P3,see SYMBOL_TABLE / lock body,,,peak at k_r=k_m,YES,VISUAL_TEXT
+Eq.(12),"b_m=\frac{2e^{-\alpha_0 r'}}{\alpha_m k_m}\sinh\left(\frac{\alpha_m R}{2}\right)\phi_m(z_s)\sin b(X_m),\ r'=r_0+R/2",P3,see SYMBOL_TABLE / lock body,,,PRINTED b_m with e^{-α0 r'} — α0 subscript flagged,YES,VISUAL_TEXT
+Eq.(13),\mathbf{g}=\Phi\cdot\mathbf{b},P3,see SYMBOL_TABLE / lock body,,,matrix form,YES,VISUAL_TEXT
+Eq.(14),"\mathbf{g}=[g(k_1,z_r),\ldots,g(k_M,z_r)]^T",P3,see SYMBOL_TABLE / lock body,,,spectrum vector,DOC,VISUAL_TEXT
+Eq.(15),"\Phi=\mathrm{diag}([\phi_1(z_r),\ldots,\phi_M(z_r)])",P3,see SYMBOL_TABLE / lock body,,,diag mode functions at zr,DOC,VISUAL_TEXT
+Eq.(16),"\mathbf{b}=[b_1,\ldots,b_M]^T",P3,see SYMBOL_TABLE / lock body,,,modal coefficients,DOC,VISUAL_TEXT
+Eq.(17),"y[i]=B(r_i)S(r_i),\quad i=1,2,\ldots,2L+1",P4,see SYMBOL_TABLE / lock body,,,AR input = beamformed × S; SAMPLE COUNT CONFLICT,YES,VISUAL_TEXT
+Eq.(18),"y[i]=-\sum_{k=1}^{p}a[k]y[i-k]+u[i],\quad p\ \mathrm{often}=(2/3)(2L+1)",P4,see SYMBOL_TABLE / lock body,,,AR model; order notation CONFLICT,YES,VISUAL_TEXT
+Eq.(19),P_{AR}(l)=\frac{\sigma^2}{\left|1+\sum_{k=1}^{p}a[k]\exp[-ilk]\right|},P4,see SYMBOL_TABLE / lock body,,,AR spectrum; l→k_r mapping NOT_EXPLICIT,YES,VISUAL_TEXT
+Eq.(20),"D(z)=\varphi(z)\,\mathbf{b}\mathbf{b}^H\varphi^H(z)",P4,see SYMBOL_TABLE / lock body,,,matched-mode depth function,YES,VISUAL_TEXT
+Eq.(21),"\varphi(z)=[\phi_1(z),\phi_2(z),\ldots,\phi_M(z)]",P4,see SYMBOL_TABLE / lock body,,,replica row,YES,VISUAL_TEXT
+Eq.(22),\mathbf{b}=(\Phi+U)^{-1}\mathbf{g},P4,see SYMBOL_TABLE / lock body,,,regularized solve,YES,VISUAL_TEXT
+Eq.(23),"U=\mathrm{diag}\left(\left[\frac{\Delta}{\phi_1(z_r)},\frac{\Delta}{\phi_2(z_r)},\ldots,\frac{\Delta}{\phi_M(z_r)}\right]\right),\ \Delta\sim\tfrac12\max|\phi|",P4,see SYMBOL_TABLE / lock body,,,Liang regularization — NOT Yang 0.1,YES,VISUAL_TEXT
+Eq.(24),\min_{k_0}(\mathbf{k}-\mathbf{k}_0)^H(\mathbf{k}-\mathbf{k}_0)\ \mathrm{s.t.}\ k_0(1)<k_0(2)<\cdots<k_0(M_0),P4,see SYMBOL_TABLE / lock body,,,ORDERED_SUBSET_GLOBAL_MATCH,YES,VISUAL_TEXT
+Eq.(25),"\mathbf{k}=[k_1,\ldots,k_{M_0}]^T",P4,see SYMBOL_TABLE / lock body,,,estimated wavenumbers,DOC,VISUAL_TEXT
+Eq.(26),"\mathbf{k}'=[k'_1,\ldots,k'_M]^T",P4,see SYMBOL_TABLE / lock body,,,KRAKEN/model wavenumbers,DOC,VISUAL_TEXT
+Eq.(27),\mathbf{k}_0\subseteq\mathbf{k}',P4,see SYMBOL_TABLE / lock body,,,ordered subset of model k',DOC,VISUAL_TEXT
+Eq.(28),\mathrm{SNR}=10\lg\frac{P_s}{P_n}\Big|_{r=r_0},P5,see SYMBOL_TABLE / lock body,,,SNR at r0,DOC,VISUAL_TEXT
+Eq.(29),(\text{correct-depth probability — see paper Sec.4 MC})\ \ | \hat z-z_\mathrm{true}|\le 5\ \mathrm{m},P5+,see SYMBOL_TABLE / lock body,,,MC success criterion |err|<=5m; C0=500,DOC,VISUAL_TEXT
+Eq.(30),(\text{CI for probability — binomial CI as printed in paper}),P5+,see SYMBOL_TABLE / lock body,,,confidence interval of correct-depth rate,DOC,VISUAL_TEXT

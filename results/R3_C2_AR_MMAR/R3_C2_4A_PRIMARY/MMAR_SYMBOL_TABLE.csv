@@ -1,0 +1,21 @@
+﻿symbol,definition,where
+"p_l(r_i,z_r)","pressure at HLA element l, snapshot i",Eq1
+r_i,source-to-HLA-center range at i-th moment (r_i=r_0+i V Δt),Eq1
+l,HLA element index -L..L; 2L+1 elements,Eq1-4
+d,element spacing (paper: λ/2),Eq1
+"θ_i, θ̂_i",true/look angle; paper assumes θ̂=θ=θ,Eq3
+"k_m, α_m, φ_m","mode wavenumber, attenuation, depth function",Eq1
+X_m,-(k_m-j α_m) sinθ_i + k sin θ̂_i,Eq4
+sin b(X_m),BEAM_FACTOR_FROM_EQ4 = sin[(L+1/2)dX]/sin((d/2)X)  [notation in later eqs],Eq4/9/12
+B(r),HLA beamformed complex output,Eq3/7
+S(r),⟨|B|²⟩^{-1/2} spreading compensation,Eq8
+R,range span during observation,Eq7
+r0,unknown initial range (paper sim 5010 m),Eq7
+y[i],AR input = B(r_i) S(r_i),Eq17
+p,"AR order, often (2/3)(2L+1) — NOTATION CONFLICT",Eq18
+"a[k], σ², u[i]","AR coefficients, noise var, white noise",Eq18-19
+P_AR(l),AR spectrum; l→k_r NOT_EXPLICIT,Eq19
+D(z),matched-mode depth function φ b b^H φ^H,Eq20
+b,(Φ+U)^{-1} g,Eq22
+"U, Δ",diag(Δ/φ_m(z_r)); Δ ~ (1/2) max|φ|  (NOT Yang 0.1),Eq23
+"k, k', k0",estimated / model / ordered subset wavenumbers,Eq24-27

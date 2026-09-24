@@ -1,0 +1,35 @@
+# R3-C2.4A-PRIMARY 报告
+
+UTC: 2026-09-24T09:03:08.658004+00:00
+
+## 状态
+
+`PRIMARY_SOURCE_AVAILABLE`；判定：
+
+### C2_4A_PRIMARY_METHOD_LOCKED_WITH_NOTATION_CONFLICTS
+
+## 方法链（主文）
+
+HLA Eq1–4 → AR k̂ Eq17–19 → Hankel g(k̂) Eq7 → **ordered-subset** Eq24–27 → D(z) Eq20–23
+
+AR **只定波数**；幅度来自 Hankel。正则化 Δ~½ max|φ|（非 Yang 0.1）。
+
+## 冲突清单（≠方法失败）
+
+1. AR_SAMPLE_COUNT_NOTATION_CONFLICT（2L+1 阵元 vs 运动样本）
+2. EQ10_PRINTED_FORM_INTERNAL_INCONSISTENCY（α 进 j[·]）
+3. EQ12_ALPHA_SUBSCRIPT_CONFLICT（e^{-α0 r'}）
+4. AR_NORMALIZED_SPECTRAL_AXIS_MAPPING_NOT_EXPLICIT
+5. MMAR_INHERITS_OFFSET_RANGE_CAVEAT（δ=0=ORACLE_OFFSET_ALIGNMENT）
+
+实现约束：Eq9 积分重推；FROM_EQ9_DERIVED_BM。
+
+## 其它修正
+
+- SET-D → INVALID_WITH_CURRENT_ZGRID；Fourier 稳健范围改为 SET-A/B/C
+- HLA：8×2 m=14 m（非 14×1 m）；4 元条件增强为 scan
+- AR 分辨率措辞：ESTD_ADJACENT_MODE_SPACING_SCALE（非 HARD requirement）
+
+## 停止
+
+不编码 AR、不跑 MMAR/FIELD、不进 E-STD AR、不 MC、不进 P5。

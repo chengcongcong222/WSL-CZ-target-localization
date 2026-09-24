@@ -1,0 +1,30 @@
+{
+  "stage": "R3-C2.4A-PRIMARY",
+  "rc3_c2_4a_primary_decision": "C2_4A_PRIMARY_METHOD_LOCKED_WITH_NOTATION_CONFLICTS",
+  "why": "主文 PDF 已锁定；Eq.(1)–(28)+方法链/mode-order/正则化/仿真配置已恢复。存在上述原文内部记号/印刷冲突，故 WITH_NOTATION_CONFLICTS；实现须用 Eq9 积分重推闭式、AR 只定 k̂、ordered-subset matching、Liang Δ~½max|φ|、δ=0。冲突≠方法失败。",
+  "conflicts": [
+    "AR_SAMPLE_COUNT_NOTATION_CONFLICT",
+    "EQ10_PRINTED_FORM_INTERNAL_INCONSISTENCY",
+    "EQ12_ALPHA_SUBSCRIPT_CONFLICT",
+    "AR_NORMALIZED_SPECTRAL_AXIS_MAPPING_NOT_EXPLICIT",
+    "MMAR_INHERITS_OFFSET_RANGE_CAVEAT"
+  ],
+  "primary_source_available": true,
+  "sha256": "9364914d34f5408f80065a31cd7fbcb5195c21047c97b2eb118348191b861834",
+  "method_chain": "HLA beam → AR k̂ → Hankel g(k̂) → ordered-subset match → D(z)",
+  "regularizer": "LIANG_PAPER_REGULARIZER Delta~0.5 max|phi|",
+  "offset_range": "delta=0 ORACLE_OFFSET_ALIGNMENT",
+  "mode_id_rule": "ORDERED_SUBSET_GLOBAL_MATCH Eq24-27",
+  "yang_route": "YANG_ROUTE_UNDECIDED",
+  "mmar_route": "RC3-C2-AR/MMAR INDEPENDENT CANDIDATE",
+  "not_done": [
+    "AR code",
+    "MMAR run",
+    "FIELD",
+    "numerical repro",
+    "E-STD AR",
+    "MC",
+    "P5"
+  ],
+  "created_utc": "2026-09-24T09:03:08.658004+00:00"
+}

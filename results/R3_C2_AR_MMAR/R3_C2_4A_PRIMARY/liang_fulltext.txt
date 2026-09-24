@@ -1,0 +1,1552 @@
+--- page 1 ---
+ResearchArticle
+Match-Mode Autoregressive Method for Moving Source Depth
+Estimation in Shallow Water Waveguides
+Liang Guo-Long,1,2,3 Zhang Yi-Feng,1,2,3 Zou Nan ,1,2,3 and Wang Jin-Jin 1,2,3
+Acoustic Science andTechnologyLaboratory, Harbin Engineering University, Harbin ,China
+Key Laboratory of Marine Information Acquisition and Security(Harbin Engineering University),
+Ministry of Industry and Information Technology,Harbin ,China
+College of Underwater Acoustic Engineering, Harbin Engineering University, Harbin ,China
+CorrespondenceshouldbeaddressedtoZouNan;zounan@hrbeu.edu.cn
+Received 23 November 2018; Accepted 16 December 2018; Published 31 December 2018
+Acad
+emicEditor:FrancescoAymerich
+Copyright © 2018 LiangGuo-Longetal.ThisisanopenaccessarticledistributedundertheCreativeCommonsAttributionLicense,
+whichpermitsunrestricteduse,distribution,andreproductioninanymedium,providedtheoriginal workisproperlycited.
+Source depth estimation is always a problem in underwater acoustic area, because depth estimation is a nonlinear problem.
+Traditional depth estimation methods use a vertical line array, which has disadvantage of poor mobility due to the size of sensor
+array. In order toestimatesource depth with a horizontal line array,we propose a matched-modedepth estimation methodbased
+on autoregressive (AR) wavenumber estimation for a moving source in shallow water waveguides. First, we estimate the mode
+wavenumbers using the improved AR modal wavenumber spectrum. Second, according to the mode wavenumber estimation,
+we estimate the mode amplitudes by the wavenumber spectrum, which is obtained by generalized Hankel transform. Finally, we
+estimatesourcedepth estimationbythepeakofsourcedepth functionwhereinthedata modebestmatchesthereplicamode that
+is calculatedusing a propagation model. Compared with synthetic aperturebeamforming, the proposed methodexhibitsa better
+performance in source depth estimation under low signal-to-noise ratio or the small range span. The robustness of the proposed
+methodisillustratedbysimulatingtheperformanceinmismatchedenvironment.
+1. Introduction
+Matchedfieldprocessing(MFP)[1–3]isapopularmethodfor
+localizing the source in complex propagation environments.
+Conventional MFP obtains the range depth function, that
+is, the correlation between the replica and the measured
+fields. The source location is determined by the peak of the
+range depth function. MFP can localize source accurately in
+a range-independent or slowly varying environment without
+considering any environmental mismatches. However, when
+the sound propagation is not exactly modeled, the range
+and depth estimated by MFP generally present an error,
+whichisreferredtoasthe environmental mismatchproblem
+[4]. The need for depth estimation is more pressing than
+range estimation for some applications. The source range
+and depth are estimated simultaneously by MFP, which
+indicatesthatdepthestimation dependsonrangeestimation.
+The robustness of depth estimation decreases because of
+the sensitivity of range estimation to sound speed profile
+(SSP). MFP always requires a vertical line array (VLA) or
+horizontal line array (HLA) with large aperture. However,
+real application of large aperture array is difficult because of
+theinstallation platform.TheapplicationofMFPisrestricted
+by the aperture problem and the environmental mismatch
+problem. Consequently, an active area of research in recent
+years has been devoted to estimate source depth robustly by
+asingle sensor ora shortlinearray [5–8].
+A class of methods that has shown some promise in
+passivelocationexploitsthepropertiesofthereliableacoustic
+path (RAP) [8]. Such methods reduce the requirement of
+arrayaperture.Thedifficultyassociatedwiththepropagation
+of RAP limits the application of the method in shallow
+water. Depth estimation for shallow water waveguides is
+generally performed in two steps: mode filtering first and
+then MMP [3]. The modal amplitudes are determined by
+mode filters, and then MMP is used to estimate the source
+location basedonthemodalamplitudeestimation. However,
+t h em o d efi l t e r sa l w a y sr e q u i r ew e l l - s a m p l i n go ft h ew a t e r
+Hindawi
+Mathematical Problems in Engineering
+Volume 2018, Article ID 7824671, 15 pages
+https://doi.org/10.1155/2018/7824671
+
+--- page 2 ---
+2 Mathematical Problems in Engineering
+0 -1 1 l L−L
+
+Figure1:Arrayreceivingschematic.
+column by the VLA; otherwise, the mode filtering will
+become an ill-posed problem. The difficulty in source depth
+estimation using a short line array is the lack of spatial
+information. Therefore, some previous studies have relied
+on the multifrequency characteristics of wideband signals in
+estimating source depth [9, 10]. Considering the dispersion
+phenomenon of signals in shallow water, some scholars
+have estimated source depth on the basis of the related
+information of marine environment contained in dispersion
+[11]. However, the aforementioned studies have restricted
+t h es i g n a lf o r mt ob eb r o a d b a n da n df e ww o r k so ns o u r c e
+depthestimationforsignalwithlow-frequencylinespectrum
+are available. Recently, data-based MMP is being proposed
+for a moving source by using a full-spanning VLA, which
+is free of the environmental mismatch problem in theory
+[12, 13]. Yang [7] proposed a method based on the idea of
+data-based MMP to estimate moving source depth, and this
+method requires only a single hydrophone. It is more robust
+than MFP for depth estimation because of not requiring
+source range estimation. However, the method presents an
+inherent drawback. The method requires source traveling a
+sufficient range in radial direction owing to that the mode
+wavenumbers are estimated by synthetic aperture modal
+beamforming (SAB). Some of the horizontal wavenumbers
+cannot be estimated, when the moving range does not meet
+therequirement.Sourcedepthestimation basedonsynthetic
+aperture beaming may be incorrect.
+T.C.Yangmentionedtheissueandpresentedthehighres-
+olution algorithms tosolve thisissue[12].Following hisidea,
+we propose a source depth estimation approach with a HLA
+for a moving source in a range-independent environment,
+without knowing source absolute range information in this
+study. When beam steers to the source direction, the signal
+is enhanced after beamforming. We apply the autoregressive
+(AR)model to the signal enhanced by array gain to estimate
+the wavenumbers. The AR wavenumber spectrum is unsuit-
+abletoestimate modeamplitudes. Therefore,thegeneralized
+Hankel transform is applied to the data. The source depth
+is estimated by the peak of the depth ambiguity function
+wherein the mode depth functions best match the mode
+amplitudes. Compared with SAB, the proposed method
+effectivelyimprovesthedepthestimationperformanceforthe
+data with short range span or low SNR, and exhibits better
+adaptability to the notion of the observation platform. In
+addition,theproposedmethodcanbeappliedtounderwater
+unmanned vehicles or the autonomous underwater vehicles
+because it identifies the peaks of wavenumber spectrum
+automatically.
+The remainder of the paper is organized as follows.
+The wavenumber estimation for the beamforming output is
+developedinSection 2.InSection 2.1,thegeneralizedHankel
+transform is extended to beamforming output in a range-
+independent environment [7]. A method for wavenumber
+estimation based on an AR model without knowing the
+source range is proposed in Section 2.2. Source depth esti-
+mation based on wavenumber spectrum is introduced in
+Section 3. The factors that influence the performance of the
+algorithm are explored in Section 4. The performance of
+the algorithm on the data with different SNRs and different
+range spans is analyzed in Section 4.1. The performance
+of the algorithm in mismatch environment is evaluated
+in Section 4.2. A summary and discussion is provided in
+Section 5.
+2. Mode Wavenumber Estimation
+We assume that source travels at a fixed depth during obser-
+vation in a range-independent environment. The considered
+HLApossesses 2𝐿+1receiversthatareuniformlyspacedwith
+𝑑asshown inFigure1.
+The range between source and the center of HLA is𝑟𝑖at
+the𝑖th moment. The far-field source radiates the continuous
+wave signal, with a look direction𝜃𝑖. 𝜃𝑖is the true value
+of the look direction at the𝑖th moment. In shallow water
+waveguides, we suppress a time dependence of the form𝑒𝑗𝜔𝑡
+with 𝜔 positive; therefore, the pressure field of the sensor𝑙
+at the𝑖th moment can be represented using normal mode
+theory as
+𝑝𝑙(𝑟𝑖,𝑧𝑟)= √
+2𝜋𝑒−𝑗(𝜋/4)
+𝑀
+∑
+𝑚=1
+𝜙𝑚(𝑧𝑠)𝜙𝑚(𝑧𝑟)
+⋅ exp{−𝑗(𝑘𝑚−𝑗𝛼𝑚)[𝑟𝑖+𝑙𝑑 sin𝜃𝑖]}
+√
+𝑘𝑚[𝑟𝑖+𝑙𝑑 sin𝜃𝑖]
+,
+(1)
+where 𝑘𝑚, 𝛼𝑚,a n d𝜙𝑚are the wavenumber, the attenuation
+coefficient,andthemodedepthfunction,respectively, which
+all belong to the𝑚th mode; 𝑧𝑠and 𝑧𝑟are the source and
+HLA depths, respectively; and𝑀 is the number of modes
+considered inthe propagation model.
+The source is at the far field, such that𝑟𝑖+𝑙𝑑 sin𝜃𝑖≈𝑟 𝑖.
+Equation (1)issimplified as
+𝑝𝑙(𝑟𝑖,𝑧𝑟)=√
+2𝜋𝑒−𝑗(𝜋/4)
+𝑀
+∑
+𝑚=1
+𝜙𝑚(𝑧𝑠)𝜙𝑚(𝑧𝑟)
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 3 ---
+Mathematical Problems inEngineering 3
+⋅ exp{−𝑗(𝑘𝑚−𝑗𝛼𝑚)[𝑟𝑖+𝑙𝑑 sin𝜃𝑖]}
+√
+𝑘𝑚𝑟𝑖
+=
+𝑀
+∑
+𝑚=1
+𝐴𝑚exp{−𝑗(𝑘𝑚−𝑗𝛼𝑚)[𝑟𝑖+𝑙𝑑 sin𝜃𝑖]},
+(2)
+where 𝐴𝑚= √
+2𝜋𝑒−𝑗(𝜋/4)(𝜙𝑚(𝑧𝑠)𝜙𝑚(𝑧𝑟)/√
+𝑘𝑚𝑟𝑖).T oi m p r o v e
+theSNR,beamformingisperformedonthesignalreceivedon
+the HLAat the𝑖th moment. For conventional beamforming,
+theoutput ofbeamforming iswritten as
+𝐵(̂𝜃𝑖)= 1
+2𝐿+1
+𝐿
+∑
+𝑙=−𝐿
+𝑒𝑗𝑘𝑙𝑑sin ̂𝜃𝑖𝑝𝑙(𝑟𝑖,𝑧𝑟). (3)
+After substituting (2)into (3), let𝑋𝑚=− ( 𝑘𝑚−𝑗𝛼𝑚)sin𝜃𝑖+
+𝑘sin ̂𝜃𝑖,a ndw eob ta in
+𝐵(̂𝜃𝑖)= 1
+2𝐿+1
+𝑀
+∑
+𝑚=1
+𝐴𝑚𝑒−𝑗𝑘𝑚𝑟𝑖−𝛼𝑚𝑟𝑖
+𝐿
+∑
+𝑙=−𝐿
+𝑒𝑗𝑙𝑑𝑋𝑚
+= 1
+2𝐿+1
+𝑀
+∑
+𝑚=1
+𝐴𝑚𝑒−𝑗𝑘𝑚𝑟𝑖−𝛼𝑚𝑟𝑖
+sin[(𝐿+1/2 )𝑑𝑋𝑚]
+sin((𝑑/2)𝑋𝑚) .
+(4)
+The estimation of the look direction ̂𝜃𝑖can be obtained
+by many methods [14]. In order to explain the algorithm
+conveniently, wediscussthemethodof estimating the sound
+source depth when source moves away from the HLA under
+theassumption that̂𝜃𝑖=𝜃𝑖=𝜃.
+..WavenumberEstimationUsingGeneralizedHankelTrans-
+form. In range-independent shallow water waveguides, a
+Hankel transform pair presents the relationship between the
+complex pressure field𝑝(𝑟;𝑧𝑠,𝑧𝑟) and the Green’s function
+𝑔(𝑘𝑟;𝑧𝑠,𝑧𝑟)[15]
+𝑝(𝑟;𝑧 𝑠,𝑧𝑟)=∫
++∞
+0
+𝑔(𝑘𝑟;𝑧𝑠,𝑧𝑟)𝐽0(𝑘𝑟𝑟)𝑘𝑟𝑑𝑘𝑟
+𝑔(𝑘𝑟;𝑧𝑠,𝑧𝑟)=∫
++∞
+0
+𝑝(𝑟;𝑧 𝑠,𝑧𝑟)𝐽0(𝑘𝑟𝑟)𝑟𝑑𝑟,
+(5)
+where𝐽0is the zeroth-order Besselfunction.
+Considering the computation of Hankel transform, the
+Green’s function is often approximated byan inverse Fourier
+transform (FT)as[15]
+𝑔(𝑘𝑟;𝑧𝑠,𝑧𝑟)∼ 𝑒𝑖(𝜋/4)
+√
+2𝜋𝑘𝑟
+∫
++∞
+−∞
+𝑝(𝑟;𝑧 𝑠,𝑧𝑟)𝑒𝑖𝑘𝑟𝑟√
+𝑟𝑑𝑟,
+𝑘𝑟𝑟≫1.
+(6)
+We consider the source motion model, source range
+=𝑟 𝑖 =𝑟 0+𝑖 VΔ𝑡,w h e r eΔ𝑡 is the sampling interval
+and 𝑟0is the unknown initial source range at𝑡=0 .W e
+assume that the source radiates a tone signal and the source
+speedV is known asap r i o r i[7, 12, 13]. According to (6),
+the Hankel transform, which is used previously to estimate
+the wavenumber, requires knowledge of the source range.
+Therefore, we apply the generalized Hankel transform [7] to
+the beamforming output. The generalized Hankel transform
+forthe beamforming output isdescribed as
+𝑔(𝑘𝑟,𝑧𝑟)= 𝑒𝑖(𝜋/4)
+√
+2𝜋𝑘𝑟
+∫
+𝑟0+𝑅
+𝑟0
+𝐵(𝑟)𝑒𝑖𝑘𝑟𝑟𝑆(𝑟)𝑑𝑟,
+𝑘𝑟𝑟0≫1 ,
+(7)
+where 𝑅 is the range span wherein source moves during
+the observation time.𝑆(𝑟)is intended to compensate for the
+cylindrical spreading loss and will be obtained directly from
+the data.
+𝑆(𝑟)=⟨|𝐵(𝑟)|2⟩
+−1/2
+, (8)
+where ⟨⟩ is the range averaging or smoothing operation.
+Equation (7) reduces to the original Hankel transform by
+setting𝑆(𝑟) = √
+𝑟. In the present discussion, 𝑆(𝑟) is
+approximately proportional to √
+𝑟 using range averaging.
+Aftersubstituting (4)into (7), while assuming𝑆(𝑟) ∼√
+𝑟,w e
+obtain
+𝑔(𝑘𝑟,𝑧𝑟)
+∼
+𝑀
+∑
+𝑚=1
+𝜙𝑚(𝑧𝑠)𝜙𝑚(𝑧𝑟)
+√
+𝑘𝑟𝑘𝑚
+sinb (𝑋𝑚)∫
+𝑟0+𝑅
+𝑟0
+𝑒𝑗(𝑘𝑟−𝑘𝑚)𝑟−𝛼𝑚𝑟𝑑𝑟
+=
+𝑀
+∑
+𝑚=1
+𝑎𝑚
+𝜙𝑚(𝑧𝑠)𝜙𝑚(𝑧𝑟)
+𝑘𝑟−𝑘𝑚+𝑗𝛼𝑚
+,
+(9)
+where
+𝑎𝑚= 𝑒𝑗[(𝑘𝑟−𝑘𝑚)−𝛼𝑚](𝑟0+𝑅)−𝑒𝑗[(𝑘𝑟−𝑘𝑚)−𝛼𝑚]𝑟0
+𝑗√
+𝑘𝑟𝑘𝑚
+sinb (𝑋𝑚). (10)
+When𝑘𝑟=𝑘𝑚,thevalue ofthe 𝑚thitemismuchlarger than
+theothersin(9).Therefore,thewavenumberspectralpeakat
+𝑘𝑟=𝑘𝑚isgiven by
+𝑔(𝑘𝑚,𝑧𝑟)∼𝑏 𝑚𝜙𝑚(𝑧𝑟), (11)
+𝑏𝑚= 2𝑒−𝛼0𝑟󸀠
+𝛼𝑚𝑘𝑚
+sinh(𝛼𝑚𝑅
+2 )𝜙𝑚(𝑧𝑠)sin𝑏(𝑋𝑚), (12)
+where𝑟󸀠=𝑟0+𝑅/2.This expression can bedescribed bythe
+matrix form.
+g =Φ ⋅b, (13)
+where
+g =[
+𝑔(𝑘1,𝑧𝑟),
+𝑔(𝑘2,𝑧𝑟),...,
+ 𝑔(𝑘𝑀,𝑧𝑟)]
+𝑇, (14)
+Φ =diag([𝜙1(𝑧𝑟),𝜙 2(𝑧𝑟),...,𝜙 𝑀(𝑧𝑟)]), (15)
+b =[𝑏1,𝑏2,...,𝑏 𝑀]𝑇, (16)
+The aforementioned wavenumber estimation method is
+based on the FT and is convenient to be calculated by
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 4 ---
+4 Mathematical Problems in Engineering
+FFT.However,theFT-based approach presetssomeinherent
+disadvantages: (1) the spectral resolution of FT is limited by
+the range span. To resolve the modal wavenumbers between
+the𝑖th and𝑗th modes, the range needs to be larger than the
+interference distance, that is,𝑑𝑖𝑗 =2 𝜋 / | 𝑘𝑖−𝑘 𝑗|.I fa l lt h e
+wavenumbers are estimated, then the range must be larger
+than all interference distances. (2) The spectrum leakage
+occurs seriously when the method is applied to the data
+with a short range span. The sidelobes of strong spectral
+components can contaminate the weak spectral components
+orgenerate a false spectral peak. With the increase in source
+frequencyorwaveguidedepth,thelowermodewavenumbers
+will closely grouptogether. As a result, the wavenumbers are
+difficulttobeestimatedinthisenvironment.Consideringthe
+drawbacks of FT, the modern spectral estimation methods
+can beapplied towavenumber estimation.
+..WavenumberEstimationUsingARModel. Severalmeth-
+ods have been developed to extract the mode wavenumbers,
+such as Prony’s method, the signal subspace algorithms,
+and matrix-pencil [16, 17]. However, these methods regard
+the number of wavenumbers asap r i o r i.Th en u m b e ro f
+wavenumbers cannot be known correctly in practice. The
+AR spectral estimators based on an all-pole model are often
+used to extract the spectral peaks in frequency estimation
+[18].TheARestimator doesnotneed toknowthenumberof
+wavenumbersandisthusattractivetoestimatewavenumbers.
+However, the source range must be known for the AR
+estimator. Consequently, improved AR estimator should be
+usedtoextract the modewavenumbers.
+Themethodcanbedividedintothreesteps.First,dataare
+preprocessedby
+𝑦[𝑖]=𝐵(𝑟 𝑖)𝑆(𝑟𝑖) 𝑖=1,2...2𝐿+1 (17)
+Second, considering that𝑦[𝑖]can be described as the output
+ofa linear system, weconstruct the ARmodelas
+𝑦[𝑖]=−
+𝑝
+∑
+𝑘=1
+𝑎[𝑘]𝑦[𝑖−𝑘 ]+𝑢 [𝑖], (18)
+where 𝑝is the order of the AR model to represent the data
+and is often set to(2/3)(2𝐿+1) [18]. Finally, we assume that
+𝑢[𝑖]is a zero mean white noise sequence with𝜎2. Therefore,
+thewavenumber spectral density𝑃𝐴𝑅isexpressed as
+𝑃𝐴𝑅(𝑙)= 𝜎2
+󵄨󵄨󵄨󵄨󵄨1+∑ 𝑝
+𝑘=1𝑎[𝑘]exp[−𝑖𝑙𝑘]󵄨󵄨󵄨󵄨󵄨
+. (19)
+𝑃𝐴𝑅is obtained by estimating the coefficients 𝑎[1],𝑎[2],
+...,𝑎[𝑝] and 𝜎2. The above-mentioned coefficients can be
+estimated in different ways. We select the modified covari-
+ance approach because it avoids the spectral line splitting
+effectively [18]. The locations of peaks in𝑃𝐴𝑅yield the
+wavenumbers estimated by AR model. The peak levels
+estimated by AR estimator possess large variances [18].
+Therefore, AR estimator is unsuitable to estimate the modal
+amplitudes.
+3. Matched-Mode Source Depth Estimation
+As discussed above, the wavenumbers can be estimated by
+AR spectrum. However, AR spectrum is unsuitable to esti-
+mate the modal amplitudes. The performance of estimating
+wavenumbers degrades by using the generalized Hankel
+transform.Theperformanceisaffectedbyfalsespectralpeaks
+and spectral resolution. To combine the advantages of two
+methods,the modalamplitudes areestimated bygeneralized
+Hankel transform with a prior knowledge of wavenumbers
+that are estimated by AR model. Therefore, we estimate the
+wavenumber 𝑘𝑚by AR model and then obtain
+𝑔(𝑘𝑚,𝑧𝑟) in
+the wavenumber spectrum on the basis of the generalized
+Hankel transform.
+According(13),weuseasourcedepthambiguityfunction
+toestimate sourcedepth, andthis function is expressedas
+𝐷(𝑧)=𝜑 (𝑧)𝑏𝑏𝐻𝜑𝐻 (𝑧), (20)
+where
+𝜑 (𝑧)=[𝜙1(𝑧),𝜙2(𝑧),...,𝜙 𝑀(𝑧)]. (21)
+𝑏 can besolved by
+𝑏 =(Φ +𝑈)−1𝑔, (22)
+𝑈 =diag([ Δ
+𝜙1(𝑧𝑟), Δ
+𝜙2(𝑧𝑟),..., Δ
+𝜙𝑀(𝑧𝑟)]). (23)
+where Δ is a small amount (on the order of one-half of the
+maximum value of the mode function) for preventing the
+singularity ofΦ.W a v e n u m b e r s𝑘󸀠
+𝑚and𝜙𝑚(𝑧)are calculated
+by KRAKEN on the basis of a given frequency and envi-
+ronmental information (SSP and bottom properties). Some
+modes cannot be resolved even if we use the AR spectrum,
+suchthat the number of
+𝑔(𝑘𝑚,𝑧𝑟)is less than𝑀.Weassume
+that only𝑀0order is estimated.𝜙𝑚(𝑧)with the same order
+of
+ 𝑔(𝑘𝑚,𝑧𝑟) can be determined by solving the problem as
+follows:
+min (𝑘 −𝑘0)
+𝐻
+(𝑘 −𝑘0)
+𝑠.𝑡. 𝑘0(1)<𝑘0(2)<⋅⋅⋅<𝑘 0(𝑀0),
+(24)
+where
+𝑘 =[𝑘1,𝑘2,...,𝑘 𝑀0]
+𝑇
+, (25)
+𝑘󸀠=[𝑘󸀠
+1,𝑘󸀠
+2...,𝑘 󸀠
+𝑀]
+𝑇
+, (26)
+𝑘0⊆𝑘󸀠. (27)
+𝑘 isan 𝑀0×1vector,𝑘󸀠isan 𝑀×1 vector,and 𝑘0isan 𝑀0×1
+vector.
+4. Numerical Simulation
+ .  .D e p t hE s t i m a t i o ni nE x a c t l yK n o w nE n v i r o n m e n t .This
+section presents comparisons of the source depth estima-
+tion results of the SAB and the proposed matched-mode
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 5 ---
+Mathematical Problems inEngineering 5
+1470 1480 1490 1500 1510 1520 1530 1540
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+Sound Speed (m/s)
+Depth (m)
+Figure2:Soundspeedprofile.
+autoregressive depthestimation method(MMAR)inaseries
+ofrealistictestcases.ForSAB,sourcedepthcanbeestimated
+using only a single hydrophone under the assumption that
+source moves away from receiver at a constant speed during
+theobservationtime.Forconvenientcomparison,weassume
+thesource ofSABmoves along the beam direction ofHLA.
+The pressure field is generated using the KRAKEN pro-
+gram. The SSP for simulation is shown in Figure2, and the
+bottom properties are referred to [7]. The considered HLA
+possesses 2𝐿+1 receivers that are uniformly spaced with𝑑,
+where𝑑=𝜆 / 2 ,𝐿=5.TheHLAdepthis70m.Instudyingthe
+differenceindepthestimation performance,weconsidertwo
+sources depths of 4 and 50 m, which correspond to shallow
+and deep sources, respectively. The initial source range is
+5010m,butthisinformation isassumedtobeunknown. The
+performanceinfluenced bytheunknowninitial sourcerange
+hasbeendiscussedin[7].Weassumethateachsourcemoves
+away from the HLA with a speed of 2.5 m/s and radiates
+the narrowband signal with 350Hz.To compiling the source
+depthestimation results,three differentSNRsof20,5,and-5
+dBareconsidered, wheretheSNRisdefined as
+𝑆𝑁𝑅= 10lg𝑃𝑠
+𝑃𝑛
+󵄨󵄨󵄨󵄨󵄨󵄨󵄨󵄨𝑟=𝑟0
+. (28)
+According to (28), when source range is 5010 m, the SNR is
+describedbytheratioofsignalpower 𝑃𝑠andnoisepower 𝑃𝑛at
+receiver. Thearraygain isalready considered inSNR.Source
+depthestimation resultsarealsocompiledfordifferentrange
+spans (insufficient and sufficient range span).
+Before examining the source depth estimation, it is
+necessary to consider the wavenumber estimation results
+for different range spans and SNRs. A unified description
+is given to avoid duplication; that is, the deep source is
+expressedbythebluelineandtheshallowsourceisexpressed
+by the red line. Figure3 shows the wavenumber estimation
+with a sufficient range span (4990 m) for different SNRs.
+Figures 3(a), 3(c), and 3(e) show that the wavenumbers are
+estimated by the method in SAB with SNR = 20, 5, and
+-5 dB. With the decreasing SNR, spectral peaks are more
+difficult to identify accurately. When the SNR is around -
+5 dB, too many false spectral peaks are identified as the
+true ones. For example, there is no true spectral peak from
+range 1.3–1.36 in wavenumber domain. However, the false
+spectral peaks are identified as true ones in Figure3(e),
+because the levels of false spectral peaks are high (especially
+for the deep source). Figures 3(b), 3(d) and 3(f) show that
+thewavenumbersareestimatedbytheproposedwavenumber
+estimation method with SNR = 20 dB, 5 dB, and -5 dB.
+Compared with Figure3(e), the number of false spectral
+peaks, which are identified as the true ones, is obviously
+decreased inFigure3(f).
+Figure4 shows the wavenumber estimation with the
+insufficient range span (1990 m) for different SNRs. Com-
+paring Figures 3(a), 3(c), and 3(e) with Figures 4(a), 4(c),
+and 4(e), we see that when the range span is insufficient,
+wavenumber spectrum in SAB is more broadening. It makes
+more difficult to identify the spectral peaks. Comparing
+Figure4(b) with Figure4(a), the spectral peaks can be iden-
+tified moreeasily, because theproposedmethodhasahigher
+resolution.
+Figure5 shows the source depths are estimated by SAB
+and MMAR with a sufficient range span for different SNRs.
+From Figures 5(a) and 5(b), both SAB and MMAR can
+estimate source depths accurately, whether the source is
+shallow or deep. With the decreasing SNR, the source depth
+estimation results are obviously worse by using SAB as
+shown in Figures 5(c) and 5(e). The main reason for the bad
+depth estimation is the false spectral peak problem, which is
+discussed in Figure3. Compared with the depth estimation
+in Figures 5(c) and 5(e), MMAR can estimate source depths
+effectivelyforSNR=5and-5dBasshowninFigures5(d)and
+5(f).
+Figure6 shows the source depths are estimated by SAB
+and MMAR with an insufficient range span for different
+SNRs. Since the spectral peaks are difficult to identify, SAB
+fails to estimate source depth as shown in Figures 6(a), 6(c),
+and 6(e). When SNR is high (20 dB), MMAR can estimate
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 6 ---
+6 Mathematical Problems in Engineering
+1.35 1.4 1.45 1.51.3
+Wavenumber (1/m)
+−20
+−10
+0
+10
+20
+30
+40
+50
+60
+Spectral Level (db)
+Zs=50m
+Zs=4m
+(a)
+1.34 1.36 1.38 1.4 1.42 1.44 1.46 1.48 1.51.32
+Wavenumber (1/m)
+−50
+0
+50
+100
+Spectral Level (db)
+Zs=50m
+Zs=4m
+(b)
+−30
+−20
+−10
+0
+10
+20
+30
+40
+50
+60
+Spectral Level (db)
+Zs=50m
+Zs=4m
+1.35 1.4 1.45 1.51.3
+Wavenumber (1/m)
+(c)
+−40
+−20
+0
+20
+40
+60
+80
+100
+Spectral Level (db)
+1.34 1.36 1.38 1.4 1.42 1.44 1.46 1.48 1.51.32
+Wavenumber (1/m)
+Zs=50m
+Zs=4m
+(d)
+Zs=50m
+Zs=4m
+−10
+0
+10
+20
+30
+40
+50
+60
+Spectral Level (db)
+1.35 1.4 1.45 1.51.3
+Wavenumber (1/m)
+(e)
+−80
+−60
+−40
+−20
+0
+20
+40
+60
+80
+Spectral Level (db)
+1.35 1.4 1.45 1.51.3
+Wavenumber (1/m)
+Zs=50m
+Zs=4m
+(f)
+Figure3:Wavenumberspectrumestimationwith asufficientrangespanat350Hz.ThewavenumberestimationmethodsinSABwithSNR
+=20,5,and-5dBareshownin(a),(c),and(e),respectively.ThewavenumberestimationmethodsproposedinthispaperwithSNR=20,5,
+a nd-5dBa r esho wnin(a),(c),a nd(e),r especti vel y .
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 7 ---
+Mathematical Problems inEngineering 7
+−20
+−10
+0
+10
+20
+30
+40
+50
+60
+Spectral Level (db)
+1.35 1.4 1.45 1.51.3
+Wavenumber (1/m)
+Zs=50m
+Zs=4m
+(a)
+1.35 1.4 1.45 1.51.3
+Wavenumber (1/m)
+−120
+−100
+−80
+−60
+−40
+−20
+0
+20
+40
+60
+Spectral Level (db)
+Zs=50m
+Zs=4m
+(b)
+1.35 1.4 1.45 1.51.3
+Wavenumber (1/m)
+−20
+−10
+0
+10
+20
+30
+40
+50
+60
+Spectral Level (db)
+Zs=50m
+Zs=4m
+(c)
+1.35 1.4 1.45 1.51.3
+Wavenumber (1/m)
+−100
+−50
+0
+50
+Spectral Level (db)
+Zs=50m
+Zs=4m
+(d)
+−20
+−10
+0
+10
+20
+30
+40
+50
+Spectral Level (db)
+1.35 1.4 1.45 1.51.3
+Wavenumber (1/m)
+Zs=50m
+Zs=4m
+(e)
+1.35 1.4 1.45 1.51.3
+Wavenumber (1/m)
+−80
+−60
+−40
+−20
+0
+20
+40
+Spectral Level (db)
+Zs=50m
+Zs=4m
+(f)
+Figure 4: Wavenumberspectrumestimation with an insufficient range span at 350 Hz. The wavenumberestimation methods in SAB with
+SNR=20,5, and-5dB are shownin (a),(c),and(e),respectively.Thewavenumberestimationmethodsproposedin thispaperwith SNR=
+20,5,and-5dBareshownin(a),(c),and(e),respectively.
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 8 ---
+8 Mathematical Problems in Engineering
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Depth (m)
+0.02 0.04 0.06 0.08 0.1 0.12 0.140
+Normalized Distribution
+Zs=50m
+Zs=4m
+(a)
+0.02 0.04 0.06 0.08 0.1 0.12 0.140
+Normalized Distribution
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Depth (m)
+Zs=50m
+Zs=4m
+(b)
+0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.160
+Normalized Distribution
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Depth (m)
+Zs=50m
+Zs=4m
+(c)
+0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.160
+Normalized Distribution
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Depth (m)
+Zs=50m
+Zs=4m
+(d)
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Depth (m)
+0.01 0.02 0.03 0.04 0.050
+Normalized Distribution
+Zs=50m
+Zs=4m
+(e)
+0.02 0.04 0.06 0.08 0.1 0.120
+Normalized Distribution
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Depth (m)
+Zs=50m
+Zs=4m
+(f)
+Figure5:Normalizeddepthambiguityfunctionswithasufficientrangespanfortheshallow(Zs=4m)anddeep(Zs=50m)sources.Source
+depthsareestimatedbySABwithSNR=20dB,5dB,and-5dBin(a),(c),and(e),respectively.SourcedepthsareestimatedbyMMARwith
+SNR=20dB,5dB,and-5dBin(b),(d),and(f),respectively.
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 9 ---
+Mathematical Problems inEngineering 9
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Depth (m)
+0.005 0.01 0.015 0.02 0.025 0.03 0.035 0.040
+Normalized Distribution
+Zs=50m
+Zs=4m
+(a)
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Depth (m)
+0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.160
+Normalized Distribution
+Zs=50m
+Zs=4m
+(b)
+0.01 0.02 0.03 0.04 0.050
+Normalized Distribution
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Depth (m)
+Zs=50m
+Zs=4m
+(c)
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Depth (m)
+0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.080
+Normalized Distribution
+Zs=50m
+Zs=4m
+(d)
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Depth (m)
+0.01 0.02 0.03 0.04 0.050
+Normalized Distribution
+Zs=50m
+Zs=4m
+(e)
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Depth (m)
+0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.080
+Normalized Distribution
+Zs=50m
+Zs=4m
+(f)
+Figure 6: Normalized depth ambiguity functions with an insufficientrange span for the shallow (Zs = 4m) and deep (Zs = 50 m) sources.
+SourcedepthsareestimatedbySABwithdifferentSNRin(a),(c),and(e).SourcedepthsareestimatedbyMMARwithdifferentSNRin(b),
+(d),and(f).
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 10 ---
+10 Mathematical Problems in Engineering
+source depth accurately, whether the source is shallow or
+deep.WhenSNRdecreasesto5dB,MMARcanalsoestimate
+the shallow source depth. However, the deep source depth
+is estimated with a bias. Figure6(d) shows the false spectral
+peaks have high spectral levels, which make difficult to
+identify the true spectral peaks. When SNR decreases to -
+5 dB, MMAR fails to estimate the deep source depth and
+estimatestheshallowonewithabiasasshowninFigure6(f),
+becausefalsespectralpeaksinwavenumberspectrumofdeep
+sourcehave higherspectral levelthan that ofshallow ones.
+The depth estimation results in Figures 5 and 6 are
+for a single realization of random noise on the data. To
+obtain meaningful general comparisons between the two
+depth estimation methods, 500 independent random noise
+realizations are added to the acoustic signal for𝑧𝑠=5 0𝑚 .
+The performance of the two methods is quantified the
+estimated probability ofcorrect depth𝑃,whichisdefined as
+𝑃= 𝐶
+𝐶0
+, (29)
+where𝐶isthetimesthattheestimated sourcedepthwithina
+suitablysmallregionaboutthetruedepth.Thesmallregionis
+definedas ±5 𝑚indepthinthispaper. 𝐶0isthetotalnumber
+of the realizations. In this paper,𝐶0= 500. Ninety-percent
+confidenceintervalsfortheprobabilityofcorrectlocalization
+are [19]
+[𝑃−1.645 √
+𝑃(1−𝑃 )
+𝐶0
+,𝑃+1.645 √
+𝑃(1−𝑃 )
+𝐶0
+]. (30)
+The estimated probabilities of correct depth for SAB and
+MMAR for known environment with error bars denoting
+90% confidence limits are shown in Figure7. Figures 7(a),
+7(b), and 7(c) are corresponding to SNRs of 20, 5, and -
+5 dB, respectively. Figure7(a) shows that, at SNR = 20 dB
+with 4490 m –4990 m range span, both methods yield a
+high estimated probability of correct depth. However, with a
+rangespanfrom1990mto3990m,MMARhasanobviously
+higher probability than SAB. Figure7(b) shows that MMAR
+performswellfor2490morlargerrangespan,whenSNR=5
+dB.Figure7(c)showsthat,forSNR=-5dB,MMARestimates
+depth well for2990m or larger range span.
+.. Depth Estimation in Mismatch Environment. In
+Section 4.1, it has been assumed that the environmental
+parameters are known exactly for all depth estimation
+examples. In practical applications, the properties of the
+environment (water-column sound speed profile (SSP) and
+seabed geoacoustic parameters) are not known exactly.
+We focus on the performance of MMAR and SAB in
+mismatch environment in this Section. We discuss the
+performanceofMMARandSABwithSSPmismatch,seabed
+geoacoustic parameters mismatch, and the combination of
+SSP mismatch and seabed geoacoustic parameters mismatch
+in Sections 4.2.1, 4.2.2, and 4.2.3, respectively. The acoustic
+data considered in this Section were generated by KRAKEN
+using the environment model described in Section 4.1.
+The matched modes are computed for the environment
+with different types of mismatches (SSP mismatch, seabed
+geoacoustic parameters mismatch and combination of SSP
+mismatch, and seabed geoacoustic parameters mismatch).
+The performance of the proposed method is evaluated by
+carryingoutMouteCarlosampling overrandomrealizations
+ofenvironmental mismatches.
+...SoundSpeedProﬁleMismatch. Addingtherandomper-
+turbationtotheSSPdepthbydepth,theadditiveperturbation
+is modeled as zero-mean Gaussian processes. The standard
+deviations of the perturbations are 5 m/s and 10 m/s, which
+are denoted by𝛿=5 m/sa n d𝛿=1 0 m/s, respectively.
+As in Section 4.1, depth estimation results for MMAR and
+SABareconsideredforthreeSNRs(20,5and-5dB).Figure8
+shows how the probabilities of correct estimated depth vary
+with the range span for these cases. In comparing Figure 8
+with Figure7 (no mismatch), it is clear that the probability
+of correct depth estimation decreases with SSP mismatch, in
+some cases (such as Figures 8(b), 8(d), 8(e), and 8(f)) by a
+substantial amount. Comparing the performance of MMAR
+withthatofSAB,theresultsofMMARaregenerallysuperior
+to that of SAB in Figure8. Also, from Figures 8(a), 8(c), and
+8(e) or 8(b), 8(d) and 8(f), we can see that the probability of
+correctdepthestimationbasedonMMARandSABdecreases
+withSNR.
+...SeabedGeoacousticPropertiesMismatch. Seabedgeoa-
+coustic properties mismatch includes mismatches of sed-
+iment sound speed, density, and attenuation. The density
+and attenuation of sediment have few effects on the stability
+of MFP [20]. The conclusion can be obviously extended
+to MMAR and SAB. Therefore, we focus on the effects of
+sediment sound speed mismatch on the performance of
+MMARand SAB.
+Also a random perturbation is added to the sediment
+sound speed, which is considered as the mismatch of sed-
+iment sound speed. The standard deviations of additive
+perturbationare30m/sand50m/s,whicharedenotedby Δ=
+30 m/sa n dΔ=5 0 m/s, respectively. As in the previous
+section, depth estimation results for MMAR and SAB are
+consideredforthreeSNRswithdifferentrangespan.Figure9
+shows that the probabilities of correct depth estimation for
+those cases with different sediment sound speed mismatch.
+Like the discussion in Section 4.2.1, the probabilities of
+correctdepthestimationdecreasewithvaryingthemismatch
+ofsedimentsoundspeed.FromFigure9,itisapparentthatas
+SNR decreases the depth estimation results for two methods
+degrade, regardless of the range span. One should note that
+although the magnitude of sediment sound speed mismatch
+is larger than that of SSP mismatch, the performance of the
+two methods in sediment sound speed mismatch case is
+better than that in SSP mismatch cases. It means that the
+two methods are more sensitive to the SSP mismatch than
+sediment soundspeedmismatch.
+... Environmental Mismatch.For the realistic scenarios,
+the environmental mismatch is always complicated. There-
+fore, we consider the environmental mismatch, which com-
+bines SSP mismatch and seabed sound speed mismatch.
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 11 ---
+Mathematical Problems inEngineering 11
+SAB
+MMAR
+20 
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+(a)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+SAB
+MMAR
+20 
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+(b)
+0 
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+2000 2500 3000
+Range Span (m)
+3500 4000 4500 5000
+SAB
+MMAR
+(c)
+Figure 7: Estimated probability of correct depth𝑃 with known environmental parameters for SAB (the blue line with open circles) and
+MMAR(the redline with crosses).(a),(b),and(c) give resultswith different range spans (from1990 m to4990 m) at SNRs of20, 5,and-5
+dB,respectively.
+Compared with Figures 8 and 9, the performance of the two
+method decreases in Figure9 as another mismatch exists.
+Also,theperformanceofMMARisgenerallysuperiortothat
+of SAB in Figure10. When the environmental mismatch is
+relativelylargeasshowninFigures10(b),10(d),and10(f),two
+methods fail to work. When the environmental mismatch is
+relativelysmallasshowninFigures10(a),10(c),and10(e),the
+estimatedprobabilityofMMARisrelatively highatrelatively
+highSNR(SNR=20and5dB).EvenifSNRislow,MMARcan
+estimate source depth effectively with relatively large range
+span.
+5. Summary and Discussion
+A matched-mode method based on AR using an HLA
+to estimate the moving source depth is developed in this
+study. The modal wavenumber spectrum is obtained using
+generalized Hankel transform with the data from the
+m o v i n gs o u r c e .Th em o d ea m p l i t u d e sc a nb ee x t r a c t e d
+by combining the information based on AR modal
+wavenumber spectrum and the FT wavenumber spectrum.
+The amplitudes contain the information of source depth.
+The source depth is estimated by matching the mode
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 12 ---
+12 Mathematical Problems in Engineering
+MMAR
+SAB
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+(a)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+MMAR
+SAB
+(b)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+MMAR
+SAB
+(c)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+MMAR
+SAB
+(d)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+MMAR
+SAB
+(e)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+MMAR
+SAB
+(f)
+Figure8:Estimatedprobabilityofcorrectdepth 𝑃withSSPmismatchforMMAR(redcross)andSAB(blueopencircle).(a),(c),and(e)give
+resultsforSSPmismatch 𝛿=5 𝑚/𝑠 casesatSNRsof20,5,and-5dB,respectively;(b),(d),and(f)giveresultsforSSPmismatch 𝛿=10 𝑚/𝑠
+casesatthesameSNRs. Errorbarsdenote90%confidenceintervals.
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 13 ---
+Mathematical Problems inEngineering 13
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+MMAR
+SAB
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+(a)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+MMAR
+SAB
+(b)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+MMAR
+SAB
+(c)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+MMAR
+SAB
+(d)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+MMAR
+SAB
+(e)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+MMAR
+SAB
+(f)
+Figure9:Estimatedprobabilityofcorrectdepth 𝑃withseabedgeoacousticpropertiesmismatchforMMAR(redcross)andSAB(blueopen
+circle).(a),(c),and(e)giveresultsforseabedgeoacousticpropertiesmismatch Δ=30 𝑚/𝑠 casesatSNRsof20,5,and-5dB,respectively;(b),
+(d),and(f)give resultsforseabedgeoacoustic propertiesmismatch Δ=50 𝑚/𝑠 casesatthesame SNRs. Errorbarsdenote90%confidence
+intervals.
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 14 ---
+14 Mathematical Problems in Engineering
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+MMAR
+SAB
+(a)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+MMAR
+SAB
+(b)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+MMAR
+SAB
+(c)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+MMAR
+SAB
+(d)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+MMAR
+SAB
+(e)
+2500 3000 3500 4000 4500 50002000
+Range Span (m)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100P (%)
+MMAR
+SAB
+(f)
+Figure 10:Estimatedprobabilityofcorrectdepth 𝑃withenvironmentalmismatch,whichcombinesSSPandseabedsoundspeedmismatch,
+forMMAR(redcross)andSAB (blueopencircle).(a),(c),and(e)give resultsfor thecombinationofSSPmismatch 𝛿=5 𝑚 / 𝑠and seabed
+geoacousticpropertiesmismatch Δ=30 𝑚/𝑠 casesatSNRsof20,5and-5dB,respectively;(b),(d),and(f)giveresultsforthecombination
+of SSP mismatch𝛿=1 0𝑚 / 𝑠and seabed geoacoustic properties mismatchΔ=5 0𝑚 / 𝑠cases at the same SNRs. Error bars denote 90%
+confidenceintervals.
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+--- page 15 ---
+Mathematical Problems inEngineering 15
+estimation with the mode depth function calculated by the
+KRAKEN.
+Themethodproposedinthisstudyisevaluated usingthe
+simulated data. For the data with a small range span or low
+SNR,theproposedmethodcanachievesourcedepthestima-
+tion with better performance than SAB. The performance of
+theproposedmethodisevaluatedinmismatchenvironment.
+The proposed method performs better than SAB in different
+environmental mismatch cases. The proposed method is
+insensitive to the environmental mismatch.
+ComparedwiththatinSAB,therequirementofthemov-
+ing source traveling range decreases in proposed method.
+The proposed method can also be applied to the data with
+low SNR and in environmental mismatch cases. However,
+this method is limited because it assumes the source depth
+fixed during the observation time. The effectiveness of this
+method degrades sharply, when the source depth varies
+rapidly. Therefore, additional work is needed for its future
+application insource depth tracking.
+Data Availability
+The data used to support the findings of this study are
+includedwithin the article.
+Conflicts of Interest
+The authors declare that there are no conflicts of interest
+regardingthe publication ofthis paper.
+Acknowledgments
+This work was supported by the National Key R&D Plan
+(2017YFC0306900),theNationalNaturalScienceFoundation
+of China (11504064 and 61405041), the Technology of Basic
+ScientificResearchProject(JSJL2016604B003),andtheOpen
+Fund for the National Laboratory for Marine Science and
+Technology ofQingDao (QNLM2016ORP0102).
+References
+[ 1 ]A .B .B a g g e r o e r ,W .A .K u p e r m a n ,a n dP .N .M i k h a l e v s k y ,“ A n
+overview of matched field methods in ocean acoustics,”IEEE
+Journal ofOceanicEngineering,vol.18,no .4,pp .401 –424,1993.
+[2] X. Wang,M.Xu,H. Wang,Y. Wu,andH. Shi,“Combinationof
+Interacting Multiple Models with the Particle Filter for Three-
+Dimensional Target Tracking in Underwater Wireless Sensor
+Networks,”Mathematical Problems in Engineering,v o l .2 0 1 2 ,
+ArticleID 829451,16pages, 2012.
+[3] P.N.TranandK.D.Trinh,“AdaptiveMatchedFieldProcessing
+for Source Localization Using Improved Diagonal Loading
+Algorithm,”AcousticsAustralia,vol.45,no.2,pp.325–330,2017 .
+[4] Y. Le Gall, F.-X. Socheleau, and J. Bonnel, “Matched-field
+processingperformanceunderthestochasticanddeterministic
+signal models,”IEEE Transactions on Signal Processing,v o l .6 2 ,
+no.22,pp.5825–5838, 2014.
+[ 5 ]S .M .J e s u s ,M .B .P o r t e r ,Y .S t ´ephan, X. D´emoulin, O. C.
+Rodr´ıguez, and E. M. M. Ferreira Coelho, “Single hydrophone
+source localization,”IEEE Journal of Oceanic Engineering,v o l .
+25,no. 3,pp. 337–346,2000.
+[6] S. B. Suppappola and B. F. Harrison, “Experimental matched-
+field localization results using a short vertical array and mid-
+frequency signals in shallow water,”IEEE Journal of Oceanic
+Engineering,vo l.29 ,no .2,p p .511 –5 23,2004.
+[7] T. C. Yang, “Source depth estimation based on synthetic
+aperture beamfoming for a moving source,”	e Journal of the
+AcousticalSocietyofAmerica ,vol.138,no.3,pp.1678–1686,2015.
+[ 8 ]R .D u a n ,K .Y a n g ,Y .M a ,a n dB .L e i ,“ Ar e l i a b l ea c o u s t i cp a t h :
+Physical properties and a source localization method,”Chinese
+PhysicsB,vo l.21,no .12,p p .27 6–28 9 ,2012.
+[9] N. Booth, P. Baxley, J. Rice et al., “Source localization with
+broad-band matched-field processing in shallow water,”IEEE
+JournalofOceanicEngineering ,vo l.21,no .4,p p .40 2–412,1 996.
+[10] P. A. Forero, P. A. Baxley, and L. Straatemeier, “A multitask
+learning framework for broadband source-location mapping
+usingpassivesonar,”IEEETransactionsonSignalProcessing ,vol.
+6 3,no .1 4,p p .3599–36 1 4,2015.
+[11] J.Bonnel,G.LeTouze,B.Nicolas,andJ.I.Mars,“Physics-Based
+Time-Frequency Representations for Underwater Acoustics:
+PowerClassUtilizationwithWaveguide-InvariantApproxima-
+tion,”IEEE Signal Processing Magazine,v o l .3 0 ,n o .6 ,p p .1 2 0 –
+129,2013.
+[12] T. C. Yang, “Moving Source Localization And Tracking Based
+on Data,”Oceans,pp.2147-2147,2014.
+[13] T.C.Yang,“Data-basedmatched-modesourcelocalizationfora
+movingsource,”	eJournaloftheAcousticalSocietyofAmerica ,
+vol.135,no.3,pp. 1218–1230,2014.
+[14] A. Bereketli, M. B. Guldogan, T. Kolcak, T. Gudu, and A. L.
+Avsar, “Experimental results for direction of arrival estimation
+withasingleacousticvectorsensorinshallowwater,” Journalof
+Sensors, vol.2015,ArticleID 401353,10pages, 2015.
+[15] G.V.FriskandJ.F.Lynch,“Shallowwaterwaveguidecharacteri-
+zationusingthehankeltransform,” 	eJournaloftheAcoustical
+Societyof America,vol.76,no .1,pp .205–216,1984.
+[16] T. K. Sarkar and O. Pereira, “Using the matrix pencil method
+to estimate the parameters of a sum of complex exponentials,”
+IEEEAntennasandPropagationMagazine ,vol.37 ,no.1,pp.48–
+55,1995.
+[17] P. Roux, D. Cassereau, and A. Roux, “A high-resolution algo-
+rithm for wave number estimation using holographic array
+processing,”	eJournaloftheAcousticalSocietyofAmerica ,vol.
+115,no.3,pp. 1059–1067,2004.
+[18] J. Marple,Digital spectral analysis with applications,P r e n t i c e
+Hall Signal Processing Series, Prentice Hall, Inc., Englewood
+Cliffs,NJ,1987.
+[19] N. Collison and S. Dosso, “A comparison of modal decom-
+position algorithms for matched-mode processing,”Canadian
+Acoustics - Acoustique Canadienne,v o l .2 8 ,n o .4 ,p p .1 5 – 2 7 ,
+2000.
+[20] Y.
+Le Gall, F.-X. Socheleau, and J. Bonnel, “Performance
+AnalysisofSingle-ReceiverMatched-ModeLocalization,” IEEE
+Journalof OceanicEngineering,p p .1 –1 4,2017 .
+ 2629, 2018, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2018/7824671, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
