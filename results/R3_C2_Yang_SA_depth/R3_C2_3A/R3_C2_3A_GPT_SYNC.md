@@ -1,0 +1,1 @@
+# R3-C2.3A\n\n**C2_3A_FOURIER_MODE_IDENTITY_LIMITED**\n\nEQ5 20/20 signature OK; Fourier unique mode ID fails (0 unique / 1777 groups).\nNext: AR/high-res wavenumber. YANG_ROUTE_UNDECIDED.\n

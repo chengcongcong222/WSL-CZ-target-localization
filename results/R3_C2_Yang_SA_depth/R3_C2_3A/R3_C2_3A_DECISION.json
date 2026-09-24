@@ -1,0 +1,24 @@
+{
+  "stage": "R3-C2.3A",
+  "rc3_c2_3a_decision": "C2_3A_FOURIER_MODE_IDENTITY_LIMITED",
+  "why": "E-STD L=2.4km 普通 Fourier 下几乎无法唯一识别模态：UNIQUE=2, UNRESOLVED_GROUP=1777（每峰约9-22模态）; n_rayleigh_unique(energetic)=0。EQ5_IDEAL energetic 层 20/20 深度签名完好（z_hat=真值, margin_10m>>1）。瓶颈在 mode identity 而非深度签名。只限制普通 Fourier mode-ID，不等于 AR/高分辨失败。",
+  "labels": [
+    "C2_3A_FOURIER_MODE_IDENTITY_LIMITED"
+  ],
+  "extras": [
+    "RANGE_ESCAPE_CHECKED"
+  ],
+  "n_strict_ok_baseline": 0,
+  "baseline_cases": 20,
+  "c_min": 1500.0,
+  "delta_meaning": "ORACLE_OFFSET_ALIGNMENT",
+  "condition": "S2_KNOWN_STABLE_TONE_UPPER_BOUND",
+  "wording_fix": "PEAK_SELECTION_ID_NOT_PRIMARY_CAUSE (was PEAK_IMPLEMENTATION_NOT_CAUSE)",
+  "yang_route": "YANG_ROUTE_UNDECIDED",
+  "next_if_confirmed": "AR / high-resolution modal wavenumber route (not close Yang overall)",
+  "created_utc": "2026-09-24T05:44:15.719592+00:00",
+  "eq5_energetic_good_at_0.1": 20,
+  "n_unique_oracle_mode_total": 2,
+  "n_unresolved_mode_group_total": 1777,
+  "baseline_note": "strict UNIQUE route EMPTY on 20 baseline cases; optimistic/truek inherit empty unique set"
+}

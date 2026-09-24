@@ -1,0 +1,28 @@
+{
+  "freqs": [
+    201.0,
+    235.0,
+    283.0,
+    338.0
+  ],
+  "z_true": [
+    180.0,
+    190.0,
+    200.0,
+    210.0,
+    220.0
+  ],
+  "zr": 200.0,
+  "r_start_m": 50000.0,
+  "apertures_m": [
+    600.0,
+    1200.0,
+    2400.0
+  ],
+  "c_min": 1500.0,
+  "delta_main": 0.1,
+  "window_main": 250.0,
+  "prom_main": 0.03,
+  "mode_id_rule": "UNIQUE_ORACLE_MODE only (cell=\u0394k_R/2); groups=UNRESOLVED_MODE_GROUP",
+  "created_utc": "2026-09-24T05:44:15.719592+00:00"
+}
