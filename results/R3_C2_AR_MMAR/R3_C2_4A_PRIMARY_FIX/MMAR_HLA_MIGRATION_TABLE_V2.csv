@@ -1,0 +1,8 @@
+﻿config,N_elem,d_expression,d_m,note
+A_PAPER_EQUIV,11,lambda/2,NOT_FIXED_BY_TEXT,PAPER_LAMBDA_REFERENCE_NOT_EXPLICIT; later d=c_ref/(2f)
+B_PROJECT_14M,8,2.0,14.0,8 el × 2 m = 14 m aperture
+C_4EL_SCAN_L5,4,L/3,scan,CONDITION_ENHANCEMENT_SCAN L=5m
+C_4EL_SCAN_L10,4,L/3,scan,L=10m
+C_4EL_SCAN_L20,4,L/3,scan,L=20m
+C_4EL_SCAN_L40,4,L/3,scan,L=40m
+C_4EL_SCAN_L80,4,L/3,scan,L=80m

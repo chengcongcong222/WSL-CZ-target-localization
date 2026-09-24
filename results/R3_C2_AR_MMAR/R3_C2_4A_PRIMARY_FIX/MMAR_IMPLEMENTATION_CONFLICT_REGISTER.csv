@@ -1,0 +1,11 @@
+﻿id,evidence,status
+AR_SAMPLE_COUNT_NOTATION_CONFLICT,Eq17 i=1..2L+1 vs motion samples; L=5→11 elements,OPEN
+PAPER_RANGE_SAMPLE_INTERVAL_NOT_EXPLICIT,"v=2.5, R=1990/4990 given; Δt not in this section",OPEN; if use 1s label REF7_CONSISTENT_SAMPLING_ASSUMPTION
+EQ10_PRINTED_FORM_INTERNAL_INCONSISTENCY,α inside j[(kr-km)-α],OPEN; impl FROM_EQ9_DERIVED_BM
+EQ12_ALPHA_SUBSCRIPT_CONFLICT,e^{-α0 r'} printed,OPEN; impl α_m
+SINB_NOTATION_UNDEFINED_USE_EQ4_BEAM_FACTOR,sin b(X_m) undefined; use Eq.4 array factor BF_m,OPEN
+EQ19_DENOMINATOR_POWER_NOT_RESOLVED,printed |A|^{-1}; standard AR PSD |A|^{-2},OPEN; PRINTED + STANDARD_AR_PSD_CONTROL; peak-position unit test first
+AR_NORMALIZED_SPECTRAL_AXIS_MAPPING_NOT_EXPLICIT,l→k_r not stated,OPEN; test l=±k_r Δr via controlled exp + paper scale
+PAPER_DOES_NOT_SPECIFY_NUMERICAL_SOLVER,Eq24 solver not named,OPEN; OUR_EXACT_SOLVER_FOR_EQ24 if DP
+PAPER_LAMBDA_REFERENCE_NOT_EXPLICIT,d=λ/2 but c_ref for λ not stated,OPEN; d=NOT_FIXED_BY_TEXT; later d=c_ref/(2f) + sensitivity
+MMAR_INHERITS_OFFSET_RANGE_CAVEAT,no absolute range claim vs Yang2018 Erratum,OPEN; δ=0 ORACLE_OFFSET_ALIGNMENT
