@@ -1,0 +1,20 @@
+{
+  "stage": "R3-C2.4A",
+  "rc3_c2_4a_decision": "C2_4A_PRIMARY_PDF_REQUIRED",
+  "why": "Liang2018 MMAR 主文 PDF 未取得（Hindawi/Wiley/DOI 均 403）。按规则停止公式恢复与编码。C2.3A 口径已修正；E-STD 模式族/Fourier 稳健性与 AR 分辨率需求已审计（不依赖 MMAR 公式）。",
+  "fourier_mode_set_label": "FOURIER_MODE_IDENTITY_LIMIT_ROBUST_TO_MODE_SET",
+  "max_rayleigh_unique_across_sets": 0,
+  "c2_3a_baseline": "0/20 effective (19 EMPTY_UNIQUE_MODE + 1 NONINFORMATIVE_SINGLE_UNIQUE_MODE)",
+  "yang_route": "YANG_ROUTE_UNDECIDED",
+  "mmar_route": "RC3-C2-AR/MMAR independent candidate; not Yang-AR",
+  "not_done": [
+    "AR code",
+    "MMAR run",
+    "new FIELD",
+    "E-STD depth",
+    "MC",
+    "RC2-delta",
+    "P5"
+  ],
+  "created_utc": "2026-09-24T06:44:02.063185+00:00"
+}

@@ -1,0 +1,3 @@
+# MMAR_PAPER_FIDELITY_TARGETS
+
+WAIT_PDF：Fig3–7 目标待原文核验后锁定。

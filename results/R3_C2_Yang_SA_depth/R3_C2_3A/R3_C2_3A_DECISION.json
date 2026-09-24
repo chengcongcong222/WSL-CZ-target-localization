@@ -20,5 +20,18 @@
   "eq5_energetic_good_at_0.1": 20,
   "n_unique_oracle_mode_total": 2,
   "n_unresolved_mode_group_total": 1777,
-  "baseline_note": "strict UNIQUE route EMPTY on 20 baseline cases; optimistic/truek inherit empty unique set"
+  "baseline_note": "strict UNIQUE route EMPTY on 20 baseline cases; optimistic/truek inherit empty unique set",
+  "baseline_strict_success": "0/20",
+  "baseline_breakdown": {
+    "19/20": "EMPTY_UNIQUE_MODE",
+    "1/20": "NONINFORMATIVE_SINGLE_UNIQUE_MODE (283Hz, ztrue=220m, zhat=250m, margin<1)"
+  },
+  "unique_group_counts": {
+    "UNIQUE": 2,
+    "UNRESOLVED_GROUP": 1777,
+    "scope": "AGGREGATED_OVER_ALL_SCANS (not baseline-20 only)"
+  },
+  "output_artifact_missing": "estd_wavenumber_peaks.csv empty; peaks live in estd_peak_mode_mapping.csv",
+  "eq5_note": "ORACLE_EQ5_DEPTH_SIGNATURE_SURVIVES (uses true zs for b_m ideal peaks; not recovered performance)",
+  "frozen_sentence": "E-STD 中模态深度签名在理想上限下仍然存在，但在 L<=2.4 km 的普通 Fourier 合成孔径下，谱峰通常覆盖多个理论模态，无法可靠完成 Yang Eq.(6) 所要求的谱峰→模态编号对应。"
 }

@@ -1,0 +1,13 @@
+f_hz,config,N_elem,d_m,physical_aperture_m,array_gain_upper_bound,far_field_min_range_m,note
+201.0,A_PAPER_EQUIV,11,3.7313432835820897,37.3134328358209,11.0,373.134328358209,"paper: 2*5+1 elements, d=lambda/2"
+201.0,B_PROJECT_14M,14,1.0,13.0,14.0,45.292,14 m physical HLA representative (array pitch TBD from project freeze)
+201.0,C_4EL_ENHANCE,4,1.0,3.0,4.0,2.412,4-element condition-enhancement if frozen config requires
+235.0,A_PAPER_EQUIV,11,3.1914893617021276,31.914893617021278,11.0,319.1489361702128,"paper: 2*5+1 elements, d=lambda/2"
+235.0,B_PROJECT_14M,14,1.0,13.0,14.0,52.95333333333333,14 m physical HLA representative (array pitch TBD from project freeze)
+235.0,C_4EL_ENHANCE,4,1.0,3.0,4.0,2.82,4-element condition-enhancement if frozen config requires
+283.0,A_PAPER_EQUIV,11,2.65017667844523,26.5017667844523,11.0,265.01766784452303,"paper: 2*5+1 elements, d=lambda/2"
+283.0,B_PROJECT_14M,14,1.0,13.0,14.0,63.76933333333333,14 m physical HLA representative (array pitch TBD from project freeze)
+283.0,C_4EL_ENHANCE,4,1.0,3.0,4.0,3.396,4-element condition-enhancement if frozen config requires
+338.0,A_PAPER_EQUIV,11,2.2189349112426036,22.189349112426036,11.0,221.89349112426038,"paper: 2*5+1 elements, d=lambda/2"
+338.0,B_PROJECT_14M,14,1.0,13.0,14.0,76.16266666666667,14 m physical HLA representative (array pitch TBD from project freeze)
+338.0,C_4EL_ENHANCE,4,1.0,3.0,4.0,4.056,4-element condition-enhancement if frozen config requires
