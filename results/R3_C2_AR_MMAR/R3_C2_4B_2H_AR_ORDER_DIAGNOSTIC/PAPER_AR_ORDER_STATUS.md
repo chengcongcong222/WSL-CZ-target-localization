@@ -1,0 +1,9 @@
+# PAPER_AR_ORDER_STATUS
+
+UTC: 2026-09-24T16:47:18.071304+00:00
+
+- p=7：`PRINTED_LITERAL_CONTROL`（保留）
+- p≈2N/3：**`MAX_ORDER_BOUND_SENSITIVITY`**（不再解释为论文主实现）
+- Liang 实际 simulation order：**`PAPER_AR_ORDER_NOT_RECOVERABLE`**
+
+本轮 **禁止 p sweep**。

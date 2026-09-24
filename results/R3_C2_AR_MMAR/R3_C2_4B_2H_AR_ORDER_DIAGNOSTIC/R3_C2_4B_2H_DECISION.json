@@ -1,0 +1,27 @@
+{
+  "stage": "R3-C2.4B-2H",
+  "decision": "C2_4B2_BLOCKED_BY_PEAK_PICKING_AMBIGUITY",
+  "why": "存在多个 local maxima 但 5% 后仅 1–2 峰 → PAPER_PEAK_PICKING_RULE_NOT_EXPLICIT",
+  "look_angle_label": "PAPER_LOOK_ANGLE_AMBIGUITY_NONMATERIAL",
+  "snr_bug_fixed": true,
+  "paper_ar_order": "PAPER_AR_ORDER_NOT_RECOVERABLE",
+  "p7": "PRINTED_LITERAL_CONTROL",
+  "p_2nr3": "MAX_ORDER_BOUND_SENSITIVITY",
+  "many_local_few_5pct": true,
+  "few_physical_poles_20db": false,
+  "frozen": [
+    "C2_4B2_PAPER_SPECTRUM_PARTIAL",
+    "MMAR_R0_MODE_ORDER_ADVANTAGE_OBSERVED",
+    "PAPER_TRUE_PEAK_STRUCTURE_CONSISTENT_AT_SPECTRUM_LEVEL"
+  ],
+  "not_done": [
+    "D(z)",
+    "Fig5-7",
+    "5/-5dB",
+    "p sweep",
+    "E-STD",
+    "MC",
+    "P5"
+  ],
+  "created_utc": "2026-09-24T16:47:18.071304+00:00"
+}
