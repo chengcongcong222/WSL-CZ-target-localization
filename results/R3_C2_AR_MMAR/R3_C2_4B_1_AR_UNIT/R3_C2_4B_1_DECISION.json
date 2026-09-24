@@ -1,0 +1,28 @@
+{
+  "stage": "R3-C2.4B-1",
+  "decision": "AR_K_RECOVERY_PARTIAL_WITH_ALIAS_LIMIT",
+  "why": "single_ok=0.78, fold_amb=True, fold_rec=True, nofold=False",
+  "single_tone_ok_rate": 0.7777777777777778,
+  "multitone_ok_rate": 0.8333333333333334,
+  "eq24_solver_ok": true,
+  "mode_order_recovery_rate_synthetic": 0.95,
+  "p_branches": {
+    "PRINTED_LITERAL_CONTROL": 7,
+    "OUR_MOVING_SAMPLE_INTERPRETATION": 133,
+    "N_r": 200
+  },
+  "alias_classes_present": [
+    "FOLDED_BRANCH_AMBIGUOUS",
+    "FOLDED_BUT_BRANCH_RECOVERABLE"
+  ],
+  "not_done": [
+    "Hankel",
+    "D(z)",
+    "FIELD",
+    "E-STD",
+    "MC",
+    "P5",
+    "Liang depth repro"
+  ],
+  "created_utc": "2026-09-24T10:06:36.216185+00:00"
+}
