@@ -1,0 +1,4 @@
+UTC: 2026-09-24T16:28:07.573303+00:00
+
+旧文件名 FULL 有误：保存时 range(0,N_OMEGA,16) 抽稀。
+重命名解释：`MMAR_SPECTRUM_DECIMATED_FOR_AUDIT`（数据仍在 MMAR_FULL_SPECTRUM.csv 历史路径，已标注）。

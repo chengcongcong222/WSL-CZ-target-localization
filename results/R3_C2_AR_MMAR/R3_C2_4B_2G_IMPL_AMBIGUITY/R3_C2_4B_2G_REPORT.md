@@ -1,0 +1,31 @@
+# R3-C2.4B-2G implementation ambiguity
+
+UTC: 2026-09-24T16:28:07.573303+00:00
+
+## 判定
+
+### `C2_4B2_BLOCKED_BY_PAPER_IMPLEMENTATION_AMBIGUITY`
+
+oracle √r 后 20 dB 仍约 1.2 峰；shading 非主因，存在其它实现/配置歧义（PAPER_RANGE_SMOOTHING_WINDOW_NOT_EXPLICIT 等）
+
+## A. true-peak 口径
+
+→ **PAPER_TRUE_PEAK_STRUCTURE_CONSISTENT_AT_SPECTRUM_LEVEL**（谱峰层 1.30–1.36 峰数见 recount）；3% 仅 MODE_CONTRIBUTION_DIAGNOSTIC
+
+## B/C. S(r)
+
+global mean（常数）vs oracle √(r/r0)：20 dB MMAR 峰数 **1.2 → 1.2**
+
+`PAPER_RANGE_SMOOTHING_WINDOW_NOT_EXPLICIT`
+
+## D. θ
+
+→ **PAPER_LOOK_ANGLE_AMBIGUITY_NONMATERIAL**（0/30/60/90° 材料性，不选优）
+
+## 冻结
+
+`C2_4B2_PAPER_SPECTRUM_PARTIAL`；`MMAR_R0_MODE_ORDER_ADVANTAGE_OBSERVED`
+
+## 停止
+
+不进 D(z)/Fig.5–7/E-STD/MC/P5。

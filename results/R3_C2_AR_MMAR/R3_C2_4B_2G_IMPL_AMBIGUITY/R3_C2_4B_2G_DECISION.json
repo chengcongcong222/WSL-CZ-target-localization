@@ -1,0 +1,25 @@
+{
+  "stage": "R3-C2.4B-2G",
+  "decision": "C2_4B2_BLOCKED_BY_PAPER_IMPLEMENTATION_AMBIGUITY",
+  "why": "oracle √r 后 20 dB 仍约 1.2 峰；shading 非主因，存在其它实现/配置歧义（PAPER_RANGE_SMOOTHING_WINDOW_NOT_EXPLICIT 等）",
+  "frozen": [
+    "C2_4B2_PAPER_SPECTRUM_PARTIAL",
+    "MMAR_R0_MODE_ORDER_ADVANTAGE_OBSERVED",
+    "PAPER_TRUE_PEAK_STRUCTURE_CONSISTENT_AT_SPECTRUM_LEVEL",
+    "PAPER_LOOK_ANGLE_AMBIGUITY_NONMATERIAL"
+  ],
+  "true_peak_label": "PAPER_TRUE_PEAK_STRUCTURE_CONSISTENT_AT_SPECTRUM_LEVEL",
+  "look_angle_label": "PAPER_LOOK_ANGLE_AMBIGUITY_NONMATERIAL",
+  "mmar_20db_peaks_global_mean": 1.25,
+  "mmar_20db_peaks_oracle_sqrtr": 1.25,
+  "shading_is_primary_limit": false,
+  "not_done": [
+    "D(z)",
+    "Fig5-7",
+    "5/-5dB",
+    "E-STD",
+    "MC",
+    "P5"
+  ],
+  "created_utc": "2026-09-24T16:28:07.573303+00:00"
+}
