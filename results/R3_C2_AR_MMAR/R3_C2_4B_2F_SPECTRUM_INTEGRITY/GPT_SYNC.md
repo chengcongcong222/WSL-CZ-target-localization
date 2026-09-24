@@ -1,0 +1,1 @@
+# R3-C2.4B-2F\n\n**C2_4B2_PAPER_SPECTRUM_PARTIAL**\n\nR0 MMAR mode-order 优势保留（MMAR 1.000 vs SAB 0.071）；但 p=7 在 Eq.(28) 20 dB 下平均仅 1.2 峰，未复现 Fig.3/4 多峰结构。记 MMAR_R0_MODE_ORDER_ADVANTAGE_OBSERVED；不进 D(z)。\n
