@@ -1,0 +1,1 @@
+# R3-C2.2C-FIX2\n\n**C2_2C_FIX2_PAPER_REPRO_PARTIAL**\n\nFLP/FIELD OK (FIELD_EQ3_MULTIMODE_VALIDATED); 3/4 fidelity; shallow/deep may still separate\n\nFLP M bug fixed; field_status=FIELD_EQ3_MULTIMODE_VALIDATED; YANG_ROUTE_UNDECIDED\n

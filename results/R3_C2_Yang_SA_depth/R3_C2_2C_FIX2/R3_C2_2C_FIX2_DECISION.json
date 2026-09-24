@@ -1,0 +1,14 @@
+{
+  "stage": "R3-C2.2C-FIX2",
+  "rc3c2_2c_fix2_decision": "C2_2C_FIX2_PAPER_REPRO_PARTIAL",
+  "why": "FLP/FIELD OK (FIELD_EQ3_MULTIMODE_VALIDATED); 3/4 fidelity; shallow/deep may still separate",
+  "prior_root_cause": "FIELD_FLP_MODE_COUNT_BUG (1 350.0 read as M=1)",
+  "flp_parse_ok": true,
+  "M1_vs_M23_rel_diff": 1.408759355545044,
+  "M9999_eq_M23": true,
+  "field_status": "FIELD_EQ3_MULTIMODE_VALIDATED",
+  "cases_ok": 3,
+  "yang_route": "YANG_ROUTE_UNDECIDED",
+  "alpha_mapping": "alpha_m = -Im(k)",
+  "created_utc": "2026-09-24T04:30:40.403724+00:00"
+}

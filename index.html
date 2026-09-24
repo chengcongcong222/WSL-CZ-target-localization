@@ -90,14 +90,16 @@
         Yang 公式 <code>PRIMARY_SOURCE_LOCKED</code>；
         Yang 路线 <code>YANG_ROUTE_UNDECIDED</code>。
         R3-C2.2C 原 <code>PAPER_REPRO_CONFIRMED</code> → <code>SUPERSEDED_PENDING_INTEGRITY_FIX</code>。
-        R3-C2.2C-FIX 判定 <code>C2_2C_FIX_IMPLEMENTATION_FAIL</code>（FIELD .shd 已出，但与 Eq.(3) 多模 modesum 无法用单一全局复标度互证；单模 Eq1–Eq5 仍 PASS）。
-        环境：<code>AVAILABLE_FROM_PRIMARY_SOURCES</code>（H=88 m）。
+        R3-C2.2C-FIX2 判定 <code>C2_2C_FIX2_PAPER_REPRO_PARTIAL</code>。
+        根因 <code>FIELD_FLP_MODE_COUNT_BUG</code> 已修（官方 <code>OPTION+M</code>）。
+        <code>FIELD_EQ3_MULTIMODE_VALIDATED</code>（corr≈1，residual≈5e-4；M=9999≡M=23）。
+        FIELD 主数据定深 3/4 工程 gate（|err|≤2 m）；浅/深可分；prominence 稳定。
         自研 FEM：<strong>NOT ADMISSIBLE</strong>。
       </div>
       <p class="note">
-        结果目录：<code>results/R3_C2_Yang_SA_depth/R3_C2_2C_FIX/</code> ·
-        详见 <code>R3_C2_2C_FIX_REPORT.md</code> / <code>R3_C2_2C_FIX_DECISION.json</code>。
-        不确认论文复现；不进 E-STD；YANG_ROUTE_UNDECIDED。
+        结果目录：<code>results/R3_C2_Yang_SA_depth/R3_C2_2C_FIX2/</code> ·
+        详见 <code>R3_C2_2C_FIX2_REPORT.md</code> / <code>R3_C2_2C_FIX2_DECISION.json</code>。
+        非 Yang 精度声明；YANG_ROUTE_UNDECIDED；不进 E-STD。
       </p>
     </section>
 

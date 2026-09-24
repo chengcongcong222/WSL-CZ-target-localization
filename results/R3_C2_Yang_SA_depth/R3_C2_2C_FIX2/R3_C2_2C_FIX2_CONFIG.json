@@ -1,0 +1,16 @@
+{
+  "flp_format": "TITLE / 'RA' / M / NPROF RPROF / NR R / NSD SD / NRD RD / NRR RR",
+  "M_tests": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    23,
+    9999
+  ],
+  "M_paper": 9999,
+  "prom_main": 0.03,
+  "delta_main": 0.1,
+  "created_utc": "2026-09-24T04:30:40.403724+00:00"
+}
