@@ -1,0 +1,1 @@
+# R3-C2.4B-1F2.1\n\n**R3_C2_4B1_READY_FOR_PAPER_SPECTRUM_REPRO**\n\np7 F1=1.000/0.972；p133 sensitivity。\n

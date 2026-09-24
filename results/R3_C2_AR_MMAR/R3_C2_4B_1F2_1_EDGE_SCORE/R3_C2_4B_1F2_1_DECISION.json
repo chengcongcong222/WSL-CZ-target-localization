@@ -1,0 +1,38 @@
+{
+  "stage": "R3-C2.4B-1F2.1",
+  "decision": "R3_C2_4B1_READY_FOR_PAPER_SPECTRUM_REPRO",
+  "labels": [
+    "AR_CORE_IMPLEMENTATION_VALIDATED",
+    "P7_PRINTED_LITERAL_BRANCH_ACCEPTED",
+    "P133_MOVING_SAMPLE_BRANCH_CONDITIONING_LIMITED",
+    "BAND_EDGE_GRID_QUANTIZATION_CORRECTED",
+    "P1_COMPLEX_EXP_IDENTITY_VALIDATED",
+    "OUR_EXACT_SOLVER_FOR_EQ24_VALIDATED"
+  ],
+  "prior_label_corrected": "AR_K_RECOVERY_NUMERICALLY_UNSTABLE → replaced by branch-level labels",
+  "p7_metrics": {
+    "single_f1": 1.0,
+    "single_recall": 1.0,
+    "multi_f1": 0.9722222222222222,
+    "multi_complete": 0.9166666666666666,
+    "multi_recall": 0.9583333333333334
+  },
+  "p133_metrics": {
+    "single_f1": 1.0,
+    "single_recall": 1.0,
+    "multi_f1": 0.9722222222222222,
+    "multi_complete": 0.9166666666666666,
+    "multi_recall": 0.9583333333333334
+  },
+  "epsilon_k_rule": "eps_k = (2pi/N_omega)/(2*dr)+1e-12; truth-independent",
+  "not_done": [
+    "4B-2",
+    "Hankel",
+    "D(z)",
+    "FIELD",
+    "E-STD",
+    "MC",
+    "P5"
+  ],
+  "created_utc": "2026-09-24T11:51:27.216561+00:00"
+}
