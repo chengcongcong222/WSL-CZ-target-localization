@@ -1,0 +1,22 @@
+{
+  "stage": "R3-C2.4A-PRIMARY-FIX2.1",
+  "decision": "C2_4A_PRIMARY_LOCK_FINAL_PENDING_GPT_SPOTCHECK",
+  "gpt_audit": "MINIMAL_SOURCE_FIDELITY_PATCH_REQUIRED → applied",
+  "patches": [
+    "Eq9 PRINTED_PRIMARY restores sin b(X_m); BF_m only in DERIVED_IMPLEMENTATION",
+    "AR_ORDER_PREREGISTRATION.md p=7 CONTROL + floor(2 N_r/3) OUR_MOVING_SAMPLE_INTERPRETATION",
+    "V2 SUPERSEDED_BY_R3_C2_4A_PRIMARY_FIX2_1.md",
+    "Eq19/24 not PRIMARY_CONFLICT",
+    "MMAR_PAPER_CONFIG_FINAL.md"
+  ],
+  "not_done": [
+    "AR",
+    "MMAR",
+    "FIELD",
+    "4B",
+    "E-STD",
+    "MC",
+    "P5"
+  ],
+  "created_utc": "2026-09-24T09:59:41.308845+00:00"
+}

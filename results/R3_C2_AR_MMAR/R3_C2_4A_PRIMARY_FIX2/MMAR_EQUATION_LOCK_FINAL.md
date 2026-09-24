@@ -74,18 +74,33 @@ g(k_r,z_r)=\frac{e^{i\pi/4}}{\sqrt{2\pi k_r}}\int_{r_0}^{r_0+R} B(r)\,e^{i k_r r
 S(r)=\langle |B(r)|^2\rangle^{-1/2}
 ```
 
-## Eq.(9) `PRINTED_PRIMARY`（积分核）+ `DERIVED_IMPLEMENTATION`（第二形式用 Eq.9 重推）
+## Eq.(9) `PRINTED_PRIMARY`（严格原文印刷）
 
 ```latex
 g(k_r,z_r)\sim\sum_{m=1}^{M}
-\frac{\phi_m(z_s)\phi_m(z_r)}{\sqrt{k_r k_m}}\,\mathcal{B}_m
+\frac{\phi_m(z_s)\phi_m(z_r)}{\sqrt{k_r k_m}}\,\sin b(X_m)
 \int_{r_0}^{r_0+R} e^{j(k_r-k_m)r-\alpha_m r}\,dr
 =\sum_{m=1}^{M} a_m\frac{\phi_m(z_s)\phi_m(z_r)}{k_r-k_m+j\alpha_m}
 ```
 
-积分核 **exp[j(k_r−k_m)r − α_m r]**。
+积分核：**exp[j(k_r−k_m)r − α_m r]**。此处 **sin b(X_m) 为论文印刷原样**，未替换为 BF_m / mathcal B_m。
 
-其中 \(\mathcal{B}_m\) 在论文印刷中写作 **sin b(X_m)**（见下）。
+---
+
+## Eq.(9) `DERIVED_IMPLEMENTATION`（单独解释层）
+
+```latex
+\sin b(X_m)\ \Rightarrow\ BF_m=\frac{1}{2L+1}\cdot\frac{\sin[(L+1/2)d X_m]}{\sin[(d/2) X_m]}
+```
+
+标记：**`DERIVED_EQ4_BEAM_FACTOR_INTERPRETATION`**（由 Eq.(4)→Eq.(7) 代数，非论文明文定义 sin b）。
+
+实现公式（`FROM_EQ9_DERIVED_BM`，与 PRINTED_PRIMARY 分离）：
+
+```latex
+b_m^{\mathrm{impl}}=\frac{2e^{-\alpha_m r'}}{\alpha_m k_m}\sinh\left(\frac{\alpha_m R}{2}\right)\phi_m(z_s)\,BF_m,
+\quad r'=r_0+R/2
+```
 
 ## Eq.(10) `PRIMARY_CONFLICT`（印刷原样）
 
@@ -150,13 +165,15 @@ y[i]=-\sum_{k=1}^{p} a[k]y[i-k]+u[i],
 \quad p\ \mathrm{often\ set\ to}\ (2/3)(2L+1)
 ```
 
-## Eq.(19) `PRINTED_PRIMARY` + `PRIMARY_CONFLICT`（分母幂次）
+## Eq.(19) `PRINTED_PRIMARY` + `STANDARD_AR_PSD_MODULUS_POWER_2_CONTROL`（分母幂次对照，非原文冲突）
 
 ```latex
 P_{AR}(l)=\frac{\sigma^2}{\left|1+\sum_{k=1}^{p}a[k]\exp[-ilk]\right|}
 ```
 
-冲突：`EQ19_DENOMINATOR_POWER_NOT_RESOLVED`（印刷幂次 1；DSP 常规 PSD 幂次 2 仅作 CONTROL）。
+对照：`EQ19_DENOMINATOR_POWER_NOT_RESOLVED` → 记为需控制实验的实现歧义；**非 PRIMARY_CONFLICT**。
+- `PRINTED_EQ19_MODULUS_POWER_1`
+- `STANDARD_AR_PSD_MODULUS_POWER_2_CONTROL`（DSP 常规，非论文）
 
 ## Eq.(20) `PRINTED_PRIMARY`
 
@@ -184,7 +201,7 @@ U=\mathrm{diag}\left(\left[\frac{\Delta}{\phi_1(z_r)},\frac{\Delta}{\phi_2(z_r)}
 
 Δ：**on the order of one-half of the maximum value of the mode function**（`LIANG_PAPER_REGULARIZER`）。
 
-## Eq.(24) `PRINTED_PRIMARY` + `PRIMARY_CONFLICT`（求解器未指定）
+## Eq.(24) `PRINTED_PRIMARY` + `PAPER_DOES_NOT_SPECIFY_NUMERICAL_SOLVER`（实现细节未指定，非公式冲突）
 
 ```latex
 \min_{k_0}(\mathbf{k}-\mathbf{k}_0)^H(\mathbf{k}-\mathbf{k}_0)
