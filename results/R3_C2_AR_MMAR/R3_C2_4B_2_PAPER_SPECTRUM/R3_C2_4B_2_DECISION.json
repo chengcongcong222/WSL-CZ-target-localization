@@ -1,0 +1,30 @@
+{
+  "stage": "R3-C2.4B-2",
+  "decision": "C2_4B2_PAPER_SPECTRUM_MECHANISM_REPRODUCED",
+  "sab_mode_order_recovery_rate": 0.044888663967611334,
+  "mmar_p7_mode_order_recovery_rate": 1.0,
+  "sab_median_k_err": 0.0007402274689785049,
+  "mmar_p7_median_k_err": 0.0022769019205856056,
+  "primary_branch": "P7_PRINTED_LITERAL_BRANCH / PRINTED_EQ19_MODULUS_POWER_1",
+  "frozen": [
+    "AR_CORE_IMPLEMENTATION_VALIDATED",
+    "P1_COMPLEX_EXP_IDENTITY_VALIDATED",
+    "OUR_EXACT_SOLVER_FOR_EQ24_VALIDATED",
+    "BAND_EDGE_GRID_QUANTIZATION_CORRECTED"
+  ],
+  "not_claimed": [
+    "D(z) reproduced",
+    "Fig.5/6/7",
+    "E-STD",
+    "RC3 complete"
+  ],
+  "not_done": [
+    "D(z)",
+    "Fig5-7",
+    "5dB/-5dB",
+    "E-STD",
+    "MC",
+    "P5"
+  ],
+  "created_utc": "2026-09-24T12:40:54.120845+00:00"
+}
