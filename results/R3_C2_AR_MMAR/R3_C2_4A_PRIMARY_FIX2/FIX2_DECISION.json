@@ -1,0 +1,23 @@
+{
+  "stage": "R3-C2.4A-PRIMARY-FIX2",
+  "fix2_decision": "C2_4A_PRIMARY_LOCK_V2_INTEGRITY_FIXED_PENDING_GPT_AUDIT",
+  "why": "V1/V2 已 SUPERSEDED；唯一 Eq.(1)–(30) FINAL 锁；BF_m 括号/ sinb 解释、AR 采样与波数折叠审计、实现契约已清；待 GPT 审计",
+  "superseded": [
+    "r3_c2_4a_primary_lock.py",
+    "r3_c2_4a_primary_fix.py",
+    "R3_C2_4A_PRIMARY/",
+    "R3_C2_4A_PRIMARY_FIX/"
+  ],
+  "unique_lock": "MMAR_EQUATION_LOCK_FINAL.md",
+  "alias_finding": "k_max*dr(2.5m)>pi at k=1.5 rad/m; NO_FOLD_CONTROL dr~1.88m",
+  "not_done": [
+    "AR algorithm",
+    "MMAR depth repro",
+    "FIELD",
+    "E-STD",
+    "MC",
+    "P5",
+    "R3-C2.4B"
+  ],
+  "created_utc": "2026-09-24T09:51:45.113589+00:00"
+}

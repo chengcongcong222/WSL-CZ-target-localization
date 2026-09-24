@@ -32,5 +32,5 @@ e^{−α_0 r'} → `EQ12_ALPHA_SUBSCRIPT_CONFLICT`；实现用 e^{−α_m r'}。
 `SINB_NOTATION_UNDEFINED_USE_EQ4_BEAM_FACTOR`：
 
 ```latex
-BF_m=\frac{1}{2L+1}\frac{\sin[(L+1/2)dX_m]}{\sin((d/2)X_m]}
+BF_m=\frac{1}{2L+1}\frac{\sin[(L+1/2)dX_m]}{\sin[(d/2)X_m]}
 ```

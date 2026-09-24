@@ -25,7 +25,7 @@ X_m=-(k_m-j\alpha_m)\sin\theta_i+k\sin\hat\theta_i
 **BF_m（实现用，源自 Eq.4）**：
 
 ```latex
-BF_m=\frac{1}{2L+1}\cdot\frac{\sin[(L+1/2)dX_m]}{\sin((d/2)X_m]}
+BF_m=\frac{1}{2L+1}\cdot\frac{\sin[(L+1/2)dX_m]}{\sin[(d/2)X_m]}
 ```
 
 论文后文的 `sin b(X_m)` **无独立定义** → 使用 BF_m，禁止自造 `sinb()`。

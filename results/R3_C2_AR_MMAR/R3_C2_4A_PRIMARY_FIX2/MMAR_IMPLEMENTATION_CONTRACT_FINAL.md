@@ -1,0 +1,28 @@
+# MMAR_IMPLEMENTATION_CONTRACT_FINAL
+
+UTC: 2026-09-24T09:51:45.113589+00:00
+
+唯一公式锁：`MMAR_EQUATION_LOCK_FINAL.md`
+
+## 输入链
+
+HLA B(θ̂) [Eq3–4, BF_m] → S(r) [Eq8] → y[i]=B S [Eq17, **N_r** 样本]
+→ AR P_AR [Eq19 + 幂次对照] → k̂ → Hankel g(k̂) [Eq7]
+→ ORDERED_SUBSET Eq24（`OUR_EXACT_SOLVER_FOR_EQ24`）
+→ b=(Φ+U)^-1g [Eq22–23, Δ~½max|φ|] → D(z) [Eq20]
+
+## 实现闭式
+
+`FROM_EQ9_DERIVED_BM` + `DERIVED_EQ4_BEAM_FACTOR_INTERPRETATION`（非“论文定义 sinb”）
+
+## 采样
+
+`REF7_CONSISTENT_SAMPLING_ASSUMPTION` 或无折叠 control；须报 `SPATIAL_SAMPLING_ALIAS_AUDIT` 结果。
+
+## δ
+
+`ORACLE_OFFSET_ALIGNMENT`（δ=0）；`MMAR_INHERITS_OFFSET_RANGE_CAVEAT`
+
+## 本轮不做
+
+AR 正式算法 / MMAR 深度复现 / FIELD / E-STD / MC / P5
