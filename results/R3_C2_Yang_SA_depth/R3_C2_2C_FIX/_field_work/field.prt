@@ -1,0 +1,34 @@
+
+ __________________________________________________________________________
+ Running FIELD
+ Sums modes, producing pressure
+
+ Point source
+ Range-independent calculation
+
+ Number of profiles   =            1
+   0.00000    
+
+ Number of receiver ranges =           20
+ Receiver ranges (km)
+   5.01000       5.27260       5.53530       5.79790       6.06050    
+   6.32320       6.58580       6.84840       7.11110       7.37370    
+   7.63630       7.89890       8.16160       8.42420       8.68680    
+   8.94950       9.21210       9.47470       9.73740       10.0000    
+
+ __________________________________________________________________________
+
+
+ Number of source   depths =            1
+ Source depths (m)
+   50.0000    
+
+ Number of receiver depths =            1
+ Receiver depths (m)
+   70.0000    
+
+ Number of receiver range offsets =            1
+ Receiver range offsets (km)
+   0.00000    
+
+ Field completed successfully

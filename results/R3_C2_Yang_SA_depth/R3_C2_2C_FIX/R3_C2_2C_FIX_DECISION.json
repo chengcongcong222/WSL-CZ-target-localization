@@ -1,0 +1,21 @@
+{
+  "stage": "R3-C2.2C-FIX",
+  "rc3c2_2c_fix_decision": "C2_2C_FIX_IMPLEMENTATION_FAIL",
+  "why": "FIELD .shd 生成并读取成功，但与 Eq.(3) 多模 modesum 在单一全局复标度下 residual~1、complex corr 低，不能互证；诊断显示 FIELD 近似单模(1/sqrt(r))而 Eq3 多模干涉不一致。按完整性规则记 IMPLEMENTATION_FAIL，不确认论文复现。",
+  "prior": "C2_2C_PAPER_REPRO_CONFIRMED → SUPERSEDED_PENDING_INTEGRITY_FIX",
+  "field_crosscheck": "FAIL/BLOCKED",
+  "eq1_eq5_single_mode_max_rel": 0.0004946234446934919,
+  "cases_ok": 0,
+  "cases_total": 4,
+  "prominence_stable": true,
+  "alpha_mapping": "alpha_m = -Im(k_complex); Im(k)<0 => alpha>0",
+  "oracle_definition": "PEAK_DETECT_THEN_TRUE_KM_LABEL",
+  "yang_route": "YANG_ROUTE_UNDECIDED",
+  "not_claimed": [
+    "YANG_ESTD_FAIL",
+    "YANG_APERTURE_LIMITED_IN_CZ",
+    "DEPTH_CANNOT_BE_ESTIMATED",
+    "RC3-C_FAIL"
+  ],
+  "created_utc": "2026-09-24T03:20:50.381015+00:00"
+}

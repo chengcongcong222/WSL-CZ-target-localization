@@ -1,0 +1,18 @@
+{
+  "stage": "R3-C2.2C-FIX",
+  "created_utc": "2026-09-24T03:20:50.381015+00:00",
+  "delta_baseline": 0.0,
+  "delta_meaning": "ORACLE_OFFSET_ALIGNMENT",
+  "prominence_main": 0.03,
+  "prominence_sensitivity": [
+    0.01,
+    0.03,
+    0.05,
+    0.1
+  ],
+  "match_tol": 0.0006295776860901389,
+  "depth_gate_m": 2.0,
+  "depth_ratio_gate": 0.8,
+  "yang_route": "YANG_ROUTE_UNDECIDED",
+  "prior_confirm": "SUPERSEDED_PENDING_INTEGRITY_FIX"
+}

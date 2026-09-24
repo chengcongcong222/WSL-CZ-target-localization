@@ -1,0 +1,1 @@
+# R3-C2.2C-FIX\n\n**C2_2C_FIX_IMPLEMENTATION_FAIL**\n\nFIELD .shd 生成并读取成功，但与 Eq.(3) 多模 modesum 在单一全局复标度下 residual~1、complex corr 低，不能互证；诊断显示 FIELD 近似单模(1/sqrt(r))而 Eq3 多模干涉不一致。按完整性规则记 IMPLEMENTATION_FAIL，不确认论文复现。\n\nFIELD=FAIL; cases_ok=0/4; YANG_ROUTE_UNDECIDED\n

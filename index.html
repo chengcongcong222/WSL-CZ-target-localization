@@ -89,14 +89,15 @@
         <strong>三态分离</strong>：KRAKEN 数据基线 <code>C2_1_PARSER_VALIDATED</code>；
         Yang 公式 <code>PRIMARY_SOURCE_LOCKED</code>；
         Yang 路线 <code>YANG_ROUTE_UNDECIDED</code>。
-        R3-C2.2C 判定 <code>C2_2C_PAPER_REPRO_CONFIRMED</code>（论文条件 350 Hz / span 4990 m / δ=0 ORACLE_OFFSET_ALIGNMENT；单模 Eq1–Eq5 闭环；4/4 定深邻域正确）。
+        R3-C2.2C 原 <code>PAPER_REPRO_CONFIRMED</code> → <code>SUPERSEDED_PENDING_INTEGRITY_FIX</code>。
+        R3-C2.2C-FIX 判定 <code>C2_2C_FIX_IMPLEMENTATION_FAIL</code>（FIELD .shd 已出，但与 Eq.(3) 多模 modesum 无法用单一全局复标度互证；单模 Eq1–Eq5 仍 PASS）。
         环境：<code>AVAILABLE_FROM_PRIMARY_SOURCES</code>（H=88 m）。
         自研 FEM：<strong>NOT ADMISSIBLE</strong>。
       </div>
       <p class="note">
-        结果目录：<code>results/R3_C2_Yang_SA_depth/R3_C2_2C/</code> ·
-        详见 <code>R3_C2_2C_REPORT.md</code> / <code>R3_C2_2C_DECISION.json</code>。
-        尚未进入 E-STD / 50–60 km；不外推 YANG_ESTD_FAIL。
+        结果目录：<code>results/R3_C2_Yang_SA_depth/R3_C2_2C_FIX/</code> ·
+        详见 <code>R3_C2_2C_FIX_REPORT.md</code> / <code>R3_C2_2C_FIX_DECISION.json</code>。
+        不确认论文复现；不进 E-STD；YANG_ROUTE_UNDECIDED。
       </p>
     </section>
 

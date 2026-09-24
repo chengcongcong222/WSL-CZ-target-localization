@@ -1,0 +1,5 @@
+zs,zr,alpha_mapping,Im_k_sign,field_abs_r0,field_abs_r1,field_decay,modesum_decay,note
+4.0,18.0,alpha_m = -Im(k_complex); Im(k)<0 => alpha>0,negative,1.2991854987653983e-11,8.963384721949463e-12,True,True,FIELD independent of eq3 self-comparison
+4.0,70.0,alpha_m = -Im(k_complex); Im(k)<0 => alpha>0,negative,6.832947541113299e-09,4.714209911327316e-09,True,True,FIELD independent of eq3 self-comparison
+50.0,18.0,alpha_m = -Im(k_complex); Im(k)<0 => alpha>0,negative,1.3449450761982007e-06,9.279089567826304e-07,True,True,FIELD independent of eq3 self-comparison
+50.0,70.0,alpha_m = -Im(k_complex); Im(k)<0 => alpha>0,negative,0.0007073614979162812,0.00048802525270730257,True,True,FIELD independent of eq3 self-comparison
