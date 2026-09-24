@@ -1,0 +1,19 @@
+{
+  "stage": "R3-C2.4B-1F2",
+  "decision": "AR_K_RECOVERY_NUMERICALLY_UNSTABLE",
+  "why": "P1=P1_COMPLEX_EXP_IDENTITY_VALIDATED; F1_single=0.444; multi_complete=0.75; multi_F1=0.942",
+  "p1_identity_gate": "P1_COMPLEX_EXP_IDENTITY_VALIDATED",
+  "complex_backward_conjugation": true,
+  "sign_mapping": "k=-(omega+2pi m)/dr from p=1 analytic wrap(-k dr)",
+  "eq24": "OUR_EXACT_SOLVER_FOR_EQ24_VALIDATED (not re-run)",
+  "not_done": [
+    "4B-2",
+    "Hankel",
+    "D(z)",
+    "FIELD",
+    "E-STD",
+    "MC",
+    "P5"
+  ],
+  "created_utc": "2026-09-24T11:37:52.613113+00:00"
+}
