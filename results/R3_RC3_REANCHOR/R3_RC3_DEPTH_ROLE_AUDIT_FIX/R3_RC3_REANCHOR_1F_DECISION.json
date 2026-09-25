@@ -1,0 +1,16 @@
+{
+  "stage": "R3-RC3-REANCHOR-1F",
+  "decision": "ESTD_RELATIVE_TL_FORWARD_MODEL_VALIDATED",
+  "why": "multi-range FIELD vs mode-sum: 12/12 cases pass (cc>=0.95, resid<=0.35, TL_rms<=1.5 dB, TL_corr>=0.95); one global c* per (f,zs); no per-point scale; REANCHOR-1 90 cases not recomputed",
+  "cases_ok": 12,
+  "cases_total": 12,
+  "gate": {
+    "complex_corr_min": 0.95,
+    "resid_max": 0.35,
+    "tl_rms_db_max": 1.5,
+    "tl_corr_min": 0.95
+  },
+  "reanchor1_cases_recomputed": false,
+  "temp_science_label": "NO_STRONG_DEPTH_COMPENSATION_OBSERVED",
+  "created_utc": "2026-09-25T08:18:43.861670+00:00"
+}

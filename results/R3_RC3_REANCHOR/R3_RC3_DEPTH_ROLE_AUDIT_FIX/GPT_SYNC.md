@@ -1,0 +1,1 @@
+# R3-RC3-REANCHOR-1F\n\n**ESTD_RELATIVE_TL_FORWARD_MODEL_VALIDATED**\n\nmulti-range FIELD vs mode-sum: 12/12 cases pass (cc>=0.95, resid<=0.35, TL_rms<=1.5 dB, TL_corr>=0.95); one global c* per (f,zs); no per-point scale; REANCHOR-1 90 cases not recomputed\n
