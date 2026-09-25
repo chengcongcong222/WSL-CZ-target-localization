@@ -1,0 +1,28 @@
+{
+  "stage": "R3-RC3-REANCHOR-4",
+  "decision": "PROFILED_RC3_MARGIN_SURVIVES_TESTED_SSP_STRESS",
+  "why": "E1 fraction(ΔJ>0)=1.000 median=2.578 dB; E2 fraction=1.000 median=2.551 dB; truth=E_k, template=E0; S2 four-tone; no random TL error",
+  "axis": "PROJECT_PREDEFINED_SSP_MISMATCH_STRESS_AXIS",
+  "signal": "S2_LIKE_TRACKABLE_FOUR_TONE_UPPER_BOUND",
+  "e1": {
+    "frac_gt0": 1.0,
+    "median_dJ": 2.5782273346129463
+  },
+  "e2": {
+    "frac_gt0": 1.0,
+    "median_dJ": 2.550823689485838
+  },
+  "roles_frozen": {
+    "science": "DEPTH_ROLE_MIXED_OR_UNRESOLVED",
+    "system": "DEPTH_PROFILED_NUISANCE_VARIABLE"
+  },
+  "reanchor3_note": "TESTED_ERROR=IID_ZERO_MEAN_TL_PERTURBATION; fraction_tested not probability",
+  "not_done": [
+    "S0/S1",
+    "random TL error",
+    "Liang",
+    "P5",
+    "depth RMSE"
+  ],
+  "created_utc": "2026-09-25T12:59:04.576212+00:00"
+}

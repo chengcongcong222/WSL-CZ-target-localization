@@ -1,0 +1,1 @@
+# R3-RC3-REANCHOR-4\n\n**PROFILED_RC3_MARGIN_SURVIVES_TESTED_SSP_STRESS**\n\nE1 fraction(ΔJ>0)=1.000 median=2.578 dB; E2 fraction=1.000 median=2.551 dB; truth=E_k, template=E0; S2 four-tone; no random TL error\n
