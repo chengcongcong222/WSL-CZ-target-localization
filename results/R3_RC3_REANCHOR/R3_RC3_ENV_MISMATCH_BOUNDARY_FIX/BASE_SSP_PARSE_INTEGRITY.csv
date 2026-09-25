@@ -1,0 +1,8 @@
+label,n_ssp,z0,zend,strictly_increasing,n_unique,ok,z_match,c_match
+f201,251,0.0,5000.0,True,251.0,True,,
+f235,251,0.0,5000.0,True,251.0,True,,
+f235_vs_f235,251,,,,,True,True,True
+f283,251,0.0,5000.0,True,251.0,True,,
+f283_vs_f235,251,,,,,True,True,True
+f338,251,0.0,5000.0,True,251.0,True,,
+f338_vs_f235,251,,,,,True,True,True

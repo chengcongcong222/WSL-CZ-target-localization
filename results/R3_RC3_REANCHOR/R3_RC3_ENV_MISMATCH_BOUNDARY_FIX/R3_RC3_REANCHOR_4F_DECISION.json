@@ -1,0 +1,20 @@
+{
+  "stage": "R3-RC3-REANCHOR-4F",
+  "decision": "PROFILED_RC3_MARGIN_SURVIVES_TESTED_SSP_STRESS",
+  "why": "SSP parser fixed (251 pts); E1 frac(ΔJ>0)=1.000 med=2.569; E2 frac=1.000 med=2.527; truth=E_k template=E0",
+  "prior_invalidated": "OLD_REANCHOR4_INVALIDATED_BY_SSP_PARSE_BUG",
+  "unintended_control_label": "UNINTENDED_SSP_PERTURBATION_CONTROL",
+  "ssp_integrity": "PASS",
+  "anchor_max_err": 0.0,
+  "roundtrip_max_err": 5.000000010113581e-05,
+  "forward_gate_cases": 24,
+  "e1": {
+    "frac_gt0": 1.0,
+    "median_dJ": 2.569365845876419
+  },
+  "e2": {
+    "frac_gt0": 1.0,
+    "median_dJ": 2.527156085221027
+  },
+  "created_utc": "2026-09-25T15:15:18.658656+00:00"
+}

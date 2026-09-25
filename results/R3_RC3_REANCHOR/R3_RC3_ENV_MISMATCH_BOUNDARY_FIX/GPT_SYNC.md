@@ -1,0 +1,1 @@
+# R3-RC3-REANCHOR-4F\n\n**PROFILED_RC3_MARGIN_SURVIVES_TESTED_SSP_STRESS**\n\nSSP parser fixed (251 pts); E1 frac(ΔJ>0)=1.000 med=2.569; E2 frac=1.000 med=2.527; truth=E_k template=E0\n
