@@ -1,0 +1,9 @@
+env,f_hz,tail_identical,n_tail_lines_frozen,n_tail_lines_written,has_51_rd,has_150_and_250
+E1_shift50m,201.0,True,58,58,True,True
+E1_shift50m,235.0,True,58,58,True,True
+E1_shift50m,283.0,True,58,58,True,True
+E1_shift50m,338.0,True,58,58,True,True
+E2_shift150m_plus2,201.0,True,58,58,True,True
+E2_shift150m_plus2,235.0,True,58,58,True,True
+E2_shift150m_plus2,283.0,True,58,58,True,True
+E2_shift150m_plus2,338.0,True,58,58,True,True

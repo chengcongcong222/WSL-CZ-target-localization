@@ -1,0 +1,16 @@
+{
+  "stage": "R3-RC3-REANCHOR-4G",
+  "decision": "PROFILED_RC3_MARGIN_SURVIVES_TESTED_SSP_STRESS",
+  "why": "tail+tabulation OK; z_true signatures distinct; E1 frac(ΔJ>0)=1.000 med=2.569; E2 frac=1.000 med=2.575",
+  "prior": "REANCHOR4F_BLOCKED_BY_MODE_DEPTH_TABULATION",
+  "z200_control": "Z200_ENV_STRESS_POSITIVE_CONTROL (superseded by full depth set)",
+  "e1": {
+    "frac_gt0": 1.0,
+    "median_dJ": 2.569365845876419
+  },
+  "e2": {
+    "frac_gt0": 1.0,
+    "median_dJ": 2.575362980546433
+  },
+  "created_utc": "2026-09-25T16:02:28.471191+00:00"
+}
