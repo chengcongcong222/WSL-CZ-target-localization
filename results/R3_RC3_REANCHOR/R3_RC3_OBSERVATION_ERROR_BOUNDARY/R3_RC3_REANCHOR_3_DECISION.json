@@ -1,0 +1,58 @@
+{
+  "stage": "R3-RC3-REANCHOR-3",
+  "decision": "PROFILED_RC3_MARGIN_ROBUST_TO_TESTED_ERROR",
+  "why": "ΔJ>0 比例: ε=0.5→1.00, 1.0→1.00, 2.0→1.00; median ΔJ: 2.26/1.90/1.38 dB (S2_LIKE_TRACKABLE_FOUR_TONE_UPPER_BOUND; 非实测噪声)",
+  "signal_condition": "S2_LIKE_TRACKABLE_FOUR_TONE_UPPER_BOUND",
+  "error_axis_label": "TL_OBSERVATION_ERROR_SENSITIVITY_AXIS",
+  "margin_label": "IDEAL_PROFILED_PROPAGATION_MARGIN_OBSERVED",
+  "roles_frozen": {
+    "science": "DEPTH_ROLE_MIXED_OR_UNRESOLVED",
+    "system": "DEPTH_PROFILED_NUISANCE_VARIABLE"
+  },
+  "eps_stats": [
+    {
+      "eps": 0.0,
+      "median_dJ": 2.7125315540709414,
+      "frac_gt0": 1.0,
+      "frac_gt0p5": 1.0
+    },
+    {
+      "eps": 0.25,
+      "median_dJ": 2.4759591750580805,
+      "frac_gt0": 1.0,
+      "frac_gt0p5": 1.0
+    },
+    {
+      "eps": 0.5,
+      "median_dJ": 2.26081851731004,
+      "frac_gt0": 1.0,
+      "frac_gt0p5": 1.0
+    },
+    {
+      "eps": 1.0,
+      "median_dJ": 1.8970791691975464,
+      "frac_gt0": 1.0,
+      "frac_gt0p5": 0.9655172413793104
+    },
+    {
+      "eps": 1.5,
+      "median_dJ": 1.6009247554844321,
+      "frac_gt0": 1.0,
+      "frac_gt0p5": 0.9080459770114943
+    },
+    {
+      "eps": 2.0,
+      "median_dJ": 1.378081684247777,
+      "frac_gt0": 1.0,
+      "frac_gt0p5": 0.8275862068965517
+    }
+  ],
+  "not_done": [
+    "env mismatch",
+    "S0/S1",
+    "Liang",
+    "P5",
+    "depth RMSE"
+  ],
+  "created_utc": "2026-09-25T10:12:48.225195+00:00"
+}
