@@ -90,20 +90,20 @@
         Yang 公式 <code>PRIMARY_SOURCE_LOCKED</code>；
         Yang 路线 <code>YANG_ROUTE_UNDECIDED</code>。
         R3-C2.2C 原 <code>PAPER_REPRO_CONFIRMED</code> → <code>SUPERSEDED_PENDING_INTEGRITY_FIX</code>。
-        R3-RC3-REANCHOR-1 + 1F：深度角色审计完成，前向 Gate <strong>12/12 通过</strong>。
-        临时科学判断 <code>NO_STRONG_DEPTH_COMPENSATION_OBSERVED</code>（90 case 无 ρ&lt;0.3）。
-        ρ_z 中位 A/B/C = 0.75 / 0.70 / 0.63；z_alt* 仅补偿诊断。
-        Liang D(z) 暂停。待 GPT 定 z 角色（PRIMARY/AUX/NUISANCE/MIXED）。
+        R3-RC3-REANCHOR 完成：<strong>科学</strong> <code>DEPTH_ROLE_MIXED_OR_UNRESOLVED</code>
+        + <code>NO_STRONG_DEPTH_COMPENSATION_OBSERVED</code>；
+        <strong>系统</strong> <code>DEPTH_PROFILED_NUISANCE_VARIABLE</code>（主状态 [r,θ,v,ψ]）。
+        Forward gate 12/12；REANCHOR-2：z profiled 后错误候选排除率 <strong>96.7%</strong>（thr=1 dB）。
+        Liang D(z) 暂停。
       </div>
       <p class="note">
-        结果目录：<code>results/R3_RC3_REANCHOR/</code> ·
-        <code>R3_RC3_DEPTH_ROLE_AUDIT/</code> + <code>R3_RC3_DEPTH_ROLE_AUDIT_FIX/</code>。
+        结果目录：<code>results/R3_RC3_REANCHOR/</code> · 见 <code>ROLE_FREEZE.md</code> 与 <code>R3_RC3_DEPTH_PROFILED_DISCRIM/</code>。
       </p>
     </section>
 
     <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
-      <div class="verdict ok" id="p3-g3">G3：<strong>PROPAGATION_INCREMENT_CONFIRMED</strong> — S0 困难候选错误排除率 RC2≈0% → RC2+CZ≈97%。Doppler 对恒定 Δv_rad 的 r–v 对几乎无效（未知源频偏置吸收）。S1 线谱点少，CZ≈23%；S2 稳定五线谱 CZ≈97%（上界工况）。</div>
+      <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>
       <div class="files">
         <a class="file" href="results/P3_RC3_increment/P3_RC3_REPORT.md" target="_blank" rel="noopener">P3_RC3_REPORT.md<span>主报告</span></a>

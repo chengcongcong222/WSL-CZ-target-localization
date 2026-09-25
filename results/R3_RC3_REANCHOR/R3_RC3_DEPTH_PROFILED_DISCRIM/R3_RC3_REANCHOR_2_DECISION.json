@@ -1,0 +1,26 @@
+{
+  "stage": "R3-RC3-REANCHOR-2",
+  "discrimination_label": "PROFILED_PROPAGATION_REJECTS_MAJORITY_OF_HARD_ALTS",
+  "rej_profiled_thr1": 0.9666666666666667,
+  "rej_fixed_z_thr1": 0.9666666666666667,
+  "incremental_thr1": 0.0,
+  "roles_frozen": {
+    "science": "DEPTH_ROLE_MIXED_OR_UNRESOLVED",
+    "system": "DEPTH_PROFILED_NUISANCE_VARIABLE",
+    "track_state": [
+      "r",
+      "theta",
+      "v",
+      "psi"
+    ],
+    "liang_Dz": "PAUSED"
+  },
+  "historical_p3": "HISTORICAL_P3_SIMPLIFIED_RESULT",
+  "not_done": [
+    "depth RMSE",
+    "Liang D(z)",
+    "P5",
+    "reselect pairs"
+  ],
+  "created_utc": "2026-09-25T08:56:26.990583+00:00"
+}

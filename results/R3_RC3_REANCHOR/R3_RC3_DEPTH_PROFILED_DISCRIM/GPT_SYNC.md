@@ -1,0 +1,1 @@
+# R3-RC3-REANCHOR-2\n\n**PROFILED_PROPAGATION_REJECTS_MAJORITY_OF_HARD_ALTS**\n\nrej_profiled=0.967 vs fixed_z=0.967 @ thr=1.0 dB\n

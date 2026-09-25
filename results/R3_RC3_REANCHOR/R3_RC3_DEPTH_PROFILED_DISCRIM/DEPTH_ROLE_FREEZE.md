@@ -1,0 +1,12 @@
+# DEPTH_ROLE_FREEZE
+
+UTC: 2026-09-25T08:56:26.990583+00:00
+
+- 科学：`DEPTH_ROLE_MIXED_OR_UNRESOLVED`
+- 辅助：`NO_STRONG_DEPTH_COMPENSATION_OBSERVED`
+- 系统：`DEPTH_PROFILED_NUISANCE_VARIABLE`
+- 主状态：[r,θ,v,ψ]；z profile/marginalize
+- Liang D(z)：暂停
+- Forward：`ESTD_RELATIVE_TL_FORWARD_MODEL_VALIDATED`
+
+本阶段：RC2 vs RC2+propagation(z profiled) 候选判别，不重挑样本、不算深度 RMSE。
