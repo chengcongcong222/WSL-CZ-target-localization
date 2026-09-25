@@ -90,14 +90,15 @@
         Yang 公式 <code>PRIMARY_SOURCE_LOCKED</code>；
         Yang 路线 <code>YANG_ROUTE_UNDECIDED</code>。
         R3-C2.2C 原 <code>PAPER_REPRO_CONFIRMED</code> → <code>SUPERSEDED_PENDING_INTEGRITY_FIX</code>。
-        R3-C2.4B-2H 判定 <code>C2_4B2_BLOCKED_BY_PEAK_PICKING_AMBIGUITY</code>。
-        SNR bug 已修（20.01 dB）；θ 仍 <code>NONMATERIAL</code>。
-        20 dB：local maxima 6–7 个，5% 后仅 1–2 峰；物理带内 pole≈2（R0 为 7）。
-        AR order：<code>PAPER_AR_ORDER_NOT_RECOVERABLE</code>；2N/3→<code>MAX_ORDER_BOUND_SENSITIVITY</code>。
-        <strong>不进 D(z)</strong>。
+        Liang 严格 Fig.3/4 复现已关：<code>LIANG_PAPER_REPRO_PARTIAL_CLOSED</code>
+        + <code>PAPER_IMPLEMENTATION_AMBIGUITY</code>（AR order + peak rule 未恢复）。
+        R3-C2.4B-3A：<code>HANKEL_AMPLITUDE_BRIDGE_VALIDATED</code>（rank corr 0.64，M0≈6）。
+        AR 峰高≠幅度；幅度取 Eq.(7) Hankel @ k̂。
+        <strong>未做</strong> b / D(z) / Fig.5–6。
       </div>
       <p class="note">
-        结果目录：<code>results/R3_C2_AR_MMAR/R3_C2_4B_2H_AR_ORDER_DIAGNOSTIC/</code>。
+        结果目录：<code>results/R3_C2_AR_MMAR/R3_C2_4B_3A_HANKEL_AMPLITUDE/</code>。
+        下一阶段可选：g(k̂)→b→D(z) 机制验证（非 Fig.5/6 严格复现）。
       </p>
     </section>
 

@@ -1,0 +1,60 @@
+{
+  "stage": "R3-RC3-REANCHOR-1",
+  "depth_role": "DEPTH_ROLE_MIXED_OR_UNRESOLVED",
+  "why": "分布跨阈值；frac_strong=0.00 frac_non=0.25 med50=0.7088021089831597",
+  "frozen_liang": [
+    "C2_4B2_PAPER_SPECTRUM_PARTIAL",
+    "MMAR_R0_MODE_ORDER_ADVANTAGE_OBSERVED",
+    "PAPER_AR_ORDER_NOT_RECOVERABLE",
+    "PAPER_PEAK_PICKING_RULE_NOT_EXPLICIT"
+  ],
+  "observable": "SOURCE_LEVEL_FREE_RELATIVE_TL_SHAPE",
+  "pairs_used": 30,
+  "mech_summary": [
+    {
+      "mechanism": "A",
+      "n_cases": 30,
+      "n_informative": 27,
+      "median_rho_z": 0.7506974571172408,
+      "frac_nonmaterial": 0.4074074074074074,
+      "frac_moderate": 0.5925925925925926,
+      "frac_strong": 0.0,
+      "median_rho_50m": 0.7944917315501491,
+      "median_rho_25m": 0.8491700416865805,
+      "median_rho_10m": 0.9216536806629892
+    },
+    {
+      "mechanism": "B",
+      "n_cases": 30,
+      "n_informative": 30,
+      "median_rho_z": 0.7006101126817468,
+      "frac_nonmaterial": 0.2,
+      "frac_moderate": 0.8,
+      "frac_strong": 0.0,
+      "median_rho_50m": 0.7006101126817468,
+      "median_rho_25m": 0.7242397706512946,
+      "median_rho_10m": 0.7528506894116925
+    },
+    {
+      "mechanism": "C",
+      "n_cases": 30,
+      "n_informative": 30,
+      "median_rho_z": 0.6349190654381419,
+      "frac_nonmaterial": 0.16666666666666666,
+      "frac_moderate": 0.8333333333333334,
+      "frac_strong": 0.0,
+      "median_rho_50m": 0.6349190654381419,
+      "median_rho_25m": 0.6719268262097264,
+      "median_rho_10m": 0.7022243029813301
+    }
+  ],
+  "not_done": [
+    "Liang D(z)",
+    "AR/MMAR new",
+    "depth RMSE",
+    "5D track",
+    "P5",
+    "reselect pairs"
+  ],
+  "created_utc": "2026-09-25T04:19:11.212460+00:00"
+}

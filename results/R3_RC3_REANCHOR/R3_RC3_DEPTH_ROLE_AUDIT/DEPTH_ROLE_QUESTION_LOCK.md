@@ -1,0 +1,17 @@
+# DEPTH_ROLE_QUESTION_LOCK
+
+UTC: 2026-09-25T04:19:11.212460+00:00
+
+问题：为区分 RC2 水平轨迹候选，z 是否必须精确估计？
+
+状态拆分：x_track=[r,θ,v,ψ]，z 为传播隐变量。
+
+角色：PRIMARY / AUXILIARY / NUISANCE / MIXED_OR_UNRESOLVED
+
+测量：`SOURCE_LEVEL_FREE_RELATIVE_TL_SHAPE`（各频去均值 20log10|p|）。
+z_alt* 仅 `WRONG_TRAJECTORY_DEPTH_COMPENSATION_DIAGNOSTIC`，**非** ẑ。
+
+预注册阈值：ρ≥0.8 NONMATERIAL；0.3≤ρ<0.8 MODERATE；ρ<0.3 STRONG。
+先验宽：`ORACLE_DEPTH_PRIOR_WIDTH_CONTROL` ±50/25/10 m。
+
+样本：P3 selected_hard_pairs 全 30 对（不重挑）。
