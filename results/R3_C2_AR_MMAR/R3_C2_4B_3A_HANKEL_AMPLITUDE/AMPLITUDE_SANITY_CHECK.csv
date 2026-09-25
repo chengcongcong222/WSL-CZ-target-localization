@@ -1,0 +1,5 @@
+span,zs,n_modes_M0,rank_corr_abs_g_vs_theory,dominant_mode_overlap,amp_dynamic_range,phase_note
+sufficient_4990m,4.0,6,0.5428571428571428,0,152.4444992183502,no systematic unwrap check; noiseless should be stable
+sufficient_4990m,50.0,6,0.7714285714285715,1,50.80187037686223,no systematic unwrap check; noiseless should be stable
+insufficient_1990m,4.0,6,0.7714285714285715,0,43.131009059769774,no systematic unwrap check; noiseless should be stable
+insufficient_1990m,50.0,6,0.4857142857142857,1,72.0444101981095,no systematic unwrap check; noiseless should be stable

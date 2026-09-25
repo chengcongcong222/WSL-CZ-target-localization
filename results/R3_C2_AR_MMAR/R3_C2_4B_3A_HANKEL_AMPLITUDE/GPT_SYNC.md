@@ -1,0 +1,1 @@
+# R3-C2.4B-3A\n\n**HANKEL_AMPLITUDE_BRIDGE_VALIDATED**\n\nrank_corr=0.643, dominant_overlap=0.50, mean M0=6.0\n
