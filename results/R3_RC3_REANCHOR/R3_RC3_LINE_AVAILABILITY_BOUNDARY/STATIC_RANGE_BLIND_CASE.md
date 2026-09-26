@@ -1,0 +1,8 @@
+# STATIC_RANGE_BLIND_CASE
+
+UTC: 2026-09-26T03:58:23.823471+00:00
+
+`RELATIVE_TL_STATIC_RANGE_BLIND_CASE`：A05 参考距离恒定，去均值 TL≡0。
+不进入主统计。结构边界，非“100%”。
+
+B/C 的 180/200/220 签名非重复（4G）；A01 因距离恒定，深度签名重复属预期。

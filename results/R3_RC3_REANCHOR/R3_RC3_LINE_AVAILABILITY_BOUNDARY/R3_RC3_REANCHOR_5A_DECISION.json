@@ -1,0 +1,31 @@
+{
+  "stage": "R3-RC3-REANCHOR-5A",
+  "decision": "ANY_SINGLE_OF_FOUR_TRACKABLE_LINES_SUFFICIENT_IDEAL_CONTROL",
+  "why": "4 个单频子集全部 PASS（理想稳定线谱条件）",
+  "axis": "S1_BRIDGE_LINE_AVAILABILITY_ONLY",
+  "n_subsets": 15,
+  "subset_pass_by_n": {
+    "1": 4,
+    "2": 6,
+    "3": 4,
+    "4": 1
+  },
+  "frozen": [
+    "DEPTH_ROLE_MIXED_OR_UNRESOLVED",
+    "NO_STRONG_DEPTH_COMPENSATION_OBSERVED",
+    "DEPTH_PROFILED_NUISANCE_VARIABLE",
+    "PROFILED_RC3_MARGIN_ROBUST_TO_TESTED_ERROR",
+    "PROFILED_RC3_MARGIN_SURVIVES_TESTED_SSP_STRESS"
+  ],
+  "not_done": [
+    "freq drift",
+    "line amplitude drift",
+    "S1 full",
+    "SSP mismatch",
+    "IID TL",
+    "Liang",
+    "P5",
+    "new pairs"
+  ],
+  "created_utc": "2026-09-26T03:58:23.823471+00:00"
+}

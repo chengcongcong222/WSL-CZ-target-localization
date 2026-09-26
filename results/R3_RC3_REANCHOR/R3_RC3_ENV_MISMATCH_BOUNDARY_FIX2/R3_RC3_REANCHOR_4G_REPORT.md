@@ -14,7 +14,7 @@ tail+tabulation OK; z_true signatures distinct; E1 frac(ΔJ>0)=1.000 med=2.569; 
 - `.mod` 含 180/200/220 且 φ 向量不全同
 - FIELD 无 `Modes not tabulated` 警告
 - 源深签名 RMS(L180−L200)、RMS(L220−L200) 非机器零
-- B01/C01/A01 的 y(180/200/220) 非重复
+- B01/C01 签名非重复；A01 因参考距离恒定，去均值 TL 深度签名重复属预期结构边界
 
 旧 4F：`REANCHOR4F_BLOCKED_BY_MODE_DEPTH_TABULATION`；z=200 单点=`Z200_ENV_STRESS_POSITIVE_CONTROL`。
 
