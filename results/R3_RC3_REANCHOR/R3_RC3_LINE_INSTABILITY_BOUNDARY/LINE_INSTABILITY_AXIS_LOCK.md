@@ -1,0 +1,10 @@
+# LINE_INSTABILITY_AXIS_LOCK
+
+UTC: 2026-09-28T04:13:36.858695+00:00
+
+`S1_BRIDGE_LINE_INSTABILITY_ONLY` · E0 · 无 SSP/无 IID TL
+
+5B-A: A-RAMP/A-SINE, A_rms=[0.0, 0.25, 0.5, 1.0, 2.0] dB, COMMON vs LINE_SPECIFIC
+5B-F: D_f=[0.0, 0.0025, 0.005, 0.01, 0.02], staircase 8段, F_TRACKED vs F_NOMINAL; KRAKEN 缓存; 禁止幅+频联合
+
+survive: fraction_tested(ΔJ>0)>=0.8 且 median>0
