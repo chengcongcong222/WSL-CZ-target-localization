@@ -115,6 +115,33 @@
     </section>
 
     <section>
+      <h2>R3 闭环 1A — 单窗口 RC2→RC3 候选集收缩</h2>
+      <div class="verdict">
+        <strong>SET_LEVEL_RC3_INCREMENT_CONFIRMED</strong>
+        （<code>SINGLE_WINDOW_DEMO_REALIZATION</code>，非概率性能）。
+        CR5 真值 r=50 km / θ0=0° / v=2 m/s / ψ=5°，T=600 s，σθ=0.1°，seed 20260912。
+        全搜索盒 114576 → RC2 接受 <strong>1326</strong> → RC3 τ=0.5 dB 后
+        <strong>约 121</strong>（收缩 ~90%）。真值 rank=1 且保留。
+        v 轴收缩 60–90%；ψ 轴 ~38%；<strong>r 轴不收缩</strong>（幸存者横跨 45–60 km，
+        会聚区 TL 形状跨距离近简并，属结构性发现）。
+        完整性 gate 全过：RC2 对齐 P2、真值不注入、零信息控制、MAIN/FOUR 共用 RC2 云。
+        <code>RC3_SET_THRESHOLD_SENSITIVITY</code>：τ=0.25/0.5/1.0 dB 预冻结。
+      </div>
+      <p class="note">
+        结果目录：<code>results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_WINDOW_SET_CONTRACTION/</code>。
+        声学条件：E0，MAIN=235 Hz（最弱单频），REFERENCE=FOUR；无 SSP/幅频漂移。
+      </p>
+      <div class="files">
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_WINDOW_SET_CONTRACTION/R3_RC23_CLOSEDLOOP_1A_REPORT.md" target="_blank" rel="noopener">CLOSEDLOOP_1A_REPORT.md<span>主报告</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_WINDOW_SET_CONTRACTION/R3_RC23_CLOSEDLOOP_1A_DECISION.json" target="_blank" rel="noopener">CLOSEDLOOP_1A_DECISION.json<span>判定</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_WINDOW_SET_CONTRACTION/RC2_VS_RC2RC3_SET_METRICS.csv" target="_blank" rel="noopener">RC2_VS_RC2RC3_SET_METRICS<span>集合收缩</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_WINDOW_SET_CONTRACTION/INTEGRITY_GATES.md" target="_blank" rel="noopener">INTEGRITY_GATES.md<span>完整性</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_WINDOW_SET_CONTRACTION/RC2_ACCEPTED_CANDIDATES.csv" target="_blank" rel="noopener">RC2_ACCEPTED_CANDIDATES<span>RC2候选</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_WINDOW_SET_CONTRACTION/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

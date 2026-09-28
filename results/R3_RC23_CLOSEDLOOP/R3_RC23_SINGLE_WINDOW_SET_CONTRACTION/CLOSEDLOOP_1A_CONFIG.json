@@ -1,0 +1,88 @@
+{
+  "stage": "R3-CLOSEDLOOP-1A",
+  "created_utc": "2026-09-28T08:40:16.269226+00:00",
+  "baseline_commit": "3dd1f350b48110744ebe49447267a0e5bc26194f",
+  "scenario": "CR5",
+  "truth": {
+    "r0_m": 50000.0,
+    "theta0_deg": 0.0,
+    "v": 2.0,
+    "psi_deg": 5.0
+  },
+  "T_s": 600.0,
+  "sigma_theta_deg": 0.1,
+  "platform_turn_deg": 0.0,
+  "dt_obs_s": 10.0,
+  "n_obs": 61,
+  "rng_seed": 20260912,
+  "realization_label": "SINGLE_WINDOW_DEMO_REALIZATION",
+  "coarse_grid_n_nodes": 114576,
+  "rc2_cost": "sum wrap(theta_pred-theta_obs)^2",
+  "rc2_accept": "cost <= cmin + 4.051412e-05  (=13.3*sigma_rad^2)",
+  "rc2_chi2_threshold": 4.0514116831632244e-05,
+  "rc3_observable": "SOURCE_LEVEL_FREE_RELATIVE_TL_SHAPE_TRAJECTORY_DEMEAN",
+  "rc3_forward": "DIRECT_F_MATRIX_ON_TRAJECTORY",
+  "rc3_profile_z_m": [
+    150.0,
+    155.0,
+    160.0,
+    165.0,
+    170.0,
+    175.0,
+    180.0,
+    185.0,
+    190.0,
+    195.0,
+    200.0,
+    205.0,
+    210.0,
+    215.0,
+    220.0,
+    225.0,
+    230.0,
+    235.0,
+    240.0,
+    245.0,
+    250.0
+  ],
+  "z_true_list_m": [
+    180.0,
+    200.0,
+    220.0
+  ],
+  "configs": {
+    "MAIN": {
+      "freqs_hz": [
+        235.0
+      ],
+      "label": "WEAKEST_TESTED_SINGLE_LINE_MAIN"
+    },
+    "REFERENCE": {
+      "freqs_hz": [
+        201.0,
+        235.0,
+        283.0,
+        338.0
+      ],
+      "label": "FOUR_LINE_REFERENCE"
+    }
+  },
+  "tau_db": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "tau_label": "RC3_SET_THRESHOLD_SENSITIVITY",
+  "forbidden": [
+    "multi-window recursion",
+    "S1 old frequency migration",
+    "line dropout",
+    "combined corner",
+    "SSP mismatch",
+    "amplitude/frequency drift",
+    "new acoustic features",
+    "Liang",
+    "P5",
+    "truth-based candidate pruning"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "stage": "R3-CLOSEDLOOP-1A",
+  "decision": "SET_LEVEL_RC3_INCREMENT_CONFIRMED",
+  "why": "MAIN tau=0.5: true_kept=True count>=50%=True axes>=2/3 @>=20%=True; counts=[122,121,137]/1326; r_contr=[0.0,0.0,0.0]; v_contr=[0.8,0.9,0.6]; psi_contr=[0.385,0.385,0.385]",
+  "realization_label": "SINGLE_WINDOW_DEMO_REALIZATION",
+  "n_grid": 114576,
+  "n_RC2": 1326,
+  "truth_on_grid": true,
+  "truth_in_rc2": true,
+  "integrity_gates": "PASS",
+  "created_utc": "2026-09-28T08:40:16.269226+00:00",
+  "key_findings": {
+    "count_contraction": "~90% at tau=0.5 (1326->121)",
+    "v_axis": "contracts 60-90% at tau=0.5; collapses to single value at tau=0.25",
+    "psi_axis": "contracts ~38% at tau=0.5",
+    "r_axis": "NO contraction: survivors span full 45-60 km; near-degenerate TL shape across CZ",
+    "true_rank": 1,
+    "note": "r-axis non-contraction is a real structural finding for single-window CZ TL shape, not a bug"
+  }
+}

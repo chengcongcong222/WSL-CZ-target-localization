@@ -1,0 +1,2 @@
+n_grid,n_RC2,cmin,thr_rc2,truth_on_grid,truth_in_rc2,true_node_id,true_rc2_cost,r_width_km,theta_width_deg,v_width_mps,psi_width_deg
+114576,1326,0.00017633165926949103,4.0514116831632244e-05,True,True,39390,0.00017904915451892183,15.0,0.0,1.9999999999999996,13.0
