@@ -1,0 +1,22 @@
+{
+  "stage": "R3-RC3-REANCHOR-5B-FIX",
+  "decision": "TRACKABLE_LINE_INSTABILITY_ROBUST_IN_TESTED_RANGE",
+  "why": "ZERO_STRESS=PASS; amp1=True amp05=True F_TR@2%=True F_NOM@1%=False aux=['TRACKABLE_LINE_REQUIRES_FREQUENCY_TRACKING']",
+  "zero_stress_gate": "PASS",
+  "grid_path": "REJECTED_USE_DIRECT_F_MATRIX",
+  "auxiliary_labels": [
+    "TRACKABLE_LINE_REQUIRES_FREQUENCY_TRACKING"
+  ],
+  "created_utc": "2026-09-28T07:23:02.205781+00:00",
+  "zero_stress_per_row_max_err_db": 7.105427357601002e-15,
+  "amplitude_branch_integrity": "PASS",
+  "range_grid_status": "RANGE_GRID_PATH_REJECTED_INSUFFICIENT_ACCURACY_USE_DIRECT",
+  "range_grid_main_path": "DIRECT_F_MATRIX_ON_TRAJECTORY",
+  "observable": "SOURCE_LEVEL_FREE_RELATIVE_TL_SHAPE_TRAJECTORY_DEMEAN",
+  "old_5b": "REANCHOR5B_SUPERSEDED_PENDING_OBSERVABLE_FIX",
+  "kept_labels": [
+    "FREQUENCY_DRIFT_FORWARD_MODEL_SPOTCHECK_PASSED"
+  ],
+  "updated_utc": "2026-09-28T07:34:51.584019+00:00",
+  "range_grid_gate": "FAIL_ALL_TESTED_GRIDS"
+}

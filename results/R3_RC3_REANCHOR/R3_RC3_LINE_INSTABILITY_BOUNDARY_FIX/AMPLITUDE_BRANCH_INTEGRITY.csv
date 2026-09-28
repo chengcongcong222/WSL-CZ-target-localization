@@ -1,0 +1,6 @@
+A_rms_db,common_mult,line_specific_mult,injected_common_201dB,injected_line_201dB,injected_common_235dB,injected_line_235dB,arrays_identical,frobenius_diff,expected_identical,integrity_pass
+0.0,+1;+1;+1;+1,+1;-1;+1;-1,0.0,0.0,0.0,-0.0,True,0.0,True,True
+0.25,+1;+1;+1;+1,+1;-1;+1;-1,0.075,0.075,0.075,-0.075,False,1.0099504938362078,False,True
+0.5,+1;+1;+1;+1,+1;-1;+1;-1,0.15,0.15,0.15,-0.15,False,2.0199009876724157,False,True
+1.0,+1;+1;+1;+1,+1;-1;+1;-1,0.3,0.3,0.3,-0.3,False,4.039801975344831,False,True
+2.0,+1;+1;+1;+1,+1;-1;+1;-1,0.6,0.6,0.6,-0.6,False,8.079603950689663,False,True
