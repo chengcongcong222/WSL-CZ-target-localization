@@ -1,0 +1,51 @@
+{
+  "stage": "R3-CLOSEDLOOP-1B",
+  "created_utc": "2026-09-28T09:30:36.300105+00:00",
+  "baseline_commit": "8d5b9b7e74a97639daf5351050b01d4d5b868bf0",
+  "scenario": "CR5",
+  "truth": {
+    "r0_m": 50000.0,
+    "theta0_deg": 0.0,
+    "v": 2.0,
+    "psi_deg": 5.0
+  },
+  "T_end_s": 1200.0,
+  "W1_s": "0:10:600",
+  "W2_s": "610:10:1200",
+  "n_full": 121,
+  "n_w1": 61,
+  "n_w2": 60,
+  "sigma_theta_deg": 0.1,
+  "platform_turn_deg": 0.0,
+  "rng_seed": 20260912,
+  "realization_label": "SINGLE_WINDOW_DEMO_REALIZATION_EXTENDED",
+  "coarse_grid_n_nodes": 114576,
+  "rc2_cost": "sum wrap(theta_pred-theta_obs)^2",
+  "rc2_accept": "cost <= cmin + 4.051412e-05 (=13.3*sigma_rad^2)",
+  "rc3_observable": "PER_WINDOW_DEMEAN_SOURCE_LEVEL_FREE_RELATIVE_TL_SHAPE",
+  "rc3_forward": "DIRECT_F_MATRIX_ON_TRAJECTORY",
+  "rc3_J12": "sqrt((||e_W1||^2+||e_W2||^2)/(N_W1+N_W2)) shared z",
+  "configs": {
+    "MAIN": [
+      235.0
+    ],
+    "REFERENCE": [
+      201.0,
+      235.0,
+      283.0,
+      338.0
+    ]
+  },
+  "tau_db": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "track_r_km": [
+    45.0,
+    50.0,
+    56.0,
+    58.0,
+    60.0
+  ]
+}

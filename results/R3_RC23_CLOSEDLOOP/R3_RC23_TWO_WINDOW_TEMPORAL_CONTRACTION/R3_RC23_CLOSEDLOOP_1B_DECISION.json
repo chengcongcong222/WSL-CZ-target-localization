@@ -1,0 +1,38 @@
+{
+  "stage": "R3-CLOSEDLOOP-1B",
+  "decision": "MULTIWINDOW_RC3_SET_INCREMENT_RANGE_UNRESOLVED",
+  "why": "MAIN tau=0.5: true_kept=True count>=50%=True r>=20%=False; cumRC2 r_width=15.0km (W1=15.0); counts=[41,43,41]/495; r_contr=[0,0,0]; RC2_time_r_contr=0.000",
+  "w1_identity": "PASS",
+  "n_RC2_W1": 1326,
+  "n_RC2_cum": 495,
+  "truth_in_cum": true,
+  "cum_r_width_km": 15.0,
+  "cum_v_width_mps": 1.9999999999999996,
+  "cum_psi_width_deg": 11.000000000000002,
+  "rc2_time_range_contraction": 0.0,
+  "integrity_gates": "PASS",
+  "created_utc": "2026-09-28T09:30:36.300105+00:00",
+  "key_findings": {
+    "w1_identity": "PASS max_err=8.9e-16",
+    "cumRC2": "495 from 1326 (W1), r_width STILL 15km",
+    "rc3_two_window": "41-43 survivors at tau=0.5, count contraction ~91%",
+    "range_axis": "NO contraction: every r=45..60 km has survivors; best delta_J at aliases <0.05dB",
+    "v_axis": "collapses to single value (width 0)",
+    "psi_axis": "contracts 73% (from 13deg to 3deg)",
+    "alias_J12": {
+      "45km": 0.045,
+      "50km_true": 0.0,
+      "56km": 0.033,
+      "58km": 0.025,
+      "60km": 0.043
+    },
+    "alias_z_star": {
+      "45km": 240,
+      "50km": 200,
+      "56km": 230,
+      "58km": 220,
+      "60km": 180
+    },
+    "interpretation": "source-level-free relative TL shape + straight-line cannot resolve absolute range; depth profile absorbs range aliases; need RC1 CZ absolute range prior or platform turn"
+  }
+}

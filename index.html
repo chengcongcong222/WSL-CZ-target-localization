@@ -142,6 +142,32 @@
     </section>
 
     <section>
+      <h2>R3 闭环 1B — 双窗口时间累积与距离脊线</h2>
+      <div class="verdict">
+        <strong>MULTIWINDOW_RC3_SET_INCREMENT_RANGE_UNRESOLVED</strong>。
+        W1 identity 与 1A 逐点一致（max err 8.9e-16 dB）。
+        累计 RC2（1200 s）：1326→<strong>495</strong>，但 r 宽度仍 <strong>15 km</strong>——
+        方位时间累积本身不收缩距离。
+        RC3 双窗（分窗去均值 + 共享 z）：τ=0.5 后 <strong>41–43</strong> 个候选（缩 91%），
+        v 塌缩单值、ψ 缩 73%，但 <strong>r 仍全宽</strong>。
+        45/56/58/60 km 假极小全部存活（δJ₁₂&lt;0.05 dB），靠不同 z* 吸收距离差。
+        <strong>结论</strong>：source-level-free relative TL + 直航无法解决绝对距离；
+        需 RC1 会聚区绝对距离先验或小幅平台转向。
+      </div>
+      <p class="note">
+        结果目录：<code>results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/R3_RC23_CLOSEDLOOP_1B_REPORT.md" target="_blank" rel="noopener">CLOSEDLOOP_1B_REPORT.md<span>主报告</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/R3_RC23_CLOSEDLOOP_1B_DECISION.json" target="_blank" rel="noopener">CLOSEDLOOP_1B_DECISION.json<span>判定</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/RANGE_ALIAS_PERSISTENCE.csv" target="_blank" rel="noopener">RANGE_ALIAS_PERSISTENCE<span>距离别名</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/SURVIVORS_BY_RANGE.csv" target="_blank" rel="noopener">SURVIVORS_BY_RANGE<span>逐距离存活</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/W1_IDENTITY_WITH_1A_REPORT.md" target="_blank" rel="noopener">W1_IDENTITY<span>1A对齐</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>
