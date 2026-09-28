@@ -90,13 +90,14 @@
         Yang 公式 <code>PRIMARY_SOURCE_LOCKED</code>；
         Yang 路线 <code>YANG_ROUTE_UNDECIDED</code>。
         R3-C2.2C 原 <code>PAPER_REPRO_CONFIRMED</code> → <code>SUPERSEDED_PENDING_INTEGRITY_FIX</code>。
-        REANCHOR-5A（S1 入口）：<code>ANY_SINGLE_OF_FOUR_TRACKABLE_LINES_SUFFICIENT_IDEAL_CONTROL</code>。
-        15/15 频率子集全部 PASS（fraction ΔJ&gt;0=100%）；单频 median ΔJ 1.4–1.9 dB。
-        仅为<strong>理想稳定线谱</strong>结构边界，非完整 S1。
-        证据链：深度消元 → IID TL → SSP 失配(<code>4G FIX2</code>) → 线谱数量 → 5B 线谱不稳定性。
+        REANCHOR-5B：线谱不稳定性 <code>TRACKABLE_LINE_INSTABILITY_ROBUST_IN_TESTED_RANGE</code>。
+        幅漂 1 dB / 频漂 F-TRACKED 2% 均 survive；F-NOMINAL@1% 失效 →
+        <code>TRACKABLE_LINE_REQUIRES_FREQUENCY_TRACKING</code>。
+        235 Hz 最弱单频已单列。5A 汇总已改 <code>PARTIALLY_COMPLEMENTARY</code>。
       </div>
       <p class="note">
-        结果目录：<code>results/R3_RC3_REANCHOR/R3_RC3_LINE_AVAILABILITY_BOUNDARY/</code>。
+        结果目录：<code>results/R3_RC3_REANCHOR/R3_RC3_LINE_INSTABILITY_BOUNDARY/</code>。
+        证据链：深度消元 → IID TL → SSP → 线谱数量 → <strong>时间稳定性</strong>。
       </p>
     </section>
 
