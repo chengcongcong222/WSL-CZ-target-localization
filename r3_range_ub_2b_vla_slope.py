@@ -284,7 +284,7 @@ UTC: {NOW}
 
     if not conv_pass:
         (OUT / "RANGE_UB_2B_DECISION.json").write_text(
-            json.dumps({"stage": "RANGE-UB-2B", "decision": "E_STD_VLA_SLOPE_NOT_NUMERICALLY_STABLE",
+            json.dumps({"stage": "RANGE-UB-2B", "decision": "RANGE_UB_2B_BLOCKED_BY_PATH_CLASS_MAPPING",
                         "created_utc": NOW}, indent=2), encoding="utf-8")
         print("NOT_NUMERICALLY_STABLE")
         return 1

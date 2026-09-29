@@ -1,0 +1,4 @@
+zs,has_1neg_2pos,n_neg_1601,n_pos_1601,n_neg_3201,n_pos_3201,max_rel_diff,sign_ok,pass
+180.0,True,9,7,9,7,0.0,True,True
+200.0,True,9,7,9,7,0.0,True,True
+220.0,True,8,8,8,8,0.0,True,True

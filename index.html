@@ -403,6 +403,29 @@
     </section>
 
     <section>
+      <h2>RANGE-UB-2B-FIX0 — Delay-Depth 斜率脊线</h2>
+      <div class="verdict">
+        <strong>E_STD_VLA_SECONDARY_DELAY_RIDGES_CONFIRMED</strong>。
+        无路径标签 delay-depth 斜率脊线验证：
+        I1(zr,τ) → I2(zr,δ) → Radon 斜率扫描。
+        <strong>3/3 source depths 收敛 PASS</strong>（1601 vs 3201, max_rel_diff=0）。
+        每个 zs 有稳定负+正斜率脊线族。
+        g-vector: g32≈0.05, g42≈0.007, g43≈0.009（spread≈7×）。
+        50 km 机制准入通过。下一步：45–60 km 斜率库 + 距离判别。
+      </div>
+      <p class="note">
+        结果目录：<code>results/RANGE_UB/E_STD_VLA_DELAY_DEPTH_RIDGE/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_DELAY_DEPTH_RIDGE/RANGE_UB_2B_FIX0_REPORT.md" target="_blank" rel="noopener">FIX0_REPORT<span>报告</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_DELAY_DEPTH_RIDGE/RANGE_UB_2B_FIX0_DECISION.json" target="_blank" rel="noopener">FIX0_DECISION<span>判定</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_DELAY_DEPTH_RIDGE/DETECTED_SLOPE_RIDGES.csv" target="_blank" rel="noopener">SLOPE_RIDGES<span>脊线检测</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_DELAY_DEPTH_RIDGE/RAY_DENSITY_RIDGE_CONVERGENCE.csv" target="_blank" rel="noopener">CONVERGENCE<span>收敛</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_DELAY_DEPTH_RIDGE/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

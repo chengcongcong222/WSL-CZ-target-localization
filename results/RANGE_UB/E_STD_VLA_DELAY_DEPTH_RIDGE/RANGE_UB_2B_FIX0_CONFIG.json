@@ -1,0 +1,20 @@
+{
+  "stage": "RANGE-UB-2B-FIX0",
+  "created_utc": "2026-09-29T08:26:16.579798+00:00",
+  "baseline_commit": "48b3e2d77dc3b71e2498a60c351e21ae8a933e2b",
+  "observable": "PATH_LABEL_FREE_DELAY_DEPTH_OBSERVABLE",
+  "r_km": 50.0,
+  "zs_list": [
+    180.0,
+    200.0,
+    220.0
+  ],
+  "nbeams": [
+    1601,
+    3201
+  ],
+  "tau_bin_ms": 5.0,
+  "tau_max_ms": 3000.0,
+  "k_scan": "[-0.8, 0.8] step 0.002 ms/m",
+  "note": "no reflection-order classification; delay-depth ridge only"
+}
