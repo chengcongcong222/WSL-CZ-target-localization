@@ -1,0 +1,10 @@
+{
+  "stage": "RANGE-UB-2B-FIX0B",
+  "created_utc": "2026-09-29T09:37:10.114229+00:00",
+  "baseline_commit": "1772f34628b71f801ec512836ca7eb2fa8a1bd55",
+  "fixes": [
+    "k43 independent n3/n4 loops",
+    "full P(k) local-max check",
+    "per-zs envelope"
+  ]
+}

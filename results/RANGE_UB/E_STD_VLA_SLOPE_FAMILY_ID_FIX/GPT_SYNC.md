@@ -1,0 +1,5 @@
+# RANGE-UB-2B-FIX0B
+
+**XU2024_SECONDARY_SLOPE_FAMILIES_PARTIAL_AT_50KM**
+
+n_local_max=12/18, all_9_conv=False, zs200_ok=True

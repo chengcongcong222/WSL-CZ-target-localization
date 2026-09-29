@@ -448,6 +448,28 @@
     </section>
 
     <section>
+      <h2>RANGE-UB-2B-FIX0B — 斜率族完整性修复</h2>
+      <div class="verdict">
+        <strong>XU2024_SECONDARY_SLOPE_FAMILIES_PARTIAL_AT_50KM</strong>。
+        修复：k43 枚举（独立 n3/n4）、完整 P(k) 局部极大判定、per-zs 包络。
+        <strong>zs=200 三族全部通过</strong>（局部极大+收敛），
+        g32=0.061, g42=0.069, g43=0.061。
+        zs=180/220 部分族为 band-edge shoulder。
+        12/18 局部极大。<strong>符合 FIX1 准入</strong>。
+      </div>
+      <p class="note">
+        结果目录：<code>results/RANGE_UB/E_STD_VLA_SLOPE_FAMILY_ID_FIX/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_SLOPE_FAMILY_ID_FIX/RANGE_UB_2B_FIX0B_REPORT.md" target="_blank" rel="noopener">FIX0B_REPORT<span>报告</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_SLOPE_FAMILY_ID_FIX/RANGE_UB_2B_FIX0B_DECISION.json" target="_blank" rel="noopener">FIX0B_DECISION<span>判定</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_SLOPE_FAMILY_ID_FIX/FAMILY_PEAK_BOUNDARY_AUDIT.csv" target="_blank" rel="noopener">BOUNDARY_AUDIT<span>边界审计</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_SLOPE_FAMILY_ID_FIX/THEORY_FAMILY_G_VECTOR_FIX.csv" target="_blank" rel="noopener">G_VECTOR<span>g向量</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_SLOPE_FAMILY_ID_FIX/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

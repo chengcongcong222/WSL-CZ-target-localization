@@ -1,0 +1,15 @@
+{
+  "stage": "RANGE-UB-2B-FIX0B",
+  "decision": "XU2024_SECONDARY_SLOPE_FAMILIES_PARTIAL_AT_50KM",
+  "why": "n_local_max=12/18, all_9_conv=False, zs200_ok=True",
+  "created_utc": "2026-09-29T09:37:10.114229+00:00",
+  "key_findings": {
+    "k43_envelope_fixed": "now [0.484, 0.539] (was [0.489, 0.539])",
+    "zs200_all_three_pass": true,
+    "zs200_g_vector": "g32=0.061, g42=0.069, g43=0.061",
+    "zs180_partial": "k42/k43 pass; k32 is band-edge shoulder",
+    "zs220_partial": "only k43 passes",
+    "n_local_max": "12/18",
+    "FIX1_eligible": true
+  }
+}
