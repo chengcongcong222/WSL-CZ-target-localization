@@ -315,6 +315,29 @@
     </section>
 
     <section>
+      <h2>RANGE-UB-1C-FIX — Observable 修正与收敛审计</h2>
+      <div class="verdict">
+        <strong>RANGE_UB_1C_FIX_BLOCKED_BY_O2_RAY_DENSITY</strong>。
+        修复已落地：复数自相关（含相位）、Hungarian 全局匹配、O0 拆分、全距离 gap。
+        O1 收敛 <strong>PASS</strong>（12/12 点）。
+        O2 收敛 <strong>FAIL</strong>（5/12 点）：1601 vs 3201 时 top-5 峰成员更换
+        （例：zs=200/r=50 peak3 从 12024 ms 变 1097 ms）。
+        按预注册 gate 停止，不跑完整 651 点。
+        旧 1C 探索性现象仍记录：801-beam 下 O2 零误差 profile 在三个深度均有 50 km 唯一全局最小。
+      </div>
+      <p class="note">
+        结果目录：<code>results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION_FIX/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION_FIX/RANGE_UB_1C_FIX_REPORT.md" target="_blank" rel="noopener">FIX_REPORT<span>报告</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION_FIX/RANGE_UB_1C_FIX_DECISION.json" target="_blank" rel="noopener">FIX_DECISION<span>判定</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION_FIX/O2_RAY_DENSITY_CONVERGENCE.csv" target="_blank" rel="noopener">O2_CONVERGENCE<span>O2收敛</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION_FIX/O1_RAY_DENSITY_CONVERGENCE.csv" target="_blank" rel="noopener">O1_CONVERGENCE<span>O1收敛</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION_FIX/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

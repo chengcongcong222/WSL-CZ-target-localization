@@ -1,0 +1,20 @@
+{
+  "stage": "RANGE-UB-1C-FIX",
+  "created_utc": "2026-09-29T05:55:50.525148+00:00",
+  "baseline_commit": "88b4364fe12acdd9311979f311126627aec61ca2",
+  "fixes": [
+    "O0 split into O0-REF and O0-MAIN",
+    "ray density gate checks O1 and O2",
+    "O2 = complex autocorrelation with phase",
+    "global optimal matching (exhaustive permutation for n<=7)",
+    "full range grid gap analysis"
+  ],
+  "nbeams_conv": [
+    801,
+    1601,
+    3201
+  ],
+  "strong_threshold_db": -20.0,
+  "tau_bin_ms": 5.0,
+  "top_n_peaks": 5
+}

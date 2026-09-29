@@ -1,6 +1,6 @@
 {
   "stage": "RANGE-UB-1C",
-  "decision": "MAJOR_OBSERVABLE_TDOA_RANGE_INFORMATION_RETAINED",
+  "decision": "RANGE_UB_1C_BLOCKED_BY_OBSERVABLE_AND_CONVERGENCE_AUDIT",
   "why": "O1_range_ok=True, O2_range_ok=True, o0_identity_err=0.00e+00",
   "scope_note": "E-STD BELLHOP rigid-bottom model upper bound; O2=PAPER_INSPIRED NOT_XU2024_METHOD_REPRODUCTION",
   "reality_note": "四条窄带线谱无到达时延; O2代表若目标有宽带/瞬态成分且可理想提取自相关TDOA时的单深度上界",
@@ -12,5 +12,13 @@
     "range_info_retained_at_O2": true,
     "min_gap_ms": 72.0,
     "note": "Even with only 5 autocorr peaks and no path labels, 50km is unique global min for all truths"
-  }
+  },
+  "blocked_reasons": [
+    "ray-density gate only checked strongest delay, not O1/O2",
+    "O0_FIX2_IDENTITY faked (max_o0_err=0 by construction)",
+    "O2 is amplitude-product lag proxy, not complex autocorrelation",
+    "Hungarian matching is actually greedy",
+    "closest false-range gap only scanned 45/56/58/60, not full grid (49.5km closest at ~6ms)"
+  ],
+  "exploratory_note": "O2 zero-error profile has unique global min at 50km for all 3 depths (801-beam, amplitude-product proxy, greedy matching)"
 }
