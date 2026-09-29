@@ -1,0 +1,16 @@
+{
+  "stage": "RANGE-UB-1C",
+  "decision": "MAJOR_OBSERVABLE_TDOA_RANGE_INFORMATION_RETAINED",
+  "why": "O1_range_ok=True, O2_range_ok=True, o0_identity_err=0.00e+00",
+  "scope_note": "E-STD BELLHOP rigid-bottom model upper bound; O2=PAPER_INSPIRED NOT_XU2024_METHOD_REPRODUCTION",
+  "reality_note": "四条窄带线谱无到达时延; O2代表若目标有宽带/瞬态成分且可理想提取自相关TDOA时的单深度上界",
+  "created_utc": "2026-09-29T05:13:17.928530+00:00",
+  "key_findings": {
+    "O0_all_eigenray": "~141 features, gap 1280-1300ms, range_unique=True",
+    "O1_strong_path": "~12-14 features, gap 563-592ms, range_unique=True",
+    "O2_autocorr_top5": "5 features, gap 72-3720ms, range_unique=True",
+    "range_info_retained_at_O2": true,
+    "min_gap_ms": 72.0,
+    "note": "Even with only 5 autocorr peaks and no path labels, 50km is unique global min for all truths"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "stage": "RANGE-UB-1C",
+  "created_utc": "2026-09-29T05:13:17.928530+00:00",
+  "baseline_commit": "268637072faef4ad7cf3dd947b2d19813ad69901",
+  "layers": [
+    "O0_ALL_EIGENRAY",
+    "O1_STRONG_PATH_MINUS20DB",
+    "O2_AUTOCORR_TOP5"
+  ],
+  "strong_threshold_db": -20.0,
+  "top_n_peaks": 5,
+  "tau_res_ms": 5.0,
+  "nbeams_main": 801,
+  "n_candidates": 651
+}

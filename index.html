@@ -291,6 +291,30 @@
     </section>
 
     <section>
+      <h2>RANGE-UB-1C — Observable Contraction</h2>
+      <div class="verdict">
+        <strong>MAJOR_OBSERVABLE_TDOA_RANGE_INFORMATION_RETAINED</strong>。
+        三层嵌套收缩：O0 所有 eigenray（~141 特征）→ O1 强路径 ≥−20 dB（~13 特征）
+        → O2 自相关 top-5 峰（5 特征，5 ms 分辨）。
+        <strong>距离信息在 O2 层仍保留</strong>：三个 truth 均 range_unique，
+        最小 gap 72 ms。信息损失账本：O0 gap~1.3 s → O1 gap~570 ms → O2 gap 72–3720 ms。
+        <code>PAPER_INSPIRED</code> / <code>NOT_XU2024_METHOD_REPRODUCTION</code>。
+        四线谱无到达时延；O2 代表宽带/瞬态成分的单深度上界。
+      </div>
+      <p class="note">
+        结果目录：<code>results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION/RANGE_UB_1C_REPORT.md" target="_blank" rel="noopener">1C_REPORT.md<span>主报告</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION/RANGE_UB_1C_DECISION.json" target="_blank" rel="noopener">1C_DECISION<span>判定</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION/OBSERVABLE_CONTRACTION_LEDGER.csv" target="_blank" rel="noopener">CONTRACTION_LEDGER<span>信息损失账本</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION/RANGE_ALIAS_CONTRACTION_AUDIT.csv" target="_blank" rel="noopener">ALIAS_AUDIT<span>距离别名</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION/RAY_DENSITY_CONVERGENCE.csv" target="_blank" rel="noopener">RAY_DENSITY<span>射线收敛</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_OBSERVABLE_CONTRACTION/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>
