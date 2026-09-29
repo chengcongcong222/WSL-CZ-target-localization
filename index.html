@@ -426,6 +426,28 @@
     </section>
 
     <section>
+      <h2>RANGE-UB-2B-FIX0A — 斜率族身份审计</h2>
+      <div class="verdict">
+        <strong>XU2024_SECONDARY_SLOPE_FAMILIES_PARTIAL_AT_50KM</strong>。
+        理论包络：k32=[−0.406,−0.362], k42=[0.117,0.139], k43=[0.489,0.539] ms/m。
+        族检测 18/18，收敛 <strong>8/9</strong>（zs=180 k42 差 13%）。
+        <strong>g-vector 高度一致</strong>：g32≈0.060, g42≈0.06, g43≈0.06（spread 1.17×），
+        与 H/(cR)≈0.065 ms/m 吻合。族身份基本建立。
+        旧 g-vector 已标 SUPERSEDED_BY_ARBITRARY_RIDGE_ORDERING。
+      </div>
+      <p class="note">
+        结果目录：<code>results/RANGE_UB/E_STD_VLA_SLOPE_FAMILY_ID/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_SLOPE_FAMILY_ID/RANGE_UB_2B_FIX0A_REPORT.md" target="_blank" rel="noopener">FIX0A_REPORT<span>报告</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_SLOPE_FAMILY_ID/RANGE_UB_2B_FIX0A_DECISION.json" target="_blank" rel="noopener">FIX0A_DECISION<span>判定</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_SLOPE_FAMILY_ID/E_STD_XU2024_SLOPE_ENVELOPE.csv" target="_blank" rel="noopener">SLOPE_ENVELOPE<span>理论包络</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_SLOPE_FAMILY_ID/THEORY_FAMILY_G_VECTOR.csv" target="_blank" rel="noopener">G_VECTOR<span>g向量</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_SLOPE_FAMILY_ID/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

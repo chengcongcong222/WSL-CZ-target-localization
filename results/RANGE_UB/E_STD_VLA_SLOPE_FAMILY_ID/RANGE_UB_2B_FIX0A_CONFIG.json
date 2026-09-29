@@ -1,0 +1,7 @@
+{
+  "stage": "RANGE-UB-2B-FIX0A",
+  "created_utc": "2026-09-29T09:05:44.010776+00:00",
+  "baseline_commit": "b15bc03aae38b4aa5603d8a58711de0aae20b4be",
+  "goal": "Xu2024 secondary slope-family identity audit at 50km",
+  "no_new_bellhop": true
+}

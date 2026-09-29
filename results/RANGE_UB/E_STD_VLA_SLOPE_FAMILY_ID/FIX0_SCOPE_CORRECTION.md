@@ -1,0 +1,11 @@
+# FIX0_SCOPE_CORRECTION
+
+UTC: 2026-09-29T09:05:44.010776+00:00
+
+FIX0 原判 E_STD_VLA_SECONDARY_DELAY_RIDGES_CONFIRMED 收窄为:
+GENERIC_VLA_DELAY_DEPTH_RIDGES_STABLE_AT_50KM
+
+原因: convergence gate triplet != g-vector triplet。
+g-vector 标记 SUPERSEDED_BY_ARBITRARY_RIDGE_ORDERING。
+
+本轮做 theory-family identity audit。

@@ -1,6 +1,6 @@
 {
   "stage": "RANGE-UB-2B-FIX0",
-  "decision": "E_STD_VLA_SECONDARY_DELAY_RIDGES_CONFIRMED",
+  "decision": "GENERIC_VLA_DELAY_DEPTH_RIDGES_STABLE_AT_50KM",
   "why": "all_zs_pass=True, any_zs_pass=True",
   "observable": "PATH_LABEL_FREE_DELAY_DEPTH_OBSERVABLE",
   "note": "50km mechanism admission only; not yet range discrimination",
@@ -8,8 +8,9 @@
   "key_findings": {
     "conv": "3/3 PASS (max_rel_diff=0.0)",
     "ridge_structure": "each zs has 1+ negative and 2+ positive ridges, stable across beam densities",
-    "g_vector": "g32~0.05-0.06, g42~0.006-0.008, g43~0.009; spread~7-8x",
+    "g_vector": "SUPERSEDED_BY_ARBITRARY_RIDGE_ORDERING",
     "interpretation": "stable delay-depth slope ridges EXIST in E-STD VLA at 50km; ridge identity vs Xu2024 k32/k42/k43 is separate question",
     "next": "RANGE-UB-2B-FIX1: 45-60km slope library + range discrimination"
-  }
+  },
+  "scope_correction": "PROVISIONAL_PENDING_SLOPE_FAMILY_IDENTITY: convergence triplet != g-vector triplet; g-vector not yet proven to be k32/k42/k43"
 }

@@ -1,0 +1,16 @@
+{
+  "stage": "RANGE-UB-2B-FIX0A",
+  "decision": "XU2024_SECONDARY_SLOPE_FAMILIES_PARTIAL_AT_50KM",
+  "why": "all_9_pass=False, any_pass=True, n_detected=18/18",
+  "note": "50km family identity only; no range discrimination yet",
+  "created_utc": "2026-09-29T09:05:44.010776+00:00",
+  "key_findings": {
+    "envelope": "k32=[-0.406,-0.362], k42=[0.117,0.139], k43=[0.489,0.539] ms/m",
+    "family_detection": "18/18 detected in theory bands",
+    "convergence": "8/9 PASS (only zs=180 k42 fails, rel_diff=0.133)",
+    "g_vector": "g32~0.060, g42~0.059-0.069, g43~0.061-0.065; spread~1.17x (was 7-8x with arbitrary ordering)",
+    "H_over_cR": "H/(cR) ~ 0.065 ms/m at c~1550; g values consistent",
+    "top_score_note": "strongest generic ridges are near k=0; Xu2024 families are lower-ranked but present and stable",
+    "interpretation": "theory-family identity substantially established; g-vector consistency is strong evidence"
+  }
+}
