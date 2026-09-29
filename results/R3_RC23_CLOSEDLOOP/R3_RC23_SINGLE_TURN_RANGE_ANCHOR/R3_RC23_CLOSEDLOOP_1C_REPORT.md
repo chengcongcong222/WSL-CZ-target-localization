@@ -10,7 +10,7 @@ UTC: 2026-09-29T01:34:55.256469+00:00
 
 MAIN tau=0.5: found_delta=None, min_delta=None, aux=[]; δ=0.0°: n=41 r_w=15.0 bins=16; δ=2.0°: n=39 r_w=15.0 bins=16; δ=5.0°: n=36 r_w=15.0 bins=16; δ=10.0°: n=27 r_w=15.0 bins=15; δ=15.0°: n=2 r_w=4.0 bins=2
 
-辅助：—
+辅助：`FOUR_LINE_TURN_RANGE_ANCHOR_OBSERVED` · `TURN_RC3_RANGE_SYNERGY_AT_SOME_DEPTHS`
 
 ## 设定
 
@@ -123,6 +123,20 @@ cumRC2=495（1B=495），IDs 一致，RC3 max err 2.66e-15 dB。
 
 按预冻结规则（三个 z_true 均须收缩 ≥20%），主判为 `SMALL_TURN_RANGE_RIDGE_PERSISTS`。
 但 z_true=180 的明确锚定证明机制在正确深度上有效。
+
+## 辅助标签（不改主判）
+
+- `FOUR_LINE_TURN_RANGE_ANCHOR_OBSERVED`：REFERENCE=FOUR, δ=15°, τ=0.5 时 z_true=180/200/220 **均仅剩 r0=50 km 一个距离网格**（r_width=0, bins=1），true retained, true rank=1。
+- `TURN_RC3_RANGE_SYNERGY_AT_SOME_DEPTHS`
+
+## 虚拟基线修正
+
+δ=15° 时：
+```text
+B_perp = U × (T_end − T_turn) × sin(δ) = 2 × 600 × sin(15°) = 310.58 m
+Δθ_geom ≈ atan(310.58 / 50000) = 0.356°
+```
+不是约 600 m / 0.7°。
 
 ## 未做
 

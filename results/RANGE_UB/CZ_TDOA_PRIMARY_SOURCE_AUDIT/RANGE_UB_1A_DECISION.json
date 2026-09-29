@@ -1,0 +1,22 @@
+{
+  "stage": "RANGE-UB-1A",
+  "decision": "CZ_TDOA_REQUIRES_ADDITIONAL_APERTURE_OR_SIGNAL",
+  "why": "论文方法需(1)爆炸/宽带脉冲信号分离多途时延峰(2)垂直大接收深度采样时延差-深度曲线(3)可能合作式收发。E-STD为被动窄带HLA，三项均不满足。",
+  "blocking_items": [
+    "signal_type: REQUIRES_BROADBAND_OR_IMPULSIVE_SIGNAL",
+    "receiver_aperture: REQUIRES_VERTICAL_APERTURE",
+    "delay_extraction: TDOA_OBSERVABLE_NOT_AVAILABLE"
+  ],
+  "confirmed_claims": [
+    "42-52 km",
+    "0.6%-6.1%",
+    "virtual_source_theory",
+    "explosive_source",
+    "large_receiving_depth"
+  ],
+  "pdf_status": "CZ_TDOA_PRIMARY_SOURCE_NOT_RECOVERED",
+  "abstract_status": "ABSTRACT_CONFIRMED",
+  "next_step": "RANGE-UB-1B only after user provides full PDF; OR treat as ORACLE_UPPER_BOUND",
+  "note": "不能把42-52km/0.6%-6.1%直接当E-STD性能依据；条件不匹配。可作为理想声学距离信息上界参考。",
+  "created_utc": "2026-09-29T03:00:00Z"
+}

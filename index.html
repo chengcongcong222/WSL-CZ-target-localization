@@ -172,13 +172,12 @@
       <div class="verdict">
         <strong>SMALL_TURN_RANGE_RIDGE_PERSISTS</strong>
         （δ=0 identity PASS，RC3 max err 2.7e-15）。
-        δ=0–15°，t=600 s 转向，paired noise。
-        RC2-only 任何 δ 均不收缩距离——纯转向几何不够。
-        <strong>δ=15° 时 z_true=180 距离被锚定</strong>：幸存者 2 个，r∈[50,54] km（宽度 4 km，bins=2）。
-        但 z_true=200/220 脊线仍存续（r↔z 简并未全断）。
-        按预冻结规则（3/3 z_true 均须 ≥20%），主判为 ridge persists；
-        但 180 m 深度的明确锚定证明 <code>TURN_RC3_RANGE_SYNERGY</code> 机制有效。
-        δ=15° 别名 J 显著上升（56 km→0.32 dB, 58 km→0.40 dB）。
+        δ=0–15°，t=600 s 转向，paired noise。B_perp(15°)=310.58 m（Δθ≈0.356°）。
+        RC2-only 任何 δ 均不收缩距离。
+        <strong>FOUR_LINE_TURN_RANGE_ANCHOR_OBSERVED</strong>：FOUR+δ=15°+τ=0.5 时
+        三个 z_true 均仅剩 r=50 km 单一距离网格（r_width=0）。
+        MAIN=235 Hz δ=15° z=180 亦锚定 r∈[50,54]；z=200/220 脊线仍存续。
+        主判不改：按预注册规则（3/3 z_true）为 ridge persists。
       </div>
       <p class="note">
         结果目录：<code>results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/</code>。
@@ -190,6 +189,31 @@
         <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/RC2_RC3_TURN_SET_METRICS.csv" target="_blank" rel="noopener">RC2_RC3_TURN_SET_METRICS<span>各转角集合</span></a>
         <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/VIRTUAL_BASELINE_DIAGNOSTIC.csv" target="_blank" rel="noopener">VIRTUAL_BASELINE<span>基线诊断</span></a>
         <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
+      <h2>RANGE-UB-1A — CZ 多途 TDOA 文献准入审计</h2>
+      <div class="verdict">
+        <strong>CZ_TDOA_REQUIRES_ADDITIONAL_APERTURE_OR_SIGNAL</strong>。
+        目标文献：徐嘉璘/郭良浩《深海会聚区声场多途时延差分析及声源距离估计》
+        应用声学 2024, 43(2):237-251。官方摘要已锁（SHA256）。
+        摘要确认：42–52 km、0.6%–6.1%、爆炸声源、大接收深度、虚源理论。
+        但三项 BLOCKING 不兼容 E-STD：
+        爆炸脉冲 vs 被动窄带；垂直大接收深度 vs HLA；TDOA 需到达时刻。
+        PDF 全文被反爬拦截 → <code>CZ_TDOA_PRIMARY_SOURCE_NOT_RECOVERED</code>。
+        可作 ORACLE 上界参考，不能当当前 HLA 增强模块。需用户提供 PDF 进入 1B。
+      </div>
+      <p class="note">
+        结果目录：<code>results/RANGE_UB/CZ_TDOA_PRIMARY_SOURCE_AUDIT/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_PRIMARY_SOURCE_AUDIT/RANGE_UB_1A_REPORT.md" target="_blank" rel="noopener">RANGE_UB_1A_REPORT.md<span>主报告</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_PRIMARY_SOURCE_AUDIT/RANGE_UB_1A_DECISION.json" target="_blank" rel="noopener">RANGE_UB_1A_DECISION.json<span>判定</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_PRIMARY_SOURCE_AUDIT/CZ_TDOA_PRIMARY_SOURCE_FACTS.md" target="_blank" rel="noopener">FACTS.md<span>原文事实</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_PRIMARY_SOURCE_AUDIT/CZ_TDOA_TRANSFERABILITY_MATRIX.csv" target="_blank" rel="noopener">TRANSFERABILITY<span>迁移矩阵</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_PRIMARY_SOURCE_AUDIT/CLAIM_AUDIT.csv" target="_blank" rel="noopener">CLAIM_AUDIT<span>声明核验</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_PRIMARY_SOURCE_AUDIT/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
       </div>
     </section>
 

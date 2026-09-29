@@ -1,0 +1,18 @@
+深海会聚区声场多途时延差分析及声源距离估计
+Analysis of multipath time delay difference in deep sea convergence zone and its application in source range estimation
+
+徐嘉璘, 郭良浩 (中国科学院声学研究所)
+应用声学, 2024, 43(2): 237-251
+DOI: 10.11684/j.issn.1000-310X.2024.02.001
+投稿：2022-11-15  修订：2024-02-26
+来源: https://aipub.cn/article/reader/reader.aspx?file_no=22292&journal_id=yysx&year_id=2024
+
+中文摘要:
+深海会聚区声道由于具有传播距离远、传播损失低等优势，对实现声呐远程探测具有十分重要的意义。本文基于虚源理论推导了深海会聚区的多途到达时延结构，给出了会聚区内不同声线路径的时延差曲线随接收深度变化的近似表达式，通过分析时延差曲线与声源水平距离之间的关系，提出了一种利用多途时延差估计深海会聚区近海面声源距离的方法，仿真实验验证了该方法原理的正确性。南海实验结果表明，当收发距离在42km~52 km时，会聚区爆炸声源距离估计结果同实际爆炸距离吻合较好，估计误差为0.6%~6.1％，验证了该方法的有效性。
+
+英文摘要:
+Because of the advantages of long propagation range and low propagation loss, the acoustic channel in the deep-sea convergence area is of great significance for the realization of sonar remote detection. In this paper, the multipath arrival time delay structure of the convergence area in deep sea is derived by the virtual source theory, and the approximate formulae of the time delay difference curves varying with the receiving depth are deduced. By analyzing the relationship between the time delay curves and the source range, a method for source ranging estimation in deep sea convergence zone is proposed. The approach is demonstrated valid by the simulated data. Experimental results in the South China Sea shows that when the transmitting and receiving distance is between 42 km and 52 km, the range estimation results are in good agreement with the actual explosion range, and the estimation error is between 0.6% and 6.1%, which verifies the effectiveness of this method.
+
+关键词: 深海会聚区, 多途时延结构, 被动定位, 大接收深度
+英文关键词: Deep-sea convergence zone, Multipath delay structure, Passive localization, Large receiving depth
+基金: 国家自然科学基金

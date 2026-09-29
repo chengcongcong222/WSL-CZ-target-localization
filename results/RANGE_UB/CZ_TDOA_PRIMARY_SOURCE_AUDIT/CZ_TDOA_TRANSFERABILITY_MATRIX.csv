@@ -1,0 +1,11 @@
+item,paper_condition,E_STD,difference,consequence,severity
+signal_type,爆炸声源 (exploding source) = impulsive broadband cooperative,被动 UUV 窄带线谱 201/235/283/338 Hz,主动脉冲 vs 被动窄带连续,REQUIRES_BROADBAND_OR_IMPULSIVE_SIGNAL,BLOCKING
+receiver_aperture,关键词:大接收深度; 时延差曲线随接收深度变化,"拖曳 HLA 近水平阵, z约200 m, 无垂直孔径",需垂直深度采样 vs 水平阵,REQUIRES_VERTICAL_APERTURE,BLOCKING
+delay_extraction,多途时延差=不同时延峰之间的差值,窄带线谱无脉冲到达时刻,时延峰需脉冲/宽带分辨 vs 窄带连续,TDOA_OBSERVABLE_NOT_AVAILABLE,BLOCKING
+source_depth,近海面声源 (near sea surface),UUV 深度约 200 m,海面附近 vs 200 m,DEPTH_MISMATCH_MODERATE,WARNING
+range_validated,42-52 km (南海实测),50-60 km 第一会聚区,重叠区 50-52 km; 外推区 52-60 km,PAPER_VALIDATED_RANGE_PARTIAL_OVERLAP,WARNING
+CZ_order,会聚区(未明确区数); 利用时延差-距离关系,第一会聚区已知 (RC1 先验),论文未声明需知区号 vs 项目有先验,CZ_ORDER_ASSUMPTION_PROJECT_DEFINED,INFO
+bistatic_geometry,"收发距离(爆炸声源, 收发可能异位)",单站被动 HLA,可能双基/合作 vs 单站被动,GEOMETRY_MISMATCH_NEEDS_PDF,WARNING
+sea_depth,深海(南海) [NEEDS_PDF 具体海深],H=5000 m Munk,需核验是否同量级,NEEDS_PDF,INFO
+estimation_output,距离估计(水平距离),"需 [r,theta,v,psi] 中的 r",论文只出 r vs 项目需全状态,PARTIAL_COMPATIBLE,INFO
+error_metric,0.6%-6.1% @ 42-52 km,理论 Demo Gate,海试实测 vs 理论 Demo,ORACLE_UPPER_BOUND_REFERENCE,INFO

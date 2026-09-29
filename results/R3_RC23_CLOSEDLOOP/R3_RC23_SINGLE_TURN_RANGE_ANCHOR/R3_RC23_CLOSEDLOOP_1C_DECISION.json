@@ -3,7 +3,8 @@
   "decision": "SMALL_TURN_RANGE_RIDGE_PERSISTS",
   "why": "MAIN tau=0.5: found_delta=None, min_delta=None, aux=[]; δ=0.0°: n=41 r_w=15.0 bins=16; δ=2.0°: n=39 r_w=15.0 bins=16; δ=5.0°: n=36 r_w=15.0 bins=16; δ=10.0°: n=27 r_w=15.0 bins=15; δ=15.0°: n=2 r_w=4.0 bins=2",
   "auxiliary_labels": [
-    "TURN_RC3_RANGE_SYNERGY_AT_SOME_DEPTHS"
+    "TURN_RC3_RANGE_SYNERGY_AT_SOME_DEPTHS",
+    "FOUR_LINE_TURN_RANGE_ANCHOR_OBSERVED"
   ],
   "min_tested_turn_with_range_contraction": null,
   "zero_turn_identity": "PASS",
@@ -24,5 +25,16 @@
     },
     "mechanism": "turn+RC3 synergy breaks r-z degeneracy at some depths but not all; z* compensation still active at z=200/220",
     "decision_note": "SMALL_TURN_RANGE_RIDGE_PERSISTS because 3/3 z_true must all contract; but z_true=180 shows clear anchor at delta=15"
+  },
+  "virtual_baseline_delta15": {
+    "B_perp_m": 310.582854,
+    "delta_theta_geom_deg": 0.355897,
+    "note": "not 600m/0.7deg; B_perp=U*(T_end-T_turn)*sin(delta)=2*600*sin(15deg)"
+  },
+  "four_line_turn_anchor": {
+    "label": "FOUR_LINE_TURN_RANGE_ANCHOR_OBSERVED",
+    "condition": "REFERENCE=FOUR, delta=15deg, tau=0.5dB",
+    "result": "z_true=180/200/220 all r_min=r_max=50km (single range bin), true retained, true rank=1",
+    "note": "not changing pre-registered main decision SMALL_TURN_RANGE_RIDGE_PERSISTS"
   }
 }

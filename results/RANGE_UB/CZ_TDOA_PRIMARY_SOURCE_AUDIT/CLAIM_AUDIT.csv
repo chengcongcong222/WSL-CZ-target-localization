@@ -1,0 +1,8 @@
+claim,status,evidence,page_ref
+42-52 km 验证距离范围,CONFIRMED_BY_PRIMARY_ABSTRACT,官方摘要: '当收发距离在42km~52 km时',摘要 [ABSTRACT]
+0.6%-6.1% 估计误差,CONFIRMED_BY_PRIMARY_ABSTRACT,官方摘要: '估计误差为0.6%~6.1%',摘要 [ABSTRACT]
+基于虚源理论,CONFIRMED_BY_PRIMARY_ABSTRACT,官方摘要: '基于虚源理论推导了深海会聚区的多途到达时延结构',摘要 [ABSTRACT]
+时延差随接收深度变化,CONFIRMED_BY_PRIMARY_ABSTRACT,官方摘要: '时延差曲线随接收深度变化的近似表达式',摘要 [ABSTRACT]
+爆炸声源,CONFIRMED_BY_PRIMARY_ABSTRACT,官方摘要: '会聚区爆炸声源距离估计',摘要 [ABSTRACT]
+大接收深度,CONFIRMED_BY_PRIMARY_ABSTRACT,官方关键词列表,摘要 [ABSTRACT]
+公式细节/多途数/接收结构,NEEDS_PDF,摘要未提供,N/A

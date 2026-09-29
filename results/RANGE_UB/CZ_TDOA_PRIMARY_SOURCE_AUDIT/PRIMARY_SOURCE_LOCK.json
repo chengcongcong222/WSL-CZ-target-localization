@@ -1,0 +1,40 @@
+{
+  "stage": "RANGE-UB-1A",
+  "created_utc": "2026-09-29T03:00:00Z",
+  "primary_source": {
+    "authors": "徐嘉璘, 郭良浩",
+    "affiliation": "中国科学院声学研究所",
+    "title_zh": "深海会聚区声场多途时延差分析及声源距离估计",
+    "title_en": "Analysis of multipath time delay difference in deep sea convergence zone and its application in source range estimation",
+    "journal": "应用声学",
+    "year": 2024,
+    "volume": 43,
+    "issue": 2,
+    "pages": "237-251",
+    "doi": "10.11684/j.issn.1000-310X.2024.02.001",
+    "submission_date": "2022-11-15",
+    "revision_date": "2024-02-26",
+    "source_url": "https://aipub.cn/article/reader/reader.aspx?file_no=22292&journal_id=yysx&year_id=2024",
+    "doi_url": "https://doi.org/10.11684/j.issn.1000-310X.2024.02.001",
+    "abstract_url": "https://aipub.cn/article/reader/reader.aspx?file_no=22292&journal_id=yysx&year_id=2024",
+    "funding": "国家自然科学基金（面上项目，重点项目，重大项目）"
+  },
+  "pdf_status": {
+    "status": "CZ_TDOA_PRIMARY_SOURCE_NOT_RECOVERED",
+    "reason": "期刊官网反爬机制（JavaScript guard）阻止PDF下载；CrossRef/ScienceEngine/CNKI均未提供直接PDF",
+    "abstract_recovered": true,
+    "abstract_sha256_prefix": "0bad8fb52789757c",
+    "abstract_file": "literature/xu_jialin_2024_cz_tdoa_abstract.txt",
+    "required_from_user": "请提供完整PDF以完成公式/页码级事实恢复",
+    "abstract_confirmed_claims": [
+      "42-52 km 收发距离（官方摘要原文）",
+      "0.6%-6.1% 估计误差（官方摘要原文）",
+      "爆炸声源（impulsive/exploding source）",
+      "大接收深度（large receiving depth）",
+      "近海面声源（near-sea-surface source）",
+      "虚源理论（virtual source theory）",
+      "时延差曲线随接收深度变化",
+      "南海实验"
+    ]
+  }
+}
