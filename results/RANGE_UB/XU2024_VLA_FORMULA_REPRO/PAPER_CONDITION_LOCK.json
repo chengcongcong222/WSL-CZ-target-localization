@@ -1,0 +1,16 @@
+{
+  "H_m": 4314.5,
+  "R_m": 50000.0,
+  "c_mps": 1525.0,
+  "c_note": "paper uses c=1525 m/s for simplified formula",
+  "zs_m": 200,
+  "zr_range_m": [
+    20,
+    1620
+  ],
+  "VLA_aperture_m": 1600,
+  "VLA_spacing_m": 10,
+  "signal": "LFM 100-300 Hz",
+  "CZ": "first convergence zone",
+  "source": "Xu2024 p.239, p.244"
+}

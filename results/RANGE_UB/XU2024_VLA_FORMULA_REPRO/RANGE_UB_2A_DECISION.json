@@ -1,0 +1,15 @@
+{
+  "stage": "RANGE-UB-2A",
+  "decision": "XU2024_VLA_RANGE_FORMULA_NUMERICALLY_CLOSED",
+  "why": "theory_slopes=PASS, table1=PASS, table2=PASS, units=PASS",
+  "mechanism_label": "XU2024_RANGE_OBSERVABLE_IS_DELAY_DIFFERENCE_VS_RECEIVER_DEPTH_SLOPE",
+  "vertical_sampling": "VERTICAL_DEPTH_SAMPLING_IS_ESSENTIAL_TO_PAPER_METHOD",
+  "created_utc": "2026-09-29T07:06:26.331855+00:00",
+  "key_findings": {
+    "theory_slopes": "all 5 PASS (err < 5e-4 ms/m)",
+    "table1": "all 5 PASS (R err < 0.01 km)",
+    "table2": "all 3 PASS; k42 paper R=53.84 likely typo (formula gives 52.01, matches paper 4.0% error)",
+    "mechanism": "XU2024_RANGE_OBSERVABLE_IS_DELAY_DIFFERENCE_VS_RECEIVER_DEPTH_SLOPE",
+    "vertical_sampling": "VERTICAL_DEPTH_SAMPLING_IS_ESSENTIAL_TO_PAPER_METHOD"
+  }
+}

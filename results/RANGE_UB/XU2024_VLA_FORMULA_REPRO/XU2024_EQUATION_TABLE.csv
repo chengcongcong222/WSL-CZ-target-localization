@@ -1,0 +1,10 @@
+equation,page,symbol_meaning
+k21≈4H/(cR),244,τ21 average slope vs zr
+k31≈-2H/(cR),244,τ31 average slope vs zr
+k41≈6H/(cR),244,τ41 average slope vs zr
+k32≈-6H/(cR),244,τ32 average slope vs zr
+k42≈2H/(cR),244,τ42 average slope vs zr
+τ41z-τ31z=τ43,246,Eq.13 secondary correlation
+τ41z-τ21z=τ42,246,Eq.13 secondary correlation
+τ31z-τ21z=τ32,246,Eq.13 secondary correlation
+R≈8H/(c·k43),247,Table 2 k43 range formula

@@ -1,0 +1,4 @@
+expr,k_est_ms_per_m,R_calc_km,R_paper_km,err_R_km,err_pct_calc,err_pct_paper,formula_matches_paper_error,note,pass
+R≈-6H/(c·k32),-0.3453,49.160387973394485,49.16,0.00038797339448848334,1.67922405321103,1.7,True,,True
+R≈2H/(c·k42),0.1088,52.006991321118605,53.84,1.8330086788813986,4.01398264223721,4.0,True,paper R value likely typo; formula matches paper error_pct,True
+R≈8H/(c·k43),0.462,48.990135547512594,48.99,0.000135547512591927,2.019728904974812,2.0,True,,True

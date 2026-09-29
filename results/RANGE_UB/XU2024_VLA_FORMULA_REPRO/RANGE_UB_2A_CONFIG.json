@@ -1,0 +1,11 @@
+{
+  "stage": "RANGE-UB-2A",
+  "created_utc": "2026-09-29T07:06:26.331855+00:00",
+  "baseline_commit": "c6de5bee23bcc4f267b79c7264d1caf895847acf",
+  "paper_condition": {
+    "H_m": 4314.5,
+    "R_m": 50000.0,
+    "c_mps": 1525.0
+  },
+  "goal": "formula reproduction and numerical closure only"
+}

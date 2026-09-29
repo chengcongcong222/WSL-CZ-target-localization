@@ -359,6 +359,29 @@
     </section>
 
     <section>
+      <h2>RANGE-UB-2A — Xu2024 VLA 公式数值闭合</h2>
+      <div class="verdict">
+        <strong>XU2024_VLA_RANGE_FORMULA_NUMERICALLY_CLOSED</strong>。
+        纯公式算术闭合（无仿真）：
+        理论斜率 5/5 PASS（H=4314.5, c=1525, R=50 km）；
+        Table 1 距离 5/5 PASS（45.12/53.58/47.23/48.83/52.25 km）；
+        Table 2 二次相关 3/3 PASS（49.16/52.01/48.99 km，k42 论文 53.84 疑笔误）。
+        机制锁：<code>XU2024_RANGE_OBSERVABLE_IS_DELAY_DIFFERENCE_VS_RECEIVER_DEPTH_SLOPE</code>。
+        下一步 2B：将斜率机制迁入 E-STD VLA。
+      </div>
+      <p class="note">
+        结果目录：<code>results/RANGE_UB/XU2024_VLA_FORMULA_REPRO/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/RANGE_UB/XU2024_VLA_FORMULA_REPRO/RANGE_UB_2A_REPORT.md" target="_blank" rel="noopener">2A_REPORT<span>报告</span></a>
+        <a class="file" href="results/RANGE_UB/XU2024_VLA_FORMULA_REPRO/RANGE_UB_2A_DECISION.json" target="_blank" rel="noopener">2A_DECISION<span>判定</span></a>
+        <a class="file" href="results/RANGE_UB/XU2024_VLA_FORMULA_REPRO/XU2024_EQUATION_LOCK.md" target="_blank" rel="noopener">EQUATION_LOCK<span>公式锁定</span></a>
+        <a class="file" href="results/RANGE_UB/XU2024_VLA_FORMULA_REPRO/TABLE1_RANGE_CLOSURE.csv" target="_blank" rel="noopener">TABLE1<span>表1闭合</span></a>
+        <a class="file" href="results/RANGE_UB/XU2024_VLA_FORMULA_REPRO/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

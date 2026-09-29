@@ -1,0 +1,6 @@
+slope,value_ms_per_m,value_s_per_m,unit_note
+k21,0.2263344262295082,0.0002263344262295082,paper table in ms/m; formula H/(cR) in s/m; 1 s/m = 1000 ms/m
+k31,-0.1131672131147541,-0.0001131672131147541,paper table in ms/m; formula H/(cR) in s/m; 1 s/m = 1000 ms/m
+k41,0.3395016393442623,0.0003395016393442623,paper table in ms/m; formula H/(cR) in s/m; 1 s/m = 1000 ms/m
+k32,-0.3395016393442623,-0.0003395016393442623,paper table in ms/m; formula H/(cR) in s/m; 1 s/m = 1000 ms/m
+k42,0.1131672131147541,0.0001131672131147541,paper table in ms/m; formula H/(cR) in s/m; 1 s/m = 1000 ms/m
