@@ -1,0 +1,14 @@
+{
+  "stage": "RANGE-UB-2B",
+  "created_utc": "2026-09-29T07:47:02.973859+00:00",
+  "baseline_commit": "e6e932e24a3a4345b2fee4a09bfb5256068ef29d",
+  "observable": "XU2024_SECONDARY_DELAY_SLOPE_VECTOR",
+  "clusters": "C2(ro=1,+), C3(ro=2,-), C4(ro=2,+)",
+  "slope_method": "ORACLE_LINEAR_SLOPE_FIT",
+  "vla": "PAPER_SCALE_VLA_REFERENCE_APERTURE zr=20:10:1620",
+  "nbeams_conv": [
+    1601,
+    3201
+  ],
+  "nbeams_main": 1601
+}

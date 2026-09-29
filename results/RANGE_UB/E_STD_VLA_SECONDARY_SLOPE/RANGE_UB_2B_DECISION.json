@@ -1,0 +1,14 @@
+{
+  "stage": "RANGE-UB-2B",
+  "decision": "RANGE_UB_2B_BLOCKED_BY_PATH_CLASS_MAPPING",
+  "created_utc": "2026-09-29T07:47:02.973859+00:00",
+  "blocked_reason": "reflection_order + angle sign does not map to Xu2024 time clusters; slope convergence 0/12",
+  "key_findings": {
+    "path_class_issue": "C2/C3/C4 by (n_top+n_bot, rcv_ang sign) mixes arrivals from different time clusters",
+    "time_cluster_structure": "at zr=200m only 2 clusters exist; 4 clusters appear at deeper zr (~800m+)",
+    "low_order_arrivals_present": "19/224 at r=50 zr=200 have ro<=2; delays 32-34s correct",
+    "slope_convergence": "0/12 fail (1601 vs 3201)",
+    "k42_sign_wrong": "k42 negative at many points (expected positive)",
+    "next": "need time-cluster-based grouping (delay-window clustering) instead of reflection-order classification"
+  }
+}
