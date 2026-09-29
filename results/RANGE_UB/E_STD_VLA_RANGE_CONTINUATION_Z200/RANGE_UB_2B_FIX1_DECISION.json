@@ -1,0 +1,24 @@
+{
+  "stage": "RANGE-UB-2B-FIX1",
+  "decision": "E_STD_VLA_SLOPE_RANGE_INFORMATION_LOCAL_ONLY",
+  "why": "near_ok=True, span=7.5km (45-52.5 continuous), jg_unique=True, spearman=0.503<0.90 (weak 1/r)",
+  "g_stats": {
+    "pearson": 0.5810368816881951,
+    "spearman": 0.5025974025974026,
+    "r2": 0.3376038578819417,
+    "Q_mean": 3.088033730158733,
+    "Q_cv": 0.07885389032785707,
+    "Q_max_min": 1.2844625112917796
+  },
+  "true_rank": 1,
+  "created_utc": "2026-09-29T11:00:37.432650+00:00",
+  "key_findings": {
+    "working_range": "45-52.5 km continuous (all three families valid)",
+    "g_median_flat": "g~0.060-0.062 across range (not 1/r)",
+    "spearman": 0.503,
+    "J_g_unique": true,
+    "J_g_scale": "all J_g < 0.002 (tiny differences)",
+    "one_point_law": "errors 0-8 km (up to 13%)",
+    "interpretation": "slope families track flat g, not 1/r; local discrimination at 50km works but range law is weak"
+  }
+}

@@ -1,0 +1,9 @@
+# FIX0B_SCOPE_LOCK
+
+UTC: 2026-09-29T11:00:37.432650+00:00
+
+zs=200: k32/k42/k43 全部 PASS (local-max + convergence).
+zs=180: k32 NOT_LOCAL_MAX, k42 LOCAL_MAX_BUT_CONV_FAIL, k43 PASS.
+zs=220: k32 NOT_LOCAL_MAX, k42 NOT_LOCAL_MAX, k43 PASS.
+
+FIX1 admission: zs=200 only.

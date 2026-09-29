@@ -470,6 +470,29 @@
     </section>
 
     <section>
+      <h2>RANGE-UB-2B-FIX1 — 50 km 锚定族连续追踪</h2>
+      <div class="verdict">
+        <strong>E_STD_VLA_SLOPE_RANGE_INFORMATION_LOCAL_ONLY</strong>。
+        zs=200，50 km 锚定 DATA_DRIVEN_LOCAL_RIDGE_CONTINUATION。
+        工作区间 45–52.5 km（全三族有效，span 7.5 km）。
+        g_median ≈ 0.060–0.062 近常数（<strong>1/r 律弱</strong>，Spearman=0.503）。
+        J_g 唯一零点在 50 km，但差异极小（&lt;0.002）。
+        单点定标测距误差 0–8 km。
+        <strong>结论</strong>：局部判别有效，但 g 不随 1/r 变化。
+      </div>
+      <p class="note">
+        结果目录：<code>results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200/RANGE_UB_2B_FIX1_REPORT.md" target="_blank" rel="noopener">FIX1_REPORT<span>报告</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200/RANGE_UB_2B_FIX1_DECISION.json" target="_blank" rel="noopener">FIX1_DECISION<span>判定</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200/VLA_FAMILY_WORKING_RANGE.csv" target="_blank" rel="noopener">WORKING_RANGE<span>工作区间</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200/G_VS_INVERSE_RANGE.csv" target="_blank" rel="noopener">G_VS_1/r<span>距离律</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>
