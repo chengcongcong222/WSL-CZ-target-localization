@@ -338,6 +338,27 @@
     </section>
 
     <section>
+      <h2>RANGE-UB-1C-FIX2 — 早时延自相关形状（终）</h2>
+      <div class="verdict">
+        <strong>SINGLE_DEPTH_AUTOCORR_OBSERVABLE_NOT_NUMERICALLY_STABLE</strong>。
+        连续自相关形状（0–5 s，5 ms bins，归一化，无选峰）1601 vs 3201 收敛仅 4/12 达 cosine≥0.99。
+        L2 全部通过（max 0.008），但 cosine 0.97–0.995，8 点略低于门槛。
+        <strong>按预注册规则关闭单深度可观测 TDOA 支线。</strong>
+        保留 FIX2 all-eigenray upper bound。
+        下一步：<code>VERTICAL_APERTURE_TDOA_REFERENCE_UPPER_BOUND</code>。
+      </div>
+      <p class="note">
+        结果目录：<code>results/RANGE_UB/CZ_TDOA_EARLY_LAG_AUTOCORR/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_EARLY_LAG_AUTOCORR/RANGE_UB_1C_FIX2_REPORT.md" target="_blank" rel="noopener">FIX2_REPORT<span>报告</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_EARLY_LAG_AUTOCORR/RANGE_UB_1C_FIX2_DECISION.json" target="_blank" rel="noopener">FIX2_DECISION<span>判定</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_EARLY_LAG_AUTOCORR/EARLY_LAG_CONVERGENCE.csv" target="_blank" rel="noopener">CONVERGENCE<span>收敛数据</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_EARLY_LAG_AUTOCORR/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

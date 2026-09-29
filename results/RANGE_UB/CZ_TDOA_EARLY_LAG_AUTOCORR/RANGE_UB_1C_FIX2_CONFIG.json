@@ -1,0 +1,17 @@
+{
+  "stage": "RANGE-UB-1C-FIX2",
+  "created_utc": "2026-09-29T06:20:38.114210+00:00",
+  "baseline_commit": "312e4906407fb51c628d539ee73038cde9a0d98b",
+  "observable": "EARLY_LAG_NORMALIZED_AUTOCORR_SHAPE",
+  "tau_bin_ms": 5.0,
+  "tau_max_s": 5.0,
+  "n_bins": 1000,
+  "nbeams_conv": [
+    1601,
+    3201
+  ],
+  "nbeams_main": 1601,
+  "cosine_gate": 0.99,
+  "l2_gate": 0.15,
+  "window_label": "PAPER_GROUNDED_MAIN_CZ_EARLY_LAG_WINDOW"
+}

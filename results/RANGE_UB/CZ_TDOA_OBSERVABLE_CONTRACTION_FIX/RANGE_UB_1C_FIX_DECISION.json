@@ -5,11 +5,12 @@
   "o2_pass": false,
   "created_utc": "2026-09-29T05:55:50.525148+00:00",
   "key_findings": {
-    "O1_convergence": "PASS at all 12 points",
+    "O1_convergence": "O1_STRONG_PATH_MEMBERSHIP_NOT_FULLY_CONVERGED (10/12; matched-path delays stable but eigenrays cross -20dB boundary)",
     "O2_convergence": "FAIL at 5/12 points (1601 vs 3201)",
     "O2_failure_pattern": "top-5 peak membership changes between beam densities",
     "example": "zs=200 r=50: peak3 goes from 12024ms (1601) to 1097ms (3201)",
     "hungarian_unit_test": "PASS",
-    "complex_autocorr": "implemented with phase"
+    "complex_autocorr": "implemented with phase",
+    "O1_detail": "FAIL at zs=180/r=56 (frac=0.754) and zs=200/r=50 (frac=0.455); matched delays RMS 0.02-0.11ms"
   }
 }

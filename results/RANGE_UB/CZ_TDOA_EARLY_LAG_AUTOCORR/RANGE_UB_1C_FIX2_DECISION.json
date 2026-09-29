@@ -1,0 +1,14 @@
+{
+  "stage": "RANGE-UB-1C-FIX2",
+  "decision": "SINGLE_DEPTH_AUTOCORR_OBSERVABLE_NOT_NUMERICALLY_STABLE",
+  "conv_pass": false,
+  "created_utc": "2026-09-29T06:20:38.114210+00:00",
+  "key_findings": {
+    "conv_result": "4/12 pass (cosine>=0.99)",
+    "l2_all_pass": true,
+    "l2_max": 0.0078,
+    "cosine_range": "0.970-0.995",
+    "interpretation": "shapes highly similar but cosine gate 0.99 not met at 8/12 points; single-depth TDOA observable not stable enough under pre-registered gate",
+    "closure": "close single-depth extractable-TDOA branch; next = VERTICAL_APERTURE_TDOA_REFERENCE_UPPER_BOUND"
+  }
+}
