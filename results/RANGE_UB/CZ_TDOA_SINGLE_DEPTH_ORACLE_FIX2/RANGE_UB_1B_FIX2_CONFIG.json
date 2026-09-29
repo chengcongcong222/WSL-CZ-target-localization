@@ -1,0 +1,8 @@
+{
+  "stage": "RANGE-UB-1B-FIX2",
+  "created_utc": "2026-09-29T04:52:02.586751+00:00",
+  "baseline_commit": "6b203f06b1b12381187491c6a314585c6640834c",
+  "fix": "BOX: STEP(m) ZBOX(m) RBOX(km) = 0.0 5001.0 70.0",
+  "oracle_label": "ALL_EIGENRAY_ZERO_ERROR_SINGLE_DEPTH_TDOA",
+  "n_candidates": 651
+}

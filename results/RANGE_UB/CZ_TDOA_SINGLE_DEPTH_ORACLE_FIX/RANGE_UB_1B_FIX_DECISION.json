@@ -1,6 +1,6 @@
 {
   "stage": "RANGE-UB-1B-FIX",
-  "decision": "SINGLE_DEPTH_ORACLE_TDOA_RANGE_INFORMATION_CONFIRMED",
+  "decision": "RANGE_UB_1B_FIX_BLOCKED_BY_BELLHOP_BOX_CONFIG",
   "why": "range_identified=True, depth_identified=True, aux=[]; ranks=[np.int64(1), np.int64(1), np.int64(1)]; n_valid=[np.int64(651), np.int64(651), np.int64(651)]",
   "RANGE_IDENTIFIABILITY": "PASS",
   "DEPTH_IDENTIFIABILITY_AT_TRUE_RANGE": "PASS",
@@ -30,5 +30,7 @@
     "TL_r_ridge": "r=45-60km J<0.05 dB (degenerate)",
     "TDOA_r_ridge": "r=45-60km J_tau > 1000 ms (BROKEN)",
     "TDOA_z_at_true_r": "best_z_star = z_true (depth also recovered)"
-  }
+  },
+  "blocked_reason": "BOX written as 0.0 r_max_m H_DEPTH but BELLHOP expects STEP(m) ZBOX(m) RBOX(km); Box%z=70000m Box%r=5000km; insufficient storage warnings",
+  "superseded_by": "RANGE_UB_1B_FIX2"
 }

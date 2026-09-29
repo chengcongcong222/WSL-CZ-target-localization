@@ -1,0 +1,9 @@
+{
+  "stage": "RANGE-UB-1B-FIX2",
+  "decision": "ALL_EIGENRAY_ZERO_ERROR_SINGLE_DEPTH_TDOA_RANGE_INFORMATION_CONFIRMED",
+  "why": "range_ok=True, all_rank1=True, n_valid=651x3=True, box_affected_old=False",
+  "oracle_layer": "ALL_EIGENRAY_PERFECT_DETECTION_ORACLE (physical upper bound)",
+  "not_equivalent_to_paper_TDOA": true,
+  "old_arrival_set_affected": "UNCHANGED",
+  "created_utc": "2026-09-29T04:52:02.586751+00:00"
+}
