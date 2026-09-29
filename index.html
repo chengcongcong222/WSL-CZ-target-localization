@@ -243,6 +243,31 @@
     </section>
 
     <section>
+      <h2>RANGE-UB-1B-FIX — 修正 Oracle TDOA 距离上界</h2>
+      <div class="verdict">
+        <strong>SINGLE_DEPTH_ORACLE_TDOA_RANGE_INFORMATION_CONFIRMED</strong>。
+        旧 1B 已失效（phase 误读为 delay、z-profile 不完整）。
+        修复后：651 点全覆盖，真值 rank <strong>全 1</strong>，
+        距离别名 J<sub>τ</sub> > 1000 ms（45/56/58/60 km 均远非简并），
+        且 best z* = z<sub>true</sub>（深度也正确恢复）。
+        对比 TL：r-z 脊线 J&lt;0.05 dB vs TDOA J&gt;1000 ms。
+        <code>CZ_TDOA_PRIMARY_SOURCE_RECOVERED</code>（徐嘉璘 2024 PDF 已锁）。
+        Oracle 假设：PATH_METADATA_ASSOCIATION + ZERO_ERROR。
+      </div>
+      <p class="note">
+        结果目录：<code>results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX/RANGE_UB_1B_FIX_REPORT.md" target="_blank" rel="noopener">1B_FIX_REPORT.md<span>主报告</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX/RANGE_UB_1B_FIX_DECISION.json" target="_blank" rel="noopener">1B_FIX_DECISION.json<span>判定</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX/TDOA_RANGE_ALIAS_AUDIT_FIXED.csv" target="_blank" rel="noopener">TDOA_RANGE_ALIAS<span>距离别名</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX/PRIMARY_SOURCE_2024_LOCK.json" target="_blank" rel="noopener">PRIMARY_SOURCE_LOCK<span>文献锁定</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX/XU2024_METHOD_FACTS.md" target="_blank" rel="noopener">XU2024_FACTS<span>原文事实</span></a>
+        <a class="file" href="results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

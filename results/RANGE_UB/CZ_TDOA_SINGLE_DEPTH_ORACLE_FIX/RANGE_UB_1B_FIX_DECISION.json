@@ -1,0 +1,34 @@
+{
+  "stage": "RANGE-UB-1B-FIX",
+  "decision": "SINGLE_DEPTH_ORACLE_TDOA_RANGE_INFORMATION_CONFIRMED",
+  "why": "range_identified=True, depth_identified=True, aux=[]; ranks=[np.int64(1), np.int64(1), np.int64(1)]; n_valid=[np.int64(651), np.int64(651), np.int64(651)]",
+  "RANGE_IDENTIFIABILITY": "PASS",
+  "DEPTH_IDENTIFIABILITY_AT_TRUE_RANGE": "PASS",
+  "auxiliary_labels": [],
+  "n_candidates_total": 651,
+  "oracle_label": "PATH_METADATA_ORACLE_ASSOCIATION",
+  "parser_gate": "PASS",
+  "env_integrity": "PASS",
+  "created_utc": "2026-09-29T04:27:27.153162+00:00",
+  "key_findings": {
+    "parser_gate": "PASS (delay positive, seconds-scale min~32s at 50km)",
+    "env_integrity": "PASS (rigid bottom matching E-STD)",
+    "n_candidates": 651,
+    "all_truths_rank1": true,
+    "n_valid_per_truth": 651,
+    "range_aliases_J_ms": {
+      "45km": "~1140-1150",
+      "56km": "~1270-1320",
+      "58km": "~1760-1770",
+      "60km": "~2220-2240"
+    },
+    "true_range_J_ms": 0.0,
+    "depth_recovered": "best_z_star matches z_true at r=50km for all truths",
+    "no_machine_degeneracy": true
+  },
+  "comparison_to_TL": {
+    "TL_r_ridge": "r=45-60km J<0.05 dB (degenerate)",
+    "TDOA_r_ridge": "r=45-60km J_tau > 1000 ms (BROKEN)",
+    "TDOA_z_at_true_r": "best_z_star = z_true (depth also recovered)"
+  }
+}

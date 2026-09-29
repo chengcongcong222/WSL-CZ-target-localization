@@ -1,0 +1,88 @@
+{
+  "stage": "RANGE-UB-1B-FIX",
+  "created_utc": "2026-09-29T04:27:27.153162+00:00",
+  "baseline_commit": "4c6e8f55f0e3d5849f2f39ca1c81fef1efbc9268",
+  "fixes": [
+    "arr parser col2=delay (was col1=phase)",
+    "full z profile 150:5:250 = 21 depths x 31 ranges = 651",
+    "path-metadata oracle association",
+    "rigid bottom matching E-STD",
+    "pairwise TDOA in ms",
+    "separate range vs depth identifiability"
+  ],
+  "freq_hz": 235.0,
+  "zr_m": 200.0,
+  "z_s_all_m": [
+    150.0,
+    155.0,
+    160.0,
+    165.0,
+    170.0,
+    175.0,
+    180.0,
+    185.0,
+    190.0,
+    195.0,
+    200.0,
+    205.0,
+    210.0,
+    215.0,
+    220.0,
+    225.0,
+    230.0,
+    235.0,
+    240.0,
+    245.0,
+    250.0
+  ],
+  "r_all_km": [
+    45.0,
+    45.5,
+    46.0,
+    46.5,
+    47.0,
+    47.5,
+    48.0,
+    48.5,
+    49.0,
+    49.5,
+    50.0,
+    50.5,
+    51.0,
+    51.5,
+    52.0,
+    52.5,
+    53.0,
+    53.5,
+    54.0,
+    54.5,
+    55.0,
+    55.5,
+    56.0,
+    56.5,
+    57.0,
+    57.5,
+    58.0,
+    58.5,
+    59.0,
+    59.5,
+    60.0
+  ],
+  "n_candidates": 651,
+  "truths": [
+    {
+      "r_km": 50.0,
+      "z_s_m": 180.0
+    },
+    {
+      "r_km": 50.0,
+      "z_s_m": 200.0
+    },
+    {
+      "r_km": 50.0,
+      "z_s_m": 220.0
+    }
+  ],
+  "oracle": "PATH_METADATA_ORACLE_ASSOCIATION + PERFECT_MULTIPATH_DETECTION + ZERO_ERROR",
+  "bottom": "RIGID"
+}

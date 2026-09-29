@@ -1,0 +1,2 @@
+n_arrivals,min_delay_s,max_delay_s,delay_positive,delay_seconds_scale,min_phase_deg,max_phase_deg,phase_delay_distinct,gate_pass
+99,32.0925255,354.779877,True,True,0.0,10079.999,True,True

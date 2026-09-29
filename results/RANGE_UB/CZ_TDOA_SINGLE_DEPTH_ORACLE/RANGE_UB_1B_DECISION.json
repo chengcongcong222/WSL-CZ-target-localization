@@ -1,6 +1,6 @@
 {
   "stage": "RANGE-UB-1B",
-  "decision": "SINGLE_DEPTH_ORACLE_TDOA_RANGE_INFORMATION_PARTIAL",
+  "decision": "RANGE_UB_1B_INVALIDATED_BY_ARRIVAL_PARSER_AND_INCOMPLETE_Z_PROFILE",
   "why": "rank1_all=False, unique_min_at_50=True, alias_persists=False; ranks=[np.int64(1), np.int64(1), np.int64(2)]; frac_2plus_arrivals=1.00",
   "fraction_2plus_arrivals": 1.0,
   "all_true_rank1": false,
@@ -22,5 +22,12 @@
     "TL_r_z_ridge": "r=45-60km compensated by z*=180-240m (J<0.05 dB)",
     "TDOA_r_ridge": "r=45-60km J_tau > 20 (BROKEN)",
     "TDOA_z_ridge": "z_s=200 vs 220 at same r J_tau ~ 0 (persists)"
-  }
+  },
+  "invalidated_reasons": [
+    "arr parser read phase column as delay (col1 vs col2)",
+    "candidate z only 180/200/220 instead of full 150:5:250 (651 points)",
+    "sorted-prefix comparison is not perfect arrival association"
+  ],
+  "superseded_by": "RANGE_UB_1B_FIX",
+  "note": "original results kept for audit; do not use for science"
 }

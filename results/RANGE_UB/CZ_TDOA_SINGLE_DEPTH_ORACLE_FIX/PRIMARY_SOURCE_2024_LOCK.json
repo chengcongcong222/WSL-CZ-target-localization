@@ -1,0 +1,56 @@
+{
+  "stage": "RANGE-UB-1B-FIX",
+  "primary_source": {
+    "title_zh": "深海会聚区声场多途时延差分析及声源距离估计",
+    "title_en": "Analysis of multipath time delay difference in deep sea convergence zone and its application in source range estimation",
+    "authors": "徐嘉璘, 郭良浩",
+    "affiliation": "中国科学院声学研究所 声场声信息国家重点实验室",
+    "journal": "应用声学",
+    "year": 2024,
+    "volume": 43,
+    "issue": 2,
+    "pages": "237-251",
+    "doi": "10.11684/j.issn.1000-310X.2024.02.001",
+    "file": "深海会聚区声场多途时延差分析及声源距离估计_徐嘉璘.pdf",
+    "sha256": "d18e0bd14c209618519f6695ff485f6e164fe0283932ec6d2d44a72bb29361e0",
+    "pages_count": 15
+  },
+  "status_labels": {
+    "CZ_TDOA_PRIMARY_SOURCE_RECOVERED": true,
+    "CZ_TDOA_PAPER_METHOD_VERTICAL_DEPTH_SAMPLING_CONFIRMED": true,
+    "CZ_TDOA_PAPER_VALIDATION_BROADBAND_SIGNAL_CONFIRMED": true,
+    "CZ_TDOA_DIRECT_TRANSFER_TO_CURRENT_HLA_NOT_ESTABLISHED": true
+  },
+  "simulation_conditions": {
+    "sea_depth_m": 4314.5,
+    "source_depth_m": 200,
+    "channel_axis_m": 1000,
+    "range_km": 50,
+    "VLA_depth_range_m": [20, 1620],
+    "VLA_aperture_m": 1600,
+    "VLA_spacing_m": 10,
+    "signal": "LFM 100-300 Hz",
+    "bottom": "half-space c=1550 m/s rho=1.6 g/cm3 alpha=0.2 dB/lambda",
+    "CZ": "first convergence zone"
+  },
+  "five_delay_slopes": {
+    "k21": "4H/(cR)",
+    "k31": "-2H/(cR)",
+    "k41": "6H/(cR)",
+    "k32": "-6H/(cR)",
+    "k42": "2H/(cR)",
+    "note": "average slopes of delay-difference curves vs receiving depth; 1/R relation"
+  },
+  "sea_trial": {
+    "VLA_elements": 26,
+    "VLA_depth_m": [111, 1869],
+    "source_depth_m": 200,
+    "charge": "1000 g TNT",
+    "signal_band_hz": [20, 150],
+    "CZ_range_km": [42, 52],
+    "range_error_pct": [0.6, 6.1],
+    "sea": "South China Sea"
+  },
+  "method_note": "论文方法核心=时延差曲线随接收深度的斜率; 需垂直深度采样; 与单深度HLA方法不等价",
+  "created_utc": "2026-09-29T08:00:00Z"
+}
