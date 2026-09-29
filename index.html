@@ -168,6 +168,32 @@
     </section>
 
     <section>
+      <h2>R3 闭环 1C — 单次小转向虚拟基线</h2>
+      <div class="verdict">
+        <strong>SMALL_TURN_RANGE_RIDGE_PERSISTS</strong>
+        （δ=0 identity PASS，RC3 max err 2.7e-15）。
+        δ=0–15°，t=600 s 转向，paired noise。
+        RC2-only 任何 δ 均不收缩距离——纯转向几何不够。
+        <strong>δ=15° 时 z_true=180 距离被锚定</strong>：幸存者 2 个，r∈[50,54] km（宽度 4 km，bins=2）。
+        但 z_true=200/220 脊线仍存续（r↔z 简并未全断）。
+        按预冻结规则（3/3 z_true 均须 ≥20%），主判为 ridge persists；
+        但 180 m 深度的明确锚定证明 <code>TURN_RC3_RANGE_SYNERGY</code> 机制有效。
+        δ=15° 别名 J 显著上升（56 km→0.32 dB, 58 km→0.40 dB）。
+      </div>
+      <p class="note">
+        结果目录：<code>results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/R3_RC23_CLOSEDLOOP_1C_REPORT.md" target="_blank" rel="noopener">CLOSEDLOOP_1C_REPORT.md<span>主报告</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/R3_RC23_CLOSEDLOOP_1C_DECISION.json" target="_blank" rel="noopener">CLOSEDLOOP_1C_DECISION.json<span>判定</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/TURN_RANGE_ALIAS_PERSISTENCE.csv" target="_blank" rel="noopener">TURN_RANGE_ALIAS_PERSISTENCE<span>距离别名</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/RC2_RC3_TURN_SET_METRICS.csv" target="_blank" rel="noopener">RC2_RC3_TURN_SET_METRICS<span>各转角集合</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/VIRTUAL_BASELINE_DIAGNOSTIC.csv" target="_blank" rel="noopener">VIRTUAL_BASELINE<span>基线诊断</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

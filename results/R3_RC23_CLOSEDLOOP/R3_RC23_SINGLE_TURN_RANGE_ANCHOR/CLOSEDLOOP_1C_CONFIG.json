@@ -1,0 +1,33 @@
+{
+  "stage": "R3-CLOSEDLOOP-1C",
+  "created_utc": "2026-09-29T01:34:55.256469+00:00",
+  "baseline_commit": "b8fb1ca5cc3b4f78b7820e7196aff15094db50d7",
+  "turn_s": 600.0,
+  "T_end_s": 1200.0,
+  "delta_deg_list": [
+    0.0,
+    2.0,
+    5.0,
+    10.0,
+    15.0
+  ],
+  "paired_noise_seed": 20260912,
+  "rc2_cost": "sum wrap^2, accept cost<=cmin+13.3*sigma^2",
+  "rc3": "per-window demean, shared z, DIRECT_F_MATRIX_ON_TRAJECTORY",
+  "configs": {
+    "MAIN": [
+      235.0
+    ],
+    "REFERENCE": [
+      201.0,
+      235.0,
+      283.0,
+      338.0
+    ]
+  },
+  "tau_db": [
+    0.25,
+    0.5,
+    1.0
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "stage": "R3-CLOSEDLOOP-1C",
+  "decision": "SMALL_TURN_RANGE_RIDGE_PERSISTS",
+  "why": "MAIN tau=0.5: found_delta=None, min_delta=None, aux=[]; δ=0.0°: n=41 r_w=15.0 bins=16; δ=2.0°: n=39 r_w=15.0 bins=16; δ=5.0°: n=36 r_w=15.0 bins=16; δ=10.0°: n=27 r_w=15.0 bins=15; δ=15.0°: n=2 r_w=4.0 bins=2",
+  "auxiliary_labels": [
+    "TURN_RC3_RANGE_SYNERGY_AT_SOME_DEPTHS"
+  ],
+  "min_tested_turn_with_range_contraction": null,
+  "zero_turn_identity": "PASS",
+  "integrity_gates": "PASS",
+  "created_utc": "2026-09-29T01:34:55.256469+00:00",
+  "key_findings": {
+    "delta0_identity": "PASS (RC2 495, RC3 max_err 2.7e-15)",
+    "RC2_only": "NO range contraction at any delta (r_width=15km, bins=16) - turn geometry alone insufficient",
+    "delta15_z180": "RANGE ANCHORED: n=2, r_width=4km, bins=2, r=[50,54], true rank=1",
+    "delta15_z200": "ridge persists: n=29, r_width=15km",
+    "delta15_z220": "partial: n=15, bins=8, r_width=15km",
+    "alias_J_at_delta15_z200": {
+      "45km": 0.108,
+      "50km_true": 0.0,
+      "56km": 0.323,
+      "58km": 0.399,
+      "60km": 0.111
+    },
+    "mechanism": "turn+RC3 synergy breaks r-z degeneracy at some depths but not all; z* compensation still active at z=200/220",
+    "decision_note": "SMALL_TURN_RANGE_RIDGE_PERSISTS because 3/3 z_true must all contract; but z_true=180 shows clear anchor at delta=15"
+  }
+}
