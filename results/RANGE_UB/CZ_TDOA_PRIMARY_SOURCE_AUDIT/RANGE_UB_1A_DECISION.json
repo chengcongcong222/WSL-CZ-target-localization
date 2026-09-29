@@ -1,11 +1,11 @@
 {
   "stage": "RANGE-UB-1A",
-  "decision": "CZ_TDOA_REQUIRES_ADDITIONAL_APERTURE_OR_SIGNAL",
-  "why": "论文方法需(1)爆炸/宽带脉冲信号分离多途时延峰(2)垂直大接收深度采样时延差-深度曲线(3)可能合作式收发。E-STD为被动窄带HLA，三项均不满足。",
+  "decision": "CZ_TDOA_DIRECT_TRANSFER_NOT_ESTABLISHED",
+  "why": "PDF未获取，无法确认2024方法具体接收结构；2023同作者旁证支持垂直孔径+宽带，但不能替代2024原文。当前四线RC3 observable确实无到达时刻信息，但不能推广为整个HLA系统永远无TDOA。",
   "blocking_items": [
-    "signal_type: REQUIRES_BROADBAND_OR_IMPULSIVE_SIGNAL",
-    "receiver_aperture: REQUIRES_VERTICAL_APERTURE",
-    "delay_extraction: TDOA_OBSERVABLE_NOT_AVAILABLE"
+    "signal_type: REQUIRES_BROADBAND_OR_IMPULSIVE_SIGNAL (摘要确认爆炸声源)",
+    "receiver_aperture: VERTICAL_APERTURE_REQUIREMENT_PROVISIONAL_PENDING_PDF",
+    "delay_extraction: CURRENT_FOUR_LINE_RC3_OBSERVABLE_HAS_NO_ARRIVAL_TIME_INFORMATION"
   ],
   "confirmed_claims": [
     "42-52 km",
@@ -18,5 +18,10 @@
   "abstract_status": "ABSTRACT_CONFIRMED",
   "next_step": "RANGE-UB-1B only after user provides full PDF; OR treat as ORACLE_UPPER_BOUND",
   "note": "不能把42-52km/0.6%-6.1%直接当E-STD性能依据；条件不匹配。可作为理想声学距离信息上界参考。",
-  "created_utc": "2026-09-29T03:00:00Z"
+  "created_utc": "2026-09-29T03:00:00Z",
+  "notes": {
+    "vertical_aperture": "VERTICAL_APERTURE_REQUIREMENT_PROVISIONAL_PENDING_PDF — 2023同作者用2200m VLA是旁证(RELATED_METHOD_SUPPORTING_EVIDENCE)，非2024事实",
+    "tdoa_observable": "当前四线谱relative-TL不能给TDOA；但HLA若接收信号含宽带/瞬态成分仍可能提取多途时延",
+    "related_2023": "RELATED_METHOD_SUPPORTING_EVIDENCE — 同作者2023海底反射区方法用VLA+LFM/爆炸声源"
+  }
 }

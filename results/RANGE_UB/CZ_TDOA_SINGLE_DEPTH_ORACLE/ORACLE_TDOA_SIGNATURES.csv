@@ -1,0 +1,4 @@
+z_true_m,true_rank,true_J,best_false_J,best_false_r_km,best_false_z_s_m,n_scored
+180.0,1,0.0,20.12461179749811,45.0,180.0,93
+200.0,1,0.0,0.0,50.0,220.0,93
+220.0,2,0.0,0.0,50.0,200.0,93

@@ -1,0 +1,26 @@
+{
+  "stage": "RANGE-UB-1B",
+  "decision": "SINGLE_DEPTH_ORACLE_TDOA_RANGE_INFORMATION_PARTIAL",
+  "why": "rank1_all=False, unique_min_at_50=True, alias_persists=False; ranks=[np.int64(1), np.int64(1), np.int64(2)]; frac_2plus_arrivals=1.00",
+  "fraction_2plus_arrivals": 1.0,
+  "all_true_rank1": false,
+  "unique_min_at_true_r": true,
+  "range_alias_persists": false,
+  "oracle_label": "PERFECT_MULTIPATH_DETECTION_PERFECT_ASSOCIATION_ZERO_ERROR",
+  "created_utc": "2026-09-29T03:38:00.102431+00:00",
+  "key_findings": {
+    "arrival_integrity": "100% points have 2+ arrivals (16-21 per point)",
+    "range_aliases_broken": "45/56/58/60 km all J_tau > 20 (vs true J=0)",
+    "range_ridge_BROKEN": true,
+    "source_depth_degeneracy": "At r=50km, z_s=200 and z_s=220 have near-identical delay signatures (J=0)",
+    "z_true_180_rank": 1,
+    "z_true_200_rank": 1,
+    "z_true_220_rank": 2,
+    "interpretation": "TDOA delay signature breaks RANGE ridge that TL could not; residual z_s degeneracy at same range is a different (narrower) problem"
+  },
+  "comparison_to_TL": {
+    "TL_r_z_ridge": "r=45-60km compensated by z*=180-240m (J<0.05 dB)",
+    "TDOA_r_ridge": "r=45-60km J_tau > 20 (BROKEN)",
+    "TDOA_z_ridge": "z_s=200 vs 220 at same r J_tau ~ 0 (persists)"
+  }
+}
