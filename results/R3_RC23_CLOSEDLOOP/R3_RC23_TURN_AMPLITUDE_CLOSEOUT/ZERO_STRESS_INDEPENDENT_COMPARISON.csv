@@ -1,0 +1,7 @@
+config,z_true_m,n_ref,n_cur,ids_match,max_abs_J_error,z_star_exact,keep_exact,shape_mode_invariant,pass
+TRIPLE,180.0,385,385,True,0.0,True,True,True,True
+TRIPLE,200.0,385,385,True,0.0,True,True,True,True
+TRIPLE,220.0,385,385,True,0.0,True,True,True,True
+FOUR,180.0,385,385,True,0.0,True,True,True,True
+FOUR,200.0,385,385,True,0.0,True,True,True,True
+FOUR,220.0,385,385,True,0.0,True,True,True,True

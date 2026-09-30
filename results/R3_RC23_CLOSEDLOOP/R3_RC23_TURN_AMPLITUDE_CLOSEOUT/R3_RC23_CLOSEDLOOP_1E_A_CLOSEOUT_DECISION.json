@@ -1,0 +1,11 @@
+{
+  "stage": "R3-CLOSEDLOOP-1E-A-CLOSEOUT",
+  "decision": "AMPLITUDE_VARIATION_BREAKS_TURN_RANGE_ANCHOR_IN_TESTED_RANGE",
+  "interpretation": "STRICT_SINGLE_RANGE_BIN_CRITERION_NOT_UNIFORMLY_RETAINED",
+  "identity_pass": true,
+  "truth_retained_all_main": true,
+  "true_rank1_all_main": true,
+  "key_conclusion": "strict single-bin fails at 0.25dB+ but truth stays rank-1; set width grows from 1km to 15km over 0.25-1dB",
+  "engineering_note": "no amplitude stability requirement derived; 0.25dB is smallest tested nonzero stress",
+  "created_utc": "2026-09-30T04:37:34.734546+00:00"
+}

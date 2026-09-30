@@ -604,6 +604,30 @@
     </section>
 
     <section>
+      <h2>R3 闭环 1E-A-CLOSEOUT — 幅漂收口</h2>
+      <div class="verdict">
+        <strong>AMPLITUDE_VARIATION_BREAKS_TURN_RANGE_ANCHOR_IN_TESTED_RANGE</strong>
+        （严格单格判据，已收口）。
+        <strong>三层分离</strong>：真值保留+排序=1（0.25/0.5/1.0 dB 全部 24/24）；
+        严格单格锚定不均匀保持；
+        集合宽度 1→2→15 km（0.25→0.5→1.0 dB）。
+        零扰动 identity 与 1D-FIX2 独立比较全过。
+        <code>ZS200_FIRST_TO_LOSE_SINGLE_BIN_ANCHOR</code>。
+        工程口径：0.25–0.5 dB 下排序仍保持，集合仍有明显收缩；
+        未得真实幅度容差。
+      </div>
+      <p class="note">
+        结果目录：<code>results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_CLOSEOUT/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_CLOSEOUT/R3_RC23_CLOSEDLOOP_1E_A_CLOSEOUT_REPORT.md" target="_blank" rel="noopener">CLOSEOUT_REPORT<span>报告</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_CLOSEOUT/R3_RC23_CLOSEDLOOP_1E_A_CLOSEOUT_DECISION.json" target="_blank" rel="noopener">CLOSEOUT_DECISION<span>判定</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_CLOSEOUT/AMPLITUDE_WORKING_RANGE_SUMMARY.csv" target="_blank" rel="noopener">WORKING_RANGE<span>工作区间</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_CLOSEOUT/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

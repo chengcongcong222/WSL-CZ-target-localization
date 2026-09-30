@@ -1,0 +1,10 @@
+{
+  "reference": "C:\\Users\\ccc\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R3_RC23_CLOSEDLOOP\\R3_RC23_TURN_FREQ_SUBSET_FIX\\SUBSET_CANDIDATE_SCORES_FIXED.csv",
+  "current": "C:\\Users\\ccc\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R3_RC23_CLOSEDLOOP\\R3_RC23_TURN_AMPLITUDE_ROBUSTNESS\\AMPLITUDE_CANDIDATE_SCORES.csv",
+  "baseline_commit": "d99a974e0d7bd71b35638ca355a961bb04fc07f7",
+  "config_map": {
+    "TRIPLE": "201+235+283",
+    "FOUR": "201+235+283+338"
+  },
+  "created_utc": "2026-09-30T04:37:34.734546+00:00"
+}
