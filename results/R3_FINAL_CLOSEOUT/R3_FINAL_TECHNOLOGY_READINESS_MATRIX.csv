@@ -1,0 +1,14 @@
+component,mechanism_understood,ideal_forward_validated,candidate_set_validated,single_factor_robustness,observed_data_extractability,real_ocean_validation,status
+RC2 bearing accumulation,Yes,Yes,Yes,N/A,N/A,No,CONFIRMED_IDEAL
+RC3 profiled TL margin,Yes,Yes,Yes,Yes(4G),No,No,CONFIRMED_IDEAL
+Turn virtual baseline,Yes,Yes,Yes,N/A,N/A,No,CONFIRMED_IDEAL
+Multifrequency alias complement,Yes,Yes,Yes,Yes(freq),No,No,CONFIRMED_IDEAL
+201+235+283 range anchor,Yes,Yes,Yes,PARTIAL,NO,No,CONFIRMED_IN_TESTED_CONTROL
+Amplitude robustness (1dB),Yes,Yes,Yes,YES(1dB),No,No,RANK_ROBUST
+Frequency drift (2% tracked),Yes,Yes,Yes,YES(2%),No,No,STRICT_ANCHOR_SURVIVES
+SSP mismatch,Yes,Yes,Yes,DEGRADES,No,No,CRITICAL_DEPENDENCY
+TDOA physical upper bound,Yes,Yes,N/A,N/A,N/A,No,PHYSICAL_REFERENCE
+Single-depth TDOA extraction,Yes,Yes,N/A,UNSTABLE,No,No,CLOSED
+VLA slope transfer,Yes,Partial,N/A,NOT_ESTABLISHED,No,No,CLOSED
+End-to-end pipeline,Yes,No,No,N/A,No,No,NOT_ESTABLISHED
+Real HLA extractability,N/A,N/A,N/A,N/A,NO,No,NOT_ESTABLISHED

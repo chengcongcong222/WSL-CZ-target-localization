@@ -1,0 +1,19 @@
+{
+  "mainline_mechanism": "CONFIRMED_IN_TESTED_SYNTHETIC_CONTROL",
+  "turn_multifrequency_range_anchor": "CONFIRMED_AT_TESTED_50KM_CASE",
+  "minimum_tested_successful_subset": "201+235+283Hz",
+  "tracked_frequency_drift": "STRICT_ANCHOR_SURVIVES_TESTED_2PCT_WITH_PERFECT_TRACKING",
+  "amplitude_variation": "RANK_ROBUST_BUT_STRICT_ANCHOR_DEGRADES",
+  "ssp_mismatch": "RANGE_RANKING_DEGRADES",
+  "observed_data_extractability": "NOT_ESTABLISHED",
+  "real_ocean_performance": "NOT_ESTABLISHED",
+  "five_parameter_lt10pct": "NOT_ESTABLISHED",
+  "P5": "NOT_OPENED",
+  "overall_label": "R3_MAINLINE_MECHANISM_CONFIRMED_WITH_ENVIRONMENT_MATCH_AS_CRITICAL_DEPENDENCY",
+  "auxiliary_labels": [
+    "TURN_ASSISTED_MULTIFREQUENCY_RANGE_ANCHOR_CONFIRMED_IN_TESTED_CONTROL",
+    "MULTIFREQUENCY_ALIAS_COMPLEMENTARITY_CONFIRMED",
+    "SSP_MISMATCH_IS_CURRENT_PRIMARY_TESTED_FAILURE_BOUNDARY"
+  ],
+  "created_utc": "2026-09-30T18:10:00Z"
+}
