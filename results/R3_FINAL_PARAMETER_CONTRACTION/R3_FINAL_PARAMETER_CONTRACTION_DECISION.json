@@ -1,0 +1,19 @@
+{
+  "stage": "R3_FINAL_PARAMETER_CONTRACTION",
+  "decision": "PARAMETER_CONTRACTION_AUDIT_COMPLETE",
+  "final_nominal_candidate_quality": {
+    "S7_n": 2,
+    "S8_n": 2,
+    "psi_width_deg": [
+      1.0,
+      1.0
+    ]
+  },
+  "candidate_dimensions_remaining": "psi (4-5 deg bin)",
+  "universal_lt10pct_set_bound": "NOT_ESTABLISHED",
+  "note": "DIAGNOSTIC_ONLY_NOT_REQUIREMENT_VERIFICATION; rank1 != full-set precision",
+  "created_utc": "2026-09-30T10:28:22.783014+00:00",
+  "contraction_chain": "114576 -> 1326(RC2) -> 121(+RC3) -> 495(1200s) -> 43(+RC3) -> 385(turn) -> 29(+235) -> 2(+TRIPLE/FOUR)",
+  "final_state": "r=50, theta=0, v=2, psi={4,5} deg",
+  "key_finding": "99.998% joint grid excluded; psi remains 1-deg bin (4-5); universal lt10pct NOT_ESTABLISHED for psi"
+}
