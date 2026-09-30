@@ -1,0 +1,14 @@
+{
+  "stage": "R3-CLOSEDLOOP-1D",
+  "created_utc": "2026-09-30T02:57:39.145995+00:00",
+  "baseline_commit": "e3030060e3bc36fc35e3232e90a2dbb9ead92da9",
+  "delta_deg": 15.0,
+  "tau_db": 0.5,
+  "freqs": [
+    201.0,
+    235.0,
+    283.0,
+    338.0
+  ],
+  "n_subsets": 15
+}

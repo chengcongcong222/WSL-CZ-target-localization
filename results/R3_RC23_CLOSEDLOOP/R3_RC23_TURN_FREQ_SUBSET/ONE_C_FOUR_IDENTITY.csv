@@ -1,0 +1,2 @@
+subset,four_identity,expected
+201+235+283+338,True,all three depths r=50 only

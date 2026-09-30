@@ -515,6 +515,29 @@
     </section>
 
     <section>
+      <h2>R3 闭环 1D — 转向距离锚频率子集充分性</h2>
+      <div class="verdict">
+        <strong>SOME_THREE_LINE_TURN_RANGE_ANCHOR</strong>。
+        δ=15°，15 个频率子集，τ=0.5 dB。
+        <strong>201+235+283 Hz 是最小成功子集</strong>（三深度全锚定，不含 338）。
+        单频 0/4、双频 0/6 不能三深度锚定。
+        FOUR 可以。338 Hz 非必需。
+        回答：5A 的 ANY_SINGLE_OF_FOUR <strong>不适用于</strong>转向距离锚；
+        多频作用是互补消除不同 r-z 别名。
+      </div>
+      <p class="note">
+        结果目录：<code>results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET/R3_RC23_CLOSEDLOOP_1D_REPORT.md" target="_blank" rel="noopener">1D_REPORT<span>主报告</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET/R3_RC23_CLOSEDLOOP_1D_DECISION.json" target="_blank" rel="noopener">1D_DECISION<span>判定</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET/SUBSET_ANCHOR_SUMMARY.csv" target="_blank" rel="noopener">ANCHOR_SUMMARY<span>子集锚定</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET/FREQUENCY_COMPLEMENTARITY.csv" target="_blank" rel="noopener">COMPLEMENTARITY<span>频率互补</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

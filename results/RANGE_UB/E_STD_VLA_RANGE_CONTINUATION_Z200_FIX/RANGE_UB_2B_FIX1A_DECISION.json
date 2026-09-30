@@ -13,6 +13,8 @@
     "envelope": "only ~49.5-51 km all three inside true theory envelope; k32/k43 outside at 45km; k42 outside at 52.5km",
     "J_g": "unique zero at 50km, margin~1e-4 (ZERO_ERROR_GRID_UNIQUENESS only)",
     "conclusion": "stable ridge continuation != Xu2024 1/r range-family continuation; VLA slope branch closes here",
-    "next": "return to main line: RC2->RC3->turn->multi-freq range anchor"
+    "next": "return to main line: RC2->RC3->turn->multi-freq range anchor",
+    "spearman_note": "rank statistic near zero and sensitive to floating representation of quantized-equal g values; conclusion remains far below 0.90",
+    "envelope_exact": "all-three theory-envelope retention: r=50.0 and 50.5 km only"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "stage": "R3-CLOSEDLOOP-1D",
+  "decision": "SOME_THREE_LINE_TURN_RANGE_ANCHOR",
+  "why": "any_single=False, all_single=False, any_double=False, all_double=False, any_triple=True, four=True",
+  "created_utc": "2026-09-30T02:57:39.145995+00:00",
+  "key_findings": {
+    "minimal_successful_subset": "201+235+283 Hz (three lines, no 338)",
+    "singles": "0/4 anchor all three depths",
+    "doubles": "0/6 anchor all three depths (some get 1/3)",
+    "triples": "1/4 anchors all three (201+235+283)",
+    "four": "anchors all three",
+    "complementarity": "201/235/283 each in 2 anchored subsets; 338 in 1",
+    "answer_to_5A_question": "ANY_SINGLE_OF_FOUR does NOT transfer to turn-assisted range anchor",
+    "answer_to_complementarity": "complementary removal of r-z aliases across frequencies, not just larger averaged score"
+  }
+}
