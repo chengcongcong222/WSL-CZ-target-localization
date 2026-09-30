@@ -1,0 +1,15 @@
+{
+  "stage": "R3-CLOSEDLOOP-1E-B-FIX",
+  "decision": "TRIPLE_AND_FOUR_STRICT_RANGE_ANCHOR_SURVIVES_TRACKED_2PCT_FREQ_DRIFT",
+  "why": "triple_strict=True, four_strict=True, rank1=True, best50=True",
+  "frequency_models": "44 unique freqs all built",
+  "created_utc": "2026-09-30T07:49:13.619437+00:00",
+  "key_findings": {
+    "freq_models": "44 unique freqs all built (5B env method)",
+    "D_effect": "PASS (RMS diff 1-7 dB between nonzero-D and D=0)",
+    "D0_identity": "PASS (8.88e-16)",
+    "TRIPLE": "strict 3/3 at all D=0-2%, width=0",
+    "FOUR": "strict 3/3 at all D=0-2%, width=0",
+    "conclusion": "BOTH configs survive 2% tracked freq drift; 338 Hz redundancy NOT needed for freq drift"
+  }
+}
