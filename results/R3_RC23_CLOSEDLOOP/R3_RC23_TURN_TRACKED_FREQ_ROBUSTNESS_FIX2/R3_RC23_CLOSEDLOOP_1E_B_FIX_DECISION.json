@@ -1,0 +1,7 @@
+{
+  "stage": "R3-CLOSEDLOOP-1E-B-FIX",
+  "decision": "TRIPLE_AND_FOUR_STRICT_RANGE_ANCHOR_SURVIVES_TRACKED_2PCT_FREQ_DRIFT",
+  "why": "triple_strict=True, four_strict=True, rank1=True, best50=True",
+  "frequency_models": "44 unique freqs all built",
+  "created_utc": "2026-09-30T08:52:50.448979+00:00"
+}

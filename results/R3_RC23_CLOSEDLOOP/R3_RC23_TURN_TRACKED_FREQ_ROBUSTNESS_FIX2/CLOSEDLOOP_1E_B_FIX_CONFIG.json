@@ -1,0 +1,6 @@
+{
+  "stage": "R3-CLOSEDLOOP-1E-B-FIX",
+  "created_utc": "2026-09-30T08:52:50.448979+00:00",
+  "baseline_commit": "8c134df8d962d7e557cdfe32ccea2402966ce181",
+  "env_method": "5B write_env_freq: copy zgrid_f235.env, title+freq only"
+}

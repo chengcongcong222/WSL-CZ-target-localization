@@ -1,0 +1,16 @@
+D,z_true_m,triple_strict,four_strict
+0.0,180.0,True,True
+0.0,200.0,True,True
+0.0,220.0,True,True
+0.0025,180.0,True,True
+0.0025,200.0,True,True
+0.0025,220.0,True,True
+0.005,180.0,True,True
+0.005,200.0,True,True
+0.005,220.0,True,True
+0.01,180.0,True,True
+0.01,200.0,True,True
+0.01,220.0,True,True
+0.02,180.0,True,True
+0.02,200.0,True,True
+0.02,220.0,True,True
