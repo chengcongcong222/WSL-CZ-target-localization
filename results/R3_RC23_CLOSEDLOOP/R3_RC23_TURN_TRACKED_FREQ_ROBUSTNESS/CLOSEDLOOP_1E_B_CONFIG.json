@@ -1,0 +1,17 @@
+{
+  "stage": "R3-CLOSEDLOOP-1E-B",
+  "created_utc": "2026-09-30T07:28:04.491825+00:00",
+  "baseline_commit": "cfc93cc7d0d1b242245f9cd713e9a0d4cde1859c",
+  "configs": [
+    "TRIPLE",
+    "FOUR"
+  ],
+  "D_F": [
+    0.0,
+    0.0025,
+    0.005,
+    0.01,
+    0.02
+  ],
+  "tracking": "F_TRACKED"
+}

@@ -1,0 +1,15 @@
+{
+  "stage": "R3-CLOSEDLOOP-1E-B",
+  "decision": "FOUR_REDUNDANCY_IMPROVES_TRACKED_FREQUENCY_DRIFT_ROBUSTNESS",
+  "why": "triple_strict=False, four_strict=True, rank1=True, best50=True",
+  "tracking_label": "PERFECT_FREQUENCY_TRACKING_CONTROL",
+  "created_utc": "2026-09-30T07:28:04.491825+00:00",
+  "key_findings": {
+    "D0_identity": "PASS (max_J_err 8.88e-16)",
+    "FOUR": "strict 3/3 at all D=0-2%, width=0 always",
+    "TRIPLE": "strict 3/3 at D=0, drops to 1/3 at D>=0.25% (width up to 6km)",
+    "truth_rank1": "always, all cases",
+    "best50": "always, all cases",
+    "answer_338Hz": "YES - 338 Hz provides frequency-drift redundancy; FOUR survives 2% tracked drift"
+  }
+}

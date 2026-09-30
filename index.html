@@ -628,6 +628,28 @@
     </section>
 
     <section>
+      <h2>R3 闭环 1E-B — Tracked Frequency Drift</h2>
+      <div class="verdict">
+        <strong>FOUR_REDUNDANCY_IMPROVES_TRACKED_FREQUENCY_DRIFT_ROBUSTNESS</strong>。
+        F_TRACKED，D=0–2%。
+        <strong>FOUR</strong>：严格锚定 3/3 全保持到 2%（宽度恒 0）。
+        <strong>TRIPLE</strong>：D=0 时 3/3，D≥0.25% 降至 1/3（宽度至 6 km）。
+        真值 rank=1 与 best_range=50 始终保持。
+        D=0 identity 通过（J_err≈9e-16）。
+        <strong>338 Hz 提供频漂冗余</strong>。
+      </div>
+      <p class="note">
+        结果目录：<code>results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_TRACKED_FREQ_ROBUSTNESS/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_TRACKED_FREQ_ROBUSTNESS/R3_RC23_CLOSEDLOOP_1E_B_REPORT.md" target="_blank" rel="noopener">1E_B_REPORT<span>报告</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_TRACKED_FREQ_ROBUSTNESS/R3_RC23_CLOSEDLOOP_1E_B_DECISION.json" target="_blank" rel="noopener">1E_B_DECISION<span>判定</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_TRACKED_FREQ_ROBUSTNESS/TRACKED_FREQ_WORKING_RANGE_SUMMARY.csv" target="_blank" rel="noopener">WORKING_RANGE<span>工作边界</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_TRACKED_FREQ_ROBUSTNESS/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>
