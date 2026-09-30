@@ -1,0 +1,15 @@
+{
+  "stage": "R3-CLOSEDLOOP-1E-C",
+  "created_utc": "2026-09-30T09:50:34.361217+00:00",
+  "baseline_commit": "8fceb304801b3027259400d93214d7816d1fd9ba",
+  "ssp_stress": "FROZEN_SYNTHETIC_SSP_STRESS_FROM_REANCHOR_4G",
+  "envs": [
+    "E0",
+    "E1",
+    "E2"
+  ],
+  "configs": [
+    "TRIPLE",
+    "FOUR"
+  ]
+}

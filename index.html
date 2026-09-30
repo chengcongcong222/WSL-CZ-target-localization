@@ -671,6 +671,26 @@
     </section>
 
     <section>
+      <h2>R3 闭环 1E-C — SSP Mismatch（最终物理轴）</h2>
+      <div class="verdict">
+        <strong>SSP_MISMATCH_DEGRADES_RANGE_RANKING_IN_TESTED_STRESS</strong>。
+        E1/E2（4G 冻结）truth vs E0 nominal template。
+        E0 基线全过；E1/E2 下 rank 退化到 2–29，宽度至 15 km。
+        <strong>SSP 失配是打破距离锚定的主导误差源。</strong>
+        z* profiling 吸收部分但不足。
+      </div>
+      <p class="note">
+        结果目录：<code>results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_SSP_MISMATCH/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_SSP_MISMATCH/R3_RC23_CLOSEDLOOP_1E_C_REPORT.md" target="_blank" rel="noopener">1E_C_REPORT<span>报告</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_SSP_MISMATCH/R3_RC23_CLOSEDLOOP_1E_C_DECISION.json" target="_blank" rel="noopener">1E_C_DECISION<span>判定</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_SSP_MISMATCH/SSP_WORKING_RANGE_SUMMARY.csv" target="_blank" rel="noopener">WORKING_RANGE<span>工作边界</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_SSP_MISMATCH/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

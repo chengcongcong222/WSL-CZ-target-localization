@@ -1,0 +1,15 @@
+{
+  "stage": "R3-CLOSEDLOOP-1E-C",
+  "decision": "SSP_MISMATCH_DEGRADES_RANGE_RANKING_IN_TESTED_STRESS",
+  "why": "all_strict=False, triple=False, four=False, rank1=False, best50=False",
+  "ssp_stress": "FROZEN_SYNTHETIC_SSP_STRESS_FROM_REANCHOR_4G",
+  "created_utc": "2026-09-30T09:50:34.361217+00:00",
+  "key_findings": {
+    "E0": "all strict, rank=1 (baseline)",
+    "E1": "rank 12-24, width 10-15km, truth_kept 2/3",
+    "E2": "rank 9-29, width 11-14km, truth_kept 2/3",
+    "SSP_dominance": "SSP mismatch is the dominant error source breaking range anchor",
+    "z_star_shift": "depth profiling absorbs some but not enough",
+    "conclusion": "SSP mismatch degrades range ranking in tested stress; single most critical axis"
+  }
+}

@@ -1,0 +1,13 @@
+env,freq,return_code,mod_exists,mod_size,parse_ok,M,finite_k,finite_phi,depth_min,depth_max,has_150_250
+E1,201.0,0,True,270504.0,True,643,True,True,150.0,250.0,True
+E1,235.0,0,True,315792.0,True,752,True,True,150.0,250.0,True
+E1,283.0,0,True,379440.0,True,905,True,True,150.0,250.0,True
+E1,338.0,0,True,452880.0,True,1081,True,True,150.0,250.0,True
+E2,201.0,0,True,270912.0,True,644,True,True,150.0,250.0,True
+E2,235.0,0,True,316200.0,True,753,True,True,150.0,250.0,True
+E2,283.0,0,True,379848.0,True,906,True,True,150.0,250.0,True
+E2,338.0,0,True,453288.0,True,1082,True,True,150.0,250.0,True
+E0,201.0,0,True,,True,641,True,True,,,True
+E0,235.0,0,True,,True,749,True,True,,,True
+E0,283.0,0,True,,True,902,True,True,,,True
+E0,338.0,0,True,,True,1078,True,True,,,True

@@ -1,0 +1,9 @@
+env,freq,tail_identical
+E1,201.0,True
+E1,235.0,True
+E1,283.0,True
+E1,338.0,True
+E2,201.0,True
+E2,235.0,True
+E2,283.0,True
+E2,338.0,True

@@ -1,0 +1,10 @@
+env_truth,z_true_m,triple_strict,four_strict,triple_rank,four_rank
+E0,180.0,True,True,1,1
+E0,200.0,True,True,1,1
+E0,220.0,True,True,1,1
+E1,180.0,False,False,12,5
+E1,200.0,False,False,17,2
+E1,220.0,False,False,24,23
+E2,180.0,False,False,29,29
+E2,200.0,False,False,9,6
+E2,220.0,False,False,12,11
