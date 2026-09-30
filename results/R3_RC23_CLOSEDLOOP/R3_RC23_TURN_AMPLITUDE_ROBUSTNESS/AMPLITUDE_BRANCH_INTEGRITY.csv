@@ -1,0 +1,3 @@
+config,common,line_specific,A0_identical,A1_different
+TRIPLE,"[1, 1, 1]","[1, -1, 1]",True,True
+FOUR,"[1, 1, 1, 1]","[1, -1, 1, -1]",True,True

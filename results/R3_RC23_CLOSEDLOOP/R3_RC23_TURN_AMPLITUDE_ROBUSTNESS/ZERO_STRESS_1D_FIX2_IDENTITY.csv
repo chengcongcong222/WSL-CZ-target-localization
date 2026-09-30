@@ -1,0 +1,7 @@
+config,z_true_m,J_min,n_keep
+TRIPLE,180.0,0.0,2
+TRIPLE,200.0,0.0,2
+TRIPLE,220.0,0.0,2
+FOUR,180.0,0.0,2
+FOUR,200.0,0.0,2
+FOUR,220.0,0.0,2

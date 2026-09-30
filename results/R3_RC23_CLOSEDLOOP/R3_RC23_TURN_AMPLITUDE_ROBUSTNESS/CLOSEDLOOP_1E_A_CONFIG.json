@@ -1,0 +1,25 @@
+{
+  "stage": "R3-CLOSEDLOOP-1E-A",
+  "created_utc": "2026-09-30T04:08:00.316572+00:00",
+  "baseline_commit": "8ecd6a40ca846bb10a58c297204092381408b24a",
+  "configs": [
+    "TRIPLE",
+    "FOUR"
+  ],
+  "A_rms_db": [
+    0.0,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "shapes": [
+    "A-RAMP",
+    "A-SINE"
+  ],
+  "modes": [
+    "COMMON_LINE_AMPLITUDE_VARIATION",
+    "LINE_SPECIFIC_AMPLITUDE_VARIATION"
+  ],
+  "tau_db": 0.5
+}

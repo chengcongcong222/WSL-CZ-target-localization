@@ -1,0 +1,13 @@
+{
+  "stage": "R3-CLOSEDLOOP-1E-A",
+  "decision": "AMPLITUDE_VARIATION_BREAKS_TURN_RANGE_ANCHOR_IN_TESTED_RANGE",
+  "why": "triple_1dB=False, four_1dB=False, sub05=False",
+  "created_utc": "2026-09-30T04:08:00.316572+00:00",
+  "key_findings": {
+    "zero_stress": "all anchored; z=200 most fragile (clearance 0.05-0.10 dB)",
+    "A_0.25dB": "z=200 fails for TRIPLE and FOUR (clearance goes negative)",
+    "A_0.5dB_and_above": "multiple depths fail",
+    "conclusion": "range anchor is fragile to amplitude variation; z=200 is bottleneck",
+    "engineering_note": "need amplitude stability << 0.25 dB or more robust observable"
+  }
+}

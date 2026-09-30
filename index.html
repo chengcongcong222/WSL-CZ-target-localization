@@ -583,6 +583,27 @@
     </section>
 
     <section>
+      <h2>R3 闭环 1E-A — 幅漂鲁棒性</h2>
+      <div class="verdict">
+        <strong>AMPLITUDE_VARIATION_BREAKS_TURN_RANGE_ANCHOR_IN_TESTED_RANGE</strong>。
+        z_true=200 为最脆弱深度（零扰动 threshold clearance 仅 0.05–0.10 dB）。
+        A=0.25 dB 时 z=200 即失效（TRIPLE 与 FOUR 均如此）。
+        <strong>结论</strong>：转向距离锚对幅漂敏感，工程上需幅度稳定性 ≪ 0.25 dB，
+        或需更鲁棒的 observable。
+      </div>
+      <p class="note">
+        结果目录：<code>results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_ROBUSTNESS/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_ROBUSTNESS/R3_RC23_CLOSEDLOOP_1E_A_REPORT.md" target="_blank" rel="noopener">1E_A_REPORT<span>报告</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_ROBUSTNESS/R3_RC23_CLOSEDLOOP_1E_A_DECISION.json" target="_blank" rel="noopener">1E_A_DECISION<span>判定</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_ROBUSTNESS/AMPLITUDE_ANCHOR_CASES.csv" target="_blank" rel="noopener">AMPLITUDE_CASES<span>幅漂case</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_ROBUSTNESS/TRIPLE_VS_FOUR_AMPLITUDE_ROBUSTNESS.csv" target="_blank" rel="noopener">TRIPLE_VS_FOUR<span>对比</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_ROBUSTNESS/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>
