@@ -3,7 +3,7 @@
   "decision": "SOME_THREE_LINE_TURN_RANGE_ANCHOR",
   "why": "any_single=False, any_double=False, any_triple=True, four=True",
   "auxiliary_label": "MULTIFREQUENCY_ALIAS_COMPLEMENTARITY_CONFIRMED",
-  "identity_gates": "ALL_PASS",
+  "identity_gates": "IDENTITY_GATES_INVALID_SELF_REFERENCE_PENDING_FIX2",
   "created_utc": "2026-09-30T03:19:17.760058+00:00",
   "key_findings": {
     "identity_gates": "RC2/235/FOUR all PASS",
@@ -11,5 +11,6 @@
     "alias_complementarity": "CONFIRMED: Jaccard 0.0-0.6 between single-freq alias sets",
     "example": "z=180: 201Hz has 13 aliases, 235Hz has 1, 283Hz has 9, 338Hz has 7",
     "answer": "three-line success comes from complementary r-z alias removal, not score averaging"
-  }
+  },
+  "identity_issue": "RC2: ids_1c=ids_1d self-reference; 235/FOUR: identity_check did not read 1C reference"
 }

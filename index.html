@@ -561,6 +561,28 @@
     </section>
 
     <section>
+      <h2>R3 闭环 1D-FIX2 — 独立 Identity 与互补性</h2>
+      <div class="verdict">
+        <strong>SOME_THREE_LINE_TURN_RANGE_ANCHOR</strong>（正式冻结）。
+        <code>MULTIFREQUENCY_ALIAS_COMPLEMENTARITY_CONFIRMED</code>。
+        独立 1C 重算 identity 全过（RC2 exact match，235/FOUR J_err &lt; 1e-10）。
+        <strong>6 个跨频不兼容点</strong>：单频 J*≤0.5 但三频联合 J*&gt;0.5
+        （如 z=200/r=47 km：0.35/0.34/0.44 → 联合 1.41）。
+        正式口径：<code>RMS_FUSION_EXPLOITS_COMPLEMENTARY_RANGE_ALIAS_STRUCTURE</code>。
+        最小成功子集：<strong>201+235+283 Hz</strong>。
+      </div>
+      <p class="note">
+        结果目录：<code>results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX2/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX2/R3_RC23_CLOSEDLOOP_1D_FIX2_REPORT.md" target="_blank" rel="noopener">FIX2_REPORT<span>报告</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX2/R3_RC23_CLOSEDLOOP_1D_FIX2_DECISION.json" target="_blank" rel="noopener">FIX2_DECISION<span>判定</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX2/CROSS_FREQUENCY_ALIAS_INCOMPATIBILITY.csv" target="_blank" rel="noopener">INCOMPATIBILITY<span>跨频不兼容</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX2/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

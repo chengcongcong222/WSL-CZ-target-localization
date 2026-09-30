@@ -1,0 +1,16 @@
+subset,n_lines,three_depth_range_anchor
+201,1,False
+235,1,False
+283,1,False
+338,1,False
+201+235,2,False
+201+283,2,False
+201+338,2,False
+235+283,2,False
+235+338,2,False
+283+338,2,False
+201+235+283,3,True
+201+235+338,3,False
+201+283+338,3,False
+235+283+338,3,False
+201+235+283+338,4,True

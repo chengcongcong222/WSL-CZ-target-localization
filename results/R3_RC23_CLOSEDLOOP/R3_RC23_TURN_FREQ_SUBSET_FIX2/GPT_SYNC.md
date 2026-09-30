@@ -1,0 +1,7 @@
+# R3-CLOSEDLOOP-1D-FIX2
+
+**SOME_THREE_LINE_TURN_RANGE_ANCHOR**
+
+identity=PASS, any_single=False, any_double=False, any_triple=True, four=True
+
+MULTIFREQUENCY_ALIAS_COMPLEMENTARITY_CONFIRMED

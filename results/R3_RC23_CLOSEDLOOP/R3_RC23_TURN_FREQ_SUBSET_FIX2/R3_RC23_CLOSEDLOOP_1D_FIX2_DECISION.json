@@ -1,0 +1,16 @@
+{
+  "stage": "R3-CLOSEDLOOP-1D-FIX2",
+  "decision": "SOME_THREE_LINE_TURN_RANGE_ANCHOR",
+  "why": "identity=PASS, any_single=False, any_double=False, any_triple=True, four=True",
+  "auxiliary_label": "MULTIFREQUENCY_ALIAS_COMPLEMENTARITY_CONFIRMED",
+  "complementarity_formalization": "RMS_FUSION_EXPLOITS_COMPLEMENTARY_RANGE_ALIAS_STRUCTURE",
+  "identity_gates": "INDEPENDENT_PASS",
+  "created_utc": "2026-09-30T03:35:27.020040+00:00",
+  "key_findings": {
+    "identity": "independent 1C recomputation: RC2 exact match, 235/FOUR max_J_err < 1e-10",
+    "incompatibility": "6 wrong-range points where all single-freq J*<=0.5 but triple J*>0.5",
+    "example": "z=200 r=47km: J201=0.35 J235=0.34 J283=0.44 but J_triple=1.41",
+    "formalization": "RMS_FUSION_EXPLOITS_COMPLEMENTARY_RANGE_ALIAS_STRUCTURE",
+    "minimal_subset": "201+235+283 Hz"
+  }
+}

@@ -1,0 +1,4 @@
+z_true_m,max_abs_J_error,z_star_exact,keep_mask_exact,pass
+180.0,8.881784197001252e-16,True,True,True
+200.0,8.881784197001252e-16,True,True,True
+220.0,8.881784197001252e-16,True,True,True
