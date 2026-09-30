@@ -1,0 +1,6 @@
+{
+  "stage": "CLOSEOUT_FIX",
+  "created_utc": "2026-09-30T06:10:51.412522+00:00",
+  "baseline_commit": "84e294dc7bd078074bfae95feca8f7c1fbd58c3d",
+  "fix": "strict_single_bin uses R_keep not R_best"
+}
