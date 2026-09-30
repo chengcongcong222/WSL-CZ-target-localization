@@ -1,0 +1,18 @@
+{
+  "stage": "RANGE-UB-2B-FIX1A",
+  "decision": "E_STD_VLA_SLOPE_RANGE_INFORMATION_NOT_ESTABLISHED",
+  "why": "near_ok=True, span=7.5km, jg_unique=True, spearman_corrected=-0.063",
+  "spearman_corrected": -0.063077000940408,
+  "span_km": 7.5,
+  "interpretation": "stable ridge continuation != Xu2024 1/r range-family continuation",
+  "created_utc": "2026-09-30T02:08:13.256738+00:00",
+  "key_findings": {
+    "span": "7.5km (45-52.5)",
+    "spearman_corrected": -0.063,
+    "pearson": -0.199,
+    "envelope": "only ~49.5-51 km all three inside true theory envelope; k32/k43 outside at 45km; k42 outside at 52.5km",
+    "J_g": "unique zero at 50km, margin~1e-4 (ZERO_ERROR_GRID_UNIQUENESS only)",
+    "conclusion": "stable ridge continuation != Xu2024 1/r range-family continuation; VLA slope branch closes here",
+    "next": "return to main line: RC2->RC3->turn->multi-freq range anchor"
+  }
+}

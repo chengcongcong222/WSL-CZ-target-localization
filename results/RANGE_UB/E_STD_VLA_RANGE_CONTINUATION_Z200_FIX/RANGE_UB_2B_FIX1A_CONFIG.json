@@ -1,0 +1,6 @@
+{
+  "stage": "RANGE-UB-2B-FIX1A",
+  "created_utc": "2026-09-30T02:08:13.256738+00:00",
+  "baseline_commit": "0e3a461e546e42c138a1ca8c2c0b2123e69afbfb",
+  "no_new_bellhop": true
+}

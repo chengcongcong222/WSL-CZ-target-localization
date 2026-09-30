@@ -493,6 +493,28 @@
     </section>
 
     <section>
+      <h2>RANGE-UB-2B-FIX1A — 后处理完整性修正</h2>
+      <div class="verdict">
+        <strong>E_STD_VLA_SLOPE_RANGE_INFORMATION_NOT_ESTABLISHED</strong>。
+        连续工作区间 45–52.5 km（span 7.5 km），Spearman（修正）= <strong>−0.063</strong>。
+        理论包络审计：仅 ~49.5–51 km 三族同在包络内。
+        J_g 零误差网格唯一（margin ~1e-4）。
+        <strong>结论</strong>：稳定 ridge continuation ≠ Xu2024 1/r 距离族。
+        <strong>VLA 斜率支线收口</strong>，回归主线 RC2→RC3→转向→多频距离锚。
+      </div>
+      <p class="note">
+        结果目录：<code>results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200_FIX/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200_FIX/RANGE_UB_2B_FIX1A_REPORT.md" target="_blank" rel="noopener">FIX1A_REPORT<span>报告</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200_FIX/RANGE_UB_2B_FIX1A_DECISION.json" target="_blank" rel="noopener">FIX1A_DECISION<span>判定</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200_FIX/POSTHOC_TRUE_THEORY_ENVELOPE_AUDIT.csv" target="_blank" rel="noopener">ENVELOPE_AUDIT<span>理论包络</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200_FIX/SPEARMAN_TIE_AUDIT.csv" target="_blank" rel="noopener">SPEARMAN<span>统计审计</span></a>
+        <a class="file" href="results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200_FIX/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>
