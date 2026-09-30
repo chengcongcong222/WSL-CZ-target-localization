@@ -538,6 +538,29 @@
     </section>
 
     <section>
+      <h2>R3 闭环 1D-FIX — Identity 与别名审计</h2>
+      <div class="verdict">
+        <strong>SOME_THREE_LINE_TURN_RANGE_ANCHOR</strong>（正式冻结）。
+        <code>MULTIFREQUENCY_ALIAS_COMPLEMENTARITY_CONFIRMED</code>。
+        Identity gates 全过（RC2/235/FOUR）。
+        <strong>201+235+283 Hz 是最小成功子集</strong>（三深度全锚定）。
+        互补性已证实：单频别名集 Jaccard 0.0–0.6，明显不同。
+        例：z=180 时 201 Hz 有 13 个别名，235 Hz 仅 1 个。
+        <strong>结论</strong>：三频优势来自互补消除 r-z 别名，非平均分。
+      </div>
+      <p class="note">
+        结果目录：<code>results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX/</code>。
+      </p>
+      <div class="files">
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX/R3_RC23_CLOSEDLOOP_1D_FIX_REPORT.md" target="_blank" rel="noopener">FIX_REPORT<span>报告</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX/R3_RC23_CLOSEDLOOP_1D_FIX_DECISION.json" target="_blank" rel="noopener">FIX_DECISION<span>判定</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX/SINGLE_FREQ_ALIAS_OVERLAP.csv" target="_blank" rel="noopener">ALIAS_OVERLAP<span>别名重叠</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX/SUBSET_ANCHOR_SUMMARY_FIXED.csv" target="_blank" rel="noopener">ANCHOR_SUMMARY<span>锚定汇总</span></a>
+        <a class="file" href="results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC.md<span>GPT同步</span></a>
+      </div>
+    </section>
+
+    <section>
       <h2>P3 / G3（RC3 独立增量）</h2>
       <div class="verdict" id="p3-g3"><strong>HISTORICAL_P3_SIMPLIFIED_RESULT</strong>（已被 REANCHOR 路线重新审计，<strong>不再作为</strong>当前 RC3 最终性能或距离精度）：早期固定深度/简化条件下 G3 曾记 PROPAGATION_INCREMENT_CONFIRMED — 困难候选排除 RC2≈0% → RC2+CZ≈97%。当前口径以 REANCHOR-2 depth-profiled 判别为准。</div>
       <p class="note">完整交付见 <code>results/P3_RC3_increment/</code>：P3_RC3_REPORT.md、P3_RC3_GPT_SYNC.md、selected_hard_pairs.csv、propagation_increment.csv、line_doppler_increment.csv、g3_decision.json、figures/。KRAKEN 未安装时使用与 E-STD 一致的模态理论模型（已写入 CONFIG），未回退 Bellhop 审计，未重跑 P2。</p>

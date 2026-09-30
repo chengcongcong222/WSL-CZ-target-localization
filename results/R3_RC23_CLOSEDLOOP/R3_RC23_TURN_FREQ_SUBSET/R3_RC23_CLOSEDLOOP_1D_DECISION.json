@@ -1,6 +1,6 @@
 {
   "stage": "R3-CLOSEDLOOP-1D",
-  "decision": "SOME_THREE_LINE_TURN_RANGE_ANCHOR",
+  "decision": "R3_CLOSEDLOOP_1D_PROVISIONAL_PENDING_IDENTITY_AND_ALIAS_AUDIT",
   "why": "any_single=False, all_single=False, any_double=False, all_double=False, any_triple=True, four=True",
   "created_utc": "2026-09-30T02:57:39.145995+00:00",
   "key_findings": {
@@ -12,5 +12,6 @@
     "complementarity": "201/235/283 each in 2 anchored subsets; 338 in 1",
     "answer_to_5A_question": "ANY_SINGLE_OF_FOUR does NOT transfer to turn-assisted range anchor",
     "answer_to_complementarity": "complementary removal of r-z aliases across frequencies, not just larger averaged score"
-  }
+  },
+  "provisional_science_label": "SOME_THREE_LINE_TURN_RANGE_ANCHOR"
 }

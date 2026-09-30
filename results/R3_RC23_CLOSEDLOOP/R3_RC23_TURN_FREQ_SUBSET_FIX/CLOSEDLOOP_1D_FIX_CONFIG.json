@@ -1,0 +1,6 @@
+{
+  "stage": "R3-CLOSEDLOOP-1D-FIX",
+  "created_utc": "2026-09-30T03:19:17.760058+00:00",
+  "baseline_commit": "45ca8a179679e5f8d80eb554754c07891f2c507f",
+  "goal": "identity + survivor + alias audit, no physics change"
+}
