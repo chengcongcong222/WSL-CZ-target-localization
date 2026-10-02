@@ -23,3 +23,9 @@ Only A1 is currently authorized. A2/B/P5 are not opened. R4 starts at 0%.
 Validate genuinely off-grid horizontal observation generation without truth access by the estimator; separate coarse-grid top-1, full survivor envelopes and the quantization floor; measure bearing-sigma dependence with multiple realizations; report either an empirically stable tested region or NO_STABLE_REGION_ESTABLISHED.
 
 The inherited forward/scoring structure and the pre-run design are recorded in `../R4_A1_OFFGRID_BEARING_BOUNDARY/R4_A1_DESIGN.md`. R3 scripts and numerical evidence must remain unchanged. Results are synthetic matched E0 controls with perfect relative-TL observations, not end-to-end observed-data or ocean performance guarantees.
+
+## Accepted structural stop and repair Gate
+
+The research lead independently accepted 4633ff0: A1-1 off-grid pipeline passed; A1 remains blocked and receives no progress credit. R3 remains frozen. A1-FIX develops observation-derived continuous bearing hypotheses and multifrequency search. Even a repair PASS would leave R4 at 0% until the full frozen A1 statistical experiment is completed and audited.
+
+V1 had a degenerate theta-offset global-search initialization. Its partial evidence is retained under INITIAL_IMPLEMENTATION and is excluded from V2 confirmation. V2 corrects that programming defect without changing search budgets/thresholds, then freezes a fresh holdout seed 2026100203 before observations. V2 noisy regression does not recover every matched basin, so A1-FIX remains blocked pending search coverage/convergence work. Do not open A2, B1 or P5.

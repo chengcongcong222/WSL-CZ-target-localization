@@ -1,0 +1,15 @@
+# Continuous-search method freeze
+
+The bearing geometry is linear in Cartesian initial position and velocity for noiseless observations. Its full-rank solution is an observation-derived start, verified through bounded nonlinear circular residual least squares with 32 independent Sobol starts. For noisy data, local minima alone do not represent the likelihood region: 4096 global Sobol (r,v,psi) points are continued by optimizing theta using bearing observations, retaining those within the unchanged continuous 13.3 sigma-squared likelihood cutoff.
+
+No grid-bias allowance is added. Search states are continuous, so the representation problem is removed rather than compensated by a fitted threshold. RC2 extent and individual optimizer convergence are exported; candidate sampling is finite and is not a certified exhaustive confidence region.
+
+Acoustic search uses two independent global differential-evolution islands seeded exclusively by the continuous bearing region, followed by local refinement of eight diverse basins per island. It searches r,v,psi and a theta offset from observation-profiled theta; feasibility uses exact bearing cost. A conservative offset bound follows from the minimum bearing theta Jacobian over the full geometry bounds. Shared z is profiled over the inherited 21 nuisance labels. Final candidates are verified with exact modal evaluation, and four distinct best basins are polished with the exact model.
+
+For affordable global evaluation, interpolate complex pressure after removing the common modal carrier, never coarse-grid TL. All modal wavenumbers remain in the forward model. The 1 m spline resolves the maximum demodulated wavenumber below 0.1 rad/m; it is checked at 256 fixed random ranges across all nuisance depths/frequencies, with a predeclared 0.001 dB maximum TL discrepancy. Exact forward scoring determines all final outputs. Range bounds 39--66 km follow the triangle inequality over the full state and platform trajectory bounds.
+
+Benchmark: one 283 Hz cache takes about 1.54 s; a 115-state/121-time spline batch about 0.0065 s. Its fixed random-range maximum TL discrepancy is about 9.45e-6 dB. Exact per-trajectory coarse scoring previously took about 0.015 s/node. These forward-cost/geometry measurements determine the method and budget; they do not use panel recovery to tune parameters.
+
+Finite-budget global search may fail. Failure is reported as search failure, not converted into continuous non-identifiability. Mode counts mean separated sampled local basins at the configured coordinate resolution, not a proof of all physical modes. Best-candidate error is evaluation-only, coordinatewise minima, not a selectable joint oracle state. Noiseless geometry has an independently checked rank-four control; near-zero bearing candidates may collapse to one hypothesis without acoustic grid initialization.
+
+Hyperparameters and deterministic holdout generation rule are in R4_A1_FIX_CONFIG.json. Freeze its hash together with the generated holdout panel before creating holdout observations. The nine legacy truths are a development/regression panel. No full multi-sigma Monte Carlo is run here.

@@ -1,0 +1,11 @@
+{
+  "status": "STOPPED_AFTER_INITIALIZATION_DEFECT_DISCOVERY",
+  "completed_cases": 22,
+  "regression_cases": 18,
+  "partial_holdout_cases": 4,
+  "scientific_credit_percent": 0,
+  "defect": "All DE theta-offset coordinates initialized at zero, leaving the global search coordinate invariant under differential mutation.",
+  "correction": "Nondegenerate, observation-independent theta offsets accepted only within continuous RC2 likelihood.",
+  "confirmation_action": "Preserve V1 artifacts; preregister fresh V2 holdout seed 2026100203 before its observations.",
+  "excluded_from_V2_confirmation": true
+}

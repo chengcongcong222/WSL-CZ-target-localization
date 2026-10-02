@@ -1,0 +1,5 @@
+check,pass_check,max_error
+exact_385_RC2_IDs,True,0
+exact_TRIPLE_scores_survivors_z180,True,2.4664714715072478e-12
+exact_TRIPLE_scores_survivors_z200,True,1.1262102361797588e-12
+exact_TRIPLE_scores_survivors_z220,True,4.758859972753271e-12

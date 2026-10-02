@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-02T08:08:06.305997+00:00",
+  "hash_capture": "POST_EXECUTION; method/holdout preregistration is separately in HOLDOUT_DESIGN_FREEZE.json",
+  "implementation_version": 2,
+  "V2_case_count": 36,
+  "V1_completed_cases_excluded": 22,
+  "source_modes": {
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f201.mod": "e05c5ee06dcec6446f81522b8b074e71e31c44e7beda8287163e89fa095ac628",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f235.mod": "187c3e9380fb9d7fc073e5e3cc97e6580fb574b2e43ef055366d3521a9ec15f6",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f283.mod": "5d72a736ddae45bb3fbfd15514f9fb8f6b5e89e16feb598898ee3b64e4f199b2"
+  },
+  "executor_sha256_post_execution": "9ad8ddd990d47242fa1e33175fe0c9d328a3c701ebdbcfc1c33e82981dbeba65",
+  "holdout_freeze_sha256": "6b31a57e46bd56cbcb6a57251e3dcdd8749312fa59d2f764ad8f44ada1f2b4d2",
+  "full_A1_statistical_experiment": "NOT_RUN"
+}

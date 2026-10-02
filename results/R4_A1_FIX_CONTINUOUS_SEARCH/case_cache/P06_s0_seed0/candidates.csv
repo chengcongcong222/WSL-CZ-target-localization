@@ -1,0 +1,2 @@
+case_id,r_km,theta_deg,v_mps,psi_deg,J_exact,z_star_label_m,bearing_cost,keep_tau05
+P06_s0_seed0,55.360000000000284,1.1700000000000017,2.4299999999994442,9.3800000000018713,1.2283418180862422e-10,200,0,True

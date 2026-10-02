@@ -1,0 +1,94 @@
+{
+  "implementation_version": 2,
+  "initialization_correction": "Initialize nondegenerate theta-offset diversity within the continuous likelihood region; V1 evidence retained in INITIAL_IMPLEMENTATION.",
+  "baseline_commit": "4633ff091874bc27d54017a9aff3b87cd4eed97d",
+  "method": "bounded bearing multistart + observation-profiled theta + two global acoustic DE islands + multibasin local refinement + exact modal verification",
+  "RC2_LS_starts": 32,
+  "RC2_LS_max_nfev": 300,
+  "RC2_sobol_power": 12,
+  "RC2_cutoff_coefficient": 13.3,
+  "noiseless_cost_tolerance": 1e-20,
+  "forward_acoustic_tolerance_db": 1e-10,
+  "parameter_bounds": {
+    "low": [
+      45.0,
+      -5.0,
+      1.0,
+      -15.0
+    ],
+    "high": [
+      60.0,
+      5.0,
+      3.0,
+      15.0
+    ]
+  },
+  "pressure_spline_step_m": 1.0,
+  "pressure_spline_range_m": [
+    39000.0,
+    66000.0
+  ],
+  "pressure_spline_validation_seed": 20261003,
+  "pressure_spline_validation_points": 256,
+  "pressure_spline_TL_tolerance_db": 0.001,
+  "acoustic_DE_population": 128,
+  "acoustic_DE_generations": 160,
+  "acoustic_DE_islands": 2,
+  "acoustic_DE_seeds": [
+    771001,
+    771002
+  ],
+  "DE_mutation": [
+    0.5,
+    1.0
+  ],
+  "DE_recombination": 0.7,
+  "local_basins_per_island": 8,
+  "local_max_nfev": 150,
+  "exact_polish_basins": 4,
+  "exact_polish_max_nfev": 80,
+  "candidate_tau_db": 0.5,
+  "acoustic_basin_recovery_db": 0.001,
+  "candidate_dedup_resolution": [
+    0.005,
+    0.001,
+    0.005,
+    0.05
+  ],
+  "development_nominal_seeds": [
+    410001
+  ],
+  "holdout_rule": {
+    "seed": 2026100203,
+    "panel_prefix": "Q",
+    "n": 6,
+    "r_km": [
+      47.0,
+      55.5
+    ],
+    "theta_deg": [
+      -1.2,
+      1.2
+    ],
+    "v_mps": [
+      1.5,
+      2.5
+    ],
+    "psi_deg": [
+      -9.0,
+      9.0
+    ],
+    "z_m": [
+      180.0,
+      200.0,
+      220.0
+    ],
+    "reject_distance_to_any_coarse_axis_less_than": 1e-06,
+    "nominal_seeds": [
+      420001,
+      420002
+    ]
+  },
+  "gate_scope": "noiseless + nominal repair only; no engineering tolerance claim; R4 credit remains zero",
+  "all_hyperparameters": "Frozen before development search and holdout observation generation; no retuning to panel success."
+}

@@ -1,0 +1,39 @@
+{
+  "frozen_utc": "2026-10-02T07:54:41.422352+00:00",
+  "sha256": {
+    "R4_A1_FIX_CONFIG.json": "1e516c23ef916eaf142893622af4023902b33e25220378b3d8e6598017056ce7",
+    "METHOD_FREEZE.md": "b136237509cc4b18c2bd56b105723f8944cf6ba5faa5d754e75c81ad605c9439",
+    "HOLDOUT_TRUTH_PANEL.csv": "ca167427cf7d3059fe548f635651cf816a5c1013cc6930355739dddd81811a26"
+  },
+  "rule": {
+    "seed": 2026100202,
+    "n": 6,
+    "r_km": [
+      47.0,
+      55.5
+    ],
+    "theta_deg": [
+      -1.2,
+      1.2
+    ],
+    "v_mps": [
+      1.5,
+      2.5
+    ],
+    "psi_deg": [
+      -9.0,
+      9.0
+    ],
+    "z_m": [
+      180.0,
+      200.0,
+      220.0
+    ],
+    "reject_distance_to_any_coarse_axis_less_than": 1e-06,
+    "nominal_seeds": [
+      420001,
+      420002
+    ]
+  },
+  "before_holdout_observations": true
+}

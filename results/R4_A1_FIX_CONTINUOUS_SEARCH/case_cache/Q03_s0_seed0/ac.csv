@@ -1,0 +1,2 @@
+case_id,stage,island,success,nfev,Jmin
+Q03_s0_seed0,NOISELESS_RC2_HYPOTHESES,0,True,1,1.3579239840224574e-11

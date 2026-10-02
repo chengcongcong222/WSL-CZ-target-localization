@@ -13,21 +13,28 @@
     "B4": 5,
     "C": 15
   },
-  "current_stage": "A1",
-  "A1_status": "BLOCKED_BY_OFFGRID_COARSE_GRID_SELECTION",
-  "independent_audit_status": "PENDING_AUDIT_OF_STRUCTURAL_STOP_COMMIT",
+  "current_stage": "A1-FIX",
+  "A1_status": "BLOCKED_BY_CONTINUOUS_SEARCH",
+  "independent_audit_status": "A1_1_ACCEPTED; A1_FIX_COMMIT_PENDING_AUDIT",
   "progress_rule": "Credit only after the research lead audits the stage commit; script completion alone receives no credit.",
   "P5": "NOT_OPENED",
   "A1_gates": {
-    "A1-1": "OFFGRID_EVALUATION_PIPELINE_VALIDATED_PENDING_INDEPENDENT_AUDIT",
+    "A1-1": "OFFGRID_PIPELINE_INDEPENDENT_AUDIT_PASSED",
     "A1-2": "PILOT_QUANTIZATION_AND_EXCESS_ERROR_DIAGNOSED_FULL_GATE_INCOMPLETE",
     "A1-3": "BLOCKED_FULL_END_TO_END_BEARING_BOUNDARY_NOT_RUN",
     "A1-4": "NO_STABLE_REGION_ESTABLISHED"
   },
   "blockers": [
-    "Coarse bearing-grid mismatch is not represented in the RC2 selection rule; better sensor precision can delete the true neighborhood.",
-    "Nearest coarse state has higher modal mismatch score than the selected wrong state in all27 pilot cases; quantization floors alone do not describe estimator errors.",
-    "Full end-to-end multi-sigma Monte Carlo and a reliable continuous-horizontal estimator have not been established."
+    "Finite continuous acoustic search has not recovered every matched truth basin; no physical non-identifiability conclusion is warranted."
   ],
-  "next_recommended_stage": "R4-A1-FIX: validate a truth-independent RC2 quantization/continuation treatment and continuous-horizontal scoring strategy; rerun the unchanged frozen panel/seeds after independent review. Do not open A2/B/P5."
+  "next_recommended_stage": "A1-FIX search coverage/convergence review; do not open A2/B/P5",
+  "A1_FIX": "A1_FIX_BLOCKED_BY_FINITE_CONTINUOUS_SEARCH_FAILURE",
+  "A1_FIX_gates": {
+    "CONTINUOUS_FORWARD_SELF_MATCH_VALIDATED": true,
+    "TRUTH_INDEPENDENT_RC2_CONTINUATION_VALIDATED": true,
+    "CONTINUOUS_MULTIFREQUENCY_SEARCH_VALIDATED": false,
+    "LEGACY_R3_CONTROL_PRESERVED": true,
+    "FROZEN_OFFGRID_REGRESSION_IMPROVED": false,
+    "HOLDOUT_OFFGRID_STRUCTURAL_GENERALIZATION_CONFIRMED": false
+  }
 }

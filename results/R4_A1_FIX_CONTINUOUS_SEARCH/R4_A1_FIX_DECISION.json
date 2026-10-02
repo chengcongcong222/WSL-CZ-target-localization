@@ -1,0 +1,35 @@
+{
+  "decision": "A1_FIX_BLOCKED_BY_FINITE_CONTINUOUS_SEARCH_FAILURE",
+  "gates": {
+    "CONTINUOUS_FORWARD_SELF_MATCH_VALIDATED": true,
+    "TRUTH_INDEPENDENT_RC2_CONTINUATION_VALIDATED": true,
+    "CONTINUOUS_MULTIFREQUENCY_SEARCH_VALIDATED": false,
+    "LEGACY_R3_CONTROL_PRESERVED": true,
+    "FROZEN_OFFGRID_REGRESSION_IMPROVED": false,
+    "HOLDOUT_OFFGRID_STRUCTURAL_GENERALIZATION_CONFIRMED": false
+  },
+  "overall_progress_percent": 0,
+  "A1_status": "BLOCKED",
+  "no_engineering_tolerance_claim": true,
+  "no_exact_continuous_alias_demonstrated": true,
+  "scope": {
+    "V2_cases": 36,
+    "regression_noiseless": 9,
+    "regression_nominal": 9,
+    "holdout_noiseless": 6,
+    "holdout_nominal": 12,
+    "V1_excluded_from_confirmation": true
+  },
+  "frozen_basin_recovery_threshold_db": 0.001,
+  "nominal_cases_unrecovered": [
+    "P02_s0.1_seed410001",
+    "P04_s0.1_seed410001",
+    "P05_s0.1_seed410001",
+    "P06_s0.1_seed410001",
+    "P09_s0.1_seed410001",
+    "Q01_s0.1_seed420001",
+    "Q01_s0.1_seed420002",
+    "Q04_s0.1_seed420001",
+    "Q05_s0.1_seed420001"
+  ]
+}

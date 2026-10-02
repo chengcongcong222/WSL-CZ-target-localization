@@ -1,0 +1,10 @@
+check,pass_check,detail
+truth_free_rc2,True,"(observed, sigma)"
+truth_free_acoustic_search,True,"(model, bearing, tl, sigma, cloud, cutoff)"
+truth_free_theta_profile,True,"(rvpsi, observed)"
+frozen_R4_A1_FIX_CONFIG.json,True,d82e7c39c23e91ddb8a47d498431c97e4fefa886c5fdbdcb6130e38e62c0346f
+frozen_METHOD_FREEZE.md,True,c8d45a018add793365182c780b53bfe1d554299874ff844e8869c94c08cdfac3
+frozen_HOLDOUT_TRUTH_PANEL.csv,True,5b94a60e7dd7e7cf34902344d5f83ce92055c06954a873f76848a0a04c891607
+legacy_unchanged_R3_C2_Yang_SA_depth,True,[]
+legacy_unchanged_R3_RC23_CLOSEDLOOP,True,[]
+legacy_unchanged_R4_A1_OFFGRID_BEARING_BOUNDARY,True,[]
