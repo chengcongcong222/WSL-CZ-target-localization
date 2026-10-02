@@ -4,9 +4,10 @@ RC3 profiled TL margin,Yes,Yes,Yes,Yes(4G),No,No,CONFIRMED_IDEAL
 Turn virtual baseline,Yes,Yes,Yes,N/A,N/A,No,CONFIRMED_IDEAL
 Multifrequency alias complement,Yes,Yes,Yes,Yes(freq),No,No,CONFIRMED_IDEAL
 201+235+283 range anchor,Yes,Yes,Yes,PARTIAL,NO,No,CONFIRMED_IN_TESTED_CONTROL
-Amplitude robustness (1dB),Yes,Yes,Yes,YES(1dB),No,No,RANK_ROBUST
-Frequency drift (2% tracked),Yes,Yes,Yes,YES(2%),No,No,STRICT_ANCHOR_SURVIVES
-SSP mismatch,Yes,Yes,Yes,DEGRADES,No,No,CRITICAL_DEPENDENCY
+Amplitude robustness (1dB),Yes,Yes,Yes,RANK_ROBUST_TO_TESTED_1DB_STRICT_SINGLE_BIN_NOT_UNIFORM_FROM_0P25DB,No,No,RANK_ROBUST
+Frequency drift (2% tracked),Yes,Yes,Yes,YES(2%_WITH_PERFECT_TRACKING),No,No,STRICT_ANCHOR_SURVIVES
+SSP mismatch,Yes,Yes,Yes,E1_RANK_2_24_E2_RANK_6_29,No,No,SSP_MODEL_MATCH_IS_A_CRITICAL_DEPENDENCY_IN_TESTED_STRESS
+Four-dimensional parameter-contraction audit,Yes,Yes,Yes,144_EXISTING_STRESS_CASES_AUDITED,No,No,PARAMETER_CONTRACTION_AUDIT_COMPLETE
 TDOA physical upper bound,Yes,Yes,N/A,N/A,N/A,No,PHYSICAL_REFERENCE
 Single-depth TDOA extraction,Yes,Yes,N/A,UNSTABLE,No,No,CLOSED
 VLA slope transfer,Yes,Partial,N/A,NOT_ESTABLISHED,No,No,CLOSED

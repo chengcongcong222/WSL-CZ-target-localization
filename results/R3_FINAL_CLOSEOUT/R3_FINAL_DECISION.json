@@ -9,14 +9,37 @@
   "real_ocean_performance": "NOT_ESTABLISHED",
   "five_parameter_lt10pct": "NOT_ESTABLISHED",
   "P5": "NOT_OPENED",
-  "overall_label": "R3_CLOSEOUT_PROVISIONAL_PENDING_GPT_FINAL_AUDIT",
+  "overall_label": "R3_MAINLINE_MECHANISM_CONFIRMED_WITH_ENVIRONMENT_MATCH_AS_CRITICAL_DEPENDENCY",
   "auxiliary_labels": [
     "TURN_ASSISTED_MULTIFREQUENCY_RANGE_ANCHOR_CONFIRMED_IN_TESTED_CONTROL",
     "MULTIFREQUENCY_ALIAS_COMPLEMENTARITY_CONFIRMED",
-    "SSP_MISMATCH_IS_CURRENT_PRIMARY_TESTED_FAILURE_BOUNDARY"
+    "SSP_MODEL_MATCH_IS_A_CRITICAL_DEPENDENCY_IN_TESTED_STRESS"
   ],
   "created_utc": "2026-09-30T18:10:00Z",
-  "note": "Structural data-only parameter-contraction audit complete; awaiting GPT final audit. Top1 truth and full-survivor diagnostics are separate.",
-  "parameter_contraction_audit": "PARAMETER_CONTRACTION_AUDIT_COMPLETE",
-  "parameter_contraction_decision": "../R3_FINAL_PARAMETER_CONTRACTION/R3_FINAL_PARAMETER_CONTRACTION_DECISION.json"
+  "note": "Parameter-contraction audit accepted by the user-provided GPT independent audit of d3394e3. R3 frozen after documentation-only canonical sync. Top1 truth and full-survivor diagnostics are separate; this does not establish requirement acceptance or real-ocean performance.",
+  "parameter_contraction_audit": "COMPLETE",
+  "parameter_contraction_audit_label": "PARAMETER_CONTRACTION_AUDIT_COMPLETE",
+  "parameter_contraction_decision": "../R3_FINAL_PARAMETER_CONTRACTION/R3_FINAL_PARAMETER_CONTRACTION_DECISION.json",
+  "canonical_status": "R3_FROZEN",
+  "canonical_sync_date": "2026-10-02",
+  "canonical_sync_baseline_commit": "d3394e3cc3c2f03aaa88e9ff24e6b3f4e8bf2e6f",
+  "audit_acceptance_source": "USER_PROVIDED_GPT_INDEPENDENT_AUDIT",
+  "final_nominal_candidate_set": {
+    "r": 50,
+    "theta": 0,
+    "v": 2,
+    "psi": [4, 5],
+    "units": {"r": "km", "theta": "deg", "v": "m/s", "psi": "deg"}
+  },
+  "final_remaining_dimension": "psi",
+  "final_nominal_universal_lt10pct_set_bound": "NOT_ESTABLISHED",
+  "top1_truth_status": "UNIQUE_FULL_TRUTH_STATE_IS_BEST_IN_ALL_SIX_MATCHED_CONTROL_CASES",
+  "RC1_contraction_ratio": "NOT_IDENTIFIABLE",
+  "final_nominal_survivor_count": 2,
+  "final_nominal_excluded_fraction_percent": 99.998254,
+  "final_nominal_scope": "S7/S8 at all three depths within frozen 114576-node RC1-conditioned discrete grid",
+  "diagnostic_label": "DIAGNOSTIC_ONLY_NOT_REQUIREMENT_VERIFICATION",
+  "ssp_dependency_label": "SSP_MODEL_MATCH_IS_A_CRITICAL_DEPENDENCY_IN_TESTED_STRESS",
+  "numerical_or_physical_computation_in_canonical_sync": false,
+  "historical_audit_policy": "Preserved as dated evidence snapshots; this closeout decision is the canonical frozen R3 status."
 }
