@@ -1,0 +1,10 @@
+{
+  "provenance": {
+    "audit_code_sha256": "6d2cf50f32af98146e8c5073c2bd84cf32a4b0e5eec94a1b6a9725da4419fc5a",
+    "method_freeze_sha256": "0b00b1e074cce7dff1cc621c01930ab9099a20007cd848846ac01d6bb363a5fb",
+    "historical_observations_sha256": "d92493e6343d7a4305fc06c053d27e9aa8801a3e6cceea27295eaefe12a1b525"
+  },
+  "cache_sha256": "2dc0ec8c83fa87c2badece284b3c43292ed1b745057bf8b0080f6a2ea4dcccd4",
+  "fresh_observation_sha256": "14f8d410176b00100f951018f75047c708148a541093c377221a0c268c9f3e43",
+  "scope": "development + independent + fresh confirmation"
+}

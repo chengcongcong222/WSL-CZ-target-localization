@@ -1,0 +1,13 @@
+{
+  "frozen_utc": "2026-10-02T16:36:37.977269+00:00",
+  "sha256": {
+    "r4_a1_fix2_coverage.py": "2802e9e163767f2aa2a907080416348e293e847799d35369c0750053669d60e9",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/FIX2_METHOD.md": "0e8eff9f6964c9bd508bb0e136f4f3637ec6c8a91471ed5d388cb48ef8cb7a93",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/SEARCH_BUDGET_PREREGISTRATION.json": "308c9f7571a4b8ccc284087198ddb8c09f3195ed686a6668815b3ba95892a5f3",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/INDEPENDENT_SUPPLEMENT_DESIGN.json": "b0a56e65231efbe5d04f5f22f3bf82cf1bf7e38523175ebb1403374ebd54b674",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/FROZEN_INPUT_HASHES.csv": "b4069c6071d9b0a5bc29a66fe41fcd1d4ee6dbf59b7d774f1a42eb221a0b18e2"
+  },
+  "search_budget": "B3",
+  "recovery_threshold_db": 0.001,
+  "before_new_holdout_panel_generation": true
+}

@@ -1,0 +1,2 @@
+case_id,source,candidate_index,exact_J,bearing_rms_deg,distinct_joint_exact_match
+ALL_EXPORTED_CONTROLS,finite candidate catalogs,-1,,,False

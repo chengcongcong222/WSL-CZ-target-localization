@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-10-02T16:40:16.620409+00:00",
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.9",
+    "threadpoolctl": "3.6.0"
+  },
+  "fresh_process_shards": 4,
+  "blas_threads_per_process": 2,
+  "search_scheduling_only": "Panel index modulo four; aggregate original panel order; identical per-case seeds and budgets"
+}

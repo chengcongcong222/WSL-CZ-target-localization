@@ -1,0 +1,16 @@
+{
+  "reason": "Additional failures exposed by completed development search; diagnostic only, unchanged independent family/budget",
+  "case_ids": [
+    "P02_s0.1_seed410001",
+    "Q06_s0.1_seed420001"
+  ],
+  "solver": {
+    "family": "independent Sobol radial bank + derivative-free Nelder-Mead",
+    "sobol_power": 18,
+    "seed": 773003,
+    "starts_per_depth": 4,
+    "maxiter": 2500,
+    "xatol": 1e-09,
+    "fatol": 1e-14
+  }
+}

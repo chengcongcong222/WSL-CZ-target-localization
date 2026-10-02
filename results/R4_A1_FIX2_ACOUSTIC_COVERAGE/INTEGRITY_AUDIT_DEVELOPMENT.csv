@@ -1,0 +1,902 @@
+check,pass_check,detail
+Historical evidence and R3 frozen inputs,True,382/382 raw byte hashes match; LF portability allowed only for inherited Python/R3 score CSV
+Frozen method/config/code bytes,True,"{'r4_a1_fix2_coverage.py': '2802e9e163767f2aa2a907080416348e293e847799d35369c0750053669d60e9', 'results/R4_A1_FIX2_ACOUSTIC_COVERAGE/FIX2_METHOD.md': '0e8eff9f6964c9bd508bb0e136f4f3637ec6c8a91471ed5d388cb48ef8cb7a93', 'results/R4_A1_FIX2_ACOUSTIC_COVERAGE/SEARCH_BUDGET_PREREGISTRATION.json': '308c9f7571a4b8ccc284087198ddb8c09f3195ed686a6668815b3ba95892a5f3', 'results/R4_A1_FIX2_ACOUSTIC_COVERAGE/INDEPENDENT_SUPPLEMENT_DESIGN.json': 'b0a56e65231efbe5d04f5f22f3bf82cf1bf7e38523175ebb1403374ebd54b674', 'results/R4_A1_FIX2_ACOUSTIC_COVERAGE/FROZEN_INPUT_HASHES.csv': 'b4069c6071d9b0a5bc29a66fe41fcd1d4ee6dbf59b7d774f1a42eb221a0b18e2'}"
+Fresh panel/design hashes,True,"{'FRESH_HOLDOUT_PANEL.csv': '223193eefec9c8b666fed23315e4514e6edf972813665cd937198ca064bcb14f', 'METHOD_FREEZE.json': '0b00b1e074cce7dff1cc621c01930ab9099a20007cd848846ac01d6bb363a5fb'}"
+Method frozen before fresh panel design,True,2026-10-02T16:36:37.991566+00:00
+Preregistered unchanged search configuration,True,Threshold remains .001 dB
+Search functions exclude truth/evaluation helpers,True,Seven observation-only search APIs; runtime sentinel test also passed
+Fresh truths exactly reproduce frozen seed/rule,True,"{'seed': 2026100204, 'n': 8, 'prefix': 'F', 'nominal_seeds': [430001, 430002], 'low': [47.0, -1.2, 1.5, -9.0], 'high': [55.5, 1.2, 2.5, 9.0], 'depths': [180.0, 200.0, 220.0]}"
+Every fresh coordinate is off-grid,True,"8 truths, all four coordinates"
+Physical state bounds P01_s0.1_seed410001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P01_s0.1_seed410001 B1,True,"(124, 6.283862319378386e-13)"
+Top ranking and recovery P01_s0.1_seed410001 B1,True,0.7481412539366675
+Errors/envelope P01_s0.1_seed410001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P01_s0.1_seed410001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P01_s0.1_seed410001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P01_s0.1_seed410001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P01_s0.1_seed410001,True,"(0.0002939454640967375, 0.0003285081001557)"
+Physical state bounds P01_s0.1_seed410001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P01_s0.1_seed410001 B2,True,"(338, 2.3581137043038325e-12)"
+Top ranking and recovery P01_s0.1_seed410001 B2,True,6.6789015150945184e-12
+Errors/envelope P01_s0.1_seed410001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P01_s0.1_seed410001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P01_s0.1_seed410001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P01_s0.1_seed410001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P01_s0.1_seed410001,True,"(0.0002939454640967375, 0.0003285081001557)"
+Physical state bounds P01_s0.1_seed410001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P01_s0.1_seed410001 B3,True,"(705, 2.3581137043038325e-12)"
+Top ranking and recovery P01_s0.1_seed410001 B3,True,5.523146262105808e-12
+Errors/envelope P01_s0.1_seed410001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P01_s0.1_seed410001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P01_s0.1_seed410001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P01_s0.1_seed410001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P01_s0.1_seed410001,True,"(0.0002939454640967375, 0.0003285081001557)"
+Physical state bounds P01_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P01_s0_seed0 B1,True,"(1, 0.0)"
+Top ranking and recovery P01_s0_seed0 B1,True,1.6448175180222957e-11
+Errors/envelope P01_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P01_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P01_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P01_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P01_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P01_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P01_s0_seed0 B2,True,"(1, 0.0)"
+Top ranking and recovery P01_s0_seed0 B2,True,1.6448175180222957e-11
+Errors/envelope P01_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P01_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P01_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P01_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P01_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P01_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P01_s0_seed0 B3,True,"(1, 0.0)"
+Top ranking and recovery P01_s0_seed0 B3,True,1.6448175180222957e-11
+Errors/envelope P01_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P01_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P01_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P01_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P01_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P02_s0.1_seed410001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P02_s0.1_seed410001 B1,True,"(121, 9.757972208035426e-12)"
+Top ranking and recovery P02_s0.1_seed410001 B1,True,1.1128787544178431
+Errors/envelope P02_s0.1_seed410001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P02_s0.1_seed410001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P02_s0.1_seed410001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P02_s0.1_seed410001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P02_s0.1_seed410001,True,"(0.00035437806004337113, 0.0003870993648956)"
+Physical state bounds P02_s0.1_seed410001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P02_s0.1_seed410001 B2,True,"(281, 9.757972208035426e-12)"
+Top ranking and recovery P02_s0.1_seed410001 B2,True,1.1128787544178431
+Errors/envelope P02_s0.1_seed410001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P02_s0.1_seed410001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P02_s0.1_seed410001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P02_s0.1_seed410001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P02_s0.1_seed410001,True,"(0.00035437806004337113, 0.0003870993648956)"
+Physical state bounds P02_s0.1_seed410001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P02_s0.1_seed410001 B3,True,"(649, 1.906785840333214e-11)"
+Top ranking and recovery P02_s0.1_seed410001 B3,True,0.9748875785906116
+Errors/envelope P02_s0.1_seed410001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P02_s0.1_seed410001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P02_s0.1_seed410001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P02_s0.1_seed410001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P02_s0.1_seed410001,True,"(0.00035437806004337113, 0.0003870993648956)"
+Physical state bounds P02_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P02_s0_seed0 B1,True,"(1, 1.2665109859061169e-11)"
+Top ranking and recovery P02_s0_seed0 B1,True,1.5020236065513935e-10
+Errors/envelope P02_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P02_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P02_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P02_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P02_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P02_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P02_s0_seed0 B2,True,"(1, 1.2665109859061169e-11)"
+Top ranking and recovery P02_s0_seed0 B2,True,1.5020236065513935e-10
+Errors/envelope P02_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P02_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P02_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P02_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P02_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P02_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P02_s0_seed0 B3,True,"(1, 1.2665109859061169e-11)"
+Top ranking and recovery P02_s0_seed0 B3,True,1.5020236065513935e-10
+Errors/envelope P02_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P02_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P02_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P02_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P02_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P03_s0.1_seed410001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P03_s0.1_seed410001 B1,True,"(121, 2.491938809887863e-12)"
+Top ranking and recovery P03_s0.1_seed410001 B1,True,5.271289829612784e-12
+Errors/envelope P03_s0.1_seed410001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P03_s0.1_seed410001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P03_s0.1_seed410001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P03_s0.1_seed410001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P03_s0.1_seed410001,True,"(0.00026262905222075984, 0.0002992414373849)"
+Physical state bounds P03_s0.1_seed410001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P03_s0.1_seed410001 B2,True,"(294, 2.491938809887863e-12)"
+Top ranking and recovery P03_s0.1_seed410001 B2,True,5.271289829612784e-12
+Errors/envelope P03_s0.1_seed410001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P03_s0.1_seed410001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P03_s0.1_seed410001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P03_s0.1_seed410001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P03_s0.1_seed410001,True,"(0.00026262905222075984, 0.0002992414373849)"
+Physical state bounds P03_s0.1_seed410001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P03_s0.1_seed410001 B3,True,"(662, 2.6311175460591585e-12)"
+Top ranking and recovery P03_s0.1_seed410001 B3,True,5.271289829612784e-12
+Errors/envelope P03_s0.1_seed410001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P03_s0.1_seed410001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P03_s0.1_seed410001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P03_s0.1_seed410001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P03_s0.1_seed410001,True,"(0.00026262905222075984, 0.0002992414373849)"
+Physical state bounds P03_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P03_s0_seed0 B1,True,"(1, 0.0)"
+Top ranking and recovery P03_s0_seed0 B1,True,1.2966354856371568e-11
+Errors/envelope P03_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P03_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P03_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P03_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P03_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P03_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P03_s0_seed0 B2,True,"(1, 0.0)"
+Top ranking and recovery P03_s0_seed0 B2,True,1.2966354856371568e-11
+Errors/envelope P03_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P03_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P03_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P03_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P03_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P03_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P03_s0_seed0 B3,True,"(1, 0.0)"
+Top ranking and recovery P03_s0_seed0 B3,True,1.2966354856371568e-11
+Errors/envelope P03_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P03_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P03_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P03_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P03_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P04_s0.1_seed410001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P04_s0.1_seed410001 B1,True,"(123, 2.1329604749098507e-12)"
+Top ranking and recovery P04_s0.1_seed410001 B1,True,1.4409213936979046
+Errors/envelope P04_s0.1_seed410001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P04_s0.1_seed410001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P04_s0.1_seed410001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P04_s0.1_seed410001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P04_s0.1_seed410001,True,"(0.00032590625122644914, 0.0003532788941251)"
+Physical state bounds P04_s0.1_seed410001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P04_s0.1_seed410001 B2,True,"(313, 3.4208191834750323e-12)"
+Top ranking and recovery P04_s0.1_seed410001 B2,True,1.862169093207764e-11
+Errors/envelope P04_s0.1_seed410001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P04_s0.1_seed410001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P04_s0.1_seed410001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P04_s0.1_seed410001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P04_s0.1_seed410001,True,"(0.00032590625122644914, 0.0003532788941251)"
+Physical state bounds P04_s0.1_seed410001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P04_s0.1_seed410001 B3,True,"(708, 1.6645351763600047e-11)"
+Top ranking and recovery P04_s0.1_seed410001 B3,True,1.862169093207764e-11
+Errors/envelope P04_s0.1_seed410001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P04_s0.1_seed410001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P04_s0.1_seed410001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P04_s0.1_seed410001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P04_s0.1_seed410001,True,"(0.00032590625122644914, 0.0003532788941251)"
+Physical state bounds P04_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P04_s0_seed0 B1,True,"(1, 0.0)"
+Top ranking and recovery P04_s0_seed0 B1,True,2.5773234379680474e-11
+Errors/envelope P04_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P04_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P04_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P04_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P04_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P04_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P04_s0_seed0 B2,True,"(1, 0.0)"
+Top ranking and recovery P04_s0_seed0 B2,True,2.5773234379680474e-11
+Errors/envelope P04_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P04_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P04_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P04_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P04_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P04_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P04_s0_seed0 B3,True,"(1, 0.0)"
+Top ranking and recovery P04_s0_seed0 B3,True,2.5773234379680474e-11
+Errors/envelope P04_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P04_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P04_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P04_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P04_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P05_s0.1_seed410001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P05_s0.1_seed410001 B1,True,"(121, 2.7702284910446906e-12)"
+Top ranking and recovery P05_s0.1_seed410001 B1,True,1.1933145582170032e-11
+Errors/envelope P05_s0.1_seed410001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P05_s0.1_seed410001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P05_s0.1_seed410001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P05_s0.1_seed410001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P05_s0.1_seed410001,True,"(0.0003387619095943967, 0.0003750143152114)"
+Physical state bounds P05_s0.1_seed410001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P05_s0.1_seed410001 B2,True,"(299, 3.1157298963080393e-12)"
+Top ranking and recovery P05_s0.1_seed410001 B2,True,1.1933145582170032e-11
+Errors/envelope P05_s0.1_seed410001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P05_s0.1_seed410001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P05_s0.1_seed410001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P05_s0.1_seed410001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P05_s0.1_seed410001,True,"(0.0003387619095943967, 0.0003750143152114)"
+Physical state bounds P05_s0.1_seed410001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P05_s0.1_seed410001 B3,True,"(662, 3.1157298963080393e-12)"
+Top ranking and recovery P05_s0.1_seed410001 B3,True,1.1933145582170032e-11
+Errors/envelope P05_s0.1_seed410001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P05_s0.1_seed410001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P05_s0.1_seed410001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P05_s0.1_seed410001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P05_s0.1_seed410001,True,"(0.0003387619095943967, 0.0003750143152114)"
+Physical state bounds P05_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P05_s0_seed0 B1,True,"(1, 1.2924697071141057e-26)"
+Top ranking and recovery P05_s0_seed0 B1,True,1.0432751716983937e-10
+Errors/envelope P05_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P05_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P05_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P05_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P05_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P05_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P05_s0_seed0 B2,True,"(1, 1.2924697071141057e-26)"
+Top ranking and recovery P05_s0_seed0 B2,True,1.0432751716983937e-10
+Errors/envelope P05_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P05_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P05_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P05_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P05_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P05_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P05_s0_seed0 B3,True,"(1, 1.2924697071141057e-26)"
+Top ranking and recovery P05_s0_seed0 B3,True,1.0432751716983937e-10
+Errors/envelope P05_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P05_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P05_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P05_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P05_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P06_s0.1_seed410001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P06_s0.1_seed410001 B1,True,"(120, 2.2881696537524476e-11)"
+Top ranking and recovery P06_s0.1_seed410001 B1,True,3.3754710322249816e-11
+Errors/envelope P06_s0.1_seed410001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P06_s0.1_seed410001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P06_s0.1_seed410001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P06_s0.1_seed410001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P06_s0.1_seed410001,True,"(0.00035914253020077734, 0.000391301481075)"
+Physical state bounds P06_s0.1_seed410001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P06_s0.1_seed410001 B2,True,"(328, 2.2881696537524476e-11)"
+Top ranking and recovery P06_s0.1_seed410001 B2,True,2.6130199098928917e-11
+Errors/envelope P06_s0.1_seed410001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P06_s0.1_seed410001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P06_s0.1_seed410001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P06_s0.1_seed410001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P06_s0.1_seed410001,True,"(0.00035914253020077734, 0.000391301481075)"
+Physical state bounds P06_s0.1_seed410001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P06_s0.1_seed410001 B3,True,"(710, 2.2881696537524476e-11)"
+Top ranking and recovery P06_s0.1_seed410001 B3,True,1.939005333221216e-11
+Errors/envelope P06_s0.1_seed410001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P06_s0.1_seed410001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P06_s0.1_seed410001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P06_s0.1_seed410001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P06_s0.1_seed410001,True,"(0.00035914253020077734, 0.000391301481075)"
+Physical state bounds P06_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P06_s0_seed0 B1,True,"(1, 1.2751717826444018e-11)"
+Top ranking and recovery P06_s0_seed0 B1,True,1.2283418180862422e-10
+Errors/envelope P06_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P06_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P06_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P06_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P06_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P06_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P06_s0_seed0 B2,True,"(1, 1.2751717826444018e-11)"
+Top ranking and recovery P06_s0_seed0 B2,True,1.2283418180862422e-10
+Errors/envelope P06_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P06_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P06_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P06_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P06_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P06_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P06_s0_seed0 B3,True,"(1, 1.2751717826444018e-11)"
+Top ranking and recovery P06_s0_seed0 B3,True,1.2283418180862422e-10
+Errors/envelope P06_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P06_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P06_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P06_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P06_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P07_s0.1_seed410001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P07_s0.1_seed410001 B1,True,"(125, 2.9771740628348198e-12)"
+Top ranking and recovery P07_s0.1_seed410001 B1,True,3.631803480099384
+Errors/envelope P07_s0.1_seed410001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P07_s0.1_seed410001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P07_s0.1_seed410001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P07_s0.1_seed410001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P07_s0.1_seed410001,True,"(0.0003535201742346804, 0.0003816904488642)"
+Physical state bounds P07_s0.1_seed410001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P07_s0.1_seed410001 B2,True,"(317, 2.9771740628348198e-12)"
+Top ranking and recovery P07_s0.1_seed410001 B2,True,2.5668775121933768e-11
+Errors/envelope P07_s0.1_seed410001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P07_s0.1_seed410001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P07_s0.1_seed410001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P07_s0.1_seed410001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P07_s0.1_seed410001,True,"(0.0003535201742346804, 0.0003816904488642)"
+Physical state bounds P07_s0.1_seed410001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P07_s0.1_seed410001 B3,True,"(715, 4.772182649048773e-12)"
+Top ranking and recovery P07_s0.1_seed410001 B3,True,2.5668775121933768e-11
+Errors/envelope P07_s0.1_seed410001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P07_s0.1_seed410001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P07_s0.1_seed410001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P07_s0.1_seed410001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P07_s0.1_seed410001,True,"(0.0003535201742346804, 0.0003816904488642)"
+Physical state bounds P07_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P07_s0_seed0 B1,True,"(1, 1.4039586161496408e-11)"
+Top ranking and recovery P07_s0_seed0 B1,True,3.2524117837735147e-10
+Errors/envelope P07_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P07_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P07_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P07_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P07_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P07_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P07_s0_seed0 B2,True,"(1, 1.4039586161496408e-11)"
+Top ranking and recovery P07_s0_seed0 B2,True,3.2524117837735147e-10
+Errors/envelope P07_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P07_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P07_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P07_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P07_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P07_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P07_s0_seed0 B3,True,"(1, 1.4039586161496408e-11)"
+Top ranking and recovery P07_s0_seed0 B3,True,3.2524117837735147e-10
+Errors/envelope P07_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P07_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P07_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P07_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P07_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P08_s0.1_seed410001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P08_s0.1_seed410001 B1,True,"(123, 3.2182034814809413e-12)"
+Top ranking and recovery P08_s0.1_seed410001 B1,True,5.039827579318703e-12
+Errors/envelope P08_s0.1_seed410001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P08_s0.1_seed410001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P08_s0.1_seed410001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P08_s0.1_seed410001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P08_s0.1_seed410001,True,"(0.0002387444404406676, 0.0002767362290843)"
+Physical state bounds P08_s0.1_seed410001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P08_s0.1_seed410001 B2,True,"(291, 3.2182034814809413e-12)"
+Top ranking and recovery P08_s0.1_seed410001 B2,True,5.039827579318703e-12
+Errors/envelope P08_s0.1_seed410001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P08_s0.1_seed410001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P08_s0.1_seed410001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P08_s0.1_seed410001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P08_s0.1_seed410001,True,"(0.0002387444404406676, 0.0002767362290843)"
+Physical state bounds P08_s0.1_seed410001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P08_s0.1_seed410001 B3,True,"(679, 3.2182034814809413e-12)"
+Top ranking and recovery P08_s0.1_seed410001 B3,True,5.039827579318703e-12
+Errors/envelope P08_s0.1_seed410001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P08_s0.1_seed410001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P08_s0.1_seed410001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P08_s0.1_seed410001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P08_s0.1_seed410001,True,"(0.0002387444404406676, 0.0002767362290843)"
+Physical state bounds P08_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P08_s0_seed0 B1,True,"(1, 0.0)"
+Top ranking and recovery P08_s0_seed0 B1,True,1.436930206588577e-11
+Errors/envelope P08_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P08_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P08_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P08_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P08_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P08_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P08_s0_seed0 B2,True,"(1, 0.0)"
+Top ranking and recovery P08_s0_seed0 B2,True,1.436930206588577e-11
+Errors/envelope P08_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P08_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P08_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P08_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P08_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P08_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P08_s0_seed0 B3,True,"(1, 0.0)"
+Top ranking and recovery P08_s0_seed0 B3,True,1.436930206588577e-11
+Errors/envelope P08_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P08_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P08_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P08_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P08_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P09_s0.1_seed410001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P09_s0.1_seed410001 B1,True,"(125, 2.6902924332716793e-12)"
+Top ranking and recovery P09_s0.1_seed410001 B1,True,3.4164437984645453
+Errors/envelope P09_s0.1_seed410001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P09_s0.1_seed410001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P09_s0.1_seed410001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P09_s0.1_seed410001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P09_s0.1_seed410001,True,"(0.00042134611492438095, 0.0004406172410646)"
+Physical state bounds P09_s0.1_seed410001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P09_s0.1_seed410001 B2,True,"(300, 3.092637257395836e-12)"
+Top ranking and recovery P09_s0.1_seed410001 B2,True,2.2177900848264835
+Errors/envelope P09_s0.1_seed410001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P09_s0.1_seed410001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P09_s0.1_seed410001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P09_s0.1_seed410001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P09_s0.1_seed410001,True,"(0.00042134611492438095, 0.0004406172410646)"
+Physical state bounds P09_s0.1_seed410001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P09_s0.1_seed410001 B3,True,"(657, 1.6413093106848464e-11)"
+Top ranking and recovery P09_s0.1_seed410001 B3,True,0.0050871727561195
+Errors/envelope P09_s0.1_seed410001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P09_s0.1_seed410001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P09_s0.1_seed410001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P09_s0.1_seed410001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P09_s0.1_seed410001,True,"(0.00042134611492438095, 0.0004406172410646)"
+Physical state bounds P09_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P09_s0_seed0 B1,True,"(1, 1.2924697071141057e-26)"
+Top ranking and recovery P09_s0_seed0 B1,True,1.1620153607067972e-10
+Errors/envelope P09_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P09_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P09_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P09_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P09_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P09_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P09_s0_seed0 B2,True,"(1, 1.2924697071141057e-26)"
+Top ranking and recovery P09_s0_seed0 B2,True,1.1620153607067972e-10
+Errors/envelope P09_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P09_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P09_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P09_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P09_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P09_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P09_s0_seed0 B3,True,"(1, 1.2924697071141057e-26)"
+Top ranking and recovery P09_s0_seed0 B3,True,1.1620153607067972e-10
+Errors/envelope P09_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope P09_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope P09_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope P09_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible P09_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q01_s0.1_seed420001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q01_s0.1_seed420001 B1,True,"(125, 9.731992989259197e-12)"
+Top ranking and recovery Q01_s0.1_seed420001 B1,True,1.4291115621306474
+Errors/envelope Q01_s0.1_seed420001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q01_s0.1_seed420001,True,"(0.00037302092347658806, 0.0003971002477167)"
+Physical state bounds Q01_s0.1_seed420001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q01_s0.1_seed420001 B2,True,"(358, 9.731992989259197e-12)"
+Top ranking and recovery Q01_s0.1_seed420001 B2,True,2.11922008098354e-10
+Errors/envelope Q01_s0.1_seed420001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q01_s0.1_seed420001,True,"(0.00037302092347658806, 0.0003971002477167)"
+Physical state bounds Q01_s0.1_seed420001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q01_s0.1_seed420001 B3,True,"(661, 1.2948309091598276e-11)"
+Top ranking and recovery Q01_s0.1_seed420001 B3,True,2.11922008098354e-10
+Errors/envelope Q01_s0.1_seed420001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q01_s0.1_seed420001,True,"(0.00037302092347658806, 0.0003971002477167)"
+Physical state bounds Q01_s0.1_seed420002 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q01_s0.1_seed420002 B1,True,"(126, 6.27742302583556e-12)"
+Top ranking and recovery Q01_s0.1_seed420002 B1,True,1.2813962569422597
+Errors/envelope Q01_s0.1_seed420002 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420002 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420002 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420002 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q01_s0.1_seed420002,True,"(0.00045719600934304933, 0.0004934896352479)"
+Physical state bounds Q01_s0.1_seed420002 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q01_s0.1_seed420002 B2,True,"(358, 1.4421353000670933e-11)"
+Top ranking and recovery Q01_s0.1_seed420002 B2,True,1.0791970448510784e-10
+Errors/envelope Q01_s0.1_seed420002 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420002 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420002 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420002 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q01_s0.1_seed420002,True,"(0.00045719600934304933, 0.0004934896352479)"
+Physical state bounds Q01_s0.1_seed420002 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q01_s0.1_seed420002 B3,True,"(652, 1.4421353000670933e-11)"
+Top ranking and recovery Q01_s0.1_seed420002 B3,True,1.0791970448510784e-10
+Errors/envelope Q01_s0.1_seed420002 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420002 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420002 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0.1_seed420002 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q01_s0.1_seed420002,True,"(0.00045719600934304933, 0.0004934896352479)"
+Physical state bounds Q01_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q01_s0_seed0 B1,True,"(1, 0.0)"
+Top ranking and recovery Q01_s0_seed0 B1,True,2.9858199478913187e-10
+Errors/envelope Q01_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q01_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q01_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q01_s0_seed0 B2,True,"(1, 0.0)"
+Top ranking and recovery Q01_s0_seed0 B2,True,2.9858199478913187e-10
+Errors/envelope Q01_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q01_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q01_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q01_s0_seed0 B3,True,"(1, 0.0)"
+Top ranking and recovery Q01_s0_seed0 B3,True,2.9858199478913187e-10
+Errors/envelope Q01_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q01_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q01_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q02_s0.1_seed420001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q02_s0.1_seed420001 B1,True,"(126, 1.4855672247904295e-11)"
+Top ranking and recovery Q02_s0.1_seed420001 B1,True,2.1741706438920596e-11
+Errors/envelope Q02_s0.1_seed420001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q02_s0.1_seed420001,True,"(0.0003517707802014733, 0.0003866552742605)"
+Physical state bounds Q02_s0.1_seed420001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q02_s0.1_seed420001 B2,True,"(328, 1.4855672247904295e-11)"
+Top ranking and recovery Q02_s0.1_seed420001 B2,True,2.1741706438920596e-11
+Errors/envelope Q02_s0.1_seed420001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q02_s0.1_seed420001,True,"(0.0003517707802014733, 0.0003866552742605)"
+Physical state bounds Q02_s0.1_seed420001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q02_s0.1_seed420001 B3,True,"(727, 3.268496584496461e-11)"
+Top ranking and recovery Q02_s0.1_seed420001 B3,True,2.1741706438920596e-11
+Errors/envelope Q02_s0.1_seed420001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q02_s0.1_seed420001,True,"(0.0003517707802014733, 0.0003866552742605)"
+Physical state bounds Q02_s0.1_seed420002 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q02_s0.1_seed420002 B1,True,"(126, 5.5213611460658285e-12)"
+Top ranking and recovery Q02_s0.1_seed420002 B1,True,2.9060501665600725e-11
+Errors/envelope Q02_s0.1_seed420002 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420002 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420002 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420002 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q02_s0.1_seed420002,True,"(0.00045824018368029586, 0.0004909020749694)"
+Physical state bounds Q02_s0.1_seed420002 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q02_s0.1_seed420002 B2,True,"(326, 5.5213611460658285e-12)"
+Top ranking and recovery Q02_s0.1_seed420002 B2,True,2.9060501665600725e-11
+Errors/envelope Q02_s0.1_seed420002 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420002 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420002 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420002 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q02_s0.1_seed420002,True,"(0.00045824018368029586, 0.0004909020749694)"
+Physical state bounds Q02_s0.1_seed420002 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q02_s0.1_seed420002 B3,True,"(726, 2.4909851958909712e-11)"
+Top ranking and recovery Q02_s0.1_seed420002 B3,True,2.9060501665600725e-11
+Errors/envelope Q02_s0.1_seed420002 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420002 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420002 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0.1_seed420002 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q02_s0.1_seed420002,True,"(0.00045824018368029586, 0.0004909020749694)"
+Physical state bounds Q02_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q02_s0_seed0 B1,True,"(1, 0.0)"
+Top ranking and recovery Q02_s0_seed0 B1,True,6.909688548906352e-11
+Errors/envelope Q02_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q02_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q02_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q02_s0_seed0 B2,True,"(1, 0.0)"
+Top ranking and recovery Q02_s0_seed0 B2,True,6.909688548906352e-11
+Errors/envelope Q02_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q02_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q02_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q02_s0_seed0 B3,True,"(1, 0.0)"
+Top ranking and recovery Q02_s0_seed0 B3,True,6.909688548906352e-11
+Errors/envelope Q02_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q02_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q02_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q03_s0.1_seed420001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q03_s0.1_seed420001 B1,True,"(123, 2.72959432834341e-12)"
+Top ranking and recovery Q03_s0.1_seed420001 B1,True,0.0016589793881854
+Errors/envelope Q03_s0.1_seed420001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q03_s0.1_seed420001,True,"(0.0004028657897306187, 0.0004388634228798)"
+Physical state bounds Q03_s0.1_seed420001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q03_s0.1_seed420001 B2,True,"(294, 2.72959432834341e-12)"
+Top ranking and recovery Q03_s0.1_seed420001 B2,True,6.077859711761373e-12
+Errors/envelope Q03_s0.1_seed420001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q03_s0.1_seed420001,True,"(0.0004028657897306187, 0.0004388634228798)"
+Physical state bounds Q03_s0.1_seed420001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q03_s0.1_seed420001 B3,True,"(641, 2.72959432834341e-12)"
+Top ranking and recovery Q03_s0.1_seed420001 B3,True,6.077859711761373e-12
+Errors/envelope Q03_s0.1_seed420001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q03_s0.1_seed420001,True,"(0.0004028657897306187, 0.0004388634228798)"
+Physical state bounds Q03_s0.1_seed420002 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q03_s0.1_seed420002 B1,True,"(123, 2.0765611452588928e-12)"
+Top ranking and recovery Q03_s0.1_seed420002 B1,True,7.332870718311467e-12
+Errors/envelope Q03_s0.1_seed420002 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420002 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420002 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420002 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q03_s0.1_seed420002,True,"(0.0003760232960095617, 0.0004106140005907)"
+Physical state bounds Q03_s0.1_seed420002 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q03_s0.1_seed420002 B2,True,"(291, 2.0765611452588928e-12)"
+Top ranking and recovery Q03_s0.1_seed420002 B2,True,7.175051992221797e-12
+Errors/envelope Q03_s0.1_seed420002 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420002 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420002 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420002 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q03_s0.1_seed420002,True,"(0.0003760232960095617, 0.0004106140005907)"
+Physical state bounds Q03_s0.1_seed420002 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q03_s0.1_seed420002 B3,True,"(637, 4.199751657552042e-12)"
+Top ranking and recovery Q03_s0.1_seed420002 B3,True,7.175051992221797e-12
+Errors/envelope Q03_s0.1_seed420002 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420002 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420002 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0.1_seed420002 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q03_s0.1_seed420002,True,"(0.0003760232960095617, 0.0004106140005907)"
+Physical state bounds Q03_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q03_s0_seed0 B1,True,"(1, 0.0)"
+Top ranking and recovery Q03_s0_seed0 B1,True,1.3579239840224574e-11
+Errors/envelope Q03_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q03_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q03_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q03_s0_seed0 B2,True,"(1, 0.0)"
+Top ranking and recovery Q03_s0_seed0 B2,True,1.3579239840224574e-11
+Errors/envelope Q03_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q03_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q03_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q03_s0_seed0 B3,True,"(1, 0.0)"
+Top ranking and recovery Q03_s0_seed0 B3,True,1.3579239840224574e-11
+Errors/envelope Q03_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q03_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q03_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q04_s0.1_seed420001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q04_s0.1_seed420001 B1,True,"(126, 2.44582132324922e-12)"
+Top ranking and recovery Q04_s0.1_seed420001 B1,True,1.6117051876488375
+Errors/envelope Q04_s0.1_seed420001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q04_s0.1_seed420001,True,"(0.00034349160306578516, 0.0003612855169606)"
+Physical state bounds Q04_s0.1_seed420001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q04_s0.1_seed420001 B2,True,"(327, 3.2360780721774063e-12)"
+Top ranking and recovery Q04_s0.1_seed420001 B2,True,1.491463231110744e-11
+Errors/envelope Q04_s0.1_seed420001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q04_s0.1_seed420001,True,"(0.00034349160306578516, 0.0003612855169606)"
+Physical state bounds Q04_s0.1_seed420001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q04_s0.1_seed420001 B3,True,"(740, 1.1618705997307188e-11)"
+Top ranking and recovery Q04_s0.1_seed420001 B3,True,1.491463231110744e-11
+Errors/envelope Q04_s0.1_seed420001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q04_s0.1_seed420001,True,"(0.00034349160306578516, 0.0003612855169606)"
+Physical state bounds Q04_s0.1_seed420002 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q04_s0.1_seed420002 B1,True,"(126, 2.1167512187503235e-12)"
+Top ranking and recovery Q04_s0.1_seed420002 B1,True,1.6118251602430842
+Errors/envelope Q04_s0.1_seed420002 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420002 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420002 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420002 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q04_s0.1_seed420002,True,"(0.0003549404404266794, 0.0003929640506435)"
+Physical state bounds Q04_s0.1_seed420002 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q04_s0.1_seed420002 B2,True,"(325, 2.1167512187503235e-12)"
+Top ranking and recovery Q04_s0.1_seed420002 B2,True,1.8783894373679767e-11
+Errors/envelope Q04_s0.1_seed420002 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420002 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420002 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420002 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q04_s0.1_seed420002,True,"(0.0003549404404266794, 0.0003929640506435)"
+Physical state bounds Q04_s0.1_seed420002 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q04_s0.1_seed420002 B3,True,"(738, 4.9116266609416925e-12)"
+Top ranking and recovery Q04_s0.1_seed420002 B3,True,1.4617430614939422e-11
+Errors/envelope Q04_s0.1_seed420002 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420002 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420002 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0.1_seed420002 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q04_s0.1_seed420002,True,"(0.0003549404404266794, 0.0003929640506435)"
+Physical state bounds Q04_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q04_s0_seed0 B1,True,"(1, 0.0)"
+Top ranking and recovery Q04_s0_seed0 B1,True,2.106925581198911e-11
+Errors/envelope Q04_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q04_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q04_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q04_s0_seed0 B2,True,"(1, 0.0)"
+Top ranking and recovery Q04_s0_seed0 B2,True,2.106925581198911e-11
+Errors/envelope Q04_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q04_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q04_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q04_s0_seed0 B3,True,"(1, 0.0)"
+Top ranking and recovery Q04_s0_seed0 B3,True,2.106925581198911e-11
+Errors/envelope Q04_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q04_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q04_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q05_s0.1_seed420001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q05_s0.1_seed420001 B1,True,"(124, 1.1472654530229158e-12)"
+Top ranking and recovery Q05_s0.1_seed420001 B1,True,7.971729256229933e-12
+Errors/envelope Q05_s0.1_seed420001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q05_s0.1_seed420001,True,"(0.0003847298302835158, 0.0004165901661049)"
+Physical state bounds Q05_s0.1_seed420001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q05_s0.1_seed420001 B2,True,"(308, 1.9604318168831014e-12)"
+Top ranking and recovery Q05_s0.1_seed420001 B2,True,7.971729256229933e-12
+Errors/envelope Q05_s0.1_seed420001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q05_s0.1_seed420001,True,"(0.0003847298302835158, 0.0004165901661049)"
+Physical state bounds Q05_s0.1_seed420001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q05_s0.1_seed420001 B3,True,"(711, 2.227551476607914e-12)"
+Top ranking and recovery Q05_s0.1_seed420001 B3,True,6.2014502076687435e-12
+Errors/envelope Q05_s0.1_seed420001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q05_s0.1_seed420001,True,"(0.0003847298302835158, 0.0004165901661049)"
+Physical state bounds Q05_s0.1_seed420002 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q05_s0.1_seed420002 B1,True,"(124, 1.4426237981979284e-12)"
+Top ranking and recovery Q05_s0.1_seed420002 B1,True,8.134691590465017e-12
+Errors/envelope Q05_s0.1_seed420002 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420002 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420002 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420002 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q05_s0.1_seed420002,True,"(0.00030530202933405794, 0.0003422299473385)"
+Physical state bounds Q05_s0.1_seed420002 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q05_s0.1_seed420002 B2,True,"(305, 3.6362024502523127e-12)"
+Top ranking and recovery Q05_s0.1_seed420002 B2,True,7.58686573841983e-12
+Errors/envelope Q05_s0.1_seed420002 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420002 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420002 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420002 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q05_s0.1_seed420002,True,"(0.00030530202933405794, 0.0003422299473385)"
+Physical state bounds Q05_s0.1_seed420002 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q05_s0.1_seed420002 B3,True,"(708, 3.6362024502523127e-12)"
+Top ranking and recovery Q05_s0.1_seed420002 B3,True,7.58686573841983e-12
+Errors/envelope Q05_s0.1_seed420002 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420002 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420002 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0.1_seed420002 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q05_s0.1_seed420002,True,"(0.00030530202933405794, 0.0003422299473385)"
+Physical state bounds Q05_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q05_s0_seed0 B1,True,"(1, 1.0622027146379053e-12)"
+Top ranking and recovery Q05_s0_seed0 B1,True,1.2102814520679163e-11
+Errors/envelope Q05_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q05_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q05_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q05_s0_seed0 B2,True,"(1, 1.0622027146379053e-12)"
+Top ranking and recovery Q05_s0_seed0 B2,True,1.2102814520679163e-11
+Errors/envelope Q05_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q05_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q05_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q05_s0_seed0 B3,True,"(1, 1.0622027146379053e-12)"
+Top ranking and recovery Q05_s0_seed0 B3,True,1.2102814520679163e-11
+Errors/envelope Q05_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q05_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q05_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q06_s0.1_seed420001 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q06_s0.1_seed420001 B1,True,"(121, 3.297806472346565e-12)"
+Top ranking and recovery Q06_s0.1_seed420001 B1,True,3.071983207084631
+Errors/envelope Q06_s0.1_seed420001 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420001 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420001 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420001 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q06_s0.1_seed420001,True,"(0.000350703454331432, 0.0003684303239774)"
+Physical state bounds Q06_s0.1_seed420001 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q06_s0.1_seed420001 B2,True,"(286, 5.235811784132238e-12)"
+Top ranking and recovery Q06_s0.1_seed420001 B2,True,2.8335464489104027
+Errors/envelope Q06_s0.1_seed420001 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420001 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420001 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420001 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q06_s0.1_seed420001,True,"(0.000350703454331432, 0.0003684303239774)"
+Physical state bounds Q06_s0.1_seed420001 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q06_s0.1_seed420001 B3,True,"(613, 5.235811784132238e-12)"
+Top ranking and recovery Q06_s0.1_seed420001 B3,True,0.0208625674908537
+Errors/envelope Q06_s0.1_seed420001 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420001 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420001 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420001 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q06_s0.1_seed420001,True,"(0.000350703454331432, 0.0003684303239774)"
+Physical state bounds Q06_s0.1_seed420002 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q06_s0.1_seed420002 B1,True,"(121, 4.703792910731863e-12)"
+Top ranking and recovery Q06_s0.1_seed420002 B1,True,3.095960093915383
+Errors/envelope Q06_s0.1_seed420002 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420002 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420002 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420002 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q06_s0.1_seed420002,True,"(0.0004007320626867909, 0.0004323988793559)"
+Physical state bounds Q06_s0.1_seed420002 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q06_s0.1_seed420002 B2,True,"(290, 5.009770376318556e-12)"
+Top ranking and recovery Q06_s0.1_seed420002 B2,True,1.9198430000189373
+Errors/envelope Q06_s0.1_seed420002 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420002 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420002 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420002 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q06_s0.1_seed420002,True,"(0.0004007320626867909, 0.0004323988793559)"
+Physical state bounds Q06_s0.1_seed420002 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q06_s0.1_seed420002 B3,True,"(617, 5.541345160509081e-12)"
+Top ranking and recovery Q06_s0.1_seed420002 B3,True,1.5285244545841388e-11
+Errors/envelope Q06_s0.1_seed420002 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420002 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420002 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0.1_seed420002 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q06_s0.1_seed420002,True,"(0.0004007320626867909, 0.0004323988793559)"
+Physical state bounds Q06_s0_seed0 B1,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q06_s0_seed0 B1,True,"(1, 0.0)"
+Top ranking and recovery Q06_s0_seed0 B1,True,9.497015512306982e-11
+Errors/envelope Q06_s0_seed0 B1 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0_seed0 B1 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0_seed0 B1 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0_seed0 B1 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q06_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q06_s0_seed0 B2,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q06_s0_seed0 B2,True,"(1, 0.0)"
+Top ranking and recovery Q06_s0_seed0 B2,True,9.497015512306982e-11
+Errors/envelope Q06_s0_seed0 B2 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0_seed0 B2 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0_seed0 B2 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0_seed0 B2 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q06_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds Q06_s0_seed0 B3,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q06_s0_seed0 B3,True,"(1, 0.0)"
+Top ranking and recovery Q06_s0_seed0 B3,True,9.497015512306982e-11
+Errors/envelope Q06_s0_seed0 B3 rel_r,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0_seed0 B3 abs_theta_deg,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0_seed0 B3 rel_v,True,Independent circular-error reconstruction
+Errors/envelope Q06_s0_seed0 B3 abs_psi_deg,True,Independent circular-error reconstruction
+Matched truth remains feasible Q06_s0_seed0,True,"(0.0, 1e-20)"
+Physical state bounds P09_s0.1_seed410001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P09_s0.1_seed410001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,"(165, 1.7997159318383638e-11)"
+Top ranking and recovery P09_s0.1_seed410001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,2.5981872256704925e-07
+Matched truth remains feasible P09_s0.1_seed410001,True,"(0.00042134611492438095, 0.0004406172410646)"
+Physical state bounds P06_s0.1_seed410001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P06_s0.1_seed410001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,"(166, 5.915712364412684e-12)"
+Top ranking and recovery P06_s0.1_seed410001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,6.784404171017779e-08
+Matched truth remains feasible P06_s0.1_seed410001,True,"(0.00035914253020077734, 0.000391301481075)"
+Physical state bounds P04_s0.1_seed410001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P04_s0.1_seed410001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,"(165, 9.566569758590049e-12)"
+Top ranking and recovery P04_s0.1_seed410001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,9.934308908559947e-08
+Matched truth remains feasible P04_s0.1_seed410001,True,"(0.00032590625122644914, 0.0003532788941251)"
+Physical state bounds Q01_s0.1_seed420001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q01_s0.1_seed420001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,"(165, 1.546274219776933e-11)"
+Top ranking and recovery Q01_s0.1_seed420001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,0.8889702435569683
+Matched truth remains feasible Q01_s0.1_seed420001,True,"(0.00037302092347658806, 0.0003971002477167)"
+Physical state bounds Q04_s0.1_seed420001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q04_s0.1_seed420001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,"(167, 5.5573323720636836e-12)"
+Top ranking and recovery Q04_s0.1_seed420001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,3.4644515609621065e-08
+Matched truth remains feasible Q04_s0.1_seed420001,True,"(0.00034349160306578516, 0.0003612855169606)"
+Physical state bounds P02_s0.1_seed410001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,Inherited four-dimensional bounds
+Exact candidate reconstruction P02_s0.1_seed410001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,"(161, 0.0)"
+Top ranking and recovery P02_s0.1_seed410001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,0.9427842697424732
+Matched truth remains feasible P02_s0.1_seed410001,True,"(0.00035437806004337113, 0.0003870993648956)"
+Physical state bounds Q06_s0.1_seed420001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,Inherited four-dimensional bounds
+Exact candidate reconstruction Q06_s0.1_seed420001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,"(163, 0.0)"
+Top ranking and recovery Q06_s0.1_seed420001 INDEPENDENT_SOLVER_AGREEMENT.csv,True,1.0594548382591553e-07
+Matched truth remains feasible Q06_s0.1_seed420001,True,"(0.000350703454331432, 0.0003684303239774)"
+Every oracle landscape probe is likelihood feasible,True,1008 probes; infeasible walls explicitly censored

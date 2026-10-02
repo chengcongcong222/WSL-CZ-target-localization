@@ -13,9 +13,9 @@
     "B4": 5,
     "C": 15
   },
-  "current_stage": "A1-FIX",
-  "A1_status": "BLOCKED_BY_CONTINUOUS_SEARCH",
-  "independent_audit_status": "A1_1_ACCEPTED; A1_FIX_COMMIT_PENDING_AUDIT",
+  "current_stage": "A1-FIX2",
+  "A1_status": "BLOCKED_BY_UNCLOSED_ACOUSTIC_COVERAGE",
+  "independent_audit_status": "FIX1_CONTINUOUS_FORWARD_RC2_AND_R3_CONTROL_ACCEPTED; FIX2_COMMIT_PENDING_AUDIT",
   "progress_rule": "Credit only after the research lead audits the stage commit; script completion alone receives no credit.",
   "P5": "NOT_OPENED",
   "A1_gates": {
@@ -25,9 +25,12 @@
     "A1-4": "NO_STABLE_REGION_ESTABLISHED"
   },
   "blockers": [
-    "Finite continuous acoustic search has not recovered every matched truth basin; no physical non-identifiability conclusion is warranted."
+    "GLOBAL_SEARCH_COVERAGE_CONVERGENCE_VALIDATED",
+    "DEVELOPMENT_MATCHED_BASINS_RECOVERED",
+    "INDEPENDENT_SEARCH_AGREEMENT_CONFIRMED",
+    "FRESH_HOLDOUT_MATCHED_BASINS_RECOVERED"
   ],
-  "next_recommended_stage": "A1-FIX search coverage/convergence review; do not open A2/B/P5",
+  "next_recommended_stage": "Further acoustic coverage/convergence repair; no full A1/A2/B/P5",
   "A1_FIX": "A1_FIX_BLOCKED_BY_FINITE_CONTINUOUS_SEARCH_FAILURE",
   "A1_FIX_gates": {
     "CONTINUOUS_FORWARD_SELF_MATCH_VALIDATED": true,
@@ -36,5 +39,14 @@
     "LEGACY_R3_CONTROL_PRESERVED": true,
     "FROZEN_OFFGRID_REGRESSION_IMPROVED": false,
     "HOLDOUT_OFFGRID_STRUCTURAL_GENERALIZATION_CONFIRMED": false
+  },
+  "A1_FIX2": "A1_FIX2_BLOCKED_BY_UNCLOSED_ACOUSTIC_COVERAGE",
+  "A1_FIX2_gates": {
+    "ACOUSTIC_BASIN_GEOMETRY_CHARACTERIZED": true,
+    "GLOBAL_SEARCH_COVERAGE_CONVERGENCE_VALIDATED": false,
+    "DEVELOPMENT_MATCHED_BASINS_RECOVERED": false,
+    "INDEPENDENT_SEARCH_AGREEMENT_CONFIRMED": false,
+    "FRESH_HOLDOUT_MATCHED_BASINS_RECOVERED": false,
+    "NO_UNRESOLVED_EXACT_CONTINUOUS_ALIAS_IN_TESTED_CONTROLS": true
   }
 }

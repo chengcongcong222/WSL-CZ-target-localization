@@ -1,0 +1,27 @@
+{
+  "purpose": "ORACLE_DIAGNOSTIC_ONLY; never estimator starts",
+  "bearing_feasible_parameterization": "r,v,psi with observation-profiled theta plus fixed truth-profile offset; theta direction varies only the offset",
+  "thresholds_db": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "finite_difference_steps": [
+    0.0001,
+    0.0001,
+    0.001,
+    0.001
+  ],
+  "coordinates": [
+    "r_km",
+    "v_mps",
+    "psi_deg",
+    "theta_offset_deg"
+  ],
+  "normalized_scales": [
+    15.0,
+    2.0,
+    30.0,
+    0.16
+  ]
+}

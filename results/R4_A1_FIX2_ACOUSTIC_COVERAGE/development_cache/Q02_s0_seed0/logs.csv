@@ -1,0 +1,4 @@
+case_id,budget,stage,success,nfev
+Q02_s0_seed0,B1,NOISELESS_RC2_UNIQUE,True,1
+Q02_s0_seed0,B2,NOISELESS_RC2_UNIQUE,True,1
+Q02_s0_seed0,B3,NOISELESS_RC2_UNIQUE,True,1

@@ -1,0 +1,106 @@
+{
+  "baseline_commit": "956f2dfba8e719561641fd135f246a650fe76dca",
+  "architecture": "deterministic nested range/radial-velocity bank, bearing continuation, depth-branch spatial beams, analytic-Jacobian local refinement, exact verification",
+  "budgets": [
+    {
+      "name": "B1",
+      "r_step_m": 40.0,
+      "u_step_mps": 0.04,
+      "starts_per_depth": 3
+    },
+    {
+      "name": "B2",
+      "r_step_m": 20.0,
+      "u_step_mps": 0.02,
+      "starts_per_depth": 6
+    },
+    {
+      "name": "B3",
+      "r_step_m": 10.0,
+      "u_step_mps": 0.01,
+      "starts_per_depth": 12
+    }
+  ],
+  "range_bounds_m": [
+    45000.0,
+    60000.0
+  ],
+  "radial_velocity_bounds_mps": [
+    0.94,
+    3.0
+  ],
+  "bearing_profile_GN_iterations": 5,
+  "batch_size": 512,
+  "beam_pool_per_depth": 1024,
+  "beam_max_range_separation_m": 16.0,
+  "local_max_nfev": 160,
+  "exact_polish_starts": 8,
+  "exact_polish_max_nfev": 120,
+  "local_tolerances": {
+    "xtol": 1e-12,
+    "ftol": 1e-12,
+    "gtol": 1e-12
+  },
+  "basin_gate_db": 0.001,
+  "candidate_tau_db": 0.5,
+  "dedup_resolution": [
+    0.005,
+    0.001,
+    0.005,
+    0.05
+  ],
+  "independent_solver": {
+    "family": "independent Sobol radial bank + derivative-free Nelder-Mead",
+    "sobol_power": 18,
+    "seed": 773003,
+    "starts_per_depth": 4,
+    "maxiter": 2500,
+    "xatol": 1e-09,
+    "fatol": 1e-14
+  },
+  "hardest_cases": [
+    "P09_s0.1_seed410001",
+    "P06_s0.1_seed410001",
+    "P04_s0.1_seed410001",
+    "Q01_s0.1_seed420001",
+    "Q04_s0.1_seed420001"
+  ],
+  "convergence_state_tolerances": [
+    1e-05,
+    0.001,
+    0.0001,
+    0.01
+  ],
+  "independent_agreement_state_tolerances": [
+    1e-05,
+    0.001,
+    0.0001,
+    0.01
+  ],
+  "fresh_holdout": {
+    "seed": 2026100204,
+    "n": 8,
+    "prefix": "F",
+    "nominal_seeds": [
+      430001,
+      430002
+    ],
+    "low": [
+      47.0,
+      -1.2,
+      1.5,
+      -9.0
+    ],
+    "high": [
+      55.5,
+      1.2,
+      2.5,
+      9.0
+    ],
+    "depths": [
+      180.0,
+      200.0,
+      220.0
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "decision": "A1_FIX2_BLOCKED_BY_UNCLOSED_ACOUSTIC_COVERAGE",
+  "gates": {
+    "ACOUSTIC_BASIN_GEOMETRY_CHARACTERIZED": true,
+    "GLOBAL_SEARCH_COVERAGE_CONVERGENCE_VALIDATED": false,
+    "DEVELOPMENT_MATCHED_BASINS_RECOVERED": false,
+    "INDEPENDENT_SEARCH_AGREEMENT_CONFIRMED": false,
+    "FRESH_HOLDOUT_MATCHED_BASINS_RECOVERED": false,
+    "NO_UNRESOLVED_EXACT_CONTINUOUS_ALIAS_IN_TESTED_CONTROLS": true
+  },
+  "overall_progress_percent": 0,
+  "A1_status": "BLOCKED",
+  "recovery_threshold_db": 0.001,
+  "convergence_requires": "Every nominal development case stable between B2/B3 and raw components recovered at both levels; cumulative retention alone is insufficient",
+  "scope": {
+    "development_cases": 36,
+    "fresh_confirmation_cases": 24,
+    "independent_hard_cases": 7,
+    "preregistered_independent_cases": 5,
+    "supplementary_independent_cases": 2
+  },
+  "failed_development_cases": [
+    "P02_s0.1_seed410001",
+    "P09_s0.1_seed410001",
+    "Q06_s0.1_seed420001"
+  ],
+  "failed_confirmation_cases": [
+    "F01_s0.1_seed430002",
+    "F03_s0.1_seed430001",
+    "F08_s0.1_seed430002"
+  ]
+}

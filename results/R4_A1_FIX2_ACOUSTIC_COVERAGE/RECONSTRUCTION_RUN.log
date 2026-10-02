@@ -1,0 +1,156 @@
+RECONSTRUCT P01_s0.1_seed410001 B1 124 unique modal evaluations 124
+RECONSTRUCT P01_s0.1_seed410001 B2 338 unique modal evaluations 338
+RECONSTRUCT P01_s0.1_seed410001 B3 705 unique modal evaluations 707
+RECONSTRUCT P01_s0_seed0 B1 1 unique modal evaluations 708
+RECONSTRUCT P01_s0_seed0 B2 1 unique modal evaluations 708
+RECONSTRUCT P01_s0_seed0 B3 1 unique modal evaluations 708
+RECONSTRUCT P02_s0.1_seed410001 B1 121 unique modal evaluations 829
+RECONSTRUCT P02_s0.1_seed410001 B2 281 unique modal evaluations 989
+RECONSTRUCT P02_s0.1_seed410001 B3 649 unique modal evaluations 1357
+RECONSTRUCT P02_s0_seed0 B1 1 unique modal evaluations 1358
+RECONSTRUCT P02_s0_seed0 B2 1 unique modal evaluations 1358
+RECONSTRUCT P02_s0_seed0 B3 1 unique modal evaluations 1358
+RECONSTRUCT P03_s0.1_seed410001 B1 121 unique modal evaluations 1479
+RECONSTRUCT P03_s0.1_seed410001 B2 294 unique modal evaluations 1652
+RECONSTRUCT P03_s0.1_seed410001 B3 662 unique modal evaluations 2023
+RECONSTRUCT P03_s0_seed0 B1 1 unique modal evaluations 2024
+RECONSTRUCT P03_s0_seed0 B2 1 unique modal evaluations 2024
+RECONSTRUCT P03_s0_seed0 B3 1 unique modal evaluations 2024
+RECONSTRUCT P04_s0.1_seed410001 B1 123 unique modal evaluations 2147
+RECONSTRUCT P04_s0.1_seed410001 B2 313 unique modal evaluations 2337
+RECONSTRUCT P04_s0.1_seed410001 B3 708 unique modal evaluations 2733
+RECONSTRUCT P04_s0_seed0 B1 1 unique modal evaluations 2734
+RECONSTRUCT P04_s0_seed0 B2 1 unique modal evaluations 2734
+RECONSTRUCT P04_s0_seed0 B3 1 unique modal evaluations 2734
+RECONSTRUCT P05_s0.1_seed410001 B1 121 unique modal evaluations 2855
+RECONSTRUCT P05_s0.1_seed410001 B2 299 unique modal evaluations 3033
+RECONSTRUCT P05_s0.1_seed410001 B3 662 unique modal evaluations 3399
+RECONSTRUCT P05_s0_seed0 B1 1 unique modal evaluations 3400
+RECONSTRUCT P05_s0_seed0 B2 1 unique modal evaluations 3400
+RECONSTRUCT P05_s0_seed0 B3 1 unique modal evaluations 3400
+RECONSTRUCT P06_s0.1_seed410001 B1 120 unique modal evaluations 3520
+RECONSTRUCT P06_s0.1_seed410001 B2 328 unique modal evaluations 3729
+RECONSTRUCT P06_s0.1_seed410001 B3 710 unique modal evaluations 4115
+RECONSTRUCT P06_s0_seed0 B1 1 unique modal evaluations 4116
+RECONSTRUCT P06_s0_seed0 B2 1 unique modal evaluations 4116
+RECONSTRUCT P06_s0_seed0 B3 1 unique modal evaluations 4116
+RECONSTRUCT P07_s0.1_seed410001 B1 125 unique modal evaluations 4241
+RECONSTRUCT P07_s0.1_seed410001 B2 317 unique modal evaluations 4433
+RECONSTRUCT P07_s0.1_seed410001 B3 715 unique modal evaluations 4835
+RECONSTRUCT P07_s0_seed0 B1 1 unique modal evaluations 4836
+RECONSTRUCT P07_s0_seed0 B2 1 unique modal evaluations 4836
+RECONSTRUCT P07_s0_seed0 B3 1 unique modal evaluations 4836
+RECONSTRUCT P08_s0.1_seed410001 B1 123 unique modal evaluations 4959
+RECONSTRUCT P08_s0.1_seed410001 B2 291 unique modal evaluations 5127
+RECONSTRUCT P08_s0.1_seed410001 B3 679 unique modal evaluations 5515
+RECONSTRUCT P08_s0_seed0 B1 1 unique modal evaluations 5516
+RECONSTRUCT P08_s0_seed0 B2 1 unique modal evaluations 5516
+RECONSTRUCT P08_s0_seed0 B3 1 unique modal evaluations 5516
+RECONSTRUCT P09_s0.1_seed410001 B1 125 unique modal evaluations 5641
+RECONSTRUCT P09_s0.1_seed410001 B2 300 unique modal evaluations 5816
+RECONSTRUCT P09_s0.1_seed410001 B3 657 unique modal evaluations 6176
+RECONSTRUCT P09_s0_seed0 B1 1 unique modal evaluations 6177
+RECONSTRUCT P09_s0_seed0 B2 1 unique modal evaluations 6177
+RECONSTRUCT P09_s0_seed0 B3 1 unique modal evaluations 6177
+RECONSTRUCT Q01_s0.1_seed420001 B1 125 unique modal evaluations 6302
+RECONSTRUCT Q01_s0.1_seed420001 B2 358 unique modal evaluations 6535
+RECONSTRUCT Q01_s0.1_seed420001 B3 661 unique modal evaluations 6839
+RECONSTRUCT Q01_s0.1_seed420002 B1 126 unique modal evaluations 6965
+RECONSTRUCT Q01_s0.1_seed420002 B2 358 unique modal evaluations 7197
+RECONSTRUCT Q01_s0.1_seed420002 B3 652 unique modal evaluations 7494
+RECONSTRUCT Q01_s0_seed0 B1 1 unique modal evaluations 7495
+RECONSTRUCT Q01_s0_seed0 B2 1 unique modal evaluations 7495
+RECONSTRUCT Q01_s0_seed0 B3 1 unique modal evaluations 7495
+RECONSTRUCT Q02_s0.1_seed420001 B1 126 unique modal evaluations 7621
+RECONSTRUCT Q02_s0.1_seed420001 B2 328 unique modal evaluations 7823
+RECONSTRUCT Q02_s0.1_seed420001 B3 727 unique modal evaluations 8222
+RECONSTRUCT Q02_s0.1_seed420002 B1 126 unique modal evaluations 8348
+RECONSTRUCT Q02_s0.1_seed420002 B2 326 unique modal evaluations 8548
+RECONSTRUCT Q02_s0.1_seed420002 B3 726 unique modal evaluations 8948
+RECONSTRUCT Q02_s0_seed0 B1 1 unique modal evaluations 8949
+RECONSTRUCT Q02_s0_seed0 B2 1 unique modal evaluations 8949
+RECONSTRUCT Q02_s0_seed0 B3 1 unique modal evaluations 8949
+RECONSTRUCT Q03_s0.1_seed420001 B1 123 unique modal evaluations 9072
+RECONSTRUCT Q03_s0.1_seed420001 B2 294 unique modal evaluations 9244
+RECONSTRUCT Q03_s0.1_seed420001 B3 641 unique modal evaluations 9596
+RECONSTRUCT Q03_s0.1_seed420002 B1 123 unique modal evaluations 9719
+RECONSTRUCT Q03_s0.1_seed420002 B2 291 unique modal evaluations 9888
+RECONSTRUCT Q03_s0.1_seed420002 B3 637 unique modal evaluations 10238
+RECONSTRUCT Q03_s0_seed0 B1 1 unique modal evaluations 10239
+RECONSTRUCT Q03_s0_seed0 B2 1 unique modal evaluations 10239
+RECONSTRUCT Q03_s0_seed0 B3 1 unique modal evaluations 10239
+RECONSTRUCT Q04_s0.1_seed420001 B1 126 unique modal evaluations 10365
+RECONSTRUCT Q04_s0.1_seed420001 B2 327 unique modal evaluations 10567
+RECONSTRUCT Q04_s0.1_seed420001 B3 740 unique modal evaluations 10981
+RECONSTRUCT Q04_s0.1_seed420002 B1 126 unique modal evaluations 11107
+RECONSTRUCT Q04_s0.1_seed420002 B2 325 unique modal evaluations 11307
+RECONSTRUCT Q04_s0.1_seed420002 B3 738 unique modal evaluations 11725
+RECONSTRUCT Q04_s0_seed0 B1 1 unique modal evaluations 11726
+RECONSTRUCT Q04_s0_seed0 B2 1 unique modal evaluations 11726
+RECONSTRUCT Q04_s0_seed0 B3 1 unique modal evaluations 11726
+RECONSTRUCT Q05_s0.1_seed420001 B1 124 unique modal evaluations 11850
+RECONSTRUCT Q05_s0.1_seed420001 B2 308 unique modal evaluations 12034
+RECONSTRUCT Q05_s0.1_seed420001 B3 711 unique modal evaluations 12439
+RECONSTRUCT Q05_s0.1_seed420002 B1 124 unique modal evaluations 12563
+RECONSTRUCT Q05_s0.1_seed420002 B2 305 unique modal evaluations 12745
+RECONSTRUCT Q05_s0.1_seed420002 B3 708 unique modal evaluations 13149
+RECONSTRUCT Q05_s0_seed0 B1 1 unique modal evaluations 13150
+RECONSTRUCT Q05_s0_seed0 B2 1 unique modal evaluations 13150
+RECONSTRUCT Q05_s0_seed0 B3 1 unique modal evaluations 13150
+RECONSTRUCT Q06_s0.1_seed420001 B1 121 unique modal evaluations 13271
+RECONSTRUCT Q06_s0.1_seed420001 B2 286 unique modal evaluations 13436
+RECONSTRUCT Q06_s0.1_seed420001 B3 613 unique modal evaluations 13764
+RECONSTRUCT Q06_s0.1_seed420002 B1 121 unique modal evaluations 13885
+RECONSTRUCT Q06_s0.1_seed420002 B2 290 unique modal evaluations 14054
+RECONSTRUCT Q06_s0.1_seed420002 B3 617 unique modal evaluations 14383
+RECONSTRUCT Q06_s0_seed0 B1 1 unique modal evaluations 14384
+RECONSTRUCT Q06_s0_seed0 B2 1 unique modal evaluations 14384
+RECONSTRUCT Q06_s0_seed0 B3 1 unique modal evaluations 14384
+RECONSTRUCT P09_s0.1_seed410001 INDEPENDENT 165 unique modal evaluations 14549
+RECONSTRUCT P06_s0.1_seed410001 INDEPENDENT 166 unique modal evaluations 14715
+RECONSTRUCT P04_s0.1_seed410001 INDEPENDENT 165 unique modal evaluations 14880
+RECONSTRUCT Q01_s0.1_seed420001 INDEPENDENT 165 unique modal evaluations 15045
+RECONSTRUCT Q04_s0.1_seed420001 INDEPENDENT 167 unique modal evaluations 15212
+RECONSTRUCT P02_s0.1_seed410001 INDEPENDENT 161 unique modal evaluations 15373
+RECONSTRUCT Q06_s0.1_seed420001 INDEPENDENT 163 unique modal evaluations 15536
+RECONSTRUCT F01_s0_seed0 B3 1 unique modal evaluations 15537
+RECONSTRUCT F01_s0.1_seed430001 B3 659 unique modal evaluations 16196
+RECONSTRUCT F01_s0.1_seed430002 B3 665 unique modal evaluations 16861
+RECONSTRUCT F02_s0_seed0 B3 1 unique modal evaluations 16862
+RECONSTRUCT F02_s0.1_seed430001 B3 675 unique modal evaluations 17537
+RECONSTRUCT F02_s0.1_seed430002 B3 672 unique modal evaluations 18209
+RECONSTRUCT F03_s0_seed0 B3 1 unique modal evaluations 18210
+RECONSTRUCT F03_s0.1_seed430001 B3 724 unique modal evaluations 18934
+RECONSTRUCT F03_s0.1_seed430002 B3 731 unique modal evaluations 19665
+RECONSTRUCT F04_s0_seed0 B3 1 unique modal evaluations 19666
+RECONSTRUCT F04_s0.1_seed430001 B3 673 unique modal evaluations 20339
+RECONSTRUCT F04_s0.1_seed430002 B3 670 unique modal evaluations 21009
+RECONSTRUCT F05_s0_seed0 B3 1 unique modal evaluations 21010
+RECONSTRUCT F05_s0.1_seed430001 B3 705 unique modal evaluations 21715
+RECONSTRUCT F05_s0.1_seed430002 B3 708 unique modal evaluations 22423
+RECONSTRUCT F06_s0_seed0 B3 1 unique modal evaluations 22424
+RECONSTRUCT F06_s0.1_seed430001 B3 708 unique modal evaluations 23132
+RECONSTRUCT F06_s0.1_seed430002 B3 708 unique modal evaluations 23840
+RECONSTRUCT F07_s0_seed0 B3 1 unique modal evaluations 23841
+RECONSTRUCT F07_s0.1_seed430001 B3 677 unique modal evaluations 24518
+RECONSTRUCT F07_s0.1_seed430002 B3 679 unique modal evaluations 25197
+RECONSTRUCT F08_s0_seed0 B3 1 unique modal evaluations 25198
+RECONSTRUCT F08_s0.1_seed430001 B3 690 unique modal evaluations 25888
+RECONSTRUCT F08_s0.1_seed430002 B3 687 unique modal evaluations 26575
+FRESH WIDTHS F01_s0.1_seed430001
+FRESH WIDTHS F01_s0.1_seed430002
+FRESH WIDTHS F02_s0.1_seed430001
+FRESH WIDTHS F02_s0.1_seed430002
+FRESH WIDTHS F03_s0.1_seed430001
+FRESH WIDTHS F03_s0.1_seed430002
+FRESH WIDTHS F04_s0.1_seed430001
+FRESH WIDTHS F04_s0.1_seed430002
+FRESH WIDTHS F05_s0.1_seed430001
+FRESH WIDTHS F05_s0.1_seed430002
+FRESH WIDTHS F06_s0.1_seed430001
+FRESH WIDTHS F06_s0.1_seed430002
+FRESH WIDTHS F07_s0.1_seed430001
+FRESH WIDTHS F07_s0.1_seed430002
+FRESH WIDTHS F08_s0.1_seed430001
+FRESH WIDTHS F08_s0.1_seed430002
+AUDIT PASSED 1093 checks

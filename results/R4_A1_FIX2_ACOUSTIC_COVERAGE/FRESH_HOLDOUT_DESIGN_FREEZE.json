@@ -1,0 +1,34 @@
+{
+  "frozen_utc": "2026-10-02T16:36:37.991566+00:00",
+  "generation_rule": {
+    "seed": 2026100204,
+    "n": 8,
+    "prefix": "F",
+    "nominal_seeds": [
+      430001,
+      430002
+    ],
+    "low": [
+      47.0,
+      -1.2,
+      1.5,
+      -9.0
+    ],
+    "high": [
+      55.5,
+      1.2,
+      2.5,
+      9.0
+    ],
+    "depths": [
+      180.0,
+      200.0,
+      220.0
+    ]
+  },
+  "sha256": {
+    "FRESH_HOLDOUT_PANEL.csv": "223193eefec9c8b666fed23315e4514e6edf972813665cd937198ca064bcb14f",
+    "METHOD_FREEZE.json": "0b00b1e074cce7dff1cc621c01930ab9099a20007cd848846ac01d6bb363a5fb"
+  },
+  "before_observation_generation": true
+}
