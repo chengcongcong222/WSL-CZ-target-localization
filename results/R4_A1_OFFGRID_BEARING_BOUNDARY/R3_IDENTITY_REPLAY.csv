@@ -1,0 +1,5 @@
+check,pass,value,expected
+R3_RC2_exact_node_ids,True,385,385
+R3_TRIPLE_scores_and_survivors_z180,True,2.4664714715072478e-12,score error <1e-8 and exact IDs
+R3_TRIPLE_scores_and_survivors_z200,True,1.1262102361797588e-12,score error <1e-8 and exact IDs
+R3_TRIPLE_scores_and_survivors_z220,True,4.758859972753271e-12,score error <1e-8 and exact IDs

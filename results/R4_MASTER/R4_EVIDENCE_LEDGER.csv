@@ -1,0 +1,5 @@
+stage,artifact,status,evidence_scope,independent_audit_status,credited_weight_percent
+A1,../R4_A1_OFFGRID_BEARING_BOUNDARY/R4_A1_DESIGN.md,PRE_RUN_DESIGN_FROZEN,9 jointly off-grid horizontal truths and fixed seeds,PENDING,0
+A1,../R4_A1_OFFGRID_BEARING_BOUNDARY/R3_IDENTITY_REPLAY.csv,EXECUTION_VALIDATED,On-grid R3 identity at3 depths,PENDING,0
+A1,../R4_A1_OFFGRID_BEARING_BOUNDARY/RC2_AXIS_CASE_LEVEL.csv,STRUCTURAL_BLOCKER_OBSERVED,1629 RC2-only cases across the frozen sigma axis,PENDING,0
+A1,../R4_A1_OFFGRID_BEARING_BOUNDARY/CASE_LEVEL_RESULTS.csv,PILOT_FAILURE_DIAGNOSED,27 nominal end-to-end pilot cases only; full A1 boundary not established,PENDING,0

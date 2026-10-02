@@ -1,0 +1,18 @@
+{
+  "execution_utc": "2026-10-02T05:55:57.692122+00:00",
+  "design_sha256": {
+    "R4_A1_CONFIG.json": "5667b533f646b2b4a82e9b247ea417b92de0f1589251ebe5b50530226878ffaa",
+    "OFFGRID_TRUTH_PANEL.csv": "ba46243968e7b8123620b3976376fda9201d424e9d628777facb28a3e0ac09c7",
+    "R4_A1_DESIGN.md": "d56c2b92dc564e2dfd1d5fe0525b85b491b040a46bddcd9c40009f17851cd96b"
+  },
+  "executed_scope": "STRUCTURAL_STOP_PATH",
+  "RC2_only_cases": 1629,
+  "nominal_end_to_end_pilot_cases": 27,
+  "main_end_to_end_MC_cases_executed": 0,
+  "on_grid_control_cases": 3,
+  "acoustic_union_nodes": 2165,
+  "elapsed_seconds": 53.46595590002835,
+  "refinement": "NOT_RUN_UPSTREAM_RC2_CELL_DELETION_REQUIRES_NEW_GATE",
+  "A1_status": "BLOCKED_PENDING_RC2_QUANTIZATION_TREATMENT",
+  "P5": "NOT_OPENED"
+}

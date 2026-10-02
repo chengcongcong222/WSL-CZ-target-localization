@@ -1,0 +1,12 @@
+{
+  "n_nodes": 16,
+  "elapsed_seconds": 0.2443585000000894,
+  "feature_bytes": 975744,
+  "seconds_per_node": 0.015272406250005588,
+  "algorithm": "Exact direct modal factors, BLAS threads=2",
+  "design_sha256": {
+    "R4_A1_CONFIG.json": "5667b533f646b2b4a82e9b247ea417b92de0f1589251ebe5b50530226878ffaa",
+    "OFFGRID_TRUTH_PANEL.csv": "ba46243968e7b8123620b3976376fda9201d424e9d628777facb28a3e0ac09c7",
+    "R4_A1_DESIGN.md": "d56c2b92dc564e2dfd1d5fe0525b85b491b040a46bddcd9c40009f17851cd96b"
+  }
+}

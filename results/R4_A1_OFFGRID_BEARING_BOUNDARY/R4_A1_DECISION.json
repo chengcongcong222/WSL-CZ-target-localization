@@ -1,0 +1,113 @@
+{
+  "stage": "R4-A1",
+  "baseline_commit": "166575043d9c884f6a9ecf62333b79fbcc7e1a46",
+  "decision": "R4_A1_BLOCKED_BY_COARSE_RC2_GRID_SELECTION_AND_OFFGRID_MODAL_MISMATCH",
+  "execution_scope": "STRUCTURAL_STOP_PATH_NOT_FULL_A1_STATISTICAL_EXPERIMENT",
+  "gates": {
+    "A1-1": "OFFGRID_EVALUATION_PIPELINE_VALIDATED_PENDING_INDEPENDENT_AUDIT",
+    "A1-2": "PILOT_QUANTIZATION_AND_EXCESS_ERROR_DIAGNOSED_FULL_GATE_INCOMPLETE",
+    "A1-3": "BLOCKED_FULL_END_TO_END_BEARING_BOUNDARY_NOT_RUN",
+    "A1-4": "NO_STABLE_REGION_ESTABLISHED"
+  },
+  "error_interpretation": "MIXED",
+  "interpretation_scope": "Grid-relative RC2 rejection and wrong coarse acoustic minima both observed; this is not a proof of intrinsic continuous physical non-identifiability.",
+  "continuous_refinement": "NOT_RUN; post-RC2 local refinement is not demonstrated to restore excluded coarse cells and continuous horizontal search requires a new validation gate.",
+  "truth_panel_cases": 9,
+  "all_four_horizontal_coordinates_off_grid": true,
+  "source_depth_role": "PROFILED_NUISANCE; truth depths180/200/220 are physical modal samples, not continuous depth-estimator tests",
+  "planned_bearing_sigma_deg": [
+    0,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.8
+  ],
+  "executed_end_to_end_bearing_sigma_deg": [
+    0.1
+  ],
+  "pilot_seeds": [
+    410001,
+    410002,
+    410003
+  ],
+  "positive_axis_seeds_per_panel": 30,
+  "RC2_only_case_count": 1629,
+  "end_to_end_pilot_case_count": 27,
+  "on_grid_identity_cases": 3,
+  "coarse_cell_top1_success_fraction_pilot": 0.0,
+  "pilot_RC2_cell_retention_fraction": 0.07407407407407407,
+  "pilot_final_cell_retention_fraction": 0.037037037037037035,
+  "pilot_top1_error_stats": {
+    "rel_r": {
+      "P50": 0.0755957271980279,
+      "P90": 0.14104699603048643,
+      "P95": 0.160092807424594,
+      "worst_observed": 0.223370596920481
+    },
+    "abs_theta_deg": {
+      "P50": 0.1800000000000068,
+      "P90": 0.20000000000000007,
+      "P95": 0.2299999999999897,
+      "worst_observed": 0.2299999999999897
+    },
+    "rel_v": {
+      "P50": 0.06951871657754,
+      "P90": 0.2032250262033381,
+      "P95": 0.2738853503184712,
+      "worst_observed": 0.2738853503184712
+    },
+    "abs_psi_deg": {
+      "P50": 5.650000000000006,
+      "P90": 7.45000000000001,
+      "P95": 8.650000000000006,
+      "worst_observed": 8.650000000000006
+    }
+  },
+  "pilot_survivor_worst_error_stats": {
+    "rel_r": {
+      "P50": 0.1759750961362387,
+      "P90": 0.2089462018940156,
+      "P95": 0.2089462018940156,
+      "worst_observed": 0.2444631934191099
+    },
+    "abs_theta_deg": {
+      "P50": 0.1800000000000068,
+      "P90": 0.20000000000000007,
+      "P95": 0.2299999999999897,
+      "worst_observed": 0.2299999999999897
+    },
+    "rel_v": {
+      "P50": 0.2345679012345678,
+      "P90": 0.7341040462427745,
+      "P95": 0.7341040462427745,
+      "worst_observed": 0.9108280254777068
+    },
+    "abs_psi_deg": {
+      "P50": 6.5800000000000125,
+      "P90": 8.650000000000006,
+      "P95": 8.650000000000006,
+      "worst_observed": 9.650000000000004
+    }
+  },
+  "quantization_floor_definition": "Coordinatewise nearest-grid r/v relative and theta/psi circular absolute errors; top1 excess is each actual error minus its coordinate floor, not a new joint norm.",
+  "first_observed_failure_boundary": {
+    "stage": "RC2",
+    "lowest_positive_tested_sigma_deg": 0.02,
+    "cell_retention_fraction_at_lowest_sigma": 0.0,
+    "noiseless_cell_retention_fraction": 0.0,
+    "interpretation": "Already fails at the finest tested bearing precision; no sensor-degradation crossover or end-to-end tolerance threshold established."
+  },
+  "R4_overall_progress_percent": 0,
+  "R3_status": "R3_FROZEN",
+  "P5": "NOT_OPENED",
+  "blockers": [
+    "Coarse bearing-grid mismatch is not represented in the RC2 selection rule; better sensor precision can delete the true neighborhood.",
+    "Nearest coarse state has higher modal mismatch score than the selected wrong state in all27 pilot cases; quantization floors alone do not describe estimator errors.",
+    "Full end-to-end multi-sigma Monte Carlo and a reliable continuous-horizontal estimator have not been established."
+  ],
+  "next_recommended_stage": "R4-A1-FIX: validate a truth-independent RC2 quantization/continuation treatment and continuous-horizontal scoring strategy; rerun the unchanged frozen panel/seeds after independent review. Do not open A2/B/P5.",
+  "statistical_scope": "P50/P95 of27 nominal pilot cases with3 seeds are descriptive only; the full RC2-only axis uses30 realizations per panel/sigma. No scene-population or real-ocean probability guarantee.",
+  "created_utc": "2026-10-02T06:03:06.290136+00:00"
+}

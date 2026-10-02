@@ -1,0 +1,33 @@
+{
+  "baseline_commit": "166575043d9c884f6a9ecf62333b79fbcc7e1a46",
+  "R3_status": "R3_FROZEN",
+  "overall_progress_percent": 0,
+  "weights_percent": {
+    "A1": 15,
+    "A2": 15,
+    "A3": 15,
+    "A4": 5,
+    "B1": 10,
+    "B2": 10,
+    "B3": 10,
+    "B4": 5,
+    "C": 15
+  },
+  "current_stage": "A1",
+  "A1_status": "BLOCKED_BY_OFFGRID_COARSE_GRID_SELECTION",
+  "independent_audit_status": "PENDING_AUDIT_OF_STRUCTURAL_STOP_COMMIT",
+  "progress_rule": "Credit only after the research lead audits the stage commit; script completion alone receives no credit.",
+  "P5": "NOT_OPENED",
+  "A1_gates": {
+    "A1-1": "OFFGRID_EVALUATION_PIPELINE_VALIDATED_PENDING_INDEPENDENT_AUDIT",
+    "A1-2": "PILOT_QUANTIZATION_AND_EXCESS_ERROR_DIAGNOSED_FULL_GATE_INCOMPLETE",
+    "A1-3": "BLOCKED_FULL_END_TO_END_BEARING_BOUNDARY_NOT_RUN",
+    "A1-4": "NO_STABLE_REGION_ESTABLISHED"
+  },
+  "blockers": [
+    "Coarse bearing-grid mismatch is not represented in the RC2 selection rule; better sensor precision can delete the true neighborhood.",
+    "Nearest coarse state has higher modal mismatch score than the selected wrong state in all27 pilot cases; quantization floors alone do not describe estimator errors.",
+    "Full end-to-end multi-sigma Monte Carlo and a reliable continuous-horizontal estimator have not been established."
+  ],
+  "next_recommended_stage": "R4-A1-FIX: validate a truth-independent RC2 quantization/continuation treatment and continuous-horizontal scoring strategy; rerun the unchanged frozen panel/seeds after independent review. Do not open A2/B/P5."
+}

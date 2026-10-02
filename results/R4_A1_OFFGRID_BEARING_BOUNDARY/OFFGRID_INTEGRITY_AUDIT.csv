@@ -1,0 +1,44 @@
+check,pass,detail
+R3_RC2_exact_node_ids,True,385
+R3_TRIPLE_scores_and_survivors_z180,True,2.4664714715072478e-12
+R3_TRIPLE_scores_and_survivors_z200,True,1.1262102361797588e-12
+R3_TRIPLE_scores_and_survivors_z220,True,4.758859972753271e-12
+P01_continuous_truth_not_snapped,True,exact truth range/features differ from nearest grid; relative-TL RMS=2.83834003907 dB; physical z=200m
+P02_continuous_truth_not_snapped,True,exact truth range/features differ from nearest grid; relative-TL RMS=3.01785753523 dB; physical z=180m
+P03_continuous_truth_not_snapped,True,exact truth range/features differ from nearest grid; relative-TL RMS=2.39605880102 dB; physical z=220m
+P04_continuous_truth_not_snapped,True,exact truth range/features differ from nearest grid; relative-TL RMS=6.09983388823 dB; physical z=180m
+P05_continuous_truth_not_snapped,True,exact truth range/features differ from nearest grid; relative-TL RMS=5.3630553044 dB; physical z=220m
+P06_continuous_truth_not_snapped,True,exact truth range/features differ from nearest grid; relative-TL RMS=5.59182907766 dB; physical z=200m
+P07_continuous_truth_not_snapped,True,exact truth range/features differ from nearest grid; relative-TL RMS=4.8976871521 dB; physical z=220m
+P08_continuous_truth_not_snapped,True,exact truth range/features differ from nearest grid; relative-TL RMS=2.28728130951 dB; physical z=180m
+P09_continuous_truth_not_snapped,True,exact truth range/features differ from nearest grid; relative-TL RMS=4.9161192045 dB; physical z=200m
+P01_s0.1_seed410001_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P01_s0.1_seed410002_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P01_s0.1_seed410003_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P02_s0.1_seed410001_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P02_s0.1_seed410002_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P02_s0.1_seed410003_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P03_s0.1_seed410001_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P03_s0.1_seed410002_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P03_s0.1_seed410003_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P04_s0.1_seed410001_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P04_s0.1_seed410002_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P04_s0.1_seed410003_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P05_s0.1_seed410001_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P05_s0.1_seed410002_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P05_s0.1_seed410003_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P06_s0.1_seed410001_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P06_s0.1_seed410002_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P06_s0.1_seed410003_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P07_s0.1_seed410001_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P07_s0.1_seed410002_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P07_s0.1_seed410003_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P08_s0.1_seed410001_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P08_s0.1_seed410002_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P08_s0.1_seed410003_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P09_s0.1_seed410001_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P09_s0.1_seed410002_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+P09_s0.1_seed410003_evaluation_truth_not_estimator_input,True,Estimator API has no truth/oracle/depth argument; evaluation-only counterfactual cannot change fixed-observation IDs
+bearing_costs_truth_free_signature,True,"(self, observed)"
+select_cloud_truth_free_signature,True,"(self, costs, sigma)"
+acoustic_estimate_truth_free_signature,True,"(ids, scores, tau)"

@@ -1,0 +1,2 @@
+# Preserve exact bytes for pre-run hashes and stored audit evidence on Windows.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
