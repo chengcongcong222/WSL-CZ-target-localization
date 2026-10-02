@@ -1,0 +1,13 @@
+stress_type,metric,n_cases,n_matches,pass
+amplitude,truth_retained,96,96,True
+amplitude,truth_rank,96,96,True
+amplitude,strict_single_bin,96,96,True
+amplitude,r_width,96,96,True
+tracked_freq_drift,truth_retained,30,30,True
+tracked_freq_drift,truth_rank,30,30,True
+tracked_freq_drift,strict_single_bin,30,30,True
+tracked_freq_drift,r_width,30,30,True
+ssp_mismatch,truth_retained,18,18,True
+ssp_mismatch,truth_rank,18,18,True
+ssp_mismatch,strict_single_bin,18,18,True
+ssp_mismatch,r_width,18,18,True

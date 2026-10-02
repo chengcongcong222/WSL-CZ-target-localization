@@ -693,8 +693,8 @@
     <section>
       <h2>R3 FINAL CLOSEOUT — 证据冻结与技术收口</h2>
       <div class="verdict">
-        <strong>R3_MAINLINE_MECHANISM_CONFIRMED_WITH_ENVIRONMENT_MATCH_AS_CRITICAL_DEPENDENCY</strong>。
-        <br>物理验证 100% 完成，项目技术论证 ~95%。
+        <strong>R3_CLOSEOUT_PROVISIONAL_PENDING_GPT_FINAL_AUDIT</strong>。
+        <br>参数候选集的数据结构审计已完成，整体结论等待 GPT 最后审计。
         <br><br>
         <strong>核心结论</strong>：单阵并非天然没有远程距离信息；
         距离信息需要平台运动与多频传播结构共同释放，
@@ -713,6 +713,33 @@
         <a class="file" href="results/R3_FINAL_CLOSEOUT/R3_FINAL_DECISION.json" target="_blank" rel="noopener">FINAL_DECISION<span>最终判定</span></a>
         <a class="file" href="results/R3_FINAL_CLOSEOUT/APPLICATION_CLAIM_WHITELIST.md" target="_blank" rel="noopener">WHITELIST<span>白名单</span></a>
         <a class="file" href="results/R3_FINAL_CLOSEOUT/R3_FINAL_TECHNICAL_ARCHITECTURE.md" target="_blank" rel="noopener">ARCHITECTURE<span>架构</span></a>
+      </div>
+    </section>
+
+    <section>
+      <h2>R3 参数候选集审计 FIX — 分支、连通性与候选质量</h2>
+      <div class="verdict">
+        <strong>PARAMETER_CONTRACTION_AUDIT_COMPLETE</strong>（本轮纯数据审计）。
+        <br>三个深度 180/200/220 m 下，TRIPLE 与 FOUR 均保留两个状态：
+        <code>(50 km, 0°, 2 m/s, 4°)</code> 与 <code>(50 km, 0°, 2 m/s, 5°)</code>。
+        <br>在冻结的 114576 节点 RC1-conditioned 离散搜索网格内，排除约 99.998% 状态组合。
+        <br>剩余 ψ 歧义为 1°；全候选集最坏相对诊断为 20%，
+        <code>final_nominal_universal_lt10pct_set_bound=NOT_ESTABLISHED</code>。
+        真值在六个 matched synthetic control case 中均为唯一最优节点。
+        <br><code>DIAGNOSTIC_ONLY_NOT_REQUIREMENT_VERIFICATION</code>。
+        RC1 收缩比例仍不可识别；整体结论等待 GPT 最后审计。
+      </div>
+      <p class="note">S0/S1 分别进入单窗口、直航双窗口与转向支路；S6/S7/S8 在同一 S5 云上并行评分。
+        已补齐 15 个阶段/深度组合的审计、四维连通分量、正确 bbox，以及 144 个已有 stress case 的四维质量。</p>
+      <div class="files">
+        <a class="file" href="results/R3_FINAL_PARAMETER_CONTRACTION/R3_FINAL_PARAMETER_CONTRACTION_REPORT.md" target="_blank" rel="noopener">AUDIT_FIX_REPORT<span>审计报告</span></a>
+        <a class="file" href="results/R3_FINAL_PARAMETER_CONTRACTION/R3_FINAL_PARAMETER_CONTRACTION_DECISION.json" target="_blank" rel="noopener">AUDIT_FIX_DECISION<span>判定</span></a>
+        <a class="file" href="results/R3_FINAL_PARAMETER_CONTRACTION/PARAMETER_CONTRACTION_GRAPH.csv" target="_blank" rel="noopener">CONTRACTION_GRAPH<span>分支关系</span></a>
+        <a class="file" href="results/R3_FINAL_PARAMETER_CONTRACTION/PARAMETER_CONTRACTION_BY_DEPTH_FIXED.csv" target="_blank" rel="noopener">BY_DEPTH_FIXED<span>三深度质量</span></a>
+        <a class="file" href="results/R3_FINAL_PARAMETER_CONTRACTION/CANDIDATE_MULTIMODALITY_AUDIT.csv" target="_blank" rel="noopener">MULTIMODALITY<span>四维连通性</span></a>
+        <a class="file" href="results/R3_FINAL_PARAMETER_CONTRACTION/FINAL_SURVIVOR_STATE_TABLE_FIXED.csv" target="_blank" rel="noopener">FINAL_STATES_FIXED<span>逐节点候选</span></a>
+        <a class="file" href="results/R3_FINAL_PARAMETER_CONTRACTION/STRESS_FINAL_SET_QUALITY_CASES.csv" target="_blank" rel="noopener">STRESS_QUALITY_CASES<span>四维 stress 质量</span></a>
+        <a class="file" href="results/R3_FINAL_PARAMETER_CONTRACTION/GPT_SYNC.md" target="_blank" rel="noopener">GPT_SYNC<span>审计同步</span></a>
       </div>
     </section>
 

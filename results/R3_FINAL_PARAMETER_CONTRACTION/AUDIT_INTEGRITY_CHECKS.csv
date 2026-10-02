@@ -1,0 +1,249 @@
+check,pass,detail
+shared_S5_cloud_201_180.0,True,Exact node IDs
+shared_S5_cloud_201_200.0,True,Exact node IDs
+shared_S5_cloud_201_220.0,True,Exact node IDs
+shared_S5_cloud_201+235_180.0,True,Exact node IDs
+shared_S5_cloud_201+235_200.0,True,Exact node IDs
+shared_S5_cloud_201+235_220.0,True,Exact node IDs
+shared_S5_cloud_201+235+283_180.0,True,Exact node IDs
+shared_S5_cloud_201+235+283_200.0,True,Exact node IDs
+shared_S5_cloud_201+235+283_220.0,True,Exact node IDs
+shared_S5_cloud_201+235+283+338_180.0,True,Exact node IDs
+shared_S5_cloud_201+235+283+338_200.0,True,Exact node IDs
+shared_S5_cloud_201+235+283+338_220.0,True,Exact node IDs
+shared_S5_cloud_201+235+338_180.0,True,Exact node IDs
+shared_S5_cloud_201+235+338_200.0,True,Exact node IDs
+shared_S5_cloud_201+235+338_220.0,True,Exact node IDs
+shared_S5_cloud_201+283_180.0,True,Exact node IDs
+shared_S5_cloud_201+283_200.0,True,Exact node IDs
+shared_S5_cloud_201+283_220.0,True,Exact node IDs
+shared_S5_cloud_201+283+338_180.0,True,Exact node IDs
+shared_S5_cloud_201+283+338_200.0,True,Exact node IDs
+shared_S5_cloud_201+283+338_220.0,True,Exact node IDs
+shared_S5_cloud_201+338_180.0,True,Exact node IDs
+shared_S5_cloud_201+338_200.0,True,Exact node IDs
+shared_S5_cloud_201+338_220.0,True,Exact node IDs
+shared_S5_cloud_235_180.0,True,Exact node IDs
+shared_S5_cloud_235_200.0,True,Exact node IDs
+shared_S5_cloud_235_220.0,True,Exact node IDs
+shared_S5_cloud_235+283_180.0,True,Exact node IDs
+shared_S5_cloud_235+283_200.0,True,Exact node IDs
+shared_S5_cloud_235+283_220.0,True,Exact node IDs
+shared_S5_cloud_235+283+338_180.0,True,Exact node IDs
+shared_S5_cloud_235+283+338_200.0,True,Exact node IDs
+shared_S5_cloud_235+283+338_220.0,True,Exact node IDs
+shared_S5_cloud_235+338_180.0,True,Exact node IDs
+shared_S5_cloud_235+338_200.0,True,Exact node IDs
+shared_S5_cloud_235+338_220.0,True,Exact node IDs
+shared_S5_cloud_283_180.0,True,Exact node IDs
+shared_S5_cloud_283_200.0,True,Exact node IDs
+shared_S5_cloud_283_220.0,True,Exact node IDs
+shared_S5_cloud_283+338_180.0,True,Exact node IDs
+shared_S5_cloud_283+338_200.0,True,Exact node IDs
+shared_S5_cloud_283+338_220.0,True,Exact node IDs
+shared_S5_cloud_338_180.0,True,Exact node IDs
+shared_S5_cloud_338_200.0,True,Exact node IDs
+shared_S5_cloud_338_220.0,True,Exact node IDs
+initial_grid_size,True,Frozen 16 x 21 x 11 x 31 grid
+S2_180.0_parent_cloud,True,All parent nodes have scores
+S2_200.0_parent_cloud,True,All parent nodes have scores
+S2_220.0_parent_cloud,True,All parent nodes have scores
+S4_180.0_parent_cloud,True,All parent nodes have scores
+S4_200.0_parent_cloud,True,All parent nodes have scores
+S4_220.0_parent_cloud,True,All parent nodes have scores
+S6_180.0_survivor_ids,True,Frozen tau=0.5 IDs agree with survivor CSV
+S6_180.0_survivor_values,True,Scores and profiled depths agree exactly
+S6_200.0_survivor_ids,True,Frozen tau=0.5 IDs agree with survivor CSV
+S6_200.0_survivor_values,True,Scores and profiled depths agree exactly
+S6_220.0_survivor_ids,True,Frozen tau=0.5 IDs agree with survivor CSV
+S6_220.0_survivor_values,True,Scores and profiled depths agree exactly
+S7_180.0_survivor_ids,True,Frozen tau=0.5 IDs agree with survivor CSV
+S7_180.0_survivor_values,True,Scores and profiled depths agree exactly
+S7_200.0_survivor_ids,True,Frozen tau=0.5 IDs agree with survivor CSV
+S7_200.0_survivor_values,True,Scores and profiled depths agree exactly
+S7_220.0_survivor_ids,True,Frozen tau=0.5 IDs agree with survivor CSV
+S7_220.0_survivor_values,True,Scores and profiled depths agree exactly
+S8_180.0_survivor_ids,True,Frozen tau=0.5 IDs agree with survivor CSV
+S8_180.0_survivor_values,True,Scores and profiled depths agree exactly
+S8_200.0_survivor_ids,True,Frozen tau=0.5 IDs agree with survivor CSV
+S8_200.0_survivor_values,True,Scores and profiled depths agree exactly
+S8_220.0_survivor_ids,True,Frozen tau=0.5 IDs agree with survivor CSV
+S8_220.0_survivor_values,True,Scores and profiled depths agree exactly
+three_depth_tables_complete,True,S2/S4/S6/S7/S8 x 180/200/220m
+connected_components_complete,True,All 19 stage/depth clouds partitioned using 4D Manhattan adjacency
+bbox_corrected,True,BBox uses integer min/max spans
+S6_range_bbox_gap,True,15 occupied bins within 16-bin bounding span
+truth_rank_audited,True,"All parent scores, exact serialized ties"
+branch_semantics_fixed,True,Every declared edge compared using actual node IDs
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.25, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.25, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.25, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.5, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.5, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.5, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 1.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 1.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 1.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.25, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.25, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.25, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.5, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.5, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.5, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 1.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 1.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 1.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.25, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.25, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.25, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.5, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.5, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.5, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 1.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 1.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 1.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.25, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.25, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.25, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.5, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.5, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.5, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 1.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 1.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('FOUR', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 1.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.25, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.25, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.25, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.5, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.5, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.5, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 1.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 1.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'COMMON_LINE_AMPLITUDE_VARIATION', 1.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.25, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.25, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.25, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.5, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.5, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.5, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 1.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 1.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-RAMP', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 1.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.25, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.25, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.25, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.5, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.5, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 0.5, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 1.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 1.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'COMMON_LINE_AMPLITUDE_VARIATION', 1.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.25, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.25, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.25, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.5, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.5, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 0.5, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 1.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 1.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_amplitude_('TRIPLE', 'A-SINE', 'LINE_SPECIFIC_AMPLITUDE_VARIATION', 1.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.0025, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.0025, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.0025, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.005, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.005, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.005, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.01, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.01, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.01, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.02, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.02, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('FOUR', 0.02, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.0, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.0, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.0, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.0025, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.0025, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.0025, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.005, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.005, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.005, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.01, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.01, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.01, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.02, 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.02, 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_tracked_freq_drift_('TRIPLE', 0.02, 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('FOUR', 'E0', 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('FOUR', 'E0', 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('FOUR', 'E0', 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('FOUR', 'E1', 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('FOUR', 'E1', 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('FOUR', 'E1', 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('FOUR', 'E2', 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('FOUR', 'E2', 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('FOUR', 'E2', 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('TRIPLE', 'E0', 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('TRIPLE', 'E0', 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('TRIPLE', 'E0', 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('TRIPLE', 'E1', 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('TRIPLE', 'E1', 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('TRIPLE', 'E1', 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('TRIPLE', 'E2', 180.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('TRIPLE', 'E2', 200.0)",True,Full S5 cloud verified; missing theta joined by node ID
+"stress_cloud_ssp_mismatch_('TRIPLE', 'E2', 220.0)",True,Full S5 cloud verified; missing theta joined by node ID
+stress_four_dimensional_quality_complete,True,96 amplitude + 30 tracked-frequency FIX2 + 18 SSP cases including controls
+amplitude_regression_coverage,True,Every previous case matched by full case key
+amplitude_regression_truth_retained,True,96/96 cases agree
+amplitude_regression_truth_rank,True,96/96 cases agree
+amplitude_regression_strict_single_bin,True,96/96 cases agree
+amplitude_regression_r_width,True,96/96 cases agree
+tracked_freq_drift_regression_coverage,True,Every previous case matched by full case key
+tracked_freq_drift_regression_truth_retained,True,30/30 cases agree
+tracked_freq_drift_regression_truth_rank,True,30/30 cases agree
+tracked_freq_drift_regression_strict_single_bin,True,30/30 cases agree
+tracked_freq_drift_regression_r_width,True,30/30 cases agree
+ssp_mismatch_regression_coverage,True,Every previous case matched by full case key
+ssp_mismatch_regression_truth_retained,True,18/18 cases agree
+ssp_mismatch_regression_truth_rank,True,18/18 cases agree
+ssp_mismatch_regression_strict_single_bin,True,18/18 cases agree
+ssp_mismatch_regression_r_width,True,18/18 cases agree
+source_unchanged_results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_WINDOW_SET_CONTRACTION/RC2_ACCEPTED_CANDIDATES.csv,True,Read-only source SHA256 unchanged
+source_unchanged_results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/RC2_CUMULATIVE_1200_ACCEPTED.csv,True,Read-only source SHA256 unchanged
+source_unchanged_results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_WINDOW_SET_CONTRACTION/RC3_PROFILED_SCORE_ALL_ACCEPTED.csv,True,Read-only source SHA256 unchanged
+source_unchanged_results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/RC3_TWO_WINDOW_PROFILED_SCORES.csv,True,Read-only source SHA256 unchanged
+source_unchanged_results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX/SUBSET_CANDIDATE_SCORES_FIXED.csv,True,Read-only source SHA256 unchanged
+source_unchanged_results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_FREQ_SUBSET_FIX/SUBSET_SURVIVORS_TAU05.csv,True,Read-only source SHA256 unchanged
+source_unchanged_results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_ROBUSTNESS/AMPLITUDE_CANDIDATE_SCORES.csv,True,Read-only source SHA256 unchanged
+source_unchanged_results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_TRACKED_FREQ_ROBUSTNESS_FIX2/TRACKED_FREQ_CANDIDATE_SCORES_FIXED.csv,True,Read-only source SHA256 unchanged
+source_unchanged_results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_SSP_MISMATCH/SSP_MISMATCH_CANDIDATE_SCORES.csv,True,Read-only source SHA256 unchanged
+source_unchanged_results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_AMPLITUDE_CLOSEOUT_FIX/AMPLITUDE_CASE_METRICS_FINAL.csv,True,Read-only source SHA256 unchanged
+source_unchanged_results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_TRACKED_FREQ_ROBUSTNESS_FIX2/TRACKED_FREQ_ANCHOR_CASES_FIXED.csv,True,Read-only source SHA256 unchanged
+source_unchanged_results/R3_RC23_CLOSEDLOOP/R3_RC23_TURN_SSP_MISMATCH/SSP_MISMATCH_ANCHOR_CASES.csv,True,Read-only source SHA256 unchanged
