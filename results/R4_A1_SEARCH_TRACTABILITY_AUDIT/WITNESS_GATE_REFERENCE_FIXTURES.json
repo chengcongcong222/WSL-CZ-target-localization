@@ -1,0 +1,520 @@
+{
+  "fixture_kind": "SYNTHETIC_LOGIC_ONLY_NO_ACOUSTIC_EVALUATION",
+  "noisy_development_runs": 0,
+  "cases": [
+    {
+      "id": "identical_hit",
+      "T2_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T3_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T2_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "T3_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "expected_raw": true,
+      "expected_dual": true
+    },
+    {
+      "id": "strict_threshold",
+      "T2_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T3_result": {
+        "best_exact_J": 0.001,
+        "recovered": false,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T2_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "T3_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.001,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "expected_raw": false,
+      "expected_dual": false
+    },
+    {
+      "id": "invalid_execution",
+      "T2_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T3_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": false,
+        "all_branches_execution_valid": false,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 20
+      },
+      "T2_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "T3_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "expected_raw": false,
+      "expected_dual": false
+    },
+    {
+      "id": "top_state_mismatch",
+      "T2_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T3_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.000011,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T2_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "T3_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.000011,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "expected_raw": false,
+      "expected_dual": false
+    },
+    {
+      "id": "depth_mismatch",
+      "T2_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T3_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 205.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T2_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "T3_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 205.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "expected_raw": false,
+      "expected_dual": false
+    },
+    {
+      "id": "new_T3_cluster",
+      "T2_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T3_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T2_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "T3_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        },
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.02,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "expected_raw": false,
+      "expected_dual": false
+    },
+    {
+      "id": "extra_T2_cluster",
+      "T2_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T3_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.3,
+        "v_mps": 2.0,
+        "psi_deg": 3.0,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T2_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        },
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.02,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "T3_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.3,
+          "v_mps": 2.0,
+          "psi_deg": 3.0,
+          "bearing_cost": 0.0
+        }
+      ],
+      "expected_raw": true,
+      "expected_dual": false
+    },
+    {
+      "id": "circular_angles",
+      "T2_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 359.9995,
+        "v_mps": 2.0,
+        "psi_deg": 179.9999,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T3_result": {
+        "best_exact_J": 0.0005,
+        "recovered": true,
+        "r_km": 50.0,
+        "theta_deg": 0.0001,
+        "v_mps": 2.0,
+        "psi_deg": -179.9999,
+        "z_star_label_m": 200.0,
+        "execution_valid": true,
+        "all_branches_execution_valid": true,
+        "n_depth_branches_completed": 21,
+        "n_valid_branches": 21
+      },
+      "T2_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 359.9995,
+          "v_mps": 2.0,
+          "psi_deg": 179.9999,
+          "bearing_cost": 0.0
+        }
+      ],
+      "T3_catalog": [
+        {
+          "case_id": "SEMANTIC_REFERENCE",
+          "solver": "SHGO",
+          "budget": "T3",
+          "depth_label_m": 200.0,
+          "candidate_kind": "EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM",
+          "J_exact": 0.0005,
+          "r_km": 50.0,
+          "theta_deg": 0.0001,
+          "v_mps": 2.0,
+          "psi_deg": -179.9999,
+          "bearing_cost": 0.0
+        }
+      ],
+      "expected_raw": true,
+      "expected_dual": true
+    }
+  ]
+}

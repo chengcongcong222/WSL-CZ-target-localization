@@ -1,13 +1,24 @@
-# Research-lead sync: PRE-RUN FREEZE only
+# Research-lead sync: execution harness freeze
 
-Baseline: 7ab24845e6e1551b75287fefb1ab662e92b395b8.
+parent PRE-RUN SHA: b4839b295777127ec0c8ade56b76c776db99148b
+new execution-harness freeze SHA: commit containing this file / current Git HEAD
+remote/main SHA: verify equal to that HEAD after push
 
-Checkpoint decision: PRE_RUN_FREEZE_READY_FOR_INDEPENDENT_AUDIT; scientific tractability NOT_EVALUATED. The commit containing this file is the independent pre-run freeze commit, before any noisy development result. Use Git HEAD/remote main for its full SHA; a commit does not embed its own SHA.
+budget SHA: 40cd9c0b2cbc7a6fced83faf97009c25d652223bf7cbb77e7ebc6a981089672d
+core objective SHA: 0890fd3c5df680a2d56e13d04709dfe727d09d3b44aabfe4b539cab21de92e2b
+development driver SHA: 9ceb0b0b4e5aae9462e3d2999b3566921a58d0839550b0aa7676f3ee70632a34
+Gate-logic SHA: b5d205ce6b852fe9941e86b648a4e962a13308fa1fc36937ac28525afce4c66b
 
-Please audit TRACTABILITY_BUDGET_FREEZE.json, METHOD_FREEZE.json, HARD_BUDGET_TEST_RESULTS.csv, raw API_REQUEST_LOGS and the three new code/test files. Both solvers use raw per-case/per-depth caps 16/64/256 with fresh state/cache. Boundary tests admit N, refuse N+1, count cache hits and record all four counters. DIRECT's native SystemError preserves ObjectiveBudgetExceeded as cause and exits on the first refusal; this is explicitly disclosed, and exhaustion remains solver_success=false.
+test count: 74 passed
+integrity check count: 312 passed
 
-Validation after freeze: 34 new tests passed; 228 independent integrity/reconstruction checks passed; 2,989 protected baseline files unchanged. Cost/API calibration only: 84 exact cost requests and 16 native compatibility/cap probes. No noisy development cases (0); no fresh confirmation; no scientific Gates claimed PASS.
+DEVELOPMENT_CASE_MANIFEST: 21/21
+truth columns absent: true
+observation explicit mapping: true
+candidate semantics: EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM
+noisy development cases: 0
+development_released: false
+R4: 0%
+A2/depth/SSP/P5: UNOPENED
 
-R4=0%; A2/depth/SSP/P5 unopened. Execution stops at the checkpoint, awaiting independent audit and separate release. There is no automatic continuation.
-
-Pre-run portability correction: the initial freeze commit is `5fa63092007ee10301b3d24b7378aef1333232ff`. Main checkout had 124 historical text files with CRLF/LF-only differences. The correction preserves all historical files and original raw hashes, adds frozen baseline Git-blob/text normalization evidence, and tests conversion acceptance plus content/binary rejection. Frozen budgets, exact objective and zero-development stopping scope are unchanged. The subsequent correction commit is the current checkpoint HEAD.
+PRE_RUN_INFRASTRUCTURE_FREEZE_ACCEPTED. Current checkpoint: DEVELOPMENT_EXECUTION_HARNESS_FREEZE_READY_FOR_INDEPENDENT_AUDIT. Scientific tractability NOT_EVALUATED. Driver/core/budget/Gates/manifest/semantics/tests are bound by DEVELOPMENT_EXECUTION_FREEZE.json and METHOD_FREEZE.json. Stop for the second independent audit; no automatic scientific continuation.

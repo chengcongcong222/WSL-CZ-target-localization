@@ -208,13 +208,17 @@ def audit():
             j=float(np.sqrt(np.mean((feature-tl)**2)));cost=float(np.sum(((b-bearing+np.pi)%(2*np.pi)-np.pi)**2))
             check(f'Exact saved score {path.name} {i}',abs(j-row.J_exact)<1e-7 and abs(cost-row.bearing_cost)<1e-12 and cost<=cut+1e-14,'independent geometry and RMS')
         check('Exact ranking '+path.name,np.all(np.diff(frame.J_exact)>=0),'sorted by direct score')
-    check('Development not reached',budget['development_authorized']==False and not list(t.OUT.glob('DEVELOPMENT_*')) and not list(t.OUT.glob('FRESH_*')),'no cases, results or panels generated')
+    check('Development not reached',budget['development_authorized']==False and not any((t.OUT/name).exists() for name in ['DEVELOPMENT_SHGO_RESULTS.csv','DEVELOPMENT_DIRECT_RESULTS.csv','DEVELOPMENT_EXECUTION_DECISION.json']) and not list(t.OUT.glob('FRESH_*')),'metadata-only harness freeze is allowed; no scientific results or fresh panels')
+    harness_active=(t.OUT/'DEVELOPMENT_EXECUTION_FREEZE.json').exists()
+    if harness_active:
+        from r4_a1_search_tractability_harness_audit import audit_harness
+        audit_harness(check)
     t.save('INTEGRITY_AUDIT.csv',pd.DataFrame(checks))
-    t.json_write('PRE_RUN_CHECKPOINT_DECISION.json',dict(decision='PRE_RUN_FREEZE_READY_FOR_INDEPENDENT_AUDIT',baseline_commit=t.BASELINE,
+    t.json_write('EXECUTION_HARNESS_CHECKPOINT_DECISION.json' if harness_active else 'PRE_RUN_CHECKPOINT_DECISION.json',dict(decision='DEVELOPMENT_EXECUTION_HARNESS_FREEZE_READY_FOR_INDEPENDENT_AUDIT' if harness_active else 'PRE_RUN_FREEZE_READY_FOR_INDEPENDENT_AUDIT',baseline_commit=t.BASELINE,
         scientific_tractability_decision='NOT_EVALUATED',development_authorized=False,noisy_development_runs=0,
         hard_budget_enforcement='VALIDATED_FOR_BOTH_INSTALLED_APIS_WITH_DISCLOSED_DIRECT_CAUSAL_WRAPPING',
         integrity_checks_passed=len(checks),R4_progress_percent=0,A2_depth_SSP_P5='UNOPENED'))
-    print('Pre-run integrity checks passed',len(checks))
+    print('Tractability integrity checks passed',len(checks))
 
 
 if __name__=='__main__':

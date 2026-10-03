@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "pytest",
+    "tests/test_r4_a1_search_tractability.py",
+    "-q"
+  ],
+  "returncode": 0,
+  "run_utc": "2026-10-03T16:36:28.307186+00:00",
+  "after_method_freeze": true,
+  "noisy_development_runs": 0,
+  "output": "........................................................................ [ 97%]\n..                                                                       [100%]\n74 passed in 4.19s\n"
+}

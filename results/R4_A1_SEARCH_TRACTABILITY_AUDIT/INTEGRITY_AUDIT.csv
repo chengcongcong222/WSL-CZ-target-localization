@@ -1,5 +1,5 @@
 check,pass_check,detail
-Protected baseline identities,True,2989 files; 0 Git-declared text checkout conversions; binary/-text files require raw bytes
+Protected baseline identities,True,2989 files; 124 Git-declared text checkout conversions; binary/-text files require raw bytes
 Frozen code/design/tests/budget bytes,True,before any noisy development
 Increasing hard caps shgo,True,"[16, 64, 256]"
 Increasing hard caps direct,True,"[16, 64, 256]"
@@ -226,4 +226,88 @@ Exact saved score SHGO_EXACT_CANDIDATES_2.csv 15,True,independent geometry and R
 Exact saved score SHGO_EXACT_CANDIDATES_2.csv 16,True,independent geometry and RMS
 Exact saved score SHGO_EXACT_CANDIDATES_2.csv 17,True,independent geometry and RMS
 Exact ranking SHGO_EXACT_CANDIDATES_2.csv,True,sorted by direct score
-Development not reached,True,"no cases, results or panels generated"
+Development not reached,True,metadata-only harness freeze is allowed; no scientific results or fresh panels
+Harness parent and release boundary,True,no scientific release
+Accepted infrastructure SHA constants,True,accepted immutable infrastructure
+Harness frozen bytes r4_a1_search_tractability.py,True,SHA256
+Harness frozen bytes r4_a1_search_tractability_development.py,True,SHA256
+Harness frozen bytes r4_a1_search_tractability_gates.py,True,SHA256
+Harness frozen bytes r4_a1_search_tractability_harness_audit.py,True,SHA256
+Harness frozen bytes r4_a1_search_tractability_audit.py,True,SHA256
+Harness frozen bytes tests/test_r4_a1_search_tractability.py,True,SHA256
+Harness frozen bytes .gitattributes,True,SHA256
+Harness frozen bytes results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_CASE_MANIFEST.csv,True,SHA256
+Harness frozen bytes results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_MANIFEST_PROVENANCE.json,True,SHA256
+Harness frozen bytes results/R4_A1_SEARCH_TRACTABILITY_AUDIT/WITNESS_GATE_REFERENCE_FIXTURES.json,True,SHA256
+Harness frozen bytes results/R4_A1_SEARCH_TRACTABILITY_AUDIT/WITNESS_SEMANTICS.md,True,SHA256
+Harness frozen bytes results/R4_A1_SEARCH_TRACTABILITY_AUDIT/TRACTABILITY_BUDGET_FREEZE.json,True,SHA256
+Harness frozen bytes results/R4_A1_SEARCH_TRACTABILITY_AUDIT/TRACTABILITY_METHOD.md,True,SHA256
+Harness frozen bytes results/R4_A1_SEARCH_TRACTABILITY_AUDIT/A1_SEARCH_TRACTABILITY_AUDIT_DESIGN.md,True,SHA256
+Harness frozen bytes results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_EXECUTION_HARNESS_DESIGN.md,True,SHA256
+Harness frozen bytes results/R4_A1_SEARCH_TRACTABILITY_AUDIT/ACCEPTED_PRE_RUN_METHOD_FREEZE.json,True,SHA256
+Harness frozen bytes results/R4_A1_FIX_CONTINUOUS_SEARCH/CASE_OBSERVATIONS.npz,True,SHA256
+Exactly 21 nominal manifest cases,True,no noiseless or duplicates
+Manifest contains only permitted columns,True,no privileged metrics or state columns
+Frozen nominal identifiers preserved,True,not selected by solver recovery
+Non-oracle projection P01_s0.1_seed410001,True,source identifiers and bearing cutoff only
+Non-oracle projection P02_s0.1_seed410001,True,source identifiers and bearing cutoff only
+Non-oracle projection P03_s0.1_seed410001,True,source identifiers and bearing cutoff only
+Non-oracle projection P04_s0.1_seed410001,True,source identifiers and bearing cutoff only
+Non-oracle projection P05_s0.1_seed410001,True,source identifiers and bearing cutoff only
+Non-oracle projection P06_s0.1_seed410001,True,source identifiers and bearing cutoff only
+Non-oracle projection P07_s0.1_seed410001,True,source identifiers and bearing cutoff only
+Non-oracle projection P08_s0.1_seed410001,True,source identifiers and bearing cutoff only
+Non-oracle projection P09_s0.1_seed410001,True,source identifiers and bearing cutoff only
+Non-oracle projection Q01_s0.1_seed420001,True,source identifiers and bearing cutoff only
+Non-oracle projection Q01_s0.1_seed420002,True,source identifiers and bearing cutoff only
+Non-oracle projection Q02_s0.1_seed420001,True,source identifiers and bearing cutoff only
+Non-oracle projection Q02_s0.1_seed420002,True,source identifiers and bearing cutoff only
+Non-oracle projection Q03_s0.1_seed420001,True,source identifiers and bearing cutoff only
+Non-oracle projection Q03_s0.1_seed420002,True,source identifiers and bearing cutoff only
+Non-oracle projection Q04_s0.1_seed420001,True,source identifiers and bearing cutoff only
+Non-oracle projection Q04_s0.1_seed420002,True,source identifiers and bearing cutoff only
+Non-oracle projection Q05_s0.1_seed420001,True,source identifiers and bearing cutoff only
+Non-oracle projection Q05_s0.1_seed420002,True,source identifiers and bearing cutoff only
+Non-oracle projection Q06_s0.1_seed420001,True,source identifiers and bearing cutoff only
+Non-oracle projection Q06_s0.1_seed420002,True,source identifiers and bearing cutoff only
+Explicit observation mapping P01_s0.1_seed410001,True,case_ids mapping
+Explicit observation mapping P02_s0.1_seed410001,True,case_ids mapping
+Explicit observation mapping P03_s0.1_seed410001,True,case_ids mapping
+Explicit observation mapping P04_s0.1_seed410001,True,case_ids mapping
+Explicit observation mapping P05_s0.1_seed410001,True,case_ids mapping
+Explicit observation mapping P06_s0.1_seed410001,True,case_ids mapping
+Explicit observation mapping P07_s0.1_seed410001,True,case_ids mapping
+Explicit observation mapping P08_s0.1_seed410001,True,case_ids mapping
+Explicit observation mapping P09_s0.1_seed410001,True,case_ids mapping
+Explicit observation mapping Q01_s0.1_seed420001,True,case_ids mapping
+Explicit observation mapping Q01_s0.1_seed420002,True,case_ids mapping
+Explicit observation mapping Q02_s0.1_seed420001,True,case_ids mapping
+Explicit observation mapping Q02_s0.1_seed420002,True,case_ids mapping
+Explicit observation mapping Q03_s0.1_seed420001,True,case_ids mapping
+Explicit observation mapping Q03_s0.1_seed420002,True,case_ids mapping
+Explicit observation mapping Q04_s0.1_seed420001,True,case_ids mapping
+Explicit observation mapping Q04_s0.1_seed420002,True,case_ids mapping
+Explicit observation mapping Q05_s0.1_seed420001,True,case_ids mapping
+Explicit observation mapping Q05_s0.1_seed420002,True,case_ids mapping
+Explicit observation mapping Q06_s0.1_seed420001,True,case_ids mapping
+Explicit observation mapping Q06_s0.1_seed420002,True,case_ids mapping
+Selected observations finite and readonly,True,mapping only; no objective evaluated
+21 inherited nuisance branches,True,no depth estimator
+Witness semantics,True,no minima relabeling
+Search/Gate static exclusion run_branch,True,signature/source
+Search/Gate static exclusion run_case,True,signature/source
+Search/Gate static exclusion run_family,True,signature/source
+Search/Gate static exclusion extract_witnesses,True,signature/source
+Search/Gate static exclusion rebuild_witnesses,True,signature/source
+Search/Gate static exclusion raw_case_convergence,True,signature/source
+Search/Gate static exclusion dual_case_agreement,True,signature/source
+Unreleased real entry hard stop,True,before loading runtime inputs/models
+Scientific outputs absent,True,no real run and no manufactured scientific catalog
+Independent synthetic semantic reference identical_hit,True,fixed expected booleans; no acoustic/noisy case run
+Independent synthetic semantic reference strict_threshold,True,fixed expected booleans; no acoustic/noisy case run
+Independent synthetic semantic reference invalid_execution,True,fixed expected booleans; no acoustic/noisy case run
+Independent synthetic semantic reference top_state_mismatch,True,fixed expected booleans; no acoustic/noisy case run
+Independent synthetic semantic reference depth_mismatch,True,fixed expected booleans; no acoustic/noisy case run
+Independent synthetic semantic reference new_T3_cluster,True,fixed expected booleans; no acoustic/noisy case run
+Independent synthetic semantic reference extra_T2_cluster,True,fixed expected booleans; no acoustic/noisy case run
+Independent synthetic semantic reference circular_angles,True,fixed expected booleans; no acoustic/noisy case run

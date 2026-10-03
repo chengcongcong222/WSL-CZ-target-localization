@@ -1,0 +1,20 @@
+{
+  "parent_pre_run_commit": "b4839b295777127ec0c8ade56b76c776db99148b",
+  "source_path": "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/SEARCH_BUDGET_CONVERGENCE.csv",
+  "source_allowed_columns": [
+    "case_id",
+    "panel_id",
+    "origin_group",
+    "sigma_deg",
+    "seed",
+    "cutoff"
+  ],
+  "selection_rule": "exactly sigma_deg==0.1; identical non-oracle duplicates removed; no recovery/error/score/state column read",
+  "observation_path": "results/R4_A1_FIX_CONTINUOUS_SEARCH/CASE_OBSERVATIONS.npz",
+  "mapping_rule": "archive case_ids identifier -> explicit observation_index; row-order assumptions rejected",
+  "source_sha256": "18f3412e4d3af4aba20672bc08606cb64ecb0acfcd1ddd4f83914b380fb362b8",
+  "observation_sha256": "d92493e6343d7a4305fc06c053d27e9aa8801a3e6cceea27295eaefe12a1b525",
+  "n_unique_case_ids": 21,
+  "noisy_development_runs": 0,
+  "development_released": false
+}

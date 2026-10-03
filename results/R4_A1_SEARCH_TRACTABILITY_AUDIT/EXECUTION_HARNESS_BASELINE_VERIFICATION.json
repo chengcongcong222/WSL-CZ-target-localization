@@ -1,0 +1,11 @@
+{
+  "parent_pre_run_commit": "b4839b295777127ec0c8ade56b76c776db99148b",
+  "HEAD": "b4839b295777127ec0c8ade56b76c776db99148b",
+  "origin_main": "b4839b295777127ec0c8ade56b76c776db99148b",
+  "tracked_worktree_clean_before_harness": true,
+  "user_untracked_preserved": true,
+  "isolation_note": "Full worktree creation rolled back by Git due to insufficient disk; authorized changes use existing workspace with explicit staged path scope",
+  "budget_sha256": "40cd9c0b2cbc7a6fced83faf97009c25d652223bf7cbb77e7ebc6a981089672d",
+  "core_objective_sha256": "0890fd3c5df680a2d56e13d04709dfe727d09d3b44aabfe4b539cab21de92e2b",
+  "noisy_development_runs": 0
+}

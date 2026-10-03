@@ -16,7 +16,7 @@ The research lead owns the route, Gate acceptance, evidence wording and final in
 | B4 | Depth working-envelope freeze | 5% |
 | C | Application metric freeze | 15% |
 
-Only the A1 search-tractability PRE-RUN FREEZE checkpoint is currently authorized. A2/B/SSP/P5 are not opened. R4 remains at 0%.
+Only the A1 search-tractability DEVELOPMENT_EXECUTION_HARNESS_FREEZE checkpoint is currently authorized. A2/B/SSP/P5 are not opened. R4 remains at 0%.
 
 ## A1 scientific questions
 
@@ -43,3 +43,9 @@ After method/config/code/budget/threshold freeze, a new seed-defined eight-truth
 The research lead accepted `7ab24845e6e1551b75287fefb1ab662e92b395b8` as A1_FIX2_BLOCKED_BY_UNCLOSED_ACOUSTIC_COVERAGE: 2/6 Gates pass, raw coverage remains unclosed. R3/A1/FIX1/FIX2 numerical evidence is frozen. A likelihood-section width is not an optimizer capture basin; finite catalogs without an alias do not establish global uniqueness; search failure is not physical non-identifiability.
 
 The new controlling staged instruction authorizes only external request-budget enforcement, SHGO/DIRECT API/exact-objective/exclusion tests, cost calibration and an independent pre-run freeze commit. Evidence is isolated under `../R4_A1_SEARCH_TRACTABILITY_AUDIT/`. Both solver families have frozen per-case/per-depth admitted-request caps 16/64/256. No noisy development case or fresh panel has run. The checkpoint awaits the research lead's audit and separate release; all scientific tractability Gates remain NOT_EVALUATED. No new scientific progress credit is awarded. A2, depth/B, SSP and P5 remain unopened.
+
+## Accepted infrastructure and unreleased execution harness
+
+The lead independently accepted b4839b295777127ec0c8ade56b76c776db99148b as PRE_RUN_INFRASTRUCTURE_FREEZE_ACCEPTED. Its core objective/controller and frozen 16/64/256 per-depth budgets remain unchanged. The new authorization is only DEVELOPMENT_EXECUTION_HARNESS_FREEZE: non-oracle 21-case manifest, independent raw-branch driver, threshold-hit/witness-cluster semantics and Gate logic, tests and immutable release manifest. It does not authorize real noisy development.
+
+The new harness remains development_released=false; noisy_development_runs=0. It awaits a second independent audit. Raw top witnesses and discrete subthreshold clusters are not local minima or basin certificates. No management credit is awarded; R4=0%; A2/depth/SSP/P5 unopened.

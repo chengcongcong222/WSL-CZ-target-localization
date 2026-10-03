@@ -1,0 +1,15 @@
+# Frozen witness semantics
+
+This tractability audit tests **threshold-hit / discrete witness-cluster convergence**, not local stationarity. This clarification precedes every noisy development result.
+
+A raw witness is a feasible state actually evaluated by the solver within its frozen admitted-request budget and independently rebuilt with direct modal features. Cached repeat requests introduce no additional distinct witness. The raw top witness is the minimum exact J across all 21 independently searched depth branches. `recovered` is strictly `best_exact_J < 0.001 dB`; it states that the capped search hit the threshold region. It does not certify a local/global minimum or a recovered basin. An invalid run may retain a subthreshold witness and `recovered=true`, but its independent execution_valid flag prevents Gate PASS.
+
+Every witness retains `EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM`. *_EVALUATED_WITNESSES.csv retains all distinct feasible exact evaluated states before tolerance deduplication, while *_WITNESS_CATALOG.csv contains deterministic greedy representatives. There are no manufactured *_MINIMA_CATALOG.csv files.
+
+Deduplication sorts by [J_exact,depth_label_m,r_km,theta_deg,v_mps,psi_deg] ascending, retaining the first representative and removing states within componentwise frozen DEDUP [0.005 km,0.001 deg,0.005 m/s,0.05 deg] at exactly the same depth label. Angles use the shortest circular difference. This is an explicit greedy representative rule, not transitive single-link clustering. Gate cluster matching filters strictly J_exact<0.001 first and applies that rule. No truth, old recovery result, old optimizer state or local geometry enters clustering.
+
+Each solver's per-case T2/T3 convergence requires valid complete T2 and T3 runs; both recovered; circular STATE_AGREEMENT [1e-5 km,0.001 deg,1e-4 m/s,0.01 deg]; identical depth labels; and every T3 subthreshold witness-cluster representative matched by a T2 representative under DEDUP at the same depth. Containment is T3 -> T2 only. Both solvers need 21/21, and any execution-invalid raw run prevents the stage Gate PASS.
+
+Only after both raw-convergence families pass may the T3 dual comparison execute. It requires valid recovered top witnesses, STATE_AGREEMENT, identical depth and bidirectional subthreshold witness-cluster containment for all 21 cases. This is **dual-solver subthreshold witness-cluster agreement**, never a global-minimum-set agreement or basin uniqueness claim.
+
+Alias audit uses separately reconstructed bearing RMS<1e-8 deg and acoustic RMS<1e-6 dB for state-separated candidates, with horizontal separation exceeding at least one frozen DEDUP component using circular angles. Joint-match candidates are independently rebuilt from their observation, geometry and modal features; ordinary J<0.001 cluster membership is not an alias test. No finding supports only NO_EXACT_ALIAS_FINDING_IN_TESTED_CATALOGS, never global uniqueness. A strict joint-match finding invokes A1_CONTINUOUS_ALIAS_FINDING_STOP.

@@ -1565,3 +1565,8 @@ PASS 只代表：
 - 明确说明 A2/B/P5 是否仍未开放。
 
 不要继续下一阶段。
+
+
+# 2026-10-04 controlling execution-harness appendix
+
+The research lead accepted the pre-run infrastructure at b4839b295777127ec0c8ade56b76c776db99148b, then authorized only DEVELOPMENT_EXECUTION_HARNESS_FREEZE, with zero noisy development execution. The complete new instruction is saved in DEVELOPMENT_EXECUTION_HARNESS_DESIGN.md. It supersedes earlier minimum/basin terminology for this audit: Gates are threshold-hit / discrete witness-cluster convergence, not local-stationarity certificates. WITNESS_SEMANTICS.md freezes the representative and comparison rules. The original task and earlier instructions above remain historical records. Budgets/core/thresholds/tolerances remain unchanged. The unreleased harness must be independently audited before any real case is run.

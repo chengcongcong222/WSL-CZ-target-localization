@@ -1,34 +1,24 @@
-# A1 search tractability: pre-run checkpoint
+# Development execution harness freeze
 
-Decision: **PRE_RUN_FREEZE_READY_FOR_INDEPENDENT_AUDIT**. The scientific tractability decision is **NOT_EVALUATED**. Stop here for the research lead's independent audit and separate development release.
+Checkpoint: **DEVELOPMENT_EXECUTION_HARNESS_FREEZE_READY_FOR_INDEPENDENT_AUDIT**. The research lead accepted the parent as PRE_RUN_INFRASTRUCTURE_FREEZE_ACCEPTED. Scientific tractability remains NOT_EVALUATED. This checkpoint completes only the driver/semantics/Gate freeze and stops for the second independent audit.
 
-Baseline: `7ab24845e6e1551b75287fefb1ab662e92b395b8`. The isolated worktree began clean with HEAD==origin/main==baseline. The main workspace's pre-existing unrelated untracked files were preserved. R3/A1/FIX1/FIX2 numerical artifacts are unchanged; FIX2 remains accepted and frozen as A1_FIX2_BLOCKED_BY_UNCLOSED_ACOUSTIC_COVERAGE.
+Parent PRE-RUN SHA: `b4839b295777127ec0c8ade56b76c776db99148b`. The commit containing this report is the new harness-freeze SHA; it cannot embed its own SHA. Local HEAD and GitHub main are verified equal after push.
 
-## Frozen implementation and budgets
+| Binding | SHA256 |
+|---|---|
+| frozen budget | `40cd9c0b2cbc7a6fced83faf97009c25d652223bf7cbb77e7ebc6a981089672d` |
+| core objective/controller | `0890fd3c5df680a2d56e13d04709dfe727d09d3b44aabfe4b539cab21de92e2b` |
+| development driver | `9ceb0b0b4e5aae9462e3d2999b3566921a58d0839550b0aa7676f3ee70632a34` |
+| Gate logic | `b5d205ce6b852fe9941e86b648a4e962a13308fa1fc36937ac28525afce4c66b` |
 
-New files: r4_a1_search_tractability.py, r4_a1_search_tractability_audit.py, tests/test_r4_a1_search_tractability.py. Solver choices remain SciPy SHGO and DIRECT; only observation-conditioned (r0,u_r) and inherited finite nuisance-depth branches are allowed. Exact scores use the direct modal model. The code has no enabled noisy-development driver.
+Core and budget bytes are unchanged. SHGO and DIRECT retain 16/64/256 admitted requests per case/depth, the same options and all accepted tolerances. The new driver is r4_a1_search_tractability_development.py; comparison logic is r4_a1_search_tractability_gates.py; metadata projection/independent checks are r4_a1_search_tractability_harness_audit.py. Every real scientific entry is blocked by DEVELOPMENT_RELEASED=False before loading runtime observations/models. Fresh generation has its own false release flag.
 
-| Solver | Raw T1 | Raw T2 | Raw T3 | Scope |
-|---|---:|---:|---:|---|
-| SHGO | 16 | 64 | 256 | admitted objective requests per case and depth branch |
-| DIRECT | 16 | 64 | 256 | admitted objective requests per case and depth branch |
+DEVELOPMENT_CASE_MANIFEST.csv: **21/21** unique nominal cases; privileged columns absent; explicit observation case_ids mapping true. The driver runtime loads only the permitted manifest and immutable CASE_OBSERVATIONS.npz under the accepted FIX1 directory. No truth panel, full old result/error dataframe, old recovery/J/state input or future fresh panel is supplied to the optimizer. Manifest selection and archive hashes/provenance are independently reconstructed.
 
-The 21 inherited depth labels are uniformly enumerated. Per-case aggregate upper bounds are 336/1344/5376 requests per solver; each branch is independent. The cost-only policy measures p95=0.0213035749912 seconds per exact request and selects base=16 from the declared six-hour/factor-two formula. Across both 21-case development families and all raw budgets, the maximum admitted-request count is 296352; the estimated exact-plus-validation time is 3.507 hours, excluding I/O/catalog overhead. This is an estimate, not a runtime guarantee. Budgets were not selected from recovery results.
+Raw witnesses retain **EVALUATED_WITNESS_NOT_CERTIFIED_LOCAL_MINIMUM**. Each raw branch independently creates engine, controller, cache and optimizer call; each case uses all 21 branches and selects the direct-modal raw top witness. Recovery is solely its strict J_exact<0.001 threshold hit. Budget exhaustion and solver_success=false are separate from recovery; execution invalidity separately blocks Gate PASS. All feasible distinct exact states will be retained in *_EVALUATED_WITNESSES.csv before score-first, same-depth frozen witness dedup.
 
-TRACTABILITY_BUDGET_FREEZE.json records every option, threshold, tolerance, depth label, domain and calibration hash. METHOD_FREEZE.json binds implementation, tests, complete controlling instructions/design, method, budget, input hashes and raw API ledgers. All code/design hashes were checked after freeze. Recovery remains strictly J_exact<0.001 dB.
+Formal comparison is threshold-hit / discrete witness-cluster convergence, not local stationarity. Raw T2/T3 comparison requires valid recovered top states/depth and T3->T2 cluster containment; dual T3 comparison requires both 21/21 raw-convergence families first, then top state/depth and bidirectional cluster matching. No certified minima files are manufactured. Strict alias reconstruction retains its narrower joint-match criteria and finite-catalog scope. Raw/dual failure cannot reach fresh generation, increase budgets, change tolerances or add a repair algorithm.
 
-## Hard cap and evidence
+Validation after final freeze: **74 tests passed; 312 integrity/reconstruction checks passed**. See LOCAL_VALIDATION.md and raw logs. Protected baseline identities, budget SHA, core SHA and all new freeze hashes match. The parent accepted pre-run method/manifests/report remain archived verbatim; no scientific result has been overwritten.
 
-Each native hard-cap probe admits exactly N requests and refuses N+1 before cache lookup or modal evaluation. Cache hits remain counted requests. The four required counts are retained and reconstructed independently. There is no admitted-request or exact-forward overshoot.
-
-Important native API detail: SHGO propagates ObjectiveBudgetExceeded directly; SciPy 1.15.3 DIRECT wraps it in SystemError with the original exception retained as __cause__. Both leave the native call at the first refused callback. Native classes/causal chains are logged, no library patch/workaround is used, unrelated SystemError is re-raised, and cap exhaustion never becomes solver success. The lead should review this explicit causal-propagation interpretation at the checkpoint.
-
-34 new unit tests passed after freeze; 228 independent pre-run integrity/reconstruction checks passed. Twelve API-only cap probes, four physical compatibility probes, and 84 exact cost-only requests are preserved. Compatibility catalogs are evaluated witnesses explicitly not certified local minima; no basin-coverage inference is made from them.
-
-## Mandatory stopping state
-
-Noisy development cases executed: **0**. No development panel/results, fresh panel/observations, dual-solver scientific agreement, alias finding or six-Gate scientific decision has been generated. Scientific Gates remain NOT_EVALUATED at this checkpoint. No future stage is authorized by this report.
-
-R4 remains **0%**. R3/A1/FIX1/FIX2 remain frozen. A2, depth/B, SSP and P5 remain unopened. The pre-run commit must be pushed and execution stops; development requires a separate research-lead instruction after audit.
-
-Pre-run portability correction: the initial freeze commit is `5fa63092007ee10301b3d24b7378aef1333232ff`. Main checkout had 124 historical text files with CRLF/LF-only differences. The correction preserves all historical files and original raw hashes, adds frozen baseline Git-blob/text normalization evidence, and tests conversion acceptance plus content/binary rejection. Frozen budgets, exact objective and zero-development stopping scope are unchanged. The subsequent correction commit is the current checkpoint HEAD.
+Noisy development cases: **0**. Development released: **false**. Scientific Gates: **NOT_EVALUATED**. R4: **0%**. A2/depth/SSP/P5: **UNOPENED**. Stop after commit/push; require a second independent audit and separate 21-case release.
