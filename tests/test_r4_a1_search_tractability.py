@@ -5,6 +5,8 @@ import pytest
 from unittest.mock import patch
 from threadpoolctl import threadpool_limits
 import r4_a1_search_tractability as t
+import r4_a1_search_tractability_audit as a
+import hashlib
 
 
 class Quadratic:
@@ -175,3 +177,20 @@ def test_runtime_sentinel_solver_extraction_and_verification(physical,solver,tmp
 @pytest.mark.parametrize('bad',[0,-1,True,2.5])
 def test_invalid_budget_rejected(bad):
     with pytest.raises(ValueError):t.BudgetObjective(Quadratic(),bad)
+
+
+@pytest.mark.parametrize('checkout',[b'x,y\n1,2\n',b'x,y\r\n1,2\r\n'])
+def test_historical_text_checkout_line_endings_are_portable(tmp_path,checkout):
+    canonical=b'x,y\n1,2\n';original=b'x,y\r\n1,2\r\n'
+    p=tmp_path/'evidence.csv';p.write_bytes(checkout)
+    oid=hashlib.sha1(b'blob 8\0'+canonical).hexdigest()
+    assert a.verify_frozen_input(p,hashlib.sha256(original).hexdigest(),hashlib.sha256(canonical).hexdigest(),oid,True) in ['RAW_BYTES_IDENTICAL','GIT_TEXT_CRLF_LF_ONLY']
+    p.write_bytes(checkout.replace(b'1,2',b'1,3'))
+    with pytest.raises(AssertionError):a.verify_frozen_input(p,hashlib.sha256(original).hexdigest(),hashlib.sha256(canonical).hexdigest(),oid,True)
+
+
+def test_binary_or_explicit_no_text_file_never_uses_line_ending_fallback(tmp_path):
+    canonical=b'x,y\n1,2\n';original=b'x,y\r\n1,2\r\n'
+    p=tmp_path/'opaque.bin';p.write_bytes(canonical)
+    oid=hashlib.sha1(b'blob 8\0'+canonical).hexdigest()
+    with pytest.raises(AssertionError):a.verify_frozen_input(p,hashlib.sha256(original).hexdigest(),hashlib.sha256(canonical).hexdigest(),oid,False)

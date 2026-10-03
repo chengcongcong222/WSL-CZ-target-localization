@@ -23,10 +23,12 @@ Each native hard-cap probe admits exactly N requests and refuses N+1 before cach
 
 Important native API detail: SHGO propagates ObjectiveBudgetExceeded directly; SciPy 1.15.3 DIRECT wraps it in SystemError with the original exception retained as __cause__. Both leave the native call at the first refused callback. Native classes/causal chains are logged, no library patch/workaround is used, unrelated SystemError is re-raised, and cap exhaustion never becomes solver success. The lead should review this explicit causal-propagation interpretation at the checkpoint.
 
-31 new unit tests passed after freeze; 227 independent pre-run integrity/reconstruction checks passed. Twelve API-only cap probes, four physical compatibility probes, and 84 exact cost-only requests are preserved. Compatibility catalogs are evaluated witnesses explicitly not certified local minima; no basin-coverage inference is made from them.
+34 new unit tests passed after freeze; 228 independent pre-run integrity/reconstruction checks passed. Twelve API-only cap probes, four physical compatibility probes, and 84 exact cost-only requests are preserved. Compatibility catalogs are evaluated witnesses explicitly not certified local minima; no basin-coverage inference is made from them.
 
 ## Mandatory stopping state
 
 Noisy development cases executed: **0**. No development panel/results, fresh panel/observations, dual-solver scientific agreement, alias finding or six-Gate scientific decision has been generated. Scientific Gates remain NOT_EVALUATED at this checkpoint. No future stage is authorized by this report.
 
 R4 remains **0%**. R3/A1/FIX1/FIX2 remain frozen. A2, depth/B, SSP and P5 remain unopened. The pre-run commit must be pushed and execution stops; development requires a separate research-lead instruction after audit.
+
+Pre-run portability correction: the initial freeze commit is `5fa63092007ee10301b3d24b7378aef1333232ff`. Main checkout had 124 historical text files with CRLF/LF-only differences. The correction preserves all historical files and original raw hashes, adds frozen baseline Git-blob/text normalization evidence, and tests conversion acceptance plus content/binary rejection. Frozen budgets, exact objective and zero-development stopping scope are unchanged. The subsequent correction commit is the current checkpoint HEAD.

@@ -1,0 +1,13 @@
+{
+  "initial_pre_run_commit": "5fa63092007ee10301b3d24b7378aef1333232ff",
+  "previous_manifest_sha256": "1f40a76e06892bb70234ece962cb7c1f78fadad97f300dd0261aec65c57b533b",
+  "reason": "Historical Git text checkout CRLF/LF differences made strict raw-only baseline auditing nonportable",
+  "main_checkout_text_conversions": 124,
+  "original_raw_hashes_preserved": true,
+  "baseline_git_blob_identity_required": true,
+  "only_git_declared_text_line_endings_accepted": true,
+  "binary_and_explicit_no_text_raw_hashes_required": true,
+  "exact_objective_unchanged": true,
+  "budget_sha256": "40cd9c0b2cbc7a6fced83faf97009c25d652223bf7cbb77e7ebc6a981089672d",
+  "noisy_development_runs": 0
+}

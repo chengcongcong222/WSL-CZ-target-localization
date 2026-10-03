@@ -1,4 +1,5 @@
 check,pass_check,detail
+Protected baseline identities,True,2989 files; 0 Git-declared text checkout conversions; binary/-text files require raw bytes
 Frozen code/design/tests/budget bytes,True,before any noisy development
 Increasing hard caps shgo,True,"[16, 64, 256]"
 Increasing hard caps direct,True,"[16, 64, 256]"

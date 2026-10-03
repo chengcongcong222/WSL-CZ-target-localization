@@ -19,14 +19,35 @@ import r4_a1_search_tractability as t
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def verify_frozen_input(path,raw_sha256,lf_sha256,baseline_git_blob_oid,allow_line_endings):
+    data=path.read_bytes()
+    if hashlib.sha256(data).hexdigest()==raw_sha256:return 'RAW_BYTES_IDENTICAL'
+    normalized=data.replace(b'\r\n',b'\n')
+    blob_oid=hashlib.sha1(b'blob '+str(len(normalized)).encode()+b'\0'+normalized).hexdigest()
+    assert allow_line_endings and hashlib.sha256(normalized).hexdigest()==lf_sha256 and blob_oid==baseline_git_blob_oid,path
+    return 'GIT_TEXT_CRLF_LF_ONLY'
+
+
+def input_snapshot_row(p,blob_oid,eol):
+    data=(t.ROOT/p).read_bytes();normalized=data.replace(b'\r\n',b'\n')
+    normalized_oid=hashlib.sha1(b'blob '+str(len(normalized)).encode()+b'\0'+normalized).hexdigest()
+    allow=eol.startswith('i/lf') and 'attr/-text' not in eol and normalized_oid==blob_oid
+    return dict(path=p,sha256=hashlib.sha256(data).hexdigest(),canonical_lf_sha256=hashlib.sha256(normalized).hexdigest(),baseline_git_blob_oid=blob_oid,allow_line_endings=allow)
+
+
 def frozen_inputs():
     path=t.OUT/'FROZEN_INPUT_HASHES.csv'
     if path.exists():
-        for row in pd.read_csv(path).itertuples():assert sha(t.ROOT/row.path)==row.sha256,row.path
-        return
-    files=subprocess.check_output(['git','ls-tree','-r','--name-only',t.BASELINE],text=True).splitlines()
+        modes=[]
+        for row in pd.read_csv(path).itertuples():
+            modes.append(verify_frozen_input(t.ROOT/row.path,row.sha256,row.canonical_lf_sha256,row.baseline_git_blob_oid,row.allow_line_endings))
+        return modes
+    listing=subprocess.check_output(['git','ls-tree','-r',t.BASELINE],text=True).splitlines()
+    blobs={line.split('\t',1)[1]:line.split('\t',1)[0].split()[-1] for line in listing};files=list(blobs)
+    eols={line.split('\t',1)[1]:line.split('\t',1)[0] for line in subprocess.check_output(['git','ls-files','--eol'],text=True).splitlines()}
     protected=[p for p in files if p.startswith(('results/R3','results/R4_A1_OFFGRID_BEARING_BOUNDARY/','results/R4_A1_FIX_CONTINUOUS_SEARCH/','results/R4_A1_FIX2_ACOUSTIC_COVERAGE/')) or (p.lower().startswith(('r3','r4_a1')) and p.endswith('.py'))]
-    t.save(path.name,pd.DataFrame([dict(path=p,sha256=sha(t.ROOT/p)) for p in protected]))
+    t.save(path.name,pd.DataFrame([input_snapshot_row(p,blobs[p],eols.get(p,'')) for p in protected]))
+    return ['RAW_BYTES_IDENTICAL']*len(protected)
 
 
 def fixture():
@@ -145,10 +166,11 @@ def independent_geometry(s):
 
 
 def audit():
-    frozen_inputs();checks=[]
+    input_modes=frozen_inputs();checks=[]
     def check(name,ok,detail):
         checks.append(dict(check=name,pass_check=bool(ok),detail=str(detail)))
         assert ok,(name,detail)
+    check('Protected baseline identities',len(input_modes)==len(pd.read_csv(t.OUT/'FROZEN_INPUT_HASHES.csv')),f'{len(input_modes)} files; {input_modes.count("GIT_TEXT_CRLF_LF_ONLY")} Git-declared text checkout conversions; binary/-text files require raw bytes')
     manifest=json.loads((t.OUT/'METHOD_FREEZE.json').read_text())
     check('Frozen code/design/tests/budget bytes',all(sha(t.ROOT/p)==h for p,h in manifest['sha256'].items()),'before any noisy development')
     budget=json.loads((t.OUT/'TRACTABILITY_BUDGET_FREEZE.json').read_text())
