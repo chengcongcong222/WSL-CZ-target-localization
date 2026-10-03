@@ -1,0 +1,11 @@
+{
+  "decision": "PRE_RUN_FREEZE_READY_FOR_INDEPENDENT_AUDIT",
+  "baseline_commit": "7ab24845e6e1551b75287fefb1ab662e92b395b8",
+  "scientific_tractability_decision": "NOT_EVALUATED",
+  "development_authorized": false,
+  "noisy_development_runs": 0,
+  "hard_budget_enforcement": "VALIDATED_FOR_BOTH_INSTALLED_APIS_WITH_DISCLOSED_DIRECT_CAUSAL_WRAPPING",
+  "integrity_checks_passed": 227,
+  "R4_progress_percent": 0,
+  "A2_depth_SSP_P5": "UNOPENED"
+}

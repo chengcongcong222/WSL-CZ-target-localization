@@ -1,0 +1,228 @@
+check,pass_check,detail
+Frozen code/design/tests/budget bytes,True,before any noisy development
+Increasing hard caps shgo,True,"[16, 64, 256]"
+Increasing hard caps direct,True,"[16, 64, 256]"
+Cost-only deterministic budget rule,True,No development/recovery input
+Calibration hashes,True,5
+Request sequence DIRECT_CAP_1.csv,True,1
+Refused attempt DIRECT_CAP_1.csv,True,exactly one blocked final callback
+Cache/forward accounting DIRECT_CAP_1.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence DIRECT_CAP_128.csv,True,128
+Refused attempt DIRECT_CAP_128.csv,True,exactly one blocked final callback
+Cache/forward accounting DIRECT_CAP_128.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence DIRECT_CAP_20.csv,True,20
+Refused attempt DIRECT_CAP_20.csv,True,exactly one blocked final callback
+Cache/forward accounting DIRECT_CAP_20.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence DIRECT_CAP_3.csv,True,3
+Refused attempt DIRECT_CAP_3.csv,True,exactly one blocked final callback
+Cache/forward accounting DIRECT_CAP_3.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence DIRECT_CAP_64.csv,True,64
+Refused attempt DIRECT_CAP_64.csv,True,exactly one blocked final callback
+Cache/forward accounting DIRECT_CAP_64.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence DIRECT_CAP_7.csv,True,7
+Refused attempt DIRECT_CAP_7.csv,True,exactly one blocked final callback
+Cache/forward accounting DIRECT_CAP_7.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence DIRECT_EXACT_REPEAT_1.csv,True,32
+Refused attempt DIRECT_EXACT_REPEAT_1.csv,True,exactly one blocked final callback
+Cache/forward accounting DIRECT_EXACT_REPEAT_1.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence DIRECT_EXACT_REPEAT_2.csv,True,32
+Refused attempt DIRECT_EXACT_REPEAT_2.csv,True,exactly one blocked final callback
+Cache/forward accounting DIRECT_EXACT_REPEAT_2.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence SHGO_CAP_1.csv,True,1
+Refused attempt SHGO_CAP_1.csv,True,exactly one blocked final callback
+Cache/forward accounting SHGO_CAP_1.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence SHGO_CAP_128.csv,True,128
+Refused attempt SHGO_CAP_128.csv,True,exactly one blocked final callback
+Cache/forward accounting SHGO_CAP_128.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence SHGO_CAP_20.csv,True,20
+Refused attempt SHGO_CAP_20.csv,True,exactly one blocked final callback
+Cache/forward accounting SHGO_CAP_20.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence SHGO_CAP_3.csv,True,3
+Refused attempt SHGO_CAP_3.csv,True,exactly one blocked final callback
+Cache/forward accounting SHGO_CAP_3.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence SHGO_CAP_64.csv,True,64
+Refused attempt SHGO_CAP_64.csv,True,exactly one blocked final callback
+Cache/forward accounting SHGO_CAP_64.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence SHGO_CAP_7.csv,True,7
+Refused attempt SHGO_CAP_7.csv,True,exactly one blocked final callback
+Cache/forward accounting SHGO_CAP_7.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence SHGO_EXACT_REPEAT_1.csv,True,32
+Refused attempt SHGO_EXACT_REPEAT_1.csv,True,exactly one blocked final callback
+Cache/forward accounting SHGO_EXACT_REPEAT_1.csv,True,"cache hit counted as request, no hidden forward"
+Request sequence SHGO_EXACT_REPEAT_2.csv,True,32
+Refused attempt SHGO_EXACT_REPEAT_2.csv,True,exactly one blocked final callback
+Cache/forward accounting SHGO_EXACT_REPEAT_2.csv,True,"cache hit counted as request, no hidden forward"
+Hard limit SHGO_CAP_1,True,"[""ObjectiveBudgetExceeded""]"
+All four ledger counters SHGO_CAP_1,True,request / cache / exact forward / unique physical states
+Exception semantics SHGO_CAP_1,True,native class and preserved cause
+Hard limit SHGO_CAP_3,True,"[""ObjectiveBudgetExceeded""]"
+All four ledger counters SHGO_CAP_3,True,request / cache / exact forward / unique physical states
+Exception semantics SHGO_CAP_3,True,native class and preserved cause
+Hard limit SHGO_CAP_7,True,"[""ObjectiveBudgetExceeded""]"
+All four ledger counters SHGO_CAP_7,True,request / cache / exact forward / unique physical states
+Exception semantics SHGO_CAP_7,True,native class and preserved cause
+Hard limit SHGO_CAP_20,True,"[""ObjectiveBudgetExceeded""]"
+All four ledger counters SHGO_CAP_20,True,request / cache / exact forward / unique physical states
+Exception semantics SHGO_CAP_20,True,native class and preserved cause
+Hard limit SHGO_CAP_64,True,"[""ObjectiveBudgetExceeded""]"
+All four ledger counters SHGO_CAP_64,True,request / cache / exact forward / unique physical states
+Exception semantics SHGO_CAP_64,True,native class and preserved cause
+Hard limit SHGO_CAP_128,True,"[""ObjectiveBudgetExceeded""]"
+All four ledger counters SHGO_CAP_128,True,request / cache / exact forward / unique physical states
+Exception semantics SHGO_CAP_128,True,native class and preserved cause
+Hard limit DIRECT_CAP_1,True,"[""SystemError"", ""ObjectiveBudgetExceeded""]"
+All four ledger counters DIRECT_CAP_1,True,request / cache / exact forward / unique physical states
+Exception semantics DIRECT_CAP_1,True,native class and preserved cause
+Hard limit DIRECT_CAP_3,True,"[""SystemError"", ""ObjectiveBudgetExceeded""]"
+All four ledger counters DIRECT_CAP_3,True,request / cache / exact forward / unique physical states
+Exception semantics DIRECT_CAP_3,True,native class and preserved cause
+Hard limit DIRECT_CAP_7,True,"[""SystemError"", ""ObjectiveBudgetExceeded""]"
+All four ledger counters DIRECT_CAP_7,True,request / cache / exact forward / unique physical states
+Exception semantics DIRECT_CAP_7,True,native class and preserved cause
+Hard limit DIRECT_CAP_20,True,"[""SystemError"", ""ObjectiveBudgetExceeded""]"
+All four ledger counters DIRECT_CAP_20,True,request / cache / exact forward / unique physical states
+Exception semantics DIRECT_CAP_20,True,native class and preserved cause
+Hard limit DIRECT_CAP_64,True,"[""SystemError"", ""ObjectiveBudgetExceeded""]"
+All four ledger counters DIRECT_CAP_64,True,request / cache / exact forward / unique physical states
+Exception semantics DIRECT_CAP_64,True,native class and preserved cause
+Hard limit DIRECT_CAP_128,True,"[""SystemError"", ""ObjectiveBudgetExceeded""]"
+All four ledger counters DIRECT_CAP_128,True,request / cache / exact forward / unique physical states
+Exception semantics DIRECT_CAP_128,True,native class and preserved cause
+Hard limit SHGO_EXACT_REPEAT_1,True,"[""ObjectiveBudgetExceeded""]"
+All four ledger counters SHGO_EXACT_REPEAT_1,True,request / cache / exact forward / unique physical states
+Exception semantics SHGO_EXACT_REPEAT_1,True,native class and preserved cause
+Hard limit SHGO_EXACT_REPEAT_2,True,"[""ObjectiveBudgetExceeded""]"
+All four ledger counters SHGO_EXACT_REPEAT_2,True,request / cache / exact forward / unique physical states
+Exception semantics SHGO_EXACT_REPEAT_2,True,native class and preserved cause
+Hard limit DIRECT_EXACT_REPEAT_1,True,"[""SystemError"", ""ObjectiveBudgetExceeded""]"
+All four ledger counters DIRECT_EXACT_REPEAT_1,True,request / cache / exact forward / unique physical states
+Exception semantics DIRECT_EXACT_REPEAT_1,True,native class and preserved cause
+Hard limit DIRECT_EXACT_REPEAT_2,True,"[""SystemError"", ""ObjectiveBudgetExceeded""]"
+All four ledger counters DIRECT_EXACT_REPEAT_2,True,request / cache / exact forward / unique physical states
+Exception semantics DIRECT_EXACT_REPEAT_2,True,native class and preserved cause
+Uncached calibration counters 150,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 155,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 160,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 165,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 170,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 175,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 180,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 185,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 190,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 195,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 200,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 205,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 210,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 215,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 220,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 225,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 230,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 235,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 240,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 245,True,fixed cost fixture; no recovery metric
+Uncached calibration counters 250,True,fixed cost fixture; no recovery metric
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 0,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 1,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 2,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 3,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 4,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 5,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 6,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 7,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 8,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 9,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 10,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 11,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 12,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 13,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 14,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 15,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 16,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 17,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 18,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 19,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 20,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 21,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 22,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 23,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 24,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 25,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 26,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 27,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 28,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 29,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 30,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_1.csv 31,True,independent geometry and RMS
+Exact ranking DIRECT_EXACT_CANDIDATES_1.csv,True,sorted by direct score
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 0,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 1,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 2,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 3,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 4,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 5,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 6,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 7,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 8,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 9,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 10,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 11,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 12,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 13,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 14,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 15,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 16,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 17,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 18,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 19,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 20,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 21,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 22,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 23,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 24,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 25,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 26,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 27,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 28,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 29,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 30,True,independent geometry and RMS
+Exact saved score DIRECT_EXACT_CANDIDATES_2.csv 31,True,independent geometry and RMS
+Exact ranking DIRECT_EXACT_CANDIDATES_2.csv,True,sorted by direct score
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 0,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 1,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 2,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 3,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 4,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 5,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 6,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 7,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 8,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 9,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 10,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 11,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 12,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 13,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 14,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 15,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 16,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_1.csv 17,True,independent geometry and RMS
+Exact ranking SHGO_EXACT_CANDIDATES_1.csv,True,sorted by direct score
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 0,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 1,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 2,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 3,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 4,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 5,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 6,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 7,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 8,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 9,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 10,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 11,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 12,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 13,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 14,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 15,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 16,True,independent geometry and RMS
+Exact saved score SHGO_EXACT_CANDIDATES_2.csv 17,True,independent geometry and RMS
+Exact ranking SHGO_EXACT_CANDIDATES_2.csv,True,sorted by direct score
+Development not reached,True,"no cases, results or panels generated"

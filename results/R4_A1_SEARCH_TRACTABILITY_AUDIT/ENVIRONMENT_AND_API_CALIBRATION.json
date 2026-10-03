@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-10-03T15:33:06.655889+00:00",
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "pandas": "2.2.3",
+    "pytest": "8.3.4",
+    "threadpoolctl": "3.6.0"
+  },
+  "blas_threads": 2,
+  "shgo_signature": "(func, bounds, args=(), constraints=None, n=100, iters=1, callback=None, minimizer_kwargs=None, options=None, sampling_method='simplicial', *, workers=1)",
+  "direct_signature": "(func: Callable[[numpy.ndarray[tuple[int], numpy.dtype[numpy.float64]]], float | numpy.floating[Any] | numpy.integer[Any] | numpy.bool_], bounds: Union[Iterable, scipy.optimize._constraints.Bounds], *, args: tuple = (), eps: float = 0.0001, maxfun: int | None = None, maxiter: int = 1000, locally_biased: bool = True, f_min: float = -inf, f_min_rtol: float = 0.0001, vol_tol: float = 1e-16, len_tol: float = 1e-06, callback: Optional[Callable[[numpy.ndarray[tuple[int], numpy.dtype[numpy.float64]]], object]] = None) -> scipy.optimize._optimize.OptimizeResult",
+  "direct_exception_semantics": "SystemError with ObjectiveBudgetExceeded as cause; first blocked callback ends run; never counted as success",
+  "noisy_development_runs": 0
+}

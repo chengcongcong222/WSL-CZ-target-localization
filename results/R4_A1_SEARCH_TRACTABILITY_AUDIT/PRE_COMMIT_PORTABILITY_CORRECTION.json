@@ -1,0 +1,8 @@
+{
+  "reason": "Pre-commit correction: root .gitattributes itself must retain frozen LF bytes across Windows checkout",
+  "previous_manifest_sha256": "2c0db532ed476c7166d014342e7d2ff69cfca5005b8445760c1f6431c5c5e141",
+  "previous_attribute_sha256": "c180a5ceab088f9cf411da8c4555728744b084e912f66d7788b12849f0f64f46",
+  "new_attribute_sha256": "9da91a51dcc5d1c9ea1c9fdb627040cbd029c94d1e8eda5a4bbad93de9c7d7f7",
+  "code_tests_budget_design_method_unchanged": true,
+  "noisy_development_runs": 0
+}

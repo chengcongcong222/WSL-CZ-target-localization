@@ -1,0 +1,5 @@
+attempt,admitted,request,cache_hit,exact_forward_calls,state_sha256,q0,q1,J_exact,feasible,depth_label_m,r_km,theta_deg,v_mps,psi_deg,bearing_cost
+1,True,1,False,0,5623302156fcd3bd68c7ece2eb81cc9da14da8717f21327d715805a6021a8d98,0.0625,1,,False,200,0.0625,1,0,0,0
+2,True,2,False,0,839a8b5873a89d5369238874249b69fa3b224ff6e4e8dba6f2420cb38ac08783,0.59375,0.28125,,False,200,0.59375,0.28125,0,0,0
+3,True,3,False,0,e8e051418f5653a4ed5e52f0ae9a6ede3768e3ed7d5c364eef595279afa86dcc,0.59375,0.34375,,False,200,0.59375,0.34375,0,0,0
+4,False,3,False,0,,,,,,,,,,,

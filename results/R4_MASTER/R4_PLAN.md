@@ -16,7 +16,7 @@ The research lead owns the route, Gate acceptance, evidence wording and final in
 | B4 | Depth working-envelope freeze | 5% |
 | C | Application metric freeze | 15% |
 
-Only A1 is currently authorized. A2/B/P5 are not opened. R4 starts at 0%.
+Only the A1 search-tractability PRE-RUN FREEZE checkpoint is currently authorized. A2/B/SSP/P5 are not opened. R4 remains at 0%.
 
 ## A1 scientific questions
 
@@ -37,3 +37,9 @@ The research lead accepted the independent audit of `956f2dfba8e719561641fd135f2
 FIX2 measures likelihood-feasible oracle basin sections and coupled sensitivity without supplying oracle coordinates to search. Three preregistered deterministic range/radial meshes, separated depth-branch beams, continuous local refinement and direct-modal final verification test coverage and convergence. Both raw component results and cumulative candidate retention are exported; retention alone does not certify convergence. An independent Sobol/Nelder-Mead family checks five preselected difficult cases and two further development failures explicitly selected before fresh confirmation.
 
 After method/config/code/budget/threshold freeze, a new seed-defined eight-truth interior off-grid panel is frozen before observation generation, with noiseless and two nominal realizations each. Evidence is isolated under `../R4_A1_FIX2_ACOUSTIC_COVERAGE/`. FIX2 has no management credit; full A1 remains blocked unless all six repair gates pass and the research lead accepts the resulting commit. R3 and prior A1/FIX1 numerical artifacts remain frozen. No A2, depth development, SSP or full bearing-sigma sweep is opened.
+
+## Accepted FIX2 stop and tractability pre-run checkpoint
+
+The research lead accepted `7ab24845e6e1551b75287fefb1ab662e92b395b8` as A1_FIX2_BLOCKED_BY_UNCLOSED_ACOUSTIC_COVERAGE: 2/6 Gates pass, raw coverage remains unclosed. R3/A1/FIX1/FIX2 numerical evidence is frozen. A likelihood-section width is not an optimizer capture basin; finite catalogs without an alias do not establish global uniqueness; search failure is not physical non-identifiability.
+
+The new controlling staged instruction authorizes only external request-budget enforcement, SHGO/DIRECT API/exact-objective/exclusion tests, cost calibration and an independent pre-run freeze commit. Evidence is isolated under `../R4_A1_SEARCH_TRACTABILITY_AUDIT/`. Both solver families have frozen per-case/per-depth admitted-request caps 16/64/256. No noisy development case or fresh panel has run. The checkpoint awaits the research lead's audit and separate release; all scientific tractability Gates remain NOT_EVALUATED. No new scientific progress credit is awarded. A2, depth/B, SSP and P5 remain unopened.

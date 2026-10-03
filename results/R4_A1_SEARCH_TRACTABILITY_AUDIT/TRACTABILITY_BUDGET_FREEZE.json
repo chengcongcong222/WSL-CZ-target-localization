@@ -1,0 +1,193 @@
+{
+  "baseline_commit": "7ab24845e6e1551b75287fefb1ab662e92b395b8",
+  "frozen_utc": "2026-10-03T15:33:40.752008+00:00",
+  "stage": "PRE_RUN_CHECKPOINT_ONLY",
+  "development_authorized": false,
+  "noisy_development_runs": 0,
+  "recovery_threshold_db": 0.001,
+  "shgo": {
+    "T1": {
+      "hard_budget_limit": 16,
+      "n": 8,
+      "iters": 1,
+      "sampling_method": "simplicial",
+      "options": {
+        "maxev": 16,
+        "minimize_every_iter": true,
+        "local_iter": 1
+      },
+      "minimizer_kwargs": {
+        "method": "SLSQP",
+        "options": {
+          "maxiter": 64,
+          "ftol": 1e-12,
+          "eps": 1e-08
+        }
+      }
+    },
+    "T2": {
+      "hard_budget_limit": 64,
+      "n": 16,
+      "iters": 2,
+      "sampling_method": "simplicial",
+      "options": {
+        "maxev": 64,
+        "minimize_every_iter": true,
+        "local_iter": 1
+      },
+      "minimizer_kwargs": {
+        "method": "SLSQP",
+        "options": {
+          "maxiter": 64,
+          "ftol": 1e-12,
+          "eps": 1e-08
+        }
+      }
+    },
+    "T3": {
+      "hard_budget_limit": 256,
+      "n": 32,
+      "iters": 3,
+      "sampling_method": "simplicial",
+      "options": {
+        "maxev": 256,
+        "minimize_every_iter": true,
+        "local_iter": 1
+      },
+      "minimizer_kwargs": {
+        "method": "SLSQP",
+        "options": {
+          "maxiter": 64,
+          "ftol": 1e-12,
+          "eps": 1e-08
+        }
+      }
+    }
+  },
+  "direct": {
+    "T1": {
+      "hard_budget_limit": 16,
+      "options": {
+        "maxfun": 16,
+        "maxiter": 1000,
+        "eps": 0.0001,
+        "locally_biased": true,
+        "vol_tol": 1e-16,
+        "len_tol": 1e-06
+      }
+    },
+    "T2": {
+      "hard_budget_limit": 64,
+      "options": {
+        "maxfun": 64,
+        "maxiter": 1000,
+        "eps": 0.0001,
+        "locally_biased": true,
+        "vol_tol": 1e-16,
+        "len_tol": 1e-06
+      }
+    },
+    "T3": {
+      "hard_budget_limit": 256,
+      "options": {
+        "maxfun": 256,
+        "maxiter": 1000,
+        "eps": 0.0001,
+        "locally_biased": true,
+        "vol_tol": 1e-16,
+        "len_tol": 1e-06
+      }
+    }
+  },
+  "hard_budget_definition": "n_objective_requests admitted before cache/forward; N+1 is logged as one refused attempt and raises",
+  "hard_budget_scope": "per solver, case, raw budget and inherited depth branch; 21 branches uniformly enumerated",
+  "objective_domain": {
+    "normalized_bounds": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "range_m": [
+      45000.0,
+      60000.0
+    ],
+    "radial_velocity_mps": [
+      0.94,
+      3.0
+    ]
+  },
+  "dedup_tolerances": [
+    0.005,
+    0.001,
+    0.005,
+    0.05
+  ],
+  "state_agreement_tolerances": [
+    1e-05,
+    0.001,
+    0.0001,
+    0.01
+  ],
+  "depth_agreement_rule": "identical inherited profile label",
+  "exact_alias_tolerances": {
+    "bearing_rms_deg": 1e-08,
+    "acoustic_rms_db": 1e-06
+  },
+  "nuisance_depth_labels_m": [
+    150.0,
+    155.0,
+    160.0,
+    165.0,
+    170.0,
+    175.0,
+    180.0,
+    185.0,
+    190.0,
+    195.0,
+    200.0,
+    205.0,
+    210.0,
+    215.0,
+    220.0,
+    225.0,
+    230.0,
+    235.0,
+    240.0,
+    245.0,
+    250.0
+  ],
+  "internal_seeds": null,
+  "independence": "Fresh objective cache and optimizer state per raw budget/branch; no lower-budget or other-solver candidates",
+  "callback_exception_policy": "preserve native exception class and causal chain; accept causal budget exhaustion only with admitted count N and exactly one refused callback; unrelated SystemError re-raised",
+  "budget_choice_basis": "fixed algorithmic doubling sampling/quadrupling request hierarchy; cost/API calibration only; no recovery result read",
+  "cost_policy": {
+    "target_total_seconds": 21600,
+    "exact_and_validation_cost_factor": 2.0,
+    "request_weights": [
+      1,
+      4,
+      16
+    ],
+    "base_upper_bound": 128,
+    "base_rule": "min(128, largest power of two <= target/(2*p95*21*21*2*21)); minimum feasible base=16",
+    "median_exact_request_seconds": 0.016011199972126598,
+    "p95_exact_request_seconds": 0.02130357499117956,
+    "computed_affordable_base": 27.370541294133332,
+    "selected_base": 16,
+    "maximum_admitted_development_requests": 296352,
+    "estimated_exact_plus_validation_seconds": 12626.71411157209,
+    "runtime_estimate_limit": "Estimate from callback cost, not a wall-clock guarantee; excludes catalog/I/O overhead"
+  },
+  "prerequisite_evidence_sha256": {
+    "OBJECTIVE_RUNTIME_CALIBRATION.csv": "32329228a9bc55d5d39753292eba393a9733b3cfab463c2d3870605c94b26567",
+    "OBJECTIVE_RUNTIME_COUNTERS.csv": "65ef9a3ac3d45721cf6263f14e37795b509d853808de7dc4b6b93dc7af432ae5",
+    "HARD_BUDGET_TEST_RESULTS.csv": "fe1439e18df6df3299d75b1014a528cd2902b2e5cc3bf9e912eea940f33dc7fe",
+    "EXACT_API_SMOKE_RESULTS.csv": "70951bcd518dcf678ed2827955fb5ba600162fec0b86a3df14eed1817fff9621",
+    "ENVIRONMENT_AND_API_CALIBRATION.json": "10015273130aa154e90727dc93ac06961a9c2fc2eb38f07151907337c5e40edd"
+  }
+}
