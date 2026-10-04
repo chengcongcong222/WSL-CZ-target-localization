@@ -1,0 +1,405 @@
+{
+  "stage": "R4_ROUTE_REDESIGN_GATE_3_CZ_ENVELOPE_QUANTITATIVE_DESIGN_DRAFT",
+  "accepted_parent_gate2_commit": "dcad14337491ac5bf90acacf0be34a57eafac3f1",
+  "validation_status": "PASS",
+  "validation_scope": "Document/source identity and design consistency only. No scientific feature, simulation or representation experiment performed; not numerical Gate PASS.",
+  "method": "Standard-library SHA256/Git identities, JSON consistency, arithmetic on explicit proposed thresholds, read-only existing configuration/case metadata and historical saved facts, UTF8/links and append-only management. No science-module import, NPZ data processing, modal calculation, forward evaluation, feature projection/normalization, symbolic expressions executed on cases, optimizer, detector, smoothing sweep, synthetic generation or truth panel.",
+  "new_numerical_experiments": 0,
+  "new_scientific_numerical_results": false,
+  "feature_calculations_performed": false,
+  "implementation_added": false,
+  "protected_preexisting_file_count": 7183,
+  "protected_preexisting_bytes": 2054352793,
+  "protected_files_changed": [],
+  "protected_before_after_inventory_sha256": "d767a8d73e967f4035fbbd29bb0933de300aeeb3f189a05074ba8469503ed8b4",
+  "accepted_closeout_artifacts": 6,
+  "accepted_Gate0_artifacts": 7,
+  "accepted_Gate1_artifacts": 8,
+  "accepted_Gate2_artifacts": 9,
+  "accepted_parent_artifact_bindings": {
+    "results/R4_ROUTE_REDESIGN_GATE_0/COLD_START_INFORMATION_SOURCE_MATRIX.csv": {
+      "raw_sha256": "7165f13bc3203cab18809349a0d42293ebf46edbbf56e50900431c0fba195378",
+      "canonical_git_blob_oid": "78526dd46df18312d899e27c7f8e8a5db0c95ce9"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/GPT_SYNC.md": {
+      "raw_sha256": "7da72423ea5619c0ff4a087eb6b95581f8450600fc6a5451e395f77d0dac275a",
+      "canonical_git_blob_oid": "8ca546d429b50aa2cb67fc827c3d3448663eeac1"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/R1_ACQUISITION_VS_TRACKING.md": {
+      "raw_sha256": "0a317cd1523fa08aa31b6fe1cf5351ba698a87320a62f88e0290c8917aca76eb",
+      "canonical_git_blob_oid": "3743795323ec4a5c28afe3fcaf4dc19c34af17de"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/R1_CIRCULAR_DEPENDENCY_AUDIT.md": {
+      "raw_sha256": "42b732a3029726b822ac50c976619de254c4eaf85fbfe2a6d20a47fddb8298ac",
+      "canonical_git_blob_oid": "15f894d3cfeb2da77e643d1ba8e5555e3d8980b2"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/R1_GATE0_DECISION.json": {
+      "raw_sha256": "f4b3ede5035ad506ce7174bf53f4daf3312c5d3bcd64de3772337c67cb5def11",
+      "canonical_git_blob_oid": "4b83f37b315c99d41968696a3d047c8026e56c07"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/ROUTE_REDESIGN_GATE0_REPORT.md": {
+      "raw_sha256": "6d82ba2259ecacacd7dd81b5f161c9377e24e6541d8c0505a48a10d98d55e206",
+      "canonical_git_blob_oid": "583491ac2916eaf03bcf3f660d9efee129f7bc7d"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/VALIDATION.json": {
+      "raw_sha256": "6aaa7e3e5e6ea856cf4606b562af0e6ab5429783d78b09d6271c7b393698054b",
+      "canonical_git_blob_oid": "ee0ab11a0ca153f9b712c1571d1f2543cb7693f8"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/A1_CLOSEOUT_REPORT.md": {
+      "raw_sha256": "44c21d0230157c54cb75af1df891167503421577b3fa7f058e6b16ff54472196",
+      "canonical_git_blob_oid": "dbde29318a4254da20b05b87d8ec4a7702c9210b"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/A1_EVIDENCE_CHAIN.md": {
+      "raw_sha256": "e904ad82bd18cc664e5a577b768ee55f7cffaadbc16366c100fae69108331d61",
+      "canonical_git_blob_oid": "2af9b5d729a428412ffeef01752a50db04af6918"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/CLOSEOUT_VALIDATION.json": {
+      "raw_sha256": "54327cd838a1f2237520182ca84a0d2cd26a7525b28d335fdf3e3426bcdf7720",
+      "canonical_git_blob_oid": "98a15e0875cf020db057c16f998db862d2427ad7"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/GPT_SYNC.md": {
+      "raw_sha256": "3d12ab936e64dd9e2b4952703735745aac4aff5dfd1056860ec1f8d003ccbbf6",
+      "canonical_git_blob_oid": "d9c8a1174cc40006e47fc36675f5a754684e5cc1"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/R4_A1_CLOSEOUT_DECISION.json": {
+      "raw_sha256": "f91d3a00bbd6e43f472334eadae1f831f8fe791f48ceb4241ab649530818e481",
+      "canonical_git_blob_oid": "85ba7d2b73b9c8f354f1c4588beee3c0a552260e"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/R4_ROUTE_DECISION.md": {
+      "raw_sha256": "27c5f385428236f05ba823f9daa6dac095f53343ddd10caa76ddbdc1c91716f8",
+      "canonical_git_blob_oid": "e7ad621d347a27a3d1eac5a1120cccdb63d96e67"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/GPT_SYNC.md": {
+      "raw_sha256": "3529732e2a0c424274b2ce5565172703d64ead55807aa4ee922cb01ab6765d23",
+      "canonical_git_blob_oid": "cd74f17a73ad0b00ae13735936395768fae2ec5e"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_CANDIDATE_RANKING.md": {
+      "raw_sha256": "da16daff1053f2abd12f8fc922dac8d671434f1eaa3fb2d1e0802c5e2a47c2df",
+      "canonical_git_blob_oid": "812c78550099fbe9a35d13e89b8f411b591b0c20"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_GATE1_DECISION.json": {
+      "raw_sha256": "8bbbee53e6361291487f4ebce817496cf0131fd2c68133689fb692ec2b2feafd",
+      "canonical_git_blob_oid": "8584f40180be813f676c67da956f1e3992cb396a"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_LITERATURE_TRANSFERABILITY.md": {
+      "raw_sha256": "8d8fba68bc41418e8930b9a879052b1ea4e45e57807c4ec24cad2b04e4bd49a6",
+      "canonical_git_blob_oid": "1dc011178d5419ce6eb77c4c483ae251fef3a6a7"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_MEASUREMENT_CHAIN_AUDIT.md": {
+      "raw_sha256": "fa55500b16297828232cd54be9e03067c85255a872fd892730516a0e1ca48143",
+      "canonical_git_blob_oid": "c72add97b77aff538974c8014a960aa5a80fa278"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_OBSERVABLE_ADMISSIBILITY_MATRIX.csv": {
+      "raw_sha256": "ffba482b003eaf046fbf7bf5536b6301b215f07d21afb30cb65a4dde1d1b2fa3",
+      "canonical_git_blob_oid": "63a02072aa7ada1b0a2f4dd5e9736e283d57821e"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/ROUTE_REDESIGN_GATE1_REPORT.md": {
+      "raw_sha256": "91ce6585e70a8eb48f67989736559f39d4d6534f7d7e37b36a67145595b80831",
+      "canonical_git_blob_oid": "68939061145830a10d5f782140a5db6fd8539fde"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/VALIDATION.json": {
+      "raw_sha256": "9b5e04aec26ef53447ec8bf8176ca265350dd01063c3d82bbb87a0c3a223da8e",
+      "canonical_git_blob_oid": "730cc554c9d90e4e86cfbe7a2923d4610eed2d56"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CONTRACT/CURRENT_RECEIVER_CHAIN_AUDIT.md": {
+      "raw_sha256": "7180f952454d5310c2766522bf37dfb117c6f8f2f7979112875a783c18245c73",
+      "canonical_git_blob_oid": "5c813c4673f7de28137f62f032df9bdec7f435b6"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CONTRACT/CZ_ENVELOPE_MEASUREMENT_CONTRACT.md": {
+      "raw_sha256": "1e003f1698a000bae11c3e5fc54245c59a7f1af106b008deb42b03628a5f5d66",
+      "canonical_git_blob_oid": "7cc01fad4c1081104fad353867ffcbe0f1f576b4"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CONTRACT/GPT_SYNC.md": {
+      "raw_sha256": "cdb5fa1e9dd28d8c1229e935f830924a6cb5cf818cbe0f0c2bbb04db49e567ca",
+      "canonical_git_blob_oid": "96413424f4657a03d58dd1193785b0ae7ab03458"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CONTRACT/INTERFERENCE_FRINGE_MEASUREMENT_CONTRACT.md": {
+      "raw_sha256": "b97b4ac2f8839e4e3533f881dc312b4c5ea481e712d92ffcf583133e9a963769",
+      "canonical_git_blob_oid": "110b611e6c6ee09e4eecce2eea7951a1efa4f4f6"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CONTRACT/R2_GATE2_DECISION.json": {
+      "raw_sha256": "cb93473c2287d8b9e3b6cf4c2cdda561019775de9a6a3095ee1e4bdd5e381469",
+      "canonical_git_blob_oid": "df661b66ea9f79b1ba27904f57b7f708181248d0"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CONTRACT/R2_MEASUREMENT_CONTRACT_MATRIX.csv": {
+      "raw_sha256": "c479a3e16af9263dad4d926b081ec289fc24772a4e47d923dbc32d20205f8951",
+      "canonical_git_blob_oid": "d042d3d9eec06219b44449ee1e77b719e2f3b61a"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CONTRACT/R2_SIGNAL_CONDITION_MATRIX.csv": {
+      "raw_sha256": "115e905e70b88e65a37f5f59d39d09fdb4ac506df178fe0da326d6ad1cb1c62a",
+      "canonical_git_blob_oid": "cf7b520303f2c6dc83807c91b526be414fdb9733"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CONTRACT/ROUTE_REDESIGN_GATE2_REPORT.md": {
+      "raw_sha256": "ee9e9af3da331078157cf2509ee71fd6aec6f8682486188b29a95d681bf8d3ee",
+      "canonical_git_blob_oid": "2c52f9f75b08585be6c0caa7d4cb396bdacebbba"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CONTRACT/VALIDATION.json": {
+      "raw_sha256": "08cf04e8a02aebfd9ddfa5fd3a3e9ae593e973d8d091729e08ab78a43b89b6c8",
+      "canonical_git_blob_oid": "c3b58ebe0059561be9e923db6cf4ca5a692dd01d"
+    }
+  },
+  "historical_input_identities": {
+    "total": 2989,
+    "raw_sha256_matches": 2865,
+    "CRLF_LF_only_matches_with_canonical_sha256_and_git_oid": 124
+  },
+  "raw_freeze_binding_comparisons": 2796,
+  "unique_raw_bound_paths": 2747,
+  "raw_freeze_manifest_counts": {
+    "METHOD_FREEZE.json": 40,
+    "DEVELOPMENT_EXECUTION_FREEZE.json": 17,
+    "CHECKPOINT_EVIDENCE_FREEZE.json": 57,
+    "DEVELOPMENT_RESULTS_EVIDENCE_FREEZE.json": 2682
+  },
+  "previous_portable_text_bindings": {
+    "r4_a1_search_tractability_development_reconstruction.py": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "93c6f715d4d96277cd50ca957207988a4f8792aa231a03faf7e3619a11789a90",
+      "git_blob_oid": "314f396432f66267111e6e49542d2ac3b3137d11"
+    },
+    "r4_a1_search_tractability_development_report.py": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "0e3d9ff9abc9c8b70d31974ca4f8a8f59509879310c784537e74785e61c88b58",
+      "git_blob_oid": "873dcf3574f6be53fd37249fb64dad747eb099d9"
+    },
+    "results/R4_MASTER/R4_PROGRESS.json": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "8ac5629645d667693007aa7c5edbed479a6e327b7b627aec7b8abbd4385a7cac",
+      "git_blob_oid": "247e31e6f59c800a21538e805941c7adb00f814b"
+    },
+    "results/R4_MASTER/R4_PLAN.md": {
+      "verified_against": "ACCEPTED_PARENT_GIT_BLOB",
+      "canonical_lf_sha256": "85f56b2258b3c2e4326483a60c10b2b9fc2d0160c25e6005a8ac850960047fc5",
+      "git_blob_oid": "cc29286420d9fb37e5b95c8df90eaff9fc97ca48"
+    },
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv": {
+      "verified_against": "ACCEPTED_PARENT_GIT_BLOB",
+      "canonical_lf_sha256": "837b3cf51d4cf95fce6dfd0520223f315386c4aad224fb563ea83b4a4504c89e",
+      "git_blob_oid": "6fa52934b432d7827dbfcffd852c2f5d429f3f2f"
+    }
+  },
+  "portable_management_freeze_git_source_commit": "9cfa99c14bb80d08e6f16210ebf89fd9c541b850",
+  "design_consistency": {
+    "CZ_contract": "ACCEPTED_FOR_QUANTITATIVE_GATE_DESIGN_ONLY",
+    "fringe": "CONDITIONAL_NOT_ADMITTED",
+    "candidate_representations": [
+      "WINDOW_SHAPE_Q2",
+      "LINE_BLOCK_MEANS_B3",
+      "NORMALIZED_INTENSITY_BLOCKS_B3"
+    ],
+    "recommended_representation": "WINDOW_SHAPE_Q2",
+    "M0_compatible": true,
+    "real_receiver_verified": false,
+    "threshold_status": "PROPOSED_NOT_FROZEN",
+    "outcome_threshold_proposals_only": {
+      "lenient": {
+        "status": "PROPOSED_NOT_FROZEN",
+        "joint_truth_reference_retention_fraction_on_all_valid_primary_cases": 1.0,
+        "range_projection_retention_fraction": 1.0,
+        "range_projection_hull_width_max_km": 7.5,
+        "contraction_ratio_max": 0.5,
+        "contraction_ratio_exact": "0.5",
+        "range_component_count_max": 4,
+        "joint_broad_component_count_max": 8,
+        "raw_two_grid_endpoint_and_width_change_max_km": 0.75,
+        "coarse_topology_stability_required": true,
+        "empty_support_qualifies": false,
+        "invalid_missing_cases_may_be_dropped": false,
+        "raw_global_coverage_closure_required": true,
+        "real_RC3_capture_guarantee": false,
+        "project_lt10pct_requirement_verified": false
+      },
+      "nominal": {
+        "status": "PROPOSED_NOT_FROZEN",
+        "joint_truth_reference_retention_fraction_on_all_valid_primary_cases": 1.0,
+        "range_projection_retention_fraction": 1.0,
+        "range_projection_hull_width_max_km": 5.0,
+        "contraction_ratio_max": 0.3333333333333333,
+        "contraction_ratio_exact": "1/3",
+        "range_component_count_max": 3,
+        "joint_broad_component_count_max": 6,
+        "raw_two_grid_endpoint_and_width_change_max_km": 0.5,
+        "coarse_topology_stability_required": true,
+        "empty_support_qualifies": false,
+        "invalid_missing_cases_may_be_dropped": false,
+        "raw_global_coverage_closure_required": true,
+        "real_RC3_capture_guarantee": false,
+        "project_lt10pct_requirement_verified": false
+      },
+      "strict": {
+        "status": "PROPOSED_NOT_FROZEN",
+        "joint_truth_reference_retention_fraction_on_all_valid_primary_cases": 1.0,
+        "range_projection_retention_fraction": 1.0,
+        "range_projection_hull_width_max_km": 3.0,
+        "contraction_ratio_max": 0.2,
+        "contraction_ratio_exact": "0.2",
+        "range_component_count_max": 2,
+        "joint_broad_component_count_max": 4,
+        "raw_two_grid_endpoint_and_width_change_max_km": 0.3,
+        "coarse_topology_stability_required": true,
+        "empty_support_qualifies": false,
+        "invalid_missing_cases_may_be_dropped": false,
+        "raw_global_coverage_closure_required": true,
+        "real_RC3_capture_guarantee": false,
+        "project_lt10pct_requirement_verified": false
+      }
+    },
+    "tau_F_nuisance_grid_budget_status": "NOT_FROZEN",
+    "full_cell_bound_implementability_established": false,
+    "fresh_panel_generated": false,
+    "quantitative_run_authorized": false,
+    "implementation_authorized": false,
+    "truth_estimator_inputs_allowed": false,
+    "single_factor_only": true,
+    "R4_progress_percent": 0,
+    "A2_depth_SSP_P5": "UNOPENED"
+  },
+  "existing_metadata_checks": {
+    "primary_noisy_cases": 21,
+    "same_archive_noiseless_regressions": 15,
+    "old_FIX2_secondary_cases": 24,
+    "old_FIX2_noisy": 16,
+    "old_FIX2_noiseless": 8,
+    "old_P_Q_FIX_FIX2_fresh_for_current_route": false,
+    "old_R3_1B_candidate_counts": [
+      1326,
+      495
+    ],
+    "old_R3_1B_widths_km": [
+      15,
+      15
+    ],
+    "historical_tractability_decision": "A1_SEARCH_TRACTABILITY_NOT_ESTABLISHED"
+  },
+  "historical_R4_PROGRESS_json_preserved": true,
+  "management_weights_unchanged": true,
+  "plan_old_bytes_preserved_as_exact_prefix": true,
+  "ledger_rows_preserved": 25,
+  "ledger_rows_appended": 4,
+  "all_credited_weights_zero": true,
+  "existing_files_authorized_to_change": [
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+    "results/R4_MASTER/R4_PLAN.md"
+  ],
+  "new_artifacts_authorized": [
+    "CZ_ENVELOPE_DEVELOPMENT_CONFIRMATION_SPLIT.md",
+    "CZ_ENVELOPE_METRICS_AND_BASELINES.md",
+    "CZ_ENVELOPE_NUISANCE_MODEL.md",
+    "CZ_ENVELOPE_REPRESENTATION_CANDIDATES.md",
+    "CZ_ENVELOPE_STOP_RULES.md",
+    "CZ_ENVELOPE_SUPPORT_ESTIMATOR_DESIGN.md",
+    "CZ_ENVELOPE_THRESHOLD_PROPOSALS.md",
+    "GPT_SYNC.md",
+    "R2_GATE3_DESIGN_DECISION.json",
+    "ROUTE_REDESIGN_GATE3_DESIGN_REPORT.md",
+    "VALIDATION.json"
+  ],
+  "source_paths_verified": 23,
+  "Markdown_relative_links_verified": 62,
+  "source_bindings": {
+    "r4_a1_fix_continuous.py": "9ad8ddd990d47242fa1e33175fe0c9d328a3c701ebdbcfc1c33e82981dbeba65",
+    "r4_a1_offgrid_bearing.py": "f137196aabbc6019b0fac523ea530535caa5445fc8d41eafe8d45b650a5ba4a8",
+    "r4_a1_search_tractability_development.py": "9ceb0b0b4e5aae9462e3d2999b3566921a58d0839550b0aa7676f3ee70632a34",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f201.mod": "e05c5ee06dcec6446f81522b8b074e71e31c44e7beda8287163e89fa095ac628",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f235.mod": "187c3e9380fb9d7fc073e5e3cc97e6580fb574b2e43ef055366d3521a9ec15f6",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f283.mod": "5d72a736ddae45bb3fbfd15514f9fb8f6b5e89e16feb598898ee3b64e4f199b2",
+    "results/R3_FINAL_CLOSEOUT/R3_FINAL_WORKING_ENVELOPE.md": "8ca248a005140ceeabe9caf71ecfc420504db57d8c936f91424c82df63fd8886",
+    "results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/RC2_CUMULATIVE_SET_METRICS.csv": "1f1e67ac9427d6133b6c4dbc99c2ad507bb9fabb73575ca99dd0807cfca23286",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/FRESH_HOLDOUT_DESIGN_FREEZE.json": "7bd3536435e6069a5b24c15764195e72ea612b899f9969c555f678160412e446",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/FRESH_HOLDOUT_OBSERVATIONS.npz": "14f8d410176b00100f951018f75047c708148a541093c377221a0c268c9f3e43",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/FRESH_HOLDOUT_PANEL.csv": "223193eefec9c8b666fed23315e4514e6edf972813665cd937198ca064bcb14f",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/FRESH_HOLDOUT_RESULTS.csv": "d85dfb8f6cf5bef969d98895db2f2e255564f41e4f5992a8d144db4cea2dc7dc",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/CASE_LEVEL_RESULTS.csv": "50d8665ed8742fc39d4d412956ff805cd90ae491fca10de749708f98777a25ca",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/CASE_OBSERVATIONS.npz": "d92493e6343d7a4305fc06c053d27e9aa8801a3e6cceea27295eaefe12a1b525",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/HOLDOUT_TRUTH_PANEL.csv": "5b94a60e7dd7e7cf34902344d5f83ce92055c06954a873f76848a0a04c891607",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/R4_A1_FIX_CONFIG.json": "d82e7c39c23e91ddb8a47d498431c97e4fefa886c5fdbdcb6130e38e62c0346f",
+    "results/R4_A1_OFFGRID_BEARING_BOUNDARY/OFFGRID_TRUTH_PANEL.csv": "ba46243968e7b8123620b3976376fda9201d424e9d628777facb28a3e0ac09c7",
+    "results/R4_A1_OFFGRID_BEARING_BOUNDARY/R4_A1_CONFIG.json": "5667b533f646b2b4a82e9b247ea417b92de0f1589251ebe5b50530226878ffaa",
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_CASE_MANIFEST.csv": "6030fb3aa041ba23d4b665d3abb81b0ab73367cfcd66e1d3c93f22b6504d0c46",
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_FINAL_DECISION.json": "2a3c274a5076bb2d3cba3ee6a14c15007666b8811604ab55891634a9d40aebfb",
+    "results/R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CONTRACT/CZ_ENVELOPE_MEASUREMENT_CONTRACT.md": "1e003f1698a000bae11c3e5fc54245c59a7f1af106b008deb42b03628a5f5d66",
+    "results/R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CONTRACT/R2_GATE2_DECISION.json": "cb93473c2287d8b9e3b6cf4c2cdda561019775de9a6a3095ee1e4bdd5e381469",
+    "results/R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CONTRACT/VALIDATION.json": "08cf04e8a02aebfd9ddfa5fd3a3e9ae593e973d8d091729e08ab78a43b89b6c8"
+  },
+  "new_artifact_bindings": {
+    "CZ_ENVELOPE_DEVELOPMENT_CONFIRMATION_SPLIT.md": {
+      "canonical_lf_sha256": "ed6700b3ac9815a9a21d68ad3422696bc03e9925a9a069bfd7674202f6af7f39",
+      "canonical_git_blob_oid": "8d101f0150a3114523c508c3f61d7038f4312055",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "CZ_ENVELOPE_METRICS_AND_BASELINES.md": {
+      "canonical_lf_sha256": "db3087abdfb1fbd89709c1fb1acffde0dd60d6a8659670d138f45d745265fbb8",
+      "canonical_git_blob_oid": "5847217401a93aed3627f534dfc707388ec94c64",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "CZ_ENVELOPE_NUISANCE_MODEL.md": {
+      "canonical_lf_sha256": "c242b1d04f499106b18bb5eefb3336a9ac6df4c58e78d8ea3e95ecea3cc77fac",
+      "canonical_git_blob_oid": "ad592e50353d2032efa458a655ffa6843361cf47",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "CZ_ENVELOPE_REPRESENTATION_CANDIDATES.md": {
+      "canonical_lf_sha256": "e120a9d6deea6473725d5493c92b79dda31b90ccfa67db8aa956b9988550e3c5",
+      "canonical_git_blob_oid": "bbcd8b101e3376b78ea9d09124768f1aaac69f0b",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "CZ_ENVELOPE_STOP_RULES.md": {
+      "canonical_lf_sha256": "1d6e785567c500d84fe06d6eeeffee995bd14637b549b53486758315fd2cf30f",
+      "canonical_git_blob_oid": "c52e4c8bcd93ce81ab02de175fff1b8164868693",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "CZ_ENVELOPE_SUPPORT_ESTIMATOR_DESIGN.md": {
+      "canonical_lf_sha256": "3f614f22d7f40abb00e02db0ab513b6bc73b16920c09d5c47cfd8a9d63511e75",
+      "canonical_git_blob_oid": "97d9975d1fa2dc469a1d4d02e40b89622c39bbf0",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "CZ_ENVELOPE_THRESHOLD_PROPOSALS.md": {
+      "canonical_lf_sha256": "2400537b15365d01e0be3a87e756b826cf8d7cb3cbbbcc0dad63d54a5796c01a",
+      "canonical_git_blob_oid": "136080f68e31b5cbd32275eafab7234d2615e3ec",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "GPT_SYNC.md": {
+      "canonical_lf_sha256": "48f03828358c04082d27aa0ca5f505878459fe98105f0ba2f4409c53679d59c5",
+      "canonical_git_blob_oid": "38974f40aad23359849abead347efe56b6c91014",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R2_GATE3_DESIGN_DECISION.json": {
+      "canonical_lf_sha256": "63296f1aa0bf75cf0265a8b3e9db75beea8d7f8f5d58abce4946c7760241ad65",
+      "canonical_git_blob_oid": "a5b185e1d7969b11addd9abcb21887544f2329fb",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "ROUTE_REDESIGN_GATE3_DESIGN_REPORT.md": {
+      "canonical_lf_sha256": "5308140a68936b7fef304847edeac9ec28886e99314d28d29c331d0e13c68f0a",
+      "canonical_git_blob_oid": "72b4767d8c026e51e0fd15eab59b9e38d1bcc594",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    }
+  },
+  "current_management_text_bindings": {
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv": {
+      "canonical_lf_sha256": "3d8249cab6c86022aa3ddb4d920fd2ea677dd10e17c14060b3b2b9cf0295ef39",
+      "canonical_git_blob_oid": "1c6a614f3310b67073aa5fdf9c66fa5e39aaf0b1"
+    },
+    "results/R4_MASTER/R4_PLAN.md": {
+      "canonical_lf_sha256": "bbfebaf753fa6db1103a26387107af11c2e8b6806f923f24f4812f1e60d346c6",
+      "canonical_git_blob_oid": "f107b04ec83ddf2453d75a1c3d5900e4b6c8fd07"
+    }
+  },
+  "binding_note": "VALIDATION.json is bound by enclosing Gate3 design Git commit, not self hash. Ten design artifacts and current master texts have canonical-LF Git identities. Previous plan/ledger freeze identities remain checked at the frozen development commit; old manifests never rewritten. Full before/after inventories and standard-library verifier reside on D.",
+  "storage": "D:/ProjectStorage/WSL-CZ/gate3-20261004; canonical D project and D temp/cache only",
+  "check_groups": [
+    "7183 protected raw bytes",
+    "30 accepted closeout/Gate artifacts",
+    "2796 raw freezes",
+    "2989 historical identities",
+    "five portable identities",
+    "lead authorization scope",
+    "three M0 representations",
+    "N0 N1 N2 and symbolic limits",
+    "six support metrics and conservative joint search",
+    "three proposed threshold tiers",
+    "existing development metadata only",
+    "no fresh/no run/no implementation",
+    "append-only zero-credit master",
+    "UTF8 links and change scope"
+  ],
+  "failed_checks": 0
+}

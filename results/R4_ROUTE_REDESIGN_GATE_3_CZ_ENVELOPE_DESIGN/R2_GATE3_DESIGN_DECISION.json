@@ -1,0 +1,353 @@
+{
+  "stage": "R4_ROUTE_REDESIGN_GATE_3_CZ_ENVELOPE_QUANTITATIVE_DESIGN_DRAFT",
+  "parent_gate2_commit": "dcad14337491ac5bf90acacf0be34a57eafac3f1",
+  "parent_gate2_audit_status": "R4_ROUTE_REDESIGN_GATE2_ACCEPTED_BY_RESEARCH_LEAD",
+  "research_lead_measurement_contract_decision": {
+    "CZ_ENVELOPE": "ACCEPTED_FOR_QUANTITATIVE_GATE_DESIGN_ONLY",
+    "INTERFERENCE_FRINGE": "CONDITIONAL_NOT_ADMITTED"
+  },
+  "current_real_receiver_M1_capability": "UNKNOWN_NOT_FROZEN",
+  "real_UUV_stable_multi_line_evidence": "NOT_VERIFIED",
+  "new_numerical_experiments": 0,
+  "new_scientific_numerical_results": false,
+  "feature_calculations_performed": false,
+  "forward_propagation_or_direct_modal_evaluations_performed": false,
+  "new_estimator_implemented": false,
+  "candidate_representations": [
+    "WINDOW_SHAPE_Q2",
+    "LINE_BLOCK_MEANS_B3",
+    "NORMALIZED_INTENSITY_BLOCKS_B3"
+  ],
+  "representation_details": [
+    {
+      "id": "WINDOW_SHAPE_Q2",
+      "M0_compatible": true,
+      "measurement_inputs": [
+        "relative_level",
+        "frequency",
+        "time",
+        "bearing_platform_metadata"
+      ],
+      "coarsening": "Orthogonal per-window projection onto first and second nonconstant temporal polynomials",
+      "primary_scale_proposal": {
+        "polynomial_order": 2,
+        "window_masks": "INHERITED_61_AND_60_SAMPLES",
+        "frequency_weights": "EQUAL_THREE_LINES",
+        "window_weights": "EQUAL_TWO_WINDOWS"
+      },
+      "feature_dimension_symbolic": 12,
+      "source_invariance": "STATIC_ARBITRARY_PER_LINE_PER_WINDOW_OFFSETS_CANCEL",
+      "physical_range_mechanism": "Conditional CZ edge/broad maximum shape affects joint range-motion trend/curvature under finite depth/environment profile",
+      "searchability_hypothesis": "Low dimensional feature; parameter-domain smoothness NOT established",
+      "main_failure_modes": [
+        "centering_drops_broad_range_structure",
+        "linear_source_drift_absorbs_first_coefficient",
+        "unbounded_quadratic_drift_absorbs_entire_representation",
+        "coarse_feature_still_oscillatory_in_state_space"
+      ],
+      "scope": "DRAFT_NOT_SELECTED_OR_EXECUTED"
+    },
+    {
+      "id": "LINE_BLOCK_MEANS_B3",
+      "M0_compatible": true,
+      "measurement_inputs": [
+        "relative_level",
+        "frequency",
+        "time",
+        "bearing_platform_metadata"
+      ],
+      "coarsening": "Three fixed equal normalized-time blocks per inherited window and line, using sample-count-weighted block norm",
+      "primary_scale_proposal": {
+        "blocks_per_window": 3,
+        "endpoint_rule": "LEFT_CLOSED_RIGHT_OPEN_EXCEPT_LAST_CLOSED; INTERNAL_BOUNDARY_GOES_RIGHT",
+        "frequency_weights": "EQUAL_THREE_LINES",
+        "window_weights": "EQUAL_TWO_WINDOWS"
+      },
+      "independent_contrasts_per_line_window": 2,
+      "source_invariance": "STATIC_ARBITRARY_PER_LINE_PER_WINDOW_OFFSETS_CANCEL",
+      "physical_range_mechanism": "Early/middle/late broad CZ event pattern conditioned on unknown joint motion/depth",
+      "searchability_hypothesis": "Block averaging may coarsen; bounds/alias stability unverified",
+      "scale_status": "SCALE_SELECTION_NOT_YET_JUSTIFIED",
+      "main_failure_modes": [
+        "fast_oscillation_not_averaged_out",
+        "blocks_erase_edge_shape",
+        "source_drift_mimics_event"
+      ],
+      "scope": "ALTERNATIVE_DRAFT_NOT_EXECUTED"
+    },
+    {
+      "id": "NORMALIZED_INTENSITY_BLOCKS_B3",
+      "M0_compatible": true,
+      "measurement_inputs": [
+        "relative_level",
+        "frequency",
+        "time",
+        "bearing_platform_metadata"
+      ],
+      "coarsening": "Normalize each line intensity by its window mean, equal-line noncoherent average, then three fixed temporal blocks",
+      "primary_scale_proposal": {
+        "blocks_per_window": 3,
+        "frequency_weights": "EQUAL_THREE_LINES_AFTER_SEPARATE_NORMALIZATION",
+        "window_weights": "EQUAL_TWO_WINDOWS"
+      },
+      "independent_contrasts_per_window": 2,
+      "source_invariance": "STATIC_OFFSETS_CANCEL_BY_SEPARATE_LINE_NORMALIZATION; NO_KNOWN_LINE_RATIOS",
+      "physical_range_mechanism": "Conditional multi-line broad enhancement/edge after intensity normalization",
+      "searchability_hypothesis": "Compressed common envelope; nonlinear transformation can amplify spikes or erase line differences",
+      "scale_status": "SCALE_SELECTION_NOT_YET_JUSTIFIED",
+      "nuisance_processing": "Apply drift in level domain before nonlinear transformation",
+      "main_failure_modes": [
+        "nonlinear_spike_weighting",
+        "frequency_information_lost",
+        "source_gain_drift_absorbs_shape"
+      ],
+      "scope": "ALTERNATIVE_DRAFT_NOT_EXECUTED"
+    }
+  ],
+  "recommended_representation": "WINDOW_SHAPE_Q2",
+  "recommendation_reason": "Closest to M0/Contract A, static per-line invariance, explicit lowest trend/curvature coarse mechanism and auditable bounded-drift projection; not selected from numerical results",
+  "representation_selection_status": "DRAFT_RECOMMENDATION_RESEARCH_LEAD_MUST_SELECT_ONE_PRIMARY",
+  "M0_compatible_representation_available": true,
+  "M0_contract": {
+    "frequencies_hz": [
+      201,
+      235,
+      283
+    ],
+    "time_sample_count": 121,
+    "window_sample_counts": [
+      61,
+      60
+    ],
+    "window_index_masks": [
+      [
+        0,
+        60
+      ],
+      [
+        61,
+        120
+      ]
+    ],
+    "level": "PER_FREQUENCY_PER_WINDOW_CENTERED_RELATIVE_LEVEL",
+    "real_receiver_evidence": false,
+    "acoustic_ADC_rate_inferred_from_feature_times": false
+  },
+  "scale_selection_status": "SCALE_SELECTION_NOT_YET_JUSTIFIED_FOR_PHYSICAL_CZ_SMOOTHING; Q2_IS_STRUCTURAL_WINDOW_ANCHORED_DRAFT_NOT_VALIDATED",
+  "sensitivity_analysis": {
+    "maximum_additional_variants": 1,
+    "options_if_preregistered": [
+      "Q1_CURVATURE_ABLATION_FOR_SELECTED_E1",
+      "B4_ONLY_FOR_SELECTED_BLOCK_FAMILY"
+    ],
+    "selection_timing": "BEFORE_CASE_FEATURE_CALCULATION_AND_RUN",
+    "may_replace_primary_verdict": false,
+    "unlimited_sweep_allowed": false
+  },
+  "forbidden_feature_inputs": [
+    "truth_range",
+    "truth_motion",
+    "truth_depth",
+    "known_absolute_source_phase",
+    "complex_propagation_phase_as_observation",
+    "oracle_path_or_mode_identity",
+    "known_source_spectrum",
+    "known_emitted_carrier",
+    "transmitter_cooperation",
+    "active_ping"
+  ],
+  "nuisance_levels": [
+    "N0_STATIC_PER_LINE_OFFSET",
+    "N1_SLOW_BOUNDED_DRIFT",
+    "N2_UNCONSTRAINED_LIMIT"
+  ],
+  "nuisance_model": {
+    "N0": "UNKNOWN_CONSTANT_PER_LINE_PER_WINDOW_SOURCE_PLUS_GAIN_CANCELS; MATCHED_IDEAL_CONTROL_ONLY",
+    "N1": "BOUNDED_LINEAR_DRIFT_IN_KNOWN_WINDOW_COORDINATE; D_BOUND_NOT_FROZEN; SOURCE_AND_GAIN_COMBINED; OPTIONAL_COMMON_OR_LINE_SPECIFIC_STRUCTURE_CHOSEN_PRE_RUN",
+    "N2": "NON_IDENTIFIABLE_NUISANCE_LIMIT_PURE_SYMBOLIC; NOT_REQUIRED_MAIN_EXPERIMENT",
+    "unbounded_quadratic_drift_for_E1": "CAN_ABSORB_ALL_Q2_INFORMATION; STRUCTURAL_LIMIT_NOT_RUN",
+    "depth": "INHERITED_150_TO_250_M_5M_LABEL_PROFILE_WITH_EFFECTIVE_STORED_MODAL_MAPPING; NOT_CONTINUOUS_DEPTH_VALIDATION",
+    "environment": "SYNTHETIC_MATCHED_E_STD_FIRST_ROUND; NO_NEW_SSP_DEVELOPMENT",
+    "gain": "STATIC_CANCELLED; TIME_DRIFT_REQUIRES_METADATA_OR_PREDECLARED_N1",
+    "noise": "ACOUSTIC_NOISE_AND_FEATURE_ACCEPTANCE_ALLOWANCE_NOT_FROZEN; EXISTING_BEARING_NOISE_NOT_ACOUSTIC_NOISE_EVIDENCE"
+  },
+  "support_estimator_design": {
+    "output": "CONSERVATIVE_4D_RANGE_THETA_VELOCITY_HEADING_CELLS_AND_ALL_PROJECTED_RANGE_INTERVALS",
+    "initial_bounds": {
+      "r_km": [
+        45,
+        60
+      ],
+      "theta_deg": [
+        -5,
+        5
+      ],
+      "v_mps": [
+        1,
+        3
+      ],
+      "psi_deg": [
+        -15,
+        15
+      ]
+    },
+    "source_depth_role": "FINITE_PROFILE_NUISANCE",
+    "source_or_truth_warm_start_allowed": false,
+    "score_band": "ABSOLUTE_COMPATIBILITY_FROM_OBSERVATION_NOISE_NUMERIC_METADATA_NOT_CASE_JMIN",
+    "score_band_status": "TAU_F_NOT_FROZEN",
+    "RC2_rule": "INHERITED_OBSERVATION_DERIVED_LIKELIHOOD; NO_GATE_CHANGES; FRESH_CMIN_BOUND_RULE_MUST_BE_FROZEN",
+    "search_family_proposal": "DETERMINISTIC_FULL_DOMAIN_CELL_SUBDIVISION_WITH_VALID_COMPATIBILITY_BOUNDS",
+    "full_cell_enclosure_status": "IMPLEMENTABILITY_NOT_ESTABLISHED; PRE_RUN_REQUIREMENT",
+    "point_mismatch_may_reject_whole_cell": false,
+    "unresolved_cells": "RETAIN_IN_OUTER_SUPPORT_AND_MARK_COVERAGE_UNCLOSED",
+    "hard_cap_policy": "COUNT_ALL_PREDICTION_PROFILE_VALIDATION_AND_REFERENCE_COSTS_WITH_EXTERNAL_ENFORCED_WRAPPER",
+    "grid_hierarchy": "TWO_PREDECLARED_RAW_LEVELS; FINE_ALL_AXIS_HALF_STEP; START_STEPS_AND_TERMINAL_RESOLUTION_NOT_FROZEN",
+    "budget_status": "NOT_FROZEN",
+    "local_convergence_is_global_certificate": false,
+    "unknown_regions_may_be_discarded": false,
+    "empty_support_is_success": false,
+    "raw_vs_cumulative_convergence_distinction": true,
+    "boundary_finite_profile_and_outer_component_scope_required": true
+  },
+  "metrics": [
+    "SUPPORT_RETENTION",
+    "RANGE_PROJECTION_WIDTH",
+    "CONTRACTION_RATIO",
+    "CONNECTED_COMPONENT_COUNT",
+    "JOINT_MOTION_COUPLING",
+    "LANDSCAPE_COMPLEXITY"
+  ],
+  "metric_definitions": {
+    "SUPPORT_RETENTION": "JOINT_TRUTH_REFERENCE_MEMBERSHIP_EVALUATION_ONLY; SEPARATE_RANGE_AND_RESOLUTION_FLAGS",
+    "RANGE_PROJECTION_WIDTH": "HULL_WIDTH_MAIN; UNION_LENGTH_SECONDARY; EMPTY_IS_FAILURE",
+    "CONTRACTION_RATIO": "HULL_WIDTH_OVER_15KM; ALSO_CONDITIONAL_INCREMENT_VS_SAME_CASE_B0",
+    "CONNECTED_COMPONENT_COUNT": "RANGE_INTERVAL_UNION_AND_FIXED_FACE_ADJACENCY_4D_OUTER_COMPONENTS_WITH_UNRESOLVED_SCOPE",
+    "JOINT_MOTION_COUPLING": "FULL_R_V_PSI_SUPPORT_PER_RANGE_COMPONENT; THETA_RETAINED; NO_TRUTH_MOTION_OR_DEPTH_FIXING",
+    "LANDSCAPE_COMPLEXITY": "RAW_FULL_DOMAIN_COVERAGE_BOUNDS_TWO_GRID_SUPPORT_TOPOLOGY_AND_OPTIONAL_SAME_GRID_NORMALIZED_ROUGHNESS"
+  },
+  "baseline_roles": {
+    "B0": "RC1_15KM_PRIOR_PLUS_SAME_CASE_OBSERVATION_ONLY_RC2_SUPPORT; ACTUAL_RC2_WIDTH_NOT_ASSUMED_15_FOR_ALL_CASES",
+    "B1": "HISTORICAL_EXACT_DIRECT_TL_TRACTABILITY_NOT_ESTABLISHED; T3_SHGO_DIRECT_0_OF_21; NO_RERUN_OR_RETUNING",
+    "PROPOSED": "SINGLE_SELECTED_CZ_ENVELOPE_F; SUPPORT_RETENTION_AND_ACTUAL_RANGE_INCREMENT_PLUS_SEARCH_CLOSURE"
+  },
+  "exact_TL_reference_scope": "OPTIONAL_SAME_GRID_REUSED_LEVEL_MECHANISM_DIAGNOSTIC_ONLY_IF_LATER_EXPLICITLY_AUTHORIZED; NO_OPTIMIZER_REPAIR_AND_NO_RAW_SCORE_CROSS_COMPARISON",
+  "main_scheme_includes_fringe_TDOA_Doppler_or_new_spatial_data": false,
+  "threshold_status": "PROPOSED_NOT_FROZEN",
+  "threshold_options": {
+    "lenient": {
+      "status": "PROPOSED_NOT_FROZEN",
+      "joint_truth_reference_retention_fraction_on_all_valid_primary_cases": 1.0,
+      "range_projection_retention_fraction": 1.0,
+      "range_projection_hull_width_max_km": 7.5,
+      "contraction_ratio_max": 0.5,
+      "contraction_ratio_exact": "0.5",
+      "range_component_count_max": 4,
+      "joint_broad_component_count_max": 8,
+      "raw_two_grid_endpoint_and_width_change_max_km": 0.75,
+      "coarse_topology_stability_required": true,
+      "empty_support_qualifies": false,
+      "invalid_missing_cases_may_be_dropped": false,
+      "raw_global_coverage_closure_required": true,
+      "real_RC3_capture_guarantee": false,
+      "project_lt10pct_requirement_verified": false
+    },
+    "nominal": {
+      "status": "PROPOSED_NOT_FROZEN",
+      "joint_truth_reference_retention_fraction_on_all_valid_primary_cases": 1.0,
+      "range_projection_retention_fraction": 1.0,
+      "range_projection_hull_width_max_km": 5.0,
+      "contraction_ratio_max": 0.3333333333333333,
+      "contraction_ratio_exact": "1/3",
+      "range_component_count_max": 3,
+      "joint_broad_component_count_max": 6,
+      "raw_two_grid_endpoint_and_width_change_max_km": 0.5,
+      "coarse_topology_stability_required": true,
+      "empty_support_qualifies": false,
+      "invalid_missing_cases_may_be_dropped": false,
+      "raw_global_coverage_closure_required": true,
+      "real_RC3_capture_guarantee": false,
+      "project_lt10pct_requirement_verified": false
+    },
+    "strict": {
+      "status": "PROPOSED_NOT_FROZEN",
+      "joint_truth_reference_retention_fraction_on_all_valid_primary_cases": 1.0,
+      "range_projection_retention_fraction": 1.0,
+      "range_projection_hull_width_max_km": 3.0,
+      "contraction_ratio_max": 0.2,
+      "contraction_ratio_exact": "0.2",
+      "range_component_count_max": 2,
+      "joint_broad_component_count_max": 4,
+      "raw_two_grid_endpoint_and_width_change_max_km": 0.3,
+      "coarse_topology_stability_required": true,
+      "empty_support_qualifies": false,
+      "invalid_missing_cases_may_be_dropped": false,
+      "raw_global_coverage_closure_required": true,
+      "real_RC3_capture_guarantee": false,
+      "project_lt10pct_requirement_verified": false
+    }
+  },
+  "recommended_threshold_tier": "nominal",
+  "new_outcome_threshold_proposals_defined": true,
+  "new_frozen_scientific_thresholds": false,
+  "old_thresholds_modified": false,
+  "threshold_rationale": "15km prior; nontrivial coarse acquisition contraction, not formal 5-parameter error or RC3 capture. Component/stability caps are reviewable workload/numerical proposals, not physical constants.",
+  "development_set": {
+    "primary_role": "ALREADY_USED_DEVELOPMENT_ONLY",
+    "primary_manifest": "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_CASE_MANIFEST.csv",
+    "primary_nominal_noisy_case_count": 21,
+    "primary_observations": "results/R4_A1_FIX_CONTINUOUS_SEARCH/CASE_OBSERVATIONS.npz",
+    "same_archive_noiseless_controls": 15,
+    "noiseless_role": "REGRESSION_ONLY_RC2_SINGLETON_NOT_ACOUSTIC_ACQUISITION_EVIDENCE",
+    "secondary_FIX2_old_holdout_role": "ALL_24_CASES_ARE_PREVIOUSLY_USED_DEVELOPMENT_REGRESSION; 16_NOISY_8_CONTROLS; EXECUTION_INCLUDE_OR_EXCLUDE_ENTIRE_GROUP_MUST_BE_CHOSEN_BEFORE_RUN",
+    "all_previous_P_Q_FIX_FIX2_tractability_panels_fresh": false,
+    "failed_cases_may_be_omitted": false
+  },
+  "data_provenance": "SYNTHETIC_MATCHED_MEASUREMENT_CONTRACT_PROXY_FIRST_ROUND_NOT_REAL_RECEIVER_PERFORMANCE",
+  "future_PASS_claim_scope": "CONDITIONAL_MATCHED_COARSE_ACQUISITION_INFORMATION_WITH_FROZEN_CONTRACT_AND_FINITE_NUISANCE_SCOPE_ONLY; NOT_REAL_UUV_OR_ENGINEERING_VALIDATION",
+  "fresh_panel_generated": false,
+  "fresh_confirmation": "NOT_GENERATED",
+  "fresh_panel_rule": "ONLY_AFTER_REPRESENTATION_NUISANCE_THRESHOLD_BUDGET_SEARCH_RULE_AND_PANEL_RULE_FREEZE_PLUS_EXPLICIT_CONFIRMATION_AUTHORIZATION; NO_POST_RESULT_SELECTION",
+  "fresh_sample_count_and_seed_policy": "NOT_FROZEN",
+  "truth_separation": "GENERATOR_AND_EVALUATOR_ONLY; ESTIMATOR_WHITELIST_AND_SEALED_OUTPUT_BEFORE_EVALUATION",
+  "stop_rules": [
+    "S1_JOINT_RETENTION_NOT_MAINTAINED",
+    "S2_NO_ACTUAL_RANGE_CONTRACTION",
+    "S3_DENSE_ALIAS_OR_SEARCH_COVERAGE_UNCLOSED",
+    "S4_TRUTH_MOTION_DEPTH_OR_PRIVILEGED_INPUT_REQUIRED",
+    "S5_SOURCE_GAIN_NUISANCE_ABSORBS_RANGE_STRUCTURE"
+  ],
+  "future_negative_decision": "CZ_ENVELOPE_COARSE_RANGE_INFORMATION_NOT_ESTABLISHED",
+  "execution_invalid_is_physical_failure": false,
+  "unlimited_budget_or_representation_repairs_allowed": false,
+  "pre_run_freeze_requirements": [
+    "SELECT_ONE_PRIMARY_REPRESENTATION_AND_MAX_ONE_SENSITIVITY",
+    "ACCEPT_OR_JUSTIFY_SCALE_LIMITATIONS",
+    "SELECT_OUTCOME_THRESHOLD_TIER",
+    "DEFINE_TAU_F_ACOUSTIC_NOISE_AND_NUMERIC_ERROR_ALLOWANCE",
+    "DEFINE_N1_BOUND_OR_EXPLICIT_N0_ONLY_CLAIM",
+    "ESTABLISH_VALID_FULL_CELL_COMPATIBILITY_ENCLOSURES",
+    "FREEZE_TWO_GRID_RESOLUTION_SPLIT_ADJACENCY_AND_CMIN_RULE",
+    "FREEZE_HARD_BUDGETS_ALL_FORWARD_PROFILE_AUDIT_COSTS",
+    "FREEZE_COMPLETE_DEVELOPMENT_SECONDARY_GROUP_AND_FUTURE_CONFIRMATION_RULE",
+    "VERIFY_WHITELIST_TRUTH_ISOLATION_MODEL_INPUT_IDENTITIES_AND_STOP_RULES",
+    "OBTAIN_SEPARATE_EXPLICIT_EXECUTION_AUTHORIZATION"
+  ],
+  "quantitative_run_authorized": false,
+  "implementation_authorized": false,
+  "pre_run_freeze_completed": false,
+  "candidate_admitted_for_quantitative_design": true,
+  "admission_scope": "CZ_ONLY_RESEARCH_LEAD_AUTHORIZATION_FOR_THIS_DESIGN_DRAFT; NOT_IMPLEMENTATION_EXECUTION_OR_SCIENTIFIC_PASS",
+  "design_status": "DRAFT_PENDING_RESEARCH_LEAD_REVIEW",
+  "recommended_next_stage": "RESEARCH_LEAD_GATE3_DESIGN_REVIEW_AND_PRE_RUN_FREEZE",
+  "R1_cold_start": "NOT_ESTABLISHED",
+  "R1_tracking": "CONDITIONALLY_PLAUSIBLE_POST_ACQUISITION_ONLY",
+  "RC3_direct_TL_role": "LOCAL_CONDITIONAL_ANCHOR_ONLY",
+  "A1_search_repair_chain": "CLOSED",
+  "R4_progress_percent": 0,
+  "A2_depth_SSP_P5": "UNOPENED",
+  "frozen_R4_PROGRESS_json": "UNCHANGED_HISTORICAL_SNAPSHOT",
+  "new_external_literature_added": false,
+  "storage": "CANONICAL_D_DRIVE_ONLY",
+  "created_date_Asia_Shanghai": "2026-10-04",
+  "stop_after_commit_push": true
+}
