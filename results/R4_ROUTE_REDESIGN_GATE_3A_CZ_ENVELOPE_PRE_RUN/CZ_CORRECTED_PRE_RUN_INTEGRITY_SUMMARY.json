@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": 24692,
+  "failed": 0,
+  "protected_old_files": 7220,
+  "protected_files_changed": [],
+  "rejected_checkpoint_bindings_verified": 27,
+  "historical_raw_bindings": 2796,
+  "historical_input_bindings": 2989,
+  "raw_matches": 2865,
+  "LF_only_matches": 124,
+  "fixture_partitions_independently_verified": 24,
+  "method": "Raw/SHA/Git bindings; exact deterministic dyadic partition reconstruction; metadata accounting and post-seal reference membership; no new modal/feature computations and no development arrays",
+  "CSV_sha256": "0cfe4ec8e1b6d3774d870609e5a28bb05b4e62d910ed99932610da09324db988",
+  "development_numerical_runs": 0,
+  "master_rows_appended": 3,
+  "R4_percent": 0
+}

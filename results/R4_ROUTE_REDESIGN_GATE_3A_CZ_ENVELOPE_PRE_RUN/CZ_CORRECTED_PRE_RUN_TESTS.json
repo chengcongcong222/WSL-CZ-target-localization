@@ -1,0 +1,27 @@
+{
+  "tests": 69,
+  "passed": 69,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "original_unchanged_tests": 47,
+  "new_closure_tests": 22,
+  "categories": [
+    "automatic structural derivation",
+    "T1 below-min cannot close",
+    "T2 exact-min single path closes",
+    "T3 terminal possible closes",
+    "T4 budget unresolved blocks Gate",
+    "B0 same semantics",
+    "invalid bound retained",
+    "no sampling rejection",
+    "compatibility diagnostic separated",
+    "empty support failure",
+    "sentinel/exclusion",
+    "raw independence",
+    "all six strict caps"
+  ],
+  "junit_sha256": "8bb047c620ae04bea6fc2145c5b41b625c20d1642c72e129089c612a69ebf4a1",
+  "development_data_used": false,
+  "scientific_result": false
+}

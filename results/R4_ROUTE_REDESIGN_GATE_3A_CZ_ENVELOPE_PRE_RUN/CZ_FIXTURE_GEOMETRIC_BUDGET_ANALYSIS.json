@@ -1,0 +1,50 @@
+{
+  "scope": "Post-policy symbolic diagnosis on the two already registered fixture states and unchanged closed-cell grid. No new physical fixture, forward/model/feature calculation, parameter change or budget selection.",
+  "derivation": "At every deterministic dyadic split, recurse into every closed child containing the fixed matched point; count one ideal certified rejection for every child not containing it. Every surviving box must reach terminal resolution. Root/internal/sibling/terminal requests all counted. This is an optimistic necessary minimum, not sufficient closure cost.",
+  "boundary_reason": "The domain midpoint lies on each axis first bisection face, so all 16 closed orthants contain the matched point. A valid exclusion cannot discard any of those point-containing cells.",
+  "results": [
+    {
+      "fixture_id": "CORNER_LOW",
+      "resolution": "COARSE",
+      "ideal_reference_geometry_minimum_requests": 37,
+      "internal_path_boxes": 18,
+      "ideal_rejected_siblings": 18,
+      "reference_terminal_boxes": 1,
+      "registered_maximum_cap": 439,
+      "maximum_satisfies_geometric_necessary_minimum": true
+    },
+    {
+      "fixture_id": "CORNER_LOW",
+      "resolution": "FINE",
+      "ideal_reference_geometry_minimum_requests": 45,
+      "internal_path_boxes": 22,
+      "ideal_rejected_siblings": 22,
+      "reference_terminal_boxes": 1,
+      "registered_maximum_cap": 879,
+      "maximum_satisfies_geometric_necessary_minimum": true
+    },
+    {
+      "fixture_id": "DOMAIN_MIDPOINT",
+      "resolution": "COARSE",
+      "ideal_reference_geometry_minimum_requests": 451,
+      "internal_path_boxes": 225,
+      "ideal_rejected_siblings": 210,
+      "reference_terminal_boxes": 16,
+      "registered_maximum_cap": 439,
+      "maximum_satisfies_geometric_necessary_minimum": false
+    },
+    {
+      "fixture_id": "DOMAIN_MIDPOINT",
+      "resolution": "FINE",
+      "ideal_reference_geometry_minimum_requests": 579,
+      "internal_path_boxes": 289,
+      "ideal_rejected_siblings": 274,
+      "reference_terminal_boxes": 16,
+      "registered_maximum_cap": 879,
+      "maximum_satisfies_geometric_necessary_minimum": true
+    }
+  ],
+  "budget_policy_changed": false,
+  "fourth_ladder_allowed": false,
+  "decision_effect": "If the maximum is below this geometric minimum, do not select it or release development. Preserve prescribed maximum failure; no post-result cap increase."
+}

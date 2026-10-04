@@ -131,3 +131,14 @@ Research lead accepted Gate-3 design at e56ba746ebe7370d1dee3d0a181bc348b5fecc5f
 Certified-ball whole-cell enclosure, precharged counters, independent raw coarse/fine logic and evaluation sentinel implemented. Fixed non-development calibration only: tau_F=1e-7 dB; coarse widths=(0.25 km,0.625 deg,0.125 m/s,1.875 deg), fine=half; final cell caps=14/29. Forty-seven unit tests pass. Conservative validity does not establish useful bounds or development closure.
 
 [PRE-RUN decision](../R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_PRE_RUN_DECISION.json) and [freeze](../R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_PRE_RUN_DESIGN_FREEZE.json) pending independent audit. Development feature/search=0; entry disabled; fresh NOT_GENERATED. Stop after commit/push. N1, A2/depth/SSP/P5 unopened; R4=0%; prior evidence and weights unchanged.
+
+
+## Gate-3A PRE-RUN conservative closure correction
+
+Research lead rejected e9316c031d40f11fc07772959d439b965d876cd5: terminal possible cells were incorrectly forced to obtain upper compatibility proof and 14/29 requests were below single-path completion bounds. Old sources/artifacts remain historical and unchanged.
+
+Correction policy pushed first at 98f4e3184752025be73da2ba2bad568bdc0e9992. New engine separates conservative partition completion, uniform compatibility and natural budget completion. Original lower bounds, Q2/N0/tau=1e-7, NOMINAL Gate, domain/grid/profile and primary manifest unchanged. Single-path minima=37/45; corner/midpoint B0/CZ ladders=37/148/439 and 45/180/879.
+
+Outcome: CZ_ENVELOPE_PRE_RUN_SEARCH_CLOSURE_NOT_ESTABLISHED; selected caps={"COARSE": null, "FINE": null}; all-run reference retained=True. Supplementary midpoint-specific geometric minimum=451/579: coarse max439 is below its necessary minimum. Preserve this policy limitation without another tier; no CZ information/physics-impossibility conclusion.
+
+[Corrected decision](../R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_CORRECTED_PRE_RUN_DECISION.json), [fixture summary](../R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_CLOSURE_FIXTURE_SUMMARY.json), [budget limitation](../R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_CLOSURE_BUDGET_LIMITATION.md). Sixty-nine tests pass; independent full partition/counter/metadata verification accompanies checkpoint. Development feature/search=0; entry disabled; fresh NOT_GENERATED. Stop after push. R4=0%; N1/A2/depth/SSP/P5 unopened.
