@@ -1,0 +1,18 @@
+{
+  "storage": "Original C drive had zero free bytes; experiment used verified independent D checkout",
+  "initial_pytest_setup": "67 passed and 7 setup errors: WinError 3 because runtime_tmp parent of basetemp did not exist",
+  "environment_correction": "Created runtime_tmp parent before any noisy experiment; no source or algorithm change",
+  "pre_release_rerun": "74 tests passed in 4.68s",
+  "no_noisy_retry": true,
+  "frozen_bytes_preserved": true,
+  "source_release_flags_unchanged": true,
+  "mid_run_monitoring_tool_failure": "Default sandbox could not create one monitoring shell because its helper log write on C failed with os error 112; escalated execution environment successfully resumed read-only monitoring. Existing D scientific process continued without restart.",
+  "original_C_sync_recovery_attempt": {
+    "removed_source_backed_compiled_cache_files": 6,
+    "forced_NTFS_compression_target": "results/RANGE_UB/E_STD_VLA_RANGE_CONTINUATION_Z200/_bellhop/cont_nb3201.arr",
+    "compression_result": "ERR; no space recovered",
+    "numerical_SHA256_before_and_after": "be4e82fdaeb0c46fdf221d110cc4c733f0777896ef2fd43db1a1a16b1cc8a832",
+    "C_free_bytes_after": 0,
+    "no_numerical_evidence_deleted": true
+  }
+}

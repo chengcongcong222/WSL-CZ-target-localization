@@ -1,0 +1,13 @@
+{
+  "DEVELOPMENT_RAW_BUDGET_CONVERGENCE_VALIDATED": false,
+  "DEVELOPMENT_DUAL_SOLVER_AGREEMENT_CONFIRMED": false,
+  "dual_status": "NOT_REACHED_DUE_TO_DEVELOPMENT_GATE",
+  "all_execution_valid": true,
+  "scientific_comparison": "threshold-hit / discrete witness-cluster convergence; no stationarity certificate",
+  "decision": "A1_SEARCH_TRACTABILITY_NOT_ESTABLISHED",
+  "noisy_development_runs": 21,
+  "n_raw_case_runs": 126,
+  "R4_progress_percent": 0,
+  "fresh_confirmation": "NOT_REACHED_DUE_TO_DEVELOPMENT_GATE",
+  "NO_EXACT_ALIAS_FINDING_IN_TESTED_CATALOGS": true
+}

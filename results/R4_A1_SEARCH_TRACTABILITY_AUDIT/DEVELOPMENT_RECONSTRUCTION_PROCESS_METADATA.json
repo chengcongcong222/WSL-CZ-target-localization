@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\Users\\ccc\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "-u",
+    "r4_a1_search_tractability_development_reconstruction.py"
+  ],
+  "started_utc": "2026-10-04T09:46:39.928608+00:00",
+  "original_development_complete": true,
+  "no_optimizer_called": true,
+  "completed_utc": "2026-10-04T10:43:39.675278+00:00",
+  "returncode": 0
+}

@@ -1,0 +1,12 @@
+{
+  "release_authorization_commit": "d731cf51d72b41dea7fd4c7a48fcf21a623f7bc4",
+  "parent_harness_commit": "c5c9ba2e1258e73486e62df26499e03cce204f27",
+  "started_utc": "2026-10-04T07:26:03.952731+00:00",
+  "execution_workspace": "D:\\CodexExperiments\\WSL-CZ-tractability-20261004",
+  "runtime_development_released": true,
+  "fresh_confirmation_released": false,
+  "frozen_source_bytes_unchanged": true,
+  "returncode": 0,
+  "completed_utc": "2026-10-04T09:46:35.763056+00:00",
+  "elapsed_seconds": 8431.910530200112
+}

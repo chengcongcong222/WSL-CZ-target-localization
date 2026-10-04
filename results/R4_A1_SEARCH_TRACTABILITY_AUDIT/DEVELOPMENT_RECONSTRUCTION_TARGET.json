@@ -1,0 +1,5 @@
+{
+  "exported_raw_witness_rows": 279114,
+  "expected_unique_case_depth_states": 232973,
+  "method": "Exact canonical 17-digit CSV state strings; depth and case included; no search invoked"
+}

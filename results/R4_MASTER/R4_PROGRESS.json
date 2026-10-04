@@ -13,9 +13,9 @@
     "B4": 5,
     "C": 15
   },
-  "current_stage": "DEVELOPMENT_EXECUTION_HARNESS_FREEZE",
+  "current_stage": "A1_SEARCH_TRACTABILITY_DEVELOPMENT_COMPLETE",
   "A1_status": "BLOCKED_BY_UNCLOSED_ACOUSTIC_COVERAGE",
-  "independent_audit_status": "FIX2_ACCEPTED_AT_7ab2484; PRE_RUN_INFRASTRUCTURE_ACCEPTED_AT_b4839b2; EXECUTION_HARNESS_PENDING_SECOND_AUDIT",
+  "independent_audit_status": "FIX2_ACCEPTED_AT_7ab2484; PRE_RUN_ACCEPTED_AT_b4839b2; HARNESS_ACCEPTED_AT_c5c9ba2; DEVELOPMENT_PENDING_THIRD_AUDIT",
   "progress_rule": "Credit only after the research lead audits the stage commit; script completion alone receives no credit.",
   "P5": "NOT_OPENED",
   "A1_gates": {
@@ -30,7 +30,7 @@
     "INDEPENDENT_SEARCH_AGREEMENT_CONFIRMED",
     "FRESH_HOLDOUT_MATCHED_BASINS_RECOVERED"
   ],
-  "next_recommended_stage": "STOP; await second independent harness audit and separate development release",
+  "next_recommended_stage": "STOP; await third independent audit; no further experiment authorized",
   "A1_FIX": "A1_FIX_BLOCKED_BY_FINITE_CONTINUOUS_SEARCH_FAILURE",
   "A1_FIX_gates": {
     "CONTINUOUS_FORWARD_SELF_MATCH_VALIDATED": true,
@@ -50,8 +50,15 @@
     "NO_UNRESOLVED_EXACT_CONTINUOUS_ALIAS_IN_TESTED_CONTROLS": true
   },
   "tractability_baseline_commit": "7ab24845e6e1551b75287fefb1ab662e92b395b8",
-  "tractability_checkpoint": "DEVELOPMENT_EXECUTION_HARNESS_FREEZE_READY_FOR_INDEPENDENT_AUDIT",
-  "tractability_scientific_decision": "NOT_EVALUATED",
-  "tractability_noisy_development_runs": 0,
-  "development_released": false
+  "tractability_checkpoint": "DEVELOPMENT_EXECUTION_HARNESS_FREEZE_ACCEPTED",
+  "tractability_scientific_decision": "A1_SEARCH_TRACTABILITY_NOT_ESTABLISHED",
+  "tractability_noisy_development_runs": 21,
+  "development_released": true,
+  "tractability_raw_case_budget_runs": 126,
+  "tractability_depth_branch_runs": 2646,
+  "fresh_confirmation_released": false,
+  "tractability_development_gates": {
+    "raw_budget_convergence": false,
+    "dual_solver_agreement": "NOT_REACHED"
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "frozen_before_development_completion": true,
+  "recorded_utc": "2026-10-04T07:29:58.365916+00:00",
+  "script": "r4_a1_search_tractability_development_reconstruction.py",
+  "sha256": "93c6f715d4d96277cd50ca957207988a4f8792aa231a03faf7e3619a11789a90",
+  "purpose": "Post-run mechanical reconstruction only; no optimizer or algorithm changes",
+  "direct_score_check_tolerance_db": 1e-07,
+  "bearing_cost_check_tolerance_rad2": 1e-12,
+  "alias_thresholds_unchanged": true,
+  "Gate_thresholds_and_tolerances_unchanged": true,
+  "audit_only_memo_never_supplied_to_search": true
+}

@@ -16,7 +16,7 @@ The research lead owns the route, Gate acceptance, evidence wording and final in
 | B4 | Depth working-envelope freeze | 5% |
 | C | Application metric freeze | 15% |
 
-Only the A1 search-tractability DEVELOPMENT_EXECUTION_HARNESS_FREEZE checkpoint is currently authorized. A2/B/SSP/P5 are not opened. R4 remains at 0%.
+The authorized frozen 21-case noisy development stage is complete. No further experiment is authorized. A2/B/SSP/P5 are not opened. R4 remains at 0%.
 
 ## A1 scientific questions
 
@@ -48,4 +48,8 @@ The new controlling staged instruction authorizes only external request-budget e
 
 The lead independently accepted b4839b295777127ec0c8ade56b76c776db99148b as PRE_RUN_INFRASTRUCTURE_FREEZE_ACCEPTED. Its core objective/controller and frozen 16/64/256 per-depth budgets remain unchanged. The new authorization is only DEVELOPMENT_EXECUTION_HARNESS_FREEZE: non-oracle 21-case manifest, independent raw-branch driver, threshold-hit/witness-cluster semantics and Gate logic, tests and immutable release manifest. It does not authorize real noisy development.
 
-The new harness remains development_released=false; noisy_development_runs=0. It awaits a second independent audit. Raw top witnesses and discrete subthreshold clusters are not local minima or basin certificates. No management credit is awarded; R4=0%; A2/depth/SSP/P5 unopened.
+At the harness-freeze checkpoint, development_released=false and noisy_development_runs=0; the second audit and separate development release were pending. Raw top witnesses and discrete subthreshold clusters are not local minima or basin certificates. No management credit is awarded; R4=0%; A2/depth/SSP/P5 unopened.
+
+## Accepted harness and completed frozen development
+
+The lead accepted `c5c9ba2e1258e73486e62df26499e03cce204f27` and authorized only the 21-case noisy development, recorded before search at `d731cf51d72b41dea7fd4c7a48fcf21a623f7bc4`. The unchanged runtime-released harness executed all 126 raw runs / 2646 depth branches. Its decision is `A1_SEARCH_TRACTABILITY_NOT_ESTABLISHED`; raw Gate = False; dual Gate = NOT_REACHED. All failures and raw request/witness evidence are preserved under ../R4_A1_SEARCH_TRACTABILITY_AUDIT/. See DEVELOPMENT_RUN_REPORT.md and DEVELOPMENT_FINAL_DECISION.json. This stage stops pending the third independent audit; no T4, budget/tolerance change, solver substitution, FIX3/FIX4 or fresh confirmation is authorized. R4 remains 0%; A2/depth/SSP/P5 remain unopened.

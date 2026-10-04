@@ -1,0 +1,851 @@
+{
+  "parent_harness_commit": "c5c9ba2e1258e73486e62df26499e03cce204f27",
+  "release_authorization_commit": "d731cf51d72b41dea7fd4c7a48fcf21a623f7bc4",
+  "scientific_decision": "A1_SEARCH_TRACTABILITY_NOT_ESTABLISHED",
+  "DEVELOPMENT_RAW_BUDGET_CONVERGENCE_VALIDATED": false,
+  "DEVELOPMENT_DUAL_SOLVER_AGREEMENT_CONFIRMED": "NOT_REACHED",
+  "dual_solver_agreement": "NOT_REACHED",
+  "recovery_counts": {
+    "SHGO": {
+      "T1": 0,
+      "T2": 0,
+      "T3": 0
+    },
+    "DIRECT": {
+      "T1": 0,
+      "T2": 0,
+      "T3": 0
+    }
+  },
+  "raw_convergence": {
+    "SHGO": 0,
+    "DIRECT": 0
+  },
+  "exact_alias": "NO_IN_TESTED_CATALOGS",
+  "execution_invalid_cases": [],
+  "failed_recovery_cases": [
+    {
+      "solver": "SHGO",
+      "case_id": "P01_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P01_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P01_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P02_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P02_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P02_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P03_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P03_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P03_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P04_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P04_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P04_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P05_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P05_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P05_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P06_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P06_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P06_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P07_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P07_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P07_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P08_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P08_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P08_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P09_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P09_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P09_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q01_s0.1_seed420001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q01_s0.1_seed420001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q01_s0.1_seed420001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q01_s0.1_seed420002",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q01_s0.1_seed420002",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q01_s0.1_seed420002",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q02_s0.1_seed420001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q02_s0.1_seed420001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q02_s0.1_seed420001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q02_s0.1_seed420002",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q02_s0.1_seed420002",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q02_s0.1_seed420002",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q03_s0.1_seed420001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q03_s0.1_seed420001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q03_s0.1_seed420001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q03_s0.1_seed420002",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q03_s0.1_seed420002",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q03_s0.1_seed420002",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q04_s0.1_seed420001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q04_s0.1_seed420001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q04_s0.1_seed420001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q04_s0.1_seed420002",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q04_s0.1_seed420002",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q04_s0.1_seed420002",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q05_s0.1_seed420001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q05_s0.1_seed420001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q05_s0.1_seed420001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q05_s0.1_seed420002",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q05_s0.1_seed420002",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q05_s0.1_seed420002",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q06_s0.1_seed420001",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q06_s0.1_seed420001",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q06_s0.1_seed420001",
+      "budget": "T3"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q06_s0.1_seed420002",
+      "budget": "T1"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q06_s0.1_seed420002",
+      "budget": "T2"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q06_s0.1_seed420002",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P01_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P01_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P01_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P02_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P02_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P02_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P03_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P03_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P03_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P04_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P04_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P04_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P05_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P05_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P05_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P06_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P06_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P06_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P07_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P07_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P07_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P08_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P08_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P08_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P09_s0.1_seed410001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P09_s0.1_seed410001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P09_s0.1_seed410001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q01_s0.1_seed420001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q01_s0.1_seed420001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q01_s0.1_seed420001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q01_s0.1_seed420002",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q01_s0.1_seed420002",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q01_s0.1_seed420002",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q02_s0.1_seed420001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q02_s0.1_seed420001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q02_s0.1_seed420001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q02_s0.1_seed420002",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q02_s0.1_seed420002",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q02_s0.1_seed420002",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q03_s0.1_seed420001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q03_s0.1_seed420001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q03_s0.1_seed420001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q03_s0.1_seed420002",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q03_s0.1_seed420002",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q03_s0.1_seed420002",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q04_s0.1_seed420001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q04_s0.1_seed420001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q04_s0.1_seed420001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q04_s0.1_seed420002",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q04_s0.1_seed420002",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q04_s0.1_seed420002",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q05_s0.1_seed420001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q05_s0.1_seed420001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q05_s0.1_seed420001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q05_s0.1_seed420002",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q05_s0.1_seed420002",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q05_s0.1_seed420002",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q06_s0.1_seed420001",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q06_s0.1_seed420001",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q06_s0.1_seed420001",
+      "budget": "T3"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q06_s0.1_seed420002",
+      "budget": "T1"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q06_s0.1_seed420002",
+      "budget": "T2"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q06_s0.1_seed420002",
+      "budget": "T3"
+    }
+  ],
+  "failed_convergence_cases": [
+    {
+      "solver": "SHGO",
+      "case_id": "P01_s0.1_seed410001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P02_s0.1_seed410001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P03_s0.1_seed410001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P04_s0.1_seed410001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P05_s0.1_seed410001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P06_s0.1_seed410001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P07_s0.1_seed410001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P08_s0.1_seed410001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "P09_s0.1_seed410001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q01_s0.1_seed420001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q01_s0.1_seed420002"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q02_s0.1_seed420001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q02_s0.1_seed420002"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q03_s0.1_seed420001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q03_s0.1_seed420002"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q04_s0.1_seed420001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q04_s0.1_seed420002"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q05_s0.1_seed420001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q05_s0.1_seed420002"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q06_s0.1_seed420001"
+    },
+    {
+      "solver": "SHGO",
+      "case_id": "Q06_s0.1_seed420002"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P01_s0.1_seed410001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P02_s0.1_seed410001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P03_s0.1_seed410001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P04_s0.1_seed410001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P05_s0.1_seed410001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P06_s0.1_seed410001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P07_s0.1_seed410001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P08_s0.1_seed410001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "P09_s0.1_seed410001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q01_s0.1_seed420001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q01_s0.1_seed420002"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q02_s0.1_seed420001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q02_s0.1_seed420002"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q03_s0.1_seed420001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q03_s0.1_seed420002"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q04_s0.1_seed420001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q04_s0.1_seed420002"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q05_s0.1_seed420001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q05_s0.1_seed420002"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q06_s0.1_seed420001"
+    },
+    {
+      "solver": "DIRECT",
+      "case_id": "Q06_s0.1_seed420002"
+    }
+  ],
+  "optimizer_and_driver_totals": {
+    "n_objective_requests": 296352,
+    "n_exact_forward_evaluations": 279114,
+    "n_unique_states_evaluated": 292946,
+    "n_cache_hits": 3406,
+    "n_blocked_requests": 2646,
+    "n_validation_exact_forward_evaluations": 279114
+  },
+  "driver_alias_validation_exact_forward_evaluations": 0,
+  "post_run_independent_forward_state_evaluations": 232973,
+  "post_run_independent_forward_batch_calls": 14754,
+  "hard_budget_enforcement_failures": 0,
+  "mechanical_reconstruction_valid": true,
+  "mechanical_reconstruction_checks_passed": 14479,
+  "mechanical_reconstruction_checks_failed": 0,
+  "post_run_tests": "........................................................................ [ 97%]\n..                                                                       [100%]\n74 passed in 4.45s",
+  "fresh_confirmation": "NOT_REACHED",
+  "fresh_confirmation_released": false,
+  "R4_progress_percent": 0,
+  "A2_depth_SSP_P5": "UNOPENED",
+  "next_action": "STOP; await third independent audit; no further experiment authorized",
+  "execution_workspace": "D:\\CodexExperiments\\WSL-CZ-tractability-20261004",
+  "original_C_workspace_at_execution": "c5c9ba2e1258e73486e62df26499e03cce204f27; C drive full; final synchronization reported separately"
+}

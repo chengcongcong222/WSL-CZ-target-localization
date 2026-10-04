@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\ccc\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_r4_a1_search_tractability.py",
+    "-q",
+    "--basetemp",
+    "runtime_tmp/pytest_post"
+  ],
+  "returncode": 0,
+  "recorded_utc": "2026-10-04T10:43:44.522479+00:00",
+  "output": "........................................................................ [ 97%]\n..                                                                       [100%]\n74 passed in 4.45s\n"
+}
