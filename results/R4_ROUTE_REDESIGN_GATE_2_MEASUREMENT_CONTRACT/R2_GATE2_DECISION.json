@@ -1,0 +1,244 @@
+{
+  "stage": "R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CHAIN_AND_SIGNAL_CONDITION_SPECIFICATION",
+  "parent_gate1_commit": "9e50b0d949523c85fb35c1168ff77c37ddf37aeb",
+  "parent_gate1_audit_status": "R4_ROUTE_REDESIGN_GATE1_ACCEPTED_BY_RESEARCH_LEAD",
+  "new_numerical_experiments": 0,
+  "current_receiver_contract": "M0_SYNTHETIC_BEARING_THREE_TONE_WINDOW_DEMEANED_RELATIVE_LEVEL_ONLY; M1_ACTUAL_RECEIVER_PRODUCTS_UNKNOWN_NOT_FROZEN",
+  "current_receiver_contract_scope": "Frozen estimator interface and synthetic saved observations only; no current real receiver capability certification",
+  "measurement_levels": {
+    "M0": "CURRENTLY_SUPPORTED_FROZEN_ESTIMATOR_INPUTS_ONLY",
+    "M1": "PROPOSED_MEASUREMENT_CONTRACT; NO_CONFIRMED_CURRENT_RECEIVER_CAPABILITY",
+    "M2": "NOT_ADMISSIBLE_FOR_CURRENT_PASSIVE_SCOPE"
+  },
+  "M0_fields": [
+    "bearing_rad",
+    "relative_tl",
+    "times_s",
+    "case_or_panel_identifiers"
+  ],
+  "M0_frequencies_hz": [
+    201,
+    235,
+    283
+  ],
+  "M0_feature_sampling_is_acoustic_ADC_rate": false,
+  "current_receiver_capability_M1_items_confirmed": [],
+  "actual_receiver_audit": {
+    "saved_element_waveform": "UNKNOWN_NOT_FROZEN",
+    "saved_beam_waveform": "UNKNOWN_NOT_FROZEN",
+    "acoustic_sampling_rate": "UNKNOWN_NOT_FROZEN",
+    "element_synchronization": "UNKNOWN_NOT_FROZEN",
+    "amplitude_calibration": "UNKNOWN_NOT_FROZEN",
+    "phase_calibration": "UNKNOWN_NOT_FROZEN",
+    "physical_element_spacing_aperture": "UNKNOWN_NOT_FROZEN",
+    "actual_target_band_occupancy": "UNKNOWN_NOT_FROZEN",
+    "stable_line_detector": "UNKNOWN_NOT_FROZEN",
+    "independent_Doppler_track": "UNKNOWN_NOT_FROZEN",
+    "broadband_transient_detector": "UNKNOWN_NOT_FROZEN",
+    "saved_dense_spectrum": "UNKNOWN_NOT_FROZEN"
+  },
+  "CZ_ENVELOPE": {
+    "measurement_contract": "PROPOSED_CONTRACT",
+    "contract_status": "SPECIFICATION_FROZEN_AS_PROPOSAL_ONLY_NOT_CURRENT_RECEIVER_CAPABILITY",
+    "current_raw_product_availability": "UNKNOWN_NOT_FROZEN",
+    "research_lead_extension_accepted": false,
+    "raw_requirements_defined": true,
+    "required_product": "ASSOCIATED_MULTI_LINE_TIME_INTENSITY_OR_AUDITABLE_RELATIVE_LEVEL_PLUS_METADATA",
+    "requires_new_receiver_product_or_verified_existing_product": true,
+    "requires_source_cooperation": false,
+    "requires_known_waveform": false,
+    "requires_absolute_source_phase": false,
+    "requires_known_source_spectrum": false,
+    "requires_known_emitted_carrier": false,
+    "requires_raw_element_waveform_for_R2_consumer": false,
+    "upstream_beam_relative_channel_calibration_required_if_beamformed": true,
+    "G2_closed": false,
+    "logical_Gates": {
+      "G2-1": {
+        "structurally_satisfied": false,
+        "status": "RAW_PRODUCT_CURRENTLY_UNKNOWN; PROPOSAL_DEFINED_BUT_EXTENSION_NOT_ACCEPTED"
+      },
+      "G2-2": {
+        "structurally_satisfied": true,
+        "status": "PASSIVE_NO_KNOWN_WAVEFORM_SOURCE_PHASE_OR_COOPERATION_REQUIRED"
+      },
+      "G2-3": {
+        "structurally_satisfied": true,
+        "status": "CONDITIONALLY_PHYSICALLY_PLAUSIBLE; REAL_UUV_SIGNAL_NOT_VERIFIED"
+      },
+      "G2-4": {
+        "structurally_satisfied": true,
+        "status": "EXPLICIT_SOURCE_LEVEL_SPECTRUM_GAIN_DEPTH_ENVIRONMENT_NUISANCE_MODEL_ROLES"
+      },
+      "G2-5": {
+        "structurally_satisfied": true,
+        "status": "CONDITIONAL_ABSOLUTE_CZ_REGION_EDGE_MAXIMUM_SCALE; NOT_NUMERICALLY_ESTABLISHED"
+      },
+      "G2-6": {
+        "structurally_satisfied": true,
+        "status": "FALSIFIABLE_COARSE_RANGE_HYPOTHESIS; NO_NUMERIC_THRESHOLDS_OR_TEST_RUN"
+      }
+    },
+    "quantitative_design_admitted": false,
+    "nuisance_variables": [
+      "per_frequency_source_level_and_time_drift",
+      "source_spectral_trend",
+      "receiver_and_beam_gain",
+      "source_depth",
+      "receiver_depth_uncertainty",
+      "SSP_sea_depth_bottom_uncertainty",
+      "target_motion"
+    ],
+    "actual_signal_conditions_evidence": "UNKNOWN; CONDITIONAL_PLAUSIBILITY_NOT_VERIFIED",
+    "candidate_family_id": "CZ_ENVELOPE",
+    "minimum_data_variant": "B_PLUS_C_MULTI_LINE_TEMPORAL_INTENSITY; DENSE_PSD_OPTIONAL",
+    "M0_proxy_available": true,
+    "M0_representation_requires_receiver_extension": false,
+    "extension_scope": "Actual measured product, gain/noise/normalization provenance; not extra sensor or claim that M0 cannot express a temporal shape",
+    "source_offset_algebra": "Same-frequency temporal centering cancels static arbitrary per-line offsets, not arbitrary time-varying S(f,t) or cross-frequency absolute spectrum",
+    "possible_failures": [
+      "only_first_CZ_RC1_band",
+      "short_window_flat_or_no_event",
+      "nuisance_absorbs_range_dependence",
+      "smoothing_removes_coarse_event",
+      "depth_environment_motion_alias_retains_full_coarse_support"
+    ]
+  },
+  "INTERFERENCE_FRINGE": {
+    "measurement_contract": "PROPOSED_CONTRACT",
+    "contract_status": "SPECIFICATION_FROZEN_AS_PROPOSAL_ONLY_NOT_CURRENT_RECEIVER_CAPABILITY",
+    "current_raw_product_availability": "UNKNOWN_NOT_FROZEN",
+    "research_lead_extension_accepted": false,
+    "raw_requirements_defined": true,
+    "required_product": "TARGET_BEARING_DENSE_INTENSITY_SPECTROGRAM_WITH_ADEQUATE_TRUE_SOURCE_OCCUPANCY_AND_METADATA",
+    "requires_new_receiver_product_or_verified_existing_product": true,
+    "requires_source_cooperation": false,
+    "requires_known_waveform": false,
+    "requires_absolute_source_phase": false,
+    "requires_known_source_spectrum": false,
+    "requires_known_emitted_carrier": false,
+    "requires_raw_element_waveform_for_R2_consumer": false,
+    "upstream_beam_relative_channel_calibration_required_if_beamformed": true,
+    "G2_closed": false,
+    "logical_Gates": {
+      "G2-1": {
+        "structurally_satisfied": false,
+        "status": "RAW_PRODUCT_CURRENTLY_UNKNOWN; PROPOSAL_DEFINED_BUT_EXTENSION_NOT_ACCEPTED"
+      },
+      "G2-2": {
+        "structurally_satisfied": true,
+        "status": "PASSIVE_NO_KNOWN_WAVEFORM_SOURCE_PHASE_OR_COOPERATION_REQUIRED"
+      },
+      "G2-3": {
+        "structurally_satisfied": true,
+        "status": "CONDITIONALLY_PHYSICALLY_PLAUSIBLE; REAL_UUV_SIGNAL_NOT_VERIFIED"
+      },
+      "G2-4": {
+        "structurally_satisfied": true,
+        "status": "EXPLICIT_SOURCE_LEVEL_SPECTRUM_GAIN_DEPTH_ENVIRONMENT_NUISANCE_MODEL_ROLES"
+      },
+      "G2-5": {
+        "structurally_satisfied": true,
+        "status": "CONDITIONAL_PHYSICAL_SCALE_FROM_SPACING_CURVATURE_AND_JOINT_FEATURE; SLOPE_ALONE_NOT_ABSOLUTE_RANGE"
+      },
+      "G2-6": {
+        "structurally_satisfied": true,
+        "status": "FALSIFIABLE_COARSE_RANGE_HYPOTHESIS; NO_NUMERIC_THRESHOLDS_OR_TEST_RUN"
+      }
+    },
+    "quantitative_design_admitted": false,
+    "nuisance_variables": [
+      "per_frequency_source_level_and_time_drift",
+      "source_spectral_trend",
+      "receiver_and_beam_gain",
+      "source_depth",
+      "receiver_depth_uncertainty",
+      "SSP_sea_depth_bottom_uncertainty",
+      "target_motion"
+    ],
+    "actual_signal_conditions_evidence": "UNKNOWN; CONDITIONAL_PLAUSIBILITY_NOT_VERIFIED",
+    "candidate_family_id": "INTERFERENCE_FRINGE",
+    "minimum_data_variant": "DENSE_ADEQUATELY_SAMPLED_INTENSITY_OVER_FREQUENCY_AND_TIME",
+    "current_three_tones_dense": false,
+    "receiver_bins_cannot_create_source_band_occupancy": true,
+    "processing_categories_only": [
+      "frequency_high_pass",
+      "local_detrending",
+      "normalized_spectral_derivative",
+      "two_dimensional_time_frequency_slope",
+      "cepstral_or_autocorrelation_like_periodicity"
+    ],
+    "joint_variables": [
+      "initial_range",
+      "target_velocity_heading",
+      "range_rate_derived_from_joint_motion",
+      "source_depth",
+      "receiver_depth_uncertainty",
+      "environment_or_beta_like_structure",
+      "fringe_family_and_order",
+      "source_and_receiver_trend"
+    ],
+    "possible_failures": [
+      "no_usable_striation_or_occupancy",
+      "source_comb_misidentified_as_propagation",
+      "only_unknown_beta_range_rate_over_range_combination",
+      "range_ambiguity_covers_entire_RC1",
+      "oracle_motion_coordinate_required"
+    ]
+  },
+  "MULTIPATH_TDOA": "CONDITIONAL_SIGNAL_DEPENDENT; BROADBAND_TRANSIENT_OR_AUTOCORRELATION_RICH_CONTENT_AND_STABLE_OBSERVABLE_LAG_REQUIRED; NO_KNOWN_WAVEFORM_NECESSARILY; NO_REOPENING",
+  "ORDERED_DIFFERENTIAL_FREQUENCY": "CONDITIONAL_SIGNAL_DEPENDENT; M0_REPRESENTATION_EXPRESSIBLE; REAL_STABLE_COMPONENTS_AND_SOURCE_SPECTRUM_NUISANCE_REQUIRED; NOT_SOURCE_INVARIANT_AUTOMATICALLY",
+  "DOPPLER": "CONDITIONAL_SIGNAL_DEPENDENT; RECEIVED_FREQUENCY_TRACK_AND_UNKNOWN_F0_DRIFT_MODEL; TEMPORAL_REFERENCE_OR_COMMON_FRACTIONAL_CHANGE_OR_CONSTRAINED_DRIFT; AUXILIARY_ONLY",
+  "ARRAY_SPATIAL": "PROPOSED_CONTRACT_FOR_BEARING_SPATIAL_COHERENCE_AUXILIARY_IF_RAW_COMPLEX_DATA; CURRENT_RANGE_ANCHOR_VARIANT_REJECTED",
+  "measurement_contract_extension_required": true,
+  "measurement_contract_extension_scope": "Actual auditable receiving spectral products and metadata; no additional platform/sensor, transmitter cooperation or source-oracle prior. M0 temporal-proxy representation alone need not add a receiver output.",
+  "required_new_receiver_outputs": [
+    "TARGET_BEARING_ASSOCIATED_MULTI_LINE_RECEIVED_POWER_OR_LEVEL_TIME_SERIES",
+    "RECEIVED_LINE_FREQUENCY_IDENTITIES_AND_TIME_AXIS",
+    "NORMALIZATION_METADATA_OR_PRE_NORMALIZATION_LEVEL_FOR_AUDIT",
+    "TARGET_BEARING_DENSE_INTENSITY_SPECTROGRAM_WITH_TIME_FREQUENCY_AXES_FOR_FRINGE",
+    "RELATIVE_RESPONSE_GAIN_AGC_BEAM_STATE_AND_PROCESSING_METADATA",
+    "NOISE_UNCERTAINTY_OCCUPANCY_GAPS_AND_TRACK_QUALITY_METADATA",
+    "TIME_ALIGNED_PLATFORM_NAVIGATION_ARRAY_STATE_AND_ENVIRONMENT_PROVENANCE"
+  ],
+  "required_UUV_signal_conditions": [
+    "ASSOCIATABLE_MULTIPLE_STABLE_COMPONENTS_FOR_SELECTED_CZ_LINE_TIME_CONTRACT",
+    "STABLE_OR_CONSTRAINED_PER_LINE_SOURCE_LEVEL_DRIFT_OVER_OBSERVATION",
+    "ADEQUATE_ACTUAL_SPECTRAL_OCCUPANCY_FOR_DENSE_FRINGE_NOT_ONLY_THREE_TONES",
+    "SOURCE_SPECTRAL_TREND_SEPARABLE_FROM_PROPAGATION_STRUCTURE",
+    "TEMPORAL_CONTINUITY_AND_TARGET_BEARING_SIGNAL_ISOLATION",
+    "COARSE_FEATURE_VARIATION_PRESENT_WITHIN_ALLOWED_SHORT_WINDOW"
+  ],
+  "requires_known_waveform": false,
+  "requires_absolute_source_phase": false,
+  "requires_source_cooperation": false,
+  "requires_known_source_spectrum": false,
+  "requires_known_emitted_carrier": false,
+  "raw_element_waveform_mandatory_for_contract_A_or_B_consumer": false,
+  "source_spectrum_nuisance_is_arbitrary_free_function": false,
+  "Gate2_decision": "R2_REQUIRES_MEASUREMENT_CONTRACT_EXTENSION",
+  "outcome_class": "B",
+  "candidate_admitted_for_quantitative_design": false,
+  "admitted_candidates": [],
+  "recommended_next_stage": "R2_MEASUREMENT_CONTRACT_EXTENSION_DECISION",
+  "recommended_next_stage_scope": "RESEARCH_LEAD_DECISION_ON_PROPOSED_OUTPUTS_AND_SIGNAL_CONDITIONS_OR_REQUEST_FOR_CONCRETE_SYSTEM_EVIDENCE; NO_AUTOMATIC_QUANTITATIVE_DESIGN_EXPERIMENT_OR_IMPLEMENTATION",
+  "no_numerical_performance_required_for_structural_contract_assessment": true,
+  "gate_boolean_scope": "True means conditional structural contract reasoning only, not current capability, target signal verification, performance PASS or experiment authorization. G2-1 false because writing a proposal is not research-lead acceptance of an output extension.",
+  "new_numerical_thresholds_defined": false,
+  "new_processing_or_estimators_implemented": false,
+  "new_external_literature_added": false,
+  "existing_literature_scope": "Gate1 locked originals reused only for signal/observable/geometry requirements; no paper performance imported",
+  "contracts_frozen_as": "PROPOSED_SPECIFICATIONS_ONLY; RECEIVER_CAPABILITIES_NOT_ENLARGED",
+  "R1_cold_start": "NOT_ESTABLISHED",
+  "R1_tracking": "CONDITIONALLY_PLAUSIBLE_POST_ACQUISITION_ONLY",
+  "RC3_direct_TL_role": "LOCAL_CONDITIONAL_ANCHOR_ONLY",
+  "R4_progress_percent": 0,
+  "A2_depth_SSP_P5": "UNOPENED",
+  "A1_search_repair_chain": "CLOSED",
+  "historical_B1_single_depth_TDOA_and_constant_beta_limits": "UNCHANGED_NO_BRANCH_REOPENING",
+  "Gate2_review_status": "PENDING_RESEARCH_LEAD_REVIEW_NO_PROGRESS_CREDIT",
+  "frozen_R4_PROGRESS_json": "UNCHANGED_HISTORICAL_SNAPSHOT",
+  "storage": "CANONICAL_D_DRIVE_ONLY",
+  "created_date_Asia_Shanghai": "2026-10-04",
+  "stop_after_commit_push": true
+}

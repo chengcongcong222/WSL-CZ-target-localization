@@ -1,0 +1,523 @@
+{
+  "stage": "R4_ROUTE_REDESIGN_GATE_2_MEASUREMENT_CHAIN_AND_SIGNAL_CONDITION_SPECIFICATION",
+  "accepted_parent_gate1_commit": "9e50b0d949523c85fb35c1168ff77c37ddf37aeb",
+  "validation_status": "PASS",
+  "validation_scope": "Source identity, documentation and management consistency only; not a scientific Gate PASS or actual receiver capability certificate.",
+  "method": "Standard-library hashes and Git blob checks; original project DOCX/XML text review and read-only NPZ/NPY headers; saved JSON/CSV and UTF8/link checks. No science modules imported; no waveform/PSD/STFT/feature extraction, detector/estimator, simulation, Monte Carlo, propagation, synthetic signal, optimizer or new panel executed.",
+  "new_numerical_experiments": 0,
+  "new_numerical_thresholds_defined": false,
+  "new_estimators_or_processing_implemented": false,
+  "protected_preexisting_file_count": 7174,
+  "protected_preexisting_bytes": 2054272673,
+  "protected_files_changed": [],
+  "protected_before_after_inventory_sha256": "01029b58446f2146f834052e8dbdc1d1cb01ff772e3fae0e9c6c98f356f1ee52",
+  "accepted_Gate0_artifacts": 7,
+  "accepted_Gate1_artifacts": 8,
+  "accepted_closeout_artifacts": 6,
+  "accepted_parent_artifact_bindings": {
+    "results/R4_ROUTE_REDESIGN_GATE_0/COLD_START_INFORMATION_SOURCE_MATRIX.csv": {
+      "raw_sha256": "7165f13bc3203cab18809349a0d42293ebf46edbbf56e50900431c0fba195378",
+      "canonical_git_blob_oid": "78526dd46df18312d899e27c7f8e8a5db0c95ce9"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/GPT_SYNC.md": {
+      "raw_sha256": "7da72423ea5619c0ff4a087eb6b95581f8450600fc6a5451e395f77d0dac275a",
+      "canonical_git_blob_oid": "8ca546d429b50aa2cb67fc827c3d3448663eeac1"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/R1_ACQUISITION_VS_TRACKING.md": {
+      "raw_sha256": "0a317cd1523fa08aa31b6fe1cf5351ba698a87320a62f88e0290c8917aca76eb",
+      "canonical_git_blob_oid": "3743795323ec4a5c28afe3fcaf4dc19c34af17de"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/R1_CIRCULAR_DEPENDENCY_AUDIT.md": {
+      "raw_sha256": "42b732a3029726b822ac50c976619de254c4eaf85fbfe2a6d20a47fddb8298ac",
+      "canonical_git_blob_oid": "15f894d3cfeb2da77e643d1ba8e5555e3d8980b2"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/R1_GATE0_DECISION.json": {
+      "raw_sha256": "f4b3ede5035ad506ce7174bf53f4daf3312c5d3bcd64de3772337c67cb5def11",
+      "canonical_git_blob_oid": "4b83f37b315c99d41968696a3d047c8026e56c07"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/ROUTE_REDESIGN_GATE0_REPORT.md": {
+      "raw_sha256": "6d82ba2259ecacacd7dd81b5f161c9377e24e6541d8c0505a48a10d98d55e206",
+      "canonical_git_blob_oid": "583491ac2916eaf03bcf3f660d9efee129f7bc7d"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/VALIDATION.json": {
+      "raw_sha256": "6aaa7e3e5e6ea856cf4606b562af0e6ab5429783d78b09d6271c7b393698054b",
+      "canonical_git_blob_oid": "ee0ab11a0ca153f9b712c1571d1f2543cb7693f8"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/A1_CLOSEOUT_REPORT.md": {
+      "raw_sha256": "44c21d0230157c54cb75af1df891167503421577b3fa7f058e6b16ff54472196",
+      "canonical_git_blob_oid": "dbde29318a4254da20b05b87d8ec4a7702c9210b"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/A1_EVIDENCE_CHAIN.md": {
+      "raw_sha256": "e904ad82bd18cc664e5a577b768ee55f7cffaadbc16366c100fae69108331d61",
+      "canonical_git_blob_oid": "2af9b5d729a428412ffeef01752a50db04af6918"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/CLOSEOUT_VALIDATION.json": {
+      "raw_sha256": "54327cd838a1f2237520182ca84a0d2cd26a7525b28d335fdf3e3426bcdf7720",
+      "canonical_git_blob_oid": "98a15e0875cf020db057c16f998db862d2427ad7"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/GPT_SYNC.md": {
+      "raw_sha256": "3d12ab936e64dd9e2b4952703735745aac4aff5dfd1056860ec1f8d003ccbbf6",
+      "canonical_git_blob_oid": "d9c8a1174cc40006e47fc36675f5a754684e5cc1"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/R4_A1_CLOSEOUT_DECISION.json": {
+      "raw_sha256": "f91d3a00bbd6e43f472334eadae1f831f8fe791f48ceb4241ab649530818e481",
+      "canonical_git_blob_oid": "85ba7d2b73b9c8f354f1c4588beee3c0a552260e"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/R4_ROUTE_DECISION.md": {
+      "raw_sha256": "27c5f385428236f05ba823f9daa6dac095f53343ddd10caa76ddbdc1c91716f8",
+      "canonical_git_blob_oid": "e7ad621d347a27a3d1eac5a1120cccdb63d96e67"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/GPT_SYNC.md": {
+      "raw_sha256": "3529732e2a0c424274b2ce5565172703d64ead55807aa4ee922cb01ab6765d23",
+      "canonical_git_blob_oid": "cd74f17a73ad0b00ae13735936395768fae2ec5e"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_CANDIDATE_RANKING.md": {
+      "raw_sha256": "da16daff1053f2abd12f8fc922dac8d671434f1eaa3fb2d1e0802c5e2a47c2df",
+      "canonical_git_blob_oid": "812c78550099fbe9a35d13e89b8f411b591b0c20"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_GATE1_DECISION.json": {
+      "raw_sha256": "8bbbee53e6361291487f4ebce817496cf0131fd2c68133689fb692ec2b2feafd",
+      "canonical_git_blob_oid": "8584f40180be813f676c67da956f1e3992cb396a"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_LITERATURE_TRANSFERABILITY.md": {
+      "raw_sha256": "8d8fba68bc41418e8930b9a879052b1ea4e45e57807c4ec24cad2b04e4bd49a6",
+      "canonical_git_blob_oid": "1dc011178d5419ce6eb77c4c483ae251fef3a6a7"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_MEASUREMENT_CHAIN_AUDIT.md": {
+      "raw_sha256": "fa55500b16297828232cd54be9e03067c85255a872fd892730516a0e1ca48143",
+      "canonical_git_blob_oid": "c72add97b77aff538974c8014a960aa5a80fa278"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_OBSERVABLE_ADMISSIBILITY_MATRIX.csv": {
+      "raw_sha256": "ffba482b003eaf046fbf7bf5536b6301b215f07d21afb30cb65a4dde1d1b2fa3",
+      "canonical_git_blob_oid": "63a02072aa7ada1b0a2f4dd5e9736e283d57821e"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/ROUTE_REDESIGN_GATE1_REPORT.md": {
+      "raw_sha256": "91ce6585e70a8eb48f67989736559f39d4d6534f7d7e37b36a67145595b80831",
+      "canonical_git_blob_oid": "68939061145830a10d5f782140a5db6fd8539fde"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/VALIDATION.json": {
+      "raw_sha256": "9b5e04aec26ef53447ec8bf8176ca265350dd01063c3d82bbb87a0c3a223da8e",
+      "canonical_git_blob_oid": "730cc554c9d90e4e86cfbe7a2923d4610eed2d56"
+    }
+  },
+  "historical_input_identities": {
+    "total": 2989,
+    "raw_sha256_matches": 2865,
+    "CRLF_LF_only_matches_with_canonical_sha256_and_git_oid": 124
+  },
+  "raw_freeze_binding_comparisons": 2796,
+  "unique_raw_bound_paths": 2747,
+  "raw_freeze_manifest_counts": {
+    "METHOD_FREEZE.json": 40,
+    "DEVELOPMENT_EXECUTION_FREEZE.json": 17,
+    "CHECKPOINT_EVIDENCE_FREEZE.json": 57,
+    "DEVELOPMENT_RESULTS_EVIDENCE_FREEZE.json": 2682
+  },
+  "previous_portable_text_bindings": {
+    "r4_a1_search_tractability_development_reconstruction.py": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "93c6f715d4d96277cd50ca957207988a4f8792aa231a03faf7e3619a11789a90",
+      "git_blob_oid": "314f396432f66267111e6e49542d2ac3b3137d11"
+    },
+    "r4_a1_search_tractability_development_report.py": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "0e3d9ff9abc9c8b70d31974ca4f8a8f59509879310c784537e74785e61c88b58",
+      "git_blob_oid": "873dcf3574f6be53fd37249fb64dad747eb099d9"
+    },
+    "results/R4_MASTER/R4_PROGRESS.json": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "8ac5629645d667693007aa7c5edbed479a6e327b7b627aec7b8abbd4385a7cac",
+      "git_blob_oid": "247e31e6f59c800a21538e805941c7adb00f814b"
+    },
+    "results/R4_MASTER/R4_PLAN.md": {
+      "verified_against": "ACCEPTED_PARENT_GIT_BLOB",
+      "canonical_lf_sha256": "85f56b2258b3c2e4326483a60c10b2b9fc2d0160c25e6005a8ac850960047fc5",
+      "git_blob_oid": "cc29286420d9fb37e5b95c8df90eaff9fc97ca48"
+    },
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv": {
+      "verified_against": "ACCEPTED_PARENT_GIT_BLOB",
+      "canonical_lf_sha256": "837b3cf51d4cf95fce6dfd0520223f315386c4aad224fb563ea83b4a4504c89e",
+      "git_blob_oid": "6fa52934b432d7827dbfcffd852c2f5d429f3f2f"
+    }
+  },
+  "portable_management_freeze_git_source_commit": "9cfa99c14bb80d08e6f16210ebf89fd9c541b850",
+  "external_project_bindings": [
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\AGENTS.md",
+      "sha256": "e5098da6af0a1754d09f710f6a81aa05092f15df594160426121d8fd98a1ebe7",
+      "bytes": 1942
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\PLANS.md",
+      "sha256": "1c5ecec47c22b3821d2133a7e82766026d008839d670b135e5db24e0464137a3",
+      "bytes": 2419
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\README.md",
+      "sha256": "8e197e0df8309812d7de305379ba9087f300222e79005262e121994c4f1d3d43",
+      "bytes": 1794
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\\u6df1\u6d77\u5355\u62d6\u66f3\u9635\u6f5c\u8247\u76ee\u6807\u72b6\u6001\u7ea6\u675f\u65b9\u6848_\u9636\u6bb5\u6027\u8ba8\u8bba\u7a3f_V0.2.docx",
+      "sha256": "6c628a57270dc9d13e196f424b8ec804924e4caeca18c3e91ccf05d2ad55a7fd",
+      "bytes": 45870
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\assumptions.md",
+      "sha256": "a7438876246c2f373328fde40bef83a600e2e1f46bd1afe6d02bb4de5499d4e8",
+      "bytes": 3943
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\decisions.md",
+      "sha256": "0dd13c2183e2f4efa85c0b5a0dfd4cc360784ce973c4e40048eefb2718fc010a",
+      "bytes": 3329
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\evidence_matrix.md",
+      "sha256": "ace8f0f0d4a09719c8c25195d8849500f07e8fd5a84635d54f99747bac7ca780",
+      "bytes": 22447
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\feature_catalog.md",
+      "sha256": "2982f1cbf27e8027ef2021dca202f3b049e4e0ae020aa46ac9d6c7cf030c4b59",
+      "bytes": 2238
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\literature_parameter_tables.md",
+      "sha256": "a27d11a26540e84fe6f4da4ab6f6985f7b0fb76b24b710a763af73fbeb3d25e5",
+      "bytes": 25672
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\measurement_models.md",
+      "sha256": "c85d5837dc14b3071e234ddc6141e5d3bd9c00e8492b03cdb8d5c7ce9ef4d438",
+      "bytes": 12120
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\observation_models.md",
+      "sha256": "08373b7b8c8d10d2ae177792430ddbefaf0a16de72c220994401caf633498b37",
+      "bytes": 2265
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\parameter_evidence_chains.md",
+      "sha256": "f2f4192298e5fd2929fba62943545c9746c0b0b63d8901afb07fcf7598b95151",
+      "bytes": 15761
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\project_context.md",
+      "sha256": "22d4bf2792f73714f00a7c942308d9d2dd8955c0493b94de347769a2b7d932e3",
+      "bytes": 1831
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\questions_for_client.md",
+      "sha256": "edad31b8c8a54eea167661e072507f6311902612212fbcb7e8aedaf08f562816",
+      "bytes": 2760
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\research_questions.md",
+      "sha256": "63200b7f899840a104c0385a16b22d86d133f969932b52f0208c746ace03a12c",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\status.md",
+      "sha256": "5d5735599a8393f05ffa01b07e9b42211da436b60674a3cb0254d8de6ea052a1",
+      "bytes": 6265
+    },
+    {
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\docs\\structural_identifiability.md",
+      "sha256": "ac5ba41c114b47f60a754daa7b470087106807a09041fb86752dabca77690e9a",
+      "bytes": 11128
+    }
+  ],
+  "external_project_evidence_scope": "Identity inventory includes AGENTS/README and docs. Scientific capability conclusions use original V0.2 discussion section 6, questions_for_client, project_context, observation_models, measurement_models and feature_catalog; proposed architecture is not a hardware acceptance record. No external project writes or Git actions.",
+  "reused_Gate1_primary_source_bindings": {
+    "L7": {
+      "id": "external-paper-0",
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\\u8bba\u6587\\\u8bba\u6587-\u58f0\u5b66\u5b66\u62a5-\u5f84\u5411\u8ddd\\\u5229\u7528\u6df1\u6d77\u6d77\u5e95\u58f0\u53cd\u5c04\u533a\u9891\u57df\u5e72\u6d89\u7ed3\u6784\u7684\u58f0\u6e90\u6df1\u5ea6\u4f30\u8ba1\u65b9\u6cd5_\u5f90\u5609\u7498.pdf",
+      "sha256": "af9b03a953bacdb7d1f33ea22dee4279964121b126fefe7c0851736c6211c522",
+      "pages": 12,
+      "header_valid": true,
+      "read_evidence": "Local original PDF text inspected during design audit; no propagation calculation."
+    },
+    "L1": {
+      "id": "external-paper-1",
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\\u8bba\u6587\\\u8bba\u6587-\u58f0\u5b66\u5b66\u62a5-\u5f84\u5411\u8ddd\\\u6df1\u6d77\u4f1a\u805a\u533a\u58f0\u573a\u591a\u9014\u65f6\u5ef6\u5dee\u5206\u6790\u53ca\u58f0\u6e90\u8ddd\u79bb\u4f30\u8ba1_\u5f90\u5609\u7498.pdf",
+      "sha256": "d18e0bd14c209618519f6695ff485f6e164fe0283932ec6d2d44a72bb29361e0",
+      "pages": 15,
+      "header_valid": true,
+      "read_evidence": "Local original PDF text inspected during design audit; no propagation calculation."
+    },
+    "L2": {
+      "id": "external-paper-2",
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\\u8bba\u6587\\\u8bba\u6587-\u58f0\u5b66\u5b66\u62a5-\u5f84\u5411\u8ddd\\\u6df1\u6d77\u6d77\u5e95\u58f0\u53cd\u5c04\u533a\u591a\u9014\u65f6\u5ef6\u5dee\u5206\u6790\u4e0e\u8fd1\u6d77\u9762\u58f0\u6e90\u5b9a\u4f4d.pdf",
+      "sha256": "7591224d27e8bee77ce45a0267f7392742768abb8338d29e975b04502a4d18fc",
+      "pages": 14,
+      "header_valid": true,
+      "read_evidence": "Local original PDF text inspected during design audit; no propagation calculation."
+    },
+    "L3": {
+      "id": "external-paper-3",
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\\u8bba\u6587\\\u8bba\u6587-\u58f0\u5b66\u5b66\u62a5-\u5f84\u5411\u8ddd\\\u6df1\u6d77\u79fb\u52a8\u6c34\u5e73\u9635\u58f0\u6e90\u88ab\u52a8\u5b9a\u4f4d\u65b9\u6cd5\u7814\u7a76\u8fdb\u5c55_\u5218\u4e0e\u6db5.pdf",
+      "sha256": "3b51f2c6052a72f105a65e65695c5bde7c9158841d9e916075bd06c6f5268fc5",
+      "pages": 19,
+      "header_valid": true,
+      "read_evidence": "Local original PDF text inspected during design audit; no propagation calculation."
+    },
+    "L4": {
+      "path": "literature/yang2015_Yang2015_JASA138_1678.pdf",
+      "sha256": "b34952ead13fdaabdf9f1e7d87728fc2cb72fd09497240aac20ebdfc47f4b5b4",
+      "header_valid": true,
+      "pages": 10
+    },
+    "L5": {
+      "path": "literature/liang2018_mmar_7824671.pdf",
+      "sha256": "9364914d34f5408f80065a31cd7fbcb5195c21047c97b2eb118348191b861834",
+      "header_valid": true,
+      "pages": 15
+    },
+    "L8": {
+      "path": "literature/2014.pdf",
+      "sha256": "bc389afbf9a77c562775bc4ab051b64b031e7ccbb606f633fb6b1f9059c2e01b",
+      "header_valid": true,
+      "pages": 13
+    },
+    "L6": {
+      "title": "Cockrell & Schmidt 2010; JASA 127:2780-2789",
+      "doi": "10.1121/1.3337223",
+      "primary_URL": "https://acoustics.mit.edu/faculty/henrik/LAMSS/Pubs/cockrell_schmidt_jasa_127_p2780-2789_2010.pdf",
+      "accessed_date_Asia_Shanghai": "2026-10-04",
+      "read_evidence": "Author institution primary PDF via browser; broadband intensity and horizontal sampling assumptions inspected. No local PDF download; no claimed local byte hash."
+    }
+  },
+  "new_external_literature_added": false,
+  "literature_usage_scope": "Previously read and locked original requirements for observable/signal/geometry only; no paper performance substituted for current Gate.",
+  "read_only_archive_headers": {
+    "results/R4_A1_OFFGRID_BEARING_BOUNDARY/PILOT_OBSERVATIONS.npz": {
+      "case_ids": {
+        "descr": "<U19",
+        "fortran_order": false,
+        "shape": [
+          27
+        ]
+      },
+      "bearing_rad": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          27,
+          121
+        ]
+      },
+      "panel_ids": {
+        "descr": "<U3",
+        "fortran_order": false,
+        "shape": [
+          9
+        ]
+      },
+      "relative_tl": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          9,
+          3,
+          121
+        ]
+      },
+      "times_s": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          121
+        ]
+      }
+    },
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/CASE_OBSERVATIONS.npz": {
+      "case_ids": {
+        "descr": "<U19",
+        "fortran_order": false,
+        "shape": [
+          36
+        ]
+      },
+      "bearing_rad": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          36,
+          121
+        ]
+      },
+      "relative_tl": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          36,
+          3,
+          121
+        ]
+      },
+      "times_s": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          121
+        ]
+      }
+    }
+  },
+  "M0_archive_is_real_receiver_evidence": false,
+  "M0_feature_time_step_is_acoustic_sampling_rate": false,
+  "historical_R4_PROGRESS_json_preserved": true,
+  "management_weights_unchanged": true,
+  "plan_old_bytes_preserved_as_exact_prefix": true,
+  "ledger_rows_preserved": 21,
+  "ledger_rows_appended": 4,
+  "all_credited_weights_zero": true,
+  "existing_files_authorized_to_change": [
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+    "results/R4_MASTER/R4_PLAN.md"
+  ],
+  "new_artifacts_authorized": [
+    "CURRENT_RECEIVER_CHAIN_AUDIT.md",
+    "CZ_ENVELOPE_MEASUREMENT_CONTRACT.md",
+    "GPT_SYNC.md",
+    "INTERFERENCE_FRINGE_MEASUREMENT_CONTRACT.md",
+    "R2_GATE2_DECISION.json",
+    "R2_MEASUREMENT_CONTRACT_MATRIX.csv",
+    "R2_SIGNAL_CONDITION_MATRIX.csv",
+    "ROUTE_REDESIGN_GATE2_REPORT.md",
+    "VALIDATION.json"
+  ],
+  "contract_matrix_parent_families": 6,
+  "contract_matrix_excluded_M2_variants": 4,
+  "required_contract_columns": [
+    "Candidate",
+    "Required raw data",
+    "Current evidence available?",
+    "Requires new receiver output?",
+    "Requires source cooperation?",
+    "Required signal condition",
+    "Calibration need",
+    "Phase need",
+    "Source-spectrum nuisance",
+    "Cold-start admissible?",
+    "Status"
+  ],
+  "signal_matrix_conditions": 15,
+  "required_signal_columns": [
+    "condition",
+    "candidate_needing_it",
+    "physically_plausible_for_UUV",
+    "evidence_in_current_project",
+    "required_or_optional",
+    "if_absent_consequence",
+    "status"
+  ],
+  "repository_source_paths_verified": 14,
+  "Markdown_relative_links_verified": 48,
+  "decision_consistency": {
+    "Gate2_decision": "R2_REQUIRES_MEASUREMENT_CONTRACT_EXTENSION",
+    "outcome_class": "B",
+    "CZ_ENVELOPE": "PROPOSED_CONTRACT",
+    "INTERFERENCE_FRINGE": "PROPOSED_CONTRACT",
+    "measurement_contract_extension_required": true,
+    "candidate_admitted_for_quantitative_design": false,
+    "G2_1_closed": false,
+    "raw_extension_accepted_by_research_lead": false,
+    "known_waveform_required": false,
+    "absolute_source_phase_required": false,
+    "source_cooperation_required": false,
+    "current_M1_receiver_capabilities_confirmed": [],
+    "CZ_M0_temporal_proxy_preserved": true,
+    "raw_waveform_not_mandatory_for_spectral_product_consumer": true,
+    "upstream_relative_calibration_not_omitted": true,
+    "R4_progress_percent": 0,
+    "A2_depth_SSP_P5": "UNOPENED"
+  },
+  "source_bindings": {
+    "r4_a1_offgrid_bearing.py": "f137196aabbc6019b0fac523ea530535caa5445fc8d41eafe8d45b650a5ba4a8",
+    "r4_a1_search_tractability_development.py": "9ceb0b0b4e5aae9462e3d2999b3566921a58d0839550b0aa7676f3ee70632a34",
+    "results/P3_RC3_increment/P3_RC3_GPT_SYNC.md": "f08563c07002a14770e0b71c1dadba02fad5f3c8ca4c7acafcd4a202c5502efa",
+    "results/R3_A1_fidelity/HLA_MFP_COMPARE.csv": "c9581bdb703780ceeff95bb262ce995c75e326454a66866d50a6e8d487a40e95",
+    "results/R3_A1_fidelity/beta_eff_summary.csv": "db73c7b0e69993130662b47a62110facc6e31fcedd945932fac8f6954b2c0fba",
+    "results/R3_B1_MMAC_observability/R3_B1_FINAL_REPORT.md": "df982bfab598bccd11a9559be36b8085e3339c67801017ca4457278d9fab283c",
+    "results/R3_FINAL_CLOSEOUT/R3_FINAL_WORKING_ENVELOPE.md": "8ca248a005140ceeabe9caf71ecfc420504db57d8c936f91424c82df63fd8886",
+    "results/R3_RC3_REANCHOR/R3_RC3_LINE_INSTABILITY_BOUNDARY_FIX/R3_RC3_REANCHOR_5B_FIX_REPORT.md": "9f951b7fb11d2f61ac95404db2c5d2fc17f77d9ab962c6a6b87c133de18b4c36",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/CASE_OBSERVATIONS.npz": "d92493e6343d7a4305fc06c053d27e9aa8801a3e6cceea27295eaefe12a1b525",
+    "results/R4_A1_OFFGRID_BEARING_BOUNDARY/PILOT_OBSERVATIONS.npz": "08895910b0f0f2613c687508c0dc3c14676c619bf4366a65aff7c4e39854957b",
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_LITERATURE_TRANSFERABILITY.md": "8d8fba68bc41418e8930b9a879052b1ea4e45e57807c4ec24cad2b04e4bd49a6",
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_MEASUREMENT_CHAIN_AUDIT.md": "fa55500b16297828232cd54be9e03067c85255a872fd892730516a0e1ca48143",
+    "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/VALIDATION.json": "9b5e04aec26ef53447ec8bf8176ca265350dd01063c3d82bbb87a0c3a223da8e",
+    "results/RANGE_UB/CZ_TDOA_EARLY_LAG_AUTOCORR/RANGE_UB_1C_FIX2_DECISION.json": "7ff76b21f1e0c1d13b5d38d92f348f67ac67572d28e0d0154ddb9b08b359f0c6"
+  },
+  "new_artifact_bindings": {
+    "CURRENT_RECEIVER_CHAIN_AUDIT.md": {
+      "canonical_lf_sha256": "3cbdaf6f543ff51767f9fb3b536986ccb726b3eb35c17415b16b05b1be69edc5",
+      "canonical_git_blob_oid": "5c813c4673f7de28137f62f032df9bdec7f435b6",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "CZ_ENVELOPE_MEASUREMENT_CONTRACT.md": {
+      "canonical_lf_sha256": "3c009d87e330fae3136c2064f4216fbcf240d28d4d05c8dff1057334cb15e1d1",
+      "canonical_git_blob_oid": "7cc01fad4c1081104fad353867ffcbe0f1f576b4",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "GPT_SYNC.md": {
+      "canonical_lf_sha256": "3bee7bb15815b73f12a660fbbb5c0997e1ee35820165636cb5554b29c9e261b8",
+      "canonical_git_blob_oid": "96413424f4657a03d58dd1193785b0ae7ab03458",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "INTERFERENCE_FRINGE_MEASUREMENT_CONTRACT.md": {
+      "canonical_lf_sha256": "f85a825ec5062d04970997c2c0f48bb9d69def7b0f43eafbac6688f8366e7188",
+      "canonical_git_blob_oid": "110b611e6c6ee09e4eecce2eea7951a1efa4f4f6",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R2_GATE2_DECISION.json": {
+      "canonical_lf_sha256": "64e458596148fb2cd1c193a6ca4b2da5c483a0ef7258d637e77bea50f464ea35",
+      "canonical_git_blob_oid": "df661b66ea9f79b1ba27904f57b7f708181248d0",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R2_MEASUREMENT_CONTRACT_MATRIX.csv": {
+      "canonical_lf_sha256": "978ea82f74171f6bf6c62dfff0f6a2cf63581a0a03d2f2040eac6d2807707d18",
+      "canonical_git_blob_oid": "d042d3d9eec06219b44449ee1e77b719e2f3b61a",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R2_SIGNAL_CONDITION_MATRIX.csv": {
+      "canonical_lf_sha256": "b087ca4e13e123c269a833cec003a004289d37f7d8897dc3ea720af1ba286de9",
+      "canonical_git_blob_oid": "cf7b520303f2c6dc83807c91b526be414fdb9733",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "ROUTE_REDESIGN_GATE2_REPORT.md": {
+      "canonical_lf_sha256": "87315b3722a2b8018d9498b51cb7afc2d1d1d5a4f18a7d13e86f8cafdd95f334",
+      "canonical_git_blob_oid": "2c52f9f75b08585be6c0caa7d4cb396bdacebbba",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    }
+  },
+  "current_management_text_bindings": {
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv": {
+      "canonical_lf_sha256": "11be0e81b201d93b066ac071a2ef9db26b504dff83538cf433eb81497642b79a",
+      "canonical_git_blob_oid": "829c48c353e52ef23c0bfff188e9b12f8c19081e"
+    },
+    "results/R4_MASTER/R4_PLAN.md": {
+      "canonical_lf_sha256": "e8e8516981c63feb621d747bca5c2c898c141c67fb5e46b8904161d93b3761fa",
+      "canonical_git_blob_oid": "bd5e91b5bc066c855dfda907f8167030acbd0e15"
+    }
+  },
+  "binding_note": "VALIDATION.json is bound by enclosing Gate2 Git commit, not a self hash. Eight other artifacts and both append-only master texts are canonical-LF Git bound. Historical master freeze identities are checked at the frozen development commit; old manifests are never rewritten. D-drive local inventories/script bind all prior protected files and original project material. References outside repository are unchanged provenance, not delivered receiver data.",
+  "storage": "D:/ProjectStorage/WSL-CZ/gate2-20261004; canonical D project and D temp/cache only",
+  "check_groups": [
+    "7174 protected bytes",
+    "21 accepted stage artifacts",
+    "2796 raw freezes",
+    "2989 historical input identities",
+    "five prior portable identities",
+    "original project source identities",
+    "M0 archive headers only",
+    "six measurement families and excluded M2",
+    "15 signal conditions",
+    "two proposed contracts and conditional gates",
+    "source/prior/passive scopes",
+    "append-only master and zero credit",
+    "UTF8/links/change scope"
+  ],
+  "failed_checks": 0
+}
