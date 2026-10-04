@@ -1,0 +1,16 @@
+{
+  "research_lead_decision": "DEVELOPMENT_EXECUTION_HARNESS_FREEZE_ACCEPTED",
+  "parent_harness_commit": "c5c9ba2e1258e73486e62df26499e03cce204f27",
+  "development_released": true,
+  "fresh_confirmation_released": false,
+  "authorized_scope": "21 frozen sigma=0.1 development cases; SHGO and DIRECT; raw T1/T2/T3; all 21 inherited depth branches",
+  "budget_sha256": "40cd9c0b2cbc7a6fced83faf97009c25d652223bf7cbb77e7ebc6a981089672d",
+  "core_objective_sha256": "0890fd3c5df680a2d56e13d04709dfe727d09d3b44aabfe4b539cab21de92e2b",
+  "fresh_confirmation": "NOT_AUTHORIZED",
+  "runtime_release_rule": "Set d.DEVELOPMENT_RELEASED=True only inside the experiment process; frozen source flags and bytes unchanged",
+  "execution_workspace": "D:\\CodexExperiments\\WSL-CZ-tractability-20261004",
+  "storage_reason": "C drive full; D isolated copy has identical accepted source/manifest/data hashes",
+  "preflight_test_count": 74,
+  "instruction_attachment": "0beb44dd-956a-4719-93dd-2d2632b3bfc3",
+  "recorded_utc": "2026-10-04T07:25:05.123259+00:00"
+}
