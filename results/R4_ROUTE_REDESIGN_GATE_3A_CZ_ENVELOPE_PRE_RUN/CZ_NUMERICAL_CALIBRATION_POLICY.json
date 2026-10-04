@@ -1,0 +1,187 @@
+{
+  "stage": "R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN_FREEZE",
+  "parent_gate3_commit": "e56ba746ebe7370d1dee3d0a181bc348b5fecc5f",
+  "policy_version": 1,
+  "primary_representation": "WINDOW_SHAPE_Q2",
+  "sensitivity": "NONE",
+  "nuisance": "N0_STATIC_PER_LINE_PER_WINDOW_OFFSET",
+  "tier": "NOMINAL",
+  "development_observation_values_allowed": false,
+  "development_feature_search_runs": 0,
+  "fresh": "NOT_GENERATED",
+  "backend": {
+    "package": "python-flint",
+    "version": "0.9.0",
+    "enclosure_precision_bits": 160,
+    "reference_precision_bits": 256,
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.15.3",
+    "dependency_target": "D:/ProjectStorage/WSL-CZ/dependencies"
+  },
+  "fixture_generation_rule": "Fixed inherited domain corners only, generated from declared domain extents without reading any P/Q state or observation; no random optimization or recovered state. Analytic constant/linear/quadratic arrays for representation tests. Modal fixtures are numerical/API/runtime checks, not scientific acquisition cases.",
+  "fixed_states_r_km_theta_deg_v_mps_psi_deg": [
+    [
+      45,
+      -5,
+      1,
+      -15
+    ],
+    [
+      45,
+      5,
+      3,
+      15
+    ],
+    [
+      60,
+      -5,
+      3,
+      15
+    ],
+    [
+      60,
+      5,
+      1,
+      -15
+    ]
+  ],
+  "fixed_calibration_depth_labels_m": [
+    150,
+    200,
+    250
+  ],
+  "inherited_full_depth_profile_m": [
+    150,
+    155,
+    160,
+    165,
+    170,
+    175,
+    180,
+    185,
+    190,
+    195,
+    200,
+    205,
+    210,
+    215,
+    220,
+    225,
+    230,
+    235,
+    240,
+    245,
+    250
+  ],
+  "trajectory": "Inherited 121 times 0:10:1200 s and 2 m/s platform with 15 degree turn after 600 s. Navigation coordinates frozen binary64 metadata; candidate trig uses certified real pi.",
+  "analytic_tests": {
+    "times": [
+      0,
+      10,
+      1200
+    ],
+    "window_counts": [
+      61,
+      60
+    ],
+    "orders": [
+      0,
+      1,
+      2
+    ],
+    "offsets_line_window": [
+      [
+        0,
+        100
+      ],
+      [
+        -37,
+        19
+      ],
+      [
+        1.25,
+        -0.5
+      ]
+    ],
+    "toy": "convex scalar interval compatibility with analytically specified roots"
+  },
+  "comparison_rule": "For each of 4 states x 3 declared depths: binary64 modal level reconstruction twice; independent Arb160 and Arb256 real-model reconstruction; WINDOW_SHAPE_Q2 features. Measure sqrt(sum of 12 coefficient differences squared / 6). Also repeat analytic representation after declared static offsets. Maximum of all repeat/reconstruction/offset discrepancies is delta_num.",
+  "numerical_allowance": {
+    "units": "dB",
+    "claim": "Numerical/reconstruction compatibility only, no real acoustic noise claim; fixture calibration is not a uniform binary64 rounding proof. Whole-cell arithmetic itself is outward rounded Arb.",
+    "safety_factor": 64,
+    "minimum_floor_dB": 1e-07,
+    "tau_formula": "ceil(max(1e-7,64*delta_num)/1e-12)*1e-12",
+    "round_up_quantum_dB": 1e-12,
+    "maximum_allowed_delta_num_dB": 1e-06,
+    "nonfinite_or_excess_discrepancy": "CZ_ENVELOPE_PRE_RUN_IMPLEMENTATION_INVALID; stop, no formula retuning"
+  },
+  "runtime_calibration": {
+    "fixture": "one full-domain bearing enclosure and all 21 depth-profile feature enclosures using first declared corner observation; additionally a tiny symmetric corner-adjacent cell. Runtime is diagnostic only; no contraction or recovery calibration.",
+    "cell_cost_seconds": "max elapsed full-cell and tiny-cell certificate calls including all 21 profiles, minimum denominator 1e-3 s",
+    "coarse_runtime_envelope_seconds": 60,
+    "fine_runtime_envelope_seconds": 120,
+    "safety_time_fraction": 0.8,
+    "cell_cap_formula": "max(1,min(structural_ceiling,floor(0.8*runtime_envelope_seconds/cell_cost_seconds)))",
+    "structural_cell_ceiling": {
+      "COARSE": 256,
+      "FINE": 512
+    },
+    "B0_policy": "same per-resolution cell request cap as CZ; no larger baseline budget selected from outcomes"
+  },
+  "grid_rule": {
+    "COARSE_terminal_max_widths": [
+      0.25,
+      0.625,
+      0.125,
+      1.875
+    ],
+    "FINE_terminal_max_widths": [
+      0.125,
+      0.3125,
+      0.0625,
+      0.9375
+    ],
+    "units": [
+      "km",
+      "deg",
+      "m/s",
+      "deg"
+    ],
+    "basis": "domain-relative dyadic partitions; range width 0.25 km is half nominal endpoint stability tolerance, fine halves all axes. Not based on P/Q results.",
+    "axis_tie_order": [
+      "r",
+      "theta",
+      "v",
+      "psi"
+    ],
+    "split": "largest width / terminal maximum ratio; midpoint binary split"
+  },
+  "non_development_cell_bound_tests": {
+    "root": [
+      [
+        45,
+        -5,
+        1,
+        -15
+      ],
+      [
+        60,
+        5,
+        3,
+        15
+      ]
+    ],
+    "tiny_width_each_axis": 1e-12,
+    "containment_points": "fixed root corners plus tiny-cell endpoint/midpoint; test containment only, never a rejection certificate"
+  },
+  "input_sha256": {
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_CASE_MANIFEST.csv": "6030fb3aa041ba23d4b665d3abb81b0ab73367cfcd66e1d3c93f22b6504d0c46",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/CASE_OBSERVATIONS.npz": "d92493e6343d7a4305fc06c053d27e9aa8801a3e6cceea27295eaefe12a1b525",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f201.mod": "e05c5ee06dcec6446f81522b8b074e71e31c44e7beda8287163e89fa095ac628",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f235.mod": "187c3e9380fb9d7fc073e5e3cc97e6580fb574b2e43ef055366d3521a9ec15f6",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f283.mod": "5d72a736ddae45bb3fbfd15514f9fb8f6b5e89e16feb598898ee3b64e4f199b2"
+  },
+  "ordering": "This file must be committed and pushed before any analytic unit fixture, modal numeric/API calibration, dependency runtime probe or tests. Immutable thereafter.",
+  "stop": "PRE-RUN only. No development release, no fresh, no N1, no optimizer change, R4=0%, A2/depth/SSP/P5 unopened."
+}
