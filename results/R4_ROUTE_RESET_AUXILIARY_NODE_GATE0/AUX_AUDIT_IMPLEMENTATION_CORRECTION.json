@@ -1,0 +1,22 @@
+{
+  "type": "AUDIT_HASH_FUNCTION_NAME_CORRECTION",
+  "design_sha": "1eb535fca52077e628777e7a9ab63e218f0d551f",
+  "original_audit_source": "r4_aux_gate0_audit.py",
+  "original_sha256": "0232b2d3f7f14198a860b319838412ef13fda7fddbd9481610bda8e23ab27986",
+  "corrected_audit_source": "r4_aux_gate0_audit_corrected.py",
+  "corrected_sha256": "c831a7cf3b670744afa74b2d063ee9f4eb6a8106503572f7bd1f1965d58e8fa2",
+  "only_source_change": [
+    "hashlib.sha240 -> hashlib.sha256",
+    "policy_sha240 -> policy_sha256"
+  ],
+  "frozen_original_preserved": true,
+  "policy_changed": false,
+  "primary_execution_rerun": false,
+  "score_or_geometry_changed": false,
+  "reason": "Precommit global count-label edit accidentally changed SHA256 function name; failure occurred before any audit calculation or presentation writes",
+  "failed_audit_attempts": 2,
+  "failure_details": [
+    "Original failed at first hash function check",
+    "First correction passed numerical checks but failed at policy hash field lookup; no report/result changes"
+  ]
+}

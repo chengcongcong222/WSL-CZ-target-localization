@@ -191,3 +191,8 @@ JOINT_RVZ_PROFILE_ROUTE_NOT_SUPPORTED_BY_EXISTING_EVIDENCE; CURRENT_CONDITIONAL_
 Parent6b8d57ef6082f24720c9ece654b9cd710a687e13 accepted negative B1B; current conditional-depth engineering route CLOSED. Single-array cold-start acquisition NOT ESTABLISHED, CZ certified global route CLOSED; exact-horizontal depth mechanism RETAINED_AS_ORACLE_EVIDENCE. Five-parameter target supported=false. R4 original A/B sequence PAUSED_PENDING_ARCHITECTURE_RESET; R4=0%, B1=0/10%. Mature continuous bearing information retained.
 
 R4_ROUTE_RESET_AUXILIARY_NODE_GATE0 authorized: saved evidence closeout plus one mobile passive node known position/directed bearing geometry only. [Design freeze](../R4_ROUTE_RESET_AUXILIARY_NODE_GATE0/AUX_GATE0_DESIGN_FREEZE.json). All original range/baseline/crossing/noise cells retained; physical triangle feasibility explicit; both roots/mirrors; fixed20000 trials seed2026100501. Design commit/push/remote verification before any geometry run. No propagation/depth/optimizer/tracker/TDOA; no automatic new R4-A1/depth release. A2/A3/A4/B2/B3/B4/C paused/not opened, P5not opened. Execute once, commit/push/verify then stop. R4_PROGRESS.json unchanged.
+
+
+## Auxiliary-node geometry Gate0 execution
+
+AUXILIARY_NODE_GEOMETRY_CONDITIONALLY_PRACTICAL; PENDING_RESEARCH_LEAD_AUDIT. Known-position paired-directed-bearing geometry only. Physically impossible grid cells retained as infeasible. [Report](../R4_ROUTE_RESET_AUXILIARY_NODE_GATE0/AUX_GATE0_REPORT.md). R4=0%; no automatic architecture, motion or depth restart. Commit/push/verify then stop.

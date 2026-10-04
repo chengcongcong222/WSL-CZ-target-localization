@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "independent_checks": 33611,
+  "failed": 0,
+  "new_acoustic_propagation": 0,
+  "new_depth_scores": 0,
+  "feasible_cells": 240,
+  "total_cells": 1920,
+  "trials_per_feasible_cell": 20000,
+  "tests": "SEE_AUX_TESTS_XML",
+  "independent_method": "Slope intersection and closed-form covariance; raw frozen Gaussian draws",
+  "tests_passed": 10,
+  "tests_failed": 0,
+  "supplementary_checks": 235,
+  "historical_tracked_files_unchanged": 6420,
+  "primary_evaluation_runs": 1,
+  "total_geometry_noise_trials": 4800000,
+  "audit_infrastructure_correction": "TWO_SHA_IDENTIFIERS_ONLY; ORIGINAL_SOURCE_PRESERVED",
+  "primary_rerun": false
+}

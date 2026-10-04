@@ -1,0 +1,236 @@
+check,passed
+0.5best_registered_feasible_region,True
+0.5best_full_50_60km_region,True
+1best_registered_feasible_region,True
+1best_full_50_60km_region,True
+best_registered_feasible_regionbaseline_km2,True
+best_registered_feasible_regionalpha_deg2,True
+best_registered_feasible_regionsigma_deg2,True
+best_registered_feasible_regionn_feasible_cells2,True
+best_registered_feasible_regionfeasible_ranges_km2,True
+best_registered_feasible_regionall_three_ranges_feasible2,True
+best_registered_feasible_regionworst_feasible_p95_relative_range2,True
+best_registered_feasible_regionworst_failure_rate2,True
+best_registered_feasible_regionall_feasible_cells_strong2,True
+best_registered_feasible_regionall_feasible_cells_usable2,True
+best_registered_feasible_regionall_feasible_cells_project_level2,True
+best_registered_feasible_regionfull_range_usable2,True
+best_registered_feasible_regionfull_range_project_level2,True
+2best_full_50_60km_region,True
+best_registered_feasible_regionbaseline_km5,True
+best_registered_feasible_regionalpha_deg5,True
+best_registered_feasible_regionsigma_deg5,True
+best_registered_feasible_regionn_feasible_cells5,True
+best_registered_feasible_regionfeasible_ranges_km5,True
+best_registered_feasible_regionall_three_ranges_feasible5,True
+best_registered_feasible_regionworst_feasible_p95_relative_range5,True
+best_registered_feasible_regionworst_failure_rate5,True
+best_registered_feasible_regionall_feasible_cells_strong5,True
+best_registered_feasible_regionall_feasible_cells_usable5,True
+best_registered_feasible_regionall_feasible_cells_project_level5,True
+best_registered_feasible_regionfull_range_usable5,True
+best_registered_feasible_regionfull_range_project_level5,True
+best_full_50_60km_regionbaseline_km5,True
+best_full_50_60km_regionalpha_deg5,True
+best_full_50_60km_regionsigma_deg5,True
+best_full_50_60km_regionn_feasible_cells5,True
+best_full_50_60km_regionfeasible_ranges_km5,True
+best_full_50_60km_regionall_three_ranges_feasible5,True
+best_full_50_60km_regionworst_feasible_p95_relative_range5,True
+best_full_50_60km_regionworst_failure_rate5,True
+best_full_50_60km_regionall_feasible_cells_strong5,True
+best_full_50_60km_regionall_feasible_cells_usable5,True
+best_full_50_60km_regionall_feasible_cells_project_level5,True
+best_full_50_60km_regionfull_range_usable5,True
+best_full_50_60km_regionfull_range_project_level5,True
+best_registered_feasible_regionbaseline_km10,True
+best_registered_feasible_regionalpha_deg10,True
+best_registered_feasible_regionsigma_deg10,True
+best_registered_feasible_regionn_feasible_cells10,True
+best_registered_feasible_regionfeasible_ranges_km10,True
+best_registered_feasible_regionall_three_ranges_feasible10,True
+best_registered_feasible_regionworst_feasible_p95_relative_range10,True
+best_registered_feasible_regionworst_failure_rate10,True
+best_registered_feasible_regionall_feasible_cells_strong10,True
+best_registered_feasible_regionall_feasible_cells_usable10,True
+best_registered_feasible_regionall_feasible_cells_project_level10,True
+best_registered_feasible_regionfull_range_usable10,True
+best_registered_feasible_regionfull_range_project_level10,True
+best_full_50_60km_regionbaseline_km10,True
+best_full_50_60km_regionalpha_deg10,True
+best_full_50_60km_regionsigma_deg10,True
+best_full_50_60km_regionn_feasible_cells10,True
+best_full_50_60km_regionfeasible_ranges_km10,True
+best_full_50_60km_regionall_three_ranges_feasible10,True
+best_full_50_60km_regionworst_feasible_p95_relative_range10,True
+best_full_50_60km_regionworst_failure_rate10,True
+best_full_50_60km_regionall_feasible_cells_strong10,True
+best_full_50_60km_regionall_feasible_cells_usable10,True
+best_full_50_60km_regionall_feasible_cells_project_level10,True
+best_full_50_60km_regionfull_range_usable10,True
+best_full_50_60km_regionfull_range_project_level10,True
+all_primary_regions,True
+"primary:{'range_km': 50, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.14133082214185946, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}range_km",True
+"primary:{'range_km': 50, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.14133082214185946, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}baseline_km",True
+"primary:{'range_km': 50, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.14133082214185946, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}alpha_deg",True
+"primary:{'range_km': 50, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.14133082214185946, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}sigma_deg",True
+"primary:{'range_km': 50, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.14133082214185946, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}n_feasible",True
+"primary:{'range_km': 50, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.14133082214185946, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_p95_relative_range",True
+"primary:{'range_km': 50, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.14133082214185946, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_failure_rate",True
+"primary:{'range_km': 50, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.14133082214185946, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}status",True
+"primary:{'range_km': 50, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.14133082214185946, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le5pct",True
+"primary:{'range_km': 50, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.14133082214185946, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le10pct",True
+"primary:{'range_km': 55, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1405761807895145, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}range_km",True
+"primary:{'range_km': 55, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1405761807895145, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}baseline_km",True
+"primary:{'range_km': 55, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1405761807895145, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}alpha_deg",True
+"primary:{'range_km': 55, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1405761807895145, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}sigma_deg",True
+"primary:{'range_km': 55, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1405761807895145, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}n_feasible",True
+"primary:{'range_km': 55, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1405761807895145, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_p95_relative_range",True
+"primary:{'range_km': 55, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1405761807895145, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_failure_rate",True
+"primary:{'range_km': 55, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1405761807895145, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}status",True
+"primary:{'range_km': 55, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1405761807895145, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le5pct",True
+"primary:{'range_km': 55, 'baseline_km': 2, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1405761807895145, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le10pct",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1464601356491147, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}range_km",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1464601356491147, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}baseline_km",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1464601356491147, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}alpha_deg",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1464601356491147, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}sigma_deg",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1464601356491147, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}n_feasible",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1464601356491147, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_p95_relative_range",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1464601356491147, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_failure_rate",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1464601356491147, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}status",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1464601356491147, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le5pct",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1464601356491147, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le10pct",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.145849331301152, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}range_km",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.145849331301152, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}baseline_km",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.145849331301152, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}alpha_deg",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.145849331301152, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}sigma_deg",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.145849331301152, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}n_feasible",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.145849331301152, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_p95_relative_range",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.145849331301152, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_failure_rate",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.145849331301152, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}status",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.145849331301152, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le5pct",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.145849331301152, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le10pct",True
+"primary:{'range_km': 60, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1452274482981257, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}range_km",True
+"primary:{'range_km': 60, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1452274482981257, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}baseline_km",True
+"primary:{'range_km': 60, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1452274482981257, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}alpha_deg",True
+"primary:{'range_km': 60, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1452274482981257, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}sigma_deg",True
+"primary:{'range_km': 60, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1452274482981257, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}n_feasible",True
+"primary:{'range_km': 60, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1452274482981257, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_p95_relative_range",True
+"primary:{'range_km': 60, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1452274482981257, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_failure_rate",True
+"primary:{'range_km': 60, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1452274482981257, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}status",True
+"primary:{'range_km': 60, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1452274482981257, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le5pct",True
+"primary:{'range_km': 60, 'baseline_km': 5, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.1452274482981257, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le10pct",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05639377645111139, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}range_km",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05639377645111139, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}baseline_km",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05639377645111139, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}alpha_deg",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05639377645111139, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}sigma_deg",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05639377645111139, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}n_feasible",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05639377645111139, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}worst_p95_relative_range",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05639377645111139, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}worst_failure_rate",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05639377645111139, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}status",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05639377645111139, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}le5pct",True
+"primary:{'range_km': 50, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05639377645111139, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}le10pct",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.055771977414679375, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}range_km",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.055771977414679375, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}baseline_km",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.055771977414679375, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}alpha_deg",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.055771977414679375, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}sigma_deg",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.055771977414679375, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}n_feasible",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.055771977414679375, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}worst_p95_relative_range",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.055771977414679375, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}worst_failure_rate",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.055771977414679375, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}status",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.055771977414679375, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}le5pct",True
+"primary:{'range_km': 55, 'baseline_km': 5, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.055771977414679375, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}le10pct",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15407941748240758, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}range_km",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15407941748240758, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}baseline_km",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15407941748240758, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}alpha_deg",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15407941748240758, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}sigma_deg",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15407941748240758, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}n_feasible",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15407941748240758, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_p95_relative_range",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15407941748240758, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_failure_rate",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15407941748240758, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}status",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15407941748240758, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le5pct",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15407941748240758, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le10pct",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15268917837019907, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}range_km",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15268917837019907, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}baseline_km",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15268917837019907, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}alpha_deg",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15268917837019907, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}sigma_deg",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15268917837019907, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}n_feasible",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15268917837019907, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_p95_relative_range",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15268917837019907, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_failure_rate",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15268917837019907, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}status",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15268917837019907, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le5pct",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15268917837019907, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le10pct",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15166525450310667, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}range_km",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15166525450310667, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}baseline_km",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15166525450310667, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}alpha_deg",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15166525450310667, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}sigma_deg",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15166525450310667, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}n_feasible",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15166525450310667, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_p95_relative_range",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15166525450310667, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}worst_failure_rate",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15166525450310667, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}status",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15166525450310667, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le5pct",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 2, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.15166525450310667, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': False}le10pct",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.060096699319185376, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}range_km",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.060096699319185376, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}baseline_km",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.060096699319185376, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}alpha_deg",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.060096699319185376, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}sigma_deg",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.060096699319185376, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}n_feasible",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.060096699319185376, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}worst_p95_relative_range",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.060096699319185376, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}worst_failure_rate",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.060096699319185376, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}status",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.060096699319185376, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}le5pct",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.060096699319185376, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}le10pct",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05945022046439228, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}range_km",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05945022046439228, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}baseline_km",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05945022046439228, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}alpha_deg",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05945022046439228, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}sigma_deg",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05945022046439228, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}n_feasible",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05945022046439228, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}worst_p95_relative_range",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05945022046439228, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}worst_failure_rate",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05945022046439228, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}status",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05945022046439228, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}le5pct",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.05945022046439228, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}le10pct",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.058973586430809986, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}range_km",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.058973586430809986, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}baseline_km",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.058973586430809986, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}alpha_deg",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.058973586430809986, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}sigma_deg",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.058973586430809986, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}n_feasible",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.058973586430809986, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}worst_p95_relative_range",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.058973586430809986, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}worst_failure_rate",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.058973586430809986, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}status",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.058973586430809986, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}le5pct",True
+"primary:{'range_km': 60, 'baseline_km': 10, 'alpha_deg': 5, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.058973586430809986, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': False, 'le10pct': True}le10pct",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.02856294121782497, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}range_km",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.02856294121782497, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}baseline_km",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.02856294121782497, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}alpha_deg",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.02856294121782497, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}sigma_deg",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.02856294121782497, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}n_feasible",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.02856294121782497, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}worst_p95_relative_range",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.02856294121782497, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}worst_failure_rate",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.02856294121782497, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}status",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.02856294121782497, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}le5pct",True
+"primary:{'range_km': 50, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.02856294121782497, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}le10pct",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.027966740222428982, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}range_km",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.027966740222428982, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}baseline_km",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.027966740222428982, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}alpha_deg",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.027966740222428982, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}sigma_deg",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.027966740222428982, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}n_feasible",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.027966740222428982, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}worst_p95_relative_range",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.027966740222428982, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}worst_failure_rate",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.027966740222428982, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}status",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.027966740222428982, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}le5pct",True
+"primary:{'range_km': 55, 'baseline_km': 10, 'alpha_deg': 10, 'sigma_deg': 0.1, 'n_feasible': 4, 'worst_p95_relative_range': 0.027966740222428982, 'worst_failure_rate': 0.0, 'status': 'FEASIBLE', 'le5pct': True, 'le10pct': True}le10pct",True
+full_50_60km_usable_regions,True
+full_50_60km_project_level_regions,True
+full_50_60km_project_level_regionsbaseline_km,True
+full_50_60km_project_level_regionsalpha_deg,True
+full_50_60km_project_level_regionsworst_feasible_p95_relative_range,True
+matrix_parameter_complete,True
+capability_filename_alias_same,True
+option_filename_alias_same,True
+original_audit_frozen,True
+corrected_audit_hash,True
+only_hash_identifier_corrections,True
+ten_tests_pass,True
+master_append_only:results/R4_MASTER/R4_PLAN.md,True
+master_append_only:results/R4_MASTER/R4_EVIDENCE_LEDGER.csv,True
