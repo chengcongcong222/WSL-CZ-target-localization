@@ -1,0 +1,142 @@
+{
+  "stage": "R4_ROUTE_REDESIGN_GATE_0_COLD_START_INFORMATION_AUDIT",
+  "parent_closeout_commit": "206f6c2f46bc3c52890a32004cf54255ed30fcef",
+  "parent_closeout_audit_status": "R4_A1_CLOSEOUT_AND_ROUTE_DECISION_ACCEPTED_BY_RESEARCH_LEAD",
+  "new_numerical_experiments": 0,
+  "decision_class": "B",
+  "R1_cold_start": "R1_COLD_START_NOT_ESTABLISHED",
+  "R1_tracking": "R1_TRACKING_ONLY_CONDITIONALLY_PLAUSIBLE",
+  "cold_start_information_source_identified": false,
+  "circular_dependency_present": true,
+  "information_source_boolean_scope": "No qualifying observation-derived cold-start range contraction source was identified for inherited noisy nominal acquisition from the 45--60km support; not a statement that bearing or other measurements contain no range information in all conditions.",
+  "circular_dependency_scope": "Conditional proposed acquisition bootstrap using a previous posterior whose first reliable origin is the failed wide-domain direct-TL global matcher. R1 is not implemented; this is not an existing code defect and does not apply to tracking initialized by independent legitimate acquisition.",
+  "circular_dependency_label": "COLD_START_CIRCULAR_DEPENDENCY",
+  "tracking_with_independent_acquisition_is_acyclic": true,
+  "RC1_first_CZ_prior_role": "BROAD_SCENARIO_SUPPORT_ONLY_NO_NARROW_PRIOR_ADMITTED",
+  "continuous_bearing_role": "KINEMATIC_SUPPORT_WITH_IDEAL_NOISELESS_RANGE_INFORMATION_NO_NOISY_COLD_START_ANCHOR_ESTABLISHED",
+  "straight_temporal_accumulation_role": "NO_TESTED_RANGE_WIDTH_CONTRACTION",
+  "small_turn_role": "TESTED_0_TO_15_DEG_RC2_ONLY_RANGE_CONTRACTION_NOT_ESTABLISHED",
+  "target_speed_bound_role": "PHYSICAL_ADMISSIBILITY_NOT_INDEPENDENT_RANGE_MEASUREMENT",
+  "target_heading_continuity_role": "MOTION_MODEL_CONSISTENCY_NOT_INDEPENDENT_RANGE_MEASUREMENT",
+  "temporal_recursion_role": "CONDITIONAL_CONTINUATION_REQUIRES_INDEPENDENT_CREDIBLE_LOCAL_PRIOR",
+  "RC3_direct_TL_role": "LOCAL_CONDITIONAL_ANCHOR_ONLY",
+  "logical_Gates": {
+    "G0-1": {
+      "status": "NOT_MET_IN_CURRENT_NOISY_SCOPE",
+      "satisfied": false,
+      "reason": "No admitted cold-start contraction source with retained correct support and conditional local-anchor reach was identified."
+    },
+    "G0-2": {
+      "status": "NOT_MET_FOR_PREVIOUS_POSTERIOR_BOOTSTRAP",
+      "satisfied": false,
+      "reason": "An independent first reliable posterior is absent; bootstrapping it through the failed global matcher is circular."
+    },
+    "G0-3": {
+      "status": "NOT_MET_FOR_TESTED_STRAIGHT_ACCUMULATION_AND_RC2_SMALL_TURN",
+      "satisfied": false,
+      "reason": "Reusing the tested configurations keeps15km range width; a narrower RC1 subband is unestablished. This is not universal impossibility for all bearing geometries."
+    },
+    "G0-4": {
+      "status": "SATISFIED_AT_DEFINITION_LEVEL_ONLY",
+      "satisfied": true,
+      "reason": "Support retention and domain contraction can be specified separately without new numerical thresholds; no performance validation performed."
+    },
+    "G0-5": {
+      "status": "SATISFIED_AT_ROLE_DEFINITION_LEVEL_ONLY",
+      "satisfied": true,
+      "reason": "RC3 role is restricted to conditional/local anchor, not global proposal; local capture remains unvalidated."
+    }
+  },
+  "all_cold_start_logical_conditions_satisfied": false,
+  "future_metric_structure": [
+    "EVALUATION_ONLY_REFERENCE_IN_OBSERVATION_DERIVED_SUPPORT",
+    "RANGE_PROJECTION_AND_JOINT_COMPONENT_CONTRACTION_WITH_RETENTION",
+    "FINITE_CATALOG_VERSUS_CONTINUOUS_SUPPORT_CERTIFICATE_DISTINCTION"
+  ],
+  "new_numerical_thresholds_defined": false,
+  "engineering_claim_limit": "POST_ACQUISITION_TRACK_REFINEMENT",
+  "R1_acquisition_quantitative_design_admitted": false,
+  "R1_implementation_authorized": false,
+  "R1_tracking_validated": false,
+  "R1_tracking_implementation_authorized": false,
+  "recommended_next_route": "R2_ACQUISITION_OBSERVABLE_INFORMATION_SOURCE_DESIGN",
+  "recommended_next_route_status": "DOCUMENT_DESIGN_RECOMMENDATION_ONLY_REQUIRES_NEW_RESEARCH_LEAD_AUTHORIZATION",
+  "acquisition_route_priority": [
+    "R2",
+    "R3_ORACLE_DIAGNOSTIC"
+  ],
+  "retained_R1_role": "CONDITIONAL_POST_ACQUISITION_TRACKING_SUBMODULE",
+  "existing_evidence_summary": {
+    "RC1_frozen_range_support_km": [
+      45,
+      60
+    ],
+    "RC1_contraction_ratio": "NOT_IDENTIFIABLE_FROM_CURRENT_EXPERIMENT",
+    "R3_1B_candidates_before_after": [
+      1326,
+      495
+    ],
+    "R3_1B_range_width_before_after_km": [
+      15,
+      15
+    ],
+    "R3_1C_turn_deg": [
+      0,
+      2,
+      5,
+      10,
+      15
+    ],
+    "R3_1C_RC2_only_range_width_km": [
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "FIX1_noiseless_control_count": 15,
+    "FIX1_noiseless_sampled_range_width_km": 0,
+    "FIX1_nominal_case_count": 21,
+    "FIX1_nominal_truth_in_likelihood_count": 21,
+    "FIX1_nominal_sampled_RC2_range_width_km": {
+      "min": 14.900876437313855,
+      "median": 14.973426964133978,
+      "max": 14.998758919537067
+    },
+    "FIX1_sample_scope": "Exported finite RC2 hypotheses; not exhaustive continuous confidence support or new experiment",
+    "R3_1C_MAIN_tau05_turn15_range_width_by_depth_km": {
+      "180": 4,
+      "200": 15,
+      "220": 15
+    },
+    "R3_1C_FOUR_tau05_turn15_coarse_reference": "SINGLE_RANGE_GRID_RETAINED_AT_ALL_THREE_DEPTHS; NOT_CURRENT_OFFGRID_0_001DB_CAPTURE_GATE",
+    "tractability_recovery_each_solver_each_budget": "0/21",
+    "tractability_raw_convergence_each_solver": "0/21",
+    "tractability_dual_gate": "NOT_REACHED"
+  },
+  "scope": "Existing frozen project evidence; inherited synthetic matched E0, nominal noisy bearing acquisition and tested platform geometry. No physical nonidentifiability, universal cold-start impossibility, global uniqueness, ocean performance, or tracking PASS claim.",
+  "R4_route_status": "ROUTE_REDESIGN_REQUIRED",
+  "A1_search_repair_chain": "CLOSED",
+  "A1_search_tractability": "NOT_ESTABLISHED",
+  "R4_progress_percent": 0,
+  "A2_depth_SSP_P5": "UNOPENED",
+  "historical_R4_PROGRESS_json": "UNCHANGED_DEVELOPMENT_SNAPSHOT; current route is in this Gate0 decision and latest master plan",
+  "forbidden_actions": [
+    "NEW_SIMULATION",
+    "MONTE_CARLO",
+    "NEW_OPTIMIZER",
+    "RERUN_R3",
+    "RERUN_A1",
+    "T4",
+    "FIX3",
+    "FIX4",
+    "FRESH_PANEL",
+    "DEPTH",
+    "SSP",
+    "A2",
+    "P5"
+  ],
+  "stop_after_commit_push": true,
+  "Gate0_review_status": "PENDING_RESEARCH_LEAD_REVIEW_NO_PROGRESS_CREDIT",
+  "created_date_Asia_Shanghai": "2026-10-04"
+}

@@ -1,0 +1,217 @@
+{
+  "stage": "R4_ROUTE_REDESIGN_GATE_0_COLD_START_INFORMATION_AUDIT",
+  "accepted_parent_closeout_commit": "206f6c2f46bc3c52890a32004cf54255ed30fcef",
+  "validation_status": "PASS",
+  "method": "Read-only SHA256 and Git-blob identity checks, existing saved-table aggregation, JSON/CSV/document-link/change-scope/ledger consistency. No simulation, Monte Carlo, optimizer, forward model, reconstruction or original numerical harness tests executed.",
+  "new_numerical_experiments": 0,
+  "new_numerical_thresholds_defined": false,
+  "protected_preexisting_file_count": 7159,
+  "protected_preexisting_bytes": 2054157190,
+  "protected_files_changed": [],
+  "protected_before_after_inventory_sha256": "fa995fc026a9ca62bd00ded1d35012147cc44752b742b0849c9e8cf968180a14",
+  "accepted_parent_closeout_artifact_count": 6,
+  "accepted_parent_closeout_bindings": {
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/A1_CLOSEOUT_REPORT.md": {
+      "raw_sha256": "44c21d0230157c54cb75af1df891167503421577b3fa7f058e6b16ff54472196",
+      "canonical_git_blob_oid": "dbde29318a4254da20b05b87d8ec4a7702c9210b"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/A1_EVIDENCE_CHAIN.md": {
+      "raw_sha256": "e904ad82bd18cc664e5a577b768ee55f7cffaadbc16366c100fae69108331d61",
+      "canonical_git_blob_oid": "2af9b5d729a428412ffeef01752a50db04af6918"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/CLOSEOUT_VALIDATION.json": {
+      "raw_sha256": "54327cd838a1f2237520182ca84a0d2cd26a7525b28d335fdf3e3426bcdf7720",
+      "canonical_git_blob_oid": "98a15e0875cf020db057c16f998db862d2427ad7"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/GPT_SYNC.md": {
+      "raw_sha256": "3d12ab936e64dd9e2b4952703735745aac4aff5dfd1056860ec1f8d003ccbbf6",
+      "canonical_git_blob_oid": "d9c8a1174cc40006e47fc36675f5a754684e5cc1"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/R4_A1_CLOSEOUT_DECISION.json": {
+      "raw_sha256": "f91d3a00bbd6e43f472334eadae1f831f8fe791f48ceb4241ab649530818e481",
+      "canonical_git_blob_oid": "85ba7d2b73b9c8f354f1c4588beee3c0a552260e"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/R4_ROUTE_DECISION.md": {
+      "raw_sha256": "27c5f385428236f05ba823f9daa6dac095f53343ddd10caa76ddbdc1c91716f8",
+      "canonical_git_blob_oid": "e7ad621d347a27a3d1eac5a1120cccdb63d96e67"
+    }
+  },
+  "historical_input_identities": {
+    "total": 2989,
+    "raw_sha256_matches": 2865,
+    "CRLF_LF_only_matches_with_canonical_sha256_and_git_oid": 124
+  },
+  "raw_freeze_binding_comparisons": 2796,
+  "unique_raw_bound_paths": 2747,
+  "raw_freeze_manifest_counts": {
+    "METHOD_FREEZE.json": 40,
+    "DEVELOPMENT_EXECUTION_FREEZE.json": 17,
+    "CHECKPOINT_EVIDENCE_FREEZE.json": 57,
+    "DEVELOPMENT_RESULTS_EVIDENCE_FREEZE.json": 2682
+  },
+  "previous_portable_text_bindings": {
+    "r4_a1_search_tractability_development_reconstruction.py": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "93c6f715d4d96277cd50ca957207988a4f8792aa231a03faf7e3619a11789a90",
+      "git_blob_oid": "314f396432f66267111e6e49542d2ac3b3137d11"
+    },
+    "r4_a1_search_tractability_development_report.py": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "0e3d9ff9abc9c8b70d31974ca4f8a8f59509879310c784537e74785e61c88b58",
+      "git_blob_oid": "873dcf3574f6be53fd37249fb64dad747eb099d9"
+    },
+    "results/R4_MASTER/R4_PROGRESS.json": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "8ac5629645d667693007aa7c5edbed479a6e327b7b627aec7b8abbd4385a7cac",
+      "git_blob_oid": "247e31e6f59c800a21538e805941c7adb00f814b"
+    },
+    "results/R4_MASTER/R4_PLAN.md": {
+      "verified_against": "ACCEPTED_PARENT_GIT_BLOB",
+      "canonical_lf_sha256": "85f56b2258b3c2e4326483a60c10b2b9fc2d0160c25e6005a8ac850960047fc5",
+      "git_blob_oid": "cc29286420d9fb37e5b95c8df90eaff9fc97ca48"
+    },
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv": {
+      "verified_against": "ACCEPTED_PARENT_GIT_BLOB",
+      "canonical_lf_sha256": "837b3cf51d4cf95fce6dfd0520223f315386c4aad224fb563ea83b4a4504c89e",
+      "git_blob_oid": "6fa52934b432d7827dbfcffd852c2f5d429f3f2f"
+    }
+  },
+  "portable_management_freeze_git_source_commit": "9cfa99c14bb80d08e6f16210ebf89fd9c541b850",
+  "historical_R4_PROGRESS_json_preserved": true,
+  "management_weights_unchanged": true,
+  "ledger_rows_preserved": 13,
+  "ledger_rows_appended": 4,
+  "all_credited_weights_zero": true,
+  "existing_files_authorized_to_change": [
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+    "results/R4_MASTER/R4_PLAN.md"
+  ],
+  "new_artifacts_authorized": [
+    "COLD_START_INFORMATION_SOURCE_MATRIX.csv",
+    "GPT_SYNC.md",
+    "R1_ACQUISITION_VS_TRACKING.md",
+    "R1_CIRCULAR_DEPENDENCY_AUDIT.md",
+    "R1_GATE0_DECISION.json",
+    "ROUTE_REDESIGN_GATE0_REPORT.md",
+    "VALIDATION.json"
+  ],
+  "source_matrix_rows": 8,
+  "source_matrix_evidence_paths_verified": 15,
+  "Markdown_relative_links_verified": 33,
+  "decision_consistency": {
+    "outcome": "B",
+    "cold_start_information_source_identified": false,
+    "circular_dependency_present": true,
+    "circularity_scope": "CONDITIONAL_UNSUPPORTED_ACQUISITION_BOOTSTRAP; NOT_CODE_DEFECT; INDEPENDENT_ACQUISITION_TRACKING_ACYCLIC",
+    "noiseless_bearing_positive_controls_preserved": true,
+    "conditional_turn_RC3_coarse_positives_preserved": true,
+    "R4_progress_percent": 0,
+    "A2_depth_SSP_P5": "UNOPENED"
+  },
+  "existing_saved_table_summary": {
+    "FIX1_nominal_sampled_RC2_range_width_km": {
+      "min": 14.900876437313855,
+      "median": 14.973426964133978,
+      "max": 14.998758919537067
+    },
+    "FIX1_nominal_truth_in_likelihood_count": 21,
+    "FIX1_noiseless_control_count": 15,
+    "R3_1B_candidates": [
+      1326,
+      495
+    ],
+    "R3_1B_range_width_km": [
+      15,
+      15
+    ],
+    "R3_1C_RC2_only_range_width_km": [
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "R3_1C_MAIN_turn15_tau05_widths_km": {
+      "180": 4.0,
+      "200": 15.0,
+      "220": 15.0
+    },
+    "R3_1C_FOUR_reference_turn15_tau05_one_range_bin_depth_count": 3
+  },
+  "source_bindings": {
+    "results/R3_FINAL_PARAMETER_CONTRACTION/RC1_SUPPORT_ROLE.md": "ee0f98262ed9b398d20d40b73b312e173f73f82dfba46f4d3c4835b7871232a7",
+    "results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/R3_RC23_CLOSEDLOOP_1C_DECISION.json": "0e63cf749353c4d89c1ce4a2c58382a3e5751b9792f375d40787170e3ce9f849",
+    "results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/RC2_RC3_TURN_SET_METRICS.csv": "eee008d1d02d917563161da9021184561893731f025d792356e7fafcc9b3e196",
+    "results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/RC2_TURN_ONLY_SET_METRICS.csv": "5b25189b2fb372de5a72610d30f6b52715bda4f39dc06d2ed18cfb2d76acdeaf",
+    "results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/R3_RC23_CLOSEDLOOP_1B_REPORT.md": "3566759fb9d87c28da94ba0856f551a5b95f6bf6178d09108543be1aab69b973",
+    "results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/RC2_CUMULATIVE_SET_METRICS.csv": "1f1e67ac9427d6133b6c4dbc99c2ad507bb9fabb73575ca99dd0807cfca23286",
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/R4_ROUTE_DECISION.md": "27c5f385428236f05ba823f9daa6dac095f53343ddd10caa76ddbdc1c91716f8",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/INDEPENDENT_SOLVER_AGREEMENT.csv": "e9ac324f36b260223719132c29b9cd4afe1a6339a74029cebfe47ddfc02d76b7",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/R4_A1_FIX2_REPORT.md": "24dfe54db8b0e7450aa74de0bd07ded6cd09efc54f2025c369ce5c6ba617dee9",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/CASE_LEVEL_RESULTS.csv": "50d8665ed8742fc39d4d412956ff805cd90ae491fca10de749708f98777a25ca",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/METHOD_FREEZE.md": "c8d45a018add793365182c780b53bfe1d554299874ff844e8869c94c08cdfac3",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/MODE_INVENTORY.csv": "fb3ae4897f55a40ed98850afa4bb9e9b17a79fb3726e93c4d13bda67560c89ca",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/R4_A1_FIX_CONFIG.json": "d82e7c39c23e91ddb8a47d498431c97e4fefa886c5fdbdcb6130e38e62c0346f",
+    "results/R4_A1_OFFGRID_BEARING_BOUNDARY/R4_A1_DECISION.json": "98d616bfb7a884f4dfa6a7f0b81e347df07e5f742b122580a1c3f92c9c8842da",
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_FINAL_DECISION.json": "2a3c274a5076bb2d3cba3ee6a14c15007666b8811604ab55891634a9d40aebfb"
+  },
+  "new_artifact_bindings": {
+    "COLD_START_INFORMATION_SOURCE_MATRIX.csv": {
+      "canonical_lf_sha256": "7165f13bc3203cab18809349a0d42293ebf46edbbf56e50900431c0fba195378",
+      "canonical_git_blob_oid": "78526dd46df18312d899e27c7f8e8a5db0c95ce9",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "GPT_SYNC.md": {
+      "canonical_lf_sha256": "42f632fa48ad8c9c48ac176aa6fbdd80ed2e555606383ea9b99b7e35959a57b3",
+      "canonical_git_blob_oid": "8ca546d429b50aa2cb67fc827c3d3448663eeac1",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R1_ACQUISITION_VS_TRACKING.md": {
+      "canonical_lf_sha256": "138851e299a97210a4260a48df96761a42196c96beffc260b4708d257fd6595b",
+      "canonical_git_blob_oid": "3743795323ec4a5c28afe3fcaf4dc19c34af17de",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R1_CIRCULAR_DEPENDENCY_AUDIT.md": {
+      "canonical_lf_sha256": "ec4ca9a54005df79ed9791ac6264fedeef64bd28d3c075103b41fa89dd84be1b",
+      "canonical_git_blob_oid": "15f894d3cfeb2da77e643d1ba8e5555e3d8980b2",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R1_GATE0_DECISION.json": {
+      "canonical_lf_sha256": "087f4fd83f67a202815baf254f8a0ba6eb54e864f817e6ac2459de7b0ed3452c",
+      "canonical_git_blob_oid": "4b83f37b315c99d41968696a3d047c8026e56c07",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "ROUTE_REDESIGN_GATE0_REPORT.md": {
+      "canonical_lf_sha256": "6fdbe925720c34259a186eccc384fe2d86a7fcc4c244d97a6a07c67140609c24",
+      "canonical_git_blob_oid": "583491ac2916eaf03bcf3f660d9efee129f7bc7d",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    }
+  },
+  "current_management_text_bindings": {
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv": {
+      "canonical_lf_sha256": "554a4bc9e10fb056022068ec4ff5b5467be0cf74be791457b4cafa903828f49d",
+      "canonical_git_blob_oid": "f7a4580f4209d5f6761046296f7f12a2ac8823c7"
+    },
+    "results/R4_MASTER/R4_PLAN.md": {
+      "canonical_lf_sha256": "70b75fa522122f391492a6d51e3ed3bb6fe75594009512a2a8003e03520ecb95",
+      "canonical_git_blob_oid": "65c340ba8bd4cca420bd6d0400aba9096c7f9225"
+    }
+  },
+  "binding_note": "VALIDATION.json is bound by the enclosing Gate0 Git commit, not a self hash. Prior plan/ledger freeze identities are verified against the frozen development commit, never rewritten to the current management text. Full local protected inventories and the standard-library-only verification script reside on D.",
+  "storage": "D:/ProjectStorage/WSL-CZ/gate0-20261004; canonical D-drive project; D-drive temp/cache",
+  "check_groups": [
+    "protected raw bytes",
+    "accepted closeout raw and Git blobs",
+    "old raw and portable freezes",
+    "historical R3/A1/FIX/FIX2 identities",
+    "eight information source paths and roles",
+    "existing FIX1 noisy and noiseless tables",
+    "existing R3 temporal and turn tables with positive exceptions",
+    "conditional decision scopes",
+    "no quantitative release or progress credit",
+    "append-only ledger",
+    "two existing changes and seven new artifacts",
+    "UTF8 and relative Markdown links"
+  ],
+  "failed_checks": 0
+}
