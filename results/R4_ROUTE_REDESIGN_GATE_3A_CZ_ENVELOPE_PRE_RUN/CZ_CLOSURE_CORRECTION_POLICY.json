@@ -1,0 +1,169 @@
+{
+  "stage": "R4_ROUTE_REDESIGN_GATE_3A_PRE_RUN_CLOSURE_CORRECTION",
+  "parent_rejected_pre_run_commit": "e9316c031d40f11fc07772959d439b965d876cd5",
+  "lead_decision": "CZ_ENVELOPE_PRE_RUN_FREEZE_NOT_ACCEPTED",
+  "scope": "Only conservative outer-partition closure semantics and hard-budget feasibility; preserve old files and all scientific choices",
+  "immutable_scientific_configuration": {
+    "representation": "WINDOW_SHAPE_Q2",
+    "nuisance": "N0_STATIC_PER_LINE_PER_WINDOW_OFFSET",
+    "sensitivity": "NONE",
+    "tau_F_dB": 1e-07,
+    "tier": "NOMINAL",
+    "hull_max_km": 5.0,
+    "C_r_max": 0.3333333333333333,
+    "range_components_max": 3,
+    "joint_components_max": 6,
+    "raw_endpoint_width_change_max_km": 0.5,
+    "manifest_primary_count": 21
+  },
+  "enclosure": "Original r4_cz_envelope_model.py and representation/guard/evaluation/support primitives unchanged; new corrected engine only",
+  "structural_budget_analysis": {
+    "COARSE": {
+      "domain_extents": [
+        15,
+        10,
+        2,
+        30
+      ],
+      "terminal_max_widths": [
+        0.25,
+        0.625,
+        0.125,
+        1.875
+      ],
+      "axis_splits": [
+        6,
+        4,
+        4,
+        4
+      ],
+      "unresolved_path_split_depth": 18,
+      "structural_minimum_cell_requests": 37,
+      "minimum_derivation": "D=sum min integer k>=0 with extent/2^k<=terminal; D internal path nodes + D certified rejected siblings + 1 terminal leaf = 2D+1 requests for full queue exhaustion",
+      "path_reach_vs_partition_close": "2D may reach first terminal child, but last sibling still needs classification; outer partition completion requires 2D+1",
+      "runtime_envelope_seconds_per_raw_run": 1800,
+      "storage_record_envelope_bytes_per_raw_run": 33554432,
+      "conservative_record_bytes": 8192,
+      "maximum_formula": "min(structural ceiling, floor(0.8*runtime envelope / old frozen worst cell cost), floor(storage envelope / conservative bytes per request))",
+      "structural_ceiling": 1024,
+      "old_frozen_cell_cost_seconds": 3.275019900058396,
+      "candidate_cell_cap_ladder": [
+        37,
+        148,
+        439
+      ],
+      "full_uniform_leaf_count": 262144
+    },
+    "FINE": {
+      "domain_extents": [
+        15,
+        10,
+        2,
+        30
+      ],
+      "terminal_max_widths": [
+        0.125,
+        0.3125,
+        0.0625,
+        0.9375
+      ],
+      "axis_splits": [
+        7,
+        5,
+        5,
+        5
+      ],
+      "unresolved_path_split_depth": 22,
+      "structural_minimum_cell_requests": 45,
+      "minimum_derivation": "D=sum min integer k>=0 with extent/2^k<=terminal; D internal path nodes + D certified rejected siblings + 1 terminal leaf = 2D+1 requests for full queue exhaustion",
+      "path_reach_vs_partition_close": "2D may reach first terminal child, but last sibling still needs classification; outer partition completion requires 2D+1",
+      "runtime_envelope_seconds_per_raw_run": 3600,
+      "storage_record_envelope_bytes_per_raw_run": 33554432,
+      "conservative_record_bytes": 8192,
+      "maximum_formula": "min(structural ceiling, floor(0.8*runtime envelope / old frozen worst cell cost), floor(storage envelope / conservative bytes per request))",
+      "structural_ceiling": 2048,
+      "old_frozen_cell_cost_seconds": 3.275019900058396,
+      "candidate_cell_cap_ladder": [
+        45,
+        180,
+        879
+      ],
+      "full_uniform_leaf_count": 4194304
+    }
+  },
+  "ladder_selection": "For each resolution test candidate budgets in ascending order on BOTH declared fixtures and BOTH B0/CZ. First candidate with valid execution, domain_partition_closed, search_budget_closed and independently sealed reference retention in all four runs is selected. Stop ladder for that resolution on first success. At final failure no C4/F4; freeze NOT_SELECTED and SEARCH_CLOSURE_NOT_ESTABLISHED.",
+  "fixtures": [
+    {
+      "id": "CORNER_LOW",
+      "state_rule": "First prior-policy domain corner, no case inputs",
+      "state": [
+        45,
+        -5,
+        1,
+        -15
+      ],
+      "depth_label_m": 150
+    },
+    {
+      "id": "DOMAIN_MIDPOINT",
+      "state_rule": "Componentwise midpoint of inherited domain",
+      "state": [
+        52.5,
+        0,
+        2,
+        0
+      ],
+      "depth_label_m": 200
+    }
+  ],
+  "measurement_generation": "Use original levels_numpy and point_geometry for each declared state/depth; feature via unchanged WINDOW_SHAPE_Q2; no added noise or source spectrum. State is confined to generator/evaluator, never supplied to support engine.",
+  "fixture_bearing_cutoff": {
+    "value_radian_SSE": 1e-20,
+    "rule": "Inherited noiseless numerical control: exact matched bearing reference has cmin=0 at generating state; fixed 1e-20 allowance, not tuned. This rule is fixture-only; future 21 cases retain manifest cutoffs unchanged."
+  },
+  "fixture_generation_budget": {
+    "limits_each_category": 32,
+    "aggregate_limit": 192,
+    "unit": "each generator/evaluator validation and each admitted forward/profile call counted"
+  },
+  "fixture_runtime_targets": "COARSE 30 minutes and FINE 60 minutes per raw run, advisory calibration envelopes; hard operation/storage caps enforce termination. Sequential processes, no timer-based budget increase.",
+  "traversal": "original deterministic BFS, lower child first; largest normalized-width midpoint split, r/theta/v/psi tie order",
+  "raw_independence": "every fixture/mode/resolution/budget new full-domain queue, cache and counters; no carryover or cumulative use",
+  "statuses": [
+    "REJECTED_BY_CERTIFIED_BOUND",
+    "RETAINED_CERTIFIED_COMPATIBLE",
+    "RETAINED_POSSIBLE_AT_TERMINAL",
+    "RETAINED_UNRESOLVED_BUDGET",
+    "RETAINED_INVALID_BOUND"
+  ],
+  "domain_partition_closed": "valid full-domain partition consisting only of certified rejected boxes, uniformly compatible retained boxes, or retained possible terminal boxes at frozen resolution, after natural queue exhaustion",
+  "compatibility_certified": "diagnostic cell upper-bound proof only, never a necessary condition for conservative retained support closure",
+  "search_budget_closed": "queue exhausted naturally before any operation/storage cap; cap-triggered flushing is not natural exhaustion",
+  "scientific_support": "certified-compatible plus terminal-possible cells; capped/invalid regions retained as unresolved conservative diagnostics and never silently omitted; failed closure blocks scientific Gate",
+  "invalid_stop": "Any invalid bound/accounting or closed partition excluding matched reference -> IMPLEMENTATION_INVALID and stop; no source/threshold/fixture swap",
+  "max_failed_decision": "CZ_ENVELOPE_PRE_RUN_SEARCH_CLOSURE_NOT_ESTABLISHED",
+  "positive_decision": "CZ_ENVELOPE_CORRECTED_PRE_RUN_READY_FOR_INDEPENDENT_AUDIT",
+  "enclosure_source_sha256": {
+    "r4_cz_envelope_model.py": "14f893a9f0a7f0509150b7aa427c59f08f8e7a6e8e64036fadb522ede164d090",
+    "r4_cz_envelope_representation.py": "abcbbb081356abe61fdfa773234e0f73c7e4318012758bda92e1a23e5073f4b7",
+    "r4_cz_envelope_support.py": "3b946ef0b684e35edcd953a76efaf8e30d5a47b6dbc2ebdba4f6d142403cb7a1",
+    "r4_cz_envelope_guard.py": "d6c43e8ef914b3b8655f6f1738ee708d32d7b2e17d4b5e5f3e5343718cc900cb",
+    "r4_cz_envelope_evaluation.py": "d9da43c2600ccf38979ee10839e2444ab4f386e6176082247836414c1530f64d",
+    "r4_cz_envelope_development.py": "3e6a03f3736bee6a48e683c8dcbc5ec0b5cc4be1284a4a9e7b119f181c22cab2"
+  },
+  "input_sha256": {
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_CASE_MANIFEST.csv": "6030fb3aa041ba23d4b665d3abb81b0ab73367cfcd66e1d3c93f22b6504d0c46",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/CASE_OBSERVATIONS.npz": "d92493e6343d7a4305fc06c053d27e9aa8801a3e6cceea27295eaefe12a1b525",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f201.mod": "e05c5ee06dcec6446f81522b8b074e71e31c44e7beda8287163e89fa095ac628",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f235.mod": "187c3e9380fb9d7fc073e5e3cc97e6580fb574b2e43ef055366d3521a9ec15f6",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f283.mod": "5d72a736ddae45bb3fbfd15514f9fb8f6b5e89e16feb598898ee3b64e4f199b2"
+  },
+  "numeric_development_observations_allowed": false,
+  "development_released": false,
+  "development_numerical_runs": 0,
+  "fresh": "NOT_GENERATED",
+  "R4_percent": 0,
+  "A2_depth_SSP_P5": "UNOPENED",
+  "ordering": "Policy commit and verified push before any analytic single-path toy/test or physical closure fixture; no additional fixture or ladder after results.",
+  "stop": "After corrected checkpoint commit/push; no development release, fresh, N1, A2/depth/SSP/P5."
+}

@@ -1,0 +1,77 @@
+{
+  "derivation_scope": "symbolic domain/grid arithmetic only, no closure fixtures before policy push",
+  "analysis": {
+    "COARSE": {
+      "domain_extents": [
+        15,
+        10,
+        2,
+        30
+      ],
+      "terminal_max_widths": [
+        0.25,
+        0.625,
+        0.125,
+        1.875
+      ],
+      "axis_splits": [
+        6,
+        4,
+        4,
+        4
+      ],
+      "unresolved_path_split_depth": 18,
+      "structural_minimum_cell_requests": 37,
+      "minimum_derivation": "D=sum min integer k>=0 with extent/2^k<=terminal; D internal path nodes + D certified rejected siblings + 1 terminal leaf = 2D+1 requests for full queue exhaustion",
+      "path_reach_vs_partition_close": "2D may reach first terminal child, but last sibling still needs classification; outer partition completion requires 2D+1",
+      "runtime_envelope_seconds_per_raw_run": 1800,
+      "storage_record_envelope_bytes_per_raw_run": 33554432,
+      "conservative_record_bytes": 8192,
+      "maximum_formula": "min(structural ceiling, floor(0.8*runtime envelope / old frozen worst cell cost), floor(storage envelope / conservative bytes per request))",
+      "structural_ceiling": 1024,
+      "old_frozen_cell_cost_seconds": 3.275019900058396,
+      "candidate_cell_cap_ladder": [
+        37,
+        148,
+        439
+      ],
+      "full_uniform_leaf_count": 262144
+    },
+    "FINE": {
+      "domain_extents": [
+        15,
+        10,
+        2,
+        30
+      ],
+      "terminal_max_widths": [
+        0.125,
+        0.3125,
+        0.0625,
+        0.9375
+      ],
+      "axis_splits": [
+        7,
+        5,
+        5,
+        5
+      ],
+      "unresolved_path_split_depth": 22,
+      "structural_minimum_cell_requests": 45,
+      "minimum_derivation": "D=sum min integer k>=0 with extent/2^k<=terminal; D internal path nodes + D certified rejected siblings + 1 terminal leaf = 2D+1 requests for full queue exhaustion",
+      "path_reach_vs_partition_close": "2D may reach first terminal child, but last sibling still needs classification; outer partition completion requires 2D+1",
+      "runtime_envelope_seconds_per_raw_run": 3600,
+      "storage_record_envelope_bytes_per_raw_run": 33554432,
+      "conservative_record_bytes": 8192,
+      "maximum_formula": "min(structural ceiling, floor(0.8*runtime envelope / old frozen worst cell cost), floor(storage envelope / conservative bytes per request))",
+      "structural_ceiling": 2048,
+      "old_frozen_cell_cost_seconds": 3.275019900058396,
+      "candidate_cell_cap_ladder": [
+        45,
+        180,
+        879
+      ],
+      "full_uniform_leaf_count": 4194304
+    }
+  }
+}
