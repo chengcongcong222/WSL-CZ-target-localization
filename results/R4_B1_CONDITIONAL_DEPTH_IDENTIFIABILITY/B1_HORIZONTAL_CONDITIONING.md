@@ -1,0 +1,5 @@
+# Frozen horizontal conditioning
+
+H0 generation/reference state=(50 km,0 degree,2 m/s,5 degree), mechanically read from accepted r3_closedloop_1d_fix.py TRUTH. It is explicitly an authorized oracle controlled input, not an observation-only horizontal estimator or cold-start acquisition. Historical serialized grid states may contain roundoff; exact reference uses generation constants and numerical replay tolerance.
+
+H1 adds +/- one historical matched-grid step to one axis at a time. Steps mechanically read from np.arange arguments in the directly corresponding score source: range1 km, theta0.5 degree, speed0.2 m/s, heading1 degree. Retain only shifted states in the historical domain; all eight directions are legal here. Each six-case configuration has H0+8 H1, 54 profiles, 1134 depth rows. Every condition is listed in the immutable design. No case-specific step, optimization, multi-axis extension, response-based selection or tuning. These inherited steps describe this fixed historical neighborhood, not a demonstrated post-acquisition error distribution.
