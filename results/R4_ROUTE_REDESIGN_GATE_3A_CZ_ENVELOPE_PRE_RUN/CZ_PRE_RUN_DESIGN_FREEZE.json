@@ -1,0 +1,281 @@
+{
+  "stage": "R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN_FREEZE",
+  "parent_gate3_commit": "e56ba746ebe7370d1dee3d0a181bc348b5fecc5f",
+  "calibration_policy_commit": "a393c7b45c92c42fd148d9c162faeb5ea35160c7",
+  "immutable_after_commit": true,
+  "sha256": {
+    "r4_cz_envelope_representation.py": {
+      "raw_sha256": "abcbbb081356abe61fdfa773234e0f73c7e4318012758bda92e1a23e5073f4b7",
+      "canonical_lf_sha256": "99cb794005f88808a6fe12ee05ba9e31426a6a4c608e721a954a2ceae9cb8bdb",
+      "canonical_git_blob_oid": "67bd5bdf77f4b19d51fd26a88fd625aa1aec7014",
+      "bytes": 1470,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "r4_cz_envelope_support.py": {
+      "raw_sha256": "3b946ef0b684e35edcd953a76efaf8e30d5a47b6dbc2ebdba4f6d142403cb7a1",
+      "canonical_lf_sha256": "df4ef71b3e1b6dd4799196ee09ec2adb886668109cc8b1f5e874a80bebfdfa0e",
+      "canonical_git_blob_oid": "7372ae7694613bef82b0c33a86b5a60fa08817b6",
+      "bytes": 11690,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "r4_cz_envelope_model.py": {
+      "raw_sha256": "14f893a9f0a7f0509150b7aa427c59f08f8e7a6e8e64036fadb522ede164d090",
+      "canonical_lf_sha256": "d0d9c6514df7f8b061d021818407c4972da3fb6f1c5301eb758d2dc137a2dd07",
+      "canonical_git_blob_oid": "4374d634a6eea8722d78fee4c099705c7cac5716",
+      "bytes": 9001,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "r4_cz_envelope_guard.py": {
+      "raw_sha256": "d6c43e8ef914b3b8655f6f1738ee708d32d7b2e17d4b5e5f3e5343718cc900cb",
+      "canonical_lf_sha256": "73edde08e072b29996fa57687a37072ac8dc27107f492a29fbf247a34e109f2b",
+      "canonical_git_blob_oid": "2700f07617f96a854e2c158d27131f97446b263b",
+      "bytes": 605,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "r4_cz_envelope_evaluation.py": {
+      "raw_sha256": "d9da43c2600ccf38979ee10839e2444ab4f386e6176082247836414c1530f64d",
+      "canonical_lf_sha256": "eda8aaf0750fcc47078c212321bc9f5ca238490207218efe91ce587507d3c610",
+      "canonical_git_blob_oid": "9e5ef05480a62ab5aba8fe80fb9e77cee54d9644",
+      "bytes": 408,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "r4_cz_envelope_development.py": {
+      "raw_sha256": "3e6a03f3736bee6a48e683c8dcbc5ec0b5cc4be1284a4a9e7b119f181c22cab2",
+      "canonical_lf_sha256": "f05499e030069df5acdebc5e7f1c8d05184ce5c488a7cbcc64c6300549969844",
+      "canonical_git_blob_oid": "2c1d4fa8fb1080bc45dc1347220ac7190ffada87",
+      "bytes": 362,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "r4_cz_envelope_prerun_audit.py": {
+      "raw_sha256": "93906788fa91bb0fe8699bc20829097e12478e545725311c60a0f52de09accee",
+      "canonical_lf_sha256": "b8a23762d243fa909cd25f7c5d975625b3ef21de059c01a44b94a89a5a4f05ec",
+      "canonical_git_blob_oid": "40d2d629def6cb960a8fa8cd2df1d30a78ca38d9",
+      "bytes": 7769,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "r4_cz_envelope_prerun_integrity.py": {
+      "raw_sha256": "c4d61055f0607edcebd634391ca73915384b2db8a6792421200d44902919feb3",
+      "canonical_lf_sha256": "40d3a3989b84ef6c3d8b931548b58fba45f98518a0dbda82194f0f6b37d01904",
+      "canonical_git_blob_oid": "70c7c82939360f896f660c682bd2671494bd1c1b",
+      "bytes": 18986,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "tests/test_r4_cz_envelope.py": {
+      "raw_sha256": "3cc08664c410f41f2a89f5527e177ac9e03abf488d9ae83960de7a55cb497814",
+      "canonical_lf_sha256": "e68cd131ea5491e42604ec8a9b7e52b703ee483c698831f2471f0e6ec2c59800",
+      "canonical_git_blob_oid": "e9252779e53b07327457a2cedbfaa7da79be114a",
+      "bytes": 13745,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_BUDGET_FREEZE.json": {
+      "raw_sha256": "3bc2d5f954db20fc37c36a68d46cdf707b69728a953782d1aa98c4e92117773d",
+      "canonical_lf_sha256": "cd131953cccaf1967c8c9dfd50bbc4d46f4cddd99f92f5c413a922e6a8205eb2",
+      "canonical_git_blob_oid": "3676f5c0483cd1ece0917b2d47bbfdc9992a32ae",
+      "bytes": 5972,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_ENCLOSURE_METHOD.md": {
+      "raw_sha256": "51a492d6ea2c28f4f34fbbf2081d989d10d6218425e05b80cba126ce8dd891cf",
+      "canonical_lf_sha256": "9e973273df8cd90b2e4e83b1605f52ef82f814415e7ab23877062e99c35fccaf",
+      "canonical_git_blob_oid": "01090e812d3f2ce6d7ff20a562d030cf6391e19e",
+      "bytes": 7450,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_GRID_FREEZE.json": {
+      "raw_sha256": "cab65a953854b7ea7c2a04e9a86a3dd5de40df0e74e98ac4055718a785295d03",
+      "canonical_lf_sha256": "f1dde6c9aa357fab446a2c761ee72c7a30a2aff9f2c710faf5ffd2405a3d6b9d",
+      "canonical_git_blob_oid": "60baecfad561e0c70bc3c14a7dfccc3164257d7d",
+      "bytes": 11145,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_INPUT_METADATA.json": {
+      "raw_sha256": "df773804889d6f852428c8ac2370abc1ae6b714ffd0133293cf3904210208a65",
+      "canonical_lf_sha256": "c0f2f921bd6519085ee3c085bf2fa381e00f143e92b16e884e074f1935bcc75c",
+      "canonical_git_blob_oid": "3a1f2d5037f6fd1dc782bb577277db4822a5b8d4",
+      "bytes": 2259,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_NUMERICAL_CALIBRATION.csv": {
+      "raw_sha256": "f973a745a78762af5ca6e0f2cbc0879a0491fb554dcfcb46c2cc54f3c17e1195",
+      "canonical_lf_sha256": "cc625f5b3801128bca86dbec5fbedd1f23f768bde2d52ef0b758b782b1a1f6fd",
+      "canonical_git_blob_oid": "ba5defca0d9d5bd6e1aae196e5436c37d891340b",
+      "bytes": 1693,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_NUMERICAL_CALIBRATION_POLICY.json": {
+      "raw_sha256": "22de084c66d807f1d21f5bce8e45aeb23bd95985ee597b07fd662b1de7fee8c0",
+      "canonical_lf_sha256": "31d12a27fb1d08f855c538dda0dd648e7d3c27320f0b3ac4aa6387bef3501f73",
+      "canonical_git_blob_oid": "95451eda634d7ba96b9329457037cc191bb845e4",
+      "bytes": 6198,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_NUMERICAL_CALIBRATION_SUMMARY.json": {
+      "raw_sha256": "d6bce6503b0e7693ac4ebd5cacc1cc6bc49e4fc11b77961936c49d26f9358244",
+      "canonical_lf_sha256": "df1b748ab6236778d5ecf27277768a75b6e466c93ecd7fba6d0c05328d6fd6d3",
+      "canonical_git_blob_oid": "e39a3a676ed561849257e0f2b3bf93a9509467ed",
+      "bytes": 13019,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_PRE_RUN_DECISION.json": {
+      "raw_sha256": "b2fe258ff3840a99fb3ebe1c3d34b16a5785636515dc08e201b733c0c104a721",
+      "canonical_lf_sha256": "8bd69b1eba54f82b2e6dd6cc150f1c256409fa70eb6c763a9333d70f1e30a111",
+      "canonical_git_blob_oid": "15b3647edc7740caefc80c8f6b0bb69f22df6bbd",
+      "bytes": 1633,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_PRE_RUN_INTEGRITY.csv": {
+      "raw_sha256": "2d54a3bee04718095c9ed0dad7e2a55ad48a64d33492a7df0dc4430d283f732d",
+      "canonical_lf_sha256": "6c8f8dd21be253533b60322f85302cabf5540f9b4afb9f158a483a191c0a2fdb",
+      "canonical_git_blob_oid": "0d4be2599ede58ea249db3d4907e0ebb1b4ac2bc",
+      "bytes": 3516087,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_PRE_RUN_INTEGRITY_SUMMARY.json": {
+      "raw_sha256": "df23e8edbe22c4f33469fac11c5ac10a37c3c44f812fc4b838e55f815f6317f3",
+      "canonical_lf_sha256": "aa5c1f811f0bd2efdced760a9f1476c56c6db0af299aafa92cc2406304b809cc",
+      "canonical_git_blob_oid": "c818dc81726d078527a4d2668250beaf5e91287d",
+      "bytes": 907,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_PRE_RUN_TESTS.json": {
+      "raw_sha256": "085018c2a3fed921d6ded1058acd99ef731b0ed230c879ba71098c8d6bc7eab1",
+      "canonical_lf_sha256": "c2614496c47fec97ffa4d38ac3b7ddd07216daf0bf583fb0be86cd5172cf1718",
+      "canonical_git_blob_oid": "b859f984e7576aa0d9eab88cc258ab817481f914",
+      "bytes": 9039,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_PRE_RUN_TESTS.xml": {
+      "raw_sha256": "103e815df2c269082993519019c11cbf025e1750b96cff27a8b6a6b496282fd2",
+      "canonical_lf_sha256": "103e815df2c269082993519019c11cbf025e1750b96cff27a8b6a6b496282fd2",
+      "canonical_git_blob_oid": "8579f78419acd35e1d2c37185dcccc3c5157324c",
+      "bytes": 5361,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_REPRESENTATION_FREEZE.json": {
+      "raw_sha256": "0956f36d29dfb1a26fc077a6e0e526ab213aeff654e73f92c65fad0890031697",
+      "canonical_lf_sha256": "ab700c4d09701f51bb7b27764b0ca393232fdc5ad68b38ffd7440648980915ba",
+      "canonical_git_blob_oid": "3cc5a65eeed5bab37de2268e94e404eacd94cfdb",
+      "bytes": 987,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_THRESHOLD_FREEZE.json": {
+      "raw_sha256": "b27f7f33ab8c9cd2f9832643681dcaa65c9e2be7d428821fab9e7a113b181046",
+      "canonical_lf_sha256": "a01a9bc2cfdb23121d2ee89803169c3a4d948d8fbe56109da5a5d69af1ae2158",
+      "canonical_git_blob_oid": "45e25b3e5fa8e6615ae9e4dd52c368facab8186f",
+      "bytes": 1782,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/CZ_TRUTH_EXCLUSION_AUDIT.md": {
+      "raw_sha256": "36563564b729c01e02f57f57b0f9f58277f6715227e0edd8b17ba788eb43ef43",
+      "canonical_lf_sha256": "b3e25bf3fde59c0e0a49018a3d4dddd84b7ca4f7448700e0fbb2ebbdef4236b7",
+      "canonical_git_blob_oid": "eaa648284bfae2d050432054969b22aaff5b091b",
+      "bytes": 2835,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN/GPT_SYNC.md": {
+      "raw_sha256": "64e41f02dcc2c61b9649b1d109ba8c2b4cdc66d3477bff27d64bd18fd87f4f9c",
+      "canonical_lf_sha256": "a38108d753aee8806ff043b43df70f10e8e07e7598c933fd8d5653c5c72a099f",
+      "canonical_git_blob_oid": "4f4ac00c437f77c61d1aad3f85ef58e253edf3ea",
+      "bytes": 1839,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv": {
+      "raw_sha256": "11292f45d9ada41776eea217ed7ed10efc6381b7e7ce24b875c6d0f060f639be",
+      "canonical_lf_sha256": "cc381d338f734ab940d6c7046416264cf7e620bfdcfb12a53b06759014efb2a2",
+      "canonical_git_blob_oid": "239e485bd059c14dd89948f34c232b112e49e198",
+      "bytes": 9972,
+      "transport": "CRLF_LF_ONLY"
+    },
+    "results/R4_MASTER/R4_PLAN.md": {
+      "raw_sha256": "e14f08671a410f96e681c12e41769d23d83f24ec4f77f59b7174949f445e6f9c",
+      "canonical_lf_sha256": "88cd77fb76010c569658fd9b95cd9431d9746b4a243794c6d8b1527f6b26bbd4",
+      "canonical_git_blob_oid": "dd02821ac5c5e3ceaccef909ecc2bc89b3aa5197",
+      "bytes": 27119,
+      "transport": "CRLF_LF_ONLY"
+    }
+  },
+  "frozen_model_and_observation_input_sha256": {
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_CASE_MANIFEST.csv": "6030fb3aa041ba23d4b665d3abb81b0ab73367cfcd66e1d3c93f22b6504d0c46",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/CASE_OBSERVATIONS.npz": "d92493e6343d7a4305fc06c053d27e9aa8801a3e6cceea27295eaefe12a1b525",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f201.mod": "e05c5ee06dcec6446f81522b8b074e71e31c44e7beda8287163e89fa095ac628",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f235.mod": "187c3e9380fb9d7fc073e5e3cc97e6580fb574b2e43ef055366d3521a9ec15f6",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f283.mod": "5d72a736ddae45bb3fbfd15514f9fb8f6b5e89e16feb598898ee3b64e4f199b2"
+  },
+  "protected_preexisting_inventory_sha256": "ef90b6927adfcd0f713a13a82ab8db4f44a7de3650c75fbae10ec18939ce2623",
+  "depth_labels_m": [
+    150,
+    155,
+    160,
+    165,
+    170,
+    175,
+    180,
+    185,
+    190,
+    195,
+    200,
+    205,
+    210,
+    215,
+    220,
+    225,
+    230,
+    235,
+    240,
+    245,
+    250
+  ],
+  "primary_representation": "WINDOW_SHAPE_Q2",
+  "primary_nuisance": "N0_STATIC_PER_LINE_PER_WINDOW_OFFSET",
+  "sensitivity": "NONE",
+  "threshold_tier": "NOMINAL",
+  "tau_F_dB": 1e-07,
+  "COARSE_max_widths": [
+    0.25,
+    0.625,
+    0.125,
+    1.875
+  ],
+  "FINE_max_widths": [
+    0.125,
+    0.3125,
+    0.0625,
+    0.9375
+  ],
+  "hard_cell_caps": {
+    "COARSE": 14,
+    "FINE": 29
+  },
+  "backend": {
+    "package": "python-flint",
+    "version": "0.9.0",
+    "enclosure_precision_bits": 160,
+    "reference_precision_bits": 256,
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.15.3",
+    "dependency_target": "D:/ProjectStorage/WSL-CZ/dependencies"
+  },
+  "dependency": {
+    "package": "python-flint",
+    "version": "0.9.0",
+    "wheel": "python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+    "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+    "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+    "target": "D:\\ProjectStorage\\WSL-CZ\\dependencies",
+    "pip_failed": "pre-existing pip vendored FileCache import; verified wheel extraction used"
+  },
+  "stop_rules": [
+    "Stop after PRE-RUN commit/push; wait independent audit",
+    "No 21-case feature/search before separate lead release",
+    "No sensitivity, N1, third optimizer, extra budget or third grid",
+    "Retain unresolved/loose/capped domain; closure false",
+    "If enclosure or implementation invalid, stop; no point-grid fallback",
+    "No fresh, A2/depth development/SSP/P5; R4=0%"
+  ],
+  "development_released": false,
+  "development_numerical_runs": 0,
+  "fresh": "NOT_GENERATED",
+  "R4_progress_percent": 0,
+  "A2_depth_SSP_P5": "UNOPENED",
+  "binding_note": "Freeze manifest bound by enclosing PRE-RUN Git commit. Other new sources/artifacts and append-only master texts bind raw bytes plus canonical-LF SHA256 and Git blob identity; only CRLF/LF transport change allowed. Frozen historical evidence checked under prior published raw/LF rules, never rewritten."
+}

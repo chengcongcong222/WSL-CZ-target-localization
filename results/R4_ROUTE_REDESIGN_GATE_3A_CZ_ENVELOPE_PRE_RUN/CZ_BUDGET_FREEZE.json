@@ -1,0 +1,155 @@
+{
+  "runtime_policy": {
+    "fixture": "one full-domain bearing enclosure and all 21 depth-profile feature enclosures using first declared corner observation; additionally a tiny symmetric corner-adjacent cell. Runtime is diagnostic only; no contraction or recovery calibration.",
+    "cell_cost_seconds": "max elapsed full-cell and tiny-cell certificate calls including all 21 profiles, minimum denominator 1e-3 s",
+    "coarse_runtime_envelope_seconds": 60,
+    "fine_runtime_envelope_seconds": 120,
+    "safety_time_fraction": 0.8,
+    "cell_cap_formula": "max(1,min(structural_ceiling,floor(0.8*runtime_envelope_seconds/cell_cost_seconds)))",
+    "structural_cell_ceiling": {
+      "COARSE": 256,
+      "FINE": 512
+    },
+    "B0_policy": "same per-resolution cell request cap as CZ; no larger baseline budget selected from outcomes"
+  },
+  "measured_cell_cost_seconds": 3.275019900058396,
+  "cell_caps": {
+    "COARSE": 14,
+    "FINE": 29
+  },
+  "strict_operation_budgets": {
+    "B0": {
+      "COARSE": {
+        "n_cell_requests": 0,
+        "n_forward_state_evaluations": 0,
+        "n_profile_evaluations": 0,
+        "n_bound_evaluations": 0,
+        "n_cache_hits": 0,
+        "n_validation_evaluations": 0,
+        "hard_budget_limit": 42,
+        "charged_total": 0,
+        "attempts": {
+          "n_cell_requests": 0,
+          "n_forward_state_evaluations": 0,
+          "n_profile_evaluations": 0,
+          "n_bound_evaluations": 0,
+          "n_cache_hits": 0,
+          "n_validation_evaluations": 0
+        },
+        "blocked_transactions": 0,
+        "limits": {
+          "n_cell_requests": 14,
+          "n_forward_state_evaluations": 0,
+          "n_profile_evaluations": 0,
+          "n_bound_evaluations": 14,
+          "n_cache_hits": 14,
+          "n_validation_evaluations": 0
+        }
+      },
+      "FINE": {
+        "n_cell_requests": 0,
+        "n_forward_state_evaluations": 0,
+        "n_profile_evaluations": 0,
+        "n_bound_evaluations": 0,
+        "n_cache_hits": 0,
+        "n_validation_evaluations": 0,
+        "hard_budget_limit": 87,
+        "charged_total": 0,
+        "attempts": {
+          "n_cell_requests": 0,
+          "n_forward_state_evaluations": 0,
+          "n_profile_evaluations": 0,
+          "n_bound_evaluations": 0,
+          "n_cache_hits": 0,
+          "n_validation_evaluations": 0
+        },
+        "blocked_transactions": 0,
+        "limits": {
+          "n_cell_requests": 29,
+          "n_forward_state_evaluations": 0,
+          "n_profile_evaluations": 0,
+          "n_bound_evaluations": 29,
+          "n_cache_hits": 29,
+          "n_validation_evaluations": 0
+        }
+      }
+    },
+    "CZ": {
+      "COARSE": {
+        "n_cell_requests": 0,
+        "n_forward_state_evaluations": 0,
+        "n_profile_evaluations": 0,
+        "n_bound_evaluations": 0,
+        "n_cache_hits": 0,
+        "n_validation_evaluations": 0,
+        "hard_budget_limit": 924,
+        "charged_total": 0,
+        "attempts": {
+          "n_cell_requests": 0,
+          "n_forward_state_evaluations": 0,
+          "n_profile_evaluations": 0,
+          "n_bound_evaluations": 0,
+          "n_cache_hits": 0,
+          "n_validation_evaluations": 0
+        },
+        "blocked_transactions": 0,
+        "limits": {
+          "n_cell_requests": 14,
+          "n_forward_state_evaluations": 294,
+          "n_profile_evaluations": 294,
+          "n_bound_evaluations": 308,
+          "n_cache_hits": 14,
+          "n_validation_evaluations": 0
+        }
+      },
+      "FINE": {
+        "n_cell_requests": 0,
+        "n_forward_state_evaluations": 0,
+        "n_profile_evaluations": 0,
+        "n_bound_evaluations": 0,
+        "n_cache_hits": 0,
+        "n_validation_evaluations": 0,
+        "hard_budget_limit": 1914,
+        "charged_total": 0,
+        "attempts": {
+          "n_cell_requests": 0,
+          "n_forward_state_evaluations": 0,
+          "n_profile_evaluations": 0,
+          "n_bound_evaluations": 0,
+          "n_cache_hits": 0,
+          "n_validation_evaluations": 0
+        },
+        "blocked_transactions": 0,
+        "limits": {
+          "n_cell_requests": 29,
+          "n_forward_state_evaluations": 609,
+          "n_profile_evaluations": 609,
+          "n_bound_evaluations": 638,
+          "n_cache_hits": 29,
+          "n_validation_evaluations": 0
+        }
+      }
+    }
+  },
+  "counter_units": {
+    "n_cell_requests": "certificate request admitted before cache lookup",
+    "n_forward_state_evaluations": "one point/cell prediction at one depth, all three lines and 121 times",
+    "n_profile_evaluations": "one admitted finite label per prediction, no duplicate-label skip",
+    "n_bound_evaluations": "one bearing cell bound or one cell-depth feature mismatch bound",
+    "n_cache_hits": "one admitted certificate reuse, request also charged",
+    "n_validation_evaluations": "one registered numeric fixture/reconstruction/metric comparison; zero allowed in search"
+  },
+  "transactions": "atomic all-profile admission before work; counters admitted calls including later failures; attempted units and blocked transactions logged",
+  "cap_behavior": "retain active and all queued cells; HARD_CAP; coverage_closed=false",
+  "invalid_behavior": "retain pending domain; execution_valid=false; coverage_closed=false",
+  "wall_clock": "60/120 s calibration targets, not hard wall-time guarantees; operation caps strict",
+  "development_validation_budget": 0,
+  "cap_tuning_from_development": false,
+  "calibration_execution_count": 2,
+  "repeat_reason": "Accounting/sentinel fix followed by same-policy calibration on final sources; latest final-code run frozen, no numerical rule tuning",
+  "earlier_implementation_calibration_cell_caps": {
+    "COARSE": 16,
+    "FINE": 32
+  },
+  "extra_levels_or_budget_allowed": false
+}

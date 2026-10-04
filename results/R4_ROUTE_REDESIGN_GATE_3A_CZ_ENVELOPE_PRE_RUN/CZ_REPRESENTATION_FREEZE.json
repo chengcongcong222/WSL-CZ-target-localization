@@ -1,0 +1,40 @@
+{
+  "id": "WINDOW_SHAPE_Q2",
+  "frequencies_hz": [
+    201,
+    235,
+    283
+  ],
+  "times_s": "0:10:1200",
+  "time_samples": 121,
+  "window_masks_inclusive": [
+    [
+      0,
+      60
+    ],
+    [
+      61,
+      120
+    ]
+  ],
+  "window_counts": [
+    61,
+    60
+  ],
+  "dimension": 12,
+  "coefficient_order": "frequency/window/degree 1,2",
+  "polynomial_coordinates": "x_i=2i-(n-1); q_i=x_i^2-mean(x^2)",
+  "inner_product": "SUM discrete Euclidean",
+  "basis": "b1=x/sqrt(sum x^2); b2=q/sqrt(sum q^2)",
+  "centering": "independent per line/window",
+  "score_dB": "sqrt(sum_12 residual coefficient squared / 6)",
+  "weights": "equal three lines and two windows",
+  "nuisance": "N0_STATIC_PER_LINE_PER_WINDOW_OFFSET",
+  "tau_F_dB": 1e-07,
+  "tau_scope": "numerical/reconstruction compatibility only",
+  "sensitivity": "NONE",
+  "other_representations": "NOT_RUN",
+  "N1": "NOT_RUN",
+  "N2": "SYMBOLIC_ONLY_NOT_RUN",
+  "real_noise_model": false
+}

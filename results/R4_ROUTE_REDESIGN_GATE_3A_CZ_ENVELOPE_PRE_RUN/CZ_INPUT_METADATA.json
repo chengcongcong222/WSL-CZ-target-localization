@@ -1,0 +1,92 @@
+{
+  "primary_case_ids": [
+    "P01_s0.1_seed410001",
+    "P02_s0.1_seed410001",
+    "P03_s0.1_seed410001",
+    "P04_s0.1_seed410001",
+    "P05_s0.1_seed410001",
+    "P06_s0.1_seed410001",
+    "P07_s0.1_seed410001",
+    "P08_s0.1_seed410001",
+    "P09_s0.1_seed410001",
+    "Q01_s0.1_seed420001",
+    "Q01_s0.1_seed420002",
+    "Q02_s0.1_seed420001",
+    "Q02_s0.1_seed420002",
+    "Q03_s0.1_seed420001",
+    "Q03_s0.1_seed420002",
+    "Q04_s0.1_seed420001",
+    "Q04_s0.1_seed420002",
+    "Q05_s0.1_seed420001",
+    "Q05_s0.1_seed420002",
+    "Q06_s0.1_seed420001",
+    "Q06_s0.1_seed420002"
+  ],
+  "primary_count": 21,
+  "manifest_headers": [
+    "case_id",
+    "panel_id",
+    "sigma_deg",
+    "seed",
+    "bearing_cutoff",
+    "observation_index",
+    "origin_group"
+  ],
+  "manifest_sha256": "6030fb3aa041ba23d4b665d3abb81b0ab73367cfcd66e1d3c93f22b6504d0c46",
+  "archive_sha256": "d92493e6343d7a4305fc06c053d27e9aa8801a3e6cceea27295eaefe12a1b525",
+  "archive_member_headers": [
+    {
+      "member": "case_ids.npy",
+      "shape": [
+        36
+      ],
+      "dtype": "<U19",
+      "fortran_order": false,
+      "uncompressed_bytes": 2864,
+      "numeric_payload_read": false
+    },
+    {
+      "member": "bearing_rad.npy",
+      "shape": [
+        36,
+        121
+      ],
+      "dtype": "float64",
+      "fortran_order": false,
+      "uncompressed_bytes": 34976,
+      "numeric_payload_read": false
+    },
+    {
+      "member": "relative_tl.npy",
+      "shape": [
+        36,
+        3,
+        121
+      ],
+      "dtype": "float64",
+      "fortran_order": false,
+      "uncompressed_bytes": 104672,
+      "numeric_payload_read": false
+    },
+    {
+      "member": "times_s.npy",
+      "shape": [
+        121
+      ],
+      "dtype": "float64",
+      "fortran_order": false,
+      "uncompressed_bytes": 1096,
+      "numeric_payload_read": false
+    }
+  ],
+  "same_archive_noiseless": {
+    "count": 15,
+    "role": "REGRESSION_ONLY",
+    "run": false
+  },
+  "old_FIX2_24_cases": "NOT_RUN_IN_FIRST_PRIMARY_DEVELOPMENT",
+  "fresh": "NOT_GENERATED",
+  "metadata_only": true,
+  "development_observation_payload_reads": 0,
+  "case_numerical_feature_search_runs": 0
+}

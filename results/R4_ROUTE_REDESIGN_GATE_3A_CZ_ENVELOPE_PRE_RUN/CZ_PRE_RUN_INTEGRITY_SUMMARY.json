@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": 13097,
+  "failed": 0,
+  "protected_files": 7194,
+  "protected_files_changed": [],
+  "protected_inventory_sha256": "ef90b6927adfcd0f713a13a82ab8db4f44a7de3650c75fbae10ec18939ce2623",
+  "historical_raw_bindings": 2796,
+  "historical_input_bindings": 2989,
+  "raw_input_matches": 2865,
+  "LF_only_input_matches": 124,
+  "prior_portable_text_bindings": 5,
+  "master_old_ledger_rows": 29,
+  "master_new_rows": 4,
+  "progress_percent": 0,
+  "development_numerical_runs": 0,
+  "CSV_sha256": "2d54a3bee04718095c9ed0dad7e2a55ad48a64d33492a7df0dc4430d283f732d",
+  "metadata_scope": "ZIP/NPY header shapes only; hashes are byte identities, not numerical payload processing",
+  "storage": "canonical D workspace; D operational files, dependencies, temp and caches",
+  "passed_check_ids_sha256": "770ed10736d1c60499a6cc75f2add61a4c04f040c7b4af756c0a92a3b3013834"
+}

@@ -1,0 +1,39 @@
+{
+  "stage": "R4_ROUTE_REDESIGN_GATE_3A_CZ_ENVELOPE_PRE_RUN_FREEZE",
+  "parent_gate3_commit": "e56ba746ebe7370d1dee3d0a181bc348b5fecc5f",
+  "calibration_policy_commit": "a393c7b45c92c42fd148d9c162faeb5ea35160c7",
+  "decision": "CZ_ENVELOPE_PRE_RUN_FREEZE_READY_FOR_INDEPENDENT_AUDIT",
+  "whole_cell_enclosure": "ESTABLISHED",
+  "enclosure_scope": "mathematically conservative fixed modal model, not useful contraction or development coverage/convergence",
+  "truth_exclusion": "ESTABLISHED",
+  "primary_representation": "WINDOW_SHAPE_Q2",
+  "sensitivity": "NONE",
+  "primary_nuisance": "N0_STATIC_PER_LINE_PER_WINDOW_OFFSET",
+  "threshold_tier": "NOMINAL",
+  "tau_F_dB": 1e-07,
+  "raw_cell_caps": {
+    "COARSE": 14,
+    "FINE": 29
+  },
+  "unit_tests_passed": 47,
+  "integrity_checks_passed": 13097,
+  "development_numerical_feature_search_runs": 0,
+  "development_released": false,
+  "fresh": "NOT_GENERATED",
+  "N1": "NOT_RUN",
+  "N2": "SYMBOLIC_ONLY_NOT_RUN",
+  "scientific_gate_result": "NOT_RUN",
+  "R4_progress_percent": 0,
+  "A2_depth_SSP_P5": "UNOPENED",
+  "stop_rules": [
+    "Stop after PRE-RUN commit/push; wait independent audit",
+    "No 21-case feature/search before separate lead release",
+    "No sensitivity, N1, third optimizer, extra budget or third grid",
+    "Retain unresolved/loose/capped domain; closure false",
+    "If enclosure or implementation invalid, stop; no point-grid fallback",
+    "No fresh, A2/depth development/SSP/P5; R4=0%"
+  ],
+  "stop_after_commit_push": true,
+  "current_real_receiver_M1": "UNKNOWN_NOT_FROZEN",
+  "real_UUV_evidence": "NOT_VERIFIED"
+}

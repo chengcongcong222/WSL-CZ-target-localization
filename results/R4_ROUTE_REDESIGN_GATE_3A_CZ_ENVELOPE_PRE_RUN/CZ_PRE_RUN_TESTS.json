@@ -1,0 +1,326 @@
+{
+  "tests": 47,
+  "passed": 47,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "junit_sha256": "103e815df2c269082993519019c11cbf025e1750b96cff27a8b6a6b496282fd2",
+  "command": "PYTHONPATH=D:/ProjectStorage/WSL-CZ/dependencies PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 python -m pytest tests/test_r4_cz_envelope.py -q -p no:cacheprovider --junitxml=D:/ProjectStorage/WSL-CZ/gate3a-20261004/tests.xml",
+  "required_categories_passed": [
+    "basis orthogonality",
+    "offset invariance",
+    "determinism",
+    "dimensions",
+    "prohibited inputs",
+    "N0",
+    "trajectory domain",
+    "finite depth",
+    "toy feasible retention",
+    "unresolved retained",
+    "empty failure",
+    "certificate-only rejection",
+    "raw independence",
+    "N/N+1 cap",
+    "cache accounting",
+    "evaluation sentinel",
+    "B0/CZ separation",
+    "adjacency",
+    "boundary censoring",
+    "development hard stop"
+  ],
+  "additional_categories": [
+    "modal root/tiny containment",
+    "wrap uncertainty",
+    "immutable observation",
+    "geometry precharge",
+    "atomic profile precharge",
+    "B0 no acoustic calls",
+    "direct-entry sentinel"
+  ],
+  "cases": [
+    {
+      "name": "test_q2_basis[61]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_q2_basis[60]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_static_offset_invariance",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_exact_repeat_determinism",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_m0_rejects_invalid_shape_or_phase[x0]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_m0_rejects_invalid_shape_or_phase[x1]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_m0_rejects_invalid_shape_or_phase[x2]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_m0_rejects_invalid_shape_or_phase[x3]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_feature_dimension_and_equal_score_norm",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_prohibited_inputs[truth]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_prohibited_inputs[range_truth]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_prohibited_inputs[truth_motion]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_prohibited_inputs[truth_depth]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_prohibited_inputs[phase]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_prohibited_inputs[oracle]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_prohibited_inputs[source_spectrum]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_n0_constant_polynomial_control",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.002,
+      "status": "PASS"
+    },
+    {
+      "name": "test_candidate_trajectory_domain_and_containment",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.005,
+      "status": "PASS"
+    },
+    {
+      "name": "test_finite_depth_enumeration",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.005,
+      "status": "PASS"
+    },
+    {
+      "name": "test_certified_bound_preserves_analytic_feasible_states",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_unresolved_and_budget_cells_retained",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_terminal_loose_bound_retained",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_empty_support_is_failure",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_rejection_requires_valid_certificate",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_coarse_fine_fresh_independent",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_hard_cap_n_n_plus_one[n_cell_requests]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_hard_cap_n_n_plus_one[n_forward_state_evaluations]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_hard_cap_n_n_plus_one[n_profile_evaluations]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_hard_cap_n_n_plus_one[n_bound_evaluations]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_hard_cap_n_n_plus_one[n_cache_hits]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_hard_cap_n_n_plus_one[n_validation_evaluations]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_aggregate_cap_and_atomic_transaction",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_cache_accounting",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_evaluation_runtime_sentinel",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_b0_cz_separation",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_adjacency_deterministic_and_no_corner_merge",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_boundary_censoring",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_unreleased_development_hard_stop",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.002,
+      "status": "PASS"
+    },
+    {
+      "name": "test_observation_immutable_and_metadata_validation",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_estimator_source_whitelist",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.023,
+      "status": "PASS"
+    },
+    {
+      "name": "test_real_modal_enclosure_contains_declared_fixture[ROOT]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 4.794,
+      "status": "PASS"
+    },
+    {
+      "name": "test_real_modal_enclosure_contains_declared_fixture[TINY]",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 4.791,
+      "status": "PASS"
+    },
+    {
+      "name": "test_bearing_wrap_uncertainty_retains",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.002,
+      "status": "PASS"
+    },
+    {
+      "name": "test_bound_cap_prevents_geometry_work",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_direct_certificate_entry_sentinel",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.001,
+      "status": "PASS"
+    },
+    {
+      "name": "test_baseline_model_has_no_acoustic_evaluation",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.002,
+      "status": "PASS"
+    },
+    {
+      "name": "test_profile_reservation_is_atomic_before_prediction",
+      "class": "tests.test_r4_cz_envelope",
+      "seconds": 0.002,
+      "status": "PASS"
+    }
+  ],
+  "development_data_used": false,
+  "scientific_result": false
+}

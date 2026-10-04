@@ -1,0 +1,484 @@
+{
+  "policy_commit": "a393c7b45c92c42fd148d9c162faeb5ea35160c7",
+  "policy_raw_sha256": "22de084c66d807f1d21f5bce8e45aeb23bd95985ee597b07fd662b1de7fee8c0",
+  "fixture_count": 15,
+  "delta_num_dB": 1.0016216043736348e-10,
+  "tau_F_dB": 1e-07,
+  "tau_formula": "ceil(max(1e-7,64*delta_num)/1e-12)*1e-12",
+  "claim_scope": "Numerical/reconstruction compatibility only, no real acoustic noise claim; fixture calibration is not a uniform binary64 rounding proof. Whole-cell arithmetic itself is outward rounded Arb.",
+  "runtime_cell_cost_seconds": 3.275019900058396,
+  "raw_cell_caps": {
+    "COARSE": 14,
+    "FINE": 29
+  },
+  "calibration_accounting": {
+    "n_cell_requests": 0,
+    "n_forward_state_evaluations": 90,
+    "n_profile_evaluations": 90,
+    "n_bound_evaluations": 44,
+    "n_cache_hits": 0,
+    "n_validation_evaluations": 68,
+    "hard_budget_limit": 600000,
+    "charged_total": 292,
+    "attempts": {
+      "n_cell_requests": 0,
+      "n_forward_state_evaluations": 90,
+      "n_profile_evaluations": 90,
+      "n_bound_evaluations": 44,
+      "n_cache_hits": 0,
+      "n_validation_evaluations": 68
+    },
+    "blocked_transactions": 0,
+    "limits": {
+      "n_cell_requests": 100000,
+      "n_forward_state_evaluations": 100000,
+      "n_profile_evaluations": 100000,
+      "n_bound_evaluations": 100000,
+      "n_cache_hits": 100000,
+      "n_validation_evaluations": 100000
+    }
+  },
+  "enclosure_fixtures": [
+    {
+      "fixture": "ROOT",
+      "cell_low": [
+        45.0,
+        -5.0,
+        1.0,
+        -15.0
+      ],
+      "cell_high": [
+        60.0,
+        5.0,
+        3.0,
+        15.0
+      ],
+      "elapsed_seconds": 1.4120006000157446,
+      "bearing_lower": "0",
+      "bearing_upper": "[5.88232638277568 +/- 2.68e-15]",
+      "feature_lower": "0",
+      "feature_upper": "[5202.85608468019 +/- 3.36e-12]",
+      "depth_profiles": 21
+    },
+    {
+      "fixture": "TINY",
+      "cell_low": [
+        45.0,
+        -5.0,
+        1.0,
+        -15.0
+      ],
+      "cell_high": [
+        45.000000000001,
+        -4.999999999999,
+        1.000000000001,
+        -14.999999999999
+      ],
+      "elapsed_seconds": 3.275019900058396,
+      "bearing_lower": "0",
+      "bearing_upper": "[5.51069475436408e-26 +/- 3.80e-41]",
+      "feature_lower": "0",
+      "feature_upper": "[3.19847126251623e-6 +/- 9.79e-22]",
+      "depth_profiles": 21
+    }
+  ],
+  "depth_mapping": [
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 150,
+      "effective_source_depth_m": 150.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 155,
+      "effective_source_depth_m": 154.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 160,
+      "effective_source_depth_m": 160.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 165,
+      "effective_source_depth_m": 164.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 170,
+      "effective_source_depth_m": 170.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 175,
+      "effective_source_depth_m": 174.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 180,
+      "effective_source_depth_m": 180.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 185,
+      "effective_source_depth_m": 184.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 190,
+      "effective_source_depth_m": 190.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 195,
+      "effective_source_depth_m": 194.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 200,
+      "effective_source_depth_m": 200.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 205,
+      "effective_source_depth_m": 204.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 210,
+      "effective_source_depth_m": 210.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 215,
+      "effective_source_depth_m": 214.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 220,
+      "effective_source_depth_m": 220.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 225,
+      "effective_source_depth_m": 224.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 230,
+      "effective_source_depth_m": 230.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 235,
+      "effective_source_depth_m": 234.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 240,
+      "effective_source_depth_m": 240.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 245,
+      "effective_source_depth_m": 244.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 201,
+      "profile_label_m": 250,
+      "effective_source_depth_m": 250.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 150,
+      "effective_source_depth_m": 150.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 155,
+      "effective_source_depth_m": 154.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 160,
+      "effective_source_depth_m": 160.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 165,
+      "effective_source_depth_m": 164.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 170,
+      "effective_source_depth_m": 170.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 175,
+      "effective_source_depth_m": 174.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 180,
+      "effective_source_depth_m": 180.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 185,
+      "effective_source_depth_m": 184.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 190,
+      "effective_source_depth_m": 190.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 195,
+      "effective_source_depth_m": 194.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 200,
+      "effective_source_depth_m": 200.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 205,
+      "effective_source_depth_m": 204.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 210,
+      "effective_source_depth_m": 210.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 215,
+      "effective_source_depth_m": 214.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 220,
+      "effective_source_depth_m": 220.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 225,
+      "effective_source_depth_m": 224.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 230,
+      "effective_source_depth_m": 230.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 235,
+      "effective_source_depth_m": 234.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 240,
+      "effective_source_depth_m": 240.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 245,
+      "effective_source_depth_m": 244.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 235,
+      "profile_label_m": 250,
+      "effective_source_depth_m": 250.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 150,
+      "effective_source_depth_m": 150.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 155,
+      "effective_source_depth_m": 154.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 160,
+      "effective_source_depth_m": 160.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 165,
+      "effective_source_depth_m": 164.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 170,
+      "effective_source_depth_m": 170.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 175,
+      "effective_source_depth_m": 174.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 180,
+      "effective_source_depth_m": 180.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 185,
+      "effective_source_depth_m": 184.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 190,
+      "effective_source_depth_m": 190.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 195,
+      "effective_source_depth_m": 194.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 200,
+      "effective_source_depth_m": 200.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 205,
+      "effective_source_depth_m": 204.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 210,
+      "effective_source_depth_m": 210.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 215,
+      "effective_source_depth_m": 214.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 220,
+      "effective_source_depth_m": 220.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 225,
+      "effective_source_depth_m": 224.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 230,
+      "effective_source_depth_m": 230.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 235,
+      "effective_source_depth_m": 234.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 240,
+      "effective_source_depth_m": 240.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 245,
+      "effective_source_depth_m": 244.0,
+      "receiver_depth_m": 200.0
+    },
+    {
+      "frequency_hz": 283,
+      "profile_label_m": 250,
+      "effective_source_depth_m": 250.0,
+      "receiver_depth_m": 200.0
+    }
+  ],
+  "dependency": {
+    "package": "python-flint",
+    "version": "0.9.0",
+    "wheel": "python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+    "sha256": "8f1059536b7393e48b1444894c3b54ce1b961e4aa4a356e19217b26690f20db0",
+    "url": "https://files.pythonhosted.org/packages/63/dd/4b49e36612e924707090c569cf5c3daa9ba3c3e3050897715e3136d055af/python_flint-0.9.0-cp310-abi3-win_amd64.whl",
+    "target": "D:\\ProjectStorage\\WSL-CZ\\dependencies",
+    "pip_failed": "pre-existing pip vendored FileCache import; verified wheel extraction used"
+  },
+  "development_numerical_runs": 0,
+  "development_observations_loaded": false,
+  "fresh": "NOT_GENERATED",
+  "scientific_result": false,
+  "source_sha256": {
+    "r4_cz_envelope_representation.py": "abcbbb081356abe61fdfa773234e0f73c7e4318012758bda92e1a23e5073f4b7",
+    "r4_cz_envelope_model.py": "14f893a9f0a7f0509150b7aa427c59f08f8e7a6e8e64036fadb522ede164d090",
+    "r4_cz_envelope_support.py": "3b946ef0b684e35edcd953a76efaf8e30d5a47b6dbc2ebdba4f6d142403cb7a1",
+    "r4_cz_envelope_prerun_audit.py": "93906788fa91bb0fe8699bc20829097e12478e545725311c60a0f52de09accee"
+  }
+}
