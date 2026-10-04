@@ -1,0 +1,5 @@
+# Accepted B1 finding and B1A authorization
+
+Research lead accepted parent3fc3518161722890b7aa8da7fab524fea7b8f917 as B1_DEPTH_IDENTIFIABLE_ONLY_UNDER_TIGHT_HORIZONTAL_CONDITIONING_ACCEPTED. H0 unique true minima6/6; positive margins/curvature6/6. H1 full48 includes exact24,within5=29,within10=32,rank<=3=26,worst50 m. Angle and heading controls exact12/12 each; range+/-1 km exact0/12,worst50 m; speed+/-0.2 m/s exact0/12,worst35 m. Preserve these as on-grid matched conditional mechanism evidence, not a horizontal tolerance envelope. B1/overall progress still0%.
+
+New explicit instruction authorizes R4_B1A_RANGE_SPEED_CONDITIONING_BOUNDARY only, complete Cartesian dyadic lattice and frozen useful target0.25 km/0.05 m/s with practical two-bin/rank criterion. S7/S8 both retained. No B2 or other A/B/C stages authorized; closed CZ global acquisition route stays closed. No change to old evidence, primary score or environment. The current original B1 seal is verified before append-only management updates; its historical master-file bindings are preserved in parent git objects. New stage permits only append-only master plan/ledger and new B1A artifacts/code.
