@@ -1,0 +1,15 @@
+{
+  "analysis_valid": true,
+  "checks_passed": 25619,
+  "failed": 0,
+  "main_curve_rows": 6048,
+  "no_center_curve_rows": 2016,
+  "metrics": 384,
+  "source_provenance_rows": 8064,
+  "protected_files": 7312,
+  "numerical_tolerance_db": 4.3087311496492475e-10,
+  "new_propagation_evaluations": 0,
+  "new_depth_scores": 0,
+  "elapsed_seconds": 4.097155899973586,
+  "policy_commit": "cb9c0cfa93bf829ca9d8f6312ad14c73283e038e"
+}
