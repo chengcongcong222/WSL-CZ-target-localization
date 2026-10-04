@@ -1,0 +1,3 @@
+# Accepted single-array closeout
+
+Parent6b8d57ef6082f24720c9ece654b9cd710a687e13 independently accepted negative: JOINT_RVZ_PROFILE_ROUTE_NOT_SUPPORTED_BY_EXISTING_EVIDENCE; CURRENT_CONDITIONAL_DEPTH_ENGINEERING_ROUTE_CLOSED. B1A below target accepted. CZ_ENVELOPE_CERTIFIED_GLOBAL_SEARCH_ROUTE_CLOSED preserved. A1 NOT_COMPLETED; B1 CLOSED/NOT_COMPLETED0/10%; R4=0%. CURRENT_SINGLE_ARRAY_EVIDENCE_SUPPORTS_TARGET=false. Exact-horizontal mechanism retained as oracle evidence. Original A/B sequence PAUSED_PENDING_ARCHITECTURE_RESET. New authorization only auxiliary-node geometry Gate0; no propagation/depth/tracker/optimizer. Freeze/push then execute once/push/stop.

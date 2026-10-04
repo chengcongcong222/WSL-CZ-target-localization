@@ -1,0 +1,11 @@
+# Frozen geometry Gate0
+
+R=50/55/60 km; B=0.5/1/2/5/10 km; alpha=2/5/10/20/30/45/60/90 deg; sigma=0.05/0.1/0.2/0.5 deg; both triangle roots and both mirrors. No grid adjustment. Full grid retains impossible triangles as N/A, not simulated failures or universal baseline rejection. No new calculation before design push.
+
+20000 trials per feasible cell, seed2026100501 PCG64, independent Gaussian sensors with common draws across cells. Median/P90/P95/P99 use nearest rank ceil(n*p), no interpolation. Range=norm(p_hat-MAIN); relative range error=abs(range-R)/R. Cross-range absolute error perpendicular to true MAIN LoB; 2D error=Euclidean target error. Parallel/nonfinite/behind estimates get infinite errors in unconditional metrics. Finite ill-conditioned cases retained. Proxy 1/abs(sin(observed crossing))>1000 reported separately. Failure/behind/parallel/numerical rates may overlap.
+
+Strong P95<=1%; usable<=5%; project-level<=10%; range geometry only, not five-parameter Gate. Primary sigma0.1 deg. Worst both roots/mirrors, explicit per-range results; no favorable50 km pooling hides boundary failure. P95 finite-sample rank interval uses approximate binomial normal95%; Wilson interval for fraction<=5%. Primary Gate empirical P95; intervals not selected-grid simultaneous coverage. Local covariance/CRLB not actual estimator guarantee.
+
+Practical ceiling5 km is a planning assumption, not verified hardware capacity; 10 km stretch. Outcome A: some B<=5 frozen geometry reaches5% across all50/55/60 km and both roots/mirrors. Outcome B: no A but some feasible region reaches5%, or full50/55/60 km reaches10%; architecture scope remains research-lead decision. Outcome C: neither; tested candidate not sufficient, not universal impossibility. No thresholds/cells added after results.
+
+No automatic R4-A1-NEW or depth release. No source cooperation or specific array assumed. Hardware, directed-bearing accuracy/front-back, node pose, time/target association, latency/detection/communications remain future gates. Independent horizontal posterior may justify future new-architecture depth validation; current B1 stays closed. R4=0%; original A/B sequence paused. Two commits, freeze/push before execute; execute once, push and stop.
