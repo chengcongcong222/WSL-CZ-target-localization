@@ -1,0 +1,63 @@
+{
+  "stage": "R4_B1_CONDITIONAL_DEPTH_PROFILE_IDENTIFIABILITY",
+  "parent_sha": "20846a9e1ebb10518762587635856c71763da790",
+  "design_freeze_sha": "0f93b162b15cd89340a6a2fba9ac26411c0c5fb2",
+  "scientific_decision": "B1_DEPTH_IDENTIFIABLE_ONLY_UNDER_TIGHT_HORIZONTAL_CONDITIONING",
+  "CZ_acquisition_route": "CLOSED_FOR_CERTIFIED_GLOBAL_SEARCH",
+  "R4_A1": "BLOCKED / NOT_COMPLETED",
+  "R4_A1_progress_percent": 0,
+  "H0_case_count": 6,
+  "H0_unique_true_minima": 6,
+  "H0_positive_second_best_margin": 6,
+  "H0_positive_neighbor_margin": 6,
+  "H0_positive_curvature": 6,
+  "H1_total": 48,
+  "H1_exact_depth": 24,
+  "H1_within_5m": 29,
+  "H1_within_10m": 32,
+  "H1_true_rank_le3": 26,
+  "worst_H1_depth_error_m": 50.0,
+  "minimum_H0_DeltaJ_second_db": 0.794480743753601,
+  "minimum_H0_DeltaJ_neighbor_db": 0.9822038657231211,
+  "minimum_H1_DeltaJ_second_db": -3.2149840484907997,
+  "minimum_H1_DeltaJ_neighbor_db": -1.7990935324037913,
+  "H0_interior_minima_counts": {
+    "S7_Z180": 7,
+    "S7_Z200": 7,
+    "S7_Z220": 6,
+    "S8_Z180": 7,
+    "S8_Z200": 7,
+    "S8_Z220": 6
+  },
+  "H0_W50_m": {
+    "S7_Z180": 0.0,
+    "S7_Z200": 5.0,
+    "S7_Z220": 0.0,
+    "S8_Z180": 0.0,
+    "S8_Z200": 5.0,
+    "S8_Z220": 0.0
+  },
+  "H1_W50_range_m": [
+    0.0,
+    60.0
+  ],
+  "numerical_tolerance_db": 4.3087311496492475e-10,
+  "execution_valid": true,
+  "primary_case_ids": [
+    "S7_Z180",
+    "S7_Z200",
+    "S7_Z220",
+    "S8_Z180",
+    "S8_Z200",
+    "S8_Z220"
+  ],
+  "historical_definition_correction": "Six configurations are S7 triple x3 depths plus S8 four-line x3 depths; three distinct synthetic source-depth scenarios, not six independent replicates. No new score selected.",
+  "claim_scope": "ORACLE/EXACT-HORIZONTAL-CONDITIONED DEPTH MECHANISM; synthetic matched E0; on-grid labels; S7 triple and historical S8 four-line companion; no end-to-end performance claim",
+  "proposed_R4_B1_progress_percent": 0,
+  "proposed_R4_overall_progress_percent": 0,
+  "confirmed_R4_progress_percent": 0,
+  "audit_status": "PENDING_RESEARCH_LEAD_AUDIT",
+  "B2": "NOT_OPENED",
+  "A2_A3_A4_B3_B4_C": "NOT_OPENED",
+  "P5": "NOT_OPENED"
+}

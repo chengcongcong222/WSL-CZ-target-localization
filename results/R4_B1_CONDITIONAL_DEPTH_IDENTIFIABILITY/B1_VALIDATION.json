@@ -1,0 +1,24 @@
+{
+  "execution_valid": true,
+  "checks_passed": 8505,
+  "checks_failed": 0,
+  "profiles": 54,
+  "depth_rows": 1134,
+  "independent_score_rows": 1134,
+  "repeat_score_rows": 1134,
+  "historical_score_replays": 12,
+  "maximum_repeat_difference_db": 0.0,
+  "maximum_independent_difference_including_observations_db": 4.3087311496492475e-11,
+  "floating_floor_db": 1.5381092849621755e-13,
+  "numerical_reconstruction_tolerance_db": 4.3087311496492475e-10,
+  "tolerance_rule": {
+    "residual_multiplier": 10,
+    "floating_floor_multiplier": 128,
+    "maximum_allowed_absolute_difference_db": 1e-07,
+    "maximum_allowed_tolerance_db": 1e-06,
+    "rule": "max(128*eps*max(1,max_abs_profile_J),10*maximum_repeat_or_independent_profile_or_observation_abs_residual)"
+  },
+  "historical_files_preserved": 7241,
+  "elapsed_seconds": 13.358943999977782,
+  "design_commit": "0f93b162b15cd89340a6a2fba9ac26411c0c5fb2"
+}
