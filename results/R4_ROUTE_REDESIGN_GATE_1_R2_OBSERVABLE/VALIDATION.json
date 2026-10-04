@@ -1,0 +1,332 @@
+{
+  "stage": "R4_ROUTE_REDESIGN_GATE_1_R2_ACQUISITION_OBSERVABLE_DESIGN_AUDIT",
+  "accepted_parent_gate0_commit": "193abb7cd13a38fac91ad1715e6873dd3d6440e9",
+  "validation_status": "PASS",
+  "validation_scope": "Document, source-identity, historical-byte and management-consistency checks only. Validation PASS is not a scientific candidate admission.",
+  "method": "Standard-library SHA256 and Git blob checks, existing saved CSV/JSON checks, source bindings, structural decision consistency, append-only management, UTF8 and links. No science modules imported; no simulation, Monte Carlo, optimizer, forward model, estimator, reconstruction, numerical harness or new panel executed.",
+  "new_numerical_experiments": 0,
+  "new_numerical_thresholds_defined": false,
+  "new_estimators_implemented": false,
+  "protected_preexisting_file_count": 7166,
+  "protected_preexisting_bytes": 2054200424,
+  "protected_files_changed": [],
+  "protected_before_after_inventory_sha256": "a06301112f2beca759dc3881e790615e6b963ae1fa1afe53c1fdf002d31c17a3",
+  "accepted_Gate0_artifacts": 7,
+  "accepted_closeout_artifacts": 6,
+  "accepted_parent_artifact_bindings": {
+    "results/R4_ROUTE_REDESIGN_GATE_0/COLD_START_INFORMATION_SOURCE_MATRIX.csv": {
+      "raw_sha256": "7165f13bc3203cab18809349a0d42293ebf46edbbf56e50900431c0fba195378",
+      "canonical_git_blob_oid": "78526dd46df18312d899e27c7f8e8a5db0c95ce9"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/GPT_SYNC.md": {
+      "raw_sha256": "7da72423ea5619c0ff4a087eb6b95581f8450600fc6a5451e395f77d0dac275a",
+      "canonical_git_blob_oid": "8ca546d429b50aa2cb67fc827c3d3448663eeac1"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/R1_ACQUISITION_VS_TRACKING.md": {
+      "raw_sha256": "0a317cd1523fa08aa31b6fe1cf5351ba698a87320a62f88e0290c8917aca76eb",
+      "canonical_git_blob_oid": "3743795323ec4a5c28afe3fcaf4dc19c34af17de"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/R1_CIRCULAR_DEPENDENCY_AUDIT.md": {
+      "raw_sha256": "42b732a3029726b822ac50c976619de254c4eaf85fbfe2a6d20a47fddb8298ac",
+      "canonical_git_blob_oid": "15f894d3cfeb2da77e643d1ba8e5555e3d8980b2"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/R1_GATE0_DECISION.json": {
+      "raw_sha256": "f4b3ede5035ad506ce7174bf53f4daf3312c5d3bcd64de3772337c67cb5def11",
+      "canonical_git_blob_oid": "4b83f37b315c99d41968696a3d047c8026e56c07"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/ROUTE_REDESIGN_GATE0_REPORT.md": {
+      "raw_sha256": "6d82ba2259ecacacd7dd81b5f161c9377e24e6541d8c0505a48a10d98d55e206",
+      "canonical_git_blob_oid": "583491ac2916eaf03bcf3f660d9efee129f7bc7d"
+    },
+    "results/R4_ROUTE_REDESIGN_GATE_0/VALIDATION.json": {
+      "raw_sha256": "6aaa7e3e5e6ea856cf4606b562af0e6ab5429783d78b09d6271c7b393698054b",
+      "canonical_git_blob_oid": "ee0ab11a0ca153f9b712c1571d1f2543cb7693f8"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/A1_CLOSEOUT_REPORT.md": {
+      "raw_sha256": "44c21d0230157c54cb75af1df891167503421577b3fa7f058e6b16ff54472196",
+      "canonical_git_blob_oid": "dbde29318a4254da20b05b87d8ec4a7702c9210b"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/A1_EVIDENCE_CHAIN.md": {
+      "raw_sha256": "e904ad82bd18cc664e5a577b768ee55f7cffaadbc16366c100fae69108331d61",
+      "canonical_git_blob_oid": "2af9b5d729a428412ffeef01752a50db04af6918"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/CLOSEOUT_VALIDATION.json": {
+      "raw_sha256": "54327cd838a1f2237520182ca84a0d2cd26a7525b28d335fdf3e3426bcdf7720",
+      "canonical_git_blob_oid": "98a15e0875cf020db057c16f998db862d2427ad7"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/GPT_SYNC.md": {
+      "raw_sha256": "3d12ab936e64dd9e2b4952703735745aac4aff5dfd1056860ec1f8d003ccbbf6",
+      "canonical_git_blob_oid": "d9c8a1174cc40006e47fc36675f5a754684e5cc1"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/R4_A1_CLOSEOUT_DECISION.json": {
+      "raw_sha256": "f91d3a00bbd6e43f472334eadae1f831f8fe791f48ceb4241ab649530818e481",
+      "canonical_git_blob_oid": "85ba7d2b73b9c8f354f1c4588beee3c0a552260e"
+    },
+    "results/R4_A1_CLOSEOUT_AND_ROUTE_DECISION/R4_ROUTE_DECISION.md": {
+      "raw_sha256": "27c5f385428236f05ba823f9daa6dac095f53343ddd10caa76ddbdc1c91716f8",
+      "canonical_git_blob_oid": "e7ad621d347a27a3d1eac5a1120cccdb63d96e67"
+    }
+  },
+  "historical_input_identities": {
+    "total": 2989,
+    "raw_sha256_matches": 2865,
+    "CRLF_LF_only_matches_with_canonical_sha256_and_git_oid": 124
+  },
+  "raw_freeze_binding_comparisons": 2796,
+  "unique_raw_bound_paths": 2747,
+  "raw_freeze_manifest_counts": {
+    "METHOD_FREEZE.json": 40,
+    "DEVELOPMENT_EXECUTION_FREEZE.json": 17,
+    "CHECKPOINT_EVIDENCE_FREEZE.json": 57,
+    "DEVELOPMENT_RESULTS_EVIDENCE_FREEZE.json": 2682
+  },
+  "previous_portable_text_bindings": {
+    "r4_a1_search_tractability_development_reconstruction.py": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "93c6f715d4d96277cd50ca957207988a4f8792aa231a03faf7e3619a11789a90",
+      "git_blob_oid": "314f396432f66267111e6e49542d2ac3b3137d11"
+    },
+    "r4_a1_search_tractability_development_report.py": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "0e3d9ff9abc9c8b70d31974ca4f8a8f59509879310c784537e74785e61c88b58",
+      "git_blob_oid": "873dcf3574f6be53fd37249fb64dad747eb099d9"
+    },
+    "results/R4_MASTER/R4_PROGRESS.json": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "8ac5629645d667693007aa7c5edbed479a6e327b7b627aec7b8abbd4385a7cac",
+      "git_blob_oid": "247e31e6f59c800a21538e805941c7adb00f814b"
+    },
+    "results/R4_MASTER/R4_PLAN.md": {
+      "verified_against": "ACCEPTED_PARENT_GIT_BLOB",
+      "canonical_lf_sha256": "85f56b2258b3c2e4326483a60c10b2b9fc2d0160c25e6005a8ac850960047fc5",
+      "git_blob_oid": "cc29286420d9fb37e5b95c8df90eaff9fc97ca48"
+    },
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv": {
+      "verified_against": "ACCEPTED_PARENT_GIT_BLOB",
+      "canonical_lf_sha256": "837b3cf51d4cf95fce6dfd0520223f315386c4aad224fb563ea83b4a4504c89e",
+      "git_blob_oid": "6fa52934b432d7827dbfcffd852c2f5d429f3f2f"
+    }
+  },
+  "portable_management_freeze_git_source_commit": "9cfa99c14bb80d08e6f16210ebf89fd9c541b850",
+  "historical_R4_PROGRESS_json_preserved": true,
+  "management_weights_unchanged": true,
+  "plan_old_bytes_preserved_as_exact_prefix": true,
+  "ledger_rows_preserved": 17,
+  "ledger_rows_appended": 4,
+  "all_credited_weights_zero": true,
+  "existing_files_authorized_to_change": [
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+    "results/R4_MASTER/R4_PLAN.md"
+  ],
+  "new_artifacts_authorized": [
+    "GPT_SYNC.md",
+    "R2_CANDIDATE_RANKING.md",
+    "R2_GATE1_DECISION.json",
+    "R2_LITERATURE_TRANSFERABILITY.md",
+    "R2_MEASUREMENT_CHAIN_AUDIT.md",
+    "R2_OBSERVABLE_ADMISSIBILITY_MATRIX.csv",
+    "ROUTE_REDESIGN_GATE1_REPORT.md",
+    "VALIDATION.json"
+  ],
+  "source_matrix_rows": 6,
+  "required_matrix_fields": [
+    "Candidate",
+    "Observable",
+    "Cold-start available?",
+    "Requires known waveform?",
+    "Requires coherent phase?",
+    "Source-level invariant?",
+    "Absolute-range information?",
+    "Searchability expectation",
+    "Existing evidence",
+    "Transfer blocker",
+    "Admission"
+  ],
+  "matrix_evidence_paths_verified": 19,
+  "Markdown_relative_links_verified": 49,
+  "decision_consistency": {
+    "class_counts": {
+      "A": 0,
+      "B": 5,
+      "C": 1
+    },
+    "candidate_admitted_for_quantitative_design": false,
+    "priority_1": "CZ_ENVELOPE",
+    "priority_2": "INTERFERENCE_FRINGE",
+    "ranking_scope": "CONDITIONAL_INFORMATION_CHAIN_CLARIFICATION_PRIORITY_NOT_PERFORMANCE_RANKING_OR_IMPLEMENTATION_AUTHORIZATION",
+    "all_six_candidates_have_six_structural_gates": true,
+    "no_numerical_accuracy_requirement_imposed_for_structural_admission": true,
+    "R4_progress_percent": 0,
+    "A2_depth_SSP_P5": "UNOPENED"
+  },
+  "existing_saved_evidence_checks": {
+    "HLA_aperture_m_and_mainlobe_km": [
+      [
+        0.0,
+        7.75
+      ],
+      [
+        14.0,
+        15.0
+      ],
+      [
+        70.0,
+        15.0
+      ]
+    ],
+    "WI_beta_status": "NON_CONSTANT",
+    "single_depth_TDOA_decision": "SINGLE_DEPTH_AUTOCORR_OBSERVABLE_NOT_NUMERICALLY_STABLE",
+    "single_depth_TDOA_existing_shape_consistency": "4/12",
+    "MMAC_branch_permanently_closed": true,
+    "tractability_failure_and_execution_integrity_preserved": true
+  },
+  "primary_source_bindings": {
+    "L7": {
+      "id": "external-paper-0",
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\\u8bba\u6587\\\u8bba\u6587-\u58f0\u5b66\u5b66\u62a5-\u5f84\u5411\u8ddd\\\u5229\u7528\u6df1\u6d77\u6d77\u5e95\u58f0\u53cd\u5c04\u533a\u9891\u57df\u5e72\u6d89\u7ed3\u6784\u7684\u58f0\u6e90\u6df1\u5ea6\u4f30\u8ba1\u65b9\u6cd5_\u5f90\u5609\u7498.pdf",
+      "sha256": "af9b03a953bacdb7d1f33ea22dee4279964121b126fefe7c0851736c6211c522",
+      "pages": 12,
+      "header_valid": true,
+      "read_evidence": "Local original PDF text inspected during design audit; no propagation calculation."
+    },
+    "L1": {
+      "id": "external-paper-1",
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\\u8bba\u6587\\\u8bba\u6587-\u58f0\u5b66\u5b66\u62a5-\u5f84\u5411\u8ddd\\\u6df1\u6d77\u4f1a\u805a\u533a\u58f0\u573a\u591a\u9014\u65f6\u5ef6\u5dee\u5206\u6790\u53ca\u58f0\u6e90\u8ddd\u79bb\u4f30\u8ba1_\u5f90\u5609\u7498.pdf",
+      "sha256": "d18e0bd14c209618519f6695ff485f6e164fe0283932ec6d2d44a72bb29361e0",
+      "pages": 15,
+      "header_valid": true,
+      "read_evidence": "Local original PDF text inspected during design audit; no propagation calculation."
+    },
+    "L2": {
+      "id": "external-paper-2",
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\\u8bba\u6587\\\u8bba\u6587-\u58f0\u5b66\u5b66\u62a5-\u5f84\u5411\u8ddd\\\u6df1\u6d77\u6d77\u5e95\u58f0\u53cd\u5c04\u533a\u591a\u9014\u65f6\u5ef6\u5dee\u5206\u6790\u4e0e\u8fd1\u6d77\u9762\u58f0\u6e90\u5b9a\u4f4d.pdf",
+      "sha256": "7591224d27e8bee77ce45a0267f7392742768abb8338d29e975b04502a4d18fc",
+      "pages": 14,
+      "header_valid": true,
+      "read_evidence": "Local original PDF text inspected during design audit; no propagation calculation."
+    },
+    "L3": {
+      "id": "external-paper-3",
+      "path": "D:\\ccc\\\u535a\u58eb\u8d44\u6599\\7.\u9879\u76ee\\2026-716\u5355\u9635\\\u8bba\u6587\\\u8bba\u6587-\u58f0\u5b66\u5b66\u62a5-\u5f84\u5411\u8ddd\\\u6df1\u6d77\u79fb\u52a8\u6c34\u5e73\u9635\u58f0\u6e90\u88ab\u52a8\u5b9a\u4f4d\u65b9\u6cd5\u7814\u7a76\u8fdb\u5c55_\u5218\u4e0e\u6db5.pdf",
+      "sha256": "3b51f2c6052a72f105a65e65695c5bde7c9158841d9e916075bd06c6f5268fc5",
+      "pages": 19,
+      "header_valid": true,
+      "read_evidence": "Local original PDF text inspected during design audit; no propagation calculation."
+    },
+    "L4": {
+      "path": "literature/yang2015_Yang2015_JASA138_1678.pdf",
+      "sha256": "b34952ead13fdaabdf9f1e7d87728fc2cb72fd09497240aac20ebdfc47f4b5b4",
+      "header_valid": true,
+      "pages": 10
+    },
+    "L5": {
+      "path": "literature/liang2018_mmar_7824671.pdf",
+      "sha256": "9364914d34f5408f80065a31cd7fbcb5195c21047c97b2eb118348191b861834",
+      "header_valid": true,
+      "pages": 15
+    },
+    "L8": {
+      "path": "literature/2014.pdf",
+      "sha256": "bc389afbf9a77c562775bc4ab051b64b031e7ccbb606f633fb6b1f9059c2e01b",
+      "header_valid": true,
+      "pages": 13
+    },
+    "L6": {
+      "title": "Cockrell & Schmidt 2010; JASA 127:2780-2789",
+      "doi": "10.1121/1.3337223",
+      "primary_URL": "https://acoustics.mit.edu/faculty/henrik/LAMSS/Pubs/cockrell_schmidt_jasa_127_p2780-2789_2010.pdf",
+      "accessed_date_Asia_Shanghai": "2026-10-04",
+      "read_evidence": "Author institution primary PDF via browser; broadband intensity and horizontal sampling assumptions inspected. No local PDF download; no claimed local byte hash."
+    }
+  },
+  "invalid_same_name_repository_file_preserved_and_not_primary": {
+    "path": "literature/xu_jialin_2024_cz_tdoa.pdf",
+    "sha256": "0116495bef9d3cea862344f5e215d98a9593c4118874566bc31fd022f13a6423",
+    "header_valid": false,
+    "status": "INVALID_PDF_HEADER_NOT_PRIMARY_EVIDENCE"
+  },
+  "source_bindings": {
+    "r4_a1_offgrid_bearing.py": "f137196aabbc6019b0fac523ea530535caa5445fc8d41eafe8d45b650a5ba4a8",
+    "results/P3_RC3_increment/P3_RC3_GPT_SYNC.md": "f08563c07002a14770e0b71c1dadba02fad5f3c8ca4c7acafcd4a202c5502efa",
+    "results/P3_RC3_increment/line_doppler_increment.csv": "823a2fc4a08dd37f1a1bacd8fffd23c7396b7583256fe9faad5d6cd35c58127d",
+    "results/R3_A1_fidelity/HLA_MFP_COMPARE.csv": "c9581bdb703780ceeff95bb262ce995c75e326454a66866d50a6e8d487a40e95",
+    "results/R3_A1_fidelity/R3_A1_REPORT.md": "0f5267a7ce0afbeb0b1f58cec35615cb6c3d6c555567ae24f7bffb95ac0816fa",
+    "results/R3_A1_fidelity/beta_eff_summary.csv": "db73c7b0e69993130662b47a62110facc6e31fcedd945932fac8f6954b2c0fba",
+    "results/R3_B1_MMAC_observability/R3_B1_FINAL_REPORT.md": "df982bfab598bccd11a9559be36b8085e3339c67801017ca4457278d9fab283c",
+    "results/R3_C2_AR_MMAR/R3_C2_4B_3A_HANKEL_AMPLITUDE/DZ_INPUT_CONTRACT.md": "30c68e5e88330bba656f31efea787f1b97870324bf6b6dbe7fa09fcfeea97022",
+    "results/R3_C2_Yang_SA_depth/R3_C2_2B/YANG2015_EQ6_OBSERVABLE_NOTE.md": "d9488dddf2b37380394500ee035f103d776e9f70b92696cd93dd25b4d4820fa0",
+    "results/R3_C2_Yang_SA_depth/R3_C2_2B/YANG2015_PAPER_REPRO_CONFIG.md": "246936e36b78e2a1ebaa87365f5f2979000ccec0a0e3c00271ce6f360072140e",
+    "results/R3_C2_Yang_SA_depth/R3_C2_3A/R3_C2_3A_REPORT.md": "8e3eb88bdf1553d4e72a10b280e56e6965e254199e461db64af1d99277cf17a7",
+    "results/R3_FINAL_CLOSEOUT/R3_FINAL_RANGE_UB_STATUS.md": "565e9feeef28a79001edf2204c7a9c35dc4018df72cb2565f8362c11e2803097",
+    "results/R3_FINAL_CLOSEOUT/R3_FINAL_WORKING_ENVELOPE.md": "8ca248a005140ceeabe9caf71ecfc420504db57d8c936f91424c82df63fd8886",
+    "results/R3_FINAL_PARAMETER_CONTRACTION/RC1_SUPPORT_ROLE.md": "ee0f98262ed9b398d20d40b73b312e173f73f82dfba46f4d3c4835b7871232a7",
+    "results/R3_RC3_REANCHOR/R3_RC3_LINE_INSTABILITY_BOUNDARY_FIX/R3_RC3_REANCHOR_5B_FIX_REPORT.md": "9f951b7fb11d2f61ac95404db2c5d2fc17f77d9ab962c6a6b87c133de18b4c36",
+    "results/R3_RC3_REANCHOR/ROLE_FREEZE.md": "9058103e68008004c964f8ba697119ac8eb5fce90d4e9481a1a206cbddb97160",
+    "results/RANGE_UB/CZ_TDOA_EARLY_LAG_AUTOCORR/RANGE_UB_1C_FIX2_DECISION.json": "7ff76b21f1e0c1d13b5d38d92f348f67ac67572d28e0d0154ddb9b08b359f0c6",
+    "results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX/PRIMARY_SOURCE_2024_LOCK.json": "cb80c833a65ec4f30eec059feae4c0b1b655b9150409d62446a4a0f6975129b4",
+    "results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX/XU2024_METHOD_FACTS.md": "6646cd915bd3710a9c89e35b33f951b2592d880093bbaf842ce5f83bd240f9cb"
+  },
+  "new_artifact_bindings": {
+    "GPT_SYNC.md": {
+      "canonical_lf_sha256": "2b177955d946e179ef22d0ea5d6d7e261f64b0c9c6c8aa916afeeb780bce747a",
+      "canonical_git_blob_oid": "cd74f17a73ad0b00ae13735936395768fae2ec5e",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R2_CANDIDATE_RANKING.md": {
+      "canonical_lf_sha256": "0074974ebfed76e0f6faaca6fe153f7fab50e54ef7fc53a05b35896473a7d910",
+      "canonical_git_blob_oid": "812c78550099fbe9a35d13e89b8f411b591b0c20",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R2_GATE1_DECISION.json": {
+      "canonical_lf_sha256": "c91460011c10ff9464a7bc4c25fd2dd01a6f38679bd3146af65f9952c02ad7ec",
+      "canonical_git_blob_oid": "8584f40180be813f676c67da956f1e3992cb396a",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R2_LITERATURE_TRANSFERABILITY.md": {
+      "canonical_lf_sha256": "b5765ff12c8eb0a8c265e94c8d3f0b13928c9a47177652472ade2a867638a7f1",
+      "canonical_git_blob_oid": "1dc011178d5419ce6eb77c4c483ae251fef3a6a7",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R2_MEASUREMENT_CHAIN_AUDIT.md": {
+      "canonical_lf_sha256": "9a4e1afae16e15fc05268c3f0fd61ec18efa647444cd291b112359cb1ea2534a",
+      "canonical_git_blob_oid": "c72add97b77aff538974c8014a960aa5a80fa278",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R2_OBSERVABLE_ADMISSIBILITY_MATRIX.csv": {
+      "canonical_lf_sha256": "ffba482b003eaf046fbf7bf5536b6301b215f07d21afb30cb65a4dde1d1b2fa3",
+      "canonical_git_blob_oid": "63a02072aa7ada1b0a2f4dd5e9736e283d57821e",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "ROUTE_REDESIGN_GATE1_REPORT.md": {
+      "canonical_lf_sha256": "acfaeaa2eaae583347623c5c87c788dfd7f8f98cbbc19c20d941f1b06a9d125d",
+      "canonical_git_blob_oid": "68939061145830a10d5f782140a5db6fd8539fde",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    }
+  },
+  "current_management_text_bindings": {
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv": {
+      "canonical_lf_sha256": "6a5d077066659e934c9499ad6236583ae312782f93493311389f0d2f07f2761a",
+      "canonical_git_blob_oid": "386d4b822f8f938bd89bdd90a8b9f8950549fde9"
+    },
+    "results/R4_MASTER/R4_PLAN.md": {
+      "canonical_lf_sha256": "d7a127095945b8490fb582051f0a367227e16471e94d510d5e61b751c5a1d83f",
+      "canonical_git_blob_oid": "8787820cc58af3b4fac5f91c0ef61c5fa1ba28e2"
+    }
+  },
+  "binding_note": "VALIDATION.json is bound by the enclosing Gate1 Git commit, not a self hash. Seven other artifacts and two current management texts have canonical Git blob identities. Prior master freeze identities are verified at the frozen development commit without rewriting old manifests. Full local inventories and standard-library validator reside on D. Original primary papers are unchanged, and external D paths are provenance references, not new repository inputs.",
+  "storage": "D:/ProjectStorage/WSL-CZ/gate1-20261004; canonical D-drive project; D-drive temp/cache",
+  "check_groups": [
+    "7166 protected byte identities",
+    "accepted Gate0 and closeout blobs",
+    "2796 raw freeze comparisons",
+    "2989 historical identities",
+    "five portable freeze bindings",
+    "six-candidate matrix and logical gates",
+    "eight primary source identities",
+    "existing HLA/WI/TDOA/MMAC/API facts",
+    "append-only management and zero credit",
+    "UTF8 and document links",
+    "two existing files and eight new artifacts"
+  ],
+  "failed_checks": 0
+}

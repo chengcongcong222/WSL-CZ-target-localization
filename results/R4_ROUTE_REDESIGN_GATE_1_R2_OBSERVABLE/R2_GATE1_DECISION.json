@@ -1,0 +1,381 @@
+{
+  "stage": "R4_ROUTE_REDESIGN_GATE_1_R2_ACQUISITION_OBSERVABLE_DESIGN_AUDIT",
+  "parent_gate0_commit": "193abb7cd13a38fac91ad1715e6873dd3d6440e9",
+  "parent_gate0_audit_status": "R4_ROUTE_REDESIGN_GATE0_ACCEPTED_BY_RESEARCH_LEAD",
+  "new_numerical_experiments": 0,
+  "R1_cold_start": "NOT_ESTABLISHED",
+  "R1_tracking": "CONDITIONALLY_PLAUSIBLE_POST_ACQUISITION_ONLY",
+  "RC3_direct_TL_role": "LOCAL_CONDITIONAL_ANCHOR_ONLY",
+  "R2_candidates": {
+    "CZ_ENVELOPE": "R2_CONDITIONAL_PENDING_MEASUREMENT_CHAIN",
+    "MULTIPATH_TDOA": "R2_CONDITIONAL_PENDING_MEASUREMENT_CHAIN",
+    "INTERFERENCE_FRINGE": "R2_CONDITIONAL_PENDING_MEASUREMENT_CHAIN",
+    "ORDERED_DIFFERENTIAL_FREQUENCY": "R2_CONDITIONAL_PENDING_MEASUREMENT_CHAIN",
+    "DOPPLER": "R2_CONDITIONAL_PENDING_MEASUREMENT_CHAIN",
+    "ARRAY_SPATIAL": "R2_REJECT_CURRENT_SCOPE"
+  },
+  "candidate_details": {
+    "CZ_ENVELOPE": {
+      "Admission": "CONDITIONAL",
+      "class": "B",
+      "measurement_status": "CONDITIONALLY_MEASURABLE",
+      "quantitative_design_admitted": false,
+      "all_G1_conditions_closed": false,
+      "logical_Gates": {
+        "G1-1": {
+          "structurally_satisfied": false,
+          "status": "CONDITIONAL_SOURCE_GAIN_CHAIN"
+        },
+        "G1-2": {
+          "structurally_satisfied": true,
+          "status": "TRUTH_FREE_OBSERVATION_DOMAIN_DESIGN_ONLY"
+        },
+        "G1-3": {
+          "structurally_satisfied": false,
+          "status": "NORMALIZED_COARSE_RANGE_RELEVANCE_NOT_ESTABLISHED"
+        },
+        "G1-4": {
+          "structurally_satisfied": false,
+          "status": "SOURCE_DRIFT_DEPTH_ENVIRONMENT_UNCLOSED"
+        },
+        "G1-5": {
+          "structurally_satisfied": true,
+          "status": "COARSER_SMOOTHER_MECHANISM_HYPOTHESIS_ONLY"
+        },
+        "G1-6": {
+          "structurally_satisfied": false,
+          "status": "COMPATIBLE_HARDWARE_BUT_SHORT_WINDOW_AND_SOURCE_CONDITIONS_UNCLOSED"
+        }
+      },
+      "searchability_evidence_level": "MECHANISM_EXPECTATION_ONLY_NOT_VALIDATED",
+      "evidence_paths": [
+        "results/R3_FINAL_CLOSEOUT/R3_FINAL_WORKING_ENVELOPE.md",
+        "results/R3_FINAL_PARAMETER_CONTRACTION/RC1_SUPPORT_ROLE.md",
+        "r4_a1_offgrid_bearing.py"
+      ],
+      "primary_source_ids": [
+        "L3"
+      ]
+    },
+    "MULTIPATH_TDOA": {
+      "Admission": "CONDITIONAL",
+      "class": "B",
+      "measurement_status": "NOT_CURRENTLY_AVAILABLE",
+      "quantitative_design_admitted": false,
+      "all_G1_conditions_closed": false,
+      "logical_Gates": {
+        "G1-1": {
+          "structurally_satisfied": false,
+          "status": "NO_CURRENT_BROADBAND_OR_TRANSIENT_LAG_CHAIN"
+        },
+        "G1-2": {
+          "structurally_satisfied": true,
+          "status": "TRUTH_FREE_AGGREGATE_POSSIBLE_NO_ORACLE_PATHS"
+        },
+        "G1-3": {
+          "structurally_satisfied": false,
+          "status": "RANGE_INFORMATION_IN_CONDITIONAL_PAPER_ORACLE_CONTROLS_ONLY"
+        },
+        "G1-4": {
+          "structurally_satisfied": false,
+          "status": "SOURCE_AUTOCORRELATION_AND_DELAY_PAIR_AMBIGUITY_UNCLOSED"
+        },
+        "G1-5": {
+          "structurally_satisfied": true,
+          "status": "LOW_DIMENSIONAL_DELAY_STRUCTURE_HYPOTHESIS_ONLY"
+        },
+        "G1-6": {
+          "structurally_satisfied": false,
+          "status": "XU_VLA_METHOD_INCOMPATIBLE_AGGREGATE_HLA_PENDING_SIGNAL_STABILITY"
+        }
+      },
+      "searchability_evidence_level": "MECHANISM_EXPECTATION_ONLY_NOT_VALIDATED",
+      "evidence_paths": [
+        "results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX/XU2024_METHOD_FACTS.md",
+        "results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX/PRIMARY_SOURCE_2024_LOCK.json",
+        "results/R3_FINAL_CLOSEOUT/R3_FINAL_RANGE_UB_STATUS.md",
+        "results/RANGE_UB/CZ_TDOA_EARLY_LAG_AUTOCORR/RANGE_UB_1C_FIX2_DECISION.json",
+        "results/R3_B1_MMAC_observability/R3_B1_FINAL_REPORT.md"
+      ],
+      "primary_source_ids": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "signal_condition_status": "CONDITIONAL_PENDING_SIGNAL_STRUCTURE; HISTORICAL_SINGLE_DEPTH_BRANCH_NOT_REOPENED"
+    },
+    "INTERFERENCE_FRINGE": {
+      "Admission": "CONDITIONAL",
+      "class": "B",
+      "measurement_status": "NOT_CURRENTLY_AVAILABLE",
+      "quantitative_design_admitted": false,
+      "all_G1_conditions_closed": false,
+      "logical_Gates": {
+        "G1-1": {
+          "structurally_satisfied": false,
+          "status": "NO_ESTABLISHED_DENSE_SPECTRAL_INTENSITY_CHAIN"
+        },
+        "G1-2": {
+          "structurally_satisfied": true,
+          "status": "INTENSITY_ONLY_TRUTH_FREE_DESIGN_NO_PHASE_ORACLE"
+        },
+        "G1-3": {
+          "structurally_satisfied": false,
+          "status": "RANGE_RANGE_RATE_BETA_SCALE_COUPLING_UNCLOSED"
+        },
+        "G1-4": {
+          "structurally_satisfied": false,
+          "status": "SOURCE_SPECTRUM_DEPTH_ENVIRONMENT_UNCLOSED"
+        },
+        "G1-5": {
+          "structurally_satisfied": true,
+          "status": "AMBIGUITY_STRUCTURED_FEATURE_HYPOTHESIS_ONLY"
+        },
+        "G1-6": {
+          "structurally_satisfied": false,
+          "status": "SPARSE_TONES_AND_UNKNOWN_RADIAL_COORDINATE_NO_DIRECT_CZ_CONSTANT_BETA_TRANSFER"
+        }
+      },
+      "searchability_evidence_level": "MECHANISM_EXPECTATION_ONLY_NOT_VALIDATED",
+      "evidence_paths": [
+        "results/R3_A1_fidelity/R3_A1_REPORT.md",
+        "results/R3_A1_fidelity/beta_eff_summary.csv",
+        "results/R3_FINAL_CLOSEOUT/R3_FINAL_WORKING_ENVELOPE.md"
+      ],
+      "primary_source_ids": [
+        "L3",
+        "L6"
+      ]
+    },
+    "ORDERED_DIFFERENTIAL_FREQUENCY": {
+      "Admission": "CONDITIONAL",
+      "class": "B",
+      "measurement_status": "CONDITIONALLY_MEASURABLE",
+      "quantitative_design_admitted": false,
+      "all_G1_conditions_closed": false,
+      "logical_Gates": {
+        "G1-1": {
+          "structurally_satisfied": false,
+          "status": "CONDITIONAL_TRACKED_LEVEL_CHAIN"
+        },
+        "G1-2": {
+          "structurally_satisfied": true,
+          "status": "TRUTH_FREE_STATISTIC_DESIGN_ONLY"
+        },
+        "G1-3": {
+          "structurally_satisfied": false,
+          "status": "ABSOLUTE_RANGE_RETENTION_NOT_ESTABLISHED_AFTER_NUISANCE_REMOVAL"
+        },
+        "G1-4": {
+          "structurally_satisfied": false,
+          "status": "PER_LINE_SOURCE_SPECTRUM_AND_DRIFT_NOT_AUTOMATICALLY_CANCELLED"
+        },
+        "G1-5": {
+          "structurally_satisfied": true,
+          "status": "COARSE_CODE_OR_DIFFERENTIAL_REPRESENTATION_HYPOTHESIS_ONLY"
+        },
+        "G1-6": {
+          "structurally_satisfied": false,
+          "status": "SINGLE_HLA_COMPATIBLE_BUT_SPECTRUM_STABILITY_UNCLOSED"
+        }
+      },
+      "searchability_evidence_level": "MECHANISM_EXPECTATION_ONLY_NOT_VALIDATED",
+      "evidence_paths": [
+        "r4_a1_offgrid_bearing.py",
+        "results/R3_RC3_REANCHOR/R3_RC3_LINE_INSTABILITY_BOUNDARY_FIX/R3_RC3_REANCHOR_5B_FIX_REPORT.md",
+        "results/R3_FINAL_CLOSEOUT/R3_FINAL_WORKING_ENVELOPE.md"
+      ],
+      "primary_source_ids": [
+        "L3"
+      ]
+    },
+    "DOPPLER": {
+      "Admission": "CONDITIONAL",
+      "class": "B",
+      "measurement_status": "CONDITIONALLY_MEASURABLE",
+      "quantitative_design_admitted": false,
+      "all_G1_conditions_closed": false,
+      "logical_Gates": {
+        "G1-1": {
+          "structurally_satisfied": false,
+          "status": "CONDITIONAL_FREQUENCY_TRACK_NOT_CURRENT_A1_INPUT"
+        },
+        "G1-2": {
+          "structurally_satisfied": true,
+          "status": "UNKNOWN_F0_MUST_BE_NUISANCE_NOT_TRUTH_LABEL"
+        },
+        "G1-3": {
+          "structurally_satisfied": false,
+          "status": "RADIAL_VELOCITY_NOT_ABSOLUTE_RANGE_JOINT_RIDGE_BREAKING_UNCLOSED"
+        },
+        "G1-4": {
+          "structurally_satisfied": false,
+          "status": "EMITTED_FREQUENCY_DRIFT_CLOCK_SOUND_SPEED_UNCLOSED"
+        },
+        "G1-5": {
+          "structurally_satisfied": true,
+          "status": "LOW_DIMENSIONAL_KINEMATIC_MECHANISM_ONLY"
+        },
+        "G1-6": {
+          "structurally_satisfied": false,
+          "status": "TONAL_UUV_COMPATIBLE_IF_STABILITY_AND_INDEPENDENT_INFORMATION_ESTABLISHED"
+        }
+      },
+      "searchability_evidence_level": "MECHANISM_EXPECTATION_ONLY_NOT_VALIDATED",
+      "evidence_paths": [
+        "results/P3_RC3_increment/P3_RC3_GPT_SYNC.md",
+        "results/P3_RC3_increment/line_doppler_increment.csv",
+        "results/R3_RC3_REANCHOR/ROLE_FREEZE.md",
+        "results/R3_FINAL_CLOSEOUT/R3_FINAL_WORKING_ENVELOPE.md"
+      ],
+      "primary_source_ids": [
+        "L3",
+        "L4"
+      ]
+    },
+    "ARRAY_SPATIAL": {
+      "Admission": "REJECT_CURRENT_SCOPE",
+      "class": "C",
+      "measurement_status": "CONDITIONALLY_MEASURABLE",
+      "quantitative_design_admitted": false,
+      "all_G1_conditions_closed": false,
+      "logical_Gates": {
+        "G1-1": {
+          "structurally_satisfied": false,
+          "status": "CONDITIONAL_RAW_SYNCHRONIZED_CALIBRATED_CHANNELS"
+        },
+        "G1-2": {
+          "structurally_satisfied": true,
+          "status": "COMMON_SOURCE_PHASE_CANCELLATION_POSSIBLE_NOT_ORACLE_MODAL_PHASE"
+        },
+        "G1-3": {
+          "structurally_satisfied": false,
+          "status": "TESTED_APERTURES_NO_EXTRA_RANGE_ANCHOR_MODE_ID_UNCLOSED"
+        },
+        "G1-4": {
+          "structurally_satisfied": false,
+          "status": "SENSOR_NOISE_DEPTH_ENVIRONMENT_NUISANCE_UNCLOSED"
+        },
+        "G1-5": {
+          "structurally_satisfied": false,
+          "status": "UNCHANGED_EXACT_MFP_GLOBAL_MATCHING_DOES_NOT_SATISFY"
+        },
+        "G1-6": {
+          "structurally_satisfied": false,
+          "status": "CURRENT_HLA_CZ_SHORT_APERTURE_RANGE_VARIANT_REJECTED"
+        }
+      },
+      "searchability_evidence_level": "NO_CURRENT_ACCEPTED_ALTERNATIVE_TO_EXACT_GLOBAL_MFP",
+      "evidence_paths": [
+        "results/R3_A1_fidelity/R3_A1_REPORT.md",
+        "results/R3_A1_fidelity/HLA_MFP_COMPARE.csv",
+        "results/R3_C2_Yang_SA_depth/R3_C2_3A/R3_C2_3A_REPORT.md",
+        "results/R3_C2_Yang_SA_depth/R3_C2_2B/YANG2015_EQ6_OBSERVABLE_NOTE.md",
+        "results/R3_C2_AR_MMAR/R3_C2_4B_3A_HANKEL_AMPLITUDE/DZ_INPUT_CONTRACT.md"
+      ],
+      "primary_source_ids": [
+        "L3",
+        "L4",
+        "L5",
+        "L8"
+      ]
+    }
+  },
+  "priority_1": "CZ_ENVELOPE",
+  "priority_2": "INTERFERENCE_FRINGE",
+  "ranking_scope": "CONDITIONAL_INFORMATION_CHAIN_CLARIFICATION_PRIORITY_NOT_PERFORMANCE_RANKING_OR_IMPLEMENTATION_AUTHORIZATION",
+  "candidate_admitted_for_quantitative_design": false,
+  "admitted_candidates": [],
+  "class_A": "R2_CANDIDATE_ADMITTED_FOR_QUANTITATIVE_GATE_DESIGN",
+  "class_B": "R2_CONDITIONAL_PENDING_MEASUREMENT_CHAIN",
+  "class_C": "R2_REJECT_CURRENT_SCOPE",
+  "class_counts": {
+    "A": 0,
+    "B": 5,
+    "C": 1
+  },
+  "measurement_chain_gap": "PRESENT; actual receive/signal contract and post-nuisance range feature relevance remain unestablished; current frozen relative-level data are not raw phase/delay/dense-spectrum measurements",
+  "measurement_chain_blockers": [
+    "RAW_RECEIVE_AND_CALIBRATION_CONTRACT_UNESTABLISHED",
+    "UUV_SOURCE_SPECTRUM_BAND_STABILITY_AND_GAIN_UNESTABLISHED",
+    "CZ_ENVELOPE_NORMALIZED_SHORT_WINDOW_RANGE_RELEVANCE_UNESTABLISHED",
+    "SPARSE_TONES_NOT_ESTABLISHED_DENSE_FRINGE",
+    "UNKNOWN_RANGE_RATE_BETA_AND_DEPTH_ENVIRONMENT_COUPLING",
+    "TDOA_SIGNAL_STRUCTURE_AND_AGGREGATE_EXTRACTABILITY_UNESTABLISHED",
+    "XU_VERTICAL_DEPTH_SLOPE_NOT_CURRENT_SINGLE_HLA",
+    "UNKNOWN_EMITTED_F0_AND_DRIFT_FOR_DOPPLER",
+    "CURRENT_SPATIAL_APERTURE_MODE_ID_NO_EXTRA_RANGE_ANCHOR"
+  ],
+  "logical_gate_definitions": {
+    "G1-1": "OBSERVABLE_REALITY",
+    "G1-2": "TRUTH_INDEPENDENCE",
+    "G1-3": "ABSOLUTE_RANGE_OR_NEW_RIDGE_BREAKING_INFORMATION",
+    "G1-4": "SOURCE_LEVEL_PHASE_SPECTRUM_DEPTH_ENVIRONMENT_NUISANCE_ROBUSTNESS",
+    "G1-5": "COARSER_SMOOTHER_LOWER_DIMENSIONAL_OR_AMBIGUITY_STRUCTURED_SEARCH_REASON",
+    "G1-6": "SINGLE_PLATFORM_HLA_FIRST_CZ_UUV_SHORT_SMALL_TURN_NO_Z_COMPATIBILITY"
+  },
+  "gate_boolean_scope": "True flags mean structural/interface design reasoning only, never numerical validation or scientific PASS. G1-3 is not satisfied merely by an oracle physical upper bound when current post-nuisance usable information is unestablished. G1-1/6 are not satisfied by unspecified future signal conditions.",
+  "no_numerical_performance_required_for_structural_admission": true,
+  "no_candidate_all_structural_gates_closed": true,
+  "new_numerical_thresholds_defined": false,
+  "new_estimators_implemented": false,
+  "phase_admissibility": {
+    "absolute_source_phase": "UNKNOWN_NOT_ADMITTED",
+    "absolute_propagation_phase": "NOT_DIRECTLY_OBSERVABLE_WITH_UNKNOWN_SOURCE",
+    "inter_element_phase": "CONDITIONAL_SAME_FREQUENCY_SYNCHRONIZED_CALIBRATED_SOURCE_COMMON_CANCELLATION",
+    "cross_frequency_phase": "SOURCE_PHASE_DIFFERENCE_NOT_AUTOMATICALLY_CANCELLED",
+    "temporal_phase_continuity": "CONDITIONAL_SOURCE_STABILITY_TRACKING_NOT_KNOWN_PROPAGATION_PHASE"
+  },
+  "closed_branch_preservation": {
+    "B1_MMAC": "PERMANENTLY_CLOSED_B1_NO_STABLE_MULTIPATH_IDENTITY",
+    "single_depth_extractable_TDOA": "CLOSED_SINGLE_DEPTH_AUTOCORR_OBSERVABLE_NOT_NUMERICALLY_STABLE",
+    "TDOA_oracle_upper_bound": "PHYSICAL_REFERENCE_ONLY_INFORMATION_PRESERVED",
+    "constant_beta_direct_CZ_transfer": "NOT_DIRECTLY_TRANSFERABLE_GENERALIZED_LOCAL_FAMILY_REMAINS_CONDITIONAL"
+  },
+  "rejected_specific_variants": [
+    "XU2024_VLA_SLOPE_DIRECT_TRANSFER_TO_SINGLE_HLA",
+    "BOTTOM_BOUNCE_PAPER_GEOMETRY_RENAMED_AS_FIRST_CZ",
+    "CONSTANT_BETA_DIRECT_TRANSFER_TO_E_STD",
+    "SINGLE_TIME_CROSS_FREQUENCY_ORDER_WITH_UNKNOWN_SOURCE_SPECTRUM",
+    "EXACT_TL_OR_EXACT_COHERENT_MFP_RENAMED_AS_NEW_COARSE_FEATURE",
+    "MODEL_ORACLE_PATH_MODAL_OR_PROPAGATION_PHASE_AS_RECEIVED_DATA"
+  ],
+  "recommended_next_stage": "R2_MEASUREMENT_CHAIN_AND_SIGNAL_CONDITION_SPECIFICATION",
+  "recommended_next_stage_scope": "DOCUMENT_ONLY_RECOMMENDATION_REQUIRES_NEW_RESEARCH_LEAD_INSTRUCTION; NO_QUANTITATIVE_DESIGN_RELEASE",
+  "R4_progress_percent": 0,
+  "A2_depth_SSP_P5": "UNOPENED",
+  "A1_search_repair_chain": "CLOSED",
+  "R4_route_status": "ROUTE_REDESIGN_REQUIRED",
+  "forbidden_actions": [
+    "NEW_SIMULATION",
+    "BELLHOP_KRAKEN_RUN",
+    "MONTE_CARLO",
+    "NEW_OPTIMIZER",
+    "NEW_PANEL",
+    "OLD_THRESHOLD_CHANGE",
+    "TDOA_ESTIMATOR",
+    "FRINGE_ESTIMATOR",
+    "T4",
+    "FIX3",
+    "FIX4",
+    "REOPEN_B1",
+    "REOPEN_SINGLE_DEPTH_TDOA",
+    "A2",
+    "DEPTH",
+    "SSP",
+    "P5"
+  ],
+  "frozen_R4_PROGRESS_json": "UNCHANGED_HISTORICAL_DEVELOPMENT_SNAPSHOT",
+  "Gate1_review_status": "PENDING_RESEARCH_LEAD_REVIEW_NO_PROGRESS_CREDIT",
+  "stop_after_commit_push": true,
+  "literature_primary_recovery": {
+    "Xu2024_valid_original_found": true,
+    "Xu2024_matches_previous_primary_lock_sha256": true,
+    "repository_untracked_same_name_pdf_invalid_and_preserved": true,
+    "mobile_HLA_review_full_text_read": true,
+    "bottom_bounce_full_text_read": true,
+    "Yang_Liang_full_text_read": true
+  },
+  "source_scope": "Existing frozen project material and primary papers; all coarse feature/search benefits are hypotheses. No real UUV general spectrum, local RC3 capture, acquisition performance or universal impossibility is claimed.",
+  "created_date_Asia_Shanghai": "2026-10-04"
+}
