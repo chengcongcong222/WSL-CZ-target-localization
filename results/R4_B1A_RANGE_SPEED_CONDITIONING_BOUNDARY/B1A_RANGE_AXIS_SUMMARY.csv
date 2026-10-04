@@ -1,0 +1,5 @@
+axis,absolute_offset,n_points,n_exact,n_within_5m,n_within_10m,n_rank_le3,n_practical_pass,n_strict_pass,n_failed,all_points_pass,worst_depth_error_m,worst_true_depth_rank,min_DeltaJ_second_db,min_DeltaJ_neighbor_db
+range,0.125,12,1,3,4,3,1,1,11,False,45.0,20,-1.6312098033427063,-1.4576209850568624
+range,0.25,12,0,1,7,0,0,0,12,False,45.0,21,-2.3529482405380415,-2.3529482405380415
+range,0.5,12,0,1,3,0,0,0,12,False,70.0,17,-1.295418038223764,-0.9024248801095864
+range,1.0,12,0,4,4,2,1,0,11,False,50.0,20,-3.2149840484907997,-1.7990935324037913

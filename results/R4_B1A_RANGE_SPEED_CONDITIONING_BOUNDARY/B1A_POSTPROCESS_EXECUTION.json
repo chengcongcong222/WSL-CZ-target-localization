@@ -1,0 +1,9 @@
+{
+  "stage": "POSTPROCESS_ONLY",
+  "first_attempt": "UnicodeDecodeError in default GBK read_text of generated Matplotlib UTF-8 SVG",
+  "resolution": "python -X utf8 r4_b1a_finish.py",
+  "frozen_source_changes": 0,
+  "new_physical_profiles": 0,
+  "score_metric_gate_reconstruction_before_plotting": "PASS",
+  "design_and_all_bound_inputs_unchanged": true
+}

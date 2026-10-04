@@ -1,0 +1,25 @@
+{
+  "execution_valid": true,
+  "checks_passed": 19177,
+  "failed": 0,
+  "profiles": 486,
+  "depth_rows": 10206,
+  "independent_score_rows": 10206,
+  "cold_repeat_rows": 10206,
+  "accepted_B1_replay_rows": 630,
+  "accepted_B1_reconstruction_residual_db": 4.3087311496492475e-11,
+  "maximum_repeat_difference_db": 0.0,
+  "maximum_independent_difference_db": 4.07820444081608e-11,
+  "floating_floor_db": 1.7434464502654994e-13,
+  "numerical_tolerance_db": 4.3087311496492475e-10,
+  "numerical_tolerance_rule": {
+    "residual_multiplier": 10,
+    "floating_floor_multiplier": 128,
+    "maximum_allowed_absolute_difference_db": 1e-07,
+    "maximum_allowed_tolerance_db": 1e-06,
+    "rule": "max(128*eps*max(1,max_abs_profile_J),10*max(new repeat/independent residual,accepted B1 observation/score residual))"
+  },
+  "historical_files_preserved": 7273,
+  "elapsed_seconds": 97.84773769997992,
+  "design_commit": "c3a9744f29ddc657c147539f135ccbecac5a3c1a"
+}
