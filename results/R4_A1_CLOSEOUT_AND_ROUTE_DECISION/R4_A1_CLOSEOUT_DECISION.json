@@ -1,0 +1,109 @@
+{
+  "stage": "R4_A1_CLOSEOUT_AND_ROUTE_DECISION",
+  "accepted_development_commit": "9cfa99c14bb80d08e6f16210ebf89fd9c541b850",
+  "development_independent_audit": "THIRD_INDEPENDENT_AUDIT_ACCEPTED_BY_RESEARCH_LEAD",
+  "A1_search_tractability": "NOT_ESTABLISHED",
+  "A1_search_repair_chain": "CLOSED",
+  "physical_nonidentifiability": "NOT_ESTABLISHED",
+  "global_uniqueness": "NOT_ESTABLISHED",
+  "current_direct_TL_global_search": "NOT_ENGINEERING_TRACTABLE_UNDER_TESTED_FROZEN_SEARCHES",
+  "recommended_R4_route": "RC2_TEMPORAL_CANDIDATE_NARROWING_PLUS_RC3_LOCAL_ANCHOR",
+  "route_priority": [
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "routes": {
+    "R1": "RC2_TEMPORAL_CANDIDATE_NARROWING_PLUS_RC3_LOCAL_ANCHOR",
+    "R2": "REDESIGN_SEARCHABLE_RC3_OBSERVABLE",
+    "R3": "EXACT_DIRECT_TL_ORACLE_DIAGNOSTIC_CONDITIONAL_RESCORING"
+  },
+  "R4_route_status": "ROUTE_REDESIGN_REQUIRED",
+  "R4_progress_percent": 0,
+  "A2_depth_SSP_P5": "UNOPENED",
+  "R3_status": "FROZEN",
+  "new_numerical_experiments": 0,
+  "existing_evidence": {
+    "SHGO_recovery": {
+      "T1": "0/21",
+      "T2": "0/21",
+      "T3": "0/21"
+    },
+    "DIRECT_recovery": {
+      "T1": "0/21",
+      "T2": "0/21",
+      "T3": "0/21"
+    },
+    "raw_T2_T3_convergence": {
+      "SHGO": "0/21",
+      "DIRECT": "0/21"
+    },
+    "dual_solver_gate": "NOT_REACHED",
+    "execution_valid_raw_runs": 126,
+    "depth_branches": 2646,
+    "hard_budget_enforcement_failures": 0,
+    "reconstruction_checks_passed": 14479,
+    "reconstruction_checks_failed": 0,
+    "independent_unique_case_depth_states_reconstructed": 232973,
+    "maximum_J_reconstruction_delta_db": 1.1619603057511085e-09,
+    "exact_alias": "NO_IN_TESTED_CATALOGS",
+    "tractability_fresh_confirmation": "NOT_REACHED_NOT_EXECUTED",
+    "T3_saved_table_aggregation": {
+      "SHGO": {
+        "n_cases": 21,
+        "minimum_best_J_db": 0.7287017461884644,
+        "maximum_best_J_db": 4.163079141952875,
+        "cases_in_0_8_to_4_db": 19
+      },
+      "DIRECT": {
+        "n_cases": 21,
+        "minimum_best_J_db": 0.8582561358136531,
+        "maximum_best_J_db": 3.999684262211911,
+        "cases_in_0_8_to_4_db": 21
+      }
+    },
+    "FIX2": {
+      "decision": "A1_FIX2_BLOCKED_BY_UNCLOSED_ACOUSTIC_COVERAGE",
+      "gates_passed": 2,
+      "gates_total": 6,
+      "cumulative_nominal_recovery": [
+        "9/21",
+        "17/21",
+        "18/21"
+      ],
+      "B3_raw_recovery": "17/21",
+      "B2_B3_both_raw_recovered": "16/21",
+      "independent_recovery": "5/7",
+      "primary_independent_agreement": "3/7",
+      "fresh_execution": "COMPLETED_WITH_RECOVERY_GATE_FAILED",
+      "fresh_noiseless_recovery": "8/8",
+      "fresh_nominal_recovery": "13/16"
+    }
+  },
+  "scope": "Inherited synthetic matched E0 controls with ideal relative-TL and noisy bearings; 21-case development panel, frozen SHGO/DIRECT searches, direct-modal objective, J<0.001 dB and admitted-request caps 16/64/256 per case/depth. No universal algorithm impossibility, physical nonidentifiability, global uniqueness or real-ocean performance claim.",
+  "R1_status": "RECOMMENDED_NOT_IMPLEMENTED_NOT_VALIDATED",
+  "R1_preconditions": [
+    "OBSERVATION_DERIVED_DOMAIN_NARROWING_WITH_SUPPORT_RETENTION",
+    "TRUTH_FREE_COLD_START_AND_EXPLICIT_PRIOR_PROVENANCE",
+    "NO_ASSUMED_RANGE_NARROWING_FROM_TEMPORAL_RECURSION",
+    "LOCAL_ANCHOR_CAPTURE_AND_CONVERGENCE_NOT_YET_VALIDATED"
+  ],
+  "next_stage": "RESEARCH_LEAD_DEFINED_ROUTE_REDESIGN_GATE",
+  "next_stage_status": "NOT_AUTHORIZED_NOT_EXECUTED",
+  "forbidden_next_actions": [
+    "T4",
+    "INCREASE_SEARCH_BUDGET",
+    "FIX3",
+    "FIX4",
+    "NEW_OPTIMIZER",
+    "FRESH_CONFIRMATION",
+    "A2",
+    "DEPTH_B",
+    "SSP",
+    "P5"
+  ],
+  "stop_after_commit_push": true,
+  "closeout_review_status": "PENDING_RESEARCH_LEAD_REVIEW_NO_PROGRESS_CREDIT",
+  "historical_progress_snapshot": "results/R4_MASTER/R4_PROGRESS.json retained byte-for-byte; current route status is this closeout decision",
+  "created_date_Asia_Shanghai": "2026-10-04"
+}

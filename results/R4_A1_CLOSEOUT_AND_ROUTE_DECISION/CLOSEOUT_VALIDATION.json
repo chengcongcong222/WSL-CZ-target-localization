@@ -1,0 +1,130 @@
+{
+  "stage": "R4_A1_CLOSEOUT_AND_ROUTE_DECISION",
+  "accepted_parent_commit": "9cfa99c14bb80d08e6f16210ebf89fd9c541b850",
+  "validation_status": "PASS",
+  "method": "Read-only SHA256, saved-CSV aggregation, JSON/ledger/link/scope consistency; no optimizer, forward model, reconstruction or original harness tests executed.",
+  "new_numerical_experiments": 0,
+  "protected_preexisting_file_count": 7153,
+  "protected_preexisting_bytes": 2054126503,
+  "protected_files_changed": [],
+  "protected_before_after_inventory_sha256": "9bf5f2d918385fdd6211da815ed2a0b6b008575c1b8f8536d7660a031ae10154",
+  "historical_input_identities": {
+    "total": 2989,
+    "raw_sha256_matches": 2865,
+    "CRLF_LF_only_matches_with_canonical_sha256_and_git_oid": 124
+  },
+  "raw_freeze_binding_comparisons": 2796,
+  "unique_raw_bound_paths": 2747,
+  "raw_freeze_manifest_counts": {
+    "METHOD_FREEZE.json": 40,
+    "DEVELOPMENT_EXECUTION_FREEZE.json": 17,
+    "CHECKPOINT_EVIDENCE_FREEZE.json": 57,
+    "DEVELOPMENT_RESULTS_EVIDENCE_FREEZE.json": 2682
+  },
+  "previous_portable_text_bindings": {
+    "r4_a1_search_tractability_development_reconstruction.py": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "93c6f715d4d96277cd50ca957207988a4f8792aa231a03faf7e3619a11789a90",
+      "git_blob_oid": "314f396432f66267111e6e49542d2ac3b3137d11"
+    },
+    "r4_a1_search_tractability_development_report.py": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "0e3d9ff9abc9c8b70d31974ca4f8a8f59509879310c784537e74785e61c88b58",
+      "git_blob_oid": "873dcf3574f6be53fd37249fb64dad747eb099d9"
+    },
+    "results/R4_MASTER/R4_PROGRESS.json": {
+      "verified_against": "UNCHANGED_WORKTREE",
+      "canonical_lf_sha256": "8ac5629645d667693007aa7c5edbed479a6e327b7b627aec7b8abbd4385a7cac",
+      "git_blob_oid": "247e31e6f59c800a21538e805941c7adb00f814b"
+    },
+    "results/R4_MASTER/R4_PLAN.md": {
+      "verified_against": "ACCEPTED_PARENT_GIT_BLOB",
+      "canonical_lf_sha256": "85f56b2258b3c2e4326483a60c10b2b9fc2d0160c25e6005a8ac850960047fc5",
+      "git_blob_oid": "cc29286420d9fb37e5b95c8df90eaff9fc97ca48"
+    },
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv": {
+      "verified_against": "ACCEPTED_PARENT_GIT_BLOB",
+      "canonical_lf_sha256": "837b3cf51d4cf95fce6dfd0520223f315386c4aad224fb563ea83b4a4504c89e",
+      "git_blob_oid": "6fa52934b432d7827dbfcffd852c2f5d429f3f2f"
+    }
+  },
+  "historical_progress_json_preserved": true,
+  "ledger_rows_preserved": 9,
+  "ledger_rows_appended": 4,
+  "all_credited_weights_zero": true,
+  "existing_files_authorized_to_change": [
+    "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+    "results/R4_MASTER/R4_PLAN.md"
+  ],
+  "existing_scientific_data_summary": {
+    "raw_runs": 126,
+    "valid_raw_runs": 126,
+    "branches": 2646,
+    "cap_failures": 0,
+    "raw_converged_comparisons": 0,
+    "T3_cases_in_0_8_to_4_db": 40
+  },
+  "source_bindings": {
+    "results/R4_A1_OFFGRID_BEARING_BOUNDARY/R4_A1_DECISION.json": "98d616bfb7a884f4dfa6a7f0b81e347df07e5f742b122580a1c3f92c9c8842da",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/R4_A1_FIX_DECISION.json": "38b5e17c7dc4b59e5c59425e27db5d6219bcb0ff192abd7b7d526eee64a25535",
+    "results/R4_A1_FIX_CONTINUOUS_SEARCH/R4_A1_FIX_REPORT.md": "c6196ab924bd82b5376e3e33455b4bd67d7253b47eaad2178c64a4dbd8ac5174",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/R4_A1_FIX2_DECISION.json": "e23b76d49e7a3c84ba8abe86600f910d41eaee08c0a213aec78845258d032020",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/R4_A1_FIX2_REPORT.md": "24dfe54db8b0e7450aa74de0bd07ded6cd09efc54f2025c369ce5c6ba617dee9",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/SEARCH_BUDGET_CONVERGENCE.csv": "18f3412e4d3af4aba20672bc08606cb64ecb0acfcd1ddd4f83914b380fb362b8",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/INDEPENDENT_SOLVER_AGREEMENT.csv": "e9ac324f36b260223719132c29b9cd4afe1a6339a74029cebfe47ddfc02d76b7",
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/FRESH_HOLDOUT_RESULTS.csv": "d85dfb8f6cf5bef969d98895db2f2e255564f41e4f5992a8d144db4cea2dc7dc",
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_FINAL_DECISION.json": "2a3c274a5076bb2d3cba3ee6a14c15007666b8811604ab55891634a9d40aebfb",
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_RECONSTRUCTION_SUMMARY.json": "d95e7abccde4222143dd9b0ca3a286bf1d92f2e56a7060a4628fc3cde92c3b92",
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_SHGO_RESULTS.csv": "e0a817555519611e37429da5ac1b9e645eea2af9400dbc7264321afff09be862",
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_DIRECT_RESULTS.csv": "e598fd534a92b841560ba9080d7b731192d77950119a9d830bc93bebb7bc96e4",
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_RAW_WITNESS_CONVERGENCE.csv": "b3f59fa329e794a37750667cd67ba7abe2884c93e13bfd7d161ea091b5a1a064",
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/SHGO_BUDGET_LOG.csv": "00e81626f9e8fc0c51ba1c6fcb214648459eb8cd4d108c330fb39e3c43c681a1",
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DIRECT_BUDGET_LOG.csv": "1eb48229950a4976c72797bd1e073bd4fc212368b00f2523d9c43dd8aceb856c",
+    "results/R3_RC23_CLOSEDLOOP/R3_RC23_TWO_WINDOW_TEMPORAL_CONTRACTION/R3_RC23_CLOSEDLOOP_1B_REPORT.md": "3566759fb9d87c28da94ba0856f551a5b95f6bf6178d09108543be1aab69b973",
+    "results/R3_RC23_CLOSEDLOOP/R3_RC23_SINGLE_TURN_RANGE_ANCHOR/R3_RC23_CLOSEDLOOP_1C_REPORT.md": "280426c46c5ed831fd08e6fc58feff5e1fcdb094af2032cc8f77d46060b64b9e"
+  },
+  "new_artifact_bindings": {
+    "A1_CLOSEOUT_REPORT.md": {
+      "canonical_lf_sha256": "16bff9f225c137ae8304337bb844847f41c2ae488515499a6b8e575e032f3fc1",
+      "canonical_git_blob_oid": "dbde29318a4254da20b05b87d8ec4a7702c9210b",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "A1_EVIDENCE_CHAIN.md": {
+      "canonical_lf_sha256": "cec028e7d596730800278ddbf9ff563b3f231905c9e7ddae070dcb7c0dbe3dd3",
+      "canonical_git_blob_oid": "2af9b5d729a428412ffeef01752a50db04af6918",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "GPT_SYNC.md": {
+      "canonical_lf_sha256": "0c4852ed9a49a7cbc99fc86b531c7fa80b03a1a4fba996149d230c966d8aa646",
+      "canonical_git_blob_oid": "d9c8a1174cc40006e47fc36675f5a754684e5cc1",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R4_A1_CLOSEOUT_DECISION.json": {
+      "canonical_lf_sha256": "5d3647f453bd1b070145c89521ecbdcbb3f1ec5f1bf1c8ec0dcbfb441d52bcde",
+      "canonical_git_blob_oid": "85ba7d2b73b9c8f354f1c4588beee3c0a552260e",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    },
+    "R4_ROUTE_DECISION.md": {
+      "canonical_lf_sha256": "9c1439bef27a919aee15fe3768a5e2592fa2becd2c17f047a0ef6806f5dd7086",
+      "canonical_git_blob_oid": "e7ad621d347a27a3d1eac5a1120cccdb63d96e67",
+      "allowed_transport_change": "CRLF_LF_ONLY"
+    }
+  },
+  "binding_note": "This validation JSON is bound by its enclosing Git commit, not by a self hash. Updated plan/ledger are authorized current management text; their old freeze identities remain validated at the accepted parent Git blobs.",
+  "storage": "All operations use canonical D-drive workspace and D-drive temp/cache; local full protection inventories are in D:/ProjectStorage/WSL-CZ/closeout-20261004.",
+  "failed_checks": 0,
+  "check_groups": [
+    "protected raw bytes",
+    "old raw and portable freezes",
+    "historical raw/LF identities",
+    "raw recovery and validity",
+    "branch caps and accounting",
+    "conditional Gates",
+    "saved FIX2 summaries",
+    "decision constraints",
+    "append-only ledger",
+    "change scope",
+    "Markdown links"
+  ],
+  "Markdown_links_verified": 35
+}
