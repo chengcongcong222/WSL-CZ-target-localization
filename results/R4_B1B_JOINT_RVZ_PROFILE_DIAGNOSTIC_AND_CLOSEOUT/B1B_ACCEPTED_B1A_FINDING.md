@@ -1,0 +1,5 @@
+# Accepted negative B1A finding
+
+Research lead accepts B1_HORIZONTAL_CONDITIONING_ENVELOPE_BELOW_TARGET_ACCEPTED at8a60aeb99297c57e574daf9b796a08114b9c1f3d. Design c3a9744 froze the full lattice and target before486 profiles/10206 depth rows; numerical reconstruction closed, no dropped points or lowered target. Target13/150 passes, minimum rectangle7/54, all16 rectangles fail universally;369 nonmonotonic witnesses. S7/S8 full lattice practical21/243 vs22/243; four lines did not solve the structural plug-in issue. Exact-horizontal strong depth mechanism persists. B1 NOT_COMPLETED, R4=0%, B2 unopened.
+
+Current instruction only authorizes saved-score joint support profiling/diagnostic plus B1 total closeout. No new physical/scientific data, new finer conditioning tolerance, optimizer or continuous depth. Negative joint diagnostic closes current conditional-depth engineering route while preserving oracle/mechanism evidence; positive only warrants a separately instructed new validation design, without scientific completion credit.
