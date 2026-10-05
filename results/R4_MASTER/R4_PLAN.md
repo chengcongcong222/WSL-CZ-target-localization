@@ -250,3 +250,8 @@ R4_A1_NEW_BASELINE_NOT_ESTABLISHED; PENDING_RESEARCH_LEAD_AUDIT. APPLICATION_PRE
 ## A1-new accepted speed bottleneck and diagnostic freeze
 
 Parent e39182ac82b988e71b79d73a06a97076ca76f6bf accepted R4_A1_NEW_BASELINE_NOT_ESTABLISHED_ACCEPTED. Under frozen application panel:range/bearing STRONG12/12;heading PROJECT12/12,STRONG11/12;speed PROJECT0/12. Internal3/4horizontalmetricsestablished,speedbottleneck;notwholeA1credit. NewexplicitDEVELOPMENTdiagnostic D0-D4 reuses12000savedrealizations; no newdraws/panel/baseline/time/turn/RMS/Gate. [Policy](../R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC/SPEED_DIAGNOSTIC_POLICY.json). Pushfreeze before re-solving. R4-A1/R4=0%;depthclosed. Fullanalyses,pushthenSTOP;noautomaticfresh/FIX2.
+
+
+## Speed bottleneck diagnostic execution
+
+SPEED_INFORMATION_INSUFFICIENT_AT_CURRENT_1200S_APPLICATION_SCENARIO; DEVELOPMENT_ONLY, PENDING_RESEARCH_LEAD_AUDIT. [Report](../R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC/SPEED_DIAGNOSTIC_REPORT.md). [Active speed status](R4_SPEED_DIAGNOSTIC_PROGRESS.json). AcceptedA1range/bearingSTRONG,headingPROJECT; speedunresolved. Reused12000scenes; newMC0; R4-A1/R4=0%. Depthnotopened. PushthenSTOP; freshonlyifseparatelyauthorized.

@@ -1,0 +1,18 @@
+{
+  "stage": "R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC",
+  "nature": "DEVELOPMENT_CAUSAL_DIAGNOSTIC_NOT_CONFIRMATION",
+  "range": "ESTABLISHED_AT_STRONG_TIER_IN_ACCEPTED_A1_NEW",
+  "bearing": "ESTABLISHED_AT_STRONG_TIER_IN_ACCEPTED_A1_NEW",
+  "heading": "ESTABLISHED_AT_PROJECT_TIER_NEAR_STRONG_IN_ACCEPTED_A1_NEW",
+  "speed": "BOTTLENECK_DIAGNOSED_NO_SCIENTIFIC_CREDIT",
+  "R4_A1_percent": 0,
+  "R4_percent": 0,
+  "speed_route_decision": "SPEED_INFORMATION_INSUFFICIENT_AT_CURRENT_1200S_APPLICATION_SCENARIO",
+  "next_recommended_stage": "STOP",
+  "automatic_fresh_validation": false,
+  "depth": "NOT_OPENED",
+  "project_stage": "PROJECT_APPLICATION_PRE_RESEARCH",
+  "A1_new_audit": "R4_A1_NEW_BASELINE_NOT_ESTABLISHED_ACCEPTED",
+  "diagnostic_audit": "PENDING_RESEARCH_LEAD_AUDIT",
+  "hardware_UNKNOWN_blocks_research": false
+}

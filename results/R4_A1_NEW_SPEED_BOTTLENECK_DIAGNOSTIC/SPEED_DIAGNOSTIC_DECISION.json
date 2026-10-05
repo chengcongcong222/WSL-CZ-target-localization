@@ -1,0 +1,43 @@
+{
+  "parent_A1_new_SHA": "e39182ac82b988e71b79d73a06a97076ca76f6bf",
+  "A1_new_independent_audit": "ACCEPTED_SPEED_BOTTLENECK",
+  "stage": "R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC",
+  "nature": "DEVELOPMENT_CAUSAL_DIAGNOSTIC_NOT_CONFIRMATION",
+  "primary_anchor": "A",
+  "secondary_anchor": "B",
+  "primary_attribution": [
+    "RANDOM_BEARING_PLUS_CURRENT_GEOMETRY_AND_4_STATE_ESTIMATOR_LIMIT_SPEED"
+  ],
+  "attribution_scope": "Frozen panel and current estimators only; oracle intervention findings are not unique-cause proofs. D3 failure is not universal physical nonidentifiability.",
+  "speed_route_decision": "SPEED_INFORMATION_INSUFFICIENT_AT_CURRENT_1200S_APPLICATION_SCENARIO",
+  "primary_PROJECT_speed_cases": {
+    "D0": 0,
+    "D1": 0,
+    "D2": 0,
+    "D3": 0,
+    "D4": 0
+  },
+  "primary_STRONG_speed_cases_D4": 0,
+  "D4_route_admitted": false,
+  "D4_strong_speed_diagnostic": "NOT_ESTABLISHED",
+  "new_random_seeds": 0,
+  "new_truth_cases": 0,
+  "new_noise_draws": 0,
+  "new_Monte_Carlo_realizations": 0,
+  "new_application_performance_claim": 0,
+  "R4_A1_percent": 0,
+  "R4_percent": 0,
+  "range": "ESTABLISHED_AT_STRONG_TIER_IN_ACCEPTED_A1_NEW",
+  "bearing": "ESTABLISHED_AT_STRONG_TIER_IN_ACCEPTED_A1_NEW",
+  "heading": "ESTABLISHED_AT_PROJECT_TIER_NEAR_STRONG_IN_ACCEPTED_A1_NEW",
+  "speed": "BOTTLENECK_DIAGNOSED_NO_SCIENTIFIC_CREDIT",
+  "next_recommended_stage": "STOP",
+  "automatic_fresh_validation": false,
+  "automatic_FIX2": false,
+  "depth": "NOT_OPENED",
+  "new_acoustic_propagation": 0,
+  "new_depth_score": 0,
+  "audit_status": "PENDING_RESEARCH_LEAD_INDEPENDENT_AUDIT",
+  "stop_after_commit_B": true,
+  "policy_SHA": "4d7ddf444e2aca93a25aa25547a5a7f8bd6a093b"
+}
