@@ -215,3 +215,8 @@ AUX1_BASELINE_BEARING_TRADEOFF_ESTABLISHED; PENDING_RESEARCH_LEAD_AUDIT. Fixed c
 Parent1fde9dac9d848e5c8b9987b010182411fdbc79c6 accepted tradeoff established, ideal geometry only. Single-array cold-start not established, depth engineering closed; AUX1conditionalarchitecturecandidate, hardwareunknown; R4=0%, originalA/Bsequencepaused.
 
 R4_AUX_GATE2_NONIDEAL_MEASUREMENT_ERROR_BUDGET authorized Gate2A only. Anchors5km/.05deg and7km/.075deg, B6/.1deg historicalreferenceonly. Three SINGLE-FACTOR families: complete81signedbias, per-axisnavigation7levels, knownactualdeployment9signedangles;11rangesandmirrors.30000fixedcommontrials seed2026100503. [Freeze](../R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET/AUX_GATE2A_DESIGN_FREEZE.json). Freeze/push beforeMC/tests, executeonce, independentaudit, commit/push/verifythenstop. No jointstress/time-skew/associationMC/propagation/depth/SSP/TDOA/tracker/5D. Client requirements do not claim simultaneous axis tolerances. Actualhardwareunknown. R4-A1-NEW/Gate2Bnotopened;A2/A3/A4/B2/B3/B4/Cpaused/notopened;P5notopened. R4_PROGRESS.jsonunchanged.
+
+
+## AUX Gate2A execution
+
+AUX1_NONIDEAL_REQUIREMENTS_ESTABLISHED_CLIENT_CONFIRMATION_REQUIRED; PENDING_RESEARCH_LEAD_AUDIT. Single-factor signed-bias/navigation/deployment budgets only, not a jointly validated point. [Report](../R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET/AUX_GATE2A_REPORT.md). Actual hardware unknown; R4=0%; R4-A1-NEW/Gate2B not opened, depth closed. Commit/push/verify then stop.

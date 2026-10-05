@@ -1,0 +1,95 @@
+{
+  "stage": "R4_AUX_GATE2_NONIDEAL_MEASUREMENT_ERROR_BUDGET",
+  "parent_sha": "1fde9dac9d848e5c8b9987b010182411fdbc79c6",
+  "Gate1_independent_audit": "ACCEPTED_TRADEOFF_ESTABLISHED",
+  "Gate2A_decision": "AUX1_NONIDEAL_REQUIREMENTS_ESTABLISHED_CLIENT_CONFIRMATION_REQUIRED",
+  "bias_requirements": [
+    {
+      "anchor": "A",
+      "baseline_km": 5.0,
+      "sigma_random_deg": 0.05,
+      "max_tested_abs_common_5pct_deg": 0.1,
+      "max_tested_abs_diff_5pct_deg": 0.05,
+      "max_tested_abs_common_10pct_deg": 0.1,
+      "max_tested_abs_diff_10pct_deg": 0.1
+    },
+    {
+      "anchor": "B",
+      "baseline_km": 7.0,
+      "sigma_random_deg": 0.075,
+      "max_tested_abs_common_5pct_deg": 0.1,
+      "max_tested_abs_diff_5pct_deg": 0.05,
+      "max_tested_abs_common_10pct_deg": 0.1,
+      "max_tested_abs_diff_10pct_deg": 0.1
+    }
+  ],
+  "position_requirements": [
+    {
+      "anchor": "A",
+      "baseline_km": 5.0,
+      "sigma_random_deg": 0.05,
+      "max_tested_sigma_pos_5pct_m": 50.0,
+      "max_tested_sigma_pos_10pct_m": 100.0
+    },
+    {
+      "anchor": "B",
+      "baseline_km": 7.0,
+      "sigma_random_deg": 0.075,
+      "max_tested_sigma_pos_5pct_m": 50.0,
+      "max_tested_sigma_pos_10pct_m": 200.0
+    }
+  ],
+  "deployment_requirements": [
+    {
+      "anchor": "A",
+      "baseline_km": 5.0,
+      "sigma_random_deg": 0.05,
+      "max_tested_abs_beta_5pct_deg": 20.0,
+      "max_tested_abs_beta_10pct_deg": 20.0
+    },
+    {
+      "anchor": "B",
+      "baseline_km": 7.0,
+      "sigma_random_deg": 0.075,
+      "max_tested_abs_beta_5pct_deg": 20.0,
+      "max_tested_abs_beta_10pct_deg": 20.0
+    }
+  ],
+  "numerical_anchor_admission": [
+    {
+      "anchor": "A",
+      "nonzero_all_four_axes": true
+    },
+    {
+      "anchor": "B",
+      "nonzero_all_four_axes": true
+    }
+  ],
+  "requirement_scope": "SINGLE_FACTOR_AXES_ONLY; ALL11_TESTED_RANGES; NO_JOINT_BUDGET_OR_CONTINUOUS_TOLERANCE_GUARANTEE",
+  "actual_auxiliary_array_bearing_capability": "UNKNOWN",
+  "actual_navigation_attitude_capability": "UNKNOWN",
+  "hardware_all_relevant_requirements_confirmed": false,
+  "client_confirmations_required": [
+    "auxiliary bearing-producing array / aperture / directed-bearing capability",
+    "per-node random DOA / heading / calibration error budget",
+    "residual common and differential bearing biases",
+    "per-axis navigation position accuracy",
+    "deployable5/7km lateral baseline and deployment orientation",
+    "target-bearing association and front-back resolution",
+    "common time reference / clock synchronization",
+    "array calibration and relative reference alignment"
+  ],
+  "R4_A1_NEW": "NOT_OPENED",
+  "AUX_GATE2B": "NOT_OPENED",
+  "depth": "CLOSED_PENDING_INDEPENDENT_HORIZONTAL_ACQUISITION",
+  "R4_progress_percent": 0,
+  "A2_A3_A4_B2_B3_B4_C": "PAUSED / NOT_OPENED",
+  "P5": "NOT_OPENED",
+  "new_acoustic_propagation": 0,
+  "new_depth_scores": 0,
+  "joint_stress_run": false,
+  "time_skew_or_association_mc": false,
+  "audit_status": "PENDING_RESEARCH_LEAD_AUDIT",
+  "next_stage": "STOP_FOR_RESEARCH_LEAD_AUDIT_AND_CLIENT_CONFIRMATION",
+  "design_sha": "74a592836873b20deb81ffd79c99f5d567fb9c7b"
+}

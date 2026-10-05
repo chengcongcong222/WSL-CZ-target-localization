@@ -1,0 +1,3 @@
+anchor,baseline_km,sigma_random_deg,max_tested_abs_beta_5pct_deg,max_tested_abs_beta_10pct_deg
+A,5.0,0.05,20.0,20.0
+B,7.0,0.075,20.0,20.0
