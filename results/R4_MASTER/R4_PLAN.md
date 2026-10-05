@@ -245,3 +245,8 @@ PROJECT_APPLICATION_PRE_RESEARCH, not hardware acceptance. Newlead instruction s
 ## R4-A1-new execution
 
 R4_A1_NEW_BASELINE_NOT_ESTABLISHED; PENDING_RESEARCH_LEAD_AUDIT. APPLICATION_PRE_RESEARCH design assumptions; hardware UNKNOWN nonblocking. [Active application progress](R4_APPLICATION_PROGRESS.json). A1-new/overall scientific credit=0%. [Report](../R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_REPORT.md). B secondary only; depth not opened. Commit/push/verify then STOP for audit; no automatic A2.
+
+
+## A1-new accepted speed bottleneck and diagnostic freeze
+
+Parent e39182ac82b988e71b79d73a06a97076ca76f6bf accepted R4_A1_NEW_BASELINE_NOT_ESTABLISHED_ACCEPTED. Under frozen application panel:range/bearing STRONG12/12;heading PROJECT12/12,STRONG11/12;speed PROJECT0/12. Internal3/4horizontalmetricsestablished,speedbottleneck;notwholeA1credit. NewexplicitDEVELOPMENTdiagnostic D0-D4 reuses12000savedrealizations; no newdraws/panel/baseline/time/turn/RMS/Gate. [Policy](../R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC/SPEED_DIAGNOSTIC_POLICY.json). Pushfreeze before re-solving. R4-A1/R4=0%;depthclosed. Fullanalyses,pushthenSTOP;noautomaticfresh/FIX2.

@@ -1,0 +1,9 @@
+# Six-state candidate preregistration
+
+API estimate_bias_aware(times,node_positions,bearings,sigma_deg,common_bound_deg,diff_bound_deg). Bounds passed fromdesignpolicyonly, not generatedtruthbias. Variables[x0,y0,vx,vy,common,HALFdiff], scales[50000m,50000m,2m/s,2m/s,common_design_bound_deg,diff_design_bound_deg]. Biasnormalizedsupport[-1,1] each; Cartesianstateunbounded. Primary bounded butUNREGULARIZED, no priors/penalties/multistart/secondaryalgorithm.
+
+Initialize first4state via exactfrozen historicalE1usingoriginalmeasurements andnoisypositions;bothbiases0. Nohistoricaloutputstarts. Predictednode1angle+=common-HALFdiff,node2+=common+HALFdiff. All242wrappedbearingresiduals normalized byrandomsigma. TRFsoft_l1f_scale1.5,analytic6stateJacobian,max_nfev300,ftol/xtol/gtol1e-10. Failedsolver=nonconvergence/nonfinite fit or invalidE1. Boundaryestimates allowed and reported; atboundthreshold abs(normalizedbias)>=1-1e-6.
+
+Save numericalrank,sixsingularvalues,condition,smallest/largestratio forrawscaledmeasurementJacobianatfinalfit inSTRAIGHT t<=600(61epochs),POST_TURN t>600(60),FULL121. Rank counts singularvalues/smax>1e-10. Full-rank onlydiagnostic, not accuracy/practicalidentifiability. No newturn/time sweep. Failure with nofit yieldsrank0 ratio0 placeholder; fitJacobianatnonconvergedfiniteiterate flaggedfailed separately, not evidence of convergedaccuracy.
+
+Independentcoldaudit all60000records, interventiongeometry,trutherrors,quantiles,pairedattribution,all36000Jacobiansonvalidfits; predefinedfirst/lastrealizationpercase/anchor finite-difference6stateJacobianchecks48maximum,skipinvalidfitonlywithrecordedfailure. Noindependentoptimization/multistart introduced. Fourtests useexisting savedscene:finiteJacobian,truthargrejection,zero-init/hardsupport/no-penalty via optimizerstub,andepochsegments. No newtruthfixtureordraw.
