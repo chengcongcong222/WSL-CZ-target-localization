@@ -230,3 +230,8 @@ Parent5d8b9c9f2d8efdb74a95da4ea546aae11457a24f accepted SINGLE_FACTOR_REQUIREMEN
 ## AUX Gate2B execution
 
 AUX1_JOINT_STATIC_REQUIREMENT_ESTABLISHED_CLIENT_CONFIRMATION_REQUIRED; PENDING_RESEARCH_LEAD_AUDIT. Joint static ladders complete. [Report](../R4_AUX_GATE2B_JOINT_ERROR_BUDGET/AUX_GATE2B_REPORT.md). Hardware UNKNOWN; time/association not validated; R4=0%; A1-NEW not opened. STOP numerical architecture work; client confirmation next.
+
+
+## AUX Gate2B acceptance and client confirmation freeze
+
+Parent333ead6461a7574a469495033d48fd89682aa496 independently accepted JOINT_STATIC_REQUIREMENT and HALF_T5_JOINT_BUDGET. Strongest tested T5 A lambda=.50; B=.75; T10 A/B=.75. [Client package](../R4_AUX_CLIENT_CONFIRMATION/GPT_SYNC.md). NUMERICAL_ARCHITECTURE_WORK_STOPPED; CLIENT_CONFIRMATION_REQUIRED. Actual hardware UNKNOWN; time/association not numerically validated; R4-A1-NEW NOT_OPENED; depth CLOSED; R4=0%. No new experiment and no automatic Gate2C; client evidence and research-lead authorization required before any next stage.

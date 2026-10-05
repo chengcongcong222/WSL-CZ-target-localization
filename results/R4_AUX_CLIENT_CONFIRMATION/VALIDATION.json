@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "mode": "DOCUMENT_ONLY; NO_NUMERICAL_EXPERIMENT_OR_RECONSTRUCTION",
+  "document_checks": 241,
+  "failed": 0,
+  "new_Monte_Carlo": 0,
+  "new_geometry_cells": 0,
+  "new_acoustic_propagation": 0,
+  "new_depth_score": 0,
+  "new_optimizer": 0,
+  "requirement_provenance_rows": 68,
+  "client_matrix_rows": 20,
+  "all_client_values": "UNKNOWN",
+  "historical_tracked_file_bindings": 6561
+}
