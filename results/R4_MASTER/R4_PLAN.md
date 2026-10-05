@@ -235,3 +235,8 @@ AUX1_JOINT_STATIC_REQUIREMENT_ESTABLISHED_CLIENT_CONFIRMATION_REQUIRED; PENDING_
 ## AUX Gate2B acceptance and client confirmation freeze
 
 Parent333ead6461a7574a469495033d48fd89682aa496 independently accepted JOINT_STATIC_REQUIREMENT and HALF_T5_JOINT_BUDGET. Strongest tested T5 A lambda=.50; B=.75; T10 A/B=.75. [Client package](../R4_AUX_CLIENT_CONFIRMATION/GPT_SYNC.md). NUMERICAL_ARCHITECTURE_WORK_STOPPED; CLIENT_CONFIRMATION_REQUIRED. Actual hardware UNKNOWN; time/association not numerically validated; R4-A1-NEW NOT_OPENED; depth CLOSED; R4=0%. No new experiment and no automatic Gate2C; client evidence and research-lead authorization required before any next stage.
+
+
+## Application pre-research authorization and A1-new PRE-RUN
+
+PROJECT_APPLICATION_PRE_RESEARCH, not hardware acceptance. Newlead instruction supersedes prior numericalclient-confirmationSTOP for this authorizedA1-newstage. HardwareUNKNOWN is nonblockingdesignassumption. Scientificbaseline333ead6 retained; chronologicalparent0eef9ff retained. PrimaryAnchorA,secondaryB;12off-gridtruths x500each;two-stage observationonlyfourparameterdynamicestimator. [FrozenGate](../R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_GATE.md). Credit15onlyifprimaryPROJECTallcasescloses; otherwise0. Alllegacyfrozenartifactsandprogresspreserved; newactiveapplicationprogresswillbesavedafterexecution. Depthnotopened. PushfreezebeforeMC,completebothanchors,pushthenSTOPforlead audit; noautomaticA2.

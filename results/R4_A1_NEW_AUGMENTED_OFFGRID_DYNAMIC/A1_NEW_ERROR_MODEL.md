@@ -1,0 +1,11 @@
+# Application-stage error model
+
+PROJECT_APPLICATION_PRE_RESEARCH. AnchorA primary:5km,.05deg independent per-node/epoch zero-mean Gaussian bearing, Uniform common[-.05,.05]deg, Uniform differential HALF[-.025,.025]deg, Uniform beta[-10,10]deg. A nav each node/epoch/axis independent Gaussian25m. B SECONDARY_CONFIRMATION_ONLY:7km,.075deg Gaussian,common[-.075,.075],HALFdiff[-.0375,.0375],beta[-15,15],nav37.5m/axis. Systematic components independent across realizations and fixed within each realization; no resampling failures.
+
+APPLICATION_PRE_RESEARCH_BOUNDED_SYSTEMATIC_ENSEMBLE. Uniform is a pre-research statistical assumption, not a measured hardware distribution. The earlier Gate2B only tested signed corners, not every interior point; this new stage samples the interior under a new explicit stochastic model. Random bearing terms, uniformsystematics and navigation draws mutually independent; no specific INS/GNSS correlated temporal structure claimed.
+
+Both have6000runs,12cases x500. New PCG64 seeds A2026100505,B2026100506. For each anchor first draw6000x3 uniform table, then6000x121x6 Gaussian table; cols0/1 bearing,cols2:6 MAIN/AUX position. Each row unique per case/realization. Even realization mirror-1,odd+1;250permirror percase, no mirror weighting/postselection. All draws savedNPZ.121epochs t0..1200step10.
+
+MAIN=(2min(t,600)+2max(t-600,0)cos15deg,2max(t-600,0)sin15deg). Nominal initial LoB is design0deg, not target theta. AUX=MAIN+B[-sin(beta),side*cos(beta)], fixed globaloffset. Both platforms translate and turn with identical velocity; offset does not rotate with target or MAIN heading. This is a prescribed kinematic formation with no truth feedback and no platform control/communications feasibility claim.
+
+Target is off-grid constant global velocity. Observations generated with true positions; estimator receives noisy estimated node positions only. Bearing b1=common-HALFdiff,b2=common+HALFdiff. Initialrange/bearing estimates refer to estimated MAIN at t0, true references use true MAIN at0. Speed/heading use fitted global target velocity. Synchronization and target association assumed instantaneous/correct; not numerically stressed. No depth,acoustic or moving-node sensor lever-arm model.
