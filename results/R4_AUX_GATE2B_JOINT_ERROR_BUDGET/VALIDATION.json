@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "independent_checks": 140702,
+  "failed": 0,
+  "primary_runs": 1,
+  "tests_passed": 4,
+  "registered_cells": 2904,
+  "trials_per_cell": 30000,
+  "zero_controls": 44,
+  "new_acoustic_propagation": 0,
+  "new_depth_scores": 0
+}

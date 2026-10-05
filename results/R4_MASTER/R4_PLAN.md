@@ -225,3 +225,8 @@ AUX1_NONIDEAL_REQUIREMENTS_ESTABLISHED_CLIENT_CONFIRMATION_REQUIRED; PENDING_RES
 ## AUX Gate2A acceptance and Gate2B design
 
 Parent5d8b9c9f2d8efdb74a95da4ea546aae11457a24f accepted SINGLE_FACTOR_REQUIREMENTS. Gate2B explicitly authorized as final geometry-only joint static qualification; two families and fixed half point. [Criteria](../R4_AUX_GATE2B_JOINT_ERROR_BUDGET/AUX_GATE2B_CRITERIA.md). Actual hardware UNKNOWN; R4=0%; A1-NEW closed. Push freeze before MC; stop after execution push.
+
+
+## AUX Gate2B execution
+
+AUX1_JOINT_STATIC_REQUIREMENT_ESTABLISHED_CLIENT_CONFIRMATION_REQUIRED; PENDING_RESEARCH_LEAD_AUDIT. Joint static ladders complete. [Report](../R4_AUX_GATE2B_JOINT_ERROR_BUDGET/AUX_GATE2B_REPORT.md). Hardware UNKNOWN; time/association not validated; R4=0%; A1-NEW not opened. STOP numerical architecture work; client confirmation next.
