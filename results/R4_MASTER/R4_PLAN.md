@@ -240,3 +240,8 @@ Parent333ead6461a7574a469495033d48fd89682aa496 independently accepted JOINT_STAT
 ## Application pre-research authorization and A1-new PRE-RUN
 
 PROJECT_APPLICATION_PRE_RESEARCH, not hardware acceptance. Newlead instruction supersedes prior numericalclient-confirmationSTOP for this authorizedA1-newstage. HardwareUNKNOWN is nonblockingdesignassumption. Scientificbaseline333ead6 retained; chronologicalparent0eef9ff retained. PrimaryAnchorA,secondaryB;12off-gridtruths x500each;two-stage observationonlyfourparameterdynamicestimator. [FrozenGate](../R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_GATE.md). Credit15onlyifprimaryPROJECTallcasescloses; otherwise0. Alllegacyfrozenartifactsandprogresspreserved; newactiveapplicationprogresswillbesavedafterexecution. Depthnotopened. PushfreezebeforeMC,completebothanchors,pushthenSTOPforlead audit; noautomaticA2.
+
+
+## R4-A1-new execution
+
+R4_A1_NEW_BASELINE_NOT_ESTABLISHED; PENDING_RESEARCH_LEAD_AUDIT. APPLICATION_PRE_RESEARCH design assumptions; hardware UNKNOWN nonblocking. [Active application progress](R4_APPLICATION_PROGRESS.json). A1-new/overall scientific credit=0%. [Report](../R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_REPORT.md). B secondary only; depth not opened. Commit/push/verify then STOP for audit; no automatic A2.

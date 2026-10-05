@@ -1,0 +1,9 @@
+anchor,metric,STRONG_cases_passed,PROJECT_cases_passed,worst_case,worst_P95,all_trials_retained
+A,range_error,12,12,H12,0.013006243169259484,True
+A,bearing_error_deg,12,12,H02,0.0853208192427844,True
+A,speed_error,0,0,H09,0.2893863491269,True
+A,heading_error_deg,11,12,H04,2.5639571210910868,True
+B,range_error,12,12,H11,0.01352743648528172,True
+B,bearing_error_deg,12,12,H02,0.13281969650172462,True
+B,speed_error,0,0,H09,0.31169331631999375,True
+B,heading_error_deg,10,12,H04,2.850498598912172,True

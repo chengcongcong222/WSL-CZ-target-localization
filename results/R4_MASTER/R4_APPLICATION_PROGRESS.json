@@ -1,0 +1,18 @@
+{
+  "project_stage": "PROJECT_APPLICATION_PRE_RESEARCH",
+  "active_architecture": "MAIN_TOWED_ARRAY_PLUS_MOBILE_PASSIVE_AUXILIARY",
+  "active_stage": "R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC_LOCALIZATION",
+  "hardware_UNKNOWN_blocks_numerical_research": false,
+  "scientific_decision": "R4_A1_NEW_BASELINE_NOT_ESTABLISHED",
+  "A1_NEW_progress_percent": 0,
+  "overall_progress_percent": 0,
+  "independent_audit": "PENDING_RESEARCH_LEAD_AUDIT",
+  "next": "STOP",
+  "automatic_next_stage": false,
+  "depth": "NOT_OPENED",
+  "single_array_depth_engineering": "CLOSED",
+  "exact_horizontal_depth_mechanism": "SUPPORTED_ORACLE_ONLY",
+  "legacy_progress_file": "R4_PROGRESS.json IS HISTORICAL_FROZEN_SINGLE_ARRAY_SNAPSHOT",
+  "scientific_parent_SHA": "333ead6461a7574a469495033d48fd89682aa496",
+  "commit_parent_SHA": "0eef9ff7d0f40cf05400707b791db8a80e074fac"
+}
