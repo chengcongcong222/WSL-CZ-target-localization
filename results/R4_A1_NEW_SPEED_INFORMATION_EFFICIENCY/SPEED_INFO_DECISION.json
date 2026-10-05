@@ -1,0 +1,32 @@
+{
+  "stage": "R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY_AUDIT",
+  "parent_SHA": "6180e27edadb69aec1f68959b60bdb2036e719e5",
+  "parent_audit": "ACCEPTED_CURRENT_1200S_BOTTLENECK",
+  "primary_anchor": "A",
+  "secondary_anchor": "B",
+  "nature": "DEVELOPMENT_INFORMATION_EFFICIENCY_AUDIT_NOT_CONFIRMATION",
+  "route_decision": "CURRENT_1200S_GEOMETRY_INFORMATION_LIMIT_CONFIRMED_BY_CRLB",
+  "next_recommended": "OBSERVATION_DESIGN",
+  "observation_design_stage": "R4_A1_NEW_SPEED_OBSERVATION_DESIGN_GATE",
+  "PROJECT_speed_cases": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0
+  },
+  "E1_STRONG_speed_cases": 0,
+  "E1_E2_max_case_P95_gap": 7.521796008269632e-08,
+  "CRLB_cases_above_10": 12,
+  "CRLB_cases_above_5": 12,
+  "CRLB_scope": "LOCAL_LINEAR_GAUSSIAN_EQUIVALENT;NOT_EMPIRICAL_P95;NOT_GLOBAL_GUARANTEE",
+  "information_finding_scope": "At least one saved primary geometry has local Gaussian 1.96-sigma speed equivalent above target; not an empirical P95 lower bound or universal physical impossibility.",
+  "new_Monte_Carlo_realizations": 0,
+  "new_truth_cases": 0,
+  "new_bearing_noise_draws": 0,
+  "R4_A1_percent": 0,
+  "R4_percent": 0,
+  "depth": "NOT_OPENED",
+  "automatic_next_stage": false,
+  "stop_after_commit_B": true,
+  "audit_status": "PENDING_RESEARCH_LEAD_INDEPENDENT_AUDIT",
+  "policy_SHA": "ec2a5b32205b4cab444b435f2b993efae80112f2"
+}

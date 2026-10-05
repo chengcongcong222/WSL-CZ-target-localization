@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": 1600893,
+  "failed": 0,
+  "tests_passed": 5,
+  "saved_realizations": 12000,
+  "MLE_records": 36000,
+  "FIM_records": 60000,
+  "new_Monte_Carlo_realizations": 0,
+  "new_truth_cases": 0,
+  "new_bearing_noise_draws": 0,
+  "new_acoustic_propagation": 0,
+  "new_depth_score": 0
+}

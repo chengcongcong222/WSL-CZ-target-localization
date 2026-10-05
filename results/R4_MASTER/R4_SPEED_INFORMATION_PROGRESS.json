@@ -1,0 +1,14 @@
+{
+  "stage": "R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY_AUDIT",
+  "project_stage": "PROJECT_APPLICATION_PRE_RESEARCH",
+  "range": "STRONG_ESTABLISHED",
+  "bearing": "STRONG_ESTABLISHED",
+  "heading": "PROJECT_ESTABLISHED",
+  "speed": "CURRENT_1200S_GEOMETRY_INFORMATION_LIMIT_CONFIRMED_BY_CRLB",
+  "R4_A1_percent": 0,
+  "R4_percent": 0,
+  "depth": "NOT_OPENED",
+  "recommended_next": "OBSERVATION_DESIGN",
+  "automatic_next_stage": false,
+  "audit_status": "PENDING_RESEARCH_LEAD_INDEPENDENT_AUDIT"
+}

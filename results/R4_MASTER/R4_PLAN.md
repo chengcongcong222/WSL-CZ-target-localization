@@ -260,3 +260,8 @@ SPEED_INFORMATION_INSUFFICIENT_AT_CURRENT_1200S_APPLICATION_SCENARIO; DEVELOPMEN
 ## Speed information efficiency design freeze
 
 Accepted prior 1200s bottleneck remains scoped to frozen formation/noise/tested estimators. Reuse saved D3 scenes for E0 identity, E1 Gaussian L2, E2 oracle initialization, four-state known-sigma local FIM. [Policy](../R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/SPEED_INFO_AUDIT_POLICY.json). Push before all resolves/FIM tests. No new scenarios; R4-A1/R4=0%; depth NOT_OPENED; stop after execution commit.
+
+
+## Speed information efficiency execution
+
+CURRENT_1200S_GEOMETRY_INFORMATION_LIMIT_CONFIRMED_BY_CRLB; DEVELOPMENT ONLY, pending independent audit. [Report](../R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/SPEED_INFO_REPORT.md). [Active status](R4_SPEED_INFORMATION_PROGRESS.json). New MC=0; R4-A1/R4=0%; depth NOT_OPENED. Next is a recommendation only; push then STOP.
