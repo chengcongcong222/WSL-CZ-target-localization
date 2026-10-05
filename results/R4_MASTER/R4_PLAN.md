@@ -255,3 +255,8 @@ Parent e39182ac82b988e71b79d73a06a97076ca76f6bf accepted R4_A1_NEW_BASELINE_NOT_
 ## Speed bottleneck diagnostic execution
 
 SPEED_INFORMATION_INSUFFICIENT_AT_CURRENT_1200S_APPLICATION_SCENARIO; DEVELOPMENT_ONLY, PENDING_RESEARCH_LEAD_AUDIT. [Report](../R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC/SPEED_DIAGNOSTIC_REPORT.md). [Active speed status](R4_SPEED_DIAGNOSTIC_PROGRESS.json). AcceptedA1range/bearingSTRONG,headingPROJECT; speedunresolved. Reused12000scenes; newMC0; R4-A1/R4=0%. Depthnotopened. PushthenSTOP; freshonlyifseparatelyauthorized.
+
+
+## Speed information efficiency design freeze
+
+Accepted prior 1200s bottleneck remains scoped to frozen formation/noise/tested estimators. Reuse saved D3 scenes for E0 identity, E1 Gaussian L2, E2 oracle initialization, four-state known-sigma local FIM. [Policy](../R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/SPEED_INFO_AUDIT_POLICY.json). Push before all resolves/FIM tests. No new scenarios; R4-A1/R4=0%; depth NOT_OPENED; stop after execution commit.

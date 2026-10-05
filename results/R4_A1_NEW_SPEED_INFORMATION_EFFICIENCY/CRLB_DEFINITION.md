@@ -1,0 +1,11 @@
+# Four-state local Gaussian information definition
+
+State s=[x0,y0,vx,vy]. At every saved realization's true target state and true platform trajectories, H is the physical radian bearing Jacobian; F=H.T H / sigma_theta_rad^2. Known sigma is used without residual variance rescaling. Primary model has four states, never six bias states. Evaluate all saved deployment beta angles and both mirrors, not a new nominal formation.
+
+Numerical rank uses singular values of the same scaled, normalized measurement Jacobian J=(H/sigma)*SCALE, s_i/s_max>1e-10. Preserve physical F singular values/condition, scaled J singular values/condition, and physical covariance. Full-rank C=SCALE * V diag(1/s_i^2) V.T * SCALE, algebraically F inverse. Independent audit uses physical inverse. Rank-deficient pseudoinverse is retained as a matrix but uncertainties are INF, not a finite bound. Save each physical F and C in NPZ keyed by CSV matrix_index.
+
+Speed gradient [0,0,vx/v,vy/v], heading [0,0,-vy/v^2,vx/v^2], range [x/r,y/r,0,0], initial bearing [-y/r^2,x/r^2,0,0]. Report local delta-method variances and 1 sigma, 1.645 sigma, 1.96 sigma speed equivalents; main comparison uses 1.96. Label LOCAL_LINEAR_GAUSSIAN_EQUIVALENT / NOT_EMPIRICAL_P95 / NOT_GLOBAL_GUARANTEE. CRLB is a local unbiased variance reference; it is not a general empirical P95 lower bound, total-error bound for biased estimators, or physical impossibility proof.
+
+Windows on exactly the saved full trajectory: PREFIX_300=31 epochs; STRAIGHT_600=61; PREFIX_900=91; FULL_1200=121; POST_TURN=t>600=60 epochs. Prefixes perform analytic information only, no shorter-window fits. All use original global t and x0. F_full=F_straight+F_post with no duplicated boundary. Profile initial position by Schur Fvv-Fvp Fpp^-1 Fpv. Report full/straight speed variance reduction and effective velocity information trace ratio. Gain includes time, additional epochs and changed geometry, not isolated causal turn information; no straight counterfactual is generated.
+
+Each case aggregates 500 conditional saved-geometry FIMs: min, nearest-rank median/P95, max. Route statistic is max over all saved angles/mirrors, conservatively finite-panel only. No continuous-beta guarantee. Efficiency reference uses average conditional speed variance, explicitly not the worst-case covariance. No extrapolation to longer durations.
