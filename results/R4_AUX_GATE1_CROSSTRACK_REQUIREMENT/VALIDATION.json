@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "independent_checks": 98240,
+  "failed": 0,
+  "tests_passed": 8,
+  "tests_failed": 0,
+  "primary_mc_runs": 1,
+  "registered_cells": 1870,
+  "trials_per_cell": 50000,
+  "shared_draws_not_independent_repetitions": true,
+  "new_acoustic_propagation": 0,
+  "new_depth_scores": 0,
+  "independent_method": "No primary implementation import; slope intersection, closed-form linear sensitivity, raw frozen draws",
+  "supplementary_checks": 90,
+  "historical_tracked_files_unchanged": 6461,
+  "external_hardware_sources_unchanged": 7,
+  "distinct_B_R_sigma_combinations": 935,
+  "mirrored_cell_trial_evaluations": 93500000,
+  "unique_shared_standard_normal_pairs": 50000,
+  "all_P95_finite": true,
+  "primary_source_or_policy_corrections": 0
+}

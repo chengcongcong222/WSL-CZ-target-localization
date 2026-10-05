@@ -1,0 +1,106 @@
+{
+  "stage": "R4_AUX_GATE1_CROSSTRACK_BASELINE_BEARING_REQUIREMENT",
+  "parent_sha": "79bc6b5c04e08d6074719e3c045947c1325253c8",
+  "Gate0_independent_audit": "ACCEPTED_CONDITIONAL",
+  "primary_architecture_decision": "AUX1_BASELINE_BEARING_TRADEOFF_ESTABLISHED",
+  "requirement_frontier": [
+    {
+      "sigma_deg": 0.05,
+      "minimum_tested_B_for_5pct_km": 3.0,
+      "worst_range_at_5pct_boundary": "60",
+      "worst_p95_at_5pct_boundary": 0.048935640700980915,
+      "minimum_tested_B_for_10pct_km": 2.0,
+      "worst_range_at_10pct_boundary": "60",
+      "worst_p95_at_10pct_boundary": 0.07361000363876068
+    },
+    {
+      "sigma_deg": 0.075,
+      "minimum_tested_B_for_5pct_km": 4.5,
+      "worst_range_at_5pct_boundary": "60",
+      "worst_p95_at_5pct_boundary": 0.04902225408674852,
+      "minimum_tested_B_for_10pct_km": 2.5,
+      "worst_range_at_10pct_boundary": "60",
+      "worst_p95_at_10pct_boundary": 0.0886909407767007
+    },
+    {
+      "sigma_deg": 0.1,
+      "minimum_tested_B_for_5pct_km": 6.0,
+      "worst_range_at_5pct_boundary": "60",
+      "worst_p95_at_5pct_boundary": 0.049110591639527475,
+      "minimum_tested_B_for_10pct_km": 3.0,
+      "worst_range_at_10pct_boundary": "60",
+      "worst_p95_at_10pct_boundary": 0.09866041072332124
+    },
+    {
+      "sigma_deg": 0.15,
+      "minimum_tested_B_for_5pct_km": 9.0,
+      "worst_range_at_5pct_boundary": "60",
+      "worst_p95_at_5pct_boundary": 0.04939225839833116,
+      "minimum_tested_B_for_10pct_km": 4.5,
+      "worst_range_at_10pct_boundary": "60",
+      "worst_p95_at_10pct_boundary": 0.09877807209631939
+    },
+    {
+      "sigma_deg": 0.2,
+      "minimum_tested_B_for_5pct_km": "NOT_REACHED_WITHIN_B<=10KM",
+      "worst_range_at_5pct_boundary": "",
+      "worst_p95_at_5pct_boundary": "",
+      "minimum_tested_B_for_10pct_km": 6.0,
+      "worst_range_at_10pct_boundary": "60",
+      "worst_p95_at_10pct_boundary": 0.09902824733425628
+    }
+  ],
+  "bearing_requirement_fixed_baseline": [
+    {
+      "baseline_km": 5,
+      "largest_tested_sigma_for_5pct_deg": 0.075,
+      "next_tested_failing_sigma_for_5pct_deg": 0.1,
+      "worst_p95_at_5pct_boundary": 0.04413373847551559,
+      "largest_tested_sigma_for_10pct_deg": 0.15,
+      "next_tested_failing_sigma_for_10pct_deg": 0.2,
+      "worst_p95_at_10pct_boundary": 0.08894963902966377
+    },
+    {
+      "baseline_km": 10,
+      "largest_tested_sigma_for_5pct_deg": 0.15,
+      "next_tested_failing_sigma_for_5pct_deg": 0.2,
+      "worst_p95_at_5pct_boundary": 0.044613563497423785,
+      "largest_tested_sigma_for_10pct_deg": 0.2,
+      "next_tested_failing_sigma_for_10pct_deg": "NOT_BRACKETED_ABOVE_TESTED_MAX",
+      "worst_p95_at_10pct_boundary": 0.059488856021590306
+    }
+  ],
+  "primary_sigma_0p10_requirement": {
+    "sigma_deg": 0.1,
+    "minimum_tested_B_for_5pct_km": 6.0,
+    "worst_range_at_5pct_boundary": "60",
+    "worst_p95_at_5pct_boundary": 0.049110591639527475,
+    "minimum_tested_B_for_10pct_km": 3.0,
+    "worst_range_at_10pct_boundary": "60",
+    "worst_p95_at_10pct_boundary": 0.09866041072332124
+  },
+  "primary_selected_crossing_angle_range": {
+    "baseline_km": 6.0,
+    "alpha_min_deg": 5.710593137499642,
+    "alpha_max_deg": 6.84277341263094,
+    "worst_range_km": "60",
+    "worst_p95_relative": 0.049110591639527475
+  },
+  "requirement_scope": "IDEAL_KNOWN_POSITION_DIRECTED_BEARING_GEOMETRY; DISCRETE_11_RANGES; FINITE_MC; NOT_HARDWARE_OR_CONTINUOUS_GUARANTEE",
+  "actual_bearing_hardware_capability": "UNKNOWN",
+  "single_array_cold_start": "NOT_ESTABLISHED",
+  "single_array_depth_engineering": "CLOSED",
+  "AUX1": "CONDITIONAL_ARCHITECTURE_CANDIDATE",
+  "R4_A1_NEW": "NOT_OPENED",
+  "depth": "CLOSED_PENDING_INDEPENDENT_HORIZONTAL_ACQUISITION",
+  "R4_progress_percent": 0,
+  "A2_A3_A4_B2_B3_B4_C": "PAUSED / NOT_OPENED",
+  "P5": "NOT_OPENED",
+  "new_acoustic_propagation": 0,
+  "new_depth_scores": 0,
+  "position_bias_time_error_added": false,
+  "tracking_filter_implemented": false,
+  "audit_status": "PENDING_RESEARCH_LEAD_AUDIT",
+  "next_stage": "STOP_FOR_RESEARCH_LEAD_AUDIT; GATE2_NOT_OPENED",
+  "design_sha": "d17b67c452508fbc151d5456de866c953cef59a9"
+}

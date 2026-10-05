@@ -203,3 +203,8 @@ AUXILIARY_NODE_GEOMETRY_CONDITIONALLY_PRACTICAL; PENDING_RESEARCH_LEAD_AUDIT. Kn
 Parent79bc6b5c04e08d6074719e3c045947c1325253c8 accepted conditional geometry, not engineering capability. Single-array cold start NOT ESTABLISHED; depth engineering CLOSED, oracle mechanism retained; AUX1 CONDITIONAL_ARCHITECTURE_CANDIDATE. R4=0%, original A/B sequence paused.
 
 R4_AUX_GATE1_CROSSTRACK_BASELINE_BEARING_REQUIREMENT authorized: MAIN(0,0), AUX(0,+/-B), B2:0.5:10km, R50:1:60km, effective directed-bearing RMS0.05/0.075/0.1/0.15/0.2deg;50000 fixed common Gaussian trials per cell. [Design](../R4_AUX_GATE1_CROSSTRACK_REQUIREMENT/AUX_GATE1_DESIGN_FREEZE.json). Freeze/push/remote verify before MC/tests, execute once unchanged, independent audit/results commit/push then stop. Full-range means11 tested ranges, not continuous guarantee. Actual hardware accuracy UNKNOWN; no numerical CRLB capability promise. No propagation/depth/SSP/TDOA/tracker/5D/off-gridA1/position-bias-time scenarios. R4-A1-NEW/Gate2 not opened; A2/A3/A4/B2/B3/B4/C paused/not opened; P5not opened; R4_PROGRESS.json unchanged.
+
+
+## AUX Gate1 requirement execution
+
+AUX1_BASELINE_BEARING_TRADEOFF_ESTABLISHED; PENDING_RESEARCH_LEAD_AUDIT. Fixed cross-track deployment, discrete11-range requirement frontier; no hardware or continuous-range guarantee. [Report](../R4_AUX_GATE1_CROSSTRACK_REQUIREMENT/AUX_GATE1_REPORT.md). Single-array cold start not established, depth closed, AUX1 conditional, R4=0%; no R4-A1-NEW/Gate2 restart. Commit/push/verify then stop.

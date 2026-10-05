@@ -1,0 +1,11 @@
+{
+  "n_distinct_positive_side_cells": 935,
+  "mirrors_not_independent": true,
+  "nonlinear_over_linear_min": 1.0077058122242164,
+  "nonlinear_over_linear_max": 1.1217962439949956,
+  "p95_over_sigma_rad_over_sin_alpha_min": 2.7933127023494695,
+  "p95_over_sigma_rad_over_sin_alpha_max": 3.1094043680146575,
+  "worst_p95_baseline_monotonicity_violations": [],
+  "diagnostic_only": true,
+  "formula": "sigma_r= sigma_rad*sqrt(R^4+(R^2+B^2)^2)/B; far-field P95 approximately1.96*sqrt(2)*sigma_rad/sin(alpha)"
+}
