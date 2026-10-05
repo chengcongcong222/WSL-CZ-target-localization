@@ -220,3 +220,8 @@ R4_AUX_GATE2_NONIDEAL_MEASUREMENT_ERROR_BUDGET authorized Gate2A only. Anchors5k
 ## AUX Gate2A execution
 
 AUX1_NONIDEAL_REQUIREMENTS_ESTABLISHED_CLIENT_CONFIRMATION_REQUIRED; PENDING_RESEARCH_LEAD_AUDIT. Single-factor signed-bias/navigation/deployment budgets only, not a jointly validated point. [Report](../R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET/AUX_GATE2A_REPORT.md). Actual hardware unknown; R4=0%; R4-A1-NEW/Gate2B not opened, depth closed. Commit/push/verify then stop.
+
+
+## AUX Gate2A acceptance and Gate2B design
+
+Parent5d8b9c9f2d8efdb74a95da4ea546aae11457a24f accepted SINGLE_FACTOR_REQUIREMENTS. Gate2B explicitly authorized as final geometry-only joint static qualification; two families and fixed half point. [Criteria](../R4_AUX_GATE2B_JOINT_ERROR_BUDGET/AUX_GATE2B_CRITERIA.md). Actual hardware UNKNOWN; R4=0%; A1-NEW closed. Push freeze before MC; stop after execution push.
