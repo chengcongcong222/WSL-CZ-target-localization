@@ -1,0 +1,15 @@
+# Frozen Gate2A criteria and geometry
+
+Accepted Gate1parent1fde9dac9d848e5c8b9987b010182411fdbc79c6. Anchors A=B5km/random0.05deg; B=B7km/random0.075deg. Saved B6km/random0.10deg only THRESHOLD_REFERENCE, never a third nonideal anchor. Preserve accepted Gate1 numerical values unchanged; new zero-control seed uses a different finite sample realization.
+
+Two mirrors, R50:1:60km. BIAS all9x9 signed common/differential values [-0.10,-0.05,-0.02,-0.01,0,0.01,0.02,0.05,0.10]deg; navigation/deployment0. POSITION sigma_pos[0,10,25,50,100,200,500]m per-axis1sigma, true nodes(0,0)/(0,+B), estimated positions receive independent2D errors; bias/deployment0. DEPLOYMENT beta[-20,-10,-5,-2,0,2,5,10,20]deg, actual AUX=B[cos(90+beta),sin(90+beta)] known accurately; bias/navigation0. Reflection gives both sides; beta geometry not a navigation error.
+
+4268cells;30000 trials each; PCG64seed2026100503; one30000x6 normal table. Columns0/1 random bearing,2/3 MAINposition,4/5 AUXposition, independent coordinates. Cells/mirrors share draws, not independent repeats. Bearing noise reflected by side; nav y reflected. Bias symmetry compares(c,d,side+) with(-c,-d,side-), not same signed bias without reflection. No truth/threshold clipping in intersection API.
+
+Estimator receives MAIN_est/AUX_est and observed directed angles only; bearing derives from true geometry. r_hat=norm(target_hat-MAIN_est) versus true MAIN-target R. Absolute2D error uses true target; never silently measure position error relative to noisy sensor frame. All independent positions per-axis metres, not radial RMS.
+
+All trials including numerical parallel determinant abs<=1e-12, nonfinite and behind-sensor failures; failures assigned infinite error. Finite poorly conditioned cases retained; proxy1/abs(sin(observed crossing))>1000 reported. Nearest-rank unconditional median/P90/P95/P99 for range and2D error. Rank/Wilson95% uncertainty diagnostics do not give selected-grid simultaneous coverage.
+
+Full-range=maxP95 over all11 ranges and both mirrors, valid/finite throughout. T5<=5%, T10<=10%; no averaging signs/ranges. Axis requirement is largest absolute tested cap whose every inner signed tested node passes: common axis diff0, diff axis common0; position includes every lower sigma, beta includes both sides/every smaller tested magnitude. No interpolation/continuous certificate; max-grid caps right-censored. Full81bias2D map retained, no applying separate maxima simultaneously.
+
+OutcomeA requires at least one anchor all4nonzeroT5axes plus actual equipment capability confirmed. B if numerical nonzero budgets but hardware unknown; C otherwise; T10reported independently regardlessT5. Allnine actual hardware categories currently UNKNOWN, so no hardware admission by numerical simulation. R4=0%; R4-A1-NEW/Gate2B not opened; no joint nonideal/time-skew/associationMC. No acoustic/depth/SSP/TDOA/tracker/5D. Freeze/push/verify beforeMC and tests; primary execute once, independent audit, results commit/push/verify then STOP.

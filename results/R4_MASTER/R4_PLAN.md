@@ -208,3 +208,10 @@ R4_AUX_GATE1_CROSSTRACK_BASELINE_BEARING_REQUIREMENT authorized: MAIN(0,0), AUX(
 ## AUX Gate1 requirement execution
 
 AUX1_BASELINE_BEARING_TRADEOFF_ESTABLISHED; PENDING_RESEARCH_LEAD_AUDIT. Fixed cross-track deployment, discrete11-range requirement frontier; no hardware or continuous-range guarantee. [Report](../R4_AUX_GATE1_CROSSTRACK_REQUIREMENT/AUX_GATE1_REPORT.md). Single-array cold start not established, depth closed, AUX1 conditional, R4=0%; no R4-A1-NEW/Gate2 restart. Commit/push/verify then stop.
+
+
+## Accepted AUX Gate1 and authorized Gate2A single-factor nonideal budget
+
+Parent1fde9dac9d848e5c8b9987b010182411fdbc79c6 accepted tradeoff established, ideal geometry only. Single-array cold-start not established, depth engineering closed; AUX1conditionalarchitecturecandidate, hardwareunknown; R4=0%, originalA/Bsequencepaused.
+
+R4_AUX_GATE2_NONIDEAL_MEASUREMENT_ERROR_BUDGET authorized Gate2A only. Anchors5km/.05deg and7km/.075deg, B6/.1deg historicalreferenceonly. Three SINGLE-FACTOR families: complete81signedbias, per-axisnavigation7levels, knownactualdeployment9signedangles;11rangesandmirrors.30000fixedcommontrials seed2026100503. [Freeze](../R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET/AUX_GATE2A_DESIGN_FREEZE.json). Freeze/push beforeMC/tests, executeonce, independentaudit, commit/push/verifythenstop. No jointstress/time-skew/associationMC/propagation/depth/SSP/TDOA/tracker/5D. Client requirements do not claim simultaneous axis tolerances. Actualhardwareunknown. R4-A1-NEW/Gate2Bnotopened;A2/A3/A4/B2/B3/B4/Cpaused/notopened;P5notopened. R4_PROGRESS.jsonunchanged.

@@ -1,0 +1,9 @@
+# Hardware evidence audit
+
+All nine requested actual equipment quantities are UNKNOWN / CLIENT_CONFIRMATION_REQUIRED: main HLA count/aperture, existing auxiliary bearing-producing array/aperture, DOA accuracy, heading/attitude, navigation position, clock synchronization and array calibration accuracy. CONFIRMED is reserved for original device specifications or acceptance evidence; no reviewed source qualifies. Unknown does not mean physically unavailable.
+
+Original project_context assumes navigation available, not a position/heading covariance certificate. questions_for_client asks for array geometry/calibration/error statistics and distinguishes snapshot standard deviation, processed RMS and systematic bias. Three original proposal DOCX sources leave count/aperture/frequency-band conditions pending. The current repository receiver audit says historical8-element14m/70m cases are model controls and actual hardware dimensions are unknown; its synchronization/phase calibration rows are unknown. Historical0.1deg synthetic bearing cannot certify receiver0.1deg.
+
+Rechecked current repository receiver audit, accepted Gate1 evidence excerpts, its referenced four original project-note files and three proposal DOCX files. Original paths and SHA hashes are bound in freeze external_bindings; exact excerpt source hashes/line or paragraph locations preserved in AUX_HARDWARE_ORIGINAL_EXCERPTS.csv. Simulation outputs/literature devices are not inferred equipment specifications. Existing AUX array/aperture and achievable deployment baseline have no supplied project hardware certificate.
+
+Status table AUX_HARDWARE_EVIDENCE_STATUS.csv uses only UNKNOWN, with explicit client confirmation. Independent audit checks all source hashes. No outside contact/messages or unsupported actual device promise. Numerical tolerance alone cannot yield STATIC_MEASUREMENT_CHAIN_ADMITTED.

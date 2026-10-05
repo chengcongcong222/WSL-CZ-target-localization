@@ -1,0 +1,10 @@
+quantity,status,client_confirmation_required,evidence,simulation_is_not_hardware
+main_HLA_element_count,UNKNOWN,True,Source-bound proposal/questions/receiver audit; no actual numerical device certificate found,True
+main_HLA_aperture,UNKNOWN,True,Source-bound proposal/questions/receiver audit; no actual numerical device certificate found,True
+auxiliary_existing_array,UNKNOWN,True,Source-bound proposal/questions/receiver audit; no actual numerical device certificate found,True
+auxiliary_aperture,UNKNOWN,True,Source-bound proposal/questions/receiver audit; no actual numerical device certificate found,True
+directed_DOA_accuracy,UNKNOWN,True,Source-bound proposal/questions/receiver audit; no actual numerical device certificate found,True
+heading_attitude_accuracy,UNKNOWN,True,Source-bound proposal/questions/receiver audit; no actual numerical device certificate found,True
+navigation_position_accuracy,UNKNOWN,True,Source-bound proposal/questions/receiver audit; no actual numerical device certificate found,True
+clock_synchronization_accuracy,UNKNOWN,True,Source-bound proposal/questions/receiver audit; no actual numerical device certificate found,True
+array_calibration_accuracy,UNKNOWN,True,Source-bound proposal/questions/receiver audit; no actual numerical device certificate found,True
