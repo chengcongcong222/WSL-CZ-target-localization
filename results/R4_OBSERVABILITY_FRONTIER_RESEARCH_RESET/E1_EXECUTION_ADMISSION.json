@@ -1,0 +1,74 @@
+{
+  "stage": "R4_E1_ACOUSTIC_BEARING_FREQUENCY_PRIMARY_SOURCE_LOCK",
+  "parent_frontier_SHA": "0db30f60e781676f9168d380678693a32f1325a1",
+  "frontier_design_independent_audit": "ACCEPTED_WITH_E1_PRIMARY_SOURCE_GAP",
+  "status": "E1_PRIMARY_SOURCE_OR_MODEL_LOCK_INCOMPLETE",
+  "execution_admission": "NOT_READY",
+  "next": "STOP",
+  "primary_PDF_availability": {
+    "Sun2024": "FULL",
+    "Xu2018": "FULL",
+    "Li2019": "FULL",
+    "Kita2022": "FULL"
+  },
+  "bearing_frequency_original_measurement_model": "LOCKED",
+  "bearing_radial_velocity_extraction_chain": "LOCKED_CONDITIONAL_PAPER_CHAIN",
+  "checks": [
+    {
+      "condition": "GENUINE_UNDERWATER_BEARING_FREQUENCY_PRIMARY_METHOD_LOCKED",
+      "pass": false,
+      "evidence": "Sun Eq4 locked; complete original MFB-AUKF still PARTIAL_METHOD_ONLY",
+      "blocker": "Printed CV matrix and UKF weights conflict with their intended definitions; Eq35 conflicts with Eq4 full state Jacobian; no silently corrected strict LIT-F"
+    },
+    {
+      "condition": "RADIAL_EXTRACTION_INPUT_OUTPUT_LOCKED_OR_EXPLICITLY_UNREPRODUCIBLE",
+      "pass": true,
+      "evidence": "Xu gamma -> cyclic FFT -> |q| -> waveguide sign; conditional paper chain locked; CZ extraction/phase compensation NOT_ESTABLISHED"
+    },
+    {
+      "condition": "NEW_RELATIVE_TO_LITERATURE_DEFINED",
+      "pass": true,
+      "evidence": "Unknown f0 and random walk already Sun; only drift/reference and two-node condition extension candidate; no innovation result"
+    },
+    {
+      "condition": "SOURCE_REFERENCE_GAUGES_ANALYTICALLY_CHECKED",
+      "pass": true,
+      "evidence": "A-F scoped derivations; 11 fixed algebra checks pass; no project dynamic FIM"
+    },
+    {
+      "condition": "LAYER1_LAYER2_INPUT_CONTRACTS_FROZEN",
+      "pass": true,
+      "evidence": "Revised minimal design; generated truth inaccessible to estimator by contract; covariance provenance and phase/extraction implementation need pre-run validation"
+    },
+    {
+      "condition": "20_PERCENT_AND_LITERATURE_COMPARISON_RULES_FROZEN",
+      "pass": true,
+      "evidence": "B0 median variance reduction>=20%, worst-case variance max_s V_NEW<=max_s V_B0; same-resource acoustic comparator; expanded condition needed"
+    },
+    {
+      "condition": "NO_HIDDEN_TRUTH_F0_VR_OR_LINE_ID_REQUIRED_BY_PRIMARY_MODEL",
+      "pass": true,
+      "evidence": "Design contract excludes those; oracle controls isolated; Kita truth-assisted lobe choice not admitted; implementation not yet developed or audited"
+    }
+  ],
+  "implementation_validation": "NOT_EXECUTED_AND_NOT_CLAIMED",
+  "deterministic_algebra_checks": 11,
+  "new_scientific_runs": 0,
+  "new_MC": 0,
+  "new_received_signal_synthesis": 0,
+  "new_propagation_runs": 0,
+  "new_performance_results": 0,
+  "new_project_FIM_runs": 0,
+  "unknown_source_frequency_gauge": "PRESENT_IN_CONSTANT_RADIAL_CONTROL; dynamic-bearing scope explicitly conditional",
+  "node_reference_drift_gauge": "INDEPENDENT_AFFINE_REFERENCE_ABSORBS_AFFINE_DOPPLER; curvature may survive",
+  "multi_line_independent_information_result": "ONE_MOTION_LOADING_PER_NODE_TIME; precision may improve",
+  "NEW_relative_to_literature": "NEW_EXTENSION_NOT_ESTABLISHED; unknown f0 already literature",
+  "E2": "NOT_OPENED",
+  "FDSL_POMAP": "ORIGINAL_FDSL_POMAP_COMPARATOR_PENDING",
+  "R4_percent": 0,
+  "hardware_status": "UNKNOWN_NONBLOCKING_FOR_APPLICATION_PRERESEARCH",
+  "time_synchronization": "NOT_NUMERICALLY_VALIDATED",
+  "target_association": "NOT_NUMERICALLY_VALIDATED",
+  "stop_rule": "Commit documentation/formula lock, push and verify HEAD==remote/main, then STOP. No scientific execution in this stage even if ready.",
+  "corrected_baseline_policy": "No derived correction is admitted as strict original paper reproduction. A later separately frozen corrected/adapted baseline requires explicit identity and review."
+}

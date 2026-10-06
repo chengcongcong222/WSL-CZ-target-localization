@@ -270,3 +270,8 @@ CURRENT_1200S_GEOMETRY_INFORMATION_LIMIT_CONFIRMED_BY_CRLB; DEVELOPMENT ONLY, pe
 ## Observability frontier research reset: literature and designs
 
 Accepted parent ee656d49bb7459268a991db6c44ba50d661456db, scoped local/model finding. Same-condition bearing loss/initialization/filter repair CLOSED. PROJECT_APPLICATION_PRE_RESEARCH; hardware UNKNOWN nonblocking. [Report](../R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/GPT_SYNC.md), [dual status](R4_OBSERVABILITY_FRONTIER_PROGRESS.json). Original joint A1/R4=0%, speed NOT_PASSED. Completed pre-research evidence separately listed, no invented percentage. Literature coverage, TOP3 and TOP2 two-layer designs delivered; scientific calculation, new MC, acoustic synthesis and propagation NONE. FDSL/POMAP full-text and strict comparator formulas pending. Independent audit pending. Commit/push/verify then STOP; no automatic TOP2, extended time, maneuvers, depth, A2, SSP or P5.
+
+
+## E1 primary acoustic source and formula lock
+
+Parent 0db30f60e781676f9168d380678693a32f1325a1 frontier design ACCEPTED_WITH_E1_PRIMARY_SOURCE_GAP. [E1 lock](../R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/GPT_SYNC_E1_LOCK.md). Four full PDFs and methods recovered; Sun measurement Eq4 locked, complete strict MFB-AUKF baseline conflicts unresolved. Xu pressure-to-radial-velocity conditional chain locked; CZ phase/sign/covariance not established. A-F structural checks and revised B0/LIT-F/LIT-RV/UUV/NEW contracts frozen. E1_PRIMARY_SOURCE_OR_MODEL_LOCK_INCOMPLETE; NOT_READY. 11 fixed algebra checks only; new scientific/MC/signal/propagation/project-FIM runs=0. E2 NOT_OPENED; FDSL/POMAP comparator pending. R4=0%. Commit/push/verify then STOP; no automatic scientific execution.

@@ -1,0 +1,15 @@
+{
+  "stage": "R4_E1_ACOUSTIC_BEARING_FREQUENCY_PRIMARY_SOURCE_LOCK",
+  "parent_SHA": "0db30f60e781676f9168d380678693a32f1325a1",
+  "status": "E1_PRIMARY_SOURCE_OR_MODEL_LOCK_INCOMPLETE",
+  "E1_execution_admission": "NOT_READY",
+  "independent_audit": "PENDING",
+  "frontier_design_audit": "ACCEPTED_WITH_E1_PRIMARY_SOURCE_GAP",
+  "E2": "NOT_OPENED",
+  "R4_percent": 0,
+  "original_joint_A1_percent": 0,
+  "new_scientific_runs": 0,
+  "deterministic_algebra_checks": 11,
+  "next": "STOP",
+  "active_artifact": "../R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/GPT_SYNC_E1_LOCK.md"
+}

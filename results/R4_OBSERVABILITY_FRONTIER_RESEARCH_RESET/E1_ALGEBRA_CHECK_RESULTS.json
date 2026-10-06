@@ -1,0 +1,87 @@
+{
+  "scope": "FIXED_DETERMINISTIC_ALGEBRA_ONLY",
+  "scientific_runs": 0,
+  "scenario_rank_runs": 0,
+  "checks": [
+    {
+      "id": "A",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "passed": true
+    },
+    {
+      "id": "B",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "C",
+      "actual": 2.1355566272775288e-15,
+      "expected": "<=1e-12",
+      "passed": true
+    },
+    {
+      "id": "C2",
+      "actual": 2.449489742783178,
+      "expected": ">1e-6",
+      "passed": true
+    },
+    {
+      "id": "D",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "D2",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "E",
+      "actual": {
+        "common_source_residual": 1.414213562373095,
+        "free_node_residual": 0.0
+      },
+      "expected": "common>1e-6; free<=1e-12",
+      "passed": true
+    },
+    {
+      "id": "F",
+      "actual": {
+        "acoustic": 0.0,
+        "with_external_prior": 0.5
+      },
+      "expected": {
+        "acoustic": 0.0,
+        "with_external_prior": 0.5
+      },
+      "passed": true
+    },
+    {
+      "id": "SUN-W",
+      "actual": -6.0,
+      "expected": "printed sum -6, not 1",
+      "passed": true
+    },
+    {
+      "id": "SUN-F",
+      "actual": 20,
+      "expected": "printed 20 versus CV 2",
+      "passed": true
+    },
+    {
+      "id": "SUN-H",
+      "actual": [
+        0.042666666666666665,
+        -0.03199999999999999
+      ],
+      "expected": "position derivative nonzero",
+      "passed": true
+    }
+  ],
+  "pass_count": 11,
+  "fail_count": 0
+}

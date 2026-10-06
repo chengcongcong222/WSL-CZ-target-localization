@@ -1,0 +1,61 @@
+{
+  "stage": "R4_E1_ACOUSTIC_BEARING_FREQUENCY_PRIMARY_SOURCE_LOCK",
+  "parent_SHA": "0db30f60e781676f9168d380678693a32f1325a1",
+  "sources": [
+    {
+      "source_id": "E1-SUN2024",
+      "primary_url": "https://www.cpsjournals.cn/data/article/sxxb/preview/pdf/10.12395/0371-0025.2023077.pdf",
+      "local_pdf": "D:\\ProjectStorage\\WSL-CZ\\e1-primary-lock\\SUN2024.pdf",
+      "PDF_pages": 13,
+      "SHA256": "957598d7ea8792a5ef0e7dfc71d906857ecb97eea5a61c8dd8f1d74994a08655",
+      "full_text_available": true,
+      "read_method_scope": "p684-687 Eq1-35; p688-695 simulation and sea trial",
+      "formula_lock_status": "PARTIAL_METHOD_ONLY",
+      "read_method": "PDF extracted text and manual PDF-page image reading; Xu/Li Chinese text unreliable, images authoritative",
+      "committed_full_text": false,
+      "strict_code_reproduction": false
+    },
+    {
+      "source_id": "E1-XU2018",
+      "primary_url": "https://www.jac.ac.cn/cn/article/pdf/preview/10.15949/j.cnki.0371-0025.2018.03.007.pdf",
+      "local_pdf": "D:\\ProjectStorage\\WSL-CZ\\e1-primary-lock\\XU2018.pdf",
+      "PDF_pages": 11,
+      "SHA256": "eea769a4f50523ceae5a619c000714ecc138e92d8d3c3ac22be8ed93caae0452",
+      "full_text_available": true,
+      "read_method_scope": "p324-327 theory/extraction/EKF; p328-333 signal simulation and sea trial",
+      "formula_lock_status": "FULL_METHOD_LOCKED_CONDITIONAL_FORMULA_CHAIN",
+      "read_method": "PDF extracted text and manual PDF-page image reading; Xu/Li Chinese text unreliable, images authoritative",
+      "committed_full_text": false,
+      "strict_code_reproduction": false
+    },
+    {
+      "source_id": "E1-LI2019",
+      "primary_url": "https://www.jac.ac.cn/cn/article/pdf/preview/10.15949/j.cnki.0371-0025.2019.04.013.pdf",
+      "local_pdf": "D:\\ProjectStorage\\WSL-CZ\\e1-primary-lock\\LI2019.pdf",
+      "PDF_pages": 11,
+      "SHA256": "6f382a62366035e25d7e35e9d41ecbc488e8204cc270e87eafe188f23716edd1",
+      "full_text_available": true,
+      "read_method_scope": "p524-528 beam-domain/SIR/model; p529-532 sensitivity and sea trial",
+      "formula_lock_status": "PARTIAL_METHOD_ONLY",
+      "read_method": "PDF extracted text and manual PDF-page image reading; Xu/Li Chinese text unreliable, images authoritative",
+      "committed_full_text": false,
+      "strict_code_reproduction": false
+    },
+    {
+      "source_id": "E1-KITA2022",
+      "primary_url": "https://dspace.mit.edu/server/api/core/bitstreams/e4f7ac61-24c3-418e-8156-c7b6268eb03d/content",
+      "local_pdf": "D:\\ProjectStorage\\WSL-CZ\\e1-primary-lock\\KITA2022.pdf",
+      "PDF_pages": 15,
+      "SHA256": "d216dde9da84af5be02e907fb948825ec2bb1ae6b1e6c583fb8ec656d4d3e6ba",
+      "full_text_available": true,
+      "read_method_scope": "Section II C-E; III; Appendix A/B; Fig7 p1318; cover+14body pages",
+      "formula_lock_status": "PARTIAL_METHOD_ONLY",
+      "read_method": "PDF extracted text and manual PDF-page image reading; Xu/Li Chinese text unreliable, images authoritative",
+      "committed_full_text": false,
+      "strict_code_reproduction": false
+    }
+  ],
+  "source_storage": "D: scratch PDFs/text/images retained locally; no copyrighted complete papers or page images committed",
+  "new_scientific_runs": 0,
+  "source_lock_scope": "Conditional equations/inputs plus explicit conflict register; retrieval is not execution admission"
+}

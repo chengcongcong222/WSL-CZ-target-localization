@@ -1,0 +1,312 @@
+{
+  "scope": "DOCUMENTATION_AND_SOURCE_LOCK_VALIDATION_NOT_SCIENTIFIC_PERFORMANCE",
+  "parent_SHA": "0db30f60e781676f9168d380678693a32f1325a1",
+  "checks": [
+    {
+      "id": "HEAD_IS_PARENT",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PARENT_ARTIFACT_UNCHANGED:BREAKTHROUGH_METRICS_PROPOSAL.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PARENT_ARTIFACT_UNCHANGED:CLOSED_ROUTE_SCOPE_REVIEW.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PARENT_ARTIFACT_UNCHANGED:DOCUMENTATION_VALIDATION.json",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PARENT_ARTIFACT_UNCHANGED:GPT_SYNC.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PARENT_ARTIFACT_UNCHANGED:LITERATURE_IMPLEMENTATION_COVERAGE.csv",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PARENT_ARTIFACT_UNCHANGED:OBSERVABLE_INFORMATION_COMPLEMENTARITY.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PARENT_ARTIFACT_UNCHANGED:PRIMARY_SOURCE_READ_LOG.csv",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PARENT_ARTIFACT_UNCHANGED:README.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PARENT_ARTIFACT_UNCHANGED:STAGE_STATUS.json",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PARENT_ARTIFACT_UNCHANGED:TOP2_MINIMAL_EXPERIMENT_DESIGNS.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PARENT_ARTIFACT_UNCHANGED:TOP3_RESEARCH_HYPOTHESES.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "MASTER_APPEND_ONLY:R4_PLAN.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "MASTER_APPEND_ONLY:R4_EVIDENCE_LEDGER.csv",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "REQUIRED:E1_PRIMARY_SOURCE_COVERAGE.csv",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "REQUIRED:E1_ACOUSTIC_MEASUREMENT_MODEL_LOCK.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "REQUIRED:E1_LITERATURE_BASELINE_COMPARISON.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "REQUIRED:E1_NUISANCE_IDENTIFIABILITY.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "REQUIRED:E1_REVISED_MINIMAL_EXPERIMENT_DESIGN.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "REQUIRED:E1_EXECUTION_ADMISSION.json",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "REQUIRED:GPT_SYNC_E1_LOCK.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "COVERAGE_7_SOURCES",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "COVERAGE_VALID_LOCK_ENUMS",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "COVERAGE_NO_EMPTY_COLUMNS",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PRIMARY_PDF_HASH:E1-SUN2024",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PRIMARY_PDF_HASH:E1-XU2018",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PRIMARY_PDF_HASH:E1-LI2019",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PRIMARY_PDF_HASH:E1-KITA2022",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "VALID_JSON:E1_EXECUTION_ADMISSION.json",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "VALID_JSON:E1_SOURCE_PROVENANCE.json",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "VALID_JSON:E1_ALGEBRA_CHECK_RESULTS.json",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "ADMISSION_CONJUNCTION_FALSE",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "ADMISSION_NOT_READY",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "PRIMARY_MEASUREMENT_NOT_FILTER_COMPLETION",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "ZERO_SCIENTIFIC_COUNTS",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "E2_UNOPENED_R4_ZERO",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "11_ALGEBRA_CHECKS_PASS",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "UTF8_NO_REPLACEMENT:E1_ACOUSTIC_MEASUREMENT_MODEL_LOCK.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:E1_ACOUSTIC_MEASUREMENT_MODEL_LOCK.md:E1_PRIMARY_SOURCE_COVERAGE.csv",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:E1_ACOUSTIC_MEASUREMENT_MODEL_LOCK.md:E1_SOURCE_PROVENANCE.json",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:E1_ACOUSTIC_MEASUREMENT_MODEL_LOCK.md:E1_ALGEBRA_CHECK_RESULTS.json",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "UTF8_NO_REPLACEMENT:E1_ALGEBRA_CHECK_POLICY.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "UTF8_NO_REPLACEMENT:E1_LITERATURE_BASELINE_COMPARISON.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:E1_LITERATURE_BASELINE_COMPARISON.md:E1_ACOUSTIC_MEASUREMENT_MODEL_LOCK.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:E1_LITERATURE_BASELINE_COMPARISON.md:E1_PRIMARY_SOURCE_COVERAGE.csv",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "UTF8_NO_REPLACEMENT:E1_NUISANCE_IDENTIFIABILITY.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:E1_NUISANCE_IDENTIFIABILITY.md:E1_ALGEBRA_CHECK_POLICY.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "UTF8_NO_REPLACEMENT:E1_REVISED_MINIMAL_EXPERIMENT_DESIGN.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:E1_REVISED_MINIMAL_EXPERIMENT_DESIGN.md:E1_LITERATURE_BASELINE_COMPARISON.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "UTF8_NO_REPLACEMENT:GPT_SYNC_E1_LOCK.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:GPT_SYNC_E1_LOCK.md:E1_PRIMARY_SOURCE_COVERAGE.csv",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:GPT_SYNC_E1_LOCK.md:E1_ACOUSTIC_MEASUREMENT_MODEL_LOCK.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:GPT_SYNC_E1_LOCK.md:E1_NUISANCE_IDENTIFIABILITY.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:GPT_SYNC_E1_LOCK.md:E1_LITERATURE_BASELINE_COMPARISON.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:GPT_SYNC_E1_LOCK.md:E1_REVISED_MINIMAL_EXPERIMENT_DESIGN.md",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "LINK_EXISTS:GPT_SYNC_E1_LOCK.md:E1_EXECUTION_ADMISSION.json",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "GIT_DIFF_CHECK",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "TRACKED_DIFF_MASTER_ONLY",
+      "pass_": true,
+      "detail": "['results/R4_MASTER/R4_EVIDENCE_LEDGER.csv', 'results/R4_MASTER/R4_PLAN.md']"
+    },
+    {
+      "id": "ALGEBRA_CODE_NO_SCENARIO_INPUT",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "id": "ORIGINAL_WORST_CASE_GATE_PRESERVED:E1_LITERATURE_BASELINE_COMPARISON.md",
+      "pass_": true
+    },
+    {
+      "id": "ORIGINAL_WORST_CASE_GATE_PRESERVED:E1_REVISED_MINIMAL_EXPERIMENT_DESIGN.md",
+      "pass_": true
+    }
+  ],
+  "pass_count": 61,
+  "fail_count": 0,
+  "new_scientific_runs": 0
+}
