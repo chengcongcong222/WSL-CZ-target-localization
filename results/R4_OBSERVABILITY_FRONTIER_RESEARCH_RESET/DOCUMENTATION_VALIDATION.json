@@ -1,0 +1,300 @@
+{
+  "checks": [
+    {
+      "check": "18_unique_source_ids",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence:S01",
+      "pass": true,
+      "detail": "results/R3_C2_Yang_SA_depth/R3_C2_3A/R3_C2_3A_REPORT.md"
+    },
+    {
+      "check": "code:r3_c2_0_yang_sa_gate.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence:S02",
+      "pass": true,
+      "detail": "results/R3_C2_AR_MMAR/R3_C2_4B_3A_HANKEL_AMPLITUDE/DZ_INPUT_CONTRACT.md"
+    },
+    {
+      "check": "code:r3_c2_4b_3a_hankel_bridge.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence:S03",
+      "pass": true,
+      "detail": "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_LITERATURE_TRANSFERABILITY.md"
+    },
+    {
+      "check": "evidence:S04",
+      "pass": true,
+      "detail": "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_LITERATURE_TRANSFERABILITY.md"
+    },
+    {
+      "check": "evidence:S05",
+      "pass": true,
+      "detail": "results/R3_C2_AR_MMAR/R3_C2_4B_3A_HANKEL_AMPLITUDE/R3_C2_4B_3A_REPORT.md"
+    },
+    {
+      "check": "code:r3_c2_4a_mmar_audit.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "code:r3_c2_4b_3a_hankel_bridge.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence:S06",
+      "pass": true,
+      "detail": "results/R3_A1_fidelity/R3_A1_REPORT.md"
+    },
+    {
+      "check": "code:r3_a1_fidelity.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence:S07",
+      "pass": true,
+      "detail": "results/RANGE_UB/XU2024_VLA_FORMULA_REPRO/XU2024_EQUATION_LOCK.md"
+    },
+    {
+      "check": "evidence:S08",
+      "pass": true,
+      "detail": "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_LITERATURE_TRANSFERABILITY.md"
+    },
+    {
+      "check": "evidence:S09",
+      "pass": true,
+      "detail": "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_LITERATURE_TRANSFERABILITY.md"
+    },
+    {
+      "check": "evidence:S10",
+      "pass": true,
+      "detail": "results/R4_ROUTE_REDESIGN_GATE_1_R2_OBSERVABLE/R2_LITERATURE_TRANSFERABILITY.md"
+    },
+    {
+      "check": "preserved_master_prefix:R4_PLAN.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "preserved_master_prefix:R4_EVIDENCE_LEDGER.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "utf8:OBSERVABLE_INFORMATION_COMPLEMENTARITY.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "utf8:CLOSED_ROUTE_SCOPE_REVIEW.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "utf8:TOP3_RESEARCH_HYPOTHESES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "utf8:BREAKTHROUGH_METRICS_PROPOSAL.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "utf8:GPT_SYNC.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "utf8:TOP2_MINIMAL_EXPERIMENT_DESIGNS.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "utf8:README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "both_layers",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "two_designs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "gate_preserved_no_fake_progress",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no_new_science",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:CLOSED_ROUTE_SCOPE_REVIEW.md:../R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/SPEED_INFO_REPORT.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:CLOSED_ROUTE_SCOPE_REVIEW.md:../R3_A1_fidelity/R3_A1_REPORT.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:CLOSED_ROUTE_SCOPE_REVIEW.md:../R3_B1_MMAC_observability/R3_B1_FINAL_REPORT.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:CLOSED_ROUTE_SCOPE_REVIEW.md:../R4_B1_CONDITIONAL_DEPTH_IDENTIFIABILITY/B1_CZ_ROUTE_CLOSEOUT.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:CLOSED_ROUTE_SCOPE_REVIEW.md:../R3_C2_Yang_SA_depth/R3_C2_3A/R3_C2_3A_REPORT.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:CLOSED_ROUTE_SCOPE_REVIEW.md:../R3_C2_AR_MMAR/R3_C2_4B_3A_HANKEL_AMPLITUDE/R3_C2_4B_3A_REPORT.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:CLOSED_ROUTE_SCOPE_REVIEW.md:../R4_B1B_JOINT_RVZ_PROFILE_DIAGNOSTIC_AND_CLOSEOUT/R4_B1_CLOSEOUT.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:GPT_SYNC.md:LITERATURE_IMPLEMENTATION_COVERAGE.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:GPT_SYNC.md:OBSERVABLE_INFORMATION_COMPLEMENTARITY.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:GPT_SYNC.md:CLOSED_ROUTE_SCOPE_REVIEW.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:GPT_SYNC.md:TOP3_RESEARCH_HYPOTHESES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:GPT_SYNC.md:TOP2_MINIMAL_EXPERIMENT_DESIGNS.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:GPT_SYNC.md:BREAKTHROUGH_METRICS_PROPOSAL.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:GPT_SYNC.md:PRIMARY_SOURCE_READ_LOG.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:OBSERVABLE_INFORMATION_COMPLEMENTARITY.md:../R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/SPEED_INFO_REPORT.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:README.md:GPT_SYNC.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:README.md:OBSERVABLE_INFORMATION_COMPLEMENTARITY.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:README.md:TOP3_RESEARCH_HYPOTHESES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:README.md:TOP2_MINIMAL_EXPERIMENT_DESIGNS.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:README.md:BREAKTHROUGH_METRICS_PROPOSAL.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "local_link:README.md:CLOSED_ROUTE_SCOPE_REVIEW.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "code:r3_c2_3a_estd.py",
+      "pass": true,
+      "detail": "actual historical coverage; not new execution"
+    },
+    {
+      "check": "code:r3_c2_3a_eq5_energetic.py",
+      "pass": true,
+      "detail": "actual historical coverage; not new execution"
+    },
+    {
+      "check": "code:r3_range_ub_2a_formula.py",
+      "pass": true,
+      "detail": "actual historical coverage; not new execution"
+    },
+    {
+      "check": "code:r3_range_ub_2b_vla_slope.py",
+      "pass": true,
+      "detail": "actual historical coverage; not new execution"
+    },
+    {
+      "check": "code:r3_range_ub_1b_tdoa_oracle.py",
+      "pass": true,
+      "detail": "actual historical coverage; not new execution"
+    },
+    {
+      "check": "only_append_masters_tracked_changes",
+      "pass": true,
+      "detail": [
+        "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+        "results/R4_MASTER/R4_PLAN.md"
+      ]
+    }
+  ],
+  "scientific_runs": 0,
+  "master_append_preservation": {
+    "R4_PLAN.md": {
+      "sha256": "0730fa056b4a776f785defab087341d450d817a4827f672da73548423c7edf1c",
+      "bytes": 45780
+    },
+    "R4_EVIDENCE_LEDGER.csv": {
+      "sha256": "f4aa4f8ad0713660c8becf8965793c58c5c500de1e69d965a70983824f43f30f",
+      "bytes": 18068
+    }
+  },
+  "pass_count": 56,
+  "fail_count": 0
+}

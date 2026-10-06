@@ -1,0 +1,40 @@
+{
+  "stage": "R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET",
+  "purpose": "PROJECT_APPLICATION_PRE_RESEARCH",
+  "accepted_baseline_SHA": "ee656d49bb7459268a991db6c44ba50d661456db",
+  "accepted_baseline_decision": "CURRENT_1200S_GEOMETRY_INFORMATION_LIMIT_CONFIRMED_BY_CRLB",
+  "delivery_status": "LITERATURE_AND_DESIGNS_COMPLETE_PENDING_INDEPENDENT_AUDIT",
+  "original_joint_gate_status": {
+    "R4_percent": 0,
+    "A1_percent": 0,
+    "speed": "NOT_PASSED",
+    "historical_gates": "UNCHANGED"
+  },
+  "pre_research_evidence_completed": [
+    "dual-node horizontal baseline",
+    "speed causal diagnostic",
+    "loss and initialization comparisons",
+    "local information efficiency",
+    "literature coverage",
+    "nuisance complementarity",
+    "closed-route scope",
+    "TOP3 hypotheses",
+    "TOP2 two-layer designs",
+    "incremental metrics proposal"
+  ],
+  "pre_research_progress_percentage": null,
+  "new_scientific_computation": false,
+  "new_MC": 0,
+  "raw_acoustic_synthesis_runs": 0,
+  "propagation_runs": 0,
+  "TOP2_execution": "NOT_STARTED",
+  "FDSL_POMAP_full_original_comparator": "PENDING_ORIGINAL_TEXT_AND_FORMULA_LOCK",
+  "hardware": "UNKNOWN_NONBLOCKING_PRE_RESEARCH",
+  "time_synchronization": "NOT_NUMERICALLY_VALIDATED",
+  "target_association": "NOT_NUMERICALLY_VALIDATED",
+  "depth_execution": "NOT_OPENED",
+  "A2_SSP_P5": "NOT_OPENED",
+  "same_condition_bearing_estimator_repair": "CLOSED",
+  "automatic_next_stage": false,
+  "next": "STOP"
+}

@@ -265,3 +265,8 @@ Accepted prior 1200s bottleneck remains scoped to frozen formation/noise/tested 
 ## Speed information efficiency execution
 
 CURRENT_1200S_GEOMETRY_INFORMATION_LIMIT_CONFIRMED_BY_CRLB; DEVELOPMENT ONLY, pending independent audit. [Report](../R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/SPEED_INFO_REPORT.md). [Active status](R4_SPEED_INFORMATION_PROGRESS.json). New MC=0; R4-A1/R4=0%; depth NOT_OPENED. Next is a recommendation only; push then STOP.
+
+
+## Observability frontier research reset: literature and designs
+
+Accepted parent ee656d49bb7459268a991db6c44ba50d661456db, scoped local/model finding. Same-condition bearing loss/initialization/filter repair CLOSED. PROJECT_APPLICATION_PRE_RESEARCH; hardware UNKNOWN nonblocking. [Report](../R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/GPT_SYNC.md), [dual status](R4_OBSERVABILITY_FRONTIER_PROGRESS.json). Original joint A1/R4=0%, speed NOT_PASSED. Completed pre-research evidence separately listed, no invented percentage. Literature coverage, TOP3 and TOP2 two-layer designs delivered; scientific calculation, new MC, acoustic synthesis and propagation NONE. FDSL/POMAP full-text and strict comparator formulas pending. Independent audit pending. Commit/push/verify then STOP; no automatic TOP2, extended time, maneuvers, depth, A2, SSP or P5.
