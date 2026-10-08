@@ -1,0 +1,186 @@
+{
+  "stage": "R4_E1_G0_NUISANCE_PROFILED_FREQUENCY_INFORMATION",
+  "parent_SHA": "f9b994ad29aac6159e428cd6b64f66a8e25a7782",
+  "source_audit": "ACCEPTED_WITH_ORIGINAL_ESTIMATOR_EXCEPTION",
+  "G0_admitted": true,
+  "G1_admitted": false,
+  "state": "Cartesian x0,y0,vx,vy",
+  "state_scale": [
+    50000.0,
+    50000.0,
+    2.0,
+    2.0
+  ],
+  "duration_s": 1200,
+  "bearing_epochs": 121,
+  "frequency_frame_centers": [
+    10,
+    30,
+    50,
+    70,
+    90,
+    110,
+    130,
+    150,
+    170,
+    190,
+    210,
+    230,
+    250,
+    270,
+    290,
+    310,
+    330,
+    350,
+    370,
+    390,
+    410,
+    430,
+    450,
+    470,
+    490,
+    510,
+    530,
+    550,
+    570,
+    590,
+    610,
+    630,
+    650,
+    670,
+    690,
+    710,
+    730,
+    750,
+    770,
+    790,
+    810,
+    830,
+    850,
+    870,
+    890,
+    910,
+    930,
+    950,
+    970,
+    990,
+    1010,
+    1030,
+    1050,
+    1070,
+    1090,
+    1110,
+    1130,
+    1150,
+    1170,
+    1190
+  ],
+  "frequency_lines_Hz": [
+    [
+      200.0
+    ],
+    [
+      170.0,
+      200.0,
+      230.0
+    ]
+  ],
+  "sigma_frequency_Hz": [
+    0.001,
+    0.005,
+    0.01
+  ],
+  "bearing_sigma_deg": 0.05,
+  "common_bias_bound_deg": 0.05,
+  "half_difference_bound_deg": 0.025,
+  "navigation_sigma_m_per_axis": 25,
+  "covariance": "G0 independent ideal frequency instrument errors plus original Gaussian bearing errors; navigation-induced joint block covariance; static bounded uniform bearing bias moment-matched rank2 covariance. Not G1 derived-signal covariance.",
+  "model_ids": [
+    "N0",
+    "N1",
+    "N2",
+    "N3",
+    "N4_BOTH",
+    "N4_LINE",
+    "N5"
+  ],
+  "variants": {
+    "SUN_MEASUREMENT": "N0 node0 frequency + dual bearings; PAPER_ADAPTED_MEASUREMENT_INFORMATION_CONTROL",
+    "SINGLE_FREQ": "N2 node0",
+    "DUAL_FREQ": "N0 both nodes",
+    "NEW": "N1/N2/N3/N4_BOTH/N4_LINE/N5 both nodes"
+  },
+  "primary": "NEW/N2 no calibration; both single and three line resource packages; all three sigma assumptions reported separately",
+  "corners": {
+    "main": 0,
+    "N2_robustness": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "definition": "C0 zero; C1 common positive; C2 common negative; C3 opposite receiver signs with positive source; C4 C3 negated; source dc=+-1e-7/s;rho=+-5e-5;kappa=+-5e-8/s;dt=+-0.1s"
+  },
+  "source_frequency_policy": "F_l unknown nuisance. Numerical Jacobian evaluated at registered nominal lines ONLY for local information; no estimator, truth initialization or f0 calibration prior.",
+  "clock_time_policy": "delta_t fixed corner condition, not separately profiled; nominal time/navigation/motion known up to included navigation position uncertainty. No claim of time-sync robustness beyond corners.",
+  "source_emission_time": "u=t-r/c-delta_t; quasi-static first-order LOS, not full retarded acoustic or multimode first-CZ signal",
+  "environment": "c=1500m/s known LOS mechanism control; no SSP or propagation robustness claim",
+  "nuisance_scaling": "a=logF, d=1200*dc, k=1200*kappa, K=1200*Hz-per-sec; unit column normalization before SVD",
+  "gauge_policy": "retain redundant columns; rank-revealing SVD quotient; no clock fixed to true value",
+  "rank": {
+    "nuisance_relative": 1e-10,
+    "target_scaled_J_relative": 1e-10,
+    "sensitivity_relative": [
+      1e-08,
+      1e-10,
+      1e-12
+    ],
+    "estimability_null_relative": 1e-08
+  },
+  "validation": {
+    "Schur_projection_relative_max": 1e-06,
+    "finite_difference_scaled_J_relative_max": 2e-06,
+    "central_difference_scaled_step": [
+      0.001,
+      0.0003,
+      0.0001
+    ],
+    "nuisance_fd_relative_max": 2e-06,
+    "nuisance_fd_step": [
+      1e-05,
+      3e-06,
+      1e-06
+    ],
+    "zero_control_relative_max": 1e-09,
+    "monotonic_variance_relative_tolerance": 1e-07
+  },
+  "calibration_N5": {
+    "receiver_fractional_offset_sigma": 5e-06,
+    "receiver_fractional_drift_sigma_per_s": 5e-09,
+    "source": "HYPOTHETICAL_INDEPENDENT_CALIBRATION_REQUIREMENT_NOT_MEASURED",
+    "cost": "Both node independent frequency standards; no actual device/calibration evidence"
+  },
+  "gate": {
+    "median_variance_reduction_min": 0.2,
+    "worst_max_variance_ratio_max": 1.000000001,
+    "all_scenes": 24,
+    "no_unestimable_or_invalid": true,
+    "aggregation": "Separate package for each lines/sigma; no post-hoc best selection. Robustness C1-C4 all retained; positive decision requires a registered package pass C0-C4. Report passing resource/precision conditions explicitly."
+  },
+  "prohibited": [
+    "MC",
+    "audio",
+    "STFT_PLL",
+    "propagation",
+    "optimizer",
+    "time_geometry_truth_noise_changes",
+    "automatic_G1_E2_depth_A2_SSP_P5"
+  ],
+  "new_MC": 0,
+  "new_audio": 0,
+  "R4_percent": 0,
+  "stop_after_commit_B": true,
+  "code_binding": {
+    "r4_e1_g0.py": "ef77babe983853b60b526d0c6a97203644fc3759b5e2a19e4b9f9fe52d536cd8"
+  }
+}
