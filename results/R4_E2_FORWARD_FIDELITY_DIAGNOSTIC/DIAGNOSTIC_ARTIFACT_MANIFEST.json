@@ -1,0 +1,474 @@
+{
+  "artifacts": {
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\.gitattributes": {
+      "sha256": "00ead3b61355a002f4b8fff85f28728999fd493829cf8c6ff24379a9f312b50f",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\CA_CANDIDATE_STABILITY.csv": {
+      "sha256": "911687ea2b2e4809089cd12136df29292f6b3a10c662bca87d04f421cf87e410",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\CA_MESH_STABILITY.csv": {
+      "sha256": "0a1a571f3f51e200748a6b838e4439cdc3b586b683d44284974c592be05f387d",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\CA_NUMERICAL_VS_NOISE.csv": {
+      "sha256": "689526b9cd75ff9e5f7e9ee04a02d93f38eee997393a7d7493c7dc3f91e35757",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\COMPLEX_FIELD_ERROR_DECOMPOSITION.csv": {
+      "sha256": "ff43a2e151ce483331a0cefb9d9525ca0387078943c6effc6c79233981475916",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\DIAGNOSTIC_PROTOCOL.md": {
+      "sha256": "3b2f4f9fd56ca80c21db7e51fdcb36a8f7c85fe239374afe3aa9e60f1c332e76",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\DIAGNOSTIC_SUMMARY.json": {
+      "sha256": "f4ebe411cd69f3d1bc7ec0b8d788546ea7f246cbd9db3750882b34678bbf1bfd",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\EXECUTION_STARTED.json": {
+      "sha256": "3aecf71754a829ea30b34366f5ac86115ec1350309d6049bc6e8c611412c4d1a",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\FIELD_FORMAT_AND_PRECISION_AUDIT.csv": {
+      "sha256": "498bb0b3b21a46655f3a42384d73fa21fb869beafe5009e0f4514891bc4df3ac",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\FIG_CANDIDATE_NUMERICS.png": {
+      "sha256": "0d306278c05581cb202405828692582992b08f607f92a8c0ac2f3f87341232fb",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\FIG_FREQUENCY_ERROR.png": {
+      "sha256": "e05de9382ed3d30a769c3c9680b34392fcc8f7c8a37cad4463b22eddf6813917",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\FIG_RAW_VS_CA.png": {
+      "sha256": "7abf0c2e5c8359974d784ad180275dc7d06557aac2f207523cd89d14015f6f58",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\FIG_THREE_MESH_TREND.png": {
+      "sha256": "27ae4b5afe1d506a92705d7a68c85902d45a8fd9697f6012203d364224357649",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\FORWARD_DIAGNOSTIC_FREEZE.json": {
+      "sha256": "a7b7761a48e01e6f1de86a2344aa0f9c669153d09f88caf14a342d715c9d8514",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\FORWARD_FIDELITY_DECISION.json": {
+      "sha256": "2cdf26aa87889bf43cca26f608bf1754c96f5cd79b16165d46a8d79c995940de",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\FORWARD_FIDELITY_REPORT.md": {
+      "sha256": "94a08a57e9bfc396f058689805fc4a37e081e21fc3f691951189e6f7d79924e1",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\GPT_SYNC.md": {
+      "sha256": "52b20bc970acb1574ccae33a4c146bf62c411c3fa893f2c0a22e51be976dfc83",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\HISTORICAL_FREQUENCY_ERROR.csv": {
+      "sha256": "966fd011cc821d73baf9e0ddc16bbc52ef05efd3803b3d377ab07bd1f8f29a22",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\HISTORICAL_MODAL_FORMAT_AUDIT.csv": {
+      "sha256": "35a30646a3858aba7a94f58daf732dfc44951faa7646b79bcbd7da1104c556bf",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\HISTORICAL_POINTWISE_ERRORS.csv": {
+      "sha256": "93a5f20f73a0c871d4ec90f049785c26ab7a2cd5095b3f25308e507b7f0b2818",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\INDEPENDENT_AUDIT_CHECKS.csv": {
+      "sha256": "220acd4a7ca724dfc7ac49d27bb39408674415ca753819c9a34b40e4844fef95",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\MODAL_ERROR_ATTRIBUTION.csv": {
+      "sha256": "3b8ce6d32bcf118f7113c140f6fed1da8cd0f5da2a83e98e9ccd0128b1150c6a",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\MODAL_HYBRID_ATTRIBUTION.csv": {
+      "sha256": "b2f2bafc3c547fa8fdafcab57c66c52463fb4f7078bc185a101247397dd04608",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H01_M_z180.npz": {
+      "sha256": "f29d010115ae9b95207c49c8962d4d4d0312ba46165111d1dffbe97094652cf1",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H01_M_z200.npz": {
+      "sha256": "44f9bc111e457b0da971137efab81ef8ac77f3b2233adb94a47ae2d899f080e7",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H01_M_z220.npz": {
+      "sha256": "493a1e66bd14adadcb88ba5532d251f97cf91d6742bc35882636a44da2dcc4ec",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H01_P_z180.npz": {
+      "sha256": "e6e3ba4d37c528bc8e6150de6e8395b924de720f487c5b0f1d67922d23c2bb90",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H01_P_z200.npz": {
+      "sha256": "2826ccecf7df5c16cb41094c1ac1043570c44fe14ff4de21e67aa7c7b30bc51b",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H01_P_z220.npz": {
+      "sha256": "e35f4e32fbd80c034e2a6e73239d7e47271703ce41f0b4c0d893241c0cf688f6",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H02_M_z180.npz": {
+      "sha256": "1b2bef02dc42820bdddafe3461f56ff14fbbc6e98bb9145e2f80b121e29fce05",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H02_M_z200.npz": {
+      "sha256": "4397fae9c9e500ce027ed53c516afdfbec34180cd265f92412276860ab16c3e9",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H02_M_z220.npz": {
+      "sha256": "f8a9ad86f631a2e51694d90942d65a53bc0682970231b1ae54ba57bf32a05378",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H02_P_z180.npz": {
+      "sha256": "5d6db0bd15d75ed5138d3ec3cd8d6a74c89074ec52306052149abfde953951bb",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H02_P_z200.npz": {
+      "sha256": "e45728ee6d6f42700a8fde801a0229b9a5f79300ebc617f75ba3a25f50634af5",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H02_P_z220.npz": {
+      "sha256": "d3bf8073522ce961b24f50d97921e0d9829d83894e37e66f06269ac4f77569fe",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H03_M_z180.npz": {
+      "sha256": "775bb2e44776513846ea96e4656d5ca0226452ec0dc8564c4c44c5ee96d7bd94",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H03_M_z200.npz": {
+      "sha256": "b0ca00fc21f15e6006398f65d7c503e8d86f3e6ce15495f503e98f1e9171486a",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H03_M_z220.npz": {
+      "sha256": "5396764e41c52793e6e615e74b2c47ae7570b1b01177097304e7bdb24e56301f",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H03_P_z180.npz": {
+      "sha256": "2c7948eb728389fcdf6fbb31ebcb2cabb5f246e7ec1c7a32077c4befea0f200a",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H03_P_z200.npz": {
+      "sha256": "86c867d7772e7344c8263f51d074b2affd1384b8dedb64d739cf44e4cf1a8aca",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H03_P_z220.npz": {
+      "sha256": "b4f4970cb02a4523f118542d99501cce81b0127ccf8a127270da120fc7178c5d",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H04_M_z180.npz": {
+      "sha256": "2d50a9c8cadfccf0c2cf2f527159f33f4ada198780814b9be43ca9e99abef5dd",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H04_M_z200.npz": {
+      "sha256": "4f9e01f530b5ea42359477ffc8f3b5bbe575f0affcd48254784d99a682ce9f76",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H04_M_z220.npz": {
+      "sha256": "b54b45ad12b86fae9843cc776ccf5659089722dacf10c37abeb0b7bc33fe0fc4",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H04_P_z180.npz": {
+      "sha256": "7f7ada718f8bb7112c45e339354eca9d91476ba13bc04e39ee481aa3f6fb1ec9",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H04_P_z200.npz": {
+      "sha256": "08af37063ca38ca3609aea356eb25fd416d26ece4268cb64258acfccaa05c5be",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H04_P_z220.npz": {
+      "sha256": "2cd833502aab45b67b79d7f14b4fcae18112f0dfc22bf465463ca6f47730024d",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H05_M_z180.npz": {
+      "sha256": "e54d93ec59b5afdd43bfde53d60fe1c23ca7deb8b175509ee8a03235cf151c5e",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H05_M_z200.npz": {
+      "sha256": "e1e50430b849d87f31d0806e0c868e707256ace524368e5bb897324a23368a11",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H05_M_z220.npz": {
+      "sha256": "3b5e78d26d1680d201de493e95d97a7b7fe098a2196d72b2bc478a1e4b6b7af7",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H05_P_z180.npz": {
+      "sha256": "bbdc5fe4c88ae9cd1df67a02ff85a61896c81e5f9559a24161d350b2341befb3",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H05_P_z200.npz": {
+      "sha256": "8735da550ada8f11aef1ed8f90ae2b4d5a7af358929ea486d75da4efc8b78157",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H05_P_z220.npz": {
+      "sha256": "f2c91d838b00033fbc25b2fee25ce8510513d5238d8bc545328dbae885eeb032",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H06_M_z180.npz": {
+      "sha256": "11a2a21f9ab50e541b654864eac74b70c2a71b56648ca491dfcdc538599e6f0d",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H06_M_z200.npz": {
+      "sha256": "8fc65b6ee6fa3f798df416a9f53f9eaa49ad43da200c1510fa90d52968c793e3",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H06_M_z220.npz": {
+      "sha256": "8b5afd9271a698b4e3b6ab0d3898aec146e3bc04d5a8621ac4a4b728a7075fad",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H06_P_z180.npz": {
+      "sha256": "eff5f6dc8388dfc79aa4b4e8b2ba7f78fb1fddaca3628bfa72fa454de2fddd57",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H06_P_z200.npz": {
+      "sha256": "a573bf604791d3f319637c17613f42f5316da9121dcf410e713202b3e34bca9b",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H06_P_z220.npz": {
+      "sha256": "8f44990c8f191c8ac555bac4a600634501432e22b7608f7733206da0c82577d7",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H07_M_z180.npz": {
+      "sha256": "fb3fdfbff570b82a5d8f9e7e693c0f3554934c81953091bcaf751227ee4a7f29",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H07_M_z200.npz": {
+      "sha256": "823c328785e08c94b2d39ed184b3e2e8f7ebc359fc773f53cf7d0d0898b5eff0",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H07_M_z220.npz": {
+      "sha256": "0c7d68858a8c7b9cff65c76b014e7941e83b299948ea91632505d554ae47255c",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H07_P_z180.npz": {
+      "sha256": "b16df666505fe5d2b1bb1aae931d7ccc26e0c998bace67705e4d6a1deec530d3",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H07_P_z200.npz": {
+      "sha256": "86db4bf5e642bea7c490ba02df7d8f9db2239a7935920976f53f1c7f9cd79a00",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H07_P_z220.npz": {
+      "sha256": "a26a25f7e142b2d85d8cf1f5591fb7d4a28173191133d2a68e4a5c1c17533416",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H08_M_z180.npz": {
+      "sha256": "bfedcbd09953dbd6b78f6bf4808926457020a2a7fc288d0b9205727e10087138",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H08_M_z200.npz": {
+      "sha256": "79b5c3fae84d7ae630645a7d655df4d5b3865bad8e48d66c4a5646b3d0c34fe8",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H08_M_z220.npz": {
+      "sha256": "1b0b40fe7673d112b56af67c28c27ab65c5f2b828bd9e02530b3afb117780543",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H08_P_z180.npz": {
+      "sha256": "dee9f6a8ae8e785c875975cfb87f3da5b15ea85e5d86341ab6a4eb23f34319b8",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H08_P_z200.npz": {
+      "sha256": "1beffaccbfb0636bab35348e3647c8b9680951c74c39fef8480fb11690de13f7",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H08_P_z220.npz": {
+      "sha256": "f136d732b6846c0a8726e1ffb0a975ef86d63735d7bf8bb3fb76acdef4dc851b",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H09_M_z180.npz": {
+      "sha256": "2340e0bfbec8f3575fb6deb72e08e06732a421132d04abfe4c6584859ebb9853",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H09_M_z200.npz": {
+      "sha256": "8b8cc48773a343117baf760a7e0a51be5ed9a96bd0bdbc3b3d06a828ee53a2ea",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H09_M_z220.npz": {
+      "sha256": "933bdfdeed6554e18f63732e691161bad61e7f17ebff20de3df75dd2ad03db62",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H09_P_z180.npz": {
+      "sha256": "300689c0d27adc44f699a9ab20458d84b6cacb784d94f168399ae559b15caf9e",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H09_P_z200.npz": {
+      "sha256": "bfca4aee2a6637793ac3ae72da25bcaa596dfac0d60a26f84311471c4133fba2",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H09_P_z220.npz": {
+      "sha256": "926d65ed86cabcc3e6ae33f0d3db3d7c5fea96d9d0457f9d067ac0d84b7543f1",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H10_M_z180.npz": {
+      "sha256": "d56d1aa610a7a40db164bc0d8ee0eab8faea896071fa665fb1d439e76779c53c",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H10_M_z200.npz": {
+      "sha256": "25cf852007f8b0134d375d15806590a2b6b9c8ba17af18633b501dfdfe6f5bef",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H10_M_z220.npz": {
+      "sha256": "723d3d30e08a7d5b3d700f5aa446444f1aaf0bb0561e3c1773e11762b78cecbd",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H10_P_z180.npz": {
+      "sha256": "3cbedf9ca83749f96def41edba2fd77c4b76c077073a1ede085f8ed3b4065f11",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H10_P_z200.npz": {
+      "sha256": "ce29c58c594f9340447e2b576683749f8eb2765de12557efe858793319d00f57",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H10_P_z220.npz": {
+      "sha256": "db68cdec56acedede33b0b50abbd385169e922a4f64d44fc37805afabaa72fd9",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H11_M_z180.npz": {
+      "sha256": "72706138062e7fce5d960ed4e1a447e1cfc87996643a9a8c67928acaab4ce552",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H11_M_z200.npz": {
+      "sha256": "894c483dc7758b2f789e0c626a91f6434dc1247dbcce562423760f93778e570a",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H11_M_z220.npz": {
+      "sha256": "ff2e1cf42e4ad43c657680d828eb8206ed614306841808e02dc5b5d9809eca48",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H11_P_z180.npz": {
+      "sha256": "bd44df930892e846f875bea2058db8580a3c1519a47e06f26de73d5426011420",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H11_P_z200.npz": {
+      "sha256": "4427a63776b085380f36ec773b0c826e773b47c4cf2d282c038d57eb3e58f10b",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H11_P_z220.npz": {
+      "sha256": "80d40262cf47aa118b067488434b5ea1244a0032c4477e3ccdfaa21d5c040ffd",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H12_M_z180.npz": {
+      "sha256": "f7f0abbddac56a138d1609f1330de28b4eeb34215a18ad316a716a8ebd520995",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H12_M_z200.npz": {
+      "sha256": "1b1cd4592cb813e71dba5890be014d6d0118816d3bf868194883a9da134a72f6",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H12_M_z220.npz": {
+      "sha256": "dca39b105ec241790d784790772cecfe84460817a107f235769a473ee802ac5f",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H12_P_z180.npz": {
+      "sha256": "354e68a40af0523790873cd7c6c0d4ed04176a0957a63ec72f4420109824cb62",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H12_P_z200.npz": {
+      "sha256": "1f238ad5b75c730708486923882087e921601c0c6e961646321a5b22175bfb70",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\PRESSURE_H12_P_z220.npz": {
+      "sha256": "e36f0ddbd51da151238009f821950659ebaccadd9e22e3f56cda4046e19b2517",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\SHARED_FREQUENCY_NOISE_COVARIANCE.csv": {
+      "sha256": "7e15d4e0c0791472ce5154ab8aa0c1438f22085b58ec211b63b35f0ff11d1c57",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f150_n80001.env": {
+      "sha256": "cb623758b3c765fa828d9f8aa1f87cfc8abef6338f6ac0cc3e502a2008af2859",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f150_n80001.mod": {
+      "sha256": "add0a896f0827a77458bf64107ed8a7667c9391d0e4c6de5b188a24fe96336c2",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f150_n80001.prt": {
+      "sha256": "ff6574e22165b5e6a310c0c9da890e28e36f1ec8d30de0c08d0a2d3c239e41f0",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f150_n80001.stdout.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f200_n80001.env": {
+      "sha256": "a43b14f0eebd487cab6097e54d3dabe9ec071c7067c3ad1016b86d2bafd6c021",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f200_n80001.mod": {
+      "sha256": "bc227e4a6b1dd44960374bda2262c219d889a6d339420c39cfe1f4a1c7aaf784",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f200_n80001.prt": {
+      "sha256": "ba43599f52f8ee9c5df1fb30d3779b8d0a772e8a25623c5a28c95e5ca304b969",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f200_n80001.stdout.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f244_n80001.env": {
+      "sha256": "23d33827bb9ece817f2d9cf929e4f2df9320015012145c4c709648016deed251",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f244_n80001.mod": {
+      "sha256": "eb134ca83d380a322c4872f2cf150fdedb0f2bc5c87c9bac0dc633f694849d01",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f244_n80001.prt": {
+      "sha256": "1e33350be8b070cc6581ecbd00810542373d8ff5ff8f5c7d932425360eff9ea1",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f244_n80001.stdout.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f250_n80001.env": {
+      "sha256": "7b7e6ecb2bfa66f29f1371275d3823946bd1bf64feba712562e75949fb0bd471",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f250_n80001.mod": {
+      "sha256": "daad22b058d68040b3fee48b68801315fd7a6965fc0e17b3e24b1539c950d065",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f250_n80001.prt": {
+      "sha256": "244d1cd7d9bbc2d0815ca0b67a766efd1bfb597a9e7df9850374d83dc0fcc78c",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f250_n80001.stdout.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "RAW"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\THIRD_MESH_CALLS.csv": {
+      "sha256": "50aaad99704adc3a1ec9aa9d034bfc614eeaadf1c02cfa942cb841900a6bed23",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\THIRD_MESH_CONVERGENCE.csv": {
+      "sha256": "aad99ef60f0990dc0c7421072571e5f99edbf5956eb01449ba5840a9d089abe8",
+      "kind": "LF"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\VALIDATION.json": {
+      "sha256": "732c0601d415fd7facc2168ec36fa3165b4e7edfec5238d28751208acb7a5549",
+      "kind": "LF"
+    },
+    "r4_e2_forward_diagnostic.py": {
+      "sha256": "052b9762d9b645da0693e1a915e8007462bb00b432294596df6332ff8a7a9f54",
+      "kind": "LF"
+    },
+    "r4_e2_forward_diagnostic_audit.py": {
+      "sha256": "21aac98f0fdf3e079e654743ee681aa61d20f4847e4d09188bff62a428edf9db",
+      "kind": "LF"
+    }
+  },
+  "design_SHA": "40d1f34392ecb19301b0414b7b6dc9c670d6ec33",
+  "R4_percent": 0
+}

@@ -1,0 +1,13 @@
+{
+  "checks": 4783,
+  "PASS": 4783,
+  "FAIL": 0,
+  "cold_pressure_max_relative_difference": 4.271244342056712e-15,
+  "CA_max_reconstruction_difference": 1.5265566588595902e-16,
+  "noise_max_reconstruction_difference": 1.0408340855860843e-17,
+  "orthogonal_energy_max_difference": 5.551115123125783e-17,
+  "scope": "Independent struct parser all804+4 MOD; cold pressure all72 scenes/depth arrays at4frequencies; all245808 CA/noise rows; all candidate rank/triangle checks. No new solver.",
+  "candidate_forward_recompute": "ALL192_CANDIDATES_BOTH_GRIDS_FULL201_FREQUENCIES_COLD_MODAL_SUM",
+  "candidate_max_difference": 2.8449465006019636e-16,
+  "scientific_admission": "FAIL_UNCHANGED"
+}
