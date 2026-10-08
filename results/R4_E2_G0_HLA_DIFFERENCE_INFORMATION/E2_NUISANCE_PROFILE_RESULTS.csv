@@ -1,0 +1,25 @@
+scene_id,status,reason
+H01_M,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H01_P,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H02_M,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H02_P,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H03_M,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H03_P,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H04_M,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H04_P,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H05_M,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H05_P,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H06_M,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H06_P,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H07_M,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H07_P,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H08_M,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H08_P,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H09_M,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H09_P,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H10_M,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H10_P,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H11_M,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H11_P,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H12_M,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance
+H12_P,NOT_EVALUATED,complex-field mesh/FIELD admission not closed at 0.2% tolerance

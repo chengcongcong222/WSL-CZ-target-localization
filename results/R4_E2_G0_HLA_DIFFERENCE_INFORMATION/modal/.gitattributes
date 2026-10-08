@@ -1,0 +1,4 @@
+*.mod -text -diff
+*.shd -text -diff
+*.prt -text -diff
+*.stdout.txt -text -diff

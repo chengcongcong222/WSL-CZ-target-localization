@@ -1,0 +1,10 @@
+{
+  "reason": "attributes binding was registered raw CRLF, verifier defaulted LF-canonical; raw binding exactly matches",
+  "file": "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/.gitattributes",
+  "raw_sha256": "b718ad282f5010a72738848ba6643b440594806d6555a5e8f853e6019f0e97e4",
+  "scientific_code_sha256": "3292f3edc38e6bb2029a05cbde8af21106cfc060e4feb1ae39e4844b7706e5d6",
+  "first_launch": "guard rejected before EXECUTION_STARTED; scientific execution count0",
+  "mathematical_changes": false,
+  "extra_scientific_execution": false,
+  "launcher_sha256": "1486626988579785423438969737680ad8b30431a1b62937494492f8b3c2ee9a"
+}

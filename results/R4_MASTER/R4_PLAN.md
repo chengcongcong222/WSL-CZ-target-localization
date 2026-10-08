@@ -285,3 +285,8 @@ Source measurement lock ACCEPTED_WITH_ORIGINAL_ESTIMATOR_EXCEPTION at f9b994a; G
 ## E2-G0 physical design freeze
 
 E1-G0 accepted at43fa1f57 and closed, no G1. New explicit custom HLA autoproduct observability screen. [Freeze](../R4_E2_G0_HLA_DIFFERENCE_INFORMATION/E2_G0_DESIGN_FREEZE.json):24 scenes, same1200s trajectory, three physical snapshots, two new8×2m HLAs, 150–250Hz exact-frequency modal provider, source/gain/depth nuisance profiling and shared-pair covariance. Physics admission and bounded computation precede information claims. No new MC/audio; R4=0%; stop after execution push.
+
+
+## E2-G0 physical screen execution
+
+E2_G0_PHYSICS_OR_COVARIANCE_INCOMPLETE. [Report](../R4_E2_G0_HLA_DIFFERENCE_INFORMATION/E2_G0_REPORT.md). One bounded deterministic attempt; null and physical admission records retained. No MC/audio; R4=0%. STOP pending lead independent audit; no automatic extraction/depth/A2/SSP/P5.

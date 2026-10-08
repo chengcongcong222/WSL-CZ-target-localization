@@ -1,0 +1,13 @@
+{
+  "decision": "E2_G0_PHYSICS_OR_COVARIANCE_INCOMPLETE",
+  "reason": "complex-field mesh/FIELD admission not closed at 0.2% tolerance",
+  "elapsed_s": 1275.686999999918,
+  "plane_null_PASS": true,
+  "physics_error": 0.01826781409440294,
+  "new_Monte_Carlo": 0,
+  "new_received_audio": 0,
+  "R4_percent": 0,
+  "next": "STOP",
+  "automatic_other_stage": false,
+  "pending_independent_research_lead_audit": true
+}

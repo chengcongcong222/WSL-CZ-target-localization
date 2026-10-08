@@ -1,0 +1,16 @@
+{
+  "mesh_checks": 1407,
+  "mesh_FAIL": 1092,
+  "FIELD_checks": 9,
+  "FIELD_FAIL": 1,
+  "worst": {
+    "kind": "mesh40001_vs20001",
+    "frequency_hz": 244.0,
+    "source_depth_m": 220.0,
+    "independent_error": 0.01826781409440303,
+    "record_error": 0.01826781409440294,
+    "difference": 9.020562075079397e-17,
+    "admission_PASS": false
+  },
+  "maximum_record_difference": 1.8275311819415663e-15
+}
