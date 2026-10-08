@@ -306,3 +306,5 @@ E2 paired recovery completed: E2_PAIRWISE_CA_NUMERICAL_RECOVERABILITY_SUPPORTED.
 
 ## E2 nine-pair exploratory nonbearing pilot
 Paired recovery audit accepted at f596f17c. Authorizes bounded local information on existing two grids/9pairs only. Original gate FAIL; E2-G0 information NOT_EVALUATED; exploratory only; no project credit. Freeze nuisance/covariance/noise/candidates before once-only execution. Stop after result push.
+
+E2 nine-pair pilot final IMPLEMENTATION_INVALID: retained automatic A overridden by physical single-HLA rank/chain audit; 60 formula failures. Original E2-G0 FAIL_UNCHANGED/information NOT_EVALUATED; exploratory only; R4=0%. STOP for formula repair review; no full band/H3 execution.

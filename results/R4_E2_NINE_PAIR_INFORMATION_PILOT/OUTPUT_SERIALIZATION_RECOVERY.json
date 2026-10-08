@@ -1,0 +1,10 @@
+{
+  "reason": "Native NumPy int32 in strong_C1_scenes count rejected by Python JSON encoder; reproduced from frozen metrics and stored PROFILED_H01_M, with no new field evaluation.",
+  "repair": "Read saved tables; native Python float/bool/int at JSON boundary; identical frozen outcome predicates. Original scientific script/hash unchanged.",
+  "scientific_executions": 1,
+  "scientific_reruns": 0,
+  "new_forward_states": 0,
+  "new_KRAKEN": 0,
+  "frozen_scientific_code_preserved": true,
+  "original_process_exit_code": 1
+}

@@ -1,0 +1,18 @@
+{
+  "checks": 18482,
+  "PASS": 18422,
+  "FAIL": 60,
+  "cold_pressure_relative_max": 3.524580872551824e-15,
+  "cold_J_relative_max": 1.514677995100642e-13,
+  "reference_element_chart_F_relative_max": 3.984151518183253e-15,
+  "original_raw_gaussian_source_profile_F_relative_max": 4.869739395940639e-15,
+  "independent_effective_profile_relative_max": 2.8153169776788627e-13,
+  "candidate_chart_profile_relative_max": 3.2094217434874263e-15,
+  "new_solver_calls": 0,
+  "scope": "Independent modal struct/cold all central and half stencils; alternative reference-element CA chart and QR nuisance elimination; raw Gaussian source projection; every local information metric; candidate joint chart/fixed gains; no pilot scientific rerun.; exact analytic horizontal pressure derivative and geometric chain rule; single-HLA nonbearing physical rank ceiling4.",
+  "reconstruction_checks": 18290,
+  "reconstruction_FAIL": 0,
+  "post_execution_formula_checks": 192,
+  "post_execution_formula_FAIL": 60,
+  "physical_chain_check": "FAILED_SINGLE_HLA_BEARING_PROFILED_RANK_AND_EFFECTIVE_DEPTH"
+}

@@ -1,0 +1,41 @@
+# 九频对pilot最终交接
+
+~~~json
+{
+  "decision": "IMPLEMENTATION_INVALID",
+  "parent_SHA": "f596f17c3f18d07f4b85daf8f75382fc8789b1d1",
+  "design_SHA": "605635f5a12d0319a5de8fcce7ca8126ea637210",
+  "local_primary_stable_scenes": 24,
+  "strong_C1_scenes": 24,
+  "C1_range_information_min": 78.15603902879333,
+  "C1_depth_information_min": 1941.8960532073072,
+  "candidate_primary_resolved": 192,
+  "candidate_primary_count": 192,
+  "control_checks": 1785,
+  "control_failures": 0,
+  "original_E2_admission": "FAIL_UNCHANGED",
+  "E2_G0_information": "NOT_EVALUATED",
+  "pilot_status": "EXPLORATORY_PILOT_ONLY",
+  "R4_percent": 0,
+  "new_KRAKEN": 0,
+  "new_MC": 0,
+  "new_audio": 0,
+  "next": "STOP_FOR_FORMULA_REPAIR_REVIEW",
+  "next_stage_execution": "NOT_AUTHORIZED",
+  "execution_elapsed_s_from_saved_artifact_timestamps": 67.5102698802948,
+  "independent_audit": "FAIL_PHYSICAL_FORMULA_CHECK",
+  "output_serialization_recovered": true,
+  "automatic_frozen_rule_outcome": "NINE_PAIR_NONBEARING_MECHANISM_PROMISING",
+  "automatic_rule_outcome_ACCEPTED": false,
+  "reason": "Post-execution independent physical chain rule: P1 bearing-profiled true rank4 but frozen finite-difference rank5 in all48 scene-mesh cases; single-array effective depth difference exceeds10pct in some cases. Aggregate2pct Jacobian check does not protect weak/null directions.",
+  "post_execution_formula_failures": 60,
+  "full_band_investment": "NOT_ADMITTED_BY_THIS_PILOT",
+  "H3_execution": "NOT_AUTHORIZED",
+  "C1_primary_dual_chain_rank_valid": true,
+  "scope": "Dual-array primary numbers are retained exploratory values; entire pilot not admitted.",
+  "execution_SHA": "CONTAINING_RESULT_COMMIT",
+  "remote_SHA": "VERIFY_AFTER_PUSH"
+}
+~~~
+
+最终IMPLEMENTATION_INVALID，自动A判定已被独立物理公式检查否决。

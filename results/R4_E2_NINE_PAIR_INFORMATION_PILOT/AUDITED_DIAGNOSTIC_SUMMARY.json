@@ -1,0 +1,107 @@
+{
+  "status": "RETAINED_FROZEN_FD_DIAGNOSTICS_NOT_SCIENTIFICALLY_ADMITTED",
+  "representation_trace_ratios": {
+    "P1_over_P0_SINGLE": [
+      0.16526184688783144,
+      0.5474554777109479,
+      0.7660410229436118
+    ],
+    "P2_over_P0_DUAL": [
+      0.19359575145969207,
+      0.5206807151038908,
+      0.7300147620165673
+    ]
+  },
+  "C1_over_C0": {
+    "information_trace": [
+      0.9402595855116584,
+      0.9765200759833897,
+      0.9938882415461382
+    ],
+    "range_information_depth_profiled": [
+      0.9100090563109147,
+      0.9890453228294813,
+      0.9987100566958796
+    ],
+    "depth_information_horizontal_profiled": [
+      0.907542611199924,
+      0.9830001703856088,
+      0.9985833683365337
+    ]
+  },
+  "C2_information": 0,
+  "noise_floor_over_relative": {
+    "range_information_depth_profiled": [
+      0.03509912735756027,
+      0.31667813455717053,
+      2.645387544429667
+    ],
+    "depth_information_horizontal_profiled": [
+      0.0040146128586060195,
+      0.1121415928147853,
+      2.417173794855115
+    ]
+  },
+  "retained_dual_primary_information": {
+    "RELATIVE": {
+      "range_information_min": 78.15603902879333,
+      "depth_information_min": 1941.8960532073072,
+      "range_depth_unknown_over_known_quantiles": [
+        0.8418739194297223,
+        0.9868844894383113,
+        0.9999930891066747
+      ],
+      "weak_direction_median_abs": [
+        0.0008624479199404703,
+        0.023676547144480867,
+        0.038799342735537076,
+        0.9990620164267424,
+        0.006436705830429568
+      ]
+    },
+    "ABSOLUTE_FLOOR": {
+      "range_information_min": 164.3777334269414,
+      "depth_information_min": 4542.78390003633,
+      "range_depth_unknown_over_known_quantiles": [
+        0.9441195515073066,
+        0.99132325456657,
+        0.9997155660617617
+      ],
+      "weak_direction_median_abs": [
+        0.0009295957698058447,
+        0.021761660585374248,
+        0.04544319769755081,
+        0.998704711688293,
+        0.0074366633155688346
+      ]
+    }
+  },
+  "retained_candidate_diagnostics": {
+    "RELATIVE": {
+      "min_CA_over_noise1": 8.601797357966303,
+      "min_CA_over_noise5": 1.7203594715932606,
+      "numerical_positive": 192,
+      "max_numerical_bound_over_separation": 0.005587867365769779,
+      "rank_changes": 0
+    },
+    "ABSOLUTE_FLOOR": {
+      "min_CA_over_noise1": 12.095180941114336,
+      "min_CA_over_noise5": 2.419036188222867,
+      "numerical_positive": 192,
+      "max_numerical_bound_over_separation": 0.005603602320138019,
+      "rank_changes": 0
+    }
+  },
+  "retained_primary_numerical_maxima": {
+    "fd_relative": 0.002045413879113858,
+    "mesh_relative": 0.01702318139440104,
+    "range_information_relative": 0.011001959354464958,
+    "depth_information_relative": 0.09654259811138294
+  },
+  "unresolved_stability_rows": 43,
+  "total_stability_rows": 1152,
+  "single_chain_rank_mismatch_count": 48,
+  "single_depth_chain_relative_max": 0.3802758549820239,
+  "dual_range_chain_relative_max": 0.004092456403734327,
+  "dual_depth_chain_relative_max": 0.00020658400164093492
+}
