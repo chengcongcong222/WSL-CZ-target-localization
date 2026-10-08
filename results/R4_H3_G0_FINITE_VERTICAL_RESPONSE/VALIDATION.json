@@ -1,0 +1,11 @@
+{
+  "checks": 1272,
+  "PASS": 1272,
+  "FAIL": 0,
+  "cold_pressure_relative_max": 0.0,
+  "independent_J_relative_max": 1.5023030325020356e-16,
+  "independent_depth_information_relative_max": 2.7598781005185795e-12,
+  "scope": "COLD_READ_ONLY_FORMULA_AND_INFORMATION_RECONSTRUCTION",
+  "new_solver": 0,
+  "new_MC": 0
+}

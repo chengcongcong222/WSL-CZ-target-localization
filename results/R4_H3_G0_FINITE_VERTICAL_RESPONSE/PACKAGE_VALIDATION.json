@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "frozen_bindings_unchanged": true,
+    "artifact_manifest_valid": true,
+    "required_files_present": true,
+    "all_900_nodes_have_5_labels": true,
+    "all_36_center_self_contrasts_within_division_roundoff": true,
+    "independent_audit_zero_FAIL": true,
+    "no_scientific_credit": true
+  },
+  "PASS": 7,
+  "FAIL": 0,
+  "scope": "POST_EXECUTION_READ_ONLY_PACKAGE_CHECK_NOT_NEW_SCIENTIFIC_GATE",
+  "initial_exact_zero_package_expectation": false,
+  "initial_expectation_correction": "Complex p/p and log/angle arithmetic has roundoff; exact-zero expectation was inappropriate. No experiment or scientific threshold rerun.",
+  "center_self_contrast_max": 2.1553696631819184e-13,
+  "center_to_derived_roundoff_bound_max": 0.017306581889278826,
+  "roundoff_bound": "8*epsilon*sqrt(2*sum(W_squared))/.01; local complex division/log/phase allowance",
+  "frozen_science_rules_unchanged": true
+}

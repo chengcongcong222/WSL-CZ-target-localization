@@ -316,3 +316,7 @@ E2_FORMULA_REPAIR_FAILED: registered pre-development nominal-pressure consistenc
 
 ## H3 depth observable research review
 H3_REVIEW_COMPLETED_WITH_CONDITIONAL_PRIMARY_AND_SECONDARY. Main B: limited vertical spatial response (new4 channels, candidate4m aperture), backup A: extracted HLA coarse groups; C is interval/class output only. Group gain/source/horizontal support zero controls required. Literature and design only; no H3 numerical admission or science experiments. E2 paused on coordinate-identity guard failure, not physics No-Go. R4=0%. See ../R4_H3_DEPTH_OBSERVABLE_REVIEW/GPT_SYNC.md. Next proposed minimal-mechanism freeze requires separate stage authorization; STOP after this review commit.
+
+## H3-G0 finite vertical response closed
+
+H3_G0_VERTICAL_DEPTH_INFORMATION_PRESENT_CONDITIONALLY. Six retained labels / three distinct main geometries; exact cached depths; C1b primary; free modal-gain depth null control; no justified constrained group model. Numerical and source/calibration scope retained. Full RC2 support not established; extracted observable not opened. R4=0%. Next H3_EXTRACTION_REVIEW is a review proposal only. STOP after result commit.

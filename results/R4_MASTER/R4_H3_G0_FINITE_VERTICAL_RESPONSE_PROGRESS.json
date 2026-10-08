@@ -1,0 +1,9 @@
+{
+  "stage": "R4_H3_G0_FINITE_VERTICAL_RESPONSE_MECHANISM",
+  "decision": "H3_G0_VERTICAL_DEPTH_INFORMATION_PRESENT_CONDITIONALLY",
+  "design_SHA": "cfab8f500e12af45e576e46fb9312a2530cae2ab",
+  "R4_percent": 0,
+  "execution_status": "STOPPED_AFTER_SINGLE_REGISTERED_EXECUTION",
+  "next_review": "H3_EXTRACTION_REVIEW",
+  "next_execution": "NOT_AUTHORIZED"
+}
