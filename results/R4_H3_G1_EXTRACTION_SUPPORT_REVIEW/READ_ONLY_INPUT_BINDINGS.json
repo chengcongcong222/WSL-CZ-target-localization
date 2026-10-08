@@ -1,0 +1,351 @@
+{
+  "parent_SHA": "0cfa6b6c7c6ff231d602522144c5a7b992cf03ad",
+  "bindings": {
+    "r4_h3_g1_review.py": {
+      "kind": "LF_TEXT",
+      "sha256": "ed23ff0ba96b2a3b83610e417b97b95de93254cecca1c5f1ff136f35ef5e7518"
+    },
+    "r4_a1_fix_continuous.py": {
+      "kind": "LF_TEXT",
+      "sha256": "9ad8ddd990d47242fa1e33175fe0c9d328a3c701ebdbcfc1c33e82981dbeba65"
+    },
+    "r4_a1_new_estimator.py": {
+      "kind": "LF_TEXT",
+      "sha256": "2f6b8dbd11c3f68d0a1410fa599390fdec8bcedcfebc346e2ea222880b3c1e2b"
+    },
+    "r4_a1_offgrid_bearing.py": {
+      "kind": "LF_TEXT",
+      "sha256": "f137196aabbc6019b0fac523ea530535caa5445fc8d41eafe8d45b650a5ba4a8"
+    },
+    "r4_e1_g0.py": {
+      "kind": "LF_TEXT",
+      "sha256": "ef77babe983853b60b526d0c6a97203644fc3759b5e2a19e4b9f9fe52d536cd8"
+    },
+    "r4_e2_g0.py": {
+      "kind": "LF_TEXT",
+      "sha256": "3292f3edc38e6bb2029a05cbde8af21106cfc060e4feb1ae39e4844b7706e5d6"
+    },
+    "results/R4_E1_G0_FREQUENCY_INFORMATION/E1_G0_SCENE_BINDINGS.json": {
+      "kind": "LF_TEXT",
+      "sha256": "deb982bde5b4def3f3918d35a571d6416d5c268f2cfcb583c09c8a0a38c54f04"
+    },
+    "results/R4_A1_OFFGRID_BEARING_BOUNDARY/R4_A1_CONFIG.json": {
+      "kind": "LF_TEXT",
+      "sha256": "5667b533f646b2b4a82e9b247ea417b92de0f1589251ebe5b50530226878ffaa"
+    },
+    "results/R4_A1_OFFGRID_BEARING_BOUNDARY/GPT_SYNC.md": {
+      "kind": "LF_TEXT",
+      "sha256": "a83ce9bb1fa563711f0358d38c5b43fba4aa4887694dd709e91bb38f8db25774"
+    },
+    "results/R4_A1_OFFGRID_BEARING_BOUNDARY/PANEL_RC2_BOUNDARY_SUMMARY.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "1c3e965a20a6be1c3f716e0ffc953170df67fc3b4e073a59790586501c9137e8"
+    },
+    "results/R4_A1_OFFGRID_BEARING_BOUNDARY/SURVIVOR_SET_QUALITY.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "3faddb881ba94ee0b227356083472cdbde09caad4f7055bee8f5a3629c8400a1"
+    },
+    "results/P2_RC2_kinematic_boundary/P2_RC2_GPT_SYNC.md": {
+      "kind": "LF_TEXT",
+      "sha256": "69852a6db78473332c55ad256fca2f746ac78f7dbfca47a4e17cbb59c6848f41"
+    },
+    "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/METHOD_FREEZE.json": {
+      "kind": "LF_TEXT",
+      "sha256": "4b58f764c796deb7a1ad53d7cf56314bf8ff892b1a86266d33874aa4740c28ba"
+    },
+    "results/R4_A1_SEARCH_TRACTABILITY_AUDIT/DEVELOPMENT_FINAL_DECISION.json": {
+      "kind": "LF_TEXT",
+      "sha256": "6cbe7a44f0fa9775b7fb22facb61f8fd389ebf1d9d3ea952ecf082788dcb7933"
+    },
+    "results/R4_AUX_GATE2B_JOINT_ERROR_BUDGET/GPT_SYNC.md": {
+      "kind": "LF_TEXT",
+      "sha256": "9b3b008ce57cc8087ef3583e024d10f8e8b4a699f251222f04fd423c35082f05"
+    },
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/GPT_SYNC.md": {
+      "kind": "LF_TEXT",
+      "sha256": "03e3c0f5ff61de3de557895d3ab5844998a8eab628af9cb9beaf86a4b31d5e87"
+    },
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_TRUTH_PANEL.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "32827787058b6ef2b28c791cc9d403850c1d64f3da7d98bb4accf5ac821482c6"
+    },
+    "results/R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/SPEED_INFO_DECISION.json": {
+      "kind": "LF_TEXT",
+      "sha256": "6162f862bc69193e210e1a6488bd670db001e640e6a6ae8e8c7399571154a67a"
+    },
+    "results/R4_B1B_JOINT_RVZ_PROFILE_DIAGNOSTIC_AND_CLOSEOUT/GPT_SYNC.md": {
+      "kind": "LF_TEXT",
+      "sha256": "21327ab75c739e2a10bd14e847d066bea6e7d1762578551f9e17f953e993395a"
+    },
+    "results/R4_H3_DEPTH_OBSERVABLE_REVIEW/H3_OBSERVABLE_AND_NUISANCE_MATRIX.md": {
+      "kind": "LF_TEXT",
+      "sha256": "a601d3b08cefeaa5925f7a7fe1557d2ac342b105e1681bc7f9ef218802390b33"
+    },
+    "results/R4_H3_DEPTH_OBSERVABLE_REVIEW/PRIMARY_SOURCE_PROVENANCE.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "5782c03d35422aa4caa12ec2a3780a6d754fa04b2a6ad875a299eb2927daea7c"
+    },
+    "D:\\CodexData\\home\\attachments\\6fc1888e-c2ad-475b-944e-69b1ff8c0d60\\已粘贴的文本.txt": {
+      "kind": "RAW",
+      "sha256": "c01c77334d472e41ea72ae06b0f3d7586103026f61c2c2ea7a7cbe6fe717c4ed"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\.gitattributes": {
+      "kind": "LF_TEXT",
+      "sha256": "382c346c001712cbab2fbf1e29b80362110d2be8e9c3da077b4278984858bc00"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\ANALYTIC_ZERO_INFORMATION_CONTROLS.md": {
+      "kind": "LF_TEXT",
+      "sha256": "c4ee08bb64889abb9238dca96c097e9f0860ec6d1207b5006dbb5a0776bb08cb"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\ARTIFACT_MANIFEST.json": {
+      "kind": "LF_TEXT",
+      "sha256": "a7107afd9a57b604ee7b8246871d35db88831f3a53d74a3ded4f15b6ad4bd130"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\CALIBRATION_SUMMARY.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "05b358f39ed92728ddd5d1f74950d99024033038f91ad68e13c71eb034a8a9f2"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\CONTROL_CHECKS.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "09ddd39a343f94196028ef2bbfa75ab809b4d34fa7099595799ca9e453049ca5"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\DESIGN_FREEZE.json": {
+      "kind": "LF_TEXT",
+      "sha256": "23d07721a7c9d4b6cdf441da8a404a75ba9b40fb8c8fe3993dfe7559bf4b6dd7"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\DESIGN_REQUEST_SCOPE.md": {
+      "kind": "LF_TEXT",
+      "sha256": "da352c67567556954837a4d5719a416203889329dbdb0159532d645b7009d891"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\EXECUTION_STARTED.json": {
+      "kind": "LF_TEXT",
+      "sha256": "58cd53e0a722fff9491e2047a99e525d038a99b0cad7d79290ebe16966f01dae"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\EXPERIMENT_CONTRACT.md": {
+      "kind": "LF_TEXT",
+      "sha256": "45297f9dc78d01dac37f3e9ed556b43e3072b96cafe5752186d8525abdf42d0d"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\FINITE_HORIZONTAL_LABEL_DIAGNOSTIC.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "be5bdda798e3e86daa44ce1356b1e86a2c832491ab7bcc3c24d63327e2a06f04"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\FINITE_HORIZONTAL_LABEL_RANKING.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "f90a87dc7a519215fb4414cbfc576746a7d4c9d376c2ba7bfd471d18c06133db"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\GPT_SYNC.md": {
+      "kind": "LF_TEXT",
+      "sha256": "23c9e3b1dc51875d57cad7477a98a35d71f6833a5bbb295542ca944987042dd1"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\H3_G0_DECISION.json": {
+      "kind": "LF_TEXT",
+      "sha256": "deb1822a2a462ea47691c47aceda36d4237485d2a78e34cb2d5a14944209be34"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\HORIZONTAL_SUPPORT_SCOPE.md": {
+      "kind": "LF_TEXT",
+      "sha256": "e884b474631dbfed563aefb45b22165798468d5ba1f869f25614d3a74ee0bfa9"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INDEPENDENT_AUDIT_CHECKS.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "79df97f7da577733a1ceb81b5e547e8bcc4d2fc2947899c4af3c26c415ad4572"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H01_M_B0_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "7f7324bfa1064a1d5006df3cc741ce157ad3e683cd676e3b854b33edd7cd8af3"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H01_M_B0_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "2ca9eac4d7232e25c5ca19d5deb07707660067149bb9076dca46f343d73875d4"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H01_M_B1_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "95713d98630e2a9bd8f2b73d523e4ebd36433bf3141d424083a29fafbcfe2128"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H01_M_B1_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "d3b64a342442e36aca40a474ca888be06868edd1de687bd2ecfba4cbd4391006"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H01_M_B2_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "5fb8e5bb08735f032b117470367592ddfd7844efb1f7bc6bfbf97672a5ac0093"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H01_M_B2_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "2b16ad41656b6eadc865246f4f918997dd123688c8ff2667647f68eb9205f716"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H01_P_B0_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "7f7324bfa1064a1d5006df3cc741ce157ad3e683cd676e3b854b33edd7cd8af3"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H01_P_B0_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "2ca9eac4d7232e25c5ca19d5deb07707660067149bb9076dca46f343d73875d4"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H01_P_B1_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "95713d98630e2a9bd8f2b73d523e4ebd36433bf3141d424083a29fafbcfe2128"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H01_P_B1_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "d3b64a342442e36aca40a474ca888be06868edd1de687bd2ecfba4cbd4391006"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H01_P_B2_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "5fb8e5bb08735f032b117470367592ddfd7844efb1f7bc6bfbf97672a5ac0093"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H01_P_B2_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "2b16ad41656b6eadc865246f4f918997dd123688c8ff2667647f68eb9205f716"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H06_M_B0_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "81d913d695aa087dffbedecb46b282796f1dbd86fb9fd0af5c4b81ae3544570d"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H06_M_B0_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "f9ea97e23cf94274f971203c3552a48e9fc9138e909f773b0747b6729e845af6"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H06_M_B1_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "0f070bbc7c3b3f4fd98594f3cfb4f17e5fe9da4834b9d60f4768272628385d92"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H06_M_B1_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "1a976133b8f8cf089c85c63f2bfef98c2ad67490ae8ed2f5aae7cffb0cd39167"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H06_M_B2_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "d6f415dc9552c64c9821e6fd50ef3aae7d53b6920c154cf72fefb2d88fbfffb6"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H06_M_B2_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "b256bdeb01bbfffe129b51a2bce67039563100432665bec14728a551341f8b4b"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H06_P_B0_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "81d913d695aa087dffbedecb46b282796f1dbd86fb9fd0af5c4b81ae3544570d"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H06_P_B0_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "f9ea97e23cf94274f971203c3552a48e9fc9138e909f773b0747b6729e845af6"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H06_P_B1_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "0f070bbc7c3b3f4fd98594f3cfb4f17e5fe9da4834b9d60f4768272628385d92"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H06_P_B1_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "1a976133b8f8cf089c85c63f2bfef98c2ad67490ae8ed2f5aae7cffb0cd39167"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H06_P_B2_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "d6f415dc9552c64c9821e6fd50ef3aae7d53b6920c154cf72fefb2d88fbfffb6"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H06_P_B2_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "b256bdeb01bbfffe129b51a2bce67039563100432665bec14728a551341f8b4b"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H12_M_B0_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "87883bc834b1406b6a50b208f14e355f7c5ebc439841f3b4cd70ee776f0b55be"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H12_M_B0_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "5fb290c64cce0c1a31f53db16df0e43116ada645b3211da2d53b46b8d960e919"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H12_M_B1_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "d9b3aa4cd4f1018ccbacd65f1d666f4cfd39e2ff9df8c58a7cf95ff2f279d676"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H12_M_B1_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "bd2d10dfb62cf37a307ee5849e6d36da282449922fc7f4ad1cf2aa390dd9c317"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H12_M_B2_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "371a5075d83903d6d07953fa19bb8ab8e090e9cb391f68c0eb19c1fabd49d418"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H12_M_B2_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "5d272a72a988f1bd5ab616546680ac0a82a64f2bc94d8d0899208d621150fb0c"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H12_P_B0_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "87883bc834b1406b6a50b208f14e355f7c5ebc439841f3b4cd70ee776f0b55be"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H12_P_B0_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "5fb290c64cce0c1a31f53db16df0e43116ada645b3211da2d53b46b8d960e919"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H12_P_B1_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "d9b3aa4cd4f1018ccbacd65f1d666f4cfd39e2ff9df8c58a7cf95ff2f279d676"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H12_P_B1_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "bd2d10dfb62cf37a307ee5849e6d36da282449922fc7f4ad1cf2aa390dd9c317"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H12_P_B2_n160001.npz": {
+      "kind": "RAW",
+      "sha256": "371a5075d83903d6d07953fa19bb8ab8e090e9cb391f68c0eb19c1fabd49d418"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INPUT_H12_P_B2_n80001.npz": {
+      "kind": "RAW",
+      "sha256": "5d272a72a988f1bd5ab616546680ac0a82a64f2bc94d8d0899208d621150fb0c"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\INTERPRETATION_LIMITS.md": {
+      "kind": "LF_TEXT",
+      "sha256": "b63be7527c2cbeb55966f4ec016fa55d61a08d8a343778b5705bb08190396abe"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\LOW_ENERGY_RECEIVING_DIAGNOSTIC.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "820744b207a73c7e44ac862c4905b806f7b00bfad5f3317eb698dfb654ca9fd1"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\NOISE_AND_CALIBRATION_SENSITIVITY.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "9b976c1728977259d2462d7c70e8684f4e90e194675fc02a7e314fb8d1b224e8"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\NOISE_MODEL.md": {
+      "kind": "LF_TEXT",
+      "sha256": "5bd753a17b663b30eaf3d1e4b22cd12d44cf3fbc926b372ff79690867c458a9d"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\NUMERICAL_STABILITY.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "f37a12bda99eb22850a5d8426f054967ef3c618a45671a04cd89cd7d318462ce"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\PACKAGE_VALIDATION.json": {
+      "kind": "LF_TEXT",
+      "sha256": "754c4c2b5bcbd7598f13b6224365b49b192b1bfbb2449aac7460e689dd71a594"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\RESOURCE_MATCHED_CONTROL.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "0c6692ff5d513d952b9823379721ccb7a56f36ce9bbe992caf509a27262f5601"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\SOURCE_RECEIVER_DEPTH_FIDELITY.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "22382d59394ba6202d59b07ca4bdc3f05986bebaf83b933cd0ee45e643d816df"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\STRUCTURAL_NULLSPACE_CHECKS.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "4148837e4760961907dc5774a252796f04deb35ee8273eb91fa09ab7ebe933fb"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\UNKNOWN_GAIN_IDENTIFIABILITY.md": {
+      "kind": "LF_TEXT",
+      "sha256": "86f104a3d8fa613163ebadbaa5c69cbe36253d3c56ba08366c931d13ad3f900a"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\UNKNOWN_GAIN_LOSS.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "9bfb3d9d3c677eeab9d4bd644ae9e4344cf75486764f8b787a44856a17f80b5e"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\VALIDATION.json": {
+      "kind": "LF_TEXT",
+      "sha256": "27e432b1cb3dfb7777457b84a5674c9585dd3524999d6d8661fc5acb8ad6d094"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\VERTICAL_INFORMATION_BY_SCENE.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "5a735d8455aa5ab7f4d618d045eaddb30310652805975802a71057515f5f36ff"
+    }
+  },
+  "hash_only_inherited_modal_inputs": true,
+  "original_scientific_files_modified": false
+}

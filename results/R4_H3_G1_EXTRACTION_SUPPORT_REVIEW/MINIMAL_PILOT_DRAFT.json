@@ -1,0 +1,86 @@
+{
+  "status": "DRAFT_NOT_EXECUTION_AUTHORIZATION",
+  "source_model": "CONDITIONAL_GAUSSIAN_LINE_COEFFICIENTS_NOT_ACTUAL_UUV_EVIDENCE",
+  "scenes": [
+    "H01",
+    "H06",
+    "H12"
+  ],
+  "resources": [
+    "B0",
+    "B1",
+    "B2"
+  ],
+  "snapshots_s": [
+    0,
+    600,
+    1200
+  ],
+  "primary_mesh": 160001,
+  "secondary_mesh": "80001_SAME_SAMPLES_NOT_INDEPENDENT_CONFIRMATION",
+  "frequency_packages": {
+    "F1": [
+      200
+    ],
+    "F3": [
+      150,
+      200,
+      250
+    ],
+    "F13": [
+      150.0,
+      152.0,
+      155.0,
+      160.0,
+      195.0,
+      198.0,
+      200.0,
+      205.0,
+      240.0,
+      244.0,
+      246.0,
+      249.0,
+      250.0
+    ]
+  },
+  "K": [
+    1,
+    8,
+    32
+  ],
+  "realizations": 16,
+  "noise_background_samples": 256,
+  "noise_models": [
+    "RELATIVE",
+    "ABSOLUTE_FLOOR"
+  ],
+  "sigma": [
+    0.01,
+    0.05
+  ],
+  "absolute_reference": 0.00010824612978073539,
+  "fs_hz": 1000,
+  "window": "PERIODIC_HANN",
+  "segment_seconds": 2,
+  "n_samples": 2000,
+  "overlap": 0,
+  "nominal_ENBW_hz": 0.75,
+  "noise_frequency_correlation": "FULL_WINDOW_GRAM_NOT_DIAGONAL",
+  "calibration": "C1b_UNKNOWN_FIXED_ACROSS_SNAPSHOTS",
+  "source_power": "UNKNOWN_EACH_FREQ_SNAPSHOT_NOMINAL_ONE",
+  "main_statistic": "FULL_JOINT_CSD_PLUS_NOISE_BACKGROUND_LIKELIHOOD",
+  "normalized_statistic_information": "NOT_ESTABLISHED_WITHOUT_MATCHED_FINITE_SAMPLE_MODEL",
+  "raw_cell_count": 5184,
+  "wall_cap_seconds": 3600,
+  "storage_cap_GB": 1,
+  "drift_phase_budget_example_rad": 0.01,
+  "clock_delay_example_microseconds": 6.37,
+  "actual_clock_calibration": "NOT_ESTABLISHED",
+  "new_propagation_calls": 0,
+  "source_conditions": "DESIGN_ASSUMPTIONS_NOT_REAL_TARGET_CONFIRMATION",
+  "horizontal_support": "FULL_RC2_HORIZONTAL_SUPPORT_NOT_ESTABLISHED",
+  "propagation_nuisance": "PHYSICAL_PROPAGATION_NUISANCE_CONTRACT_NOT_ESTABLISHED",
+  "next_execution": "NOT_AUTHORIZED",
+  "continuous_depth_P95": "NOT_OPENED",
+  "R4_percent": 0
+}

@@ -320,3 +320,7 @@ H3_REVIEW_COMPLETED_WITH_CONDITIONAL_PRIMARY_AND_SECONDARY. Main B: limited vert
 ## H3-G0 finite vertical response closed
 
 H3_G0_VERTICAL_DEPTH_INFORMATION_PRESENT_CONDITIONALLY. Six retained labels / three distinct main geometries; exact cached depths; C1b primary; free modal-gain depth null control; no justified constrained group model. Numerical and source/calibration scope retained. Full RC2 support not established; extracted observable not opened. R4=0%. Next H3_EXTRACTION_REVIEW is a review proposal only. STOP after result commit.
+
+## H3-G1 extraction and support readiness review
+
+H3_DEPTH_SUPPORT_AND_PROPAGATION_UNRESOLVED; source and calibration conditional gaps retained. Accepted G0 conditional local mechanism unchanged. Read-only finite score profiles only; no new experiments. A bounded nominal finite-frequency-sample design is proposed, not released. No full RC2 support or constrained propagation-gain contract; no actual extracted observable. H3-B remains priority candidate; H3-A and speed bottleneck retained. R4=0%. One review commit/push/verify and STOP; next execution NOT_AUTHORIZED.

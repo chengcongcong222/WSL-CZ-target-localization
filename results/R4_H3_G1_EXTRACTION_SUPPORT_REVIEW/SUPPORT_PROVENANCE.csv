@@ -1,0 +1,7 @@
+support,artifact,rule,coverage,admitted
+O,results\R4_H3_G0_FINITE_VERTICAL_RESPONSE\DESIGN_FREEZE.json,original true center,ORACLE_NOT_OBSERVATION_SUPPORT,False
+F,results\R4_H3_G0_FINITE_VERTICAL_RESPONSE\FINITE_HORIZONTAL_LABEL_DIAGNOSTIC.csv,25 truth-offset r/v nodes; fixed theta/psi,FINITE_DIAGNOSTIC_ONLY,False
+U0_COARSE,results/R4_A1_OFFGRID_BEARING_BOUNDARY/R4_A1_CONFIG.json,min SSE+13.3 sigma_rad^2; no-noise +1e-12,0/270 bracketing retention at 0.02 and 0.05deg; different panel,False
+U0_CONTINUOUS,r4_a1_fix_continuous.py,32 starts plus4096 sampled r/v/psi bearing feasible points; no-noise1e-20,NOT_EXHAUSTIVE_CONTINUOUS_REGION,False
+U_AUX_STATIC,results/R4_AUX_GATE2B_JOINT_ERROR_BUDGET/GPT_SYNC.md,static tested corners and11 range points,NOT_DYNAMIC_MULTIBRANCH_SUPPORT,False
+U_AUX_DYNAMIC,results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/GPT_SYNC.md,observation-only point estimate; soft_l1,NAIVE_LOCAL_COVARIANCE_NOT_JOINT_COVERAGE,False

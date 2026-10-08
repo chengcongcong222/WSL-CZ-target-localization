@@ -1,0 +1,107 @@
+{
+  "files": [
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\DESIGN_DOCUMENTS_PAYLOAD.json",
+      "kind": "LF_TEXT",
+      "sha256": "dc7343850714079cbdcb9f8deb47d7129b7bcedd3d17411626616960248ea57a"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\DOCUMENTATION_CHECKS.csv",
+      "kind": "LF_TEXT",
+      "sha256": "309bd13d67d5a5f662e171f8fe14abd3462a28ddba1733b09fea789856ccdf3d"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\DOCUMENTATION_VALIDATION.json",
+      "kind": "LF_TEXT",
+      "sha256": "8a1602945730682ef9946986ce7660c6ab80024b50608eba391cecc69803f998"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\FINITE_DEPTH_PROFILES.csv",
+      "kind": "LF_TEXT",
+      "sha256": "7f28d4e731953ca4e3d61ea862d872e71af382a3b5d6462c67629d5ad8c1c5a4"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\FINITE_LABEL_PROFILE_SCOPE.md",
+      "kind": "LF_TEXT",
+      "sha256": "22eba7ed548d9ce25ddd29062d32659d76c203c53278d01ef2403820fda0372f"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\FINITE_PROFILE_SUMMARY.csv",
+      "kind": "LF_TEXT",
+      "sha256": "2c562f3b96afe5c2eba6cd54db34a53dc916bbc9b82dd55d61ce5bdb110829e5"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\FINITE_SAMPLE_OBSERVABLE_CHAIN.md",
+      "kind": "LF_TEXT",
+      "sha256": "0deb836e3539f74fe4d4a3cf119c33617f4b94ad9c7b9eeb3847dfda5b23da65"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\FIXED_NODE_LABEL_RANKING.csv",
+      "kind": "LF_TEXT",
+      "sha256": "60de033dfacdfda62f6d789cb14b59d6b8e39d38757028a77224d14c5cc533d5"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\GPT_SYNC.md",
+      "kind": "LF_TEXT",
+      "sha256": "b866217a40d9a14272816c9f506ddc89f6737eb20d277365dcf5288d235054d9"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\H3_G1_READINESS_DECISION.json",
+      "kind": "LF_TEXT",
+      "sha256": "d8886b87ea26cefa0f8c502f1f0ea830878e55f9f76529265c42ceb90968b91e"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\HORIZONTAL_SUPPORT_AUDIT.md",
+      "kind": "LF_TEXT",
+      "sha256": "3488fef657d71ff1461bfcd2a5e2b9e356426412f8b0307caad0cdc10141289b"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\LOW_SNR_EXTRACTION_LIMITS.md",
+      "kind": "LF_TEXT",
+      "sha256": "ae4c47018ed5cebb50edba0598ae5b4c118cd57595728e9dc8402df9f6724cce"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\MINIMAL_EXTRACTION_PILOT_DESIGN.md",
+      "kind": "LF_TEXT",
+      "sha256": "f1197821a4206f3603f1858ad592531ab31e34b58c5053002e247cd66b4cb3cb"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\MINIMAL_PILOT_DRAFT.json",
+      "kind": "LF_TEXT",
+      "sha256": "dbe5b279658379b9cf53f110ccdbdea3e71319f6576431ef3f545ab37650a261"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\PROPAGATION_NUISANCE_REQUIREMENT.md",
+      "kind": "LF_TEXT",
+      "sha256": "592571c6293acfbf71bcfd8e66401a98b37b996f6a8267c9222ec05be78df55b"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\READ_ONLY_INPUT_BINDINGS.json",
+      "kind": "LF_TEXT",
+      "sha256": "b754baffeb1b0e29b2a45a77c47444524a9556437f6f1286059cead2b86d2388"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\RECEIVED_SIGNAL_REQUIREMENTS.md",
+      "kind": "LF_TEXT",
+      "sha256": "20fd4b33863018937144191210984738488cf2a410e00dfc077bd2cdb1f08a42"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\RESEARCH_LEAD_TASK.md",
+      "kind": "LF_TEXT",
+      "sha256": "c01c77334d472e41ea72ae06b0f3d7586103026f61c2c2ea7a7cbe6fe717c4ed"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\SUPPORT_PROVENANCE.csv",
+      "kind": "LF_TEXT",
+      "sha256": "7c0aeb201bd44ed34b39ea147972e3af5753c3e5cad74f56742dac76f58b3432"
+    },
+    {
+      "file": "results\\R4_H3_G1_EXTRACTION_SUPPORT_REVIEW\\TARGETED_SOURCE_NOTES.md",
+      "kind": "LF_TEXT",
+      "sha256": "750e09f01fc6b4f0ecb9450b1a15f55b25d420e4d6d40fde6a8c72e8427b993d"
+    }
+  ],
+  "parent_SHA": "0cfa6b6c7c6ff231d602522144c5a7b992cf03ad",
+  "scope": "REVIEW_DELIVERABLES_NOT_NEW_SCIENTIFIC_ADMISSION",
+  "R4_percent": 0
+}

@@ -1,0 +1,10 @@
+{
+  "checks": 895,
+  "PASS": 895,
+  "FAIL": 0,
+  "scope": "DOCUMENTATION_PROVENANCE_AND_EXACT_SAVED_SCORE_AGGREGATION_ONLY",
+  "new_experiments": 0,
+  "read_only_existing_score_rows": 4500,
+  "not_scientific_performance_validation": true,
+  "original_G0_unchanged": true
+}

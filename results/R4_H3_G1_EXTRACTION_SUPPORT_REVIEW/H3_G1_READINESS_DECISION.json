@@ -1,0 +1,57 @@
+{
+  "stage": "R4_H3_G1_EXTRACTION_AND_SUPPORT_READINESS_REVIEW",
+  "parent_SHA": "0cfa6b6c7c6ff231d602522144c5a7b992cf03ad",
+  "primary_decision": "H3_DEPTH_SUPPORT_AND_PROPAGATION_UNRESOLVED",
+  "additional_classifications": [
+    "H3_EXTRACTION_SOURCE_CONDITION_INCOMPLETE",
+    "H3_EXTRACTION_CALIBRATION_CONDITIONAL"
+  ],
+  "unconditional_minimal_pilot_ready": false,
+  "nominal_extraction_design": "BOUNDED_FREQUENCY_SAMPLE_DRAFT_FOR_SEPARATE_FREEZE_REVIEW",
+  "source_occupancy": "NOT_ESTABLISHED_FOR_ACTUAL_UUV",
+  "source_frequency_and_coherence": "NOT_ESTABLISHED_FOR_ACTUAL_UUV",
+  "calibration_stability": "NOT_ESTABLISHED",
+  "physical_propagation_nuisance": "PHYSICAL_PROPAGATION_NUISANCE_CONTRACT_NOT_ESTABLISHED",
+  "horizontal_support": "FULL_RC2_HORIZONTAL_SUPPORT_NOT_ESTABLISHED",
+  "C1g_FREE_MODAL_GAIN": "ZERO_DEPTH_CONTROL_RETAINED",
+  "C1g_constrained": "NOT_ADMITTED_NO_INDEPENDENT_PHYSICAL_CONTRACT",
+  "C1e": "NOT_EVALUATED",
+  "inherited_H3_G0": "CONDITIONAL_LOCAL_DEPTH_INFORMATION_ACCEPTED",
+  "inherited_scope": "DETERMINISTIC_MECHANISM_UPPER_BOUND_ONLY",
+  "identifiers": 6,
+  "independent_main_geometries": 3,
+  "read_only_profile_rows": 720,
+  "read_only_profile_summaries": 144,
+  "fixed_node_rankings": 1800,
+  "center_excluded_C1b_source200_best": {
+    "B0": {
+      "RELATIVE": 0,
+      "ABSOLUTE_FLOOR": 0
+    },
+    "B1": {
+      "RELATIVE": 6,
+      "ABSOLUTE_FLOOR": 6
+    },
+    "B2": {
+      "RELATIVE": 0,
+      "ABSOLUTE_FLOOR": 0
+    }
+  },
+  "finite_profile_scope": "FINITE_SAVED_NOMINAL_TANGENT_CHART_MIN_NOT_GLOBAL_LIKELIHOOD",
+  "H3_extracted_observable": "NOT_ESTABLISHED",
+  "H3_full_support_depth": "NOT_ESTABLISHED",
+  "E2": "PAUSED_WITH_FORMULA_REPAIR_FAILURE",
+  "original_E2_G0": "FAIL_UNCHANGED",
+  "speed_route": "CURRENT_1200S_GEOMETRY_INFORMATION_LIMIT_CONFIRMED_BY_CRLB_RETAINED",
+  "H3_A": "RETAINED_NOT_EXECUTED",
+  "R4_percent": 0,
+  "new_KRAKEN": 0,
+  "new_FIELD": 0,
+  "new_MC": 0,
+  "new_audio": 0,
+  "new_localization_runs": 0,
+  "new_G0_science_runs": 0,
+  "next": "SEPARATE_NOMINAL_MINIMAL_EXTRACTION_DESIGN_FREEZE_REVIEW",
+  "next_execution": "NOT_AUTHORIZED",
+  "stop_after_single_review_commit": true
+}
