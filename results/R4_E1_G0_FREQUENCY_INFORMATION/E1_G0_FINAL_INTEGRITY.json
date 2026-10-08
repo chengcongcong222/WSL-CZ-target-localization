@@ -1,0 +1,114 @@
+{
+  "checks": [
+    {
+      "check": "only_master_tracked_append",
+      "passed": true
+    },
+    {
+      "check": "append_only:results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+      "passed": true
+    },
+    {
+      "check": "append_only:results/R4_MASTER/R4_PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "freeze_unchanged:E1_G0_DESIGN_FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "freeze_unchanged:E1_G0_JACOBIAN_DEFINITION.md",
+      "passed": true
+    },
+    {
+      "check": "freeze_unchanged:E1_G0_NUISANCE_MODELS.md",
+      "passed": true
+    },
+    {
+      "check": "freeze_unchanged:E1_G0_GATE.md",
+      "passed": true
+    },
+    {
+      "check": "freeze_unchanged:E1_G0_SCENE_BINDINGS.json",
+      "passed": true
+    },
+    {
+      "check": "no_forbidden_call:default_rng",
+      "passed": true
+    },
+    {
+      "check": "no_forbidden_call:standard_normal",
+      "passed": true
+    },
+    {
+      "check": "no_forbidden_call:least_squares",
+      "passed": true
+    },
+    {
+      "check": "no_forbidden_call:minimize",
+      "passed": true
+    },
+    {
+      "check": "no_forbidden_call:fft",
+      "passed": true
+    },
+    {
+      "check": "no_forbidden_call:stft",
+      "passed": true
+    },
+    {
+      "check": "all_scene_rank4",
+      "passed": true
+    },
+    {
+      "check": "all_primary_package_fail_20percent",
+      "passed": true
+    },
+    {
+      "check": "independent_dense_and_summary_PASS",
+      "passed": true
+    },
+    {
+      "check": "required:E1_G0_FULL_SCENE_RESULTS.csv",
+      "passed": true
+    },
+    {
+      "check": "required:E1_G0_INFORMATION_SUMMARY.csv",
+      "passed": true
+    },
+    {
+      "check": "required:E1_G0_NUISANCE_LOSS_TABLE.csv",
+      "passed": true
+    },
+    {
+      "check": "required:E1_G0_SINGLE_VS_MULTILINE.csv",
+      "passed": true
+    },
+    {
+      "check": "required:E1_G0_NUMERICAL_RANK_AUDIT.csv",
+      "passed": true
+    },
+    {
+      "check": "required:E1_G0_DECISION.json",
+      "passed": true
+    },
+    {
+      "check": "required:E1_G0_REPORT.md",
+      "passed": true
+    },
+    {
+      "check": "required:VALIDATION.json",
+      "passed": true
+    },
+    {
+      "check": "required:GPT_SYNC.md",
+      "passed": true
+    },
+    {
+      "check": "two_scientific_PNG_SVG_figures",
+      "passed": true
+    }
+  ],
+  "pass_count": 27,
+  "fail_count": 0
+}

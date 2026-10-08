@@ -1,0 +1,48 @@
+{
+  "valid": true,
+  "zero_controls": [
+    {
+      "check": "multiline_motion_loading_rank_one",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "constant_F_radial_scale_gauge",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "affine_fractional_reference_absorbs_corresponding_affine_log_Doppler",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "nonaffine_curvature_not_affine",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "arbitrary_node_time_reference_zero_increment_joint_covariance",
+      "passed": true,
+      "value": 9.308432177792482e-16
+    },
+    {
+      "check": "unestimable_speed_is_UNBOUNDED",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "N5_external_prior_explicit",
+      "passed": true,
+      "value": null
+    }
+  ],
+  "finite_difference_pass": 60,
+  "finite_difference_fail": 0,
+  "max_schur_projection_relative": 4.013802140535778e-12,
+  "primary_rank_stable": true,
+  "wider_rank_unstable_count": 0,
+  "elapsed_seconds": 117.77940979995765,
+  "records": 1896,
+  "registered_scenarios": 24
+}

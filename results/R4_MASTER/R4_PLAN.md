@@ -275,3 +275,8 @@ Accepted parent ee656d49bb7459268a991db6c44ba50d661456db, scoped local/model fin
 ## E1 primary acoustic source and formula lock
 
 Parent 0db30f60e781676f9168d380678693a32f1325a1 frontier design ACCEPTED_WITH_E1_PRIMARY_SOURCE_GAP. [E1 lock](../R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/GPT_SYNC_E1_LOCK.md). Four full PDFs and methods recovered; Sun measurement Eq4 locked, complete strict MFB-AUKF baseline conflicts unresolved. Xu pressure-to-radial-velocity conditional chain locked; CZ phase/sign/covariance not established. A-F structural checks and revised B0/LIT-F/LIT-RV/UUV/NEW contracts frozen. E1_PRIMARY_SOURCE_OR_MODEL_LOCK_INCOMPLETE; NOT_READY. 11 fixed algebra checks only; new scientific/MC/signal/propagation/project-FIM runs=0. E2 NOT_OPENED; FDSL/POMAP comparator pending. R4=0%. Commit/push/verify then STOP; no automatic scientific execution.
+
+
+## E1-G0 frequency mechanism screen
+
+Source measurement lock ACCEPTED_WITH_ORIGINAL_ESTIMATOR_EXCEPTION at f9b994a; G0 admitted, G1 not admitted. Design46242899 frozen/pushed before execution. [Report](../R4_E1_G0_FREQUENCY_INFORMATION/E1_G0_REPORT.md). 24 nominal mirror scenes,1896 deterministic information records; no MC/audio/propagation. E1_G0_FREQUENCY_INCREMENT_NOT_ESTABLISHED: best registered 3-line1mHz N2 C0 median variance reduction0.125681%, below20%; N0/N5 also below gate. All corners/packages retained. Numerical controls,finite differences,dense covariance reconstruction pass. Mechanism screen completed, no P95 claim; R4-A1/R4=0%. Recommended E2_REVIEW only; G1/E2/depth/A2/SSP/P5 unopened. Push execution commit then STOP for independent audit.

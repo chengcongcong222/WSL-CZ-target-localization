@@ -1,0 +1,16 @@
+{
+  "stage": "R4_E1_G0_NUISANCE_PROFILED_FREQUENCY_INFORMATION",
+  "design_SHA": "46242899bc7b478895cdea3a4d181d6fe3f152d6",
+  "parent_SHA": "f9b994ad29aac6159e428cd6b64f66a8e25a7782",
+  "status": "E1_G0_FREQUENCY_INCREMENT_NOT_ESTABLISHED",
+  "mechanism_screen": "FREQUENCY_OBSERVABILITY_MECHANISM_SCREEN_COMPLETED",
+  "independent_audit": "PENDING_RESEARCH_LEAD_AUDIT",
+  "R4_A1_percent": 0,
+  "R4_percent": 0,
+  "G1": "NOT_OPENED",
+  "E2": "NOT_OPENED",
+  "recommended_next": "E2_REVIEW",
+  "automatic_next": false,
+  "new_MC": 0,
+  "new_audio": 0
+}
