@@ -1,0 +1,2 @@
+*.mod -text -diff
+*.npz -text -diff
