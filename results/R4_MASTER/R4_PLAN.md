@@ -296,3 +296,7 @@ E2_G0_PHYSICS_OR_COVARIANCE_INCOMPLETE. [Report](../R4_E2_G0_HLA_DIFFERENCE_INFO
 E2-G0 independent audit accepted at4605cf2; original admission FAIL. Authorizes bounded error attribution only; four third-grid calls; no information/MC/audio. R4=0%. Freeze before execution; commit/push then stop after result.
 
 E2 forward diagnostic completed: E2_CA_AND_RAW_FORWARD_UNSTABLE. Original FAIL_UNCHANGED; information NOT_EVALUATED. Four bounded calls; independent audit; STOP. R4=0%.
+
+
+## E2 paired-frequency bounded recovery
+Diagnostic independent audit accepted at e6f1d68f. Authorizes9 registered pairs/13 frequencies; new80001x9 and160001x13, max22 calls. No information/MC/audio. Original admission FAIL_UNCHANGED, R4=0%. Freeze then push before once-only execution; stop after result.

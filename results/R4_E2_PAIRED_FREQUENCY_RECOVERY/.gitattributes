@@ -1,0 +1,4 @@
+modal/*.mod -text -diff
+modal/*.prt -text -diff
+modal/*.stdout.txt -text -diff
+*.npz -text -diff
