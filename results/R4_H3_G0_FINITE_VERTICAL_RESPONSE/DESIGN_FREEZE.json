@@ -1,0 +1,1101 @@
+{
+  "stage": "R4_H3_G0_FINITE_VERTICAL_RESPONSE_MECHANISM",
+  "parent_SHA": "4868353124c31c64d4283589339e9ae5bad72aa9",
+  "scope": "EXPLORATORY_DETERMINISTIC_MECHANISM_UPPER_BOUND_ONLY",
+  "scenes": [
+    {
+      "scene_id": "H01_M",
+      "case_id": "H01",
+      "mirror": -1,
+      "state": [
+        50302.0808614775,
+        -793.1354128748897,
+        1.9493790216310858,
+        -0.07531350787923469
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H01_P",
+      "case_id": "H01",
+      "mirror": 1,
+      "state": [
+        50302.0808614775,
+        -793.1354128748897,
+        1.9493790216310858,
+        -0.07531350787923469
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H06_M",
+      "case_id": "H06",
+      "mirror": -1,
+      "state": [
+        54472.30432141874,
+        -541.9288834754432,
+        1.8553566775091943,
+        0.21262137527079283
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H06_P",
+      "case_id": "H06",
+      "mirror": 1,
+      "state": [
+        54472.30432141874,
+        -541.9288834754432,
+        1.8553566775091943,
+        0.21262137527079283
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H12_M",
+      "case_id": "H12",
+      "mirror": -1,
+      "state": [
+        59456.47711113181,
+        1484.2353362791184,
+        2.367165954219456,
+        -0.03976927437474377
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H12_P",
+      "case_id": "H12",
+      "mirror": 1,
+      "state": [
+        59456.47711113181,
+        1484.2353362791184,
+        2.367165954219456,
+        -0.03976927437474377
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    }
+  ],
+  "independent_main_geometries": 3,
+  "frequencies_hz": [
+    150.0,
+    152.0,
+    155.0,
+    160.0,
+    195.0,
+    198.0,
+    200.0,
+    205.0,
+    240.0,
+    244.0,
+    246.0,
+    249.0,
+    250.0
+  ],
+  "grids": [
+    80001,
+    160001
+  ],
+  "snapshots_s": [
+    0.0,
+    600.0,
+    1200.0
+  ],
+  "source_depth_labels_m": [
+    180.0,
+    190.0,
+    200.0,
+    210.0,
+    220.0
+  ],
+  "local_source_depth_m": 200,
+  "source_difference_steps_m": [
+    1,
+    0.5
+  ],
+  "receiver_added_depths_m": [
+    198,
+    199,
+    201,
+    202
+  ],
+  "HLA_reference_x_m": -1,
+  "bindings": {
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/E2_SCENE_FREEZE.json": {
+      "kind": "LF_TEXT",
+      "sha256": "59bc39f1bd02c82a9da31104f91d1a7a4cb62b71e0a3d59f0a14b3d1bf5cb46b"
+    },
+    "r4_e2_g0.py": {
+      "kind": "LF_TEXT",
+      "sha256": "3292f3edc38e6bb2029a05cbde8af21106cfc060e4feb1ae39e4844b7706e5d6"
+    },
+    "r4_e2_paired_recovery.py": {
+      "kind": "LF_TEXT",
+      "sha256": "ff1fe9ee848cac7367435019296b3f3e5d3bdb2dafa40d28328ca13d0e6543f5"
+    },
+    "r4_e2_forward_diagnostic.py": {
+      "kind": "LF_TEXT",
+      "sha256": "052b9762d9b645da0693e1a915e8007462bb00b432294596df6332ff8a7a9f54"
+    },
+    "r4_e2_nine_pair_pilot_audit.py": {
+      "kind": "LF_TEXT",
+      "sha256": "7c25aafc8bbc230e7900d7f7218648b5adbb07b0674f97ae41fc5bf49fbc5190"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f150_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "add0a896f0827a77458bf64107ed8a7667c9391d0e4c6de5b188a24fe96336c2"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f150_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "d8a3f27e16d3bda98bbad4ed75858fa5d03edffe472d8379f6fd6de0759924cd"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0304_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "6e66d420f9886d6e928a935797ad8a3bbafe81f93d701de1da2dd8bbfc5ea14f"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0304_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "cff89d23e7d7da2dd793f1746a09a22d2b09eacefb290a1ab714dff077f5cf17"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0310_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "3d009dc32bb186293fdf09196b00070394ba09df7c6d6fcf152541e3630fbc7b"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0310_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "a88b565a8c6793095b3695291d4694176f8e23b6feee8636f75c3fd2ae8c28f4"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0320_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "3f286d8c43f056510640f932c3df7df4e7e130d79920eae71ddbe812e192fe21"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0320_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "bda16572942d8bb92807fe3658f6fe09d45cb6eb53905573a2daf7c32fba1ba2"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0390_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "69c6dc932f4b4184c2a70055fcdf1234db72dc794ae9ab68d69ef723f08fd559"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0390_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "3418ea7c7a7cb3ba8eb450453e322cc37b40a1f9cff7c7a78d461c4ec0012ab0"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0396_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "e5403236fb423bf62403426d7ea2baaf9db937346a01fbe4b377c279278fc47a"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0396_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "e364a3ece17321051971c8c477b13d5acb1c4b64a7e9470b36b6007fd5fadd4f"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f200_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "bc227e4a6b1dd44960374bda2262c219d889a6d339420c39cfe1f4a1c7aaf784"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f200_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "bad7a9528a6f8c9401813f7a65d5b72f60410842228d9beae8c7736622a4e59d"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0410_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "af5feef7c76d06e91bf126b3c051334e1e8e1c881a6884987a2d6f69a0c5e389"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0410_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "2854b6d41c67f07fa079d7aa71ebb4ae59061e7448487e351aff8543904618b9"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0480_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "1506ff04309b34ab13954232fa69dd67d3e27806f7de7e5b913508472c4584d9"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0480_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "3f7c0b00cf8f008c52017e79733acb7a0f270c5b3af36cfdbe8a261444299677"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f244_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "eb134ca83d380a322c4872f2cf150fdedb0f2bc5c87c9bac0dc633f694849d01"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f244_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "3e1a4087731fd15a7559bbcfbcbba209bce4582d9b88ed0763045261fe7bc998"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0492_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "de06a37dae57e5f88d0269fec5ef114257829e6e7003358283936a35c7156e7e"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0492_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "bca61ae279a435b491f64128c90862e3b335c2d561da43f433e18bc9fe91c762"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0498_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "f7bda05f8cc25e791b47ee8547c3be714956193136b01e58a88adb5f7e4a7dce"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0498_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "7a47298527ecc7ea7bca210ce44b44d73b52439c9a58b6853b2ecfe3ea785a07"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f250_n80001.mod": {
+      "kind": "RAW",
+      "sha256": "daad22b058d68040b3fee48b68801315fd7a6965fc0e17b3e24b1539c950d065"
+    },
+    "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f250_n80001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "69cc987193133a060d8fd91f6e6c96681d7e1f0bfe3c62d3b489378b34059769"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0300_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "5d3305d906eefc22fa1698ba4a10029b8657a29577c5739db690b205134c36dd"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0300_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "7123f13aa6bab3c38b62d9ce0010c68e45f05ddee54abf666483237374947d1c"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0304_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "ed23f5552769cf8535cb91b4f971ac84c0bfe241dd9283a48202ff91c2bd23fc"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0304_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "1f5463d80f4c679b6658567208b297ad7cba6eaa65bc59607944efffd146acc2"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0310_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "be8f84653fbd70850ae5fcaace975dacae5035f3c2e6c216f68615ad80450dfa"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0310_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "0440395622012a50666568369bc5d530e63a152eb7df502f4d81b29270bfc516"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0320_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "8bf547e5db2ae9c672149ec1e9ba505e6c497901340fc291888cc520e07faa25"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0320_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "fba8273c2fe1044b9802c266d4e4675026e570b84029c5495b80ec067119d36c"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0390_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "16a8762ea16243ca25ca0d599d7b80a8a469a40afd7d891b5a9e1e4b8f38ecf2"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0390_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "8904c90a0c89f3a0b91e18fc736e6069de1d5c512a62e0833b378eb9e0596599"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0396_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "d6b410138900a6b39581a365c14a8c82766ca0c70ef66420cdd762486d5d69f5"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0396_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "1751bb2406fb2daf90da90ccdb7c777eb754c84fb97d872a2c27812911e2c43f"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0400_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "c3822a3faaa72ce2d5b318d8aa5493f47d8968f5e7a339ba6c16e020f78b3392"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0400_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "e209b4714ab0b9544aecf6d77139fe95f9bab9d488895c6293281d5cca682fcb"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0410_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "d1c42781adac488494e2ca5c75d6fe57aa0cc372e06dc682d0b9286c09c846ea"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0410_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "7dee3a61ba9fd2d46fb1101337af2dd13567e3ce348e514738c32e877e275a8b"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0480_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "926390300265a1f8d7de925b1520c7c24c560b62f964008ec9f88d8f82be15d4"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0480_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "3b038bf75d1203e31b3e7b62c97b109e5e26f2322a4dfd1105eb33bb4b226667"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0488_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "b4627a2db58dfff89476b433b47ac895bde7d57adc375be337d91d78fe867b13"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0488_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "ff6233089fe679cc432221afcb4ab78c41b47a00caa6115371ebf428760e83a8"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0492_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "b066b23a1597d09fd9eb0eedc7855eaf8252a1b474096f45036d1b1ca381d2ca"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0492_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "291a08db0a0e8bcd9410859ec95bf38027f7d17ec72ab34bb8171fcea456a914"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0498_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "89714879e46eed2a6b928c972512fac39ad058c1f087c339902c7688cae347f6"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0498_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "6a8e4caf3bec29d135865b2a1911fc39c663fbd66aab4eea2a44123afd728392"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0500_n160001.mod": {
+      "kind": "RAW",
+      "sha256": "a69db1bdaed22a06c8f42ebdf44805372411044807789683f4cdb1b66ea392cf"
+    },
+    "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0500_n160001.prt": {
+      "kind": "LF_TEXT",
+      "sha256": "11cdefd8e52964890ad7e23bc5909ce76a28b6f5ca1320e844c90b00fa88882e"
+    },
+    "results\\R4_H3_DEPTH_OBSERVABLE_REVIEW\\DELIVERABLE_MANIFEST.json": {
+      "kind": "LF_TEXT",
+      "sha256": "64995c15e6c42b1225c3d97ede00f6d8f52ede995e0902a37cb65e0fb97ea63b"
+    },
+    "results\\R4_H3_DEPTH_OBSERVABLE_REVIEW\\DOCUMENTATION_VALIDATION.json": {
+      "kind": "LF_TEXT",
+      "sha256": "f1b3ed1b9556c11769a1318bac1c452a23a026285da82791c6896939b8331e68"
+    },
+    "results\\R4_H3_DEPTH_OBSERVABLE_REVIEW\\GPT_SYNC.md": {
+      "kind": "LF_TEXT",
+      "sha256": "c4ecb1d70239480607615af05dac679697139f1430c37477e72cf8d3dcaf023d"
+    },
+    "results\\R4_H3_DEPTH_OBSERVABLE_REVIEW\\H3_ARCHITECTURE_COMPARISON.md": {
+      "kind": "LF_TEXT",
+      "sha256": "3bebedfa2ba449ca23b1bf05616070b1f9cddbd3dbd5bb5c9e3e4d5741c680f5"
+    },
+    "results\\R4_H3_DEPTH_OBSERVABLE_REVIEW\\H3_BREAKTHROUGH_METRICS.md": {
+      "kind": "LF_TEXT",
+      "sha256": "c75c578279d585b60af27fe9321972e1a1bada71e999f9d3b83b9e29d740e51c"
+    },
+    "results\\R4_H3_DEPTH_OBSERVABLE_REVIEW\\H3_HISTORICAL_FAILURE_SCOPE.md": {
+      "kind": "LF_TEXT",
+      "sha256": "9dee97da94c53ac206fd9c3f980e3f8d26baa6e13c3dc450c4c695d08345e8e0"
+    },
+    "results\\R4_H3_DEPTH_OBSERVABLE_REVIEW\\H3_MINIMAL_MECHANISM_DESIGN.md": {
+      "kind": "LF_TEXT",
+      "sha256": "142deca24d9f62cc07b2e30d55af7c698bdc6d0886af4b4b19bee4d8bb04e76d"
+    },
+    "results\\R4_H3_DEPTH_OBSERVABLE_REVIEW\\H3_OBSERVABLE_AND_NUISANCE_MATRIX.md": {
+      "kind": "LF_TEXT",
+      "sha256": "a601d3b08cefeaa5925f7a7fe1557d2ac342b105e1681bc7f9ef218802390b33"
+    },
+    "results\\R4_H3_DEPTH_OBSERVABLE_REVIEW\\H3_PRIMARY_METHOD_COVERAGE.md": {
+      "kind": "LF_TEXT",
+      "sha256": "05fbf3b651580c305b9521b364404dbd91e3d89345bc782b05e289ca7b00582f"
+    },
+    "results\\R4_H3_DEPTH_OBSERVABLE_REVIEW\\H3_REVIEW_DECISION.json": {
+      "kind": "LF_TEXT",
+      "sha256": "a0d34e754f91a4ede54fd95bc013eefd77425e22038d194460f039fc417ced5b"
+    },
+    "results\\R4_H3_DEPTH_OBSERVABLE_REVIEW\\H3_TOP2_RESEARCH_HYPOTHESES.md": {
+      "kind": "LF_TEXT",
+      "sha256": "451c071d5b9b506521b26a4edab08ebe93f2f8324d0a5c38ec08a4c0c6e0b322"
+    },
+    "results\\R4_H3_DEPTH_OBSERVABLE_REVIEW\\PRIMARY_SOURCE_PROVENANCE.csv": {
+      "kind": "LF_TEXT",
+      "sha256": "5782c03d35422aa4caa12ec2a3780a6d754fa04b2a6ad875a299eb2927daea7c"
+    },
+    "r4_h3_g0.py": {
+      "kind": "LF_TEXT",
+      "sha256": "f9a123ac76547f1928a1e74b55b96d7dcb456a1c8e13b0fe8e76b031c8a605ee"
+    },
+    "r4_h3_g0_audit.py": {
+      "kind": "LF_TEXT",
+      "sha256": "e65e6c16dc2ded9f797ea7ab53001471040bf83686e491cf12c9087a283cfccb"
+    },
+    "r4_h3_g0_report.py": {
+      "kind": "LF_TEXT",
+      "sha256": "81567ac04d637ad035092640dd30b159c753490dbccfcb70c7ec3548de116129"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\EXPERIMENT_CONTRACT.md": {
+      "kind": "LF_TEXT",
+      "sha256": "45297f9dc78d01dac37f3e9ed556b43e3072b96cafe5752186d8525abdf42d0d"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\UNKNOWN_GAIN_IDENTIFIABILITY.md": {
+      "kind": "LF_TEXT",
+      "sha256": "86f104a3d8fa613163ebadbaa5c69cbe36253d3c56ba08366c931d13ad3f900a"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\ANALYTIC_ZERO_INFORMATION_CONTROLS.md": {
+      "kind": "LF_TEXT",
+      "sha256": "c4ee08bb64889abb9238dca96c097e9f0860ec6d1207b5006dbb5a0776bb08cb"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\HORIZONTAL_SUPPORT_SCOPE.md": {
+      "kind": "LF_TEXT",
+      "sha256": "e884b474631dbfed563aefb45b22165798468d5ba1f869f25614d3a74ee0bfa9"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\NOISE_MODEL.md": {
+      "kind": "LF_TEXT",
+      "sha256": "5bd753a17b663b30eaf3d1e4b22cd12d44cf3fbc926b372ff79690867c458a9d"
+    },
+    "results\\R4_H3_G0_FINITE_VERTICAL_RESPONSE\\DESIGN_REQUEST_SCOPE.md": {
+      "kind": "LF_TEXT",
+      "sha256": "da352c67567556954837a4d5719a416203889329dbdb0159532d645b7009d891"
+    }
+  },
+  "cache_metadata": [
+    {
+      "file": "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f150_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 150.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 478,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0304_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 152.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 485,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0310_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 155.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 494,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0320_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 160.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 510,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0390_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 195.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 622,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0396_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 198.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 631,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f200_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 200.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 638,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0410_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 205.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 654,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0480_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 240.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 765,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f244_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 244.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 778,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0492_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 246.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 784,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0498_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 249.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 794,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_FORWARD_FIDELITY_DIAGNOSTIC\\third_mesh\\fine_f250_n80001.mod",
+      "grid": 80001,
+      "frequency_hz": 250.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 797,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0300_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 150.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 478,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0304_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 152.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 485,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0310_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 155.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 494,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0320_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 160.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 510,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0390_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 195.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 622,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0396_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 198.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 631,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0400_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 200.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 638,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0410_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 205.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 654,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0480_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 240.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 765,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0488_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 244.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 778,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0492_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 246.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 784,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0498_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 249.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 794,
+      "regular_source_200": true
+    },
+    {
+      "file": "results\\R4_E2_PAIRED_FREQUENCY_RECOVERY\\modal\\f0500_n160001.mod",
+      "grid": 160001,
+      "frequency_hz": 250.0,
+      "depths": [
+        180.0,
+        190.0,
+        195.0,
+        198.0,
+        199.0,
+        199.5,
+        200.0,
+        200.5,
+        201.0,
+        202.0,
+        205.0,
+        210.0,
+        220.0
+      ],
+      "mode_count": 797,
+      "regular_source_200": true
+    }
+  ],
+  "coordinate_policy": "SINGLE_CARTESIAN_RANGE_ARRAY_NO_POLAR_ROUNDTRIP",
+  "main_model": "C1b",
+  "group_gain_model": "NOT_ADMITTED_NO_INDEPENDENT_GROUP_CONTRACT",
+  "noise_sigma": [
+    0.01,
+    0.05
+  ],
+  "absolute_noise_reference": 0.00010824612978073539,
+  "target_scale": [
+    50000.0,
+    1.0,
+    200.0,
+    2.0,
+    1.0
+  ],
+  "thresholds": {
+    "nuisance_relative_singular": 1e-10,
+    "target_relative_singular": 1e-10,
+    "formula_residual": 1e-10,
+    "cold_J": 1e-09,
+    "ratio_information_agreement": 1e-07,
+    "DPI": 1e-07,
+    "source_free_response_to_noise1": 0.5,
+    "projected_J_grid": 0.02,
+    "source_depth_step_J": 0.02,
+    "effective_depth_information": 0.1,
+    "rank_agreement": true,
+    "conditional_depth10_scale": 1,
+    "vertical_to_resource_information": 1.1
+  },
+  "calibration_models": [
+    "C0",
+    "C1a",
+    "C1b",
+    "C1g_FREE_MODAL_GAIN",
+    "C1g_PHYSICALLY_CONSTRAINED_GROUP_GAIN_NOT_ADMITTED",
+    "C2",
+    "C1e_NOT_EVALUATED",
+    "B3_KNOWN_SOURCE_AND_CALIBRATION"
+  ],
+  "finite_horizontal_offsets_m": [
+    -250,
+    -125,
+    0,
+    125,
+    250
+  ],
+  "finite_speed_offsets_mps": [
+    -0.05,
+    -0.025,
+    0,
+    0.025,
+    0.05
+  ],
+  "counts": {
+    "saved_input_arrays": 36,
+    "information_rows": 720,
+    "numerical_comparisons": 180,
+    "finite_contrasts": 4500
+  },
+  "budget": {
+    "executions": 1,
+    "wall_seconds": 1800,
+    "threads": 1,
+    "new_KRAKEN": 0,
+    "new_FIELD": 0,
+    "new_MC": 0,
+    "new_audio": 0
+  },
+  "stop_conditions": [
+    "CACHE_DEPTH_MISSING",
+    "FORMULA_OR_GAIN_OR_DPI_OR_NULLSPACE_FAILURE",
+    "NUMERIC_UNRESOLVED",
+    "RUNTIME_OR_UNEXPECTED_EXCEPTION",
+    "COMMIT_B_VERIFIED"
+  ],
+  "next_stage_execution": "NOT_AUTHORIZED",
+  "R4_percent": 0,
+  "runtime": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "platform": "Windows-10-10.0.26200-SP0"
+  }
+}

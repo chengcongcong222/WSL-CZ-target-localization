@@ -1,0 +1,7 @@
+# Design noise hypotheses
+
+Proper complex raw noise has E|epsilon_i|^2=sigma^2|p_i|^2 for the relative model; real and imaginary components each have half this variance. For the fixed floor E|epsilon_i|^2=sigma^2*Aref^2, Aref=0.00010824612978073539, the previously frozen median reference-receiver amplitude across the E2 sample, reused before looking at H3 outputs. sigma=0.01 and 0.05 are both recorded. The log-chart covariance at the nominal state is diag(1/2) times sigma^2, or diag((Aref/|p_i|)^2/2) times sigma^2 for the floor. Covariance is frozen at the nominal field and carries no state-dependent variance information.
+
+This is a high-SNR, local delta-method description; phase wrap, nonlinear moments and practical receiving errors are not certified. Source level unknown: the fixed floor is a design assumption, not an actual SNR. At very weak receiving amplitudes, the delta method itself may cease to be valid; record nominal minimum amplitudes and floor/relative information loss. Fixed gain nominal values equal unity only to define an upper bound. Unknown gains are eliminated as nuisance tangents.
+
+Resource B2 repeats pressure at co-location but has INDEPENDENT receiver noise. Treating repeated channels as identical observations would invalidate the matched resource comparison. Source-free spatial-reference ratios share reference noise: the entire covariance is kept and cross-checked against direct source-nuisance projection.
