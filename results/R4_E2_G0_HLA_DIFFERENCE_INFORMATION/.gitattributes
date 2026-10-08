@@ -1,0 +1,6 @@
+sources/*.html -text -diff
+sources/*.xml -text -diff
+sources/*.pdf -text -diff
+modal/*.mod -text -diff
+modal/*.shd -text -diff
+*.npz -text -diff

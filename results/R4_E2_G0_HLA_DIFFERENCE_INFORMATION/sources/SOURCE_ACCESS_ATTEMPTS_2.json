@@ -1,0 +1,33 @@
+[
+  {
+    "name": "park.pdf",
+    "url": "https://www.jask.or.kr/articles/pdf/9Vj9/ask-2024-043-01-4.pdf",
+    "status": 200,
+    "bytes": 2279909,
+    "magic": "b'%PDF-1.4\\r%'"
+  },
+  {
+    "name": "yin_alt.pdf",
+    "url": "https://mdpi-res.com/d_attachment/sensors/sensors-26-01495/article_deploy/sensors-26-01495.pdf?version=1772091748",
+    "status": 200,
+    "bytes": 2678346,
+    "magic": "b'%PDF-1.7\\n%'"
+  },
+  {
+    "name": "yin_html.html",
+    "url": "https://www.mdpi.com/1424-8220/26/5/1495/htm",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "yin_xml.xml",
+    "url": "https://mdpi-res.com/d_attachment/sensors/sensors-26-01495/article_deploy/sensors-26-01495.xml",
+    "status": 200,
+    "bytes": 165340,
+    "magic": "b'<?xml vers'"
+  },
+  {
+    "name": "thesis_alt.pdf",
+    "url": "https://deepblue.lib.umich.edu/bitstream/handle/2027.42/169886/geroskdj_1.pdf?sequence=1&isAllowed=y",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

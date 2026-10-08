@@ -1,0 +1,3623 @@
+{
+  "raw_frequencies_hz": [
+    150.0,
+    150.5,
+    151.0,
+    151.5,
+    152.0,
+    152.5,
+    153.0,
+    153.5,
+    154.0,
+    154.5,
+    155.0,
+    155.5,
+    156.0,
+    156.5,
+    157.0,
+    157.5,
+    158.0,
+    158.5,
+    159.0,
+    159.5,
+    160.0,
+    160.5,
+    161.0,
+    161.5,
+    162.0,
+    162.5,
+    163.0,
+    163.5,
+    164.0,
+    164.5,
+    165.0,
+    165.5,
+    166.0,
+    166.5,
+    167.0,
+    167.5,
+    168.0,
+    168.5,
+    169.0,
+    169.5,
+    170.0,
+    170.5,
+    171.0,
+    171.5,
+    172.0,
+    172.5,
+    173.0,
+    173.5,
+    174.0,
+    174.5,
+    175.0,
+    175.5,
+    176.0,
+    176.5,
+    177.0,
+    177.5,
+    178.0,
+    178.5,
+    179.0,
+    179.5,
+    180.0,
+    180.5,
+    181.0,
+    181.5,
+    182.0,
+    182.5,
+    183.0,
+    183.5,
+    184.0,
+    184.5,
+    185.0,
+    185.5,
+    186.0,
+    186.5,
+    187.0,
+    187.5,
+    188.0,
+    188.5,
+    189.0,
+    189.5,
+    190.0,
+    190.5,
+    191.0,
+    191.5,
+    192.0,
+    192.5,
+    193.0,
+    193.5,
+    194.0,
+    194.5,
+    195.0,
+    195.5,
+    196.0,
+    196.5,
+    197.0,
+    197.5,
+    198.0,
+    198.5,
+    199.0,
+    199.5,
+    200.0,
+    200.5,
+    201.0,
+    201.5,
+    202.0,
+    202.5,
+    203.0,
+    203.5,
+    204.0,
+    204.5,
+    205.0,
+    205.5,
+    206.0,
+    206.5,
+    207.0,
+    207.5,
+    208.0,
+    208.5,
+    209.0,
+    209.5,
+    210.0,
+    210.5,
+    211.0,
+    211.5,
+    212.0,
+    212.5,
+    213.0,
+    213.5,
+    214.0,
+    214.5,
+    215.0,
+    215.5,
+    216.0,
+    216.5,
+    217.0,
+    217.5,
+    218.0,
+    218.5,
+    219.0,
+    219.5,
+    220.0,
+    220.5,
+    221.0,
+    221.5,
+    222.0,
+    222.5,
+    223.0,
+    223.5,
+    224.0,
+    224.5,
+    225.0,
+    225.5,
+    226.0,
+    226.5,
+    227.0,
+    227.5,
+    228.0,
+    228.5,
+    229.0,
+    229.5,
+    230.0,
+    230.5,
+    231.0,
+    231.5,
+    232.0,
+    232.5,
+    233.0,
+    233.5,
+    234.0,
+    234.5,
+    235.0,
+    235.5,
+    236.0,
+    236.5,
+    237.0,
+    237.5,
+    238.0,
+    238.5,
+    239.0,
+    239.5,
+    240.0,
+    240.5,
+    241.0,
+    241.5,
+    242.0,
+    242.5,
+    243.0,
+    243.5,
+    244.0,
+    244.5,
+    245.0,
+    245.5,
+    246.0,
+    246.5,
+    247.0,
+    247.5,
+    248.0,
+    248.5,
+    249.0,
+    249.5,
+    250.0
+  ],
+  "frequency_pairs": [
+    {
+      "center_hz": 151.0,
+      "delta_hz": 2,
+      "low_hz": 150.0,
+      "high_hz": 152.0
+    },
+    {
+      "center_hz": 151.5,
+      "delta_hz": 2,
+      "low_hz": 150.5,
+      "high_hz": 152.5
+    },
+    {
+      "center_hz": 152.0,
+      "delta_hz": 2,
+      "low_hz": 151.0,
+      "high_hz": 153.0
+    },
+    {
+      "center_hz": 152.5,
+      "delta_hz": 2,
+      "low_hz": 151.5,
+      "high_hz": 153.5
+    },
+    {
+      "center_hz": 153.0,
+      "delta_hz": 2,
+      "low_hz": 152.0,
+      "high_hz": 154.0
+    },
+    {
+      "center_hz": 153.5,
+      "delta_hz": 2,
+      "low_hz": 152.5,
+      "high_hz": 154.5
+    },
+    {
+      "center_hz": 154.0,
+      "delta_hz": 2,
+      "low_hz": 153.0,
+      "high_hz": 155.0
+    },
+    {
+      "center_hz": 154.5,
+      "delta_hz": 2,
+      "low_hz": 153.5,
+      "high_hz": 155.5
+    },
+    {
+      "center_hz": 155.0,
+      "delta_hz": 2,
+      "low_hz": 154.0,
+      "high_hz": 156.0
+    },
+    {
+      "center_hz": 155.5,
+      "delta_hz": 2,
+      "low_hz": 154.5,
+      "high_hz": 156.5
+    },
+    {
+      "center_hz": 156.0,
+      "delta_hz": 2,
+      "low_hz": 155.0,
+      "high_hz": 157.0
+    },
+    {
+      "center_hz": 156.5,
+      "delta_hz": 2,
+      "low_hz": 155.5,
+      "high_hz": 157.5
+    },
+    {
+      "center_hz": 157.0,
+      "delta_hz": 2,
+      "low_hz": 156.0,
+      "high_hz": 158.0
+    },
+    {
+      "center_hz": 157.5,
+      "delta_hz": 2,
+      "low_hz": 156.5,
+      "high_hz": 158.5
+    },
+    {
+      "center_hz": 158.0,
+      "delta_hz": 2,
+      "low_hz": 157.0,
+      "high_hz": 159.0
+    },
+    {
+      "center_hz": 158.5,
+      "delta_hz": 2,
+      "low_hz": 157.5,
+      "high_hz": 159.5
+    },
+    {
+      "center_hz": 159.0,
+      "delta_hz": 2,
+      "low_hz": 158.0,
+      "high_hz": 160.0
+    },
+    {
+      "center_hz": 159.5,
+      "delta_hz": 2,
+      "low_hz": 158.5,
+      "high_hz": 160.5
+    },
+    {
+      "center_hz": 160.0,
+      "delta_hz": 2,
+      "low_hz": 159.0,
+      "high_hz": 161.0
+    },
+    {
+      "center_hz": 160.5,
+      "delta_hz": 2,
+      "low_hz": 159.5,
+      "high_hz": 161.5
+    },
+    {
+      "center_hz": 161.0,
+      "delta_hz": 2,
+      "low_hz": 160.0,
+      "high_hz": 162.0
+    },
+    {
+      "center_hz": 161.5,
+      "delta_hz": 2,
+      "low_hz": 160.5,
+      "high_hz": 162.5
+    },
+    {
+      "center_hz": 162.0,
+      "delta_hz": 2,
+      "low_hz": 161.0,
+      "high_hz": 163.0
+    },
+    {
+      "center_hz": 162.5,
+      "delta_hz": 2,
+      "low_hz": 161.5,
+      "high_hz": 163.5
+    },
+    {
+      "center_hz": 163.0,
+      "delta_hz": 2,
+      "low_hz": 162.0,
+      "high_hz": 164.0
+    },
+    {
+      "center_hz": 163.5,
+      "delta_hz": 2,
+      "low_hz": 162.5,
+      "high_hz": 164.5
+    },
+    {
+      "center_hz": 164.0,
+      "delta_hz": 2,
+      "low_hz": 163.0,
+      "high_hz": 165.0
+    },
+    {
+      "center_hz": 164.5,
+      "delta_hz": 2,
+      "low_hz": 163.5,
+      "high_hz": 165.5
+    },
+    {
+      "center_hz": 165.0,
+      "delta_hz": 2,
+      "low_hz": 164.0,
+      "high_hz": 166.0
+    },
+    {
+      "center_hz": 165.5,
+      "delta_hz": 2,
+      "low_hz": 164.5,
+      "high_hz": 166.5
+    },
+    {
+      "center_hz": 166.0,
+      "delta_hz": 2,
+      "low_hz": 165.0,
+      "high_hz": 167.0
+    },
+    {
+      "center_hz": 166.5,
+      "delta_hz": 2,
+      "low_hz": 165.5,
+      "high_hz": 167.5
+    },
+    {
+      "center_hz": 167.0,
+      "delta_hz": 2,
+      "low_hz": 166.0,
+      "high_hz": 168.0
+    },
+    {
+      "center_hz": 167.5,
+      "delta_hz": 2,
+      "low_hz": 166.5,
+      "high_hz": 168.5
+    },
+    {
+      "center_hz": 168.0,
+      "delta_hz": 2,
+      "low_hz": 167.0,
+      "high_hz": 169.0
+    },
+    {
+      "center_hz": 168.5,
+      "delta_hz": 2,
+      "low_hz": 167.5,
+      "high_hz": 169.5
+    },
+    {
+      "center_hz": 169.0,
+      "delta_hz": 2,
+      "low_hz": 168.0,
+      "high_hz": 170.0
+    },
+    {
+      "center_hz": 169.5,
+      "delta_hz": 2,
+      "low_hz": 168.5,
+      "high_hz": 170.5
+    },
+    {
+      "center_hz": 170.0,
+      "delta_hz": 2,
+      "low_hz": 169.0,
+      "high_hz": 171.0
+    },
+    {
+      "center_hz": 170.5,
+      "delta_hz": 2,
+      "low_hz": 169.5,
+      "high_hz": 171.5
+    },
+    {
+      "center_hz": 171.0,
+      "delta_hz": 2,
+      "low_hz": 170.0,
+      "high_hz": 172.0
+    },
+    {
+      "center_hz": 171.5,
+      "delta_hz": 2,
+      "low_hz": 170.5,
+      "high_hz": 172.5
+    },
+    {
+      "center_hz": 172.0,
+      "delta_hz": 2,
+      "low_hz": 171.0,
+      "high_hz": 173.0
+    },
+    {
+      "center_hz": 172.5,
+      "delta_hz": 2,
+      "low_hz": 171.5,
+      "high_hz": 173.5
+    },
+    {
+      "center_hz": 173.0,
+      "delta_hz": 2,
+      "low_hz": 172.0,
+      "high_hz": 174.0
+    },
+    {
+      "center_hz": 173.5,
+      "delta_hz": 2,
+      "low_hz": 172.5,
+      "high_hz": 174.5
+    },
+    {
+      "center_hz": 174.0,
+      "delta_hz": 2,
+      "low_hz": 173.0,
+      "high_hz": 175.0
+    },
+    {
+      "center_hz": 174.5,
+      "delta_hz": 2,
+      "low_hz": 173.5,
+      "high_hz": 175.5
+    },
+    {
+      "center_hz": 175.0,
+      "delta_hz": 2,
+      "low_hz": 174.0,
+      "high_hz": 176.0
+    },
+    {
+      "center_hz": 175.5,
+      "delta_hz": 2,
+      "low_hz": 174.5,
+      "high_hz": 176.5
+    },
+    {
+      "center_hz": 176.0,
+      "delta_hz": 2,
+      "low_hz": 175.0,
+      "high_hz": 177.0
+    },
+    {
+      "center_hz": 176.5,
+      "delta_hz": 2,
+      "low_hz": 175.5,
+      "high_hz": 177.5
+    },
+    {
+      "center_hz": 177.0,
+      "delta_hz": 2,
+      "low_hz": 176.0,
+      "high_hz": 178.0
+    },
+    {
+      "center_hz": 177.5,
+      "delta_hz": 2,
+      "low_hz": 176.5,
+      "high_hz": 178.5
+    },
+    {
+      "center_hz": 178.0,
+      "delta_hz": 2,
+      "low_hz": 177.0,
+      "high_hz": 179.0
+    },
+    {
+      "center_hz": 178.5,
+      "delta_hz": 2,
+      "low_hz": 177.5,
+      "high_hz": 179.5
+    },
+    {
+      "center_hz": 179.0,
+      "delta_hz": 2,
+      "low_hz": 178.0,
+      "high_hz": 180.0
+    },
+    {
+      "center_hz": 179.5,
+      "delta_hz": 2,
+      "low_hz": 178.5,
+      "high_hz": 180.5
+    },
+    {
+      "center_hz": 180.0,
+      "delta_hz": 2,
+      "low_hz": 179.0,
+      "high_hz": 181.0
+    },
+    {
+      "center_hz": 180.5,
+      "delta_hz": 2,
+      "low_hz": 179.5,
+      "high_hz": 181.5
+    },
+    {
+      "center_hz": 181.0,
+      "delta_hz": 2,
+      "low_hz": 180.0,
+      "high_hz": 182.0
+    },
+    {
+      "center_hz": 181.5,
+      "delta_hz": 2,
+      "low_hz": 180.5,
+      "high_hz": 182.5
+    },
+    {
+      "center_hz": 182.0,
+      "delta_hz": 2,
+      "low_hz": 181.0,
+      "high_hz": 183.0
+    },
+    {
+      "center_hz": 182.5,
+      "delta_hz": 2,
+      "low_hz": 181.5,
+      "high_hz": 183.5
+    },
+    {
+      "center_hz": 183.0,
+      "delta_hz": 2,
+      "low_hz": 182.0,
+      "high_hz": 184.0
+    },
+    {
+      "center_hz": 183.5,
+      "delta_hz": 2,
+      "low_hz": 182.5,
+      "high_hz": 184.5
+    },
+    {
+      "center_hz": 184.0,
+      "delta_hz": 2,
+      "low_hz": 183.0,
+      "high_hz": 185.0
+    },
+    {
+      "center_hz": 184.5,
+      "delta_hz": 2,
+      "low_hz": 183.5,
+      "high_hz": 185.5
+    },
+    {
+      "center_hz": 185.0,
+      "delta_hz": 2,
+      "low_hz": 184.0,
+      "high_hz": 186.0
+    },
+    {
+      "center_hz": 185.5,
+      "delta_hz": 2,
+      "low_hz": 184.5,
+      "high_hz": 186.5
+    },
+    {
+      "center_hz": 186.0,
+      "delta_hz": 2,
+      "low_hz": 185.0,
+      "high_hz": 187.0
+    },
+    {
+      "center_hz": 186.5,
+      "delta_hz": 2,
+      "low_hz": 185.5,
+      "high_hz": 187.5
+    },
+    {
+      "center_hz": 187.0,
+      "delta_hz": 2,
+      "low_hz": 186.0,
+      "high_hz": 188.0
+    },
+    {
+      "center_hz": 187.5,
+      "delta_hz": 2,
+      "low_hz": 186.5,
+      "high_hz": 188.5
+    },
+    {
+      "center_hz": 188.0,
+      "delta_hz": 2,
+      "low_hz": 187.0,
+      "high_hz": 189.0
+    },
+    {
+      "center_hz": 188.5,
+      "delta_hz": 2,
+      "low_hz": 187.5,
+      "high_hz": 189.5
+    },
+    {
+      "center_hz": 189.0,
+      "delta_hz": 2,
+      "low_hz": 188.0,
+      "high_hz": 190.0
+    },
+    {
+      "center_hz": 189.5,
+      "delta_hz": 2,
+      "low_hz": 188.5,
+      "high_hz": 190.5
+    },
+    {
+      "center_hz": 190.0,
+      "delta_hz": 2,
+      "low_hz": 189.0,
+      "high_hz": 191.0
+    },
+    {
+      "center_hz": 190.5,
+      "delta_hz": 2,
+      "low_hz": 189.5,
+      "high_hz": 191.5
+    },
+    {
+      "center_hz": 191.0,
+      "delta_hz": 2,
+      "low_hz": 190.0,
+      "high_hz": 192.0
+    },
+    {
+      "center_hz": 191.5,
+      "delta_hz": 2,
+      "low_hz": 190.5,
+      "high_hz": 192.5
+    },
+    {
+      "center_hz": 192.0,
+      "delta_hz": 2,
+      "low_hz": 191.0,
+      "high_hz": 193.0
+    },
+    {
+      "center_hz": 192.5,
+      "delta_hz": 2,
+      "low_hz": 191.5,
+      "high_hz": 193.5
+    },
+    {
+      "center_hz": 193.0,
+      "delta_hz": 2,
+      "low_hz": 192.0,
+      "high_hz": 194.0
+    },
+    {
+      "center_hz": 193.5,
+      "delta_hz": 2,
+      "low_hz": 192.5,
+      "high_hz": 194.5
+    },
+    {
+      "center_hz": 194.0,
+      "delta_hz": 2,
+      "low_hz": 193.0,
+      "high_hz": 195.0
+    },
+    {
+      "center_hz": 194.5,
+      "delta_hz": 2,
+      "low_hz": 193.5,
+      "high_hz": 195.5
+    },
+    {
+      "center_hz": 195.0,
+      "delta_hz": 2,
+      "low_hz": 194.0,
+      "high_hz": 196.0
+    },
+    {
+      "center_hz": 195.5,
+      "delta_hz": 2,
+      "low_hz": 194.5,
+      "high_hz": 196.5
+    },
+    {
+      "center_hz": 196.0,
+      "delta_hz": 2,
+      "low_hz": 195.0,
+      "high_hz": 197.0
+    },
+    {
+      "center_hz": 196.5,
+      "delta_hz": 2,
+      "low_hz": 195.5,
+      "high_hz": 197.5
+    },
+    {
+      "center_hz": 197.0,
+      "delta_hz": 2,
+      "low_hz": 196.0,
+      "high_hz": 198.0
+    },
+    {
+      "center_hz": 197.5,
+      "delta_hz": 2,
+      "low_hz": 196.5,
+      "high_hz": 198.5
+    },
+    {
+      "center_hz": 198.0,
+      "delta_hz": 2,
+      "low_hz": 197.0,
+      "high_hz": 199.0
+    },
+    {
+      "center_hz": 198.5,
+      "delta_hz": 2,
+      "low_hz": 197.5,
+      "high_hz": 199.5
+    },
+    {
+      "center_hz": 199.0,
+      "delta_hz": 2,
+      "low_hz": 198.0,
+      "high_hz": 200.0
+    },
+    {
+      "center_hz": 199.5,
+      "delta_hz": 2,
+      "low_hz": 198.5,
+      "high_hz": 200.5
+    },
+    {
+      "center_hz": 200.0,
+      "delta_hz": 2,
+      "low_hz": 199.0,
+      "high_hz": 201.0
+    },
+    {
+      "center_hz": 200.5,
+      "delta_hz": 2,
+      "low_hz": 199.5,
+      "high_hz": 201.5
+    },
+    {
+      "center_hz": 201.0,
+      "delta_hz": 2,
+      "low_hz": 200.0,
+      "high_hz": 202.0
+    },
+    {
+      "center_hz": 201.5,
+      "delta_hz": 2,
+      "low_hz": 200.5,
+      "high_hz": 202.5
+    },
+    {
+      "center_hz": 202.0,
+      "delta_hz": 2,
+      "low_hz": 201.0,
+      "high_hz": 203.0
+    },
+    {
+      "center_hz": 202.5,
+      "delta_hz": 2,
+      "low_hz": 201.5,
+      "high_hz": 203.5
+    },
+    {
+      "center_hz": 203.0,
+      "delta_hz": 2,
+      "low_hz": 202.0,
+      "high_hz": 204.0
+    },
+    {
+      "center_hz": 203.5,
+      "delta_hz": 2,
+      "low_hz": 202.5,
+      "high_hz": 204.5
+    },
+    {
+      "center_hz": 204.0,
+      "delta_hz": 2,
+      "low_hz": 203.0,
+      "high_hz": 205.0
+    },
+    {
+      "center_hz": 204.5,
+      "delta_hz": 2,
+      "low_hz": 203.5,
+      "high_hz": 205.5
+    },
+    {
+      "center_hz": 205.0,
+      "delta_hz": 2,
+      "low_hz": 204.0,
+      "high_hz": 206.0
+    },
+    {
+      "center_hz": 205.5,
+      "delta_hz": 2,
+      "low_hz": 204.5,
+      "high_hz": 206.5
+    },
+    {
+      "center_hz": 206.0,
+      "delta_hz": 2,
+      "low_hz": 205.0,
+      "high_hz": 207.0
+    },
+    {
+      "center_hz": 206.5,
+      "delta_hz": 2,
+      "low_hz": 205.5,
+      "high_hz": 207.5
+    },
+    {
+      "center_hz": 207.0,
+      "delta_hz": 2,
+      "low_hz": 206.0,
+      "high_hz": 208.0
+    },
+    {
+      "center_hz": 207.5,
+      "delta_hz": 2,
+      "low_hz": 206.5,
+      "high_hz": 208.5
+    },
+    {
+      "center_hz": 208.0,
+      "delta_hz": 2,
+      "low_hz": 207.0,
+      "high_hz": 209.0
+    },
+    {
+      "center_hz": 208.5,
+      "delta_hz": 2,
+      "low_hz": 207.5,
+      "high_hz": 209.5
+    },
+    {
+      "center_hz": 209.0,
+      "delta_hz": 2,
+      "low_hz": 208.0,
+      "high_hz": 210.0
+    },
+    {
+      "center_hz": 209.5,
+      "delta_hz": 2,
+      "low_hz": 208.5,
+      "high_hz": 210.5
+    },
+    {
+      "center_hz": 210.0,
+      "delta_hz": 2,
+      "low_hz": 209.0,
+      "high_hz": 211.0
+    },
+    {
+      "center_hz": 210.5,
+      "delta_hz": 2,
+      "low_hz": 209.5,
+      "high_hz": 211.5
+    },
+    {
+      "center_hz": 211.0,
+      "delta_hz": 2,
+      "low_hz": 210.0,
+      "high_hz": 212.0
+    },
+    {
+      "center_hz": 211.5,
+      "delta_hz": 2,
+      "low_hz": 210.5,
+      "high_hz": 212.5
+    },
+    {
+      "center_hz": 212.0,
+      "delta_hz": 2,
+      "low_hz": 211.0,
+      "high_hz": 213.0
+    },
+    {
+      "center_hz": 212.5,
+      "delta_hz": 2,
+      "low_hz": 211.5,
+      "high_hz": 213.5
+    },
+    {
+      "center_hz": 213.0,
+      "delta_hz": 2,
+      "low_hz": 212.0,
+      "high_hz": 214.0
+    },
+    {
+      "center_hz": 213.5,
+      "delta_hz": 2,
+      "low_hz": 212.5,
+      "high_hz": 214.5
+    },
+    {
+      "center_hz": 214.0,
+      "delta_hz": 2,
+      "low_hz": 213.0,
+      "high_hz": 215.0
+    },
+    {
+      "center_hz": 214.5,
+      "delta_hz": 2,
+      "low_hz": 213.5,
+      "high_hz": 215.5
+    },
+    {
+      "center_hz": 215.0,
+      "delta_hz": 2,
+      "low_hz": 214.0,
+      "high_hz": 216.0
+    },
+    {
+      "center_hz": 215.5,
+      "delta_hz": 2,
+      "low_hz": 214.5,
+      "high_hz": 216.5
+    },
+    {
+      "center_hz": 216.0,
+      "delta_hz": 2,
+      "low_hz": 215.0,
+      "high_hz": 217.0
+    },
+    {
+      "center_hz": 216.5,
+      "delta_hz": 2,
+      "low_hz": 215.5,
+      "high_hz": 217.5
+    },
+    {
+      "center_hz": 217.0,
+      "delta_hz": 2,
+      "low_hz": 216.0,
+      "high_hz": 218.0
+    },
+    {
+      "center_hz": 217.5,
+      "delta_hz": 2,
+      "low_hz": 216.5,
+      "high_hz": 218.5
+    },
+    {
+      "center_hz": 218.0,
+      "delta_hz": 2,
+      "low_hz": 217.0,
+      "high_hz": 219.0
+    },
+    {
+      "center_hz": 218.5,
+      "delta_hz": 2,
+      "low_hz": 217.5,
+      "high_hz": 219.5
+    },
+    {
+      "center_hz": 219.0,
+      "delta_hz": 2,
+      "low_hz": 218.0,
+      "high_hz": 220.0
+    },
+    {
+      "center_hz": 219.5,
+      "delta_hz": 2,
+      "low_hz": 218.5,
+      "high_hz": 220.5
+    },
+    {
+      "center_hz": 220.0,
+      "delta_hz": 2,
+      "low_hz": 219.0,
+      "high_hz": 221.0
+    },
+    {
+      "center_hz": 220.5,
+      "delta_hz": 2,
+      "low_hz": 219.5,
+      "high_hz": 221.5
+    },
+    {
+      "center_hz": 221.0,
+      "delta_hz": 2,
+      "low_hz": 220.0,
+      "high_hz": 222.0
+    },
+    {
+      "center_hz": 221.5,
+      "delta_hz": 2,
+      "low_hz": 220.5,
+      "high_hz": 222.5
+    },
+    {
+      "center_hz": 222.0,
+      "delta_hz": 2,
+      "low_hz": 221.0,
+      "high_hz": 223.0
+    },
+    {
+      "center_hz": 222.5,
+      "delta_hz": 2,
+      "low_hz": 221.5,
+      "high_hz": 223.5
+    },
+    {
+      "center_hz": 223.0,
+      "delta_hz": 2,
+      "low_hz": 222.0,
+      "high_hz": 224.0
+    },
+    {
+      "center_hz": 223.5,
+      "delta_hz": 2,
+      "low_hz": 222.5,
+      "high_hz": 224.5
+    },
+    {
+      "center_hz": 224.0,
+      "delta_hz": 2,
+      "low_hz": 223.0,
+      "high_hz": 225.0
+    },
+    {
+      "center_hz": 224.5,
+      "delta_hz": 2,
+      "low_hz": 223.5,
+      "high_hz": 225.5
+    },
+    {
+      "center_hz": 225.0,
+      "delta_hz": 2,
+      "low_hz": 224.0,
+      "high_hz": 226.0
+    },
+    {
+      "center_hz": 225.5,
+      "delta_hz": 2,
+      "low_hz": 224.5,
+      "high_hz": 226.5
+    },
+    {
+      "center_hz": 226.0,
+      "delta_hz": 2,
+      "low_hz": 225.0,
+      "high_hz": 227.0
+    },
+    {
+      "center_hz": 226.5,
+      "delta_hz": 2,
+      "low_hz": 225.5,
+      "high_hz": 227.5
+    },
+    {
+      "center_hz": 227.0,
+      "delta_hz": 2,
+      "low_hz": 226.0,
+      "high_hz": 228.0
+    },
+    {
+      "center_hz": 227.5,
+      "delta_hz": 2,
+      "low_hz": 226.5,
+      "high_hz": 228.5
+    },
+    {
+      "center_hz": 228.0,
+      "delta_hz": 2,
+      "low_hz": 227.0,
+      "high_hz": 229.0
+    },
+    {
+      "center_hz": 228.5,
+      "delta_hz": 2,
+      "low_hz": 227.5,
+      "high_hz": 229.5
+    },
+    {
+      "center_hz": 229.0,
+      "delta_hz": 2,
+      "low_hz": 228.0,
+      "high_hz": 230.0
+    },
+    {
+      "center_hz": 229.5,
+      "delta_hz": 2,
+      "low_hz": 228.5,
+      "high_hz": 230.5
+    },
+    {
+      "center_hz": 230.0,
+      "delta_hz": 2,
+      "low_hz": 229.0,
+      "high_hz": 231.0
+    },
+    {
+      "center_hz": 230.5,
+      "delta_hz": 2,
+      "low_hz": 229.5,
+      "high_hz": 231.5
+    },
+    {
+      "center_hz": 231.0,
+      "delta_hz": 2,
+      "low_hz": 230.0,
+      "high_hz": 232.0
+    },
+    {
+      "center_hz": 231.5,
+      "delta_hz": 2,
+      "low_hz": 230.5,
+      "high_hz": 232.5
+    },
+    {
+      "center_hz": 232.0,
+      "delta_hz": 2,
+      "low_hz": 231.0,
+      "high_hz": 233.0
+    },
+    {
+      "center_hz": 232.5,
+      "delta_hz": 2,
+      "low_hz": 231.5,
+      "high_hz": 233.5
+    },
+    {
+      "center_hz": 233.0,
+      "delta_hz": 2,
+      "low_hz": 232.0,
+      "high_hz": 234.0
+    },
+    {
+      "center_hz": 233.5,
+      "delta_hz": 2,
+      "low_hz": 232.5,
+      "high_hz": 234.5
+    },
+    {
+      "center_hz": 234.0,
+      "delta_hz": 2,
+      "low_hz": 233.0,
+      "high_hz": 235.0
+    },
+    {
+      "center_hz": 234.5,
+      "delta_hz": 2,
+      "low_hz": 233.5,
+      "high_hz": 235.5
+    },
+    {
+      "center_hz": 235.0,
+      "delta_hz": 2,
+      "low_hz": 234.0,
+      "high_hz": 236.0
+    },
+    {
+      "center_hz": 235.5,
+      "delta_hz": 2,
+      "low_hz": 234.5,
+      "high_hz": 236.5
+    },
+    {
+      "center_hz": 236.0,
+      "delta_hz": 2,
+      "low_hz": 235.0,
+      "high_hz": 237.0
+    },
+    {
+      "center_hz": 236.5,
+      "delta_hz": 2,
+      "low_hz": 235.5,
+      "high_hz": 237.5
+    },
+    {
+      "center_hz": 237.0,
+      "delta_hz": 2,
+      "low_hz": 236.0,
+      "high_hz": 238.0
+    },
+    {
+      "center_hz": 237.5,
+      "delta_hz": 2,
+      "low_hz": 236.5,
+      "high_hz": 238.5
+    },
+    {
+      "center_hz": 238.0,
+      "delta_hz": 2,
+      "low_hz": 237.0,
+      "high_hz": 239.0
+    },
+    {
+      "center_hz": 238.5,
+      "delta_hz": 2,
+      "low_hz": 237.5,
+      "high_hz": 239.5
+    },
+    {
+      "center_hz": 239.0,
+      "delta_hz": 2,
+      "low_hz": 238.0,
+      "high_hz": 240.0
+    },
+    {
+      "center_hz": 239.5,
+      "delta_hz": 2,
+      "low_hz": 238.5,
+      "high_hz": 240.5
+    },
+    {
+      "center_hz": 240.0,
+      "delta_hz": 2,
+      "low_hz": 239.0,
+      "high_hz": 241.0
+    },
+    {
+      "center_hz": 240.5,
+      "delta_hz": 2,
+      "low_hz": 239.5,
+      "high_hz": 241.5
+    },
+    {
+      "center_hz": 241.0,
+      "delta_hz": 2,
+      "low_hz": 240.0,
+      "high_hz": 242.0
+    },
+    {
+      "center_hz": 241.5,
+      "delta_hz": 2,
+      "low_hz": 240.5,
+      "high_hz": 242.5
+    },
+    {
+      "center_hz": 242.0,
+      "delta_hz": 2,
+      "low_hz": 241.0,
+      "high_hz": 243.0
+    },
+    {
+      "center_hz": 242.5,
+      "delta_hz": 2,
+      "low_hz": 241.5,
+      "high_hz": 243.5
+    },
+    {
+      "center_hz": 243.0,
+      "delta_hz": 2,
+      "low_hz": 242.0,
+      "high_hz": 244.0
+    },
+    {
+      "center_hz": 243.5,
+      "delta_hz": 2,
+      "low_hz": 242.5,
+      "high_hz": 244.5
+    },
+    {
+      "center_hz": 244.0,
+      "delta_hz": 2,
+      "low_hz": 243.0,
+      "high_hz": 245.0
+    },
+    {
+      "center_hz": 244.5,
+      "delta_hz": 2,
+      "low_hz": 243.5,
+      "high_hz": 245.5
+    },
+    {
+      "center_hz": 245.0,
+      "delta_hz": 2,
+      "low_hz": 244.0,
+      "high_hz": 246.0
+    },
+    {
+      "center_hz": 245.5,
+      "delta_hz": 2,
+      "low_hz": 244.5,
+      "high_hz": 246.5
+    },
+    {
+      "center_hz": 246.0,
+      "delta_hz": 2,
+      "low_hz": 245.0,
+      "high_hz": 247.0
+    },
+    {
+      "center_hz": 246.5,
+      "delta_hz": 2,
+      "low_hz": 245.5,
+      "high_hz": 247.5
+    },
+    {
+      "center_hz": 247.0,
+      "delta_hz": 2,
+      "low_hz": 246.0,
+      "high_hz": 248.0
+    },
+    {
+      "center_hz": 247.5,
+      "delta_hz": 2,
+      "low_hz": 246.5,
+      "high_hz": 248.5
+    },
+    {
+      "center_hz": 248.0,
+      "delta_hz": 2,
+      "low_hz": 247.0,
+      "high_hz": 249.0
+    },
+    {
+      "center_hz": 248.5,
+      "delta_hz": 2,
+      "low_hz": 247.5,
+      "high_hz": 249.5
+    },
+    {
+      "center_hz": 249.0,
+      "delta_hz": 2,
+      "low_hz": 248.0,
+      "high_hz": 250.0
+    },
+    {
+      "center_hz": 152.5,
+      "delta_hz": 5,
+      "low_hz": 150.0,
+      "high_hz": 155.0
+    },
+    {
+      "center_hz": 153.0,
+      "delta_hz": 5,
+      "low_hz": 150.5,
+      "high_hz": 155.5
+    },
+    {
+      "center_hz": 153.5,
+      "delta_hz": 5,
+      "low_hz": 151.0,
+      "high_hz": 156.0
+    },
+    {
+      "center_hz": 154.0,
+      "delta_hz": 5,
+      "low_hz": 151.5,
+      "high_hz": 156.5
+    },
+    {
+      "center_hz": 154.5,
+      "delta_hz": 5,
+      "low_hz": 152.0,
+      "high_hz": 157.0
+    },
+    {
+      "center_hz": 155.0,
+      "delta_hz": 5,
+      "low_hz": 152.5,
+      "high_hz": 157.5
+    },
+    {
+      "center_hz": 155.5,
+      "delta_hz": 5,
+      "low_hz": 153.0,
+      "high_hz": 158.0
+    },
+    {
+      "center_hz": 156.0,
+      "delta_hz": 5,
+      "low_hz": 153.5,
+      "high_hz": 158.5
+    },
+    {
+      "center_hz": 156.5,
+      "delta_hz": 5,
+      "low_hz": 154.0,
+      "high_hz": 159.0
+    },
+    {
+      "center_hz": 157.0,
+      "delta_hz": 5,
+      "low_hz": 154.5,
+      "high_hz": 159.5
+    },
+    {
+      "center_hz": 157.5,
+      "delta_hz": 5,
+      "low_hz": 155.0,
+      "high_hz": 160.0
+    },
+    {
+      "center_hz": 158.0,
+      "delta_hz": 5,
+      "low_hz": 155.5,
+      "high_hz": 160.5
+    },
+    {
+      "center_hz": 158.5,
+      "delta_hz": 5,
+      "low_hz": 156.0,
+      "high_hz": 161.0
+    },
+    {
+      "center_hz": 159.0,
+      "delta_hz": 5,
+      "low_hz": 156.5,
+      "high_hz": 161.5
+    },
+    {
+      "center_hz": 159.5,
+      "delta_hz": 5,
+      "low_hz": 157.0,
+      "high_hz": 162.0
+    },
+    {
+      "center_hz": 160.0,
+      "delta_hz": 5,
+      "low_hz": 157.5,
+      "high_hz": 162.5
+    },
+    {
+      "center_hz": 160.5,
+      "delta_hz": 5,
+      "low_hz": 158.0,
+      "high_hz": 163.0
+    },
+    {
+      "center_hz": 161.0,
+      "delta_hz": 5,
+      "low_hz": 158.5,
+      "high_hz": 163.5
+    },
+    {
+      "center_hz": 161.5,
+      "delta_hz": 5,
+      "low_hz": 159.0,
+      "high_hz": 164.0
+    },
+    {
+      "center_hz": 162.0,
+      "delta_hz": 5,
+      "low_hz": 159.5,
+      "high_hz": 164.5
+    },
+    {
+      "center_hz": 162.5,
+      "delta_hz": 5,
+      "low_hz": 160.0,
+      "high_hz": 165.0
+    },
+    {
+      "center_hz": 163.0,
+      "delta_hz": 5,
+      "low_hz": 160.5,
+      "high_hz": 165.5
+    },
+    {
+      "center_hz": 163.5,
+      "delta_hz": 5,
+      "low_hz": 161.0,
+      "high_hz": 166.0
+    },
+    {
+      "center_hz": 164.0,
+      "delta_hz": 5,
+      "low_hz": 161.5,
+      "high_hz": 166.5
+    },
+    {
+      "center_hz": 164.5,
+      "delta_hz": 5,
+      "low_hz": 162.0,
+      "high_hz": 167.0
+    },
+    {
+      "center_hz": 165.0,
+      "delta_hz": 5,
+      "low_hz": 162.5,
+      "high_hz": 167.5
+    },
+    {
+      "center_hz": 165.5,
+      "delta_hz": 5,
+      "low_hz": 163.0,
+      "high_hz": 168.0
+    },
+    {
+      "center_hz": 166.0,
+      "delta_hz": 5,
+      "low_hz": 163.5,
+      "high_hz": 168.5
+    },
+    {
+      "center_hz": 166.5,
+      "delta_hz": 5,
+      "low_hz": 164.0,
+      "high_hz": 169.0
+    },
+    {
+      "center_hz": 167.0,
+      "delta_hz": 5,
+      "low_hz": 164.5,
+      "high_hz": 169.5
+    },
+    {
+      "center_hz": 167.5,
+      "delta_hz": 5,
+      "low_hz": 165.0,
+      "high_hz": 170.0
+    },
+    {
+      "center_hz": 168.0,
+      "delta_hz": 5,
+      "low_hz": 165.5,
+      "high_hz": 170.5
+    },
+    {
+      "center_hz": 168.5,
+      "delta_hz": 5,
+      "low_hz": 166.0,
+      "high_hz": 171.0
+    },
+    {
+      "center_hz": 169.0,
+      "delta_hz": 5,
+      "low_hz": 166.5,
+      "high_hz": 171.5
+    },
+    {
+      "center_hz": 169.5,
+      "delta_hz": 5,
+      "low_hz": 167.0,
+      "high_hz": 172.0
+    },
+    {
+      "center_hz": 170.0,
+      "delta_hz": 5,
+      "low_hz": 167.5,
+      "high_hz": 172.5
+    },
+    {
+      "center_hz": 170.5,
+      "delta_hz": 5,
+      "low_hz": 168.0,
+      "high_hz": 173.0
+    },
+    {
+      "center_hz": 171.0,
+      "delta_hz": 5,
+      "low_hz": 168.5,
+      "high_hz": 173.5
+    },
+    {
+      "center_hz": 171.5,
+      "delta_hz": 5,
+      "low_hz": 169.0,
+      "high_hz": 174.0
+    },
+    {
+      "center_hz": 172.0,
+      "delta_hz": 5,
+      "low_hz": 169.5,
+      "high_hz": 174.5
+    },
+    {
+      "center_hz": 172.5,
+      "delta_hz": 5,
+      "low_hz": 170.0,
+      "high_hz": 175.0
+    },
+    {
+      "center_hz": 173.0,
+      "delta_hz": 5,
+      "low_hz": 170.5,
+      "high_hz": 175.5
+    },
+    {
+      "center_hz": 173.5,
+      "delta_hz": 5,
+      "low_hz": 171.0,
+      "high_hz": 176.0
+    },
+    {
+      "center_hz": 174.0,
+      "delta_hz": 5,
+      "low_hz": 171.5,
+      "high_hz": 176.5
+    },
+    {
+      "center_hz": 174.5,
+      "delta_hz": 5,
+      "low_hz": 172.0,
+      "high_hz": 177.0
+    },
+    {
+      "center_hz": 175.0,
+      "delta_hz": 5,
+      "low_hz": 172.5,
+      "high_hz": 177.5
+    },
+    {
+      "center_hz": 175.5,
+      "delta_hz": 5,
+      "low_hz": 173.0,
+      "high_hz": 178.0
+    },
+    {
+      "center_hz": 176.0,
+      "delta_hz": 5,
+      "low_hz": 173.5,
+      "high_hz": 178.5
+    },
+    {
+      "center_hz": 176.5,
+      "delta_hz": 5,
+      "low_hz": 174.0,
+      "high_hz": 179.0
+    },
+    {
+      "center_hz": 177.0,
+      "delta_hz": 5,
+      "low_hz": 174.5,
+      "high_hz": 179.5
+    },
+    {
+      "center_hz": 177.5,
+      "delta_hz": 5,
+      "low_hz": 175.0,
+      "high_hz": 180.0
+    },
+    {
+      "center_hz": 178.0,
+      "delta_hz": 5,
+      "low_hz": 175.5,
+      "high_hz": 180.5
+    },
+    {
+      "center_hz": 178.5,
+      "delta_hz": 5,
+      "low_hz": 176.0,
+      "high_hz": 181.0
+    },
+    {
+      "center_hz": 179.0,
+      "delta_hz": 5,
+      "low_hz": 176.5,
+      "high_hz": 181.5
+    },
+    {
+      "center_hz": 179.5,
+      "delta_hz": 5,
+      "low_hz": 177.0,
+      "high_hz": 182.0
+    },
+    {
+      "center_hz": 180.0,
+      "delta_hz": 5,
+      "low_hz": 177.5,
+      "high_hz": 182.5
+    },
+    {
+      "center_hz": 180.5,
+      "delta_hz": 5,
+      "low_hz": 178.0,
+      "high_hz": 183.0
+    },
+    {
+      "center_hz": 181.0,
+      "delta_hz": 5,
+      "low_hz": 178.5,
+      "high_hz": 183.5
+    },
+    {
+      "center_hz": 181.5,
+      "delta_hz": 5,
+      "low_hz": 179.0,
+      "high_hz": 184.0
+    },
+    {
+      "center_hz": 182.0,
+      "delta_hz": 5,
+      "low_hz": 179.5,
+      "high_hz": 184.5
+    },
+    {
+      "center_hz": 182.5,
+      "delta_hz": 5,
+      "low_hz": 180.0,
+      "high_hz": 185.0
+    },
+    {
+      "center_hz": 183.0,
+      "delta_hz": 5,
+      "low_hz": 180.5,
+      "high_hz": 185.5
+    },
+    {
+      "center_hz": 183.5,
+      "delta_hz": 5,
+      "low_hz": 181.0,
+      "high_hz": 186.0
+    },
+    {
+      "center_hz": 184.0,
+      "delta_hz": 5,
+      "low_hz": 181.5,
+      "high_hz": 186.5
+    },
+    {
+      "center_hz": 184.5,
+      "delta_hz": 5,
+      "low_hz": 182.0,
+      "high_hz": 187.0
+    },
+    {
+      "center_hz": 185.0,
+      "delta_hz": 5,
+      "low_hz": 182.5,
+      "high_hz": 187.5
+    },
+    {
+      "center_hz": 185.5,
+      "delta_hz": 5,
+      "low_hz": 183.0,
+      "high_hz": 188.0
+    },
+    {
+      "center_hz": 186.0,
+      "delta_hz": 5,
+      "low_hz": 183.5,
+      "high_hz": 188.5
+    },
+    {
+      "center_hz": 186.5,
+      "delta_hz": 5,
+      "low_hz": 184.0,
+      "high_hz": 189.0
+    },
+    {
+      "center_hz": 187.0,
+      "delta_hz": 5,
+      "low_hz": 184.5,
+      "high_hz": 189.5
+    },
+    {
+      "center_hz": 187.5,
+      "delta_hz": 5,
+      "low_hz": 185.0,
+      "high_hz": 190.0
+    },
+    {
+      "center_hz": 188.0,
+      "delta_hz": 5,
+      "low_hz": 185.5,
+      "high_hz": 190.5
+    },
+    {
+      "center_hz": 188.5,
+      "delta_hz": 5,
+      "low_hz": 186.0,
+      "high_hz": 191.0
+    },
+    {
+      "center_hz": 189.0,
+      "delta_hz": 5,
+      "low_hz": 186.5,
+      "high_hz": 191.5
+    },
+    {
+      "center_hz": 189.5,
+      "delta_hz": 5,
+      "low_hz": 187.0,
+      "high_hz": 192.0
+    },
+    {
+      "center_hz": 190.0,
+      "delta_hz": 5,
+      "low_hz": 187.5,
+      "high_hz": 192.5
+    },
+    {
+      "center_hz": 190.5,
+      "delta_hz": 5,
+      "low_hz": 188.0,
+      "high_hz": 193.0
+    },
+    {
+      "center_hz": 191.0,
+      "delta_hz": 5,
+      "low_hz": 188.5,
+      "high_hz": 193.5
+    },
+    {
+      "center_hz": 191.5,
+      "delta_hz": 5,
+      "low_hz": 189.0,
+      "high_hz": 194.0
+    },
+    {
+      "center_hz": 192.0,
+      "delta_hz": 5,
+      "low_hz": 189.5,
+      "high_hz": 194.5
+    },
+    {
+      "center_hz": 192.5,
+      "delta_hz": 5,
+      "low_hz": 190.0,
+      "high_hz": 195.0
+    },
+    {
+      "center_hz": 193.0,
+      "delta_hz": 5,
+      "low_hz": 190.5,
+      "high_hz": 195.5
+    },
+    {
+      "center_hz": 193.5,
+      "delta_hz": 5,
+      "low_hz": 191.0,
+      "high_hz": 196.0
+    },
+    {
+      "center_hz": 194.0,
+      "delta_hz": 5,
+      "low_hz": 191.5,
+      "high_hz": 196.5
+    },
+    {
+      "center_hz": 194.5,
+      "delta_hz": 5,
+      "low_hz": 192.0,
+      "high_hz": 197.0
+    },
+    {
+      "center_hz": 195.0,
+      "delta_hz": 5,
+      "low_hz": 192.5,
+      "high_hz": 197.5
+    },
+    {
+      "center_hz": 195.5,
+      "delta_hz": 5,
+      "low_hz": 193.0,
+      "high_hz": 198.0
+    },
+    {
+      "center_hz": 196.0,
+      "delta_hz": 5,
+      "low_hz": 193.5,
+      "high_hz": 198.5
+    },
+    {
+      "center_hz": 196.5,
+      "delta_hz": 5,
+      "low_hz": 194.0,
+      "high_hz": 199.0
+    },
+    {
+      "center_hz": 197.0,
+      "delta_hz": 5,
+      "low_hz": 194.5,
+      "high_hz": 199.5
+    },
+    {
+      "center_hz": 197.5,
+      "delta_hz": 5,
+      "low_hz": 195.0,
+      "high_hz": 200.0
+    },
+    {
+      "center_hz": 198.0,
+      "delta_hz": 5,
+      "low_hz": 195.5,
+      "high_hz": 200.5
+    },
+    {
+      "center_hz": 198.5,
+      "delta_hz": 5,
+      "low_hz": 196.0,
+      "high_hz": 201.0
+    },
+    {
+      "center_hz": 199.0,
+      "delta_hz": 5,
+      "low_hz": 196.5,
+      "high_hz": 201.5
+    },
+    {
+      "center_hz": 199.5,
+      "delta_hz": 5,
+      "low_hz": 197.0,
+      "high_hz": 202.0
+    },
+    {
+      "center_hz": 200.0,
+      "delta_hz": 5,
+      "low_hz": 197.5,
+      "high_hz": 202.5
+    },
+    {
+      "center_hz": 200.5,
+      "delta_hz": 5,
+      "low_hz": 198.0,
+      "high_hz": 203.0
+    },
+    {
+      "center_hz": 201.0,
+      "delta_hz": 5,
+      "low_hz": 198.5,
+      "high_hz": 203.5
+    },
+    {
+      "center_hz": 201.5,
+      "delta_hz": 5,
+      "low_hz": 199.0,
+      "high_hz": 204.0
+    },
+    {
+      "center_hz": 202.0,
+      "delta_hz": 5,
+      "low_hz": 199.5,
+      "high_hz": 204.5
+    },
+    {
+      "center_hz": 202.5,
+      "delta_hz": 5,
+      "low_hz": 200.0,
+      "high_hz": 205.0
+    },
+    {
+      "center_hz": 203.0,
+      "delta_hz": 5,
+      "low_hz": 200.5,
+      "high_hz": 205.5
+    },
+    {
+      "center_hz": 203.5,
+      "delta_hz": 5,
+      "low_hz": 201.0,
+      "high_hz": 206.0
+    },
+    {
+      "center_hz": 204.0,
+      "delta_hz": 5,
+      "low_hz": 201.5,
+      "high_hz": 206.5
+    },
+    {
+      "center_hz": 204.5,
+      "delta_hz": 5,
+      "low_hz": 202.0,
+      "high_hz": 207.0
+    },
+    {
+      "center_hz": 205.0,
+      "delta_hz": 5,
+      "low_hz": 202.5,
+      "high_hz": 207.5
+    },
+    {
+      "center_hz": 205.5,
+      "delta_hz": 5,
+      "low_hz": 203.0,
+      "high_hz": 208.0
+    },
+    {
+      "center_hz": 206.0,
+      "delta_hz": 5,
+      "low_hz": 203.5,
+      "high_hz": 208.5
+    },
+    {
+      "center_hz": 206.5,
+      "delta_hz": 5,
+      "low_hz": 204.0,
+      "high_hz": 209.0
+    },
+    {
+      "center_hz": 207.0,
+      "delta_hz": 5,
+      "low_hz": 204.5,
+      "high_hz": 209.5
+    },
+    {
+      "center_hz": 207.5,
+      "delta_hz": 5,
+      "low_hz": 205.0,
+      "high_hz": 210.0
+    },
+    {
+      "center_hz": 208.0,
+      "delta_hz": 5,
+      "low_hz": 205.5,
+      "high_hz": 210.5
+    },
+    {
+      "center_hz": 208.5,
+      "delta_hz": 5,
+      "low_hz": 206.0,
+      "high_hz": 211.0
+    },
+    {
+      "center_hz": 209.0,
+      "delta_hz": 5,
+      "low_hz": 206.5,
+      "high_hz": 211.5
+    },
+    {
+      "center_hz": 209.5,
+      "delta_hz": 5,
+      "low_hz": 207.0,
+      "high_hz": 212.0
+    },
+    {
+      "center_hz": 210.0,
+      "delta_hz": 5,
+      "low_hz": 207.5,
+      "high_hz": 212.5
+    },
+    {
+      "center_hz": 210.5,
+      "delta_hz": 5,
+      "low_hz": 208.0,
+      "high_hz": 213.0
+    },
+    {
+      "center_hz": 211.0,
+      "delta_hz": 5,
+      "low_hz": 208.5,
+      "high_hz": 213.5
+    },
+    {
+      "center_hz": 211.5,
+      "delta_hz": 5,
+      "low_hz": 209.0,
+      "high_hz": 214.0
+    },
+    {
+      "center_hz": 212.0,
+      "delta_hz": 5,
+      "low_hz": 209.5,
+      "high_hz": 214.5
+    },
+    {
+      "center_hz": 212.5,
+      "delta_hz": 5,
+      "low_hz": 210.0,
+      "high_hz": 215.0
+    },
+    {
+      "center_hz": 213.0,
+      "delta_hz": 5,
+      "low_hz": 210.5,
+      "high_hz": 215.5
+    },
+    {
+      "center_hz": 213.5,
+      "delta_hz": 5,
+      "low_hz": 211.0,
+      "high_hz": 216.0
+    },
+    {
+      "center_hz": 214.0,
+      "delta_hz": 5,
+      "low_hz": 211.5,
+      "high_hz": 216.5
+    },
+    {
+      "center_hz": 214.5,
+      "delta_hz": 5,
+      "low_hz": 212.0,
+      "high_hz": 217.0
+    },
+    {
+      "center_hz": 215.0,
+      "delta_hz": 5,
+      "low_hz": 212.5,
+      "high_hz": 217.5
+    },
+    {
+      "center_hz": 215.5,
+      "delta_hz": 5,
+      "low_hz": 213.0,
+      "high_hz": 218.0
+    },
+    {
+      "center_hz": 216.0,
+      "delta_hz": 5,
+      "low_hz": 213.5,
+      "high_hz": 218.5
+    },
+    {
+      "center_hz": 216.5,
+      "delta_hz": 5,
+      "low_hz": 214.0,
+      "high_hz": 219.0
+    },
+    {
+      "center_hz": 217.0,
+      "delta_hz": 5,
+      "low_hz": 214.5,
+      "high_hz": 219.5
+    },
+    {
+      "center_hz": 217.5,
+      "delta_hz": 5,
+      "low_hz": 215.0,
+      "high_hz": 220.0
+    },
+    {
+      "center_hz": 218.0,
+      "delta_hz": 5,
+      "low_hz": 215.5,
+      "high_hz": 220.5
+    },
+    {
+      "center_hz": 218.5,
+      "delta_hz": 5,
+      "low_hz": 216.0,
+      "high_hz": 221.0
+    },
+    {
+      "center_hz": 219.0,
+      "delta_hz": 5,
+      "low_hz": 216.5,
+      "high_hz": 221.5
+    },
+    {
+      "center_hz": 219.5,
+      "delta_hz": 5,
+      "low_hz": 217.0,
+      "high_hz": 222.0
+    },
+    {
+      "center_hz": 220.0,
+      "delta_hz": 5,
+      "low_hz": 217.5,
+      "high_hz": 222.5
+    },
+    {
+      "center_hz": 220.5,
+      "delta_hz": 5,
+      "low_hz": 218.0,
+      "high_hz": 223.0
+    },
+    {
+      "center_hz": 221.0,
+      "delta_hz": 5,
+      "low_hz": 218.5,
+      "high_hz": 223.5
+    },
+    {
+      "center_hz": 221.5,
+      "delta_hz": 5,
+      "low_hz": 219.0,
+      "high_hz": 224.0
+    },
+    {
+      "center_hz": 222.0,
+      "delta_hz": 5,
+      "low_hz": 219.5,
+      "high_hz": 224.5
+    },
+    {
+      "center_hz": 222.5,
+      "delta_hz": 5,
+      "low_hz": 220.0,
+      "high_hz": 225.0
+    },
+    {
+      "center_hz": 223.0,
+      "delta_hz": 5,
+      "low_hz": 220.5,
+      "high_hz": 225.5
+    },
+    {
+      "center_hz": 223.5,
+      "delta_hz": 5,
+      "low_hz": 221.0,
+      "high_hz": 226.0
+    },
+    {
+      "center_hz": 224.0,
+      "delta_hz": 5,
+      "low_hz": 221.5,
+      "high_hz": 226.5
+    },
+    {
+      "center_hz": 224.5,
+      "delta_hz": 5,
+      "low_hz": 222.0,
+      "high_hz": 227.0
+    },
+    {
+      "center_hz": 225.0,
+      "delta_hz": 5,
+      "low_hz": 222.5,
+      "high_hz": 227.5
+    },
+    {
+      "center_hz": 225.5,
+      "delta_hz": 5,
+      "low_hz": 223.0,
+      "high_hz": 228.0
+    },
+    {
+      "center_hz": 226.0,
+      "delta_hz": 5,
+      "low_hz": 223.5,
+      "high_hz": 228.5
+    },
+    {
+      "center_hz": 226.5,
+      "delta_hz": 5,
+      "low_hz": 224.0,
+      "high_hz": 229.0
+    },
+    {
+      "center_hz": 227.0,
+      "delta_hz": 5,
+      "low_hz": 224.5,
+      "high_hz": 229.5
+    },
+    {
+      "center_hz": 227.5,
+      "delta_hz": 5,
+      "low_hz": 225.0,
+      "high_hz": 230.0
+    },
+    {
+      "center_hz": 228.0,
+      "delta_hz": 5,
+      "low_hz": 225.5,
+      "high_hz": 230.5
+    },
+    {
+      "center_hz": 228.5,
+      "delta_hz": 5,
+      "low_hz": 226.0,
+      "high_hz": 231.0
+    },
+    {
+      "center_hz": 229.0,
+      "delta_hz": 5,
+      "low_hz": 226.5,
+      "high_hz": 231.5
+    },
+    {
+      "center_hz": 229.5,
+      "delta_hz": 5,
+      "low_hz": 227.0,
+      "high_hz": 232.0
+    },
+    {
+      "center_hz": 230.0,
+      "delta_hz": 5,
+      "low_hz": 227.5,
+      "high_hz": 232.5
+    },
+    {
+      "center_hz": 230.5,
+      "delta_hz": 5,
+      "low_hz": 228.0,
+      "high_hz": 233.0
+    },
+    {
+      "center_hz": 231.0,
+      "delta_hz": 5,
+      "low_hz": 228.5,
+      "high_hz": 233.5
+    },
+    {
+      "center_hz": 231.5,
+      "delta_hz": 5,
+      "low_hz": 229.0,
+      "high_hz": 234.0
+    },
+    {
+      "center_hz": 232.0,
+      "delta_hz": 5,
+      "low_hz": 229.5,
+      "high_hz": 234.5
+    },
+    {
+      "center_hz": 232.5,
+      "delta_hz": 5,
+      "low_hz": 230.0,
+      "high_hz": 235.0
+    },
+    {
+      "center_hz": 233.0,
+      "delta_hz": 5,
+      "low_hz": 230.5,
+      "high_hz": 235.5
+    },
+    {
+      "center_hz": 233.5,
+      "delta_hz": 5,
+      "low_hz": 231.0,
+      "high_hz": 236.0
+    },
+    {
+      "center_hz": 234.0,
+      "delta_hz": 5,
+      "low_hz": 231.5,
+      "high_hz": 236.5
+    },
+    {
+      "center_hz": 234.5,
+      "delta_hz": 5,
+      "low_hz": 232.0,
+      "high_hz": 237.0
+    },
+    {
+      "center_hz": 235.0,
+      "delta_hz": 5,
+      "low_hz": 232.5,
+      "high_hz": 237.5
+    },
+    {
+      "center_hz": 235.5,
+      "delta_hz": 5,
+      "low_hz": 233.0,
+      "high_hz": 238.0
+    },
+    {
+      "center_hz": 236.0,
+      "delta_hz": 5,
+      "low_hz": 233.5,
+      "high_hz": 238.5
+    },
+    {
+      "center_hz": 236.5,
+      "delta_hz": 5,
+      "low_hz": 234.0,
+      "high_hz": 239.0
+    },
+    {
+      "center_hz": 237.0,
+      "delta_hz": 5,
+      "low_hz": 234.5,
+      "high_hz": 239.5
+    },
+    {
+      "center_hz": 237.5,
+      "delta_hz": 5,
+      "low_hz": 235.0,
+      "high_hz": 240.0
+    },
+    {
+      "center_hz": 238.0,
+      "delta_hz": 5,
+      "low_hz": 235.5,
+      "high_hz": 240.5
+    },
+    {
+      "center_hz": 238.5,
+      "delta_hz": 5,
+      "low_hz": 236.0,
+      "high_hz": 241.0
+    },
+    {
+      "center_hz": 239.0,
+      "delta_hz": 5,
+      "low_hz": 236.5,
+      "high_hz": 241.5
+    },
+    {
+      "center_hz": 239.5,
+      "delta_hz": 5,
+      "low_hz": 237.0,
+      "high_hz": 242.0
+    },
+    {
+      "center_hz": 240.0,
+      "delta_hz": 5,
+      "low_hz": 237.5,
+      "high_hz": 242.5
+    },
+    {
+      "center_hz": 240.5,
+      "delta_hz": 5,
+      "low_hz": 238.0,
+      "high_hz": 243.0
+    },
+    {
+      "center_hz": 241.0,
+      "delta_hz": 5,
+      "low_hz": 238.5,
+      "high_hz": 243.5
+    },
+    {
+      "center_hz": 241.5,
+      "delta_hz": 5,
+      "low_hz": 239.0,
+      "high_hz": 244.0
+    },
+    {
+      "center_hz": 242.0,
+      "delta_hz": 5,
+      "low_hz": 239.5,
+      "high_hz": 244.5
+    },
+    {
+      "center_hz": 242.5,
+      "delta_hz": 5,
+      "low_hz": 240.0,
+      "high_hz": 245.0
+    },
+    {
+      "center_hz": 243.0,
+      "delta_hz": 5,
+      "low_hz": 240.5,
+      "high_hz": 245.5
+    },
+    {
+      "center_hz": 243.5,
+      "delta_hz": 5,
+      "low_hz": 241.0,
+      "high_hz": 246.0
+    },
+    {
+      "center_hz": 244.0,
+      "delta_hz": 5,
+      "low_hz": 241.5,
+      "high_hz": 246.5
+    },
+    {
+      "center_hz": 244.5,
+      "delta_hz": 5,
+      "low_hz": 242.0,
+      "high_hz": 247.0
+    },
+    {
+      "center_hz": 245.0,
+      "delta_hz": 5,
+      "low_hz": 242.5,
+      "high_hz": 247.5
+    },
+    {
+      "center_hz": 245.5,
+      "delta_hz": 5,
+      "low_hz": 243.0,
+      "high_hz": 248.0
+    },
+    {
+      "center_hz": 246.0,
+      "delta_hz": 5,
+      "low_hz": 243.5,
+      "high_hz": 248.5
+    },
+    {
+      "center_hz": 246.5,
+      "delta_hz": 5,
+      "low_hz": 244.0,
+      "high_hz": 249.0
+    },
+    {
+      "center_hz": 247.0,
+      "delta_hz": 5,
+      "low_hz": 244.5,
+      "high_hz": 249.5
+    },
+    {
+      "center_hz": 247.5,
+      "delta_hz": 5,
+      "low_hz": 245.0,
+      "high_hz": 250.0
+    },
+    {
+      "center_hz": 155.0,
+      "delta_hz": 10,
+      "low_hz": 150.0,
+      "high_hz": 160.0
+    },
+    {
+      "center_hz": 155.5,
+      "delta_hz": 10,
+      "low_hz": 150.5,
+      "high_hz": 160.5
+    },
+    {
+      "center_hz": 156.0,
+      "delta_hz": 10,
+      "low_hz": 151.0,
+      "high_hz": 161.0
+    },
+    {
+      "center_hz": 156.5,
+      "delta_hz": 10,
+      "low_hz": 151.5,
+      "high_hz": 161.5
+    },
+    {
+      "center_hz": 157.0,
+      "delta_hz": 10,
+      "low_hz": 152.0,
+      "high_hz": 162.0
+    },
+    {
+      "center_hz": 157.5,
+      "delta_hz": 10,
+      "low_hz": 152.5,
+      "high_hz": 162.5
+    },
+    {
+      "center_hz": 158.0,
+      "delta_hz": 10,
+      "low_hz": 153.0,
+      "high_hz": 163.0
+    },
+    {
+      "center_hz": 158.5,
+      "delta_hz": 10,
+      "low_hz": 153.5,
+      "high_hz": 163.5
+    },
+    {
+      "center_hz": 159.0,
+      "delta_hz": 10,
+      "low_hz": 154.0,
+      "high_hz": 164.0
+    },
+    {
+      "center_hz": 159.5,
+      "delta_hz": 10,
+      "low_hz": 154.5,
+      "high_hz": 164.5
+    },
+    {
+      "center_hz": 160.0,
+      "delta_hz": 10,
+      "low_hz": 155.0,
+      "high_hz": 165.0
+    },
+    {
+      "center_hz": 160.5,
+      "delta_hz": 10,
+      "low_hz": 155.5,
+      "high_hz": 165.5
+    },
+    {
+      "center_hz": 161.0,
+      "delta_hz": 10,
+      "low_hz": 156.0,
+      "high_hz": 166.0
+    },
+    {
+      "center_hz": 161.5,
+      "delta_hz": 10,
+      "low_hz": 156.5,
+      "high_hz": 166.5
+    },
+    {
+      "center_hz": 162.0,
+      "delta_hz": 10,
+      "low_hz": 157.0,
+      "high_hz": 167.0
+    },
+    {
+      "center_hz": 162.5,
+      "delta_hz": 10,
+      "low_hz": 157.5,
+      "high_hz": 167.5
+    },
+    {
+      "center_hz": 163.0,
+      "delta_hz": 10,
+      "low_hz": 158.0,
+      "high_hz": 168.0
+    },
+    {
+      "center_hz": 163.5,
+      "delta_hz": 10,
+      "low_hz": 158.5,
+      "high_hz": 168.5
+    },
+    {
+      "center_hz": 164.0,
+      "delta_hz": 10,
+      "low_hz": 159.0,
+      "high_hz": 169.0
+    },
+    {
+      "center_hz": 164.5,
+      "delta_hz": 10,
+      "low_hz": 159.5,
+      "high_hz": 169.5
+    },
+    {
+      "center_hz": 165.0,
+      "delta_hz": 10,
+      "low_hz": 160.0,
+      "high_hz": 170.0
+    },
+    {
+      "center_hz": 165.5,
+      "delta_hz": 10,
+      "low_hz": 160.5,
+      "high_hz": 170.5
+    },
+    {
+      "center_hz": 166.0,
+      "delta_hz": 10,
+      "low_hz": 161.0,
+      "high_hz": 171.0
+    },
+    {
+      "center_hz": 166.5,
+      "delta_hz": 10,
+      "low_hz": 161.5,
+      "high_hz": 171.5
+    },
+    {
+      "center_hz": 167.0,
+      "delta_hz": 10,
+      "low_hz": 162.0,
+      "high_hz": 172.0
+    },
+    {
+      "center_hz": 167.5,
+      "delta_hz": 10,
+      "low_hz": 162.5,
+      "high_hz": 172.5
+    },
+    {
+      "center_hz": 168.0,
+      "delta_hz": 10,
+      "low_hz": 163.0,
+      "high_hz": 173.0
+    },
+    {
+      "center_hz": 168.5,
+      "delta_hz": 10,
+      "low_hz": 163.5,
+      "high_hz": 173.5
+    },
+    {
+      "center_hz": 169.0,
+      "delta_hz": 10,
+      "low_hz": 164.0,
+      "high_hz": 174.0
+    },
+    {
+      "center_hz": 169.5,
+      "delta_hz": 10,
+      "low_hz": 164.5,
+      "high_hz": 174.5
+    },
+    {
+      "center_hz": 170.0,
+      "delta_hz": 10,
+      "low_hz": 165.0,
+      "high_hz": 175.0
+    },
+    {
+      "center_hz": 170.5,
+      "delta_hz": 10,
+      "low_hz": 165.5,
+      "high_hz": 175.5
+    },
+    {
+      "center_hz": 171.0,
+      "delta_hz": 10,
+      "low_hz": 166.0,
+      "high_hz": 176.0
+    },
+    {
+      "center_hz": 171.5,
+      "delta_hz": 10,
+      "low_hz": 166.5,
+      "high_hz": 176.5
+    },
+    {
+      "center_hz": 172.0,
+      "delta_hz": 10,
+      "low_hz": 167.0,
+      "high_hz": 177.0
+    },
+    {
+      "center_hz": 172.5,
+      "delta_hz": 10,
+      "low_hz": 167.5,
+      "high_hz": 177.5
+    },
+    {
+      "center_hz": 173.0,
+      "delta_hz": 10,
+      "low_hz": 168.0,
+      "high_hz": 178.0
+    },
+    {
+      "center_hz": 173.5,
+      "delta_hz": 10,
+      "low_hz": 168.5,
+      "high_hz": 178.5
+    },
+    {
+      "center_hz": 174.0,
+      "delta_hz": 10,
+      "low_hz": 169.0,
+      "high_hz": 179.0
+    },
+    {
+      "center_hz": 174.5,
+      "delta_hz": 10,
+      "low_hz": 169.5,
+      "high_hz": 179.5
+    },
+    {
+      "center_hz": 175.0,
+      "delta_hz": 10,
+      "low_hz": 170.0,
+      "high_hz": 180.0
+    },
+    {
+      "center_hz": 175.5,
+      "delta_hz": 10,
+      "low_hz": 170.5,
+      "high_hz": 180.5
+    },
+    {
+      "center_hz": 176.0,
+      "delta_hz": 10,
+      "low_hz": 171.0,
+      "high_hz": 181.0
+    },
+    {
+      "center_hz": 176.5,
+      "delta_hz": 10,
+      "low_hz": 171.5,
+      "high_hz": 181.5
+    },
+    {
+      "center_hz": 177.0,
+      "delta_hz": 10,
+      "low_hz": 172.0,
+      "high_hz": 182.0
+    },
+    {
+      "center_hz": 177.5,
+      "delta_hz": 10,
+      "low_hz": 172.5,
+      "high_hz": 182.5
+    },
+    {
+      "center_hz": 178.0,
+      "delta_hz": 10,
+      "low_hz": 173.0,
+      "high_hz": 183.0
+    },
+    {
+      "center_hz": 178.5,
+      "delta_hz": 10,
+      "low_hz": 173.5,
+      "high_hz": 183.5
+    },
+    {
+      "center_hz": 179.0,
+      "delta_hz": 10,
+      "low_hz": 174.0,
+      "high_hz": 184.0
+    },
+    {
+      "center_hz": 179.5,
+      "delta_hz": 10,
+      "low_hz": 174.5,
+      "high_hz": 184.5
+    },
+    {
+      "center_hz": 180.0,
+      "delta_hz": 10,
+      "low_hz": 175.0,
+      "high_hz": 185.0
+    },
+    {
+      "center_hz": 180.5,
+      "delta_hz": 10,
+      "low_hz": 175.5,
+      "high_hz": 185.5
+    },
+    {
+      "center_hz": 181.0,
+      "delta_hz": 10,
+      "low_hz": 176.0,
+      "high_hz": 186.0
+    },
+    {
+      "center_hz": 181.5,
+      "delta_hz": 10,
+      "low_hz": 176.5,
+      "high_hz": 186.5
+    },
+    {
+      "center_hz": 182.0,
+      "delta_hz": 10,
+      "low_hz": 177.0,
+      "high_hz": 187.0
+    },
+    {
+      "center_hz": 182.5,
+      "delta_hz": 10,
+      "low_hz": 177.5,
+      "high_hz": 187.5
+    },
+    {
+      "center_hz": 183.0,
+      "delta_hz": 10,
+      "low_hz": 178.0,
+      "high_hz": 188.0
+    },
+    {
+      "center_hz": 183.5,
+      "delta_hz": 10,
+      "low_hz": 178.5,
+      "high_hz": 188.5
+    },
+    {
+      "center_hz": 184.0,
+      "delta_hz": 10,
+      "low_hz": 179.0,
+      "high_hz": 189.0
+    },
+    {
+      "center_hz": 184.5,
+      "delta_hz": 10,
+      "low_hz": 179.5,
+      "high_hz": 189.5
+    },
+    {
+      "center_hz": 185.0,
+      "delta_hz": 10,
+      "low_hz": 180.0,
+      "high_hz": 190.0
+    },
+    {
+      "center_hz": 185.5,
+      "delta_hz": 10,
+      "low_hz": 180.5,
+      "high_hz": 190.5
+    },
+    {
+      "center_hz": 186.0,
+      "delta_hz": 10,
+      "low_hz": 181.0,
+      "high_hz": 191.0
+    },
+    {
+      "center_hz": 186.5,
+      "delta_hz": 10,
+      "low_hz": 181.5,
+      "high_hz": 191.5
+    },
+    {
+      "center_hz": 187.0,
+      "delta_hz": 10,
+      "low_hz": 182.0,
+      "high_hz": 192.0
+    },
+    {
+      "center_hz": 187.5,
+      "delta_hz": 10,
+      "low_hz": 182.5,
+      "high_hz": 192.5
+    },
+    {
+      "center_hz": 188.0,
+      "delta_hz": 10,
+      "low_hz": 183.0,
+      "high_hz": 193.0
+    },
+    {
+      "center_hz": 188.5,
+      "delta_hz": 10,
+      "low_hz": 183.5,
+      "high_hz": 193.5
+    },
+    {
+      "center_hz": 189.0,
+      "delta_hz": 10,
+      "low_hz": 184.0,
+      "high_hz": 194.0
+    },
+    {
+      "center_hz": 189.5,
+      "delta_hz": 10,
+      "low_hz": 184.5,
+      "high_hz": 194.5
+    },
+    {
+      "center_hz": 190.0,
+      "delta_hz": 10,
+      "low_hz": 185.0,
+      "high_hz": 195.0
+    },
+    {
+      "center_hz": 190.5,
+      "delta_hz": 10,
+      "low_hz": 185.5,
+      "high_hz": 195.5
+    },
+    {
+      "center_hz": 191.0,
+      "delta_hz": 10,
+      "low_hz": 186.0,
+      "high_hz": 196.0
+    },
+    {
+      "center_hz": 191.5,
+      "delta_hz": 10,
+      "low_hz": 186.5,
+      "high_hz": 196.5
+    },
+    {
+      "center_hz": 192.0,
+      "delta_hz": 10,
+      "low_hz": 187.0,
+      "high_hz": 197.0
+    },
+    {
+      "center_hz": 192.5,
+      "delta_hz": 10,
+      "low_hz": 187.5,
+      "high_hz": 197.5
+    },
+    {
+      "center_hz": 193.0,
+      "delta_hz": 10,
+      "low_hz": 188.0,
+      "high_hz": 198.0
+    },
+    {
+      "center_hz": 193.5,
+      "delta_hz": 10,
+      "low_hz": 188.5,
+      "high_hz": 198.5
+    },
+    {
+      "center_hz": 194.0,
+      "delta_hz": 10,
+      "low_hz": 189.0,
+      "high_hz": 199.0
+    },
+    {
+      "center_hz": 194.5,
+      "delta_hz": 10,
+      "low_hz": 189.5,
+      "high_hz": 199.5
+    },
+    {
+      "center_hz": 195.0,
+      "delta_hz": 10,
+      "low_hz": 190.0,
+      "high_hz": 200.0
+    },
+    {
+      "center_hz": 195.5,
+      "delta_hz": 10,
+      "low_hz": 190.5,
+      "high_hz": 200.5
+    },
+    {
+      "center_hz": 196.0,
+      "delta_hz": 10,
+      "low_hz": 191.0,
+      "high_hz": 201.0
+    },
+    {
+      "center_hz": 196.5,
+      "delta_hz": 10,
+      "low_hz": 191.5,
+      "high_hz": 201.5
+    },
+    {
+      "center_hz": 197.0,
+      "delta_hz": 10,
+      "low_hz": 192.0,
+      "high_hz": 202.0
+    },
+    {
+      "center_hz": 197.5,
+      "delta_hz": 10,
+      "low_hz": 192.5,
+      "high_hz": 202.5
+    },
+    {
+      "center_hz": 198.0,
+      "delta_hz": 10,
+      "low_hz": 193.0,
+      "high_hz": 203.0
+    },
+    {
+      "center_hz": 198.5,
+      "delta_hz": 10,
+      "low_hz": 193.5,
+      "high_hz": 203.5
+    },
+    {
+      "center_hz": 199.0,
+      "delta_hz": 10,
+      "low_hz": 194.0,
+      "high_hz": 204.0
+    },
+    {
+      "center_hz": 199.5,
+      "delta_hz": 10,
+      "low_hz": 194.5,
+      "high_hz": 204.5
+    },
+    {
+      "center_hz": 200.0,
+      "delta_hz": 10,
+      "low_hz": 195.0,
+      "high_hz": 205.0
+    },
+    {
+      "center_hz": 200.5,
+      "delta_hz": 10,
+      "low_hz": 195.5,
+      "high_hz": 205.5
+    },
+    {
+      "center_hz": 201.0,
+      "delta_hz": 10,
+      "low_hz": 196.0,
+      "high_hz": 206.0
+    },
+    {
+      "center_hz": 201.5,
+      "delta_hz": 10,
+      "low_hz": 196.5,
+      "high_hz": 206.5
+    },
+    {
+      "center_hz": 202.0,
+      "delta_hz": 10,
+      "low_hz": 197.0,
+      "high_hz": 207.0
+    },
+    {
+      "center_hz": 202.5,
+      "delta_hz": 10,
+      "low_hz": 197.5,
+      "high_hz": 207.5
+    },
+    {
+      "center_hz": 203.0,
+      "delta_hz": 10,
+      "low_hz": 198.0,
+      "high_hz": 208.0
+    },
+    {
+      "center_hz": 203.5,
+      "delta_hz": 10,
+      "low_hz": 198.5,
+      "high_hz": 208.5
+    },
+    {
+      "center_hz": 204.0,
+      "delta_hz": 10,
+      "low_hz": 199.0,
+      "high_hz": 209.0
+    },
+    {
+      "center_hz": 204.5,
+      "delta_hz": 10,
+      "low_hz": 199.5,
+      "high_hz": 209.5
+    },
+    {
+      "center_hz": 205.0,
+      "delta_hz": 10,
+      "low_hz": 200.0,
+      "high_hz": 210.0
+    },
+    {
+      "center_hz": 205.5,
+      "delta_hz": 10,
+      "low_hz": 200.5,
+      "high_hz": 210.5
+    },
+    {
+      "center_hz": 206.0,
+      "delta_hz": 10,
+      "low_hz": 201.0,
+      "high_hz": 211.0
+    },
+    {
+      "center_hz": 206.5,
+      "delta_hz": 10,
+      "low_hz": 201.5,
+      "high_hz": 211.5
+    },
+    {
+      "center_hz": 207.0,
+      "delta_hz": 10,
+      "low_hz": 202.0,
+      "high_hz": 212.0
+    },
+    {
+      "center_hz": 207.5,
+      "delta_hz": 10,
+      "low_hz": 202.5,
+      "high_hz": 212.5
+    },
+    {
+      "center_hz": 208.0,
+      "delta_hz": 10,
+      "low_hz": 203.0,
+      "high_hz": 213.0
+    },
+    {
+      "center_hz": 208.5,
+      "delta_hz": 10,
+      "low_hz": 203.5,
+      "high_hz": 213.5
+    },
+    {
+      "center_hz": 209.0,
+      "delta_hz": 10,
+      "low_hz": 204.0,
+      "high_hz": 214.0
+    },
+    {
+      "center_hz": 209.5,
+      "delta_hz": 10,
+      "low_hz": 204.5,
+      "high_hz": 214.5
+    },
+    {
+      "center_hz": 210.0,
+      "delta_hz": 10,
+      "low_hz": 205.0,
+      "high_hz": 215.0
+    },
+    {
+      "center_hz": 210.5,
+      "delta_hz": 10,
+      "low_hz": 205.5,
+      "high_hz": 215.5
+    },
+    {
+      "center_hz": 211.0,
+      "delta_hz": 10,
+      "low_hz": 206.0,
+      "high_hz": 216.0
+    },
+    {
+      "center_hz": 211.5,
+      "delta_hz": 10,
+      "low_hz": 206.5,
+      "high_hz": 216.5
+    },
+    {
+      "center_hz": 212.0,
+      "delta_hz": 10,
+      "low_hz": 207.0,
+      "high_hz": 217.0
+    },
+    {
+      "center_hz": 212.5,
+      "delta_hz": 10,
+      "low_hz": 207.5,
+      "high_hz": 217.5
+    },
+    {
+      "center_hz": 213.0,
+      "delta_hz": 10,
+      "low_hz": 208.0,
+      "high_hz": 218.0
+    },
+    {
+      "center_hz": 213.5,
+      "delta_hz": 10,
+      "low_hz": 208.5,
+      "high_hz": 218.5
+    },
+    {
+      "center_hz": 214.0,
+      "delta_hz": 10,
+      "low_hz": 209.0,
+      "high_hz": 219.0
+    },
+    {
+      "center_hz": 214.5,
+      "delta_hz": 10,
+      "low_hz": 209.5,
+      "high_hz": 219.5
+    },
+    {
+      "center_hz": 215.0,
+      "delta_hz": 10,
+      "low_hz": 210.0,
+      "high_hz": 220.0
+    },
+    {
+      "center_hz": 215.5,
+      "delta_hz": 10,
+      "low_hz": 210.5,
+      "high_hz": 220.5
+    },
+    {
+      "center_hz": 216.0,
+      "delta_hz": 10,
+      "low_hz": 211.0,
+      "high_hz": 221.0
+    },
+    {
+      "center_hz": 216.5,
+      "delta_hz": 10,
+      "low_hz": 211.5,
+      "high_hz": 221.5
+    },
+    {
+      "center_hz": 217.0,
+      "delta_hz": 10,
+      "low_hz": 212.0,
+      "high_hz": 222.0
+    },
+    {
+      "center_hz": 217.5,
+      "delta_hz": 10,
+      "low_hz": 212.5,
+      "high_hz": 222.5
+    },
+    {
+      "center_hz": 218.0,
+      "delta_hz": 10,
+      "low_hz": 213.0,
+      "high_hz": 223.0
+    },
+    {
+      "center_hz": 218.5,
+      "delta_hz": 10,
+      "low_hz": 213.5,
+      "high_hz": 223.5
+    },
+    {
+      "center_hz": 219.0,
+      "delta_hz": 10,
+      "low_hz": 214.0,
+      "high_hz": 224.0
+    },
+    {
+      "center_hz": 219.5,
+      "delta_hz": 10,
+      "low_hz": 214.5,
+      "high_hz": 224.5
+    },
+    {
+      "center_hz": 220.0,
+      "delta_hz": 10,
+      "low_hz": 215.0,
+      "high_hz": 225.0
+    },
+    {
+      "center_hz": 220.5,
+      "delta_hz": 10,
+      "low_hz": 215.5,
+      "high_hz": 225.5
+    },
+    {
+      "center_hz": 221.0,
+      "delta_hz": 10,
+      "low_hz": 216.0,
+      "high_hz": 226.0
+    },
+    {
+      "center_hz": 221.5,
+      "delta_hz": 10,
+      "low_hz": 216.5,
+      "high_hz": 226.5
+    },
+    {
+      "center_hz": 222.0,
+      "delta_hz": 10,
+      "low_hz": 217.0,
+      "high_hz": 227.0
+    },
+    {
+      "center_hz": 222.5,
+      "delta_hz": 10,
+      "low_hz": 217.5,
+      "high_hz": 227.5
+    },
+    {
+      "center_hz": 223.0,
+      "delta_hz": 10,
+      "low_hz": 218.0,
+      "high_hz": 228.0
+    },
+    {
+      "center_hz": 223.5,
+      "delta_hz": 10,
+      "low_hz": 218.5,
+      "high_hz": 228.5
+    },
+    {
+      "center_hz": 224.0,
+      "delta_hz": 10,
+      "low_hz": 219.0,
+      "high_hz": 229.0
+    },
+    {
+      "center_hz": 224.5,
+      "delta_hz": 10,
+      "low_hz": 219.5,
+      "high_hz": 229.5
+    },
+    {
+      "center_hz": 225.0,
+      "delta_hz": 10,
+      "low_hz": 220.0,
+      "high_hz": 230.0
+    },
+    {
+      "center_hz": 225.5,
+      "delta_hz": 10,
+      "low_hz": 220.5,
+      "high_hz": 230.5
+    },
+    {
+      "center_hz": 226.0,
+      "delta_hz": 10,
+      "low_hz": 221.0,
+      "high_hz": 231.0
+    },
+    {
+      "center_hz": 226.5,
+      "delta_hz": 10,
+      "low_hz": 221.5,
+      "high_hz": 231.5
+    },
+    {
+      "center_hz": 227.0,
+      "delta_hz": 10,
+      "low_hz": 222.0,
+      "high_hz": 232.0
+    },
+    {
+      "center_hz": 227.5,
+      "delta_hz": 10,
+      "low_hz": 222.5,
+      "high_hz": 232.5
+    },
+    {
+      "center_hz": 228.0,
+      "delta_hz": 10,
+      "low_hz": 223.0,
+      "high_hz": 233.0
+    },
+    {
+      "center_hz": 228.5,
+      "delta_hz": 10,
+      "low_hz": 223.5,
+      "high_hz": 233.5
+    },
+    {
+      "center_hz": 229.0,
+      "delta_hz": 10,
+      "low_hz": 224.0,
+      "high_hz": 234.0
+    },
+    {
+      "center_hz": 229.5,
+      "delta_hz": 10,
+      "low_hz": 224.5,
+      "high_hz": 234.5
+    },
+    {
+      "center_hz": 230.0,
+      "delta_hz": 10,
+      "low_hz": 225.0,
+      "high_hz": 235.0
+    },
+    {
+      "center_hz": 230.5,
+      "delta_hz": 10,
+      "low_hz": 225.5,
+      "high_hz": 235.5
+    },
+    {
+      "center_hz": 231.0,
+      "delta_hz": 10,
+      "low_hz": 226.0,
+      "high_hz": 236.0
+    },
+    {
+      "center_hz": 231.5,
+      "delta_hz": 10,
+      "low_hz": 226.5,
+      "high_hz": 236.5
+    },
+    {
+      "center_hz": 232.0,
+      "delta_hz": 10,
+      "low_hz": 227.0,
+      "high_hz": 237.0
+    },
+    {
+      "center_hz": 232.5,
+      "delta_hz": 10,
+      "low_hz": 227.5,
+      "high_hz": 237.5
+    },
+    {
+      "center_hz": 233.0,
+      "delta_hz": 10,
+      "low_hz": 228.0,
+      "high_hz": 238.0
+    },
+    {
+      "center_hz": 233.5,
+      "delta_hz": 10,
+      "low_hz": 228.5,
+      "high_hz": 238.5
+    },
+    {
+      "center_hz": 234.0,
+      "delta_hz": 10,
+      "low_hz": 229.0,
+      "high_hz": 239.0
+    },
+    {
+      "center_hz": 234.5,
+      "delta_hz": 10,
+      "low_hz": 229.5,
+      "high_hz": 239.5
+    },
+    {
+      "center_hz": 235.0,
+      "delta_hz": 10,
+      "low_hz": 230.0,
+      "high_hz": 240.0
+    },
+    {
+      "center_hz": 235.5,
+      "delta_hz": 10,
+      "low_hz": 230.5,
+      "high_hz": 240.5
+    },
+    {
+      "center_hz": 236.0,
+      "delta_hz": 10,
+      "low_hz": 231.0,
+      "high_hz": 241.0
+    },
+    {
+      "center_hz": 236.5,
+      "delta_hz": 10,
+      "low_hz": 231.5,
+      "high_hz": 241.5
+    },
+    {
+      "center_hz": 237.0,
+      "delta_hz": 10,
+      "low_hz": 232.0,
+      "high_hz": 242.0
+    },
+    {
+      "center_hz": 237.5,
+      "delta_hz": 10,
+      "low_hz": 232.5,
+      "high_hz": 242.5
+    },
+    {
+      "center_hz": 238.0,
+      "delta_hz": 10,
+      "low_hz": 233.0,
+      "high_hz": 243.0
+    },
+    {
+      "center_hz": 238.5,
+      "delta_hz": 10,
+      "low_hz": 233.5,
+      "high_hz": 243.5
+    },
+    {
+      "center_hz": 239.0,
+      "delta_hz": 10,
+      "low_hz": 234.0,
+      "high_hz": 244.0
+    },
+    {
+      "center_hz": 239.5,
+      "delta_hz": 10,
+      "low_hz": 234.5,
+      "high_hz": 244.5
+    },
+    {
+      "center_hz": 240.0,
+      "delta_hz": 10,
+      "low_hz": 235.0,
+      "high_hz": 245.0
+    },
+    {
+      "center_hz": 240.5,
+      "delta_hz": 10,
+      "low_hz": 235.5,
+      "high_hz": 245.5
+    },
+    {
+      "center_hz": 241.0,
+      "delta_hz": 10,
+      "low_hz": 236.0,
+      "high_hz": 246.0
+    },
+    {
+      "center_hz": 241.5,
+      "delta_hz": 10,
+      "low_hz": 236.5,
+      "high_hz": 246.5
+    },
+    {
+      "center_hz": 242.0,
+      "delta_hz": 10,
+      "low_hz": 237.0,
+      "high_hz": 247.0
+    },
+    {
+      "center_hz": 242.5,
+      "delta_hz": 10,
+      "low_hz": 237.5,
+      "high_hz": 247.5
+    },
+    {
+      "center_hz": 243.0,
+      "delta_hz": 10,
+      "low_hz": 238.0,
+      "high_hz": 248.0
+    },
+    {
+      "center_hz": 243.5,
+      "delta_hz": 10,
+      "low_hz": 238.5,
+      "high_hz": 248.5
+    },
+    {
+      "center_hz": 244.0,
+      "delta_hz": 10,
+      "low_hz": 239.0,
+      "high_hz": 249.0
+    },
+    {
+      "center_hz": 244.5,
+      "delta_hz": 10,
+      "low_hz": 239.5,
+      "high_hz": 249.5
+    },
+    {
+      "center_hz": 245.0,
+      "delta_hz": 10,
+      "low_hz": 240.0,
+      "high_hz": 250.0
+    }
+  ],
+  "excluded_boundary_pairs": "Both raw frequencies must remain within registered 150--250 Hz usable source band; never synthesize out-of-band energy.",
+  "center_step_hz": 0.5
+}

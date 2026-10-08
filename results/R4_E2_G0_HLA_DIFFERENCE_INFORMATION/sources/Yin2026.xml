@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">sensors</journal-id>
+      <journal-title-group>
+        <journal-title>Sensors</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Sensors</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Sensors</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1424-8220</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/s26051495</article-id>
+      <article-id pub-id-type="publisher-id">sensors-26-01495</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Long-Range Source Localization in the Deep Sea Using Adaptive FDSL with a Few-Element Array</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0008-6688-5530</contrib-id>
+          <name>
+            <surname>Yin</surname>
+            <given-names>Jingwen</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ko</surname>
+            <given-names>Haklim</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+          <xref rid="c1-sensors-26-01495" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-4565-8802</contrib-id>
+          <name>
+            <surname>Lee</surname>
+            <given-names>Hojun</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <xref rid="c1-sensors-26-01495" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Bithas</surname>
+            <given-names>Petros S.</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-sensors-26-01495">Department of Information and Communication Engineering, Hoseo University, Asan 31499, Republic of Korea</aff>
+      <author-notes>
+        <corresp id="c1-sensors-26-01495"><label>*</label>Correspondence: <email>hlko@hoseo.edu</email> (H.K.); <email>hjlee@hoseo.edu</email> (H.L.)</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>27</day>
+        <month>02</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>03</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>26</volume>
+      <issue>5</issue>
+      <elocation-id>1495</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>17</day>
+          <month>12</month>
+          <year>2025</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>20</day>
+          <month>02</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>24</day>
+          <month>02</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the authors.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Matched Field Processing (MFP) suffers from environmental mismatch in deep-sea long-range source localization. Although Frequency Difference Matched Field Processing (FDMFP) improves mismatch tolerance, it fails due to caustic phase effects. Frequency Difference Source Localization (FDSL) effectively compensates for caustic phase errors by applying frequency-difference processing to both the measured field and the replica field. However, conventional FDSL typically relies on large-aperture arrays with numerous elements, resulting in high deployment costs and bulky systems. Furthermore, it exhibits limited resolution and elevated sidelobes. These limitations are exacerbated under reduced element counts and low signal-to-noise ratio (SNR) conditions. To improve performance under low SNR and small-array configurations, this paper proposes the FDSL-MVDR and FDSL-MUSIC methods by deriving adaptive weight vectors based on the frequency-difference covariance structure and redefining the ambiguity surface. Numerical simulations in a deep-sea Munk environment (source range 195 km, depth 1000 m) using a 15-element vertical line array demonstrate that the adaptive FDSL methods outperform conventional FDSL in terms of peak sharpness and sidelobe suppression. FDSL-MUSIC achieves approximately 100% localization success at SNR = &#x2212;5 dB, a 4 dB improvement over conventional FDSL. Performance analyses under representative environmental mismatches indicate that the adaptive FDSL methods maintain robust localization performance and high-resolution characteristics in complex deep-sea environments. These results validate the feasibility of high-precision deep-sea localization using a few-element array.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>deep sea</kwd>
+        <kwd>few elements</kwd>
+        <kwd>frequency difference source localization (FDSL)</kwd>
+        <kwd>long-range source localization</kwd>
+        <kwd>matched field processing (MFP)</kwd>
+        <kwd>minimum variance distortionless response (MVDR)</kwd>
+        <kwd>multiple signal classification (MUSIC)</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>Korean government (MSIT)</funding-source>
+          <award-id>IITP-2026-RS-2024-00436765</award-id>
+        </award-group>
+        <funding-statement>This work was supported by the Institute of Information &amp; Communications Technology Planning &amp; Evaluation (IITP)-Innovative Human Resource Development for Local Intellectualization program grant funded by the Korean government (MSIT) (IITP-2026-RS-2024-00436765).</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-sensors-26-01495" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Deep-sea long-range passive source localization plays a critical role in ocean surveillance, underwater target tracking, and marine environmental monitoring. As a localization method that leverages a priori knowledge of ocean waveguide environments, Matched Field Processing (MFP) estimates the source position by quantifying the correlation between measured acoustic fields and theoretical replica fields [<xref ref-type="bibr" rid="B1-sensors-26-01495">1</xref>,<xref ref-type="bibr" rid="B2-sensors-26-01495">2</xref>,<xref ref-type="bibr" rid="B3-sensors-26-01495">3</xref>,<xref ref-type="bibr" rid="B4-sensors-26-01495">4</xref>,<xref ref-type="bibr" rid="B5-sensors-26-01495">5</xref>]. However, MFP is highly susceptible to environmental mismatch, with its performance severely degraded by ocean ambient noise, receiver array sparsity, and uncertainties in environmental parameters, ultimately leading to substantial deterioration in localization accuracy or even complete failure.</p>
+      <p>To mitigate the impact of environmental mismatch on localization performance, Worthmann et al. introduced Frequency Difference Matched Field Processing (FDMFP) [<xref ref-type="bibr" rid="B6-sensors-26-01495">6</xref>,<xref ref-type="bibr" rid="B7-sensors-26-01495">7</xref>,<xref ref-type="bibr" rid="B8-sensors-26-01495">8</xref>,<xref ref-type="bibr" rid="B9-sensors-26-01495">9</xref>,<xref ref-type="bibr" rid="B10-sensors-26-01495">10</xref>]. This approach transforms the problem from high-frequency to low-frequency processing by applying frequency-difference processing to received data, subsequently performing matched field processing in the low-frequency domain. Experimental validation demonstrates that FDMFP exhibits enhanced tolerance to environmental mismatch in shallow water waveguide environments, yielding more robust source localization performance compared to conventional MFP.</p>
+      <p>However, the application of FDMFP in deep-sea long-range scenarios is fundamentally constrained. In deep-sea environments, acoustic waves undergo complex multipath propagation, with sound rays producing caustics in the water column, thereby inducing significant caustic phase distortions. These distortions prevent FDMFP from accurately establishing the correlation between measured and replica fields, consequently causing localization failure. To address this critical limitation, Dowling et al. substantially advanced FDMFP by proposing Frequency Difference Source Localization (FDSL), which was successfully validated using experimental data from the Philippine Sea. The key innovation of FDSL lies not only in applying frequency-difference processing to the received signals but, more importantly, in applying the same processing to the replica fields, thereby effectively compensating for caustic phase errors and attaining robust localization performance in deep-sea long-range propagation scenarios [<xref ref-type="bibr" rid="B11-sensors-26-01495">11</xref>,<xref ref-type="bibr" rid="B12-sensors-26-01495">12</xref>,<xref ref-type="bibr" rid="B13-sensors-26-01495">13</xref>].</p>
+      <p>Despite demonstrating promising application potential, existing FDSL research has primarily been conducted under idealized experimental configurations. For instance, Dowling et al.&#x2019;s Philippine Sea experiment employed a full-depth vertical line array comprising 149 hydrophone elements, with data acquired under high signal-to-noise ratio (SNR) conditions of approximately 20 dB [<xref ref-type="bibr" rid="B11-sensors-26-01495">11</xref>]. However, in practical ocean applications, receiving array systems are often constrained by deployment costs, physical space limitations, and technical implementation complexity, making the deployment of large-aperture, high-density array configurations impractical. Simultaneously, realistic ocean environments ubiquitously exhibit complex ambient noise and dynamic interference, resulting in received SNRs substantially lower than ideal conditions. Consequently, investigating high-performance source localization under non-ideal conditions characterized by small apertures, limited array elements, and low SNRs is of significant importance for practical engineering applications.</p>
+      <p>Moreover, despite its computational efficiency, conventional FDSL suffers from constrained resolution and elevated sidelobe levels under low SNR and few-element array configurations. These limitations significantly diminish the prominence of the main peak against the background level.</p>
+      <p>In contrast, adaptive beamforming techniques, such as Minimum Variance Distortionless Response (MVDR) and Multiple Signal Classification (MUSIC), offer the potential for superior sidelobe suppression and resolution enhancement. Accordingly, this paper establishes the FDSL-MVDR and FDSL-MUSIC methods by formulating adaptive weight vectors based on the frequency-difference covariance matrix and redefining the ambiguity surface.</p>
+      <p>The main contributions of this study are summarized as follows:<list list-type="order"><list-item><label>(1)</label><p>Methodological Formulation: This study proposes the FDSL-MVDR and FDSL-MUSIC methods by deriving the adaptive weighting vectors and redefining the ambiguity surface within the frequency-difference domain. These methods enable super-resolution and superior sidelobe suppression, effectively overcoming the resolution limitations of conventional FDSL.</p></list-item><list-item><label>(2)</label><p>Performance Assessment in Matched Environments: Through systematic Monte Carlo simulations conducted in a deep-sea Munk environment, the proposed methods are evaluated using a 15-element vertical array across a wide SNR range (&#x2212;10 dB to 5 dB). The analysis demonstrates that FDSL-MUSIC achieves a localization success rate of approximately 100% at an SNR of &#x2212;5 dB, validating the feasibility of high-precision localization using cost-effective, small-aperture arrays.</p></list-item><list-item><label>(3)</label><p>Robustness Assessment in Mismatched Environments: Moving beyond the matched case, this paper rigorously evaluates the robustness of the proposed methods under mismatched scenarios. Specifically, the impact of four typical environmental uncertainties is investigated: mismatches in sound speed profile (SSP), water depth, seabed attenuation, and array element position. The results demonstrate that the proposed adaptive methods maintain stable localization performance under mismatched deep-sea conditions, effectively preserving the inherent environmental robustness of the conventional FDSL method.</p></list-item></list></p>
+      <p>The remainder of this paper is organized as follows. <xref ref-type="sec" rid="sec2-sensors-26-01495">Section 2</xref> introduces the theoretical background of conventional MFP and FDMFP. <xref ref-type="sec" rid="sec3-sensors-26-01495">Section 3</xref> details the derivation of the proposed adaptive FDSL methods. <xref ref-type="sec" rid="sec4-sensors-26-01495">Section 4</xref> presents the simulation results, providing a comprehensive evaluation of localization accuracy, resolution capability, and robustness against environmental uncertainties. <xref ref-type="sec" rid="sec5-sensors-26-01495">Section 5</xref> concludes the paper.</p>
+    </sec>
+    <sec id="sec2-sensors-26-01495">
+      <title>2. Theoretical Background</title>
+      <p>In this paper, all employed source localization methods can be regarded as extended forms of MFP.</p>
+      <sec id="sec2dot1-sensors-26-01495">
+        <title>2.1. MFP</title>
+        <p>MFP can be viewed as a generalization of beamforming, extending its applicability from free-space propagation to underwater waveguide environments by incorporating knowledge of the acoustic channel. <xref ref-type="fig" rid="sensors-26-01495-f001">Figure 1</xref> shows a schematic of MFP, where a true source and a hydrophone array are deployed in the ocean waveguide.</p>
+        <p>The MFP localization procedure can be broadly divided into three steps. First, acoustic signals are received by the array and are defined as the measured field. Second, the search region is discretized into <inline-formula><mml:math id="mm1"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>z</mml:mi></mml:mrow></mml:msub><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> grid points, where <inline-formula><mml:math id="mm2"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>z</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm3"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> denote the numbers of grid points in depth and range, respectively. Assuming a test source exists at a particular grid point, the theoretical acoustic pressure field at the array is calculated by combining the waveguide environmental parameters with the acoustic propagation model. This calculated field is termed the replica field. Finally, the correlation between the measured field and the replica field is computed for that grid point. By scanning through all grid points, an <inline-formula><mml:math id="mm4"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>z</mml:mi></mml:mrow></mml:msub><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> matrix is obtained, where the position corresponding to the maximum correlation value represents the estimated source location. In summary, the conventional MFP method determines the source position by computing the correlation between the measured field and the replica field.</p>
+      </sec>
+      <sec id="sec2dot2-sensors-26-01495">
+        <title>2.2. FDMFP</title>
+        <p>Measured Field: Consider a narrowband signal at frequency <inline-formula><mml:math id="mm5"><mml:semantics><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> received by an M-element array. The received data in the frequency domain can be written as<disp-formula id="FD1-sensors-26-01495"><label>(1)</label><mml:math id="mm6" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">P</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi mathvariant="bold">g</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mi mathvariant="bold">n</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm7"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">P</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo><mml:mo>&#x2026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>]</mml:mo></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> represents the frequency-domain complex acoustic pressure vector, <inline-formula><mml:math id="mm8"><mml:semantics><mml:mrow><mml:mi>s</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></inline-formula> represents the frequency-domain source signal, <inline-formula><mml:math id="mm9"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">g</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo><mml:mo>&#x2026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>]</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="normal">T</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> is the Green&#x2019;s function vector derived from the Helmholtz equation, and <inline-formula><mml:math id="mm10"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">n</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> is complex Gaussian white noise.</p>
+        <p>By applying frequency-difference processing to the received data, the high-frequency content is shifted to a lower-frequency difference component, forming the frequency-difference signal. The frequency-difference signal is the conjugate product of pressure fields at two different frequency components, also known as the frequency-difference autoproduct. From the perspective of signal construction, frequency-difference processing requires that the source signal has a certain bandwidth. For illustration, consider a dual-frequency signal, where the source signal consists of two frequency components, <inline-formula><mml:math id="mm11"><mml:semantics><mml:mrow><mml:mi>&#x3C9;</mml:mi><mml:mo>+</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm12"><mml:semantics><mml:mrow><mml:mi>&#x3C9;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>, respectively. The frequency-difference signal is expressed by the following equation [<xref ref-type="bibr" rid="B14-sensors-26-01495">14</xref>,<xref ref-type="bibr" rid="B15-sensors-26-01495">15</xref>,<xref ref-type="bibr" rid="B16-sensors-26-01495">16</xref>,<xref ref-type="bibr" rid="B17-sensors-26-01495">17</xref>].<disp-formula id="FD2-sensors-26-01495"><label>(2)</label><mml:math id="mm13" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">AP</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi mathvariant="bold">P</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>+</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mstyle><mml:mo stretchy="false">)</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">P</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msup><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mstyle><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm14"><mml:semantics><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is the difference frequency between the two components, and the <inline-formula><mml:math id="mm15"><mml:semantics><mml:mrow><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo>&#xB7;</mml:mo><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> denotes complex conjugation.</p>
+        <p>By substituting the ray-path multipath expansion of the acoustic pressure field, <inline-formula><mml:math id="mm16"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>x</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:msubsup><mml:mrow><mml:msub><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">x</mml:mi><mml:mi mathvariant="normal">p</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>i</mml:mi><mml:mi>&#x3C9;</mml:mi><mml:msub><mml:mrow><mml:mi>&#x3C4;</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, into the autoproduct definition in (2), the frequency-difference signal <inline-formula><mml:math id="mm17"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>A</mml:mi><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> at the <inline-formula><mml:math id="mm18"><mml:semantics><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>-th hydrophone is decomposed into diagonal terms and cross terms. Here, <inline-formula><mml:math id="mm19"><mml:semantics><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the total number of multipaths, while <inline-formula><mml:math id="mm20"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm21"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x3C4;</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> represent the amplitude and time delay of the <inline-formula><mml:math id="mm22"><mml:semantics><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>-th propagation path to the <inline-formula><mml:math id="mm23"><mml:semantics><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>-th hydrophone, respectively. The expansion is expressed as<disp-formula id="FD3-sensors-26-01495"><label>(3)</label><mml:math id="mm24" display="block"><mml:semantics><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:msub><mml:mrow><mml:mi>A</mml:mi><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mtd><mml:mtd columnalign="left"><mml:mo>=</mml:mo><mml:mrow><mml:mstyle displaystyle="true"><mml:munderover><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>x</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>X</mml:mi></mml:mrow></mml:munderover></mml:mstyle><mml:mrow><mml:msup><mml:mrow><mml:mfenced open="|" close="|" separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mrow><mml:mrow><mml:mi mathvariant="normal">exp</mml:mi></mml:mrow><mml:mrow><mml:mfenced separators="|"><mml:mrow><mml:mi>i</mml:mi><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:msub><mml:mrow><mml:mi>&#x3C4;</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:mrow></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd/><mml:mtd columnalign="left"><mml:mo>+</mml:mo><mml:mrow><mml:mstyle displaystyle="true"><mml:munderover><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>x</mml:mi><mml:mo>&#x2260;</mml:mo><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>X</mml:mi><mml:mo>,</mml:mo><mml:mi>X</mml:mi></mml:mrow></mml:munderover></mml:mstyle><mml:mrow><mml:msub><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msubsup><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">x</mml:mi><mml:mi mathvariant="normal">p</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>i</mml:mi><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mstyle><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C4;</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C4;</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">)</mml:mo><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">x</mml:mi><mml:mi mathvariant="normal">p</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>i</mml:mi><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C4;</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C4;</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The diagonal terms (<italic>x</italic> = <italic>y</italic>) constitute the desired signal component, as their phase depends solely on the difference frequency <inline-formula><mml:math id="mm25"><mml:semantics><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, which is equivalent to a conventional low-frequency acoustic signal. In contrast, the cross terms (<inline-formula><mml:math id="mm26"><mml:semantics><mml:mrow><mml:mi>x</mml:mi><mml:mo>&#x2260;</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>) are undesirable components. Since their phase is modulated by the high-frequency carrier <inline-formula><mml:math id="mm27"><mml:semantics><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, the cross terms fluctuate rapidly as <inline-formula><mml:math id="mm28"><mml:semantics><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> varies. In multipath environments, the presence of these oscillatory cross terms reduces the similarity between the frequency-difference signal and the low-frequency replica field, thereby degrading localization accuracy.</p>
+        <p>The cross-spectral density matrix (CSDM) for a single frequency-difference signal is defined as<disp-formula id="FD4-sensors-26-01495"><label>(4)</label><mml:math id="mm29" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">R</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="bold">AP</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">AP</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msup><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="bold">AP</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msup><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi mathvariant="bold">AP</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>To mitigate the influence of cross terms, bandwidth averaging is applied by computing the CSDM from multiple frequency-difference signals:<disp-formula id="FD5-sensors-26-01495"><label>(5)</label><mml:math id="mm30" display="block"><mml:semantics><mml:mrow><mml:mover><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover><mml:mfenced separators="|"><mml:mrow><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>K</mml:mi></mml:mrow></mml:mfrac></mml:mstyle><mml:mrow><mml:munderover><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>K</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">AP</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">AP</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">AP</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">AP</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm31"><mml:semantics><mml:mrow><mml:mi>K</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the number of frequency-difference signal realizations constructed from the source signal bandwidth with the same frequency <inline-formula><mml:math id="mm32"><mml:semantics><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>. This value is determined by the signal bandwidth <inline-formula><mml:math id="mm33"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>B</mml:mi><mml:mi>W</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and the frequency resolution <inline-formula><mml:math id="mm34"><mml:semantics><mml:mrow><mml:mi>&#x3B4;</mml:mi><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, calculated as <inline-formula><mml:math id="mm35"><mml:semantics><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>B</mml:mi><mml:mi>W</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>/</mml:mo><mml:mi>&#x3B4;</mml:mi><mml:mi>&#x3C9;</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        <p>Replica Field: For a test location <inline-formula><mml:math id="mm36"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>z</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>, where <inline-formula><mml:math id="mm37"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the source&#x2013;array horizontal range and <inline-formula><mml:math id="mm38"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>z</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the source depth, the Green&#x2019;s function <inline-formula><mml:math id="mm39"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">g</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> from the source to the receiving array is obtained using the KRAKEN normal-mode model [<xref ref-type="bibr" rid="B18-sensors-26-01495">18</xref>,<xref ref-type="bibr" rid="B19-sensors-26-01495">19</xref>]. The normalized MFP replica field vector is then given by (6).<disp-formula id="FD6-sensors-26-01495"><label>(6)</label><mml:math id="mm40" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>MFP</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="bold">g</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mfenced open="&#x2016;" close="&#x2016;" separators="|"><mml:mrow><mml:mi mathvariant="bold">g</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The FDMFP replica field vector is similar to that of MFP, except that the original signal frequency <inline-formula><mml:math id="mm41"><mml:semantics><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is replaced by the difference frequency value <inline-formula><mml:math id="mm42"><mml:semantics><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, as shown in (7).<disp-formula id="FD7-sensors-26-01495"><label>(7)</label><mml:math id="mm43" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">F</mml:mi><mml:mi mathvariant="normal">D</mml:mi><mml:mi mathvariant="normal">M</mml:mi><mml:mi mathvariant="normal">F</mml:mi><mml:mi mathvariant="normal">P</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="bold">g</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mfenced open="&#x2016;" close="&#x2016;" separators="|"><mml:mrow><mml:mi mathvariant="bold">g</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Matching processing: By correlating the measured field with the replica field, the FDMFP localization ambiguity surface is obtained as<disp-formula id="FD8-sensors-26-01495"><label>(8)</label><mml:math id="mm44" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>B</mml:mi></mml:mrow><mml:mrow><mml:mi>FDMFP</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>FDMFP</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msubsup><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced><mml:mover><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover><mml:mfenced separators="|"><mml:mrow><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced><mml:msub><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>FDMFP</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      </sec>
+    </sec>
+    <sec id="sec3-sensors-26-01495">
+      <title>3. Adaptive FDSL</title>
+      <p>FDSL, as an advancement of FDMFP, introduces a unique replica field structure by applying frequency-difference processing to both the measured and replica fields, thereby effectively correcting caustic phase errors. However, conventional FDSL suffers from constrained resolution and elevated sidelobe levels, particularly under low SNR and few-element array configurations. To address these limitations, this paper proposes the FDSL-MVDR and FDSL-MUSIC methods. By formulating adaptive weight vectors based on the frequency-difference covariance matrix, the proposed methods achieve superior resolution and sidelobe suppression compared to conventional FDSL. The schematic diagram of the proposed methods is illustrated in <xref ref-type="fig" rid="sensors-26-01495-f002">Figure 2</xref>. Both the array received data and the replica field undergo frequency-difference processing to extract the difference-frequency components. These are then used to formulate the data covariance matrix and the replica weight vector, respectively.</p>
+      <p>Although the frequency-difference signal exhibits reduced multipath complexity similar to a low-frequency signal, a mismatch persists between the generated difference-frequency field and the ideal low-frequency field. Therefore, the FDSL replica field must also undergo frequency-difference processing. The FDSL replica field vector is expressed by (9).<disp-formula id="FD9-sensors-26-01495"><label>(9)</label><mml:math id="mm45" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>FDSL</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mi mathvariant="bold">g</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>+</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mfenced><mml:msup><mml:mrow><mml:mi mathvariant="bold">g</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msup><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Similarly, consistent with the measured field processing in (5), bandwidth averaging over the same number of realizations <inline-formula><mml:math id="mm46"><mml:semantics><mml:mrow><mml:mi>K</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is applied to the replica field, as shown in (10).<disp-formula id="FD10-sensors-26-01495"><label>(10)</label><mml:math id="mm47" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>FDSL</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>K</mml:mi></mml:mrow></mml:mfrac></mml:mstyle><mml:mrow><mml:munderover><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>K</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:mi mathvariant="bold">g</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>+</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mfenced><mml:msup><mml:mrow><mml:mi mathvariant="bold">g</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msup><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Subsequently, the bandwidth-averaged replica field <inline-formula><mml:math id="mm48"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>F</mml:mi><mml:mi>D</mml:mi><mml:mi>S</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is normalized to obtain the final FDSL replica field vector, which can be expressed as (11).<disp-formula id="FD11-sensors-26-01495"><label>(11)</label><mml:math id="mm49" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">w</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>FDSL</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mfenced open="&#x2016;" close="&#x2016;" separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>FDSL</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>By correlating the measured field with the replica field, the FDSL localization ambiguity surface is obtained as shown in (12).<disp-formula id="FD12-sensors-26-01495"><label>(12)</label><mml:math id="mm50" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>B</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">F</mml:mi><mml:mi mathvariant="normal">D</mml:mi><mml:mi mathvariant="normal">S</mml:mi><mml:mi mathvariant="normal">L</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac></mml:mstyle><mml:mrow><mml:munderover><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>n</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msup><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover><mml:mfenced separators="|"><mml:mrow><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mi mathvariant="bold">w</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <inline-formula><mml:math id="mm51"><mml:semantics><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the number of selected difference frequency values. The correlation values calculated for all grid points constitute the ambiguity surface, where the position of the maximum value corresponds to the estimated source location. A two-stage averaging strategy is implemented to enhance the localization robustness. First, for each fixed-difference frequency value <inline-formula><mml:math id="mm52"><mml:semantics><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, bandwidth averaging is performed over <inline-formula><mml:math id="mm53"><mml:semantics><mml:mrow><mml:mi>K</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> frequency-difference signals as shown in (5) and (10), which reduces the influence of cross terms. Second, the ambiguity surfaces obtained from <inline-formula><mml:math id="mm54"><mml:semantics><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> different difference frequency values <inline-formula><mml:math id="mm55"><mml:semantics><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> are averaged incoherently as indicated by (12), which further enhances robustness. The two-stage averaging strategy for FDSL with multiple difference frequency values is illustrated in <xref ref-type="fig" rid="sensors-26-01495-f003">Figure 3</xref>. The difference frequency values <inline-formula><mml:math id="mm56"><mml:semantics><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> are constrained within the signal bandwidth <inline-formula><mml:math id="mm57"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>B</mml:mi><mml:mi>W</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, satisfying <inline-formula><mml:math id="mm58"><mml:semantics><mml:mrow><mml:mn>0</mml:mn><mml:mo>&lt;</mml:mo><mml:mo>&#x2206;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2264;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>B</mml:mi><mml:mi>W</mml:mi></mml:mrow></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula></p>
+      <sec id="sec3dot1-sensors-26-01495">
+        <title>3.1. FDSL-MVDR</title>
+        <p>The FDSL-MVDR method is formulated by applying the Minimum Variance Distortionless Response (MVDR) criterion to the frequency-difference signal. The fundamental principle is to minimize the total output power of the frequency-difference field to suppress noise and interference while maintaining a distortionless response for the signal originating from the test source location [<xref ref-type="bibr" rid="B20-sensors-26-01495">20</xref>,<xref ref-type="bibr" rid="B21-sensors-26-01495">21</xref>,<xref ref-type="bibr" rid="B22-sensors-26-01495">22</xref>,<xref ref-type="bibr" rid="B23-sensors-26-01495">23</xref>]. This constrained optimization problem is expressed as (13).<disp-formula id="FD13-sensors-26-01495"><label>(13)</label><mml:math id="mm59" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mrow><mml:munder><mml:mrow><mml:mi>min</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>MVDR</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:munder></mml:mrow><mml:mrow><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>MVDR</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msubsup><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover><mml:msub><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>MVDR</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow><mml:mo>&#xA0;</mml:mo><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>b</mml:mi><mml:mi>j</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>t</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi>t</mml:mi><mml:mi>o</mml:mi><mml:mo>&#xA0;</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>MVDR</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msubsup><mml:mi mathvariant="bold">w</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm60"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>MVDR</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the adaptive weight vector, <inline-formula><mml:math id="mm61"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">w</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></inline-formula> is the <inline-formula><mml:math id="mm62"><mml:semantics><mml:mrow><mml:mi>M</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> dimensional replica field vector, and <inline-formula><mml:math id="mm63"><mml:semantics><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula> is the CSDM of the frequency-difference signal.</p>
+        <p>The optimal weight vector is derived by solving this optimization problem using the Lagrange multiplier method, as shown in (14).<disp-formula id="FD14-sensors-26-01495"><label>(14)</label><mml:math id="mm64" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>MVDR</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mi mathvariant="bold">w</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">H</mml:mi></mml:mrow></mml:msup><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced><mml:msup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mi mathvariant="bold">w</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+        The localization ambiguity surface for FDSL-MVDR is obtained by incoherently averaging over <inline-formula><mml:math id="mm65"><mml:semantics><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> difference frequency values, as given by (15).<disp-formula id="FD15-sensors-26-01495"><label>(15)</label><mml:math id="mm66" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>B</mml:mi></mml:mrow><mml:mrow><mml:mrow><mml:mi>FDSL</mml:mi><mml:mtext>-</mml:mtext><mml:mi>MVDR</mml:mi></mml:mrow></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac></mml:mstyle><mml:mrow><mml:munderover><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>n</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msup><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:msup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mi mathvariant="bold">w</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      </sec>
+      <sec id="sec3dot2-sensors-26-01495">
+        <title>3.2. FDSL-MUSIC</title>
+        <p>The FDSL-MUSIC method is developed by exploiting the orthogonality between the signal and noise subspaces of the frequency-difference field to achieve super-resolution estimation. Unlike conventional beamforming, this method overcomes the Rayleigh resolution limit and produces sharper spectral peaks [<xref ref-type="bibr" rid="B24-sensors-26-01495">24</xref>,<xref ref-type="bibr" rid="B25-sensors-26-01495">25</xref>,<xref ref-type="bibr" rid="B26-sensors-26-01495">26</xref>].</p>
+        <p>Assuming <inline-formula><mml:math id="mm67"><mml:semantics><mml:mrow><mml:mi>D</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> uncorrelated sources and spatially white Gaussian noise with variance <inline-formula><mml:math id="mm68"><mml:semantics><mml:mrow><mml:msup><mml:mrow><mml:mi>&#x3C3;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>, the <inline-formula><mml:math id="mm69"><mml:semantics><mml:mrow><mml:mi>M</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mo>&#xD7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>M</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> CSDM of the frequency-difference field can be written as<disp-formula id="FD16-sensors-26-01495"><label>(16)</label><mml:math id="mm70" display="block"><mml:semantics><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x394;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi mathvariant="bold">W</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x394;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msup><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x394;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi>&#x3C3;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mi mathvariant="bold">I</mml:mi></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm71"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">W</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x394;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mo>[</mml:mo><mml:mi mathvariant="bold">w</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo><mml:mo>&#x2026;</mml:mo><mml:mo>,</mml:mo><mml:mi mathvariant="bold">w</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>D</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>]</mml:mo><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="double-struck">C</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mi>D</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> is the FDSL replica field matrix for <inline-formula><mml:math id="mm72"><mml:semantics><mml:mrow><mml:mi>D</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> source locations, <inline-formula><mml:math id="mm73"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the signal covariance matrix, and <inline-formula><mml:math id="mm74"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">I</mml:mi><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="double-struck">C</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mi>M</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> is the identity matrix.</p>
+        <p>The eigenvalue decomposition of <inline-formula><mml:math id="mm75"><mml:semantics><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x394;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> is given by<disp-formula id="FD17-sensors-26-01495"><label>(17)</label><mml:math id="mm76" display="block"><mml:semantics><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">R</mml:mi></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x394;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi mathvariant="bold">U</mml:mi><mml:mi mathvariant="bold-sans-serif">&#x39B;</mml:mi><mml:msup><mml:mrow><mml:mi mathvariant="bold">U</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:mrow><mml:munderover><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>M</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="sans-serif">&#x3BB;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm77"><mml:semantics><mml:mrow><mml:mi mathvariant="bold-sans-serif">&#x39B;</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">g</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3BB;</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3BB;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3BB;</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the diagonal matrix of eigenvalues, and <inline-formula><mml:math id="mm78"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">U</mml:mi><mml:mo>=</mml:mo><mml:mo>[</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi></mml:mrow></mml:msub><mml:mo>]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> is the eigenvector matrix.</p>
+        <p>Sorting the eigenvalues in descending order, the eigenvectors <inline-formula><mml:math id="mm79"><mml:semantics><mml:mrow><mml:mfenced open="{" close="}" separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mi>D</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></inline-formula> corresponding to the <inline-formula><mml:math id="mm80"><mml:semantics><mml:mrow><mml:mi>D</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> largest eigenvalues span the signal subspace <inline-formula><mml:math id="mm81"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> The remaining <inline-formula><mml:math id="mm82"><mml:semantics><mml:mrow><mml:mi>M</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>D</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> eigenvectors span the noise subspace <inline-formula><mml:math id="mm83"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. By definition, the noise subspace is orthogonal to the signal subspace, <inline-formula><mml:math id="mm84"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mo>&#x22A5;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. The signal and noise subspaces are defined as<disp-formula id="FD18-sensors-26-01495"><label>(18)</label><mml:math id="mm85" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>[</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mi>D</mml:mi></mml:mrow></mml:msub><mml:mo>]</mml:mo><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="double-struck">C</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mi>D</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></disp-formula><disp-formula id="FD19-sensors-26-01495"><label>(19)</label><mml:math id="mm86" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>[</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mi>D</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mi>D</mml:mi><mml:mo>+</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi></mml:mrow></mml:msub><mml:mo>]</mml:mo><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="double-struck">C</mml:mi></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>M</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>D</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The number of sources <inline-formula><mml:math id="mm87"><mml:semantics><mml:mrow><mml:mi>D</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> can be estimated using model order selection methods such as the Akaike Information Criterion (AIC) and the Minimum Description Length (MDL) [<xref ref-type="bibr" rid="B27-sensors-26-01495">27</xref>]. Any FDSL replica field vector <inline-formula><mml:math id="mm88"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">w</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></inline-formula> corresponding to a true source location must be orthogonal to the noise subspace. To measure this orthogonality, a squared norm is defined:<disp-formula id="FD20-sensors-26-01495"><label>(20)</label><mml:math id="mm89" display="block"><mml:semantics><mml:mrow><mml:msup><mml:mrow><mml:mi>d</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mfenced open="&#x2016;" close="&#x2016;" separators="|"><mml:mrow><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msubsup><mml:mi mathvariant="bold">w</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msup><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msubsup><mml:mi mathvariant="bold">w</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Taking the reciprocal of the squared norm expression creates sharp peaks at the true source locations. When <inline-formula><mml:math id="mm90"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">w</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></inline-formula> corresponds to a true source location, <inline-formula><mml:math id="mm91"><mml:semantics><mml:mrow><mml:msup><mml:mrow><mml:mi>d</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>&#x2192;0 due to the orthogonality condition, and thus 1/<inline-formula><mml:math id="mm92"><mml:semantics><mml:mrow><mml:msup><mml:mrow><mml:mi>d</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>&#x2192;&#x221E;, producing a sharp peak.</p>
+        <p>The localization ambiguity surface for FDSL-MUSIC is obtained by incoherently averaging over <inline-formula><mml:math id="mm93"><mml:semantics><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> difference frequency values, as given by (21).<disp-formula id="FD21-sensors-26-01495"><label>(21)</label><mml:math id="mm94" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>B</mml:mi></mml:mrow><mml:mrow><mml:mrow><mml:mi>FDSL</mml:mi><mml:mtext>-</mml:mtext><mml:mi>MUSIC</mml:mi></mml:mrow></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:mfrac></mml:mstyle><mml:mrow><mml:munderover><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>n</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="bold">w</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msup><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msubsup><mml:mi mathvariant="bold">w</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2206;</mml:mo><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      </sec>
+    </sec>
+    <sec id="sec4-sensors-26-01495">
+      <title>4. Simulation Results and Analysis</title>
+      <p>The deep-sea Munk environment was adopted for the simulation, with the sound speed profile, environmental parameters, and source location information illustrated in <xref ref-type="fig" rid="sensors-26-01495-f004">Figure 4</xref>. Assuming the number of sources is known a priori, a single-source scenario <inline-formula><mml:math id="mm95"><mml:semantics><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> is adopted as a baseline to evaluate the localization performance of the proposed methods. The source-to-array range is 195 km, the source depth is 1000 m, and the depth of the sound speed minimum is 1400 m. The source emitted a wideband signal with a frequency band of 250&#x2013;350 Hz, which was received by a 15-element vertical line array (VLA) with 70 m uniform spacing, deployed at depths ranging from 580 m to 1560 m. The waveguide water-column depth was set to 5 km. Although the baseline study [<xref ref-type="bibr" rid="B12-sensors-26-01495">12</xref>] considered the difference frequency <inline-formula><mml:math id="mm96"><mml:semantics><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mfenced open="{" close="}" separators="|"><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mn>4</mml:mn><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></inline-formula> Hz, the reduced set <inline-formula><mml:math id="mm97"><mml:semantics><mml:mrow><mml:mfenced open="{" close="}" separators="|"><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></inline-formula> achieved nearly the same performances as the full sweep in our evaluations. Thus, <inline-formula><mml:math id="mm98"><mml:semantics><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mfenced open="{" close="}" separators="|"><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></inline-formula> Hz was adopted to reduce the computational complexity while preserving performance. Given the frequency resolution set to <inline-formula><mml:math id="mm99"><mml:semantics><mml:mrow><mml:mi>&#x3B4;</mml:mi><mml:mi>&#x3C9;</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> Hz, the calculated values of <inline-formula><mml:math id="mm100"><mml:semantics><mml:mrow><mml:mi>K</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> for <inline-formula><mml:math id="mm101"><mml:semantics><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:mi>&#x3C9;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> of 1, 3, and 5 Hz are 100, 98, and 96, respectively. The ocean surface was modeled as a pressure-release boundary, and the sound speed in the acoustic&#x2013;elastic half-space is 1600 m/s.</p>
+      <p>To characterize the noise level across all array elements, the array signal-to-noise ratio (SNR) is defined as<disp-formula id="FD22-sensors-26-01495"><label>(22)</label><mml:math id="mm102" display="block"><mml:semantics><mml:mrow><mml:mi>SNR</mml:mi><mml:mo>=</mml:mo><mml:mn>10</mml:mn><mml:msub><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:msub><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>m</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>M</mml:mi></mml:mrow></mml:msubsup><mml:mrow><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>q</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>Q</mml:mi></mml:mrow></mml:msubsup><mml:mrow><mml:msup><mml:mrow><mml:mfenced open="|" close="|" separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>q</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mrow></mml:mrow></mml:mrow></mml:mrow><mml:mrow><mml:mi>Q</mml:mi><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>m</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>M</mml:mi></mml:mrow></mml:msubsup><mml:mrow><mml:msubsup><mml:mrow><mml:mi>&#x3C3;</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:mrow></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <inline-formula><mml:math id="mm103"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x3C9;</mml:mi></mml:mrow><mml:mrow><mml:mi>q</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the magnitude at the <inline-formula><mml:math id="mm104"><mml:semantics><mml:mrow><mml:mi>q</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>-th frequency bin corresponding to the received signal bandwidth of the <inline-formula><mml:math id="mm105"><mml:semantics><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>-th element, <inline-formula><mml:math id="mm106"><mml:semantics><mml:mrow><mml:mi>Q</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is the number of frequency bins, <inline-formula><mml:math id="mm107"><mml:semantics><mml:mrow><mml:msubsup><mml:mrow><mml:mi>&#x3C3;</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> is the noise power at the <inline-formula><mml:math id="mm108"><mml:semantics><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>-th element, and <inline-formula><mml:math id="mm109"><mml:semantics><mml:mrow><mml:msup><mml:mrow><mml:mi>&#x3C3;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mi>M</mml:mi><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>m</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>M</mml:mi></mml:mrow></mml:msubsup><mml:mrow><mml:msubsup><mml:mrow><mml:mi>&#x3C3;</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is the average noise power of the array.</p>
+      <p><xref ref-type="fig" rid="sensors-26-01495-f005">Figure 5</xref> compares the localization performance of FDMFP, FDSL, FDSL-MVDR, and FDSL-MUSIC by illustrating their ambiguity surfaces computed using Equations (8), (12), (15) and (21), respectively. The symbols &#x201C;+&#x201D; and &#x201C;o&#x201D; indicate the true and estimated source locations, respectively.</p>
+      <p><xref ref-type="fig" rid="sensors-26-01495-f005">Figure 5</xref> presents the localization ambiguity surfaces of the four methods at SNR = 0 dB. As observed in <xref ref-type="fig" rid="sensors-26-01495-f005">Figure 5</xref>a, FDMFP exhibits numerous spurious peaks on the ambiguity surface due to the absence of caustic phase compensation. The main lobe significantly deviates from the true source location, with the estimated position at a range of 208 km and a depth of 400 m, resulting in localization failure. In contrast, <xref ref-type="fig" rid="sensors-26-01495-f005">Figure 5</xref>b&#x2013;d demonstrate that FDSL effectively compensates for caustic phase errors through difference-frequency processing of the replica field. All three FDSL methods achieve accurate localization, with the estimated position at a range of 195 km and a depth of 1000 m, matching the true source location. Among these methods, conventional FDSL exhibits relatively high sidelobe levels across the search space. FDSL-MVDR achieves improved sidelobe suppression with a narrower main lobe compared to conventional FDSL. FDSL-MUSIC produces a well-defined main peak with lower background noise, showing better spatial resolution. These results validate the effectiveness of the proposed adaptive FDSL methods, which demonstrate improved performance over conventional FDSL in terms of spatial resolution and sidelobe suppression for deep-sea long-range source localization scenarios.</p>
+      <p>To evaluate and compare the localization performance and resolution characteristics of FDSL, FDSL-MVDR, and FDSL-MUSIC, normalized range profiles were extracted at the true source depth of 1000 m. <xref ref-type="fig" rid="sensors-26-01495-f006">Figure 6</xref> presents the comparative analysis of these three methods under SNR conditions of 10 dB and 0 dB, respectively.</p>
+      <p>As illustrated in <xref ref-type="fig" rid="sensors-26-01495-f006">Figure 6</xref>a, at SNR = 10 dB, all three methods successfully identify the source at 195 km, yet they exhibit substantial differences in spatial resolution and sidelobe suppression capabilities. Conventional FDSL exhibits a broad main lobe accompanied by prominent sidelobes distributed throughout the search range, with multiple spurious peaks emerging across the 180&#x2013;200 km region. This creates the highest background noise level among the three methods and poses potential ambiguity in source localization. FDSL-MVDR demonstrates significantly reduced background levels and a markedly narrower main lobe compared to conventional FDSL, though some low-amplitude residual artifacts remain visible near the source region. FDSL-MUSIC demonstrates superior performance, featuring the sharpest main peak with the lowest background noise level.</p>
+      <p>As shown in <xref ref-type="fig" rid="sensors-26-01495-f006">Figure 6</xref>b, at SNR = 0 dB, the localization performance of all three methods degrades compared with the 10 dB case, as indicated by broadened main lobes and increased background noise levels. Nevertheless, FDSL-MUSIC continues to outperform the other two methods, maintaining the sharpest main peak and the lowest background level, providing the most reliable localization result under this low-SNR condition.</p>
+      <p>To comprehensively evaluate the performance of FDSL, FDSL-MVDR, and FDSL-MUSIC under varying SNR conditions, Monte Carlo simulations were conducted with 500 independent trials at each SNR level ranging from &#x2212;10 dB to 5 dB. <xref ref-type="fig" rid="sensors-26-01495-f007">Figure 7</xref> presents comprehensive performance metrics across these SNR levels, with four key performance indicators evaluated:<list list-type="alpha-lower"><list-item><label>(a)</label><p>Localization Error: The absolute differences between the true and estimated positions in range and depth.</p></list-item><list-item><label>(b)</label><p>Peak-to-Background Ratio (PBR): Defined as the ratio of the ambiguity surface peak value to the average background level [<xref ref-type="bibr" rid="B8-sensors-26-01495">8</xref>], as expressed in (23):</p><p><disp-formula id="FD23-sensors-26-01495"><label>(23)</label><mml:math id="mm110" display="block"><mml:semantics><mml:mrow><mml:mi>PBR</mml:mi><mml:mo>=</mml:mo><mml:mn>10</mml:mn><mml:msub><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi>E</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B2;</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x3B2;</mml:mi></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mfenced></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <inline-formula><mml:math id="mm111"><mml:semantics><mml:mrow><mml:mi>E</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the peak energy and &#x3B2; represents the average background energy.</p></list-item><list-item><label>(c)</label><p>Success Rate: Localization is considered successful when both the range and depth errors between the estimated and true positions are within three grid points [<xref ref-type="bibr" rid="B10-sensors-26-01495">10</xref>].</p></list-item></list></p>
+      <p>To comprehensively evaluate the performance of the three FDSL methods under varying SNR conditions, Monte Carlo simulations were conducted with 500 independent trials at each SNR level ranging from &#x2212;10 dB to 5 dB in 1 dB intervals.</p>
+      <p><xref ref-type="fig" rid="sensors-26-01495-f007">Figure 7</xref>a,b reveal the range and depth error characteristics, identifying distinct SNR thresholds for achieving zero-error localization. Conventional FDSL requires an SNR of &#x2212;1 dB or higher to attain accurate zero-error localization in both range and depth dimensions. FDSL-MVDR exhibits improved performance, achieving zero errors at SNR = &#x2212;4 dB, representing a 3 dB improvement over conventional FDSL. FDSL-MUSIC demonstrates optimal performance, attaining accurate localization at SNR = &#x2212;5 dB, thereby providing a 4 dB improvement relative to conventional FDSL.</p>
+      <p><xref ref-type="fig" rid="sensors-26-01495-f007">Figure 7</xref>c illustrates the PBR evolution, revealing distinct performance characteristics among the three methods. FDSL-MUSIC consistently maintains the highest PBR values throughout the entire SNR range, sustaining approximately 17&#x2013;18 dB over the tested SNR range, thereby reflecting superior peak clarity and background suppression. FDSL-MVDR exhibits a pronounced upward trend, with PBR values substantially increasing from approximately 3 dB at SNR = &#x2212;10 dB to approximately 17 dB at SNR = 5 dB. In contrast, conventional FDSL demonstrates limited PBR growth, with values increasing from approximately 3 dB to only 9 dB across the SNR range, remaining substantially lower than both adaptive methods.</p>
+      <p><xref ref-type="fig" rid="sensors-26-01495-f007">Figure 7</xref>d presents the localization success rate evolution, validating the performance trends observed in the error analysis. FDSL-MUSIC achieves an approximately 100% success rate at SNR = &#x2212;5 dB, FDSL-MVDR attains complete reliability at SNR = &#x2212;4 dB, while conventional FDSL requires an SNR of &#x2212;1 dB or higher for 100% success. These results demonstrate that even with a 15-element array configuration, the proposed adaptive methods, particularly FDSL-MUSIC, enable reliable deep-sea long-range source localization under low-SNR conditions.</p>
+      <p>In practical applications, environmental parameters such as sound speed profile, water depth, seabed properties, and array geometry are difficult to obtain accurately, resulting in inevitable environmental mismatch between the replica field used by localization methods and the measured field in actual acoustic propagation. Environmental mismatch tolerance represents a significant advantage of FDSL over conventional matched-field processing. Although the proposed adaptive FDSL methods demonstrate superior performance under perfectly matched conditions, their robustness under realistic environmental uncertainties requires systematic evaluation. Whether the inherent mismatch tolerance of conventional FDSL is preserved within the adaptive framework, and the effectiveness of adaptive enhancement under imperfect environmental knowledge, must be validated through representative mismatch scenarios.</p>
+      <p>To assess the robustness of the proposed methods, four typical mismatch scenarios were evaluated: sound speed profile (SSP) bias introduced as constant offsets of &#xB1;2 and &#xB1;5 m/s, water depth mismatch of &#xB1;100 and &#xB1;200 m, seabed attenuation mismatch ranging from 0.1 to 1.5 dB/&#x3BB;, and array element position mismatch modeled as random depth perturbations <inline-formula><mml:math id="mm112"><mml:semantics><mml:mrow><mml:mo>&#x394;</mml:mo><mml:mi>z</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> ~ <italic>&#x1D4A9;</italic> (0, <inline-formula><mml:math id="mm113"><mml:semantics><mml:mrow><mml:msup><mml:mi>&#x3C3;</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>) with <inline-formula><mml:math id="mm114"><mml:semantics><mml:mrow><mml:mi>&#x3C3;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> = 1, 5, and 10 m. <xref ref-type="table" rid="sensors-26-01495-t001">Table 1</xref>, <xref ref-type="table" rid="sensors-26-01495-t002">Table 2</xref>, <xref ref-type="table" rid="sensors-26-01495-t003">Table 3</xref> and <xref ref-type="table" rid="sensors-26-01495-t004">Table 4</xref> report the range error, depth error, and PBR under these mismatch conditions, based on 500 Monte Carlo trials conducted at SNR = 0 dB with the source positioned at a range of 195 km and a depth of 1000 m to ensure statistical reliability.</p>
+      <p>Based on the simulation results, the FDSL-MUSIC method generally achieves the highest PBR. As shown in <xref ref-type="table" rid="sensors-26-01495-t001">Table 1</xref>, <xref ref-type="table" rid="sensors-26-01495-t002">Table 2</xref> and <xref ref-type="table" rid="sensors-26-01495-t003">Table 3</xref>, regarding environmental adaptability, all three methods exhibit strong robustness against mismatches in SSP, water depth, and seabed attenuation. The depth estimation error consistently remains zero, while the maximum range error is 0.4 km, corresponding to only two range grid intervals. As shown in <xref ref-type="table" rid="sensors-26-01495-t004">Table 4</xref>, regarding array element position mismatch, the depth error is 20 m even under the large deviation condition (<inline-formula><mml:math id="mm115"><mml:semantics><mml:mrow><mml:mi>&#x3C3;</mml:mi><mml:mo>=</mml:mo><mml:mn>10</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> m), which is equivalent to a single depth grid interval. It is well established that the high-resolution subspace-based MUSIC method relies on precise array manifold modeling. Consequently, environmental mismatches or geometric deviations may lead to degradation in localization performance. However, the proposed FDSL-MVDR and FDSL-MUSIC methods demonstrate numerical stability across the examined ranges of SSP, water depth, seabed attenuation, and array element position mismatches, effectively preserving the inherent environmental robustness of the conventional FDSL method.</p>
+      <p>In terms of computational efficiency, the two proposed adaptive FDSL methods are comparable to the conventional FDSL method. By utilizing pre-computed replica fields, the dominant computational burden for all three methods resides in the grid search process. The adaptive matrix operations, specifically matrix inversion for MVDR and eigendecomposition for MUSIC, are executed only once per difference frequency. Given the few-element array configuration, the additional overhead imposed by these low-dimensional matrix operations is negligible compared to the extensive grid search. Consequently, the computational costs of the three methods are similar for real-time applications.</p>
+    </sec>
+    <sec id="sec5-sensors-26-01495" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>This paper proposes the FDSL-MVDR and FDSL-MUSIC methods to address resolution limitations in deep-sea long-range source localization with a few-element array.</p>
+      <p>Numerical simulations in a canonical deep-sea Munk environment (195 km range, 1000 m depth) using a 15-element vertical line array validate the effectiveness of the proposed methods. The results demonstrate that the proposed adaptive methods achieve enhanced spatial resolution and superior sidelobe suppression. Specifically, the adaptive methods, particularly FDSL-MUSIC, significantly outperform conventional FDSL under low-SNR conditions. Furthermore, the robustness of the proposed methods is verified against typical environmental uncertainties.</p>
+      <p>Future research directions include experimental validation with sea trial data and extension to multi-source scenarios.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, J.Y. and H.K.; methodology, H.L.; software, J.Y.; validation, H.K. and H.L.; formal analysis, J.Y. and H.L.; investigation, J.Y.; resources, J.Y.; data curation, J.Y.; writing&#x2014;original draft preparation, J.Y.; writing&#x2014;review and editing, H.K. and H.L.; visualization, J.Y.; supervision, H.K.; project administration, H.K.; funding acquisition, H.K. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Institutional Review Board Statement</title>
+      <p>Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Informed Consent Statement</title>
+      <p>Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The original contributions presented in this study are included in the article. Further inquiries can be directed to the corresponding author.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-sensors-26-01495">
+        <label>1.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baggeroer</surname>
+              <given-names>A.B.</given-names>
+            </name>
+            <name>
+              <surname>Kuperman</surname>
+              <given-names>W.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Matched Field Processing in Ocean Acoustics</article-title>
+          <source>Acoustic Signal Processing for Ocean Exploration</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Moura</surname>
+              <given-names>J.M.F.</given-names>
+            </name>
+            <name>
+              <surname>Lourtie</surname>
+              <given-names>I.M.G.</given-names>
+            </name>
+          </person-group>
+          <series>NATO ASI Series</series>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Dordrecht, The Netherlands</publisher-loc>
+          <year>1993</year>
+          <volume>Volume 388</volume>
+          <fpage>79</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-94-011-1604-6_8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-sensors-26-01495">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Matched Field Processing Based on Bayesian Estimation</article-title>
+          <source>Sensors</source>
+          <year>2020</year>
+          <volume>20</volume>
+          <elocation-id>1374</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/s20051374</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-sensors-26-01495">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schippkus</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hadziioannou</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Matched field processing accounting for complex Earth structure: Method and review</article-title>
+          <source>Geophys. J. Int.</source>
+          <year>2022</year>
+          <volume>231</volume>
+          <fpage>1268</fpage>
+          <lpage>1282</lpage>
+          <pub-id pub-id-type="doi">10.1093/gji/ggac240</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-sensors-26-01495">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Asghari</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zareinejad</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rezaei</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Amindavar</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Robust Matched Field Processing Using an Empirical Characteristic Function Approach Under Impulsive Noise Environments</article-title>
+          <source>Acoust. Aust.</source>
+          <year>2023</year>
+          <volume>51</volume>
+          <fpage>201</fpage>
+          <lpage>219</lpage>
+          <pub-id pub-id-type="doi">10.1007/s40857-023-00287-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-sensors-26-01495">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Validity of matched-field source localization in under-ice shallow water</article-title>
+          <source>Intell. Mar. Technol. Syst.</source>
+          <year>2024</year>
+          <volume>2</volume>
+          <fpage>8</fpage>
+          <pub-id pub-id-type="doi">10.1007/s44295-024-00022-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-sensors-26-01495">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Worthmann</surname>
+              <given-names>B.M.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>H.C.</given-names>
+            </name>
+            <name>
+              <surname>Dowling</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>High frequency source localization in a shallow ocean sound channel using frequency difference matched field processing</article-title>
+          <source>J. Acoust. Soc. Am.</source>
+          <year>2015</year>
+          <volume>138</volume>
+          <fpage>3549</fpage>
+          <lpage>3562</lpage>
+          <pub-id pub-id-type="doi">10.1121/1.4936856</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-sensors-26-01495">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Worthmann</surname>
+              <given-names>B.M.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>H.C.</given-names>
+            </name>
+            <name>
+              <surname>Dowling</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Adaptive frequency-difference matched field processing for high frequency source localization in a noisy shallow ocean</article-title>
+          <source>J. Acoust. Soc. Am.</source>
+          <year>2017</year>
+          <volume>141</volume>
+          <fpage>543</fpage>
+          <lpage>556</lpage>
+          <pub-id pub-id-type="doi">10.1121/1.4973955</pub-id>
+          <pub-id pub-id-type="pmid">28147605</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-sensors-26-01495">
+        <label>8.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Frequency-Difference Matched Field Processing for Broadband Source Localization with One Hydrophone in Shallow Ocean Environment</article-title>
+          <source>Proceedings of the 2020 IEEE 3rd International Conference on Information Communication and Signal Processing (ICICSP)</source>
+          <conf-loc>Shanghai, China</conf-loc>
+          <conf-date>12&#x2013;15 September 2020</conf-date>
+          <fpage>84</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="doi">10.1109/ICICSP50920.2020.9232089</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-sensors-26-01495">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Choo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reformulation of frequency-difference matched-field processor for high-frequency known-source localization</article-title>
+          <source>J. Acoust. Soc. Am.</source>
+          <year>2023</year>
+          <volume>154</volume>
+          <fpage>948</fpage>
+          <lpage>967</lpage>
+          <pub-id pub-id-type="doi">10.1121/10.0020589</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-sensors-26-01495">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Source Range Estimation Using Linear Frequency-Difference Matched Field Processing in a Shallow Water Waveguide</article-title>
+          <source>Remote Sens.</source>
+          <year>2024</year>
+          <volume>16</volume>
+          <elocation-id>3529</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/rs16183529</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-sensors-26-01495">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Geroski</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Dowling</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Long-range frequency-difference source localization in the Philippine Sea</article-title>
+          <source>J. Acoust. Soc. Am.</source>
+          <year>2019</year>
+          <volume>146</volume>
+          <fpage>4727</fpage>
+          <lpage>4739</lpage>
+          <pub-id pub-id-type="doi">10.1121/1.5138124</pub-id>
+          <pub-id pub-id-type="pmid">31893739</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-sensors-26-01495">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yuan</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Niu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Robust source localization using frequency-difference matched field processing under low signal-to-noise ratio conditions</article-title>
+          <source>J. Appl. Acoust.</source>
+          <year>2025</year>
+          <fpage>1</fpage>
+          <lpage>14</lpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://link.cnki.net/urlid/11.2121.o4.20250806.1054.002" ext-link-type="uri">https://link.cnki.net/urlid/11.2121.o4.20250806.1054.002</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-02-23">(accessed on 23 February 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B13-sensors-26-01495">
+        <label>13.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ho</surname>
+              <given-names>C.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.-H.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>C.-F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Robustness Analysis of Frequency-Difference Methods for Shallow-Water Source Localization Under Water Depth Mismatch</article-title>
+          <source>Proceedings of the 2025 IEEE Underwater Technology (UT)</source>
+          <conf-loc>Taipei, Taiwan</conf-loc>
+          <conf-date>5&#x2013;8 March 2025</conf-date>
+          <fpage>1</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="doi">10.1109/UT61067.2025.10947378</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-sensors-26-01495">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Joslyn</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Douglass</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Dowling</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial Coherence Comparisons between the Acoustic Field and Its Frequency-Difference and Frequency-Sum Autoproducts in the Ocean</article-title>
+          <source>Acoustics</source>
+          <year>2022</year>
+          <volume>4</volume>
+          <fpage>764</fpage>
+          <lpage>782</lpage>
+          <pub-id pub-id-type="doi">10.3390/acoustics4030046</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-sensors-26-01495">
+        <label>15.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improve long-range source localization in the South China Sea by suppressing frequency-difference autoproduct cross-term</article-title>
+          <source>Proceedings of the 2023 7th International Conference on Machine Vision and Information Technology (CMVIT)</source>
+          <conf-loc>Xiamen, China</conf-loc>
+          <conf-date>24&#x2013;26 March 2023</conf-date>
+          <fpage>17</fpage>
+          <lpage>21</lpage>
+          <pub-id pub-id-type="doi">10.1109/CMVIT57620.2023.00013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-sensors-26-01495">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research on the broadband source localization of a vector hydrophone vertical line array in the deep sea</article-title>
+          <source>Ocean Eng.</source>
+          <year>2023</year>
+          <volume>280</volume>
+          <fpage>114656</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.oceaneng.2023.114656</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-sensors-26-01495">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Geroski</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Dzieciuch</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Dowling</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Measurements of the correlation of the frequency-difference autoproduct with acoustic and predicted-autoproduct fields in the deep ocean</article-title>
+          <source>J. Acoust. Soc. Am.</source>
+          <year>2021</year>
+          <volume>149</volume>
+          <fpage>853</fpage>
+          <lpage>865</lpage>
+          <pub-id pub-id-type="doi">10.1121/10.0003377</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-sensors-26-01495">
+        <label>18.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Porter</surname>
+              <given-names>M.B.</given-names>
+            </name>
+          </person-group>
+          <source>The KRAKEN Normal Mode Program</source>
+          <comment>SACLANT Undersea Research Centre Memorandum SM-245</comment>
+          <publisher-name>SACLANTCEN</publisher-name>
+          <publisher-loc>La Spezia, Italy</publisher-loc>
+          <year>1991</year>
+        </element-citation>
+      </ref>
+      <ref id="B19-sensors-26-01495">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Volkov</surname>
+              <given-names>M.V.</given-names>
+            </name>
+            <name>
+              <surname>Lunkov</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Petnikov</surname>
+              <given-names>V.G.</given-names>
+            </name>
+            <name>
+              <surname>Shatravin</surname>
+              <given-names>A.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Underwater Acoustic Communications Using Vertical Receiver Arrays in Ice-Covered Shallow-Water Areas</article-title>
+          <source>Oceanology</source>
+          <year>2021</year>
+          <volume>61</volume>
+          <fpage>569</fpage>
+          <lpage>580</lpage>
+          <pub-id pub-id-type="doi">10.1134/S0001437021040160</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-sensors-26-01495">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Nonlinear Adaptive Beamforming Algorithm Based on Least Squares Support Vector Regression</article-title>
+          <source>Sensors</source>
+          <year>2012</year>
+          <volume>12</volume>
+          <fpage>12424</fpage>
+          <lpage>12436</lpage>
+          <pub-id pub-id-type="doi">10.3390/s120912424</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-sensors-26-01495">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jomon</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Jojish</surname>
+              <given-names>J.V.</given-names>
+            </name>
+            <name>
+              <surname>Santhanakrishnan</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>MVDR Beamformer with Subband Peak Energy Detector for Detection and Tracking of Fast Moving Underwater Targets Using Towed Array Sonars</article-title>
+          <source>Acta Acust. United Acust.</source>
+          <year>2019</year>
+          <volume>105</volume>
+          <fpage>220</fpage>
+          <lpage>225</lpage>
+          <pub-id pub-id-type="doi">10.3813/AAA.919302</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-sensors-26-01495">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richmond</surname>
+              <given-names>C.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Capon&#x2013;Bartlett cross-spectrum and a perspective on robust adaptive filtering</article-title>
+          <source>Signal Process.</source>
+          <year>2020</year>
+          <volume>171</volume>
+          <fpage>107473</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.sigpro.2020.107473</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-sensors-26-01495">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quan</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Maximum Element Dichotomous Coordinate Descent Based Minimum Variance Distortionless Response DoA Estimator</article-title>
+          <source>Electronics</source>
+          <year>2021</year>
+          <volume>10</volume>
+          <elocation-id>2966</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/electronics10232966</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-sensors-26-01495">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Shang</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple Signal Classification Algorithm Based Electric Dipole Source Localization Method in an Underwater Environment</article-title>
+          <source>Symmetry</source>
+          <year>2017</year>
+          <volume>9</volume>
+          <elocation-id>231</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/sym9100231</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-sensors-26-01495">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jeong</surname>
+              <given-names>S.-H.</given-names>
+            </name>
+            <name>
+              <surname>Son</surname>
+              <given-names>B.-K.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.-H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Asymptotic Performance Analysis of the MUSIC Algorithm for Direction-of-Arrival Estimation</article-title>
+          <source>Appl. Sci.</source>
+          <year>2020</year>
+          <volume>10</volume>
+          <elocation-id>2063</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/app10062063</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-sensors-26-01495">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gerstoft</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.-H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Difference-Frequency MUSIC for DOAs</article-title>
+          <source>IEEE Signal Process. Lett.</source>
+          <year>2022</year>
+          <volume>29</volume>
+          <fpage>2612</fpage>
+          <lpage>2616</lpage>
+          <pub-id pub-id-type="doi">10.1109/LSP.2022.3230365</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-sensors-26-01495">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wax</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kailath</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Detection of signals by information theoretic criteria</article-title>
+          <source>IEEE Trans. Acoust. Speech Signal Process.</source>
+          <year>1985</year>
+          <volume>33</volume>
+          <fpage>387</fpage>
+          <lpage>392</lpage>
+          <pub-id pub-id-type="doi">10.1109/TASSP.1985.1164557</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="sensors-26-01495-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Schematic diagram of MFP.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-26-01495-g001.tif"/>
+      </fig>
+      <fig id="sensors-26-01495-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Schematic diagram of the proposed adaptive FDSL methods.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-26-01495-g002.tif"/>
+      </fig>
+      <fig id="sensors-26-01495-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Schematic of two-stage averaging strategy for FDSL with multiple difference frequency values.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-26-01495-g003.tif"/>
+      </fig>
+      <fig id="sensors-26-01495-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Deep-sea simulation environment with Munk sound speed profile.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-26-01495-g004.tif"/>
+      </fig>
+      <fig id="sensors-26-01495-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Localization ambiguity surfaces at SNR = 0 dB with difference frequencies of 1, 3, and 5 Hz: (<bold>a</bold>) FDMFP; (<bold>b</bold>) FDSL; (<bold>c</bold>) FDSL-MVDR; (<bold>d</bold>) FDSL-MUSIC.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-26-01495-g005.tif"/>
+      </fig>
+      <fig id="sensors-26-01495-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Normalized range profiles at the true source depth (1000 m) for FDSL, FDSL-MVDR, and FDSL-MUSIC. (<bold>a</bold>) SNR = 10 dB; (<bold>b</bold>) SNR = 0 dB.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-26-01495-g006.tif"/>
+      </fig>
+      <fig id="sensors-26-01495-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>FDSL performance comparison under different SNR conditions. (<bold>a</bold>) Average range error; (<bold>b</bold>) average depth error; (<bold>c</bold>) peak-to-background ratio; (<bold>d</bold>) success rate.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-26-01495-g007a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-26-01495-g007b.tif"/>
+      </fig>
+      <table-wrap id="sensors-26-01495-t001" position="float">
+        <object-id pub-id-type="pii">sensors-26-01495-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Performance comparison under different SSP mismatch scenarios.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Method</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Metric</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">0 m/s (Matched)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">+2 m/s</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x2212;2 m/s</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">+5 m/s</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x2212;5 m/s</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="center" valign="middle">FDSL</td>
+              <td align="center" valign="middle">Range Error (km)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0.200</td>
+              <td align="center" valign="middle">0.201</td>
+              <td align="center" valign="middle">0.400</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Depth Error (m)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PBR (dB)</td>
+              <td align="center" valign="middle">8.68</td>
+              <td align="center" valign="middle">8.67</td>
+              <td align="center" valign="middle">8.67</td>
+              <td align="center" valign="middle">8.67</td>
+              <td align="center" valign="middle">8.69</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-top:solid thin">FDSL-<break/>MVDR</td>
+              <td align="center" valign="middle" style="border-top:solid thin">Range Error (km)</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.200</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.204</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.400</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Depth Error (m)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PBR (dB)</td>
+              <td align="center" valign="middle">14.28</td>
+              <td align="center" valign="middle">14.64</td>
+              <td align="center" valign="middle">14.70</td>
+              <td align="center" valign="middle">14.63</td>
+              <td align="center" valign="middle">14.74</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">FDSL-<break/>MUSIC</td>
+              <td align="center" valign="middle" style="border-top:solid thin">Range Error (km)</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.200</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.2</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.400</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Depth Error (m)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PBR (dB)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.61</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.40</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.82</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.32</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.20</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sensors-26-01495-t002" position="float">
+        <object-id pub-id-type="pii">sensors-26-01495-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Performance comparison under different water depth mismatch scenarios.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Method</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Metric</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">0 m<break/>(Matched)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x2212;100 m</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">+100 m</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x2212;200 m</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">+200 m</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="center" valign="middle">FDSL</td>
+              <td align="center" valign="middle">Range Error (km)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0.125</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Depth Error (m)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PBR (dB)</td>
+              <td align="center" valign="middle">8.68</td>
+              <td align="center" valign="middle">8.65</td>
+              <td align="center" valign="middle">8.69</td>
+              <td align="center" valign="middle">8.23</td>
+              <td align="center" valign="middle">8.69</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-top:solid thin">FDSL-<break/>MVDR</td>
+              <td align="center" valign="middle" style="border-top:solid thin">Range Error (km)</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.2</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Depth Error (m)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PBR (dB)</td>
+              <td align="center" valign="middle">14.28</td>
+              <td align="center" valign="middle">14.76</td>
+              <td align="center" valign="middle">14.58</td>
+              <td align="center" valign="middle">13.32</td>
+              <td align="center" valign="middle">14.59</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">FDSL-<break/>MUSIC</td>
+              <td align="center" valign="middle" style="border-top:solid thin">Range Error (km)</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.082</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Depth Error (m)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PBR (dB)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.61</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.49</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.09</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sensors-26-01495-t003" position="float">
+        <object-id pub-id-type="pii">sensors-26-01495-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Performance comparison under different seabed attenuation mismatch scenarios.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Method</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Metric</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">0.1 <break/>dB/<inline-formula><mml:math id="mm116"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:mi mathvariant="bold-sans-serif">&#x3BB;</mml:mi></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">0.2 <break/>dB/<inline-formula><mml:math id="mm117"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mi mathvariant="bold-sans-serif">&#x3BB;</mml:mi></mml:mstyle></mml:semantics></mml:math></inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">0.4 <break/>dB/<inline-formula><mml:math id="mm118"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:mi mathvariant="bold-sans-serif">&#x3BB;</mml:mi></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">0.8 dB/<inline-formula><mml:math id="mm119"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:mi mathvariant="bold-sans-serif">&#x3BB;</mml:mi></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula><break/>(Matched)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">1.2 <break/>dB/<inline-formula><mml:math id="mm120"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:mi mathvariant="bold-sans-serif">&#x3BB;</mml:mi></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">1.5 <break/>dB/<inline-formula><mml:math id="mm121"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:mi mathvariant="bold-sans-serif">&#x3BB;</mml:mi></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="center" valign="middle">FDSL</td>
+              <td align="center" valign="middle">Range Error (km)</td>
+              <td align="center" valign="middle">0.137</td>
+              <td align="center" valign="middle">0.005</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Depth Error (m)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PBR (dB)</td>
+              <td align="center" valign="middle">8.71</td>
+              <td align="center" valign="middle">8.71</td>
+              <td align="center" valign="middle">8.70</td>
+              <td align="center" valign="middle">8.68</td>
+              <td align="center" valign="middle">8.68</td>
+              <td align="center" valign="middle">8.68</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-top:solid thin">FDSL-<break/>MVDR</td>
+              <td align="center" valign="middle" style="border-top:solid thin">Range Error (km)</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.035</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.001</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Depth Error (m)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PBR (dB)</td>
+              <td align="center" valign="middle">13.63</td>
+              <td align="center" valign="middle">13.64</td>
+              <td align="center" valign="middle">14.65</td>
+              <td align="center" valign="middle">14.28</td>
+              <td align="center" valign="middle">14.68</td>
+              <td align="center" valign="middle">14.69</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">FDSL-<break/>MUSIC</td>
+              <td align="center" valign="middle" style="border-top:solid thin">Range Error (km)</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.054</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Depth Error (m)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PBR (dB)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.32</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.36</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.48</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.61</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.67</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.71</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sensors-26-01495-t004" position="float">
+        <object-id pub-id-type="pii">sensors-26-01495-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Performance comparison under different array element position mismatch scenarios.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Method</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Metric</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula><mml:math id="mm122"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:mi mathvariant="bold-italic">&#x3C3;</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula> (Matched)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula><mml:math id="mm123"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:mi mathvariant="bold-italic">&#x3C3;</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula> m</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula><mml:math id="mm124"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:mi mathvariant="bold-italic">&#x3C3;</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula> m</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula><mml:math id="mm125"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:mi mathvariant="bold-italic">&#x3C3;</mml:mi><mml:mo>=</mml:mo><mml:mn>10</mml:mn></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula> m</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="center" valign="middle">FDSL</td>
+              <td align="center" valign="middle">Range Error (km)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0.200</td>
+              <td align="center" valign="middle">0.200</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Depth Error (m)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">20</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PBR (dB)</td>
+              <td align="center" valign="middle">8.68</td>
+              <td align="center" valign="middle">8.21</td>
+              <td align="center" valign="middle">8.11</td>
+              <td align="center" valign="middle">8.08</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-top:solid thin">FDSL-<break/>MVDR</td>
+              <td align="center" valign="middle" style="border-top:solid thin">Range Error (km)</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.200</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.200</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Depth Error (m)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">20</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PBR (dB)</td>
+              <td align="center" valign="middle">14.28</td>
+              <td align="center" valign="middle">13.49</td>
+              <td align="center" valign="middle">13.57</td>
+              <td align="center" valign="middle">13.51</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">FDSL-<break/>MUSIC</td>
+              <td align="center" valign="middle" style="border-top:solid thin">Range Error (km)</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.200</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.200</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Depth Error (m)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">20</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PBR (dB)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.61</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.89</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.78</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.45</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

@@ -1,0 +1,93 @@
+{
+  "stage": "R4_E2_G0_HLA_DIFFERENCE_FREQUENCY_OBSERVABILITY",
+  "parent_SHA": "43fa1f5726cd7ecc97c632a7f652c10f83df9eff",
+  "E1_G0_audit": "ACCEPTED_AND_CLOSED",
+  "commit_A_title": "R4 E2-G0: freeze HLA difference-frequency physics screen",
+  "scenes": 24,
+  "physical_epochs_s": [
+    0,
+    600,
+    1200
+  ],
+  "frequency_pairs": 569,
+  "raw_frequencies": 201,
+  "frequency_resolution_hz": 0.5,
+  "source_band_hz": [
+    150,
+    250
+  ],
+  "array_axis": "FIXED_GLOBAL_X",
+  "array_elements_per_node": 8,
+  "array_spacing_m": 2,
+  "nodes": 2,
+  "array_zr_m": 200,
+  "aux_baseline_m": 5000,
+  "nominal_source_depth_m": 200,
+  "unknown_depth_primary": true,
+  "exact_navigation_physical_control": true,
+  "not_AP_bearing_independent_fusion": true,
+  "original_source_status": {
+    "Park2024": "FULL",
+    "Yin2026": "FULL",
+    "SongWang2023": "PARTIAL",
+    "FDSL_POMAP_CMAP": "PARTIAL_COMPARATOR_PENDING"
+  },
+  "budgets": {
+    "modal_solver_calls_max": 804,
+    "modal_wall_seconds": 1800,
+    "per_modal_timeout_seconds": 90,
+    "FIELD_calls_max": 9,
+    "FIELD_timeout_seconds": 60,
+    "scientific_executions": 1,
+    "snapshots_per_scene": 3,
+    "target_columns": 5,
+    "pressure_stencils": 32,
+    "candidate_states_per_scene_max": 63,
+    "candidate_scores_max": 1512,
+    "information_wall_seconds": 1800,
+    "field_state_evaluations_max": 2376
+  },
+  "admission": {
+    "plane_CA_atol": 1e-10,
+    "FIELD_and_mesh_relative": 0.002,
+    "dense_covariance_relative": 1e-09,
+    "local_Jacobian_relative": 0.02,
+    "profiled_range_information_relative": 0.1,
+    "data_processing_relative": 1e-07
+  },
+  "numerical_work_before_freeze": "NONE; source and existing-provider metadata only",
+  "new_Monte_Carlo": 0,
+  "new_audio": 0,
+  "R4_percent": 0,
+  "automatic_next_stage": false,
+  "bindings": {
+    "r4_e2_g0.py": "3292f3edc38e6bb2029a05cbde8af21106cfc060e4feb1ae39e4844b7706e5d6",
+    "r4_e1_g0.py": "ef77babe983853b60b526d0c6a97203644fc3759b5e2a19e4b9f9fe52d536cd8",
+    "results/R4_E1_G0_FREQUENCY_INFORMATION/E1_G0_SCENE_BINDINGS.json": "deb982bde5b4def3f3918d35a571d6416d5c268f2cfcb583c09c8a0a38c54f04",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_TRUTH_PANEL.csv": "32827787058b6ef2b28c791cc9d403850c1d64f3da7d98bb4accf5ac821482c6",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f201.env": "2dce749602ce760b610c109d8774b9269d0332ed322b4cdd05db36c41195d11a",
+    "r3_rc3_reanchor_1f_forward_gate.py": "9840cb910f080ff53766f44b47529b6fc88214c091cf26c34eb760065f63491f",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/sources/Park2024.html": "dcd235ff2848205ca54235850411ee444b1b58c749910b3a04d4f4571b93faf2",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/sources/Park2024.pdf": "613263e636a7d913df9e1a897eedc2c8fa788793f2e4bdb8c47c28169fd11980",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/sources/SOURCE_ACCESS_ATTEMPTS_1.json": "ed1d041e783f094420084d650d2cf9b99a4c1b2a22aa848ff15da5255a5ba107",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/sources/SOURCE_ACCESS_ATTEMPTS_2.json": "abf0e4d387cc75ab976f599308d3d92303a10e04c769ceb42f9a376edb0fa6c2",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/sources/Yin2026.pdf": "d987efe096c3c4012700f3b8f1776771cad64d9ece8f37c2d7982ee3dc196200",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/sources/Yin2026.xml": "e353cc959663db6082f626fb647ab133187d4be4549d676daaf7ae775ce66499",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/E2_REQUIRED_FREQUENCIES.json": "f2dd4cb8f09c2ad778bc44ad5442c4f9b213827ba81683d49918039d944b6aec",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/E2_SCENE_FREEZE.json": "59bc39f1bd02c82a9da31104f91d1a7a4cb62b71e0a3d59f0a14b3d1bf5cb46b",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/E2_HLA_PRIMARY_PAPER_COMPARISON.md": "799c7d36c13d21c4564d6a23f12727b2e3ac457b6f76ad5ebeee228392383721",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/E2_PLANE_WAVE_NULL_CONTROL.md": "1742ae8117b76f589259b721509895786cb04ec2cdc7a6b2e3a65e12e6e4b70b",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/E2_IMPLEMENTATION_CONTRACT.md": "993aefb532e7b2ba25aa9df9ac71ebaaacd3eb2db61b1204d0c015415ab22d2d",
+    "tools/acoustics_toolbox/atWin10/at/bin/kraken.exe": "997d533594c89f8cc63b520ae29cadec743ecfbdb64898f4c3294ab0254f4eb7",
+    "tools/acoustics_toolbox/atWin10/at/bin/field.exe": "65067be0f3fc3eb9cdf7b73e8a8888e0e3beabaa2de24fa25a24b960f03b00ba",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/.gitattributes": "b718ad282f5010a72738848ba6643b440594806d6555a5e8f853e6019f0e97e4"
+  },
+  "source_raw_sha256": {
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/sources/Park2024.html": "dcd235ff2848205ca54235850411ee444b1b58c749910b3a04d4f4571b93faf2",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/sources/Park2024.pdf": "613263e636a7d913df9e1a897eedc2c8fa788793f2e4bdb8c47c28169fd11980",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/sources/SOURCE_ACCESS_ATTEMPTS_1.json": "3d7aa8b662791080809481a6a7f27edced492b268f0f79e37d20b8536401511e",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/sources/SOURCE_ACCESS_ATTEMPTS_2.json": "3663743993390c948f8dd06ce6870f3d8660a0705fd6d6460011c9a8915e236f",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/sources/Yin2026.pdf": "d987efe096c3c4012700f3b8f1776771cad64d9ece8f37c2d7982ee3dc196200",
+    "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/sources/Yin2026.xml": "e353cc959663db6082f626fb647ab133187d4be4549d676daaf7ae775ce66499"
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "scenes": [
+    {
+      "scene_id": "H01_M",
+      "case_id": "H01",
+      "mirror": -1,
+      "state": [
+        50302.0808614775,
+        -793.1354128748897,
+        1.9493790216310858,
+        -0.07531350787923469
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H01_P",
+      "case_id": "H01",
+      "mirror": 1,
+      "state": [
+        50302.0808614775,
+        -793.1354128748897,
+        1.9493790216310858,
+        -0.07531350787923469
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H02_M",
+      "case_id": "H02",
+      "mirror": -1,
+      "state": [
+        51137.128069389284,
+        681.3239019163757,
+        1.53136610802614,
+        -0.09265637754619711
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H02_P",
+      "case_id": "H02",
+      "mirror": 1,
+      "state": [
+        51137.128069389284,
+        681.3239019163757,
+        1.53136610802614,
+        -0.09265637754619711
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H03_M",
+      "case_id": "H03",
+      "mirror": -1,
+      "state": [
+        51955.488468115684,
+        -1424.0235389550546,
+        2.11034176349057,
+        -0.17396520131196497
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H03_P",
+      "case_id": "H03",
+      "mirror": 1,
+      "state": [
+        51955.488468115684,
+        -1424.0235389550546,
+        2.11034176349057,
+        -0.17396520131196497
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H04_M",
+      "case_id": "H04",
+      "mirror": -1,
+      "state": [
+        52808.25817440414,
+        89.09562235036927,
+        1.6797187511126066,
+        0.2671683831191172
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H04_P",
+      "case_id": "H04",
+      "mirror": 1,
+      "state": [
+        52808.25817440414,
+        89.09562235036927,
+        1.6797187511126066,
+        0.2671683831191172
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H05_M",
+      "case_id": "H05",
+      "mirror": -1,
+      "state": [
+        53616.265038288344,
+        1650.6138621119997,
+        2.263100769271237,
+        0.3095032620749695
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H05_P",
+      "case_id": "H05",
+      "mirror": 1,
+      "state": [
+        53616.265038288344,
+        1650.6138621119997,
+        2.263100769271237,
+        0.3095032620749695
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H06_M",
+      "case_id": "H06",
+      "mirror": -1,
+      "state": [
+        54472.30432141874,
+        -541.9288834754432,
+        1.8553566775091943,
+        0.21262137527079283
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H06_P",
+      "case_id": "H06",
+      "mirror": 1,
+      "state": [
+        54472.30432141874,
+        -541.9288834754432,
+        1.8553566775091943,
+        0.21262137527079283
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H07_M",
+      "case_id": "H07",
+      "mirror": -1,
+      "state": [
+        55298.202356117516,
+        1058.5614261775795,
+        2.440404612584241,
+        0.22585250641809881
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H07_P",
+      "case_id": "H07",
+      "mirror": 1,
+      "state": [
+        55298.202356117516,
+        1058.5614261775795,
+        2.440404612584241,
+        0.22585250641809881
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H08_M",
+      "case_id": "H08",
+      "mirror": -1,
+      "state": [
+        56128.58995673397,
+        -1211.6623209182255,
+        2.02911823337824,
+        0.14322437903425542
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H08_P",
+      "case_id": "H08",
+      "mirror": 1,
+      "state": [
+        56128.58995673397,
+        -1211.6623209182255,
+        2.02911823337824,
+        0.14322437903425542
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H09_M",
+      "case_id": "H09",
+      "mirror": -1,
+      "state": [
+        56973.395484391884,
+        427.5885628435142,
+        1.615586126992292,
+        0.07866203830339871
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H09_P",
+      "case_id": "H09",
+      "mirror": 1,
+      "state": [
+        56973.395484391884,
+        427.5885628435142,
+        1.615586126992292,
+        0.07866203830339871
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H10_M",
+      "case_id": "H10",
+      "mirror": -1,
+      "state": [
+        57776.439629535496,
+        -1920.0069042628083,
+        2.2000409851206824,
+        0.05905103640349602
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H10_P",
+      "case_id": "H10",
+      "mirror": 1,
+      "state": [
+        57776.439629535496,
+        -1920.0069042628083,
+        2.2000409851206824,
+        0.05905103640349602
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H11_M",
+      "case_id": "H11",
+      "mirror": -1,
+      "state": [
+        58641.16639648818,
+        -242.22531624389424,
+        1.7841442053636092,
+        0.008952592468110105
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H11_P",
+      "case_id": "H11",
+      "mirror": 1,
+      "state": [
+        58641.16639648818,
+        -242.22531624389424,
+        1.7841442053636092,
+        0.008952592468110105
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H12_M",
+      "case_id": "H12",
+      "mirror": -1,
+      "state": [
+        59456.47711113181,
+        1484.2353362791184,
+        2.367165954219456,
+        -0.03976927437474377
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H12_P",
+      "case_id": "H12",
+      "mirror": 1,
+      "state": [
+        59456.47711113181,
+        1484.2353362791184,
+        2.367165954219456,
+        -0.03976927437474377
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    }
+  ],
+  "source_depth_nominal_m": 200,
+  "physical_epoch_s": [
+    0,
+    600,
+    1200
+  ],
+  "same_1200s_trajectory": true,
+  "main_speed_mps": 2,
+  "turn_s": 600,
+  "turn_heading_deg": 15,
+  "aux_offset": "fixed global y, mirror*5000m",
+  "HLA_axis": "FIXED_GLOBAL_X; NOT_TRUTH_ALIGNED",
+  "HLA_offsets_m": [
+    -7,
+    -5,
+    -3,
+    -1,
+    1,
+    3,
+    5,
+    7
+  ],
+  "HLA_depth_m": 200,
+  "new_resource_assumptions": "two internally coherent 8-element HLAs; known exact element positions/depths for this physical mechanism; not hardware acceptance"
+}

@@ -280,3 +280,8 @@ Parent 0db30f60e781676f9168d380678693a32f1325a1 frontier design ACCEPTED_WITH_E1
 ## E1-G0 frequency mechanism screen
 
 Source measurement lock ACCEPTED_WITH_ORIGINAL_ESTIMATOR_EXCEPTION at f9b994a; G0 admitted, G1 not admitted. Design46242899 frozen/pushed before execution. [Report](../R4_E1_G0_FREQUENCY_INFORMATION/E1_G0_REPORT.md). 24 nominal mirror scenes,1896 deterministic information records; no MC/audio/propagation. E1_G0_FREQUENCY_INCREMENT_NOT_ESTABLISHED: best registered 3-line1mHz N2 C0 median variance reduction0.125681%, below20%; N0/N5 also below gate. All corners/packages retained. Numerical controls,finite differences,dense covariance reconstruction pass. Mechanism screen completed, no P95 claim; R4-A1/R4=0%. Recommended E2_REVIEW only; G1/E2/depth/A2/SSP/P5 unopened. Push execution commit then STOP for independent audit.
+
+
+## E2-G0 physical design freeze
+
+E1-G0 accepted at43fa1f57 and closed, no G1. New explicit custom HLA autoproduct observability screen. [Freeze](../R4_E2_G0_HLA_DIFFERENCE_INFORMATION/E2_G0_DESIGN_FREEZE.json):24 scenes, same1200s trajectory, three physical snapshots, two new8×2m HLAs, 150–250Hz exact-frequency modal provider, source/gain/depth nuisance profiling and shared-pair covariance. Physics admission and bounded computation precede information claims. No new MC/audio; R4=0%; stop after execution push.
