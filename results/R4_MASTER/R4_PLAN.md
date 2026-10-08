@@ -312,3 +312,7 @@ E2 nine-pair pilot final IMPLEMENTATION_INVALID: retained automatic A overridden
 
 ## E2 analytic formula repair closed
 E2_FORMULA_REPAIR_FAILED: registered pre-development nominal-pressure consistency guard failed (20/48); P1 physical rank 48/48 passed. No development regression executed. Numerical geometry roundtrip mismatch is implementation evidence, not physical non-identifiability. Old E2 admission FAIL_UNCHANGED, pilot IMPLEMENTATION_INVALID, R4=0%. See ../R4_E2_NINE_PAIR_FORMULA_REPAIR/GPT_SYNC.md. Stop; H3 review only, execution not authorized.
+
+
+## H3 depth observable research review
+H3_REVIEW_COMPLETED_WITH_CONDITIONAL_PRIMARY_AND_SECONDARY. Main B: limited vertical spatial response (new4 channels, candidate4m aperture), backup A: extracted HLA coarse groups; C is interval/class output only. Group gain/source/horizontal support zero controls required. Literature and design only; no H3 numerical admission or science experiments. E2 paused on coordinate-identity guard failure, not physics No-Go. R4=0%. See ../R4_H3_DEPTH_OBSERVABLE_REVIEW/GPT_SYNC.md. Next proposed minimal-mechanism freeze requires separate stage authorization; STOP after this review commit.

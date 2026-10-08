@@ -1,0 +1,152 @@
+{
+  "scope": "DOCUMENTATION_AND_EXISTING_SOURCE_HASH_CHECKS_ONLY",
+  "checks": 36,
+  "PASS": 36,
+  "FAIL": 0,
+  "details": [
+    {
+      "check": "required_file:H3_PRIMARY_METHOD_COVERAGE.md",
+      "PASS": true
+    },
+    {
+      "check": "required_file:H3_HISTORICAL_FAILURE_SCOPE.md",
+      "PASS": true
+    },
+    {
+      "check": "required_file:H3_OBSERVABLE_AND_NUISANCE_MATRIX.md",
+      "PASS": true
+    },
+    {
+      "check": "required_file:H3_ARCHITECTURE_COMPARISON.md",
+      "PASS": true
+    },
+    {
+      "check": "required_file:H3_TOP2_RESEARCH_HYPOTHESES.md",
+      "PASS": true
+    },
+    {
+      "check": "required_file:H3_MINIMAL_MECHANISM_DESIGN.md",
+      "PASS": true
+    },
+    {
+      "check": "required_file:H3_BREAKTHROUGH_METRICS.md",
+      "PASS": true
+    },
+    {
+      "check": "required_file:GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "required_file:H3_REVIEW_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "required_file:PRIMARY_SOURCE_PROVENANCE.csv",
+      "PASS": true
+    },
+    {
+      "check": "local_link:H3_HISTORICAL_FAILURE_SCOPE.md:../R3_C2_Yang_SA_depth/R3_C2_3A/R3_C2_3A_REPORT.md",
+      "PASS": true
+    },
+    {
+      "check": "local_link:H3_HISTORICAL_FAILURE_SCOPE.md:../R3_C2_AR_MMAR/R3_C2_4B_3A_HANKEL_AMPLITUDE/R3_C2_4B_3A_REPORT.md",
+      "PASS": true
+    },
+    {
+      "check": "local_link:H3_HISTORICAL_FAILURE_SCOPE.md:../R3_C2_AR_MMAR/R3_C2_4B_3A_HANKEL_AMPLITUDE/DZ_INPUT_CONTRACT.md",
+      "PASS": true
+    },
+    {
+      "check": "local_link:H3_HISTORICAL_FAILURE_SCOPE.md:../R4_B1_CONDITIONAL_DEPTH_IDENTIFIABILITY/B1_REPORT.md",
+      "PASS": true
+    },
+    {
+      "check": "local_link:H3_HISTORICAL_FAILURE_SCOPE.md:../R4_B1A_RANGE_SPEED_CONDITIONING_BOUNDARY/B1A_REPORT.md",
+      "PASS": true
+    },
+    {
+      "check": "local_link:H3_HISTORICAL_FAILURE_SCOPE.md:../R4_B1B_JOINT_RVZ_PROFILE_DIAGNOSTIC_AND_CLOSEOUT/R4_B1_CLOSEOUT.md",
+      "PASS": true
+    },
+    {
+      "check": "local_link:H3_HISTORICAL_FAILURE_SCOPE.md:../R4_E2_NINE_PAIR_FORMULA_REPAIR/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R3_C2_Yang_SA_depth/R3_C2_3A/R3_C2_3A_REPORT.md",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R3_C2_Yang_SA_depth/R3_C2_2C/PRIMARY_SOURCE_SET.md",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R3_C2_AR_MMAR/R3_C2_4A_PRIMARY/MMAR_PRIMARY_SOURCE_LOCK.md",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R3_C2_AR_MMAR/R3_C2_4B_3A_HANKEL_AMPLITUDE/R3_C2_4B_3A_REPORT.md",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R3_C2_AR_MMAR/R3_C2_4B_3A_HANKEL_AMPLITUDE/DZ_INPUT_CONTRACT.md",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R4_B1_CONDITIONAL_DEPTH_IDENTIFIABILITY/B1_REPORT.md",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R4_B1A_RANGE_SPEED_CONDITIONING_BOUNDARY/B1A_REPORT.md",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R4_B1B_JOINT_RVZ_PROFILE_DIAGNOSTIC_AND_CLOSEOUT/R4_B1_CLOSEOUT.md",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/CLOSED_ROUTE_SCOPE_REVIEW.md",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R4_E2_NINE_PAIR_FORMULA_REPAIR/REPAIR_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R4_E2_NINE_PAIR_FORMULA_REPAIR/VALIDATION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R4_E2_NINE_PAIR_INFORMATION_PILOT/DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "history_unchanged:results/R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/PRIMARY_SOURCE_READ_LOG.csv",
+      "PASS": true
+    },
+    {
+      "check": "requested_primary_records",
+      "PASS": true
+    },
+    {
+      "check": "no_numeric_admission",
+      "PASS": true
+    },
+    {
+      "check": "zero_scientific_execution",
+      "PASS": true
+    },
+    {
+      "check": "source_oracle_not_admitted",
+      "PASS": true
+    },
+    {
+      "check": "review_only_next",
+      "PASS": true
+    }
+  ]
+}
