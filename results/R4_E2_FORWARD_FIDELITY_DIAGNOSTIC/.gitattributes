@@ -1,0 +1,4 @@
+third_mesh/*.mod -text -diff
+third_mesh/*.prt -text -diff
+third_mesh/*.stdout.txt -text -diff
+*.npz -text -diff

@@ -290,3 +290,7 @@ E1-G0 accepted at43fa1f57 and closed, no G1. New explicit custom HLA autoproduct
 ## E2-G0 physical screen execution
 
 E2_G0_PHYSICS_OR_COVARIANCE_INCOMPLETE. [Report](../R4_E2_G0_HLA_DIFFERENCE_INFORMATION/E2_G0_REPORT.md). One bounded deterministic attempt; null and physical admission records retained. No MC/audio; R4=0%. STOP pending lead independent audit; no automatic extraction/depth/A2/SSP/P5.
+
+
+## R4 E2 forward fidelity diagnostic
+E2-G0 independent audit accepted at4605cf2; original admission FAIL. Authorizes bounded error attribution only; four third-grid calls; no information/MC/audio. R4=0%. Freeze before execution; commit/push then stop after result.
