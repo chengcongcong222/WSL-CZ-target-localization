@@ -1,0 +1,7 @@
+{
+  "PASS": true,
+  "checks": 44,
+  "new_control_draws": "REGISTERED_SYNTHETIC_FIXTURES_ONLY",
+  "experiment_executed": false,
+  "classification_on_failure": "H3_G2E_STATISTICAL_IMPLEMENTATION_INVALID"
+}

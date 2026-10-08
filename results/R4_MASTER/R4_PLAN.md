@@ -324,3 +324,8 @@ H3_G0_VERTICAL_DEPTH_INFORMATION_PRESENT_CONDITIONALLY. Six retained labels / th
 ## H3-G1 extraction and support readiness review
 
 H3_DEPTH_SUPPORT_AND_PROPAGATION_UNRESOLVED; source and calibration conditional gaps retained. Accepted G0 conditional local mechanism unchanged. Read-only finite score profiles only; no new experiments. A bounded nominal finite-frequency-sample design is proposed, not released. No full RC2 support or constrained propagation-gain contract; no actual extracted observable. H3-B remains priority candidate; H3-A and speed bottleneck retained. R4=0%. One review commit/push/verify and STOP; next execution NOT_AUTHORIZED.
+
+
+## H3-G2E conditional frequency extraction
+
+H3_G2E_COMPRESSED_RESPONSE_EXTRACTION_UNRELIABLE. Full joint CSD statistical interface audited; compressed response diagnostic only. All source/propagation/full horizontal-support boundaries retained. R4=0%; STOP.

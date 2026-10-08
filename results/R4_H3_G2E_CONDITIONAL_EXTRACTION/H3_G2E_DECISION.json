@@ -1,0 +1,23 @@
+{
+  "stage": "R4_H3_G2E_CONDITIONAL_FINITE_SAMPLE_EXTRACTION",
+  "classification": "H3_G2E_COMPRESSED_RESPONSE_EXTRACTION_UNRELIABLE",
+  "registered_cells": 5184,
+  "quality_accepted_cells": 3707,
+  "quality_failure_fraction": 0.28491512345679015,
+  "grid_unstable_cells": 3,
+  "joint_statistical_chain": "PASS",
+  "normalized_response_Fisher_efficiency": "NOT_EVALUATED",
+  "C1b_interpretation": "GAIN_DISTORTED_SOURCE_SCALAR_INVARIANT_RESPONSE;NOT_CALIBRATED_FIELD",
+  "unknown_source_power": "NO_TRUTH_POWER_USED_BY_ESTIMATOR;FINITE_RANDOM_POWER_AFFECTS_DETECTION",
+  "H3_G0": "UNCHANGED",
+  "H3_G1_gaps": "UNCHANGED",
+  "C1g_free_modal_zero": "RETAINED",
+  "C1g_constrained_propagation": "NOT_ESTABLISHED",
+  "C1e_environment_pose": "NOT_ESTABLISHED",
+  "actual_UUV_source_occupancy": "NOT_ESTABLISHED",
+  "TIME_DOMAIN_RECEIVED_SIGNAL_EXTRACTION": "NOT_OPENED",
+  "FULL_RC2_DEPTH_SET": "NOT_ESTABLISHED",
+  "R4_percent": 0,
+  "next_stage": "NOT_AUTHORIZED;STOP",
+  "scientific_scope": "CONDITIONAL_STATIC_FREQUENCY_STATISTICS_ONLY"
+}

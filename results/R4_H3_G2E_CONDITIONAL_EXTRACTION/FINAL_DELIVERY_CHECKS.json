@@ -1,0 +1,14 @@
+{
+  "PASS": true,
+  "checks": 6,
+  "input_sha_recheck": true,
+  "scientific_and_report_audits_PASS": true,
+  "cells": 5184,
+  "archived_independent_pools": 48,
+  "feature_archives": 384,
+  "final_directory_bytes_before_manifest_update": 213987362,
+  "storage_cap_bytes": 1000000000,
+  "R4_percent": 0,
+  "next_stage": "STOP",
+  "editorial_appendix": "EXISTING_REVIEW_STATS_ONLY;NO_NEW_EXPERIMENT_OR_THRESHOLD"
+}

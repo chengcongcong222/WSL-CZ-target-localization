@@ -1,0 +1,53 @@
+{
+  "PASS": true,
+  "checks": 20892,
+  "FAIL": 0,
+  "failures": [],
+  "review_script_sha256": "aeab65a27efb197098fb1d4ade5d55c7997be5bcae24037cbfd9bc3d28d97871",
+  "new_draws": 0,
+  "new_experiments": 0,
+  "independent_aggregation_stats": [
+    {
+      "K": 1,
+      "accepted": 749,
+      "denominator": 1728,
+      "failed_blocks": 4397
+    },
+    {
+      "K": 8,
+      "accepted": 1470,
+      "denominator": 1728,
+      "failed_blocks": 1537
+    },
+    {
+      "K": 32,
+      "accepted": 1488,
+      "denominator": 1728,
+      "failed_blocks": 1358
+    },
+    {
+      "noise_model": "RELATIVE",
+      "sigma": "0.01",
+      "accepted": 1208,
+      "denominator": 1296
+    },
+    {
+      "noise_model": "RELATIVE",
+      "sigma": "0.05",
+      "accepted": 920,
+      "denominator": 1296
+    },
+    {
+      "noise_model": "ABSOLUTE_FLOOR",
+      "sigma": "0.01",
+      "accepted": 1132,
+      "denominator": 1296
+    },
+    {
+      "noise_model": "ABSOLUTE_FLOOR",
+      "sigma": "0.05",
+      "accepted": 447,
+      "denominator": 1296
+    }
+  ]
+}

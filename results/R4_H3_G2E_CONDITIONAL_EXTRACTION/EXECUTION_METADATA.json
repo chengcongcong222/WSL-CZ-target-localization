@@ -1,0 +1,13 @@
+{
+  "execution_seconds": 107.18822010001168,
+  "registered_cells": 5184,
+  "new_independent_random_pools": 48,
+  "realizations_per_cell": 16,
+  "three_template_draws_per_pool": true,
+  "K_nested": true,
+  "frequency_packages_paired": true,
+  "noise_conditions_paired": true,
+  "two_meshes_paired": true,
+  "new_propagation_calls": 0,
+  "localization_error_Monte_Carlo": "NOT_EXECUTED"
+}
