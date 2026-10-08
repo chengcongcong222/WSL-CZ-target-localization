@@ -1,0 +1,59 @@
+{
+  "parent_SHA": "2574fd59cc04ae49d2fb9e7669a79b2d80376caa",
+  "design_SHA": "45c747d0aebbf38b59d2f2fdfc84906d6f001af3",
+  "execution_SHA": "CONTAINING_COMMIT",
+  "remote_main_SHA": "VERIFY_AFTER_PUSH",
+  "decision": "E2_FORMULA_REPAIR_FAILED",
+  "reason": "FROZEN_PRE_DEVELOPMENT_PRESSURE_IDENTITY_GUARD_FAILED",
+  "failure_interpretation": "Mixed original Cartesian geometry and polar-roundtrip geometry caused numerical pressure mismatch; does not demonstrate failure of analytic rank or absence of physical information.",
+  "formula_Gate": "FAIL",
+  "predevelopment_checks": 1305,
+  "predevelopment_PASS": 1285,
+  "predevelopment_FAIL": 20,
+  "P1_physical_rank_pass": 48,
+  "P1_physical_rank_count": 48,
+  "P1_rank_values": [
+    4
+  ],
+  "P1_structural_null_residual_max": 1.4275513226902234e-17,
+  "P1_independent_QR_null_max": 1.4071481619414522e-17,
+  "P2_precontrol_rank_values": [
+    5
+  ],
+  "analytic_vs_FD_identifiable_relative_max": 0.0022231254038307495,
+  "precontrol_original_vs_repaired_information_changes": {
+    "P1": {
+      "range_relative_change": 0.03319022700490536,
+      "depth_relative_change": 0.3802758549823611
+    },
+    "P2": {
+      "range_relative_change": 0.004092456403175905,
+      "depth_relative_change": 0.0002065840178119294
+    }
+  },
+  "pressure_identity_relative_max": 1.4666132145303848e-11,
+  "pressure_identity_frozen_limit": 1e-12,
+  "Cartesian_roundtrip_element_range_max_m": 1.4551915228366852e-11,
+  "independent_pressure_reconstruction_max": 0.0,
+  "independent_old_pressure_reconstruction_max": 3.524580872551824e-15,
+  "independent_analytic_horizontal_J_relative_max": 1.4243602230458927e-16,
+  "development_regressions_executed": 0,
+  "development_information": "NOT_EXECUTED_PRECONTROL_STOP",
+  "C1_scientific_result": "NOT_ESTABLISHED",
+  "relative_vs_fixed_floor_scientific_result": "NOT_EVALUATED_THIS_REPAIR",
+  "weak_direction_and_effective_information_stability": "NOT_EVALUATED_THIS_REPAIR",
+  "candidate_separation": "NOT_REEVALUATED",
+  "independent_stop_audit": "PASS",
+  "original_E2_G0": "FAIL_UNCHANGED",
+  "original_pilot": "IMPLEMENTATION_INVALID",
+  "original_E2_information": "NOT_EVALUATED",
+  "result_scope": "FORMULA_REPAIRED_DEVELOPMENT_ONLY",
+  "R4_percent": 0,
+  "new_KRAKEN": 0,
+  "new_MC": 0,
+  "new_audio": 0,
+  "once_only_repair_execution_count": 1,
+  "next": "H3_REVIEW",
+  "next_stage_execution": "NOT_AUTHORIZED",
+  "execution_status": "STOPPED_WITHOUT_REGRESSION"
+}

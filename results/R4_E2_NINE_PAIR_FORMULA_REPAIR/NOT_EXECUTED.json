@@ -1,0 +1,9 @@
+{
+  "information_regression": false,
+  "candidate_regression": false,
+  "DPI_scene_regression": false,
+  "weak_direction_regression": false,
+  "noise_floor_regression": false,
+  "reason": "Frozen analytic precontrols did not all pass",
+  "registered_results": "The two information/stability CSV files contain status records only, no estimates."
+}

@@ -1,0 +1,19 @@
+{
+  "checks": 6347,
+  "PASS": 6327,
+  "FAIL": 20,
+  "registered_predevelopment": {
+    "checks": 1305,
+    "PASS": 1285,
+    "FAIL": 20
+  },
+  "independent_stop_audit": {
+    "checks": 5042,
+    "PASS": 5042,
+    "FAIL": 0
+  },
+  "formula_Gate": "FAIL",
+  "regression_executed": false,
+  "old_bound_files_unchanged": true,
+  "scope": "No development regression, no rank threshold or formula guard changes, no second scientific execution."
+}

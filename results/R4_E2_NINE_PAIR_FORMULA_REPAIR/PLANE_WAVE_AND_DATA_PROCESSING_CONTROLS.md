@@ -1,0 +1,2 @@
+# Pre-development control scope
+Registered synthetic plane-wave distance/depth/bearing-profile, fixed-gain absorption, free-response absorption, and shared-frequency covariance controls passed. Scene-level DPI and covariance development controls were NOT EXECUTED because nominal pressure identity precontrols failed. See PRE_DEVELOPMENT_CONTROLS.csv and NOT_EXECUTED.json. No data-processing closure or scientific gain claim is asserted.
