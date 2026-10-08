@@ -1,7 +1,10 @@
 {
   "stage": "R4_E2_PAIRED_FREQUENCY_NUMERICAL_RECOVERABILITY",
-  "status": "DESIGN_FROZEN",
-  "original_admission": "FAIL_UNCHANGED",
-  "information": "NOT_EVALUATED",
-  "R4_percent": 0
+  "status": "E2_PAIRWISE_CA_NUMERICAL_RECOVERABILITY_SUPPORTED",
+  "integrity": "PASS",
+  "original_E2_admission": "FAIL_UNCHANGED",
+  "E2_information": "NOT_EVALUATED",
+  "R4_percent": 0,
+  "next_suggestion": "FULL_BAND_CERTIFICATION_REVIEW",
+  "next_stage_execution": "NOT_AUTHORIZED"
 }

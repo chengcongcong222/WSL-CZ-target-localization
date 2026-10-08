@@ -1,0 +1,13 @@
+{
+  "checks": 4436,
+  "PASS": 4436,
+  "FAIL": 0,
+  "cold_pressure_max_relative_difference": 6.136021450859748e-15,
+  "CA_max_difference": 1.0061396160665481e-16,
+  "field_decomposition_max_difference": 7.405100838075995e-17,
+  "noise_max_difference": 6.938893903907228e-18,
+  "candidate_max_difference": 1.2684081215907916e-15,
+  "scope": "Independent struct modal parser; all archived states/frequencies/grids cold pressure; all CA and noise; all192 candidates if provider complete; registered power ranks; outcome independently rebuilt.",
+  "new_solver_calls": 0,
+  "scientific_gate": "FAIL_UNCHANGED"
+}
