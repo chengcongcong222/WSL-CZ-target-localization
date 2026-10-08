@@ -1,0 +1,12 @@
+{
+  "PASS": true,
+  "checks": 27607,
+  "FAIL": 0,
+  "max_normalized_residual": 1.7695557532757794e-06,
+  "execution_plus_cold_audit_s": 10.563000000081956,
+  "delivered_bytes": 1375345,
+  "new_calls_during_audit": 0,
+  "new_random_draws": 0,
+  "numerical_admission": "FAIL_RETAINED",
+  "scope": "INTERNAL_INDEPENDENT_PARSE_CARTESIAN_SUM_QR;NOT_EXTERNAL_CERTIFICATION"
+}

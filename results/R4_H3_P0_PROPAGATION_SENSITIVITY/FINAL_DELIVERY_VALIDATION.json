@@ -1,0 +1,16 @@
+{
+  "PASS": true,
+  "required_artifacts_complete": true,
+  "C1b_replay_rows": 72,
+  "SSP_information_rows_evaluated": 0,
+  "new_KRAKEN_calls": 0,
+  "prepared_env_files": 52,
+  "cold_nominal_review_PASS": true,
+  "depth_column_QR_review_PASS": true,
+  "zero_controls_PASS": 54,
+  "new_science_gate_failures_retained": 20,
+  "original_G0_status_unchanged": true,
+  "frozen_code_input_sha_recheck": true,
+  "no_extra_simulation": true,
+  "R4_percent": 0
+}

@@ -329,3 +329,8 @@ H3_DEPTH_SUPPORT_AND_PROPAGATION_UNRESOLVED; source and calibration conditional 
 ## H3-G2E conditional frequency extraction
 
 H3_G2E_COMPRESSED_RESPONSE_EXTRACTION_UNRELIABLE. Full joint CSD statistical interface audited; compressed response diagnostic only. All source/propagation/full horizontal-support boundaries retained. R4=0%; STOP.
+
+
+## H3-P0 structured propagation sensitivity
+
+H3_P0_NUMERICAL_OR_FORMULA_INCOMPLETE. Original nominal replay126/126 PASS; new pre-registered2% depth-column step Gate20/36 FAIL. 0 new KRAKEN; SSP sensitivity NOT_EVALUATED. G0/G1/G2E unchanged. R4=0%; STOP.

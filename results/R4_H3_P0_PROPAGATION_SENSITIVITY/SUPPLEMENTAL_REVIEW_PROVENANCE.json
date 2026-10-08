@@ -1,0 +1,9 @@
+{
+  "review_code_sha256": "632b213b9d64dd909b3d6681717f86868c7a918536b02cbf9361355fa3ad0bb2",
+  "review_code_added_after_freeze": "INDEPENDENT_READ_ONLY_RECONSTRUCTION_ONLY",
+  "additional_historical_input": "results/R4_H3_G0_FINITE_VERTICAL_RESPONSE/NUMERICAL_STABILITY.csv",
+  "historical_input_sha256": "f37a12bda99eb22850a5d8426f054967ef3c618a45671a04cd89cd7d318462ce",
+  "historical_input_use": "METRIC_SCOPE_EXPLANATION_ONLY_NOT_NEW_SCIENCE_ADMISSION",
+  "frozen_scientific_code_or_threshold_changed": false,
+  "new_solver_calls": 0
+}

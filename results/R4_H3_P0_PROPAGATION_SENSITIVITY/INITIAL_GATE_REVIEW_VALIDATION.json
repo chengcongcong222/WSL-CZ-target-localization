@@ -1,0 +1,13 @@
+{
+  "PASS": true,
+  "independent_depth_column_reconstruction_checks": 36,
+  "max_QR_SVD_difference": 1.9081958235744878e-16,
+  "numerical_science_gate_FAIL": 20,
+  "historical_numeric_artifact_path": "results/R4_H3_G0_FINITE_VERTICAL_RESPONSE/NUMERICAL_STABILITY.csv",
+  "historical_numeric_artifact_sha256": "f37a12bda99eb22850a5d8426f054967ef3c618a45671a04cd89cd7d318462ce",
+  "historical_G0_status_changed": false,
+  "thresholds_changed": false,
+  "new_KRAKEN": 0,
+  "new_random_draws": 0,
+  "original_nominal_replay_checks_PASS": 126
+}
