@@ -1,0 +1,5 @@
+# Conditional observation contract
+
+One original single-platform HLA. Three conditionally usable/tracked lines 201/235/283 Hz; 121 epochs at 10 s over 1200 s. Main platform 2 m/s, turns 15 degrees after 600 s; exact navigation, no bearing bias. Signed iid Gaussian bearings sigma 0.1 degree; true HLA side ambiguity is not solved. Independent iid dB-level feature noise sigma 0.10/0.25/0.50; no recordings or physical SNR claim. Nominal matched inherited E-STD propagation and nearest stored depth mappings in PREFLIGHT.json. Source depth shared 150:5:250, receiver nominal 200. No auxiliary node, extra channels, SSP perturbations, phase observables or longer motion.
+
+Source conditions are preregistered synthetic assumptions, not measured UUV amplitude behavior. Arbitrary common temporal source variability is removed by M1; line-specific variability S3 is intentional model mismatch. Fixed relative-noise scales are never estimated from fitting residuals. True horizontal/depth/source variables are available only to generator, oracle finite-grid control and posthoc coverage evaluation, never estimator initialization.
