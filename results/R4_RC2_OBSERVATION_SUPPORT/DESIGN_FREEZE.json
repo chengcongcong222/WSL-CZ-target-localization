@@ -1,0 +1,803 @@
+{
+  "stage": "R4_RC2_OBSERVATION_DEFINED_SUPPORT_PILOT",
+  "parent_SHA": "08da59d7cc1b1b01b1dc27e8c6551257ab7ff530",
+  "case_ids": [
+    "P01_s0.1_seed410001",
+    "P02_s0.1_seed410001",
+    "P03_s0.1_seed410001",
+    "P04_s0.1_seed410001",
+    "P05_s0.1_seed410001",
+    "P06_s0.1_seed410001",
+    "P07_s0.1_seed410001",
+    "P08_s0.1_seed410001",
+    "P09_s0.1_seed410001",
+    "Q01_s0.1_seed420001",
+    "Q01_s0.1_seed420002",
+    "Q02_s0.1_seed420001",
+    "Q02_s0.1_seed420002",
+    "Q03_s0.1_seed420001",
+    "Q03_s0.1_seed420002",
+    "Q04_s0.1_seed420001",
+    "Q04_s0.1_seed420002",
+    "Q05_s0.1_seed420001",
+    "Q05_s0.1_seed420002",
+    "Q06_s0.1_seed420001",
+    "Q06_s0.1_seed420002"
+  ],
+  "U0_source": "R4_A1_FIX_CONTINUOUS_SEARCH/CASE_OBSERVATIONS.npz:bearing_rad;ALL21saved noisy cases;no new draws",
+  "U0_fallback": "P/Q panel;preferred H01/H06/H12 raw observations absent",
+  "U_status": "RC2_OBSERVATION_OR_NOISE_CONTRACT_INCOMPLETE;raw bearings and reported nodes not archived;do not regenerate from truths/draws",
+  "state_order": [
+    "r_km",
+    "theta_deg",
+    "v_mps",
+    "psi_deg"
+  ],
+  "low": [
+    45.0,
+    -5.0,
+    1.0,
+    -15.0
+  ],
+  "high": [
+    60.0,
+    5.0,
+    3.0,
+    15.0
+  ],
+  "physical_prior": "inherited RC2 bounded near-forward domain;not full ocean/global headings",
+  "platform_xy": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      20.0,
+      0.0
+    ],
+    [
+      40.0,
+      0.0
+    ],
+    [
+      60.0,
+      0.0
+    ],
+    [
+      80.0,
+      0.0
+    ],
+    [
+      100.0,
+      0.0
+    ],
+    [
+      120.0,
+      0.0
+    ],
+    [
+      140.0,
+      0.0
+    ],
+    [
+      160.0,
+      0.0
+    ],
+    [
+      180.0,
+      0.0
+    ],
+    [
+      200.0,
+      0.0
+    ],
+    [
+      220.0,
+      0.0
+    ],
+    [
+      240.0,
+      0.0
+    ],
+    [
+      260.0,
+      0.0
+    ],
+    [
+      280.0,
+      0.0
+    ],
+    [
+      300.0,
+      0.0
+    ],
+    [
+      320.0,
+      0.0
+    ],
+    [
+      340.0,
+      0.0
+    ],
+    [
+      360.0,
+      0.0
+    ],
+    [
+      380.0,
+      0.0
+    ],
+    [
+      400.0,
+      0.0
+    ],
+    [
+      420.0,
+      0.0
+    ],
+    [
+      440.0,
+      0.0
+    ],
+    [
+      460.0,
+      0.0
+    ],
+    [
+      480.0,
+      0.0
+    ],
+    [
+      500.0,
+      0.0
+    ],
+    [
+      520.0,
+      0.0
+    ],
+    [
+      540.0,
+      0.0
+    ],
+    [
+      560.0,
+      0.0
+    ],
+    [
+      580.0,
+      0.0
+    ],
+    [
+      600.0,
+      0.0
+    ],
+    [
+      620.0,
+      0.0
+    ],
+    [
+      640.0,
+      0.0
+    ],
+    [
+      660.0,
+      0.0
+    ],
+    [
+      680.0,
+      0.0
+    ],
+    [
+      700.0,
+      0.0
+    ],
+    [
+      720.0,
+      0.0
+    ],
+    [
+      740.0,
+      0.0
+    ],
+    [
+      760.0,
+      0.0
+    ],
+    [
+      780.0,
+      0.0
+    ],
+    [
+      800.0,
+      0.0
+    ],
+    [
+      820.0,
+      0.0
+    ],
+    [
+      840.0,
+      0.0
+    ],
+    [
+      860.0,
+      0.0
+    ],
+    [
+      880.0,
+      0.0
+    ],
+    [
+      900.0,
+      0.0
+    ],
+    [
+      920.0,
+      0.0
+    ],
+    [
+      940.0,
+      0.0
+    ],
+    [
+      960.0,
+      0.0
+    ],
+    [
+      980.0,
+      0.0
+    ],
+    [
+      1000.0,
+      0.0
+    ],
+    [
+      1020.0,
+      0.0
+    ],
+    [
+      1040.0,
+      0.0
+    ],
+    [
+      1060.0,
+      0.0
+    ],
+    [
+      1080.0,
+      0.0
+    ],
+    [
+      1100.0,
+      0.0
+    ],
+    [
+      1120.0,
+      0.0
+    ],
+    [
+      1140.0,
+      0.0
+    ],
+    [
+      1160.0,
+      0.0
+    ],
+    [
+      1180.0,
+      0.0
+    ],
+    [
+      1200.0,
+      0.0
+    ],
+    [
+      1219.3185165257814,
+      5.176380902050415
+    ],
+    [
+      1238.6370330515626,
+      10.35276180410083
+    ],
+    [
+      1257.955549577344,
+      15.529142706151244
+    ],
+    [
+      1277.2740661031255,
+      20.70552360820166
+    ],
+    [
+      1296.5925826289067,
+      25.881904510252074
+    ],
+    [
+      1315.9110991546881,
+      31.05828541230249
+    ],
+    [
+      1335.2296156804696,
+      36.23466631435291
+    ],
+    [
+      1354.548132206251,
+      41.41104721640332
+    ],
+    [
+      1373.8666487320322,
+      46.58742811845373
+    ],
+    [
+      1393.1851652578137,
+      51.76380902050415
+    ],
+    [
+      1412.503681783595,
+      56.940189922554566
+    ],
+    [
+      1431.8221983093763,
+      62.11657082460498
+    ],
+    [
+      1451.1407148351577,
+      67.29295172665539
+    ],
+    [
+      1470.4592313609392,
+      72.46933262870581
+    ],
+    [
+      1489.7777478867206,
+      77.64571353075623
+    ],
+    [
+      1509.0962644125018,
+      82.82209443280664
+    ],
+    [
+      1528.4147809382832,
+      87.99847533485705
+    ],
+    [
+      1547.7332974640647,
+      93.17485623690746
+    ],
+    [
+      1567.0518139898459,
+      98.35123713895788
+    ],
+    [
+      1586.3703305156273,
+      103.5276180410083
+    ],
+    [
+      1605.6888470414087,
+      108.7039989430587
+    ],
+    [
+      1625.0073635671902,
+      113.88037984510913
+    ],
+    [
+      1644.3258800929714,
+      119.05676074715954
+    ],
+    [
+      1663.6443966187528,
+      124.23314164920995
+    ],
+    [
+      1682.9629131445342,
+      129.40952255126038
+    ],
+    [
+      1702.2814296703154,
+      134.58590345331078
+    ],
+    [
+      1721.5999461960969,
+      139.7622843553612
+    ],
+    [
+      1740.9184627218783,
+      144.93866525741163
+    ],
+    [
+      1760.2369792476597,
+      150.11504615946203
+    ],
+    [
+      1779.555495773441,
+      155.29142706151245
+    ],
+    [
+      1798.8740122992224,
+      160.46780796356285
+    ],
+    [
+      1818.1925288250036,
+      165.64418886561327
+    ],
+    [
+      1837.511045350785,
+      170.8205697676637
+    ],
+    [
+      1856.8295618765665,
+      175.9969506697141
+    ],
+    [
+      1876.148078402348,
+      181.17333157176452
+    ],
+    [
+      1895.4665949281293,
+      186.34971247381492
+    ],
+    [
+      1914.7851114539105,
+      191.52609337586534
+    ],
+    [
+      1934.103627979692,
+      196.70247427791577
+    ],
+    [
+      1953.4221445054732,
+      201.87885517996617
+    ],
+    [
+      1972.7406610312546,
+      207.0552360820166
+    ],
+    [
+      1992.059177557036,
+      212.23161698406702
+    ],
+    [
+      2011.3776940828175,
+      217.4079978861174
+    ],
+    [
+      2030.696210608599,
+      222.58437878816784
+    ],
+    [
+      2050.0147271343803,
+      227.76075969021826
+    ],
+    [
+      2069.3332436601613,
+      232.93714059226866
+    ],
+    [
+      2088.6517601859427,
+      238.1135214943191
+    ],
+    [
+      2107.970276711724,
+      243.28990239636948
+    ],
+    [
+      2127.2887932375056,
+      248.4662832984199
+    ],
+    [
+      2146.607309763287,
+      253.64266420047034
+    ],
+    [
+      2165.9258262890685,
+      258.81904510252076
+    ],
+    [
+      2185.24434281485,
+      263.99542600457113
+    ],
+    [
+      2204.562859340631,
+      269.17180690662155
+    ],
+    [
+      2223.8813758664123,
+      274.348187808672
+    ],
+    [
+      2243.1998923921938,
+      279.5245687107224
+    ],
+    [
+      2262.518408917975,
+      284.70094961277283
+    ],
+    [
+      2281.8369254437566,
+      289.87733051482326
+    ],
+    [
+      2301.1554419695376,
+      295.0537114168736
+    ],
+    [
+      2320.4739584953195,
+      300.23009231892405
+    ],
+    [
+      2339.7924750211005,
+      305.4064732209745
+    ],
+    [
+      2359.110991546882,
+      310.5828541230249
+    ]
+  ],
+  "times_s": [
+    0.0,
+    10.0,
+    20.0,
+    30.0,
+    40.0,
+    50.0,
+    60.0,
+    70.0,
+    80.0,
+    90.0,
+    100.0,
+    110.0,
+    120.0,
+    130.0,
+    140.0,
+    150.0,
+    160.0,
+    170.0,
+    180.0,
+    190.0,
+    200.0,
+    210.0,
+    220.0,
+    230.0,
+    240.0,
+    250.0,
+    260.0,
+    270.0,
+    280.0,
+    290.0,
+    300.0,
+    310.0,
+    320.0,
+    330.0,
+    340.0,
+    350.0,
+    360.0,
+    370.0,
+    380.0,
+    390.0,
+    400.0,
+    410.0,
+    420.0,
+    430.0,
+    440.0,
+    450.0,
+    460.0,
+    470.0,
+    480.0,
+    490.0,
+    500.0,
+    510.0,
+    520.0,
+    530.0,
+    540.0,
+    550.0,
+    560.0,
+    570.0,
+    580.0,
+    590.0,
+    600.0,
+    610.0,
+    620.0,
+    630.0,
+    640.0,
+    650.0,
+    660.0,
+    670.0,
+    680.0,
+    690.0,
+    700.0,
+    710.0,
+    720.0,
+    730.0,
+    740.0,
+    750.0,
+    760.0,
+    770.0,
+    780.0,
+    790.0,
+    800.0,
+    810.0,
+    820.0,
+    830.0,
+    840.0,
+    850.0,
+    860.0,
+    870.0,
+    880.0,
+    890.0,
+    900.0,
+    910.0,
+    920.0,
+    930.0,
+    940.0,
+    950.0,
+    960.0,
+    970.0,
+    980.0,
+    990.0,
+    1000.0,
+    1010.0,
+    1020.0,
+    1030.0,
+    1040.0,
+    1050.0,
+    1060.0,
+    1070.0,
+    1080.0,
+    1090.0,
+    1100.0,
+    1110.0,
+    1120.0,
+    1130.0,
+    1140.0,
+    1150.0,
+    1160.0,
+    1170.0,
+    1180.0,
+    1190.0,
+    1200.0
+  ],
+  "navigation_and_bias": "EXACT_FROZEN_U0_TRACK;ZERO_NAV_ERROR_ZERO_SYSTEM_BIAS;NOT_DUAL_NODE_ERROR_CONTRACT",
+  "noise": "archived0.1deg marginal Gaussian,independent121epoch vector percase;no independence across cases required for union bound",
+  "confidence_rule": {
+    "simultaneous_all_case_failure_upper": 0.03808837269714865,
+    "simultaneous_conditional_coverage_lower": 0.9619116273028514,
+    "SSE_normalized_upper": 195,
+    "per_epoch_absolute_sigma_upper": 5,
+    "statistical_proof": "Direct Gaussian-square MGF Chernoff at lambda1/6:exp(-195/6)*(3/2)^(121/2)<=exp(-7),using ln(3/2)<=5/12 from alternating log series. Gaussian marginal union:2*21*121exp(-25/2). Sum failure budgets;no cross-case independence",
+    "correlated_actual_measurements": "NOT_CERTIFIED_BY_THIS_U0_CONTRACT",
+    "model_rounding_slack_rad": 1e-10,
+    "left_right": "minimum residual to observed and reflected observed;conservative superset of archived signed support;arbitrary sign branch retained;not real HLA extractability certification",
+    "periodicity": "declared physical +x sector keeps prediction and obs inside(-1/3,1/3)rad;no +/-pi seam inside this domain;full-domain angular prior not expanded"
+  },
+  "interval_certificate": {
+    "arithmetic": "IEEE754binary64 each primitive outward nextafter;coefficients exact rational conversion brackets",
+    "pi": "rational Machin16atan(1/5)-4atan(1/239),35term alternating bounds",
+    "sin_cos": "Taylor13/12 with exact rational(1/3)^15/15!, (1/3)^14/14! remainders",
+    "atan": "Taylor17 with rational(1/3)^19/19 remainder;dx strictlypositive;ratio abs<1/3",
+    "inclusion_proof": "monotone endpoint sin,cos extrema;interval Cartesian trajectory;monotone atan endpoints;distance to union is lower bound;sum squares rounded DOWN",
+    "rejection": "only certified lower SSE>195+1e-6 OR certified minimum epoch distance>5sigma+1e-6sigma;all other boxes kept or split",
+    "independent": "Decimal50digit polynomial/rational remainder reconstruction of EVERYreject certificate and dyadic partition proof;analytic geometry controls;finite control corners are supplementary not the proof"
+  },
+  "subdivision": "FIFO breadthfirst;split max(width/registered_resolution);lowest index wins ties;exact midpoint shared by bothclosedchildren;no truth ordering",
+  "resolution": [
+    0.25,
+    0.05,
+    0.05,
+    1.0
+  ],
+  "budget": {
+    "evaluations_percase": 2047,
+    "wall_percase_s": 30,
+    "primary_total_s": 660,
+    "independent_review_s": 900,
+    "overall_s": 1800,
+    "delivery_bytes": 128000000,
+    "new_KRAKEN": 0,
+    "new_FIELD": 0,
+    "new_MC": 0,
+    "new_bearing_draws": 0
+  },
+  "unresolved": "allqueue boxes and smallest-resolution leaves remain in outer union;never relabel undecided boxes feasible",
+  "branch_records": "initialtheta sign sectors plus crosseszero;not exact connectedcomponent enumeration;outer union covers all possible branches",
+  "classification": {
+    "A": "certificates PASS,allcasesnonempty,range width<=1km,speedwidth<=0.2mps;diagnostic tightness only not depth precision",
+    "B": "certificatesPASS,eachcase at least one dimension shrinks10% vs physical prior, but range/speed stillbroad",
+    "C": "no useful10% contraction or inclusion/partition certificates fail;inclusionfailure also IMPLEMENTATION_INVALID",
+    "D": "archive observation/noise contract missing;UalwaysD;no synthetic substitution",
+    "budget": "finite-budget unsettled boxes alone do not invalidate a certified outerunion;reported distinctly from convergence"
+  },
+  "truth_policy": "constructor has ONLY observations/time/platform;truthfiles read after allsupports complete;finite coverage evaluation only",
+  "H3_relation": "H3H01/H06/H12 25nodes aretruth-centered;cannot evaluate same-observation nesting against P/Qfallback;read-only provenance/scale comparison;no candidate injection",
+  "H3_C1e": "NOT_EVALUATED",
+  "R4_percent": 0,
+  "stop": "CommitB,push,remoteverify,STOP;no automatically opened stage",
+  "bindings": [
+    {
+      "path": "r4_rc2_interval.py",
+      "sha256": "afe2264889157f6ea1d7b2ca907cdb1aec8710ff5ac908ec34aa22fdaea33740"
+    },
+    {
+      "path": "r4_rc2_support.py",
+      "sha256": "da47cb1e23abcc99293200898d90404bf0acda5afbc3ec80763b24e4f893eec8"
+    },
+    {
+      "path": "r4_rc2_support_freeze.py",
+      "sha256": "da84dfad0f2e7f01ad16b481ac8a876b7ddc18d883e96aa562508444ce91d9db"
+    },
+    {
+      "path": "r4_rc2_support_audit.py",
+      "sha256": "4403df1e49789dd144d889e38f853fe1d43004cee23b36722aa95083abd47d1d"
+    },
+    {
+      "path": "r4_rc2_support_report.py",
+      "sha256": "87533e33a48cf333fa68d718ff0600c89863d3081c9e3f906cec2dd9a16aa3e9"
+    },
+    {
+      "path": "r4_a1_offgrid_bearing.py",
+      "sha256": "f137196aabbc6019b0fac523ea530535caa5445fc8d41eafe8d45b650a5ba4a8"
+    },
+    {
+      "path": "r4_a1_fix_continuous.py",
+      "sha256": "9ad8ddd990d47242fa1e33175fe0c9d328a3c701ebdbcfc1c33e82981dbeba65"
+    },
+    {
+      "path": "r4_a1_new_dynamic.py",
+      "sha256": "af243994ebbd42aab2eb7f392e18d32adbdf7082c85382e73b543ac4c4c2f454"
+    },
+    {
+      "path": "r4_h3_p0.py",
+      "sha256": "9571e96087795973bab91aa2785e429ac360ebc9a7ea48f9baaa4b5a49313a95"
+    },
+    {
+      "path": "r4_h3_g0.py",
+      "sha256": "f9a123ac76547f1928a1e74b55b96d7dcb456a1c8e13b0fe8e76b031c8a605ee"
+    },
+    {
+      "path": "results/R4_A1_FIX_CONTINUOUS_SEARCH/CASE_OBSERVATIONS.npz",
+      "sha256": "d92493e6343d7a4305fc06c053d27e9aa8801a3e6cceea27295eaefe12a1b525"
+    },
+    {
+      "path": "results/R4_A1_FIX_CONTINUOUS_SEARCH/R4_A1_FIX_CONFIG.json",
+      "sha256": "600993e5279b0d0f1b00dec2eda395268ebbd75d6434f8a2e5ffdff63fbb09d7"
+    },
+    {
+      "path": "results/R4_A1_FIX_CONTINUOUS_SEARCH/HOLDOUT_TRUTH_PANEL.csv",
+      "sha256": "5b94a60e7dd7e7cf34902344d5f83ce92055c06954a873f76848a0a04c891607"
+    },
+    {
+      "path": "results/R4_A1_OFFGRID_BEARING_BOUNDARY/R4_A1_CONFIG.json",
+      "sha256": "5667b533f646b2b4a82e9b247ea417b92de0f1589251ebe5b50530226878ffaa"
+    },
+    {
+      "path": "results/R4_A1_OFFGRID_BEARING_BOUNDARY/OFFGRID_TRUTH_PANEL.csv",
+      "sha256": "ba46243968e7b8123620b3976376fda9201d424e9d628777facb28a3e0ac09c7"
+    },
+    {
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_DRAWS_A.npz",
+      "sha256": "90bccc0855db9454fb9d6f79791daf1e321744e574b4fa7135d89f412fe5d9af"
+    },
+    {
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_DESIGN_FREEZE.json",
+      "sha256": "0736e26f932848e56e2f8baa02d63ac519e9bfa99ab38c4d4a9ff39a8dc9cbb3"
+    },
+    {
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_ERROR_MODEL.md",
+      "sha256": "e7c5d1a113ac881fa7cd500948e312fdad5f8af0f3b4650d1e7fc1466e3a30d6"
+    },
+    {
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_TRUTH_PANEL.csv",
+      "sha256": "32827787058b6ef2b28c791cc9d403850c1d64f3da7d98bb4accf5ac821482c6"
+    },
+    {
+      "path": "results/R4_H3_G1_EXTRACTION_SUPPORT_REVIEW/SUPPORT_PROVENANCE.csv",
+      "sha256": "7c0aeb201bd44ed34b39ea147972e3af5753c3e5cad74f56742dac76f58b3432"
+    },
+    {
+      "path": "results/R4_H3_G1_EXTRACTION_SUPPORT_REVIEW/FINITE_PROFILE_SUMMARY.csv",
+      "sha256": "2c562f3b96afe5c2eba6cd54db34a53dc916bbc9b82dd55d61ce5bdb110829e5"
+    },
+    {
+      "path": "results/R4_H3_G0_FINITE_VERTICAL_RESPONSE/FINITE_HORIZONTAL_LABEL_DIAGNOSTIC.csv",
+      "sha256": "be5bdda798e3e86daa44ce1356b1e86a2c832491ab7bcc3c24d63327e2a06f04"
+    }
+  ]
+}
