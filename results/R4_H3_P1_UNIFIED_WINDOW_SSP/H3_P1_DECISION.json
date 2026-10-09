@@ -1,0 +1,42 @@
+{
+  "classifications": [
+    "H3_P1_MODAL_WINDOW_NOT_CERTIFIED",
+    "H3_P1_SSP_SECANT_LOCALITY_NOT_ESTABLISHED"
+  ],
+  "window_numerical_support": false,
+  "SSP_secant_locality": false,
+  "new_KRAKEN": 60,
+  "generated_modal_files": 60,
+  "new_FIELD": 0,
+  "new_MC": 0,
+  "new_audio": 0,
+  "original_P0": "H3_P0_NUMERICAL_OR_FORMULA_INCOMPLETE",
+  "source_depth_true_accuracy": "ACCURACY_UNCERTIFIED",
+  "C1e_P0_depth_information": "NOT_EVALUATED",
+  "complete_RC2_support": "NOT_ESTABLISHED",
+  "R4_percent": 0,
+  "CHIGH_independent_truncation_certification": "NOT_ESTABLISHED",
+  "scope": "THREE_FREQUENCY_FROZEN_WINDOW_AND_STEP_NUMERICAL_LOCALITY_ONLY",
+  "next": "STOP",
+  "independent_review": "PASS",
+  "summary": {
+    "failed_checks_by_type": {
+      "LOCAL_STEP": 144,
+      "LOCAL_FB": 144,
+      "WINDOW_MARGIN": 60
+    },
+    "two_step_C1b_relative_max": 0.2775716771812911,
+    "forward_backward_C1b_relative_max": 1.4784434172486591,
+    "source_removed_phase_max_rad": 0.4515005815171616,
+    "CLOW_margin_min": 10.07543564252569,
+    "CHIGH_margin_min": 0.1505407165896031,
+    "GRID_raw_relative_max": 0.0005873553477335053,
+    "GRID_source_response_relative_max": 0.00033754408642788927,
+    "GRID_response_noise1_ratio_max": 0.05781259976070951,
+    "WINDOW_raw_relative_max": 0.0,
+    "WINDOW_source_response_relative_max": 3.0256464851385373e-16,
+    "WINDOW_response_noise1_ratio_max": 0.0
+  },
+  "design_SHA": "f827bd38fc86e0b12ff679956b3b0fab0f559d2e",
+  "execution_SHA": "COMMIT_CONTAINING_THIS_REPORT"
+}

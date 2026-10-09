@@ -1,0 +1,25 @@
+{
+  "solver_calls": 60,
+  "solver_total_elapsed_s": 471.7960000000894,
+  "solver_call_max_s": 13.766000000061467,
+  "same_count_across_tested_offsets_and_windows_by_frequency": {
+    "150.0": [
+      478
+    ],
+    "200.0": [
+      638
+    ],
+    "250.0": [
+      797
+    ]
+  },
+  "all_sampled_assignments_matched": true,
+  "min_sampled_shape_correlation": 0.27496303070088773,
+  "lower_margin_checks_PASS": true,
+  "upper_margin_checks_PASS": false,
+  "grid_secant_relative_max": 0.008835052938637724,
+  "window_secant_relative_max": 0.0,
+  "step_checks_failed": 144,
+  "forward_backward_checks_failed": 144,
+  "principal_phase_checks_failed": 0
+}

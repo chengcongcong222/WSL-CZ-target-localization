@@ -339,3 +339,8 @@ H3_P0_NUMERICAL_OR_FORMULA_INCOMPLETE. Original nominal replay126/126 PASS; new 
 ## H3-P0 saved depth and modal-window review
 
 H3_P0_DERIVATIVE_STENCIL_CONSISTENCY_SUPPORTED, H3_P0_DEPTH_DERIVATIVE_ACCURACY_UNCERTIFIED, H3_P0_MODAL_WINDOW_REDESIGN_REQUIRED. OriginalP0 unchanged; SSP information NOT_EVALUATED; R4=0%; independent checks PASS. STOP; no further numeric stage opened.
+
+
+## H3-P1 unified window local SSP response
+
+H3_P1_MODAL_WINDOW_NOT_CERTIFIED; H3_P1_SSP_SECANT_LOCALITY_NOT_ESTABLISHED. OriginalP0 unchanged;C1e-P0 NOT_EVALUATED;R4=0%;STOP;no next stage opened.

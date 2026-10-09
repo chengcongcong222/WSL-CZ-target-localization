@@ -1,0 +1,16 @@
+{
+  "checks": 3555,
+  "PASS": 3555,
+  "FAIL": 0,
+  "cold_pressure_relative_max": 1.3774630051071827e-15,
+  "reconstruction": "SEPARATE_BINARY_PARSER_CARTESIAN_TERMWISE_SUM_NUISANCE_CHART_PIVOTED_QR",
+  "new_KRAKEN": 0,
+  "new_FIELD": 0,
+  "new_MC": 0,
+  "elapsed_s": 6.186999999918044,
+  "supplementary_mode_checks": 1638,
+  "supplementary_mode_PASS": 1638,
+  "supplementary_mode_FAIL": 0,
+  "combined_checks": 5193,
+  "combined_FAIL": 0
+}
