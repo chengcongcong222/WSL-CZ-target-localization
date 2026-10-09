@@ -1,0 +1,6 @@
+## Modal-window risk
+All52 prepared positive/negative SSP environments and26 nominal environments were read; no perturbed modes were generated. Negative profiles have minimum1499m/s while CLOW=1500m/s; positive minimum1501m/s. CHIGH=1800m/s exceeds the sampled water speeds, but this alone is not a mode-convergence certificate. The narrowest nominal lower-window margin is 0.095416221m/s; 106 nominal entries lie within1m/s across both grids/frequencies.
+
+The [official KRAKEN manual](https://oalib-acoustics.org/website_resources/AcousticsToolbox/manual/node47.html) documents C-linear interpolation and exclusion of slower modes by nonzero CLOW. Therefore the present contract lacks a certificate that the ±1m/s SSP parameter difference uses a comparable physically relevant mode family. This is a design risk, not observed loss or predicted perturbed counts.
+
+Any future contract must preregister a common window covering every SSP offset with boundary margin, or independently bound the contribution of excluded modes. It must check boundary/count/contribution convergence and rebuild the nominal provider using that same window. New and old nominal/perturbed providers must not be mixed. No new window is executed or authorized here.

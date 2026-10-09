@@ -1,0 +1,7 @@
+{
+  "classification_recomputed": true,
+  "stencil_internal_consistency": true,
+  "full_environment_contracts_PASS": 52,
+  "FAIL": 0,
+  "new_solver": 0
+}

@@ -1,0 +1,13 @@
+{
+  "checks": 19257,
+  "PASS": 19257,
+  "FAIL": 0,
+  "cold_pressure_relative_max": 1.020234224015582e-15,
+  "cold_derivative_relative_max": 1.0296131757001533e-15,
+  "cold_information_relative_max": 2.564266884867081e-12,
+  "new_KRAKEN": 0,
+  "new_FIELD": 0,
+  "new_MC": 0,
+  "scope": "INDEPENDENT_SUMMATION_BINARY_PARSER_NUISANCE_CHART_QR_RECONSTRUCTION",
+  "elapsed_s": 6.296000000089407
+}

@@ -1,0 +1,160 @@
+{
+  "files": [
+    {
+      "path": "CANCELLATION_AND_LOW_AMPLITUDE.csv",
+      "sha256": "2fd199261e26a35cdde380d8fd06da523c05d94b7a59d2c67c4b74c07ef30975"
+    },
+    {
+      "path": "CANCELLATION_AND_NOISE_INTERPRETATION.md",
+      "sha256": "2665afc1ab74bae13f188b4b34ad76c7f9721b5cb7e7990bac005cbd84317426"
+    },
+    {
+      "path": "DECISION_AND_ENVIRONMENT_RECHECK.json",
+      "sha256": "261824d8d90bf81df6f361229759e49b4433e46419e3ad846895049228f1a18b"
+    },
+    {
+      "path": "DESIGN_FREEZE.json",
+      "sha256": "a32fcb2ec9bdceaf48a9f324d524b9d06710644670939558c52b219160cf7dfb"
+    },
+    {
+      "path": "DESIGN_NOTES.md",
+      "sha256": "ffeb727f8b163aa56e64f8e657ab8f6b18ca11aead4510a85db77132aa24dcb8"
+    },
+    {
+      "path": "EFFECTIVE_INFORMATION_SENSITIVITY.csv",
+      "sha256": "76f17252f7abcd857f732c6b3d5742d9b210c40b2d2e4b71505fd4e28de18752"
+    },
+    {
+      "path": "EXECUTION_STARTED.json",
+      "sha256": "43ed192ad69fbfb24ad9e2d554879e7b397204e8605e0b19dab48b3b4fb49184"
+    },
+    {
+      "path": "GPT_SYNC.md",
+      "sha256": "e010ae341ca9124c8e8e145c7291cc89a1542611c38f5ae20ef1c23503ff78d8"
+    },
+    {
+      "path": "GRID_NUMERICAL_DIAGNOSTIC.csv",
+      "sha256": "828ec72b659bca8e2fca437e969ada3522043f95106b1e38f03394f2a73f9e90"
+    },
+    {
+      "path": "INDEPENDENT_VALIDATION_CHECKS.csv",
+      "sha256": "b70d39324d9098d875deea2042a9816dc4a51e722e665d3fae1270b8a511d3af"
+    },
+    {
+      "path": "MODAL_WINDOW_RISK.md",
+      "sha256": "decf4c83fbcceb1b745dacec27bf0fda8a71e2849dd1f200fa2be06ec57e71b5"
+    },
+    {
+      "path": "NOMINAL_MODAL_WINDOW_MARGINS.csv",
+      "sha256": "9821a5654f4bbc47d22e31b3a096a9ecceaa83e06a50ee23a9c6322614716c14"
+    },
+    {
+      "path": "NOMINAL_REPLAY_CHECKS.csv",
+      "sha256": "e6b30849d9496fe3672a402d1f226c5a88f4da8ccdcc1469a1f91fa86ea4eb93"
+    },
+    {
+      "path": "ORIGINAL_DEPTH_GATE_RECONSTRUCTION.csv",
+      "sha256": "922c7fa146e030af3f987ac4178df2ab54b0fd5c73b3ba897fe4e35d4b612ebb"
+    },
+    {
+      "path": "REVIEW_DECISION.json",
+      "sha256": "08119111d77a5de6ccbacb4cceaa7cb525c5d3115039bbf891c57766ef2ebbe1"
+    },
+    {
+      "path": "SOURCE_KNOT_SMOOTHNESS.csv",
+      "sha256": "8d15d445705ca2e142754c2f9708519f3d2d5af540e21050b2740cd906c495ef"
+    },
+    {
+      "path": "SSP_ENVIRONMENT_WINDOW_AUDIT.csv",
+      "sha256": "4f8ace66f2e0dc24a13abb06c99334b4cc8ec9b6ea445fd0a78baa1eccb8d18c"
+    },
+    {
+      "path": "SSP_FULL_CONTRACT_RECONSTRUCTION.csv",
+      "sha256": "9c3533de273cd505a7a61a5fa25b19c7805048d91e687dcca74cc0300fee3ffb"
+    },
+    {
+      "path": "STENCIL_COMPARISONS.csv",
+      "sha256": "43ad759dc74641ff0465afa7158891810a1e69f5ef8e652613b352f93389db93"
+    },
+    {
+      "path": "STENCILS_H01_M_B0_n160001.npz",
+      "sha256": "dd0578f1db6153f58359c0bf4c386923a4388444338fc1a9f666003ac52171c0"
+    },
+    {
+      "path": "STENCILS_H01_M_B0_n80001.npz",
+      "sha256": "74ae0dc5c267658657a80fa2fb568c517530e65f5cf9c4feaed3bb8842b54ac6"
+    },
+    {
+      "path": "STENCILS_H01_M_B1_n160001.npz",
+      "sha256": "0170d046e51a4c0f4095f3007c88389e7add77d8f56b7f73527158908f02ea02"
+    },
+    {
+      "path": "STENCILS_H01_M_B1_n80001.npz",
+      "sha256": "3fc76a6ccf722f18527853a47917e4445e218336cc2a8765c9a123edaac2851d"
+    },
+    {
+      "path": "STENCILS_H01_M_B2_n160001.npz",
+      "sha256": "ccc6a38e67ae7c235827854f0a1321afc9a81453091db139b42b0252237d09f6"
+    },
+    {
+      "path": "STENCILS_H01_M_B2_n80001.npz",
+      "sha256": "de369cbb9756395a0d31f63871fcbe25584305f7ab14107446466930f05a3258"
+    },
+    {
+      "path": "STENCILS_H06_M_B0_n160001.npz",
+      "sha256": "1d7be44dd06247f4b1f3c32a9b8c2de6458849130f457bc803e736982f9b0b5b"
+    },
+    {
+      "path": "STENCILS_H06_M_B0_n80001.npz",
+      "sha256": "fce907b79239da26b9ef99f5f193b315a39bc8cc7eeb7ce6cfd99db7b6b04a50"
+    },
+    {
+      "path": "STENCILS_H06_M_B1_n160001.npz",
+      "sha256": "4400200a416a4398fd04c284bd888400ddcbfd230456afa6518467a00bd3169b"
+    },
+    {
+      "path": "STENCILS_H06_M_B1_n80001.npz",
+      "sha256": "39a47c8944361074a7dd4c306abe5d3f10c90f3a00a36584f734dbc224e4c455"
+    },
+    {
+      "path": "STENCILS_H06_M_B2_n160001.npz",
+      "sha256": "a21bc5bfc6b955aaa79ffd5d00891f4c4547471d85fcda91400886722b25bff8"
+    },
+    {
+      "path": "STENCILS_H06_M_B2_n80001.npz",
+      "sha256": "2aa32899c6c2b799bcce097756045e41c558a913d68ee2a7bc9a76ff3ff43ce4"
+    },
+    {
+      "path": "STENCILS_H12_M_B0_n160001.npz",
+      "sha256": "b8c550d6b443c1fe274174d0346ef1801e85abe6bc983fe58dce47c4b28f4009"
+    },
+    {
+      "path": "STENCILS_H12_M_B0_n80001.npz",
+      "sha256": "4ea1dc0a7d49aba9464aa4acf86a0fcd9895e9711966fa1948b23712c0778f53"
+    },
+    {
+      "path": "STENCILS_H12_M_B1_n160001.npz",
+      "sha256": "50725d5f4ff09098a6fa05ab73dfdbb5eeab0060e91118bd9293635456630506"
+    },
+    {
+      "path": "STENCILS_H12_M_B1_n80001.npz",
+      "sha256": "8e77e0bad4a872fc6686068ae868ec98cddb95a6d7cc739643fff697b523a86f"
+    },
+    {
+      "path": "STENCILS_H12_M_B2_n160001.npz",
+      "sha256": "dfeca7cde439154d6d8a097de59ee3133938879041927f25e65780a6ca228d94"
+    },
+    {
+      "path": "STENCILS_H12_M_B2_n80001.npz",
+      "sha256": "3832dfba1a02a5a7615c8de32e6a353adcb372346326d03f73dcc22be7438455"
+    },
+    {
+      "path": "TRUNCATION_LAW_DIAGNOSTIC.csv",
+      "sha256": "1b745c697e14c5ffbab5291d02da9520f18a7e4c01c75031a61dd5de7f0c03ca"
+    },
+    {
+      "path": "VALIDATION.json",
+      "sha256": "1d7825f8f53bb87d947c48ec3d67cdb3d0ecfb28d24517d82911f288b49e4387"
+    }
+  ]
+}

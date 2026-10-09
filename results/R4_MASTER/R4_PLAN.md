@@ -334,3 +334,8 @@ H3_G2E_COMPRESSED_RESPONSE_EXTRACTION_UNRELIABLE. Full joint CSD statistical int
 ## H3-P0 structured propagation sensitivity
 
 H3_P0_NUMERICAL_OR_FORMULA_INCOMPLETE. Original nominal replay126/126 PASS; new pre-registered2% depth-column step Gate20/36 FAIL. 0 new KRAKEN; SSP sensitivity NOT_EVALUATED. G0/G1/G2E unchanged. R4=0%; STOP.
+
+
+## H3-P0 saved depth and modal-window review
+
+H3_P0_DERIVATIVE_STENCIL_CONSISTENCY_SUPPORTED, H3_P0_DEPTH_DERIVATIVE_ACCURACY_UNCERTIFIED, H3_P0_MODAL_WINDOW_REDESIGN_REQUIRED. OriginalP0 unchanged; SSP information NOT_EVALUATED; R4=0%; independent checks PASS. STOP; no further numeric stage opened.
