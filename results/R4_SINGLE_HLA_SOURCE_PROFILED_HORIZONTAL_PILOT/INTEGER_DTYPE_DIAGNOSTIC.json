@@ -1,0 +1,9 @@
+{
+  "original_check": {
+    "check": "circular_error_2deg",
+    "error": 1.0,
+    "PASS": false
+  },
+  "scope": "Metric helper truncates circular float results for integer ndarray input. Frozen generated states, grid, estimates, and parsed truth tables are all float64. No likelihood, state, source model or scientific output uses this integer path; frozen helper unchanged.",
+  "requires_future_metric_API_dtype_guard": true
+}

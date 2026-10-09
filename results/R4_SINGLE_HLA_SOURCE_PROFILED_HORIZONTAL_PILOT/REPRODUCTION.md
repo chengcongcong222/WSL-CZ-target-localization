@@ -1,0 +1,13 @@
+# Reproduction and storage
+
+Canonical Windows working directory is on D:. Apply D:/ProjectStorage/WSL-CZ/runtime-environment.ps1 first; temp, Python bytecode, plots, logs and caches remain on D:. psutil wheel is isolated in D:/ProjectStorage/WSL-CZ/HLA_H1/runtime_packages; record and hash are in RUNTIME_DEPENDENCY.json. Set PYTHONPATH to that path for the frozen executor. Other inherited numerical dependencies are numpy, scipy, pandas, threadpoolctl, matplotlib.
+
+This directory is a completed single execution. The executor intentionally refuses an existing full-grid cache or execution manifest. Reproduction belongs in an isolated D: checkout with fresh stage/output and local-cache paths, never by overwriting this evidence. Main h states, every observation, innovations, all accepted IDs/costs/profiled depths, offgrid truths/candidates and optimizer statuses are committed. No propagation executable is needed. The 6.872 GB complete-grid cache stays local D: with SHA256 in LOCAL_CACHE_MANIFEST.json; rebuild from frozen modal files if unavailable.
+
+FROZEN_INPUT_BYTES.zip preserves exact preregistered source/input bytes, including original newlines, with INPUT_MAP.json. Git newline conversion on another machine may otherwise change byte hashes. This archive is provenance, not permission to overwrite historical directories. Keep LF/newline settings or use a separate isolated reproduction checkout with the archived byte copies.
+
+Frozen scientific execution: hla_h1_execute.py. Full finite-grid cold acceptance audit: hla_h1_full_grid_audit.py. Additional cold checks, aggregation and three plots: hla_h1_audit.py. Interpretation and four-parameter tables: hla_h1_finalize.py. The frozen reporter prototype is retained; actual independent reporter distinguishes original-depth and reprofiled terminal records and accesses the empty column explicitly. See AUDIT_REPORTING_NOTE.json. Integer ndarray metric-helper truncation is documented in INTEGER_DTYPE_DIAGNOSTIC.json; actual pilot state/evaluation arrays are float64 and independently checked.
+
+Only ONE observation/search execution was performed after design push. Two startup attempts failed at importing the missing psutil dependency before any data generation, plus one reporting attempt failed before cold checks at a pandas column-name collision. Infrastructure/reporting corrections did not change frozen estimator/configuration or rerun experiments. Main and offgrid runs are complete; scientific nonacceptances and optimizer unsuccessful statuses are retained separately.
+
+Original R4 progress remains zero. No next method, wider search, additional architecture or acoustic solver run is authorized by these reproduction notes. STOP after execution commit push and remote verification.

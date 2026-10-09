@@ -1,0 +1,11 @@
+{
+  "path": "D:\\ProjectStorage\\WSL-CZ\\HLA_H1\\FULL_GRID_M0.npy",
+  "sha256": "bb3159f58a8feb73ac6605614533ee9d486253c592b062e922cc93fc3cc0a3b1",
+  "shape": [
+    114576,
+    21,
+    357
+  ],
+  "bytes": 6871810304,
+  "input_model_only": true
+}

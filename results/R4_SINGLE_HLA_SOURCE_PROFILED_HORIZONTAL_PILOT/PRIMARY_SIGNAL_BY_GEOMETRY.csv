@@ -1,0 +1,13 @@
+source,geometry,truth_retention_M1,truth_retention_M0,A,B,range_shrink_vs_bearing,speed_shrink_vs_bearing,heading_shrink_vs_bearing
+S1,G01,0.9375,0,True,True,1,1,1
+S1,G02,0.90625,0,True,True,1,1,1
+S1,G03,0.96875,0,True,True,1,1,1
+S1,G04,0.96875,0,True,True,1,1,1
+S1,G05,1,0,True,True,1,1,1
+S1,G06,0.90625,0,True,True,1,1,1
+S2,G01,0.9375,0,True,True,1,1,1
+S2,G02,0.90625,0,True,True,1,1,1
+S2,G03,0.96875,0,True,True,1,1,1
+S2,G04,0.96875,0,True,True,1,1,1
+S2,G05,1,0,True,True,1,1,1
+S2,G06,0.90625,0,True,True,1,1,1

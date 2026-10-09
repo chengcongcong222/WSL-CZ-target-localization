@@ -1,0 +1,50 @@
+{
+  "PASS": true,
+  "checks": [
+    {
+      "check": "temporal_orthonormal_61",
+      "error": 2.220446049250313e-16,
+      "PASS": true
+    },
+    {
+      "check": "gauge_rank_61",
+      "rank": 63,
+      "expected": 63,
+      "PASS": true
+    },
+    {
+      "check": "free_frequency_time_amplitude_zero_61",
+      "error": 0.0,
+      "PASS": true
+    },
+    {
+      "check": "temporal_orthonormal_60",
+      "error": 2.220446049250313e-16,
+      "PASS": true
+    },
+    {
+      "check": "gauge_rank_60",
+      "rank": 62,
+      "expected": 62,
+      "PASS": true
+    },
+    {
+      "check": "free_frequency_time_amplitude_zero_60",
+      "error": 0.0,
+      "PASS": true
+    },
+    {
+      "check": "frequency_orthonormal",
+      "error": 2.220446049250313e-16,
+      "PASS": true
+    },
+    {
+      "check": "circular_error_float64_2deg",
+      "error": 2.2648549702353193e-14,
+      "PASS": true
+    }
+  ],
+  "scientific_observations": false,
+  "scope": "Independent bookkeeping controls, frozen formula unchanged",
+  "dtype_contract": "All pilot states and truth metrics float64; integer helper limitation separately preserved."
+}

@@ -1,0 +1,6 @@
+{
+  "rows": 7527,
+  "configuration_rows": 9216,
+  "distance_definition": "Euclidean parameter error divided by original grid step, evaluation-only. Closest joint state per branch is one state; componentwise minima are not combined into an oracle state.",
+  "topology": "4D axis-adjacent finite-grid components, not continuous physical modes; original restricted angle domain has no +/-180 seam. Range intervals/gaps separately recorded. Empty configurations retained with zero branches."
+}

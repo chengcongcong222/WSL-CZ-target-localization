@@ -1,0 +1,62 @@
+[
+  {
+    "source": "S0",
+    "raw_RMS": 0.0,
+    "window_demeaned_RMS": 0.0,
+    "per_frequency_raw_RMS": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "per_frequency_window_demeaned_RMS": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "source": "S1",
+    "raw_RMS": 1.0,
+    "window_demeaned_RMS": 0.5,
+    "per_frequency_raw_RMS": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_frequency_window_demeaned_RMS": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "source": "S2",
+    "raw_RMS": 1.0,
+    "window_demeaned_RMS": 0.4432176127723587,
+    "per_frequency_raw_RMS": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_frequency_window_demeaned_RMS": [
+      0.44321761277235866,
+      0.44321761277235866,
+      0.44321761277235866
+    ]
+  },
+  {
+    "source": "S3",
+    "raw_RMS": 1.1086778913041726,
+    "window_demeaned_RMS": 0.4913855683173279,
+    "per_frequency_raw_RMS": [
+      1.25,
+      0.75,
+      1.25
+    ],
+    "per_frequency_window_demeaned_RMS": [
+      0.5540220159654483,
+      0.332413209579269,
+      0.5540220159654483
+    ]
+  }
+]

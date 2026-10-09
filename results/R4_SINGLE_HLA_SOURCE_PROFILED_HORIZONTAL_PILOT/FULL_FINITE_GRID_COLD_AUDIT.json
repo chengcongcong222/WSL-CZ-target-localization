@@ -1,0 +1,10 @@
+{
+  "PASS": true,
+  "checks": 6912,
+  "direct_h_depth_states": 314643,
+  "FALSE_REJECTED": 0,
+  "FALSE_ACCEPTED": 0,
+  "max_saved_accepted_score_difference": 7.507878763135523e-10,
+  "elapsed_seconds": 416.56199999991804,
+  "scope": "Every potentially accepted original-grid point and all 21 depths, for all 6912 acoustic method configurations; independent explicit centering and direct modal fields. Outside pool bearing lower bound exceeds maximum total threshold. Not continuous certification."
+}

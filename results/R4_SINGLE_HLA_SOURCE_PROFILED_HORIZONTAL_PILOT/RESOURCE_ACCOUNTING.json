@@ -1,0 +1,15 @@
+{
+  "inclusive_wall_since_preflight_start_seconds": 2040.1194105148315,
+  "inclusive_scope": "Preflight, implementation/freeze/push intervals, one scientific execution, all cold audits and reporting; exceeds sum of CPU-stage runtimes.",
+  "main_execution_seconds": 747.5150000001304,
+  "preflight_seconds": 43.5851122001186,
+  "full_finite_grid_audit_seconds": 416.56199999991804,
+  "main_peak_rss_bytes": 7790137344,
+  "other_audit_peak_not_separately_instrumented": true,
+  "worker_contract": "Scientific stages and audits ran sequentially in one CPU process each, BLAS at most four threads.",
+  "wall_budget_seconds": 14400,
+  "peak_budget_bytes": 8589934592,
+  "local_cache_bytes": 6871810304,
+  "main_memory_budget_PASS": true,
+  "inclusive_wall_budget_PASS": true
+}

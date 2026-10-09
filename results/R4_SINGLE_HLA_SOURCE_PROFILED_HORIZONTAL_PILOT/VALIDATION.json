@@ -1,0 +1,26 @@
+{
+  "PASS": true,
+  "checks": 49528,
+  "FAIL": 0,
+  "max_score_difference": 5.820766091346741e-11,
+  "scope": "All main true residuals, fixed registered configurations all accepted states, all offgrid terminal states; preflight independent modal/Cartesian/QR controls. No global interpolation error certificate.",
+  "counts": {
+    "direct_accepted_score": 39522,
+    "all_true_scores": 6912,
+    "all_offgrid_terminals": 3094
+  },
+  "full_finite_grid_audit": {
+    "PASS": true,
+    "checks": 6912,
+    "direct_h_depth_states": 314643,
+    "FALSE_REJECTED": 0,
+    "FALSE_ACCEPTED": 0,
+    "max_saved_accepted_score_difference": 7.507878763135523e-10,
+    "elapsed_seconds": 416.56199999991804,
+    "scope": "Every potentially accepted original-grid point and all 21 depths, for all 6912 acoustic method configurations; independent explicit centering and direct modal fields. Outside pool bearing lower bound exceeds maximum total threshold. Not continuous certification."
+  },
+  "frozen_input_code_hashes_unchanged": true,
+  "supplemental_structural_controls": true,
+  "integer_dtype_metric_limitation": "Preserved separately; all scored/generated pilot states are float64.",
+  "independent_research_lead_audit": "PENDING"
+}

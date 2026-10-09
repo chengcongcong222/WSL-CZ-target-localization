@@ -1,0 +1,9 @@
+{
+  "package": "psutil",
+  "version": "7.2.2",
+  "wheel": "psutil-7.2.2-cp37-abi3-win_amd64.whl",
+  "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988",
+  "startup_note": "Two import-only startup attempts before any observations or cache. Missing psutil supplied in D-only isolated PYTHONPATH; frozen code/config unchanged.",
+  "python_executable": "C:/Users/ccc/AppData/Local/Programs/Python/Python310/python.exe",
+  "runtime_writes": "D-only via runtime-environment.ps1"
+}

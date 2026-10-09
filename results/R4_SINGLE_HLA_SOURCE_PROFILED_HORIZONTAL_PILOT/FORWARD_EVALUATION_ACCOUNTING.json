@@ -1,0 +1,14 @@
+{
+  "new_KRAKEN_FIELD_BELLHOP_calls": 0,
+  "new_modal_field_evaluations": true,
+  "full_grid_cache_horizontal_states": 114576,
+  "full_grid_cache_shared_depth_states": 2406096,
+  "main_boundary_direct_horizontal_evaluations": 119,
+  "main_best_direct_horizontal_evaluations": 6912,
+  "offgrid_optimizer_terminal_direct_horizontal_evaluations": 3072,
+  "offgrid_recorded_nfev": 155741,
+  "offgrid_numerical_Jacobian_residual_calls_not_separately_instrumented": true,
+  "offgrid_residual_calls_upper_bound": 778705,
+  "full_finite_grid_cold_direct_depth_states": 314643,
+  "scope": "Modal evaluations are new acoustic arithmetic, not new solver calls. nfev excludes numerical Jacobian calls; upper bound is accounting, not observed counter."
+}

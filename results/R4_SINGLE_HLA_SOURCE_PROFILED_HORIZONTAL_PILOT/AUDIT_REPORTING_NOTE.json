@@ -1,0 +1,9 @@
+{
+  "frozen_estimator_unchanged": true,
+  "frozen_files_unchanged": true,
+  "reporting_entry": "hla_h1_audit.py",
+  "sha256": "c2b4bc042cdf9d7ce73778053763883e8d7d03b74213e5934d5c2c12f76a209e",
+  "reason": "Independent audit must verify saved original-depth terminal scores at their recorded depth as well as reprofiled scores. Frozen report prototype incorrectly compared both record types to depth minima. Corrected only audit comparison in new file, without changing estimator, observations, thresholds, data, source profiles or search.",
+  "frozen_report_prototype_retained": "hla_h1_report.py",
+  "additional_report_only_fix": "Pandas DataFrame.empty property collides with empty column. Read group[empty] explicitly; no estimator/data change. First aggregate reporting attempt stopped before cold checks."
+}

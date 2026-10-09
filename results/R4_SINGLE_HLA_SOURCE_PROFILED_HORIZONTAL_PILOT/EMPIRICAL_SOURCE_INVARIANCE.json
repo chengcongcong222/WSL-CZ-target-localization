@@ -1,0 +1,5 @@
+{
+  "checks": 1152,
+  "all_common_source_sets_equal": true,
+  "scope": "Paired S0/S1/S2 finite-grid M1 sets; shared noise, not independent validation samples"
+}

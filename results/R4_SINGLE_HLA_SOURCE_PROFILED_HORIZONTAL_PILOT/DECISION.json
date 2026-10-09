@@ -1,0 +1,37 @@
+{
+  "stage": "HLA-H1",
+  "classification": "HLA_H1_SOURCE_PROFILED_HORIZONTAL_GAIN_SUPPORTED_CONDITIONALLY",
+  "parallel_limits": [
+    "HLA_H1_GAIN_LIMITED_BY_NONCOMMON_SOURCE_VARIATION"
+  ],
+  "signal": {
+    "S1": {
+      "A": 6,
+      "B": 6,
+      "A_and_B": 6
+    },
+    "S2": {
+      "A": 6,
+      "B": 6,
+      "A_and_B": 6
+    }
+  },
+  "execution": "COMPLETE",
+  "main_rows": 9216,
+  "offgrid_rows": 96,
+  "R4_percent": 0,
+  "scope": "EXPLORATORY_FEATURE_LEVEL_NOMINAL_MATCHED_SINGLE_HLA",
+  "no_continuous_coverage": true,
+  "depth_success": "NOT_EVALUATED",
+  "real_signal_extraction": "NOT_EVALUATED",
+  "source_accuracy": "CONDITION_COMMON_SOURCE_ONLY",
+  "STOP": true,
+  "finite_grid_classification": "HLA_H1_SOURCE_PROFILED_HORIZONTAL_GAIN_SUPPORTED_CONDITIONALLY",
+  "continuous_panel_classification": "HLA_H1_SEARCH_OR_NUMERICAL_LIMITED",
+  "continuous_success_not_established": true,
+  "continuous_M1_accepted_configurations": 0,
+  "continuous_M1_truth_joint_accepted_posthoc": 32,
+  "route_recommendation": "CONDITIONAL_MECHANISM_RESERVE; NOT_ESTABLISHED_CONTINUOUS_HORIZONTAL_ESTIMATOR",
+  "full_finite_grid_direct_audit_PASS": true,
+  "independent_research_lead_audit": "PENDING"
+}

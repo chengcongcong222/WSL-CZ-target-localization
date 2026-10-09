@@ -1,0 +1,146 @@
+[
+  {
+    "method": "BEARING",
+    "parameter": "r_km",
+    "median_point_error": 4.0,
+    "maximum_point_error": 14.0,
+    "median_accepted_set_span": 15.0,
+    "min_scene_median_span": 15.0,
+    "max_scene_median_span": 15.0
+  },
+  {
+    "method": "BEARING",
+    "parameter": "theta_deg",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": 0.0,
+    "min_scene_median_span": 0.0,
+    "max_scene_median_span": 0.0
+  },
+  {
+    "method": "BEARING",
+    "parameter": "v_mps",
+    "median_point_error": 0.6,
+    "maximum_point_error": 1.7999999999999998,
+    "median_accepted_set_span": 2.0,
+    "min_scene_median_span": 1.8,
+    "max_scene_median_span": 2.0
+  },
+  {
+    "method": "BEARING",
+    "parameter": "psi_deg",
+    "median_point_error": 2.0000000000000027,
+    "maximum_point_error": 9.999999999999988,
+    "median_accepted_set_span": 11.0,
+    "min_scene_median_span": 8.0,
+    "max_scene_median_span": 12.0
+  },
+  {
+    "method": "M0",
+    "parameter": "r_km",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": null,
+    "min_scene_median_span": null,
+    "max_scene_median_span": null
+  },
+  {
+    "method": "M0",
+    "parameter": "theta_deg",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": null,
+    "min_scene_median_span": null,
+    "max_scene_median_span": null
+  },
+  {
+    "method": "M0",
+    "parameter": "v_mps",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": null,
+    "min_scene_median_span": null,
+    "max_scene_median_span": null
+  },
+  {
+    "method": "M0",
+    "parameter": "psi_deg",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": null,
+    "min_scene_median_span": null,
+    "max_scene_median_span": null
+  },
+  {
+    "method": "M1",
+    "parameter": "r_km",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": 0.0,
+    "min_scene_median_span": 0.0,
+    "max_scene_median_span": 0.0
+  },
+  {
+    "method": "M1",
+    "parameter": "theta_deg",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": 0.0,
+    "min_scene_median_span": 0.0,
+    "max_scene_median_span": 0.0
+  },
+  {
+    "method": "M1",
+    "parameter": "v_mps",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": 0.0,
+    "min_scene_median_span": 0.0,
+    "max_scene_median_span": 0.0
+  },
+  {
+    "method": "M1",
+    "parameter": "psi_deg",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": 0.0,
+    "min_scene_median_span": 0.0,
+    "max_scene_median_span": 0.0
+  },
+  {
+    "method": "ORACLE",
+    "parameter": "r_km",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": 0.0,
+    "min_scene_median_span": 0.0,
+    "max_scene_median_span": 0.0
+  },
+  {
+    "method": "ORACLE",
+    "parameter": "theta_deg",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": 0.0,
+    "min_scene_median_span": 0.0,
+    "max_scene_median_span": 0.0
+  },
+  {
+    "method": "ORACLE",
+    "parameter": "v_mps",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": 0.0,
+    "min_scene_median_span": 0.0,
+    "max_scene_median_span": 0.0
+  },
+  {
+    "method": "ORACLE",
+    "parameter": "psi_deg",
+    "median_point_error": 0.0,
+    "maximum_point_error": 0.0,
+    "median_accepted_set_span": 0.0,
+    "min_scene_median_span": 0.0,
+    "max_scene_median_span": 0.0
+  }
+]
