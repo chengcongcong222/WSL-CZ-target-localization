@@ -1,0 +1,11 @@
+{
+  "checks": 4,
+  "PASS": 4,
+  "FAIL": 0,
+  "straight_reflection_error": 0.0,
+  "periodic_seam_error_from_expected": 5.244853420387045e-16,
+  "weak_maneuver_rank4": true,
+  "straight_rank_deficient": true,
+  "scope": "ANALYTIC_CONTROLS;NOT_FULL_CIRCLE_SUPPORT_CLAIM",
+  "new_observations": 0
+}

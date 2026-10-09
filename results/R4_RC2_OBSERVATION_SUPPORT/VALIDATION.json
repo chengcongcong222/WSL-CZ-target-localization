@@ -1,0 +1,11 @@
+{
+  "checks": 231500,
+  "PASS": 231500,
+  "FAIL": 0,
+  "Decimal_rejection_certificates": 5284,
+  "complete_dyadic_partition_rebuilt": true,
+  "statistical_scope": "ANALYTIC_CONDITIONAL_BOUND;NOT_VALIDATED_BY_EMPIRICAL_RETENTION",
+  "new_observations": 0,
+  "new_solvers": 0,
+  "elapsed_s": 31.688000000081956
+}

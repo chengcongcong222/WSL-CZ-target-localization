@@ -1,0 +1,7 @@
+{
+  "root_bearing_low_rad": -0.14726127142128603,
+  "root_bearing_high_rad": 0.133302330746299,
+  "gaussian_good_event_input_sector_margin_rad": 0.1773454155520756,
+  "no_branch_cut_on_registered_good_event": true,
+  "scope": "DECLARED_FORWARD_PHYSICAL_PRIOR_ONLY;NOT_FULL_360DEG_SEARCH"
+}

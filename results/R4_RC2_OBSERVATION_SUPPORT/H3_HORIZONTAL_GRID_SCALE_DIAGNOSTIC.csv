@@ -1,0 +1,7 @@
+H3_scene,registered_nodes,range_offset_min_m,range_offset_max_m,speed_offset_min_mps,speed_offset_max_mps,range_span_m,speed_span_mps,U0_outer_range_width_m,U0_outer_speed_width_mps,range_scale_ratio,speed_scale_ratio,same_observation_panel,nesting_or_depth_coverage
+H01_M,25,-250.0,250.0,-0.05,0.05,500.0,0.1,15000.0,2.0,30.0,20.0,False,NOT_EVALUATED;SCALE_ONLY
+H01_P,25,-250.0,250.0,-0.05,0.05,500.0,0.1,15000.0,2.0,30.0,20.0,False,NOT_EVALUATED;SCALE_ONLY
+H06_M,25,-250.0,250.0,-0.05,0.05,500.0,0.1,15000.0,2.0,30.0,20.0,False,NOT_EVALUATED;SCALE_ONLY
+H06_P,25,-250.0,250.0,-0.05,0.05,500.0,0.1,15000.0,2.0,30.0,20.0,False,NOT_EVALUATED;SCALE_ONLY
+H12_M,25,-250.0,250.0,-0.05,0.05,500.0,0.1,15000.0,2.0,30.0,20.0,False,NOT_EVALUATED;SCALE_ONLY
+H12_P,25,-250.0,250.0,-0.05,0.05,500.0,0.1,15000.0,2.0,30.0,20.0,False,NOT_EVALUATED;SCALE_ONLY

@@ -1,0 +1,80 @@
+{
+  "files": [
+    {
+      "path": "BRANCH_AND_BUDGET_DIAGNOSTICS.csv",
+      "sha256": "994981379c6bbfa1889b560ef669ec68347f15a38028f0a47a6f0c90f0753135"
+    },
+    {
+      "path": "COMPATIBILITY_DOMAIN_CERTIFICATE.json",
+      "sha256": "4026ec87b388b39b5c3a272efb9f715192f5f9fcfc75233e59db007f5babc141"
+    },
+    {
+      "path": "DESIGN_FREEZE.json",
+      "sha256": "80b6883462908d9a89cb6b40778dcb1a620241165b5d23f358ec8b253dfc2d01"
+    },
+    {
+      "path": "EXECUTION_STARTED.json",
+      "sha256": "bdf247622ec98e0ee33b79995f97e081e83a825376dfed4355658266ca4e79d6"
+    },
+    {
+      "path": "GEOMETRY_CONTROLS.csv",
+      "sha256": "f78a1b112030187bd14f79d8a1e7fc2c9bf3f3e62e6df073edbeefa5a3bd0aa3"
+    },
+    {
+      "path": "GPT_SYNC.md",
+      "sha256": "4add8df7353269462045fa2e1fcf8910cb2a1aadd56f10f63ffcfbad9e99a272"
+    },
+    {
+      "path": "H3_FINITE_GRID_RELATION.md",
+      "sha256": "34620758d3a18648241f6e2dab74d184a13b6ea16cc0cb3db822fe671957fb62"
+    },
+    {
+      "path": "H3_HORIZONTAL_GRID_SCALE_DIAGNOSTIC.csv",
+      "sha256": "d2533990cce010e1b15daa05a4cca9cff837a44a46fb1b6d1cc0ca85857845f1"
+    },
+    {
+      "path": "INDEPENDENT_VALIDATION_CHECKS.csv",
+      "sha256": "b0ea80b48e674ffa97c279137ed072f2da5f39f04f8bdf20c36d18e6a09bfb0f"
+    },
+    {
+      "path": "INTERVAL_GEOMETRY_PROOF.md",
+      "sha256": "ad37ab154512c69fb6e4825b43a354768c5fcd7b65cdce631167cfb443412590"
+    },
+    {
+      "path": "OBSERVATION_AND_ERROR_CONTRACT.md",
+      "sha256": "4cf6fbe53cb02f0ac90af2ea22295cc6877baf85426bbd3aacab89e75dd7434f"
+    },
+    {
+      "path": "PARTITION_AND_REJECTION_CERTIFICATES.csv",
+      "sha256": "5796f16b260eea473ad4218b757eef96bd0f8d50330bddcd944b12f9f5509b1e"
+    },
+    {
+      "path": "RC2_SUPPORT_DECISION.json",
+      "sha256": "ee8fdcb6050a252f45d68744fb91d0c19633b2d445e85b99b839ab16e700a9e9"
+    },
+    {
+      "path": "SINGLE_VS_AUXILIARY_SUPPORT.csv",
+      "sha256": "65cfb1df5be28ee559708799e2d22d051b15f2874e57030187e166c15446ade6"
+    },
+    {
+      "path": "SUPPLEMENTARY_GEOMETRY_VALIDATION.json",
+      "sha256": "af4769662c687018434e3cb1f7fdb35712857c2b477288acfc498f3d3a41198e"
+    },
+    {
+      "path": "SUPPORT_BOXES.csv",
+      "sha256": "a5087ca89987fec30ea9f4f5c0864b31548cacfca331f7ecbf7adb37b95339c5"
+    },
+    {
+      "path": "TRUTH_COVERAGE_EVALUATION.csv",
+      "sha256": "eb0551b300485a8c5424d73db7bc8c9211395b0cefd2da16f98b8169d3d5a7f5"
+    },
+    {
+      "path": "VALIDATION.json",
+      "sha256": "5e3f1964387135b258c92d8f92665147be40b15fbfae312d089843bfcd2d567e"
+    },
+    {
+      "path": "WEAK_MANEUVER_ANALYTIC_CONTROLS.csv",
+      "sha256": "1b18e60208479925bc7c6f5f3113dde112ef9501c6cfab9c902d06caa757f1c2"
+    }
+  ]
+}

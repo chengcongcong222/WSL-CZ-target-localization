@@ -1,0 +1,8 @@
+{
+  "classifications": {
+    "U0": "RC2_OUTER_SUPPORT_VALID_BUT_BROAD",
+    "U": "RC2_OBSERVATION_OR_NOISE_CONTRACT_INCOMPLETE"
+  },
+  "R4_percent": 0,
+  "STOP": true
+}

@@ -1,0 +1,38 @@
+{
+  "architecture_classifications": {
+    "U0": "RC2_OUTER_SUPPORT_VALID_BUT_BROAD",
+    "U": "RC2_OBSERVATION_OR_NOISE_CONTRACT_INCOMPLETE"
+  },
+  "implementation_status": "CERTIFIED_CONSERVATIVE_UNDER_REGISTERED_ARITHMETIC_CONTRACT",
+  "case_count": 21,
+  "source_panel": "ARCHIVED_P_Q;NOT_H01_H06_H12",
+  "candidate_builder_used_truth": false,
+  "connected_component_completeness": "OUTER_UNION_COVERS_ALL_BRANCHES;NO_EXACT_COMPONENT_COUNT",
+  "new_KRAKEN": 0,
+  "new_FIELD": 0,
+  "new_MC": 0,
+  "new_bearing_draws": 0,
+  "new_audio": 0,
+  "H3_C1e": "NOT_EVALUATED",
+  "complete_RC2_engineering_support": "NOT_ESTABLISHED",
+  "H3_G0": "CONDITIONAL_LOCAL_DEPTH_INFORMATION_ACCEPTED",
+  "R4_percent": 0,
+  "next": "STOP",
+  "independent_review": "PASS",
+  "summary": {
+    "range_km_width_min": 15.0,
+    "range_km_width_max": 15.0,
+    "speed_mps_width_min": 2.0,
+    "speed_mps_width_max": 2.0,
+    "theta_deg_width_min": 1.25,
+    "theta_deg_width_max": 3.4375,
+    "heading_deg_width_min": 30.0,
+    "heading_deg_width_max": 30.0,
+    "budget_exhausted_cases": 21,
+    "retained_boxes": 32419,
+    "truth_compatible": 21,
+    "truth_retained": 21
+  },
+  "design_SHA": "26b435d190c86fc2cbd976913bb67f2ebaf79e13",
+  "execution_SHA": "COMMIT_CONTAINING_THIS_REPORT"
+}
