@@ -1,0 +1,591 @@
+{
+  "stage": "R4_H3_P1_UNIFIED_MODAL_WINDOW_AND_LOCAL_SSP_RESPONSE",
+  "parent_SHA": "7aaab2b99150c11b6d9a18092d4a97076d1c64af",
+  "research_lead_accepted_previous": [
+    "H3_P0_DERIVATIVE_STENCIL_CONSISTENCY_SUPPORTED",
+    "H3_P0_DEPTH_DERIVATIVE_ACCURACY_UNCERTIFIED",
+    "H3_P0_MODAL_WINDOW_REDESIGN_REQUIRED"
+  ],
+  "frequencies_hz": [
+    150.0,
+    200.0,
+    250.0
+  ],
+  "grids": [
+    80001,
+    160001
+  ],
+  "CLOW": [
+    1490.0,
+    1480.0
+  ],
+  "CHIGH": 1800,
+  "delta_c_mps": [
+    0.0,
+    -0.01,
+    0.01,
+    -0.02,
+    0.02
+  ],
+  "exact_depths_m": [
+    180.0,
+    190.0,
+    195.0,
+    198.0,
+    199.0,
+    199.5,
+    200.0,
+    200.5,
+    201.0,
+    202.0,
+    205.0,
+    210.0,
+    220.0
+  ],
+  "source_depth_m": 200.0,
+  "scenes": [
+    {
+      "scene_id": "H01_M",
+      "case_id": "H01",
+      "mirror": -1,
+      "state": [
+        50302.0808614775,
+        -793.1354128748897,
+        1.9493790216310858,
+        -0.07531350787923469
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H06_M",
+      "case_id": "H06",
+      "mirror": -1,
+      "state": [
+        54472.30432141874,
+        -541.9288834754432,
+        1.8553566775091943,
+        0.21262137527079283
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    },
+    {
+      "scene_id": "H12_M",
+      "case_id": "H12",
+      "mirror": -1,
+      "state": [
+        59456.47711113181,
+        1484.2353362791184,
+        2.367165954219456,
+        -0.03976927437474377
+      ],
+      "deployment_beta_deg": 0,
+      "baseline_m": 5000
+    }
+  ],
+  "resources": [
+    "B0",
+    "B1",
+    "B2"
+  ],
+  "snapshots_s": [
+    0,
+    600,
+    1200
+  ],
+  "scenario_scope": "INHERIT_H3_P0_H01_H06_H12_M;NO_NEW_SCENARIOS",
+  "environment": "E-STD;uniform water sound-speed offsets only;all other profiles,boundaries,attenuation,depths,CVWT unchanged",
+  "historical_1500": "HASHED_HISTORY_ONLY;NOT_USED_AS_NEW_NOMINAL",
+  "nominal_provider": "NEW_DELTA_ZERO_FOR_EACH_WINDOW_GRID_FREQUENCY",
+  "field": "full sum phi_source*phi_receiver sqrt(2pi/(k*r)) exp(-ikr-i*pi/4);complex k retained;no mode deletion",
+  "noise": "inherited RELATIVE and ABSOLUTE_FLOOR;REF=0.00010824612978073539;noise1pct=.01;design assumptions only",
+  "unknowns": "C0 source per frequency/snapshot;C1b additionally fixed unknown complex gain per element/frequency shared across all3snapshots",
+  "projection": "real whitened tangent SVD;independent QR/chart;no formal source-depth/SSP Fisher profiling",
+  "priority": [
+    "provider_and_independent_formula",
+    "complete_mode_sets_and_grid_window_response",
+    "secant_locality"
+  ],
+  "pre_registered_gates": {
+    "provider": "exact depths,finite complex fields,zero failed solver/binary contracts;independent field rel<=1e-9",
+    "grid_and_window_raw_relative": 0.01,
+    "grid_and_window_source_projector_to_noise1": 0.5,
+    "grid_and_window_C1b_whitened_noise1_RMS": 0.5,
+    "grid_and_window_C1b_SSP_direction_relative": 0.02,
+    "window_unmatched_field_fraction": 0.005,
+    "lower_and_upper_phase_speed_margin_mps": 1.0,
+    "C1b_01_vs_02_centered_secant_direction_relative": 0.05,
+    "C1b_forward_backward_secant_relative": 0.2,
+    "source_invariant_principal_phase_max_rad": 1.5707963267948966,
+    "cold_QR_derived_diagnostic_reconstruction": 1e-07,
+    "scope": "CONJUNCTIVE_NUMERICAL_SCREEN;NOT_NEW_PROJECT_PERFORMANCE_PASS;CHIGH_NOT_INDEPENDENTLY_CERTIFIED"
+  },
+  "comparisons": {
+    "relative_norm": "norm(a-b)/max(norm(a),norm(b),1e-30)",
+    "source_projector": "normalize each t/f spatial complex vector;average squared Frobenius projector difference;noise inherited exact G0 formula",
+    "fixed_gain_response": "C1b projection of q/p-1, divided by .01*sqrt(2*original complex sample count)",
+    "secants": "(P(+h)-P(-h))/(2h), forward(P(+h)-P0)/h,backward(P0-P(-h))/h;divide by same new nominal field then joint nuisance projection",
+    "step_locality": "centered .01 vs .02 relative direction AND positive/negative agreement at BOTHsteps;all retained",
+    "phase": "principal phase of source-invariant element/reference response vs new nominal;not unwrapped derivative certificate",
+    "mode_matching": "Hungarian assignment1-correlation+0.05*clipped k-distance/local gap;13sampled-depth shape correlation;corr<.95 flagged;not exact identity certificate",
+    "unmatched": "all apparent unmatched full modal terms retained and summed;window omitted contribution norm/fullfield norm<=.005;count equality not required",
+    "ambiguous": "low-correlation modal fields retained/report;mode assignment not used to truncate or construct secants"
+  },
+  "classification": {
+    "A": "all provider,cold,window/grid and locality checks pass;only three frequencies/tested window steps",
+    "B": "any window/grid/full-response/margin/unmatched or grid/window secant check fails",
+    "C": "any step/forward-backward/principal-phase locality check fails",
+    "D": "provider,parse,formula or cold reconstruction substantive failure;priority overrides scientific interpretations",
+    "B_C_can_coexist": true,
+    "no_retuning": "no further CLOW,SSPsteps,frequencies or grids in this stage"
+  },
+  "source_depth": "archived R1/R2 limits retained;no new source derivative accuracy certification;NO_ALIGNMENT_OR_C1e_INFORMATION_EVALUATION",
+  "budget": {
+    "new_KRAKEN_max": 60,
+    "per_call_s": 90,
+    "solver_total_s": 5400,
+    "analysis_s": 900,
+    "cold_review_s": 900,
+    "overall_s": 7200,
+    "delivery_bytes": 256000000,
+    "new_FIELD": 0,
+    "new_MC": 0,
+    "new_audio": 0,
+    "solver_retries": 0,
+    "run_once": true,
+    "stop_after_provider_failure": true
+  },
+  "stop": "CommitB,push,remoteverify,STOP;A allows only recommendation for separate full-band research-lead design review;B/C/D stop current propagation derivative route",
+  "original_P0": "H3_P0_NUMERICAL_OR_FORMULA_INCOMPLETE",
+  "source_depth_true_accuracy": "ACCURACY_UNCERTIFIED",
+  "C1e_P0_depth_information": "NOT_EVALUATED",
+  "complete_RC2_support": "NOT_ESTABLISHED",
+  "R4_percent": 0,
+  "bindings": [
+    {
+      "path": "r4_e2_g0.py",
+      "sha256": "3292f3edc38e6bb2029a05cbde8af21106cfc060e4feb1ae39e4844b7706e5d6"
+    },
+    {
+      "path": "r4_e2_nine_pair_pilot_audit.py",
+      "sha256": "7c25aafc8bbc230e7900d7f7218648b5adbb07b0674f97ae41fc5bf49fbc5190"
+    },
+    {
+      "path": "r4_e2_paired_recovery.py",
+      "sha256": "ff1fe9ee848cac7367435019296b3f3e5d3bdb2dafa40d28328ca13d0e6543f5"
+    },
+    {
+      "path": "r4_h3_g0.py",
+      "sha256": "f9a123ac76547f1928a1e74b55b96d7dcb456a1c8e13b0fe8e76b031c8a605ee"
+    },
+    {
+      "path": "r4_h3_g0_audit.py",
+      "sha256": "e65e6c16dc2ded9f797ea7ab53001471040bf83686e491cf12c9087a283cfccb"
+    },
+    {
+      "path": "r4_h3_p0.py",
+      "sha256": "9571e96087795973bab91aa2785e429ac360ebc9a7ea48f9baaa4b5a49313a95"
+    },
+    {
+      "path": "r4_h3_p0_derivative_review.py",
+      "sha256": "a4bf52c428b7bc75e7e1afea43c2205bdbce7675576851d818ed77ebc347a927"
+    },
+    {
+      "path": "r4_h3_p0_derivative_review_audit.py",
+      "sha256": "589769ad13df0c5402b71028ac4f81752ef10c235e4c443f7968220ec9755d89"
+    },
+    {
+      "path": "r4_h3_p1.py",
+      "sha256": "2e1c6ed9278832d96ef43fadac9984eb2bed5dda60cb93067057a3f0255acc54"
+    },
+    {
+      "path": "r4_h3_p1_audit.py",
+      "sha256": "f5c1702880b778aa67d9d184e5c8f813704a16b767e695d01927527cf6cd8d02"
+    },
+    {
+      "path": "r4_h3_p1_freeze.py",
+      "sha256": "94825997695cc128ebbcd5f5b808a480ee645d6e3b5d2755ae50beffbe82d055"
+    },
+    {
+      "path": "r4_h3_p1_report.py",
+      "sha256": "8502cf2212c1c215f1f09dcd41dd6304a0ba039a55a0a39ec70c52c05e9524e4"
+    },
+    {
+      "path": "results/R4_E2_FORWARD_FIDELITY_DIAGNOSTIC/third_mesh/fine_f150_n80001.env",
+      "sha256": "cb623758b3c765fa828d9f8aa1f87cfc8abef6338f6ac0cc3e502a2008af2859"
+    },
+    {
+      "path": "results/R4_E2_FORWARD_FIDELITY_DIAGNOSTIC/third_mesh/fine_f150_n80001.mod",
+      "sha256": "add0a896f0827a77458bf64107ed8a7667c9391d0e4c6de5b188a24fe96336c2"
+    },
+    {
+      "path": "results/R4_E2_FORWARD_FIDELITY_DIAGNOSTIC/third_mesh/fine_f200_n80001.env",
+      "sha256": "a43b14f0eebd487cab6097e54d3dabe9ec071c7067c3ad1016b86d2bafd6c021"
+    },
+    {
+      "path": "results/R4_E2_FORWARD_FIDELITY_DIAGNOSTIC/third_mesh/fine_f200_n80001.mod",
+      "sha256": "bc227e4a6b1dd44960374bda2262c219d889a6d339420c39cfe1f4a1c7aaf784"
+    },
+    {
+      "path": "results/R4_E2_FORWARD_FIDELITY_DIAGNOSTIC/third_mesh/fine_f250_n80001.env",
+      "sha256": "7b7e6ecb2bfa66f29f1371275d3823946bd1bf64feba712562e75949fb0bd471"
+    },
+    {
+      "path": "results/R4_E2_FORWARD_FIDELITY_DIAGNOSTIC/third_mesh/fine_f250_n80001.mod",
+      "sha256": "daad22b058d68040b3fee48b68801315fd7a6965fc0e17b3e24b1539c950d065"
+    },
+    {
+      "path": "results/R4_E2_PAIRED_FREQUENCY_RECOVERY/modal/f0300_n160001.env",
+      "sha256": "9de558fccb79de5283e16658692ca72fd84b8c79f45c6fdd56168675eea5b629"
+    },
+    {
+      "path": "results/R4_E2_PAIRED_FREQUENCY_RECOVERY/modal/f0300_n160001.mod",
+      "sha256": "5d3305d906eefc22fa1698ba4a10029b8657a29577c5739db690b205134c36dd"
+    },
+    {
+      "path": "results/R4_E2_PAIRED_FREQUENCY_RECOVERY/modal/f0400_n160001.env",
+      "sha256": "2f369e5ed515efe0f4bd9722704f3d02d03a4b34f6bcca54ccd312017ce1db3e"
+    },
+    {
+      "path": "results/R4_E2_PAIRED_FREQUENCY_RECOVERY/modal/f0400_n160001.mod",
+      "sha256": "c3822a3faaa72ce2d5b318d8aa5493f47d8968f5e7a339ba6c16e020f78b3392"
+    },
+    {
+      "path": "results/R4_E2_PAIRED_FREQUENCY_RECOVERY/modal/f0500_n160001.env",
+      "sha256": "4309ea179877c6fe9a3dba62daabd029a733b4c9a75c0dcffa2628db7e32ff32"
+    },
+    {
+      "path": "results/R4_E2_PAIRED_FREQUENCY_RECOVERY/modal/f0500_n160001.mod",
+      "sha256": "a69db1bdaed22a06c8f42ebdf44805372411044807789683f4cdb1b66ea392cf"
+    },
+    {
+      "path": "results/R4_H3_G0_FINITE_VERTICAL_RESPONSE/DESIGN_FREEZE.json",
+      "sha256": "23d07721a7c9d4b6cdf441da8a404a75ba9b40fb8c8fe3993dfe7559bf4b6dd7"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/DESIGN_FREEZE.json",
+      "sha256": "a32fcb2ec9bdceaf48a9f324d524b9d06710644670939558c52b219160cf7dfb"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/REVIEW_DECISION.json",
+      "sha256": "08119111d77a5de6ccbacb4cceaa7cb525c5d3115039bbf891c57766ef2ebbe1"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H01_M_B0_n160001.npz",
+      "sha256": "dd0578f1db6153f58359c0bf4c386923a4388444338fc1a9f666003ac52171c0"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H01_M_B0_n80001.npz",
+      "sha256": "74ae0dc5c267658657a80fa2fb568c517530e65f5cf9c4feaed3bb8842b54ac6"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H01_M_B1_n160001.npz",
+      "sha256": "0170d046e51a4c0f4095f3007c88389e7add77d8f56b7f73527158908f02ea02"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H01_M_B1_n80001.npz",
+      "sha256": "3fc76a6ccf722f18527853a47917e4445e218336cc2a8765c9a123edaac2851d"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H01_M_B2_n160001.npz",
+      "sha256": "ccc6a38e67ae7c235827854f0a1321afc9a81453091db139b42b0252237d09f6"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H01_M_B2_n80001.npz",
+      "sha256": "de369cbb9756395a0d31f63871fcbe25584305f7ab14107446466930f05a3258"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H06_M_B0_n160001.npz",
+      "sha256": "1d7be44dd06247f4b1f3c32a9b8c2de6458849130f457bc803e736982f9b0b5b"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H06_M_B0_n80001.npz",
+      "sha256": "fce907b79239da26b9ef99f5f193b315a39bc8cc7eeb7ce6cfd99db7b6b04a50"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H06_M_B1_n160001.npz",
+      "sha256": "4400200a416a4398fd04c284bd888400ddcbfd230456afa6518467a00bd3169b"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H06_M_B1_n80001.npz",
+      "sha256": "39a47c8944361074a7dd4c306abe5d3f10c90f3a00a36584f734dbc224e4c455"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H06_M_B2_n160001.npz",
+      "sha256": "a21bc5bfc6b955aaa79ffd5d00891f4c4547471d85fcda91400886722b25bff8"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H06_M_B2_n80001.npz",
+      "sha256": "2aa32899c6c2b799bcce097756045e41c558a913d68ee2a7bc9a76ff3ff43ce4"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H12_M_B0_n160001.npz",
+      "sha256": "b8c550d6b443c1fe274174d0346ef1801e85abe6bc983fe58dce47c4b28f4009"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H12_M_B0_n80001.npz",
+      "sha256": "4ea1dc0a7d49aba9464aa4acf86a0fcd9895e9711966fa1948b23712c0778f53"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H12_M_B1_n160001.npz",
+      "sha256": "50725d5f4ff09098a6fa05ab73dfdbb5eeab0060e91118bd9293635456630506"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H12_M_B1_n80001.npz",
+      "sha256": "8e77e0bad4a872fc6686068ae868ec98cddb95a6d7cc739643fff697b523a86f"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H12_M_B2_n160001.npz",
+      "sha256": "dfeca7cde439154d6d8a097de59ee3133938879041927f25e65780a6ca228d94"
+    },
+    {
+      "path": "results/R4_H3_P0_DERIVATIVE_REVIEW/STENCILS_H12_M_B2_n80001.npz",
+      "sha256": "3832dfba1a02a5a7615c8de32e6a353adcb372346326d03f73dcc22be7438455"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f150_d+000.env",
+      "sha256": "0f91b4d6eb91c2c43720e717146fce59ec7c30528cb6a68529ca9ca4dfbadb98"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f150_d+010.env",
+      "sha256": "535307515a0c235eb35d70ce1d91608043ac904aa434af4d8a9c5fc6585cb44f"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f150_d+020.env",
+      "sha256": "9c528b00c07843d6c3ca873d790484dc32e7d7c80e14c5a73e5ac2e946969ed8"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f150_d-010.env",
+      "sha256": "74ab3397d7b0aaf6a078a33cc576f307ae421ba0eb0bacaaad35ba7fb111e98e"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f150_d-020.env",
+      "sha256": "a14306092edb4ebe7fcfdbb5b18f1e446817a957af9f38477fc6dca82c3e4070"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f200_d+000.env",
+      "sha256": "180491894ba6d19c4514c12c91dfcd7e52336882e27db468ae011dac125c5eca"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f200_d+010.env",
+      "sha256": "d4bca4592a5f2bfd2763cc2b144017bc8d345c2130a5db05de64f31be7f459ca"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f200_d+020.env",
+      "sha256": "33099af3db83cb03c69768154c0091c79a0b92ba3770f059782c8bf5612e81fd"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f200_d-010.env",
+      "sha256": "04d5610250720e1e6e4d5f131145e0a887624a2f9a02594ae40f1f9c4d45cff6"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f200_d-020.env",
+      "sha256": "cc70a4bac9b56cf7b27e6199668a26d748dda2d5497290c7cf604290d561d88c"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f250_d+000.env",
+      "sha256": "d854d4638cc581fc7c03422916552c271f83bd2470289e08a92067dd27a35b6f"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f250_d+010.env",
+      "sha256": "5e4a344983106c46b5efaa90794f1e5760ba828639a14e4a06289d77d0b80436"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f250_d+020.env",
+      "sha256": "92788c49201ec1cdb0e5c1f769a4c22403c0628ab8e53e6b64793f2923dc9c9d"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f250_d-010.env",
+      "sha256": "8216e7b07916d4c4b1b73c456749162a15f51e104db26a0d12b2df907d7d989f"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n160001_f250_d-020.env",
+      "sha256": "a011f930020a1b23001495e6eb3fa64e716e9ad808dfef788a399efb8a866013"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f150_d+000.env",
+      "sha256": "6e0209bc3861eca85c1fda840024e97e9bfac0f94b1d7b233981e38293e58c2f"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f150_d+010.env",
+      "sha256": "5f6355a259aa5390e21fd9f4a249c53c9756b0ff31426eda43ec81d53f691bd0"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f150_d+020.env",
+      "sha256": "c48d74c2ccd9648bdbe10c6015597285942142a8cd15e12b48f7d83fa1d547ad"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f150_d-010.env",
+      "sha256": "2fe978bcb7013d3dc4b1baf622adca364d72f895104b41888c190cfe51019c7a"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f150_d-020.env",
+      "sha256": "a272fbda1294f11256c6f7bbb42af1c2e934b7a890c07bd4d4c3d11d56a14a55"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f200_d+000.env",
+      "sha256": "1124f96a2853b50077107e7d350eec972bdb9ac8b993e57c1dd1a454ead6a9cf"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f200_d+010.env",
+      "sha256": "6759f6a992f8cd312fe8be0c64de14e29b97c09b3a0b4c89e6aceefa9db911b4"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f200_d+020.env",
+      "sha256": "116565c8481e965bfd389afb71488701cdfd5274f53ab5f6e11f2d4566d3de8d"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f200_d-010.env",
+      "sha256": "f6ee4136e1cb141daa3cb8e0298910adf434b0095b6e2ecfae8e0dc34b26df45"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f200_d-020.env",
+      "sha256": "ef73e1a22eebcd475c9a3f07c810451ead867491a4d2020da44fa3f55d953952"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f250_d+000.env",
+      "sha256": "b25bab5cd79d66acc26ba4c4184e17a115b65f39756a661c10582b0f43351639"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f250_d+010.env",
+      "sha256": "dccdc2198fdfde8dc4a56ea7bc5ce3cbcf816a45f377ab066ddb7b6a5018441b"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f250_d+020.env",
+      "sha256": "5cba9f3ad9d3c41f0e2ffdd03d7e90be7f07ad17e835ab8cd59e810046947898"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f250_d-010.env",
+      "sha256": "ee82a027c7581b8739d366771f874dd0ae3aa86135c287f16912f26c8bec29af"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1480_n80001_f250_d-020.env",
+      "sha256": "1d326b0ae3e10881365e43db3395beb91dca42434f2def9563f1957e8f0e4a62"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f150_d+000.env",
+      "sha256": "eae60daa2741c10e646b429ca5c5e8d380b86f35791b6c164a75ccfeb43d1b42"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f150_d+010.env",
+      "sha256": "f5be127223658ea786a648e053ba7a0409dd9ab5a2243cd5bb9f7042ce58398c"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f150_d+020.env",
+      "sha256": "ea0ae4ba8644826f7d1718f2729ffb9fd523de47c5133822e01d6738cd9f5581"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f150_d-010.env",
+      "sha256": "4cd1a226e004de154006d026d6ed399467a8ef785466f5174cce81d6a3cedd24"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f150_d-020.env",
+      "sha256": "b30886a3353b2ea9211c9566bf29a2cba308be20cdc818e07c2df5f9f4a9e551"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f200_d+000.env",
+      "sha256": "976da183d0ef9cc10ad969dcafff617818d99d6e6e210912c22965b4a919739b"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f200_d+010.env",
+      "sha256": "6c33132279b8d43105b72c1c939dbb78baf6ce389af2f26501346f0313bc11c3"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f200_d+020.env",
+      "sha256": "84df85d6d53e1060f55efc588b76ffc29e9ece6699855462e5a990fa03c24229"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f200_d-010.env",
+      "sha256": "79f535a72b46fba99af990f601e56a9a75652cf400f6da65efca3006cb10a16b"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f200_d-020.env",
+      "sha256": "12465131050e3a1c8ae9729be5f3c3533eef73fd952f74ec90d9bbf27ce224fc"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f250_d+000.env",
+      "sha256": "2d67fc7d01423b9f6445f1414e2b8ac135053b02384ecacefa4d4cf0d59d722f"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f250_d+010.env",
+      "sha256": "bf7e1d25ad1d137e067f761a3ad12349a11dbfef94f7a4dce14235958ed0499c"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f250_d+020.env",
+      "sha256": "f4d772fcd44913f02477abe277fc808795faf56497b2c77154d0880250d7687b"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f250_d-010.env",
+      "sha256": "8109ab2d8012cb3c8422635972433c9fbff98b7d1359e85df152bdac678450f0"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n160001_f250_d-020.env",
+      "sha256": "f748af3087befa97826cbb208a8984fd47920196140ab2e2894ed14894975a62"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f150_d+000.env",
+      "sha256": "4e0272b7330818e81366e530df06c452789d9bb0f0251e2811fb303dcbfa4fb9"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f150_d+010.env",
+      "sha256": "0269f9562048295d716afd71c00612349cb0b5e461e4cfc997d19270eba1cad4"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f150_d+020.env",
+      "sha256": "378e97cb68e8c8f6b461ba86de97e264ce4088a6d1db65623071aaeae7977f80"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f150_d-010.env",
+      "sha256": "1f9305d35dea6f973bf5928a98057782b2e048ca683cefe787af2b606101c483"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f150_d-020.env",
+      "sha256": "b307d8b58b3b3167d0578fd834eef6a89b8076cfe416ee17e905e10488233d60"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f200_d+000.env",
+      "sha256": "f4cb16172fc0abe6ba5eb5e10894f6815575473454151b17e50c522d04e2cc1b"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f200_d+010.env",
+      "sha256": "3aa2f98d304215cecee5ca5686ba8a35ff2b5fe90a7b4ea5c96d575a77ceb53d"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f200_d+020.env",
+      "sha256": "b9188a37e660b834d2c66b2a9f81bee7c424eb74868b9bd95c4430358f58987b"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f200_d-010.env",
+      "sha256": "cc9fd232cde8adcd07902879dd31b6b702d27f372d87f43c9e332c53d550e48d"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f200_d-020.env",
+      "sha256": "e071a23eff99cb067c58d8a8463c7c4221f853f02bde7322ecf6d4f029f6bc0c"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f250_d+000.env",
+      "sha256": "9bd8c87d880deb83d01bcfc89c817433b50058a138cecbcd35b7e81a69527d9a"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f250_d+010.env",
+      "sha256": "1f81a7fcc9fa1f0a4234090f1c08bc1861587142811860f60b02ce92ac69438b"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f250_d+020.env",
+      "sha256": "94235c6d912617f9aafda0c33f2f13bfbf8541bc4d732d0dc6e5ebb8efcaa5c5"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f250_d-010.env",
+      "sha256": "18ecd7f60a85283b12d13aa012c765e0eaf4b0d89f3fc12407ffb6bce25c8a2e"
+    },
+    {
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/modal/p1_c1490_n80001_f250_d-020.env",
+      "sha256": "43263b04c29873d0e1ac0c5323e10787c686677ad34db4e11e634f1d7e523d0a"
+    },
+    {
+      "path": "tools/acoustics_toolbox/atWin10/at/bin/kraken.exe",
+      "sha256": "997d533594c89f8cc63b520ae29cadec743ecfbdb64898f4c3294ab0254f4eb7"
+    }
+  ]
+}
