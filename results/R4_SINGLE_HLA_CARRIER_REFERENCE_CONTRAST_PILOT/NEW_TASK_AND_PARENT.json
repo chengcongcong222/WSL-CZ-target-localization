@@ -1,0 +1,12 @@
+{
+  "new_task_sha256": "439da556ffbd3e610d1450e92fd4d455c831d0f5d27bb44e8bdb6fd02983a06c",
+  "old_task_sha256": "0d4a7841d5cbaee946dec6131e5efef6342addc06c145f37d78aa5552edd8ea8",
+  "parent_sha": "41463d9aa71da1ae6ebed9b025de22cb3d679e68",
+  "differences": [
+    "saved STABLE only",
+    "six receiver centers retained",
+    "five signed interwindow contrasts",
+    "no new provider/signal/noise/state optimization",
+    "no DRIFT or H2 feedback"
+  ]
+}

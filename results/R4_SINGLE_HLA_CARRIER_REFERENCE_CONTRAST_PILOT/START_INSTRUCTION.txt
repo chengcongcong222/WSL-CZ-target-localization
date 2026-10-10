@@ -1,0 +1,21 @@
+执行新任务 HLA-RX1Z，不是恢复旧RX1。
+
+请先读取完整 HLA_RX1Z_CODEX_TASK_20261010_v1.md。
+本任务SHA256：439da556ffbd3e610d1450e92fd4d455c831d0f5d27bb44e8bdb6fd02983a06c
+旧RX1任务SHA256：0d4a7841d5cbaee946dec6131e5efef6342addc06c145f37d78aa5552edd8ea8
+两者必须不同；不要把旧任务的执行记录套用到本任务。
+
+仓库：chengcongcong222/WSL-CZ-target-localization
+唯一parent：41463d9aa71da1ae6ebed9b025de22cb3d679e68
+新结果目录：results/R4_SINGLE_HLA_CARRIER_REFERENCE_CONTRAST_PILOT/
+新代码前缀：hla_rx1z_
+
+新内容：只利用旧RX1的128条STABLE存档信号及接收侧六窗频率记录，建立频率参考信息账本，计算跨窗有符号频率差，并检验其与相对径向变化的对应。它不是绝对径向幅值提取，也不是把旧相关谱去掉DC峰重跑。
+
+不补跑DRIFT，不修群延迟提供器，不新增KRAKEN/FIELD、接收信号、噪声抽样或状态优化，不回灌H2。旧RX1部分执行、动态提供器未认证、绝对径向映射未建立全部保留。R4=0%。
+
+接收侧处理不得读源频、源相位、q真值或目标运动状态。先冻结接收频率/差分输出及SHA，再开放评价侧真值。五个差分的跨转向项与其余同航段项分开，不能把已知平台转向当成目标速度突破。H2标准差档位不直接用于认证差分误差。
+
+核对HEAD=remote/main=parent及任务SHA；预检、冻结Commit A并推送后按完整任务执行一次，形成Commit B推送后STOP。原文件字节不改，所有资料UTF-8，不使用PowerShell ASCII管道。所需存档缺失时报告缺口，不调用旧生成器。
+
+回传新任务SHA、设计SHA、执行SHA、是否有可重复频率变化、相对运动映射诊断与未闭合条件。不要只回传PASS数量。

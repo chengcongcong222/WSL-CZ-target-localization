@@ -1,0 +1,26 @@
+{
+  "sample_rate_hz": 4.0,
+  "real_equivalence_sample_rate_hz": 1024.0,
+  "digital_reference_hz": [
+    201.0,
+    235.0,
+    283.0
+  ],
+  "search_band_halfwidth_hz": 0.6,
+  "noise_band_halfwidth_hz": 0.75,
+  "offsets_m": [
+    -7.0,
+    -5.0,
+    -3.0,
+    -1.0,
+    1.0,
+    3.0,
+    5.0,
+    7.0
+  ],
+  "receiver_depth_m": 200.0,
+  "c_ref_mps": 1509.6886,
+  "array_orientation": "fixed global +x inherited explicitly; platform heading turns independently",
+  "navigation": "exact frozen original main-platform trajectory",
+  "beam": "equal fixed global +x endfire at public receiver LO; no truth bearing"
+}
