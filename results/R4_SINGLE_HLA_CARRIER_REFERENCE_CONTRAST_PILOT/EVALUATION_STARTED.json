@@ -1,0 +1,5 @@
+{
+  "time_utc": "2026-10-10T06:55:45.675276+00:00",
+  "receiver_manifest_sha256": "e6cb498cbd03e88627dcc48efc157262702758750909dc2761dd3487220fbedf",
+  "truth_opened_after_receiver_freeze": true
+}

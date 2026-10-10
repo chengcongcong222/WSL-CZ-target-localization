@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-10-10T06:55:45.401656+00:00",
+  "feature_sha256": {
+    "RECEIVER_FREQUENCY_LEDGER.csv": "e8212009613850dea2faff63933a4da7d085d3870148db94c31c901b684baee8",
+    "INTERWINDOW_FEATURES.csv": "e8d987a3dfb4930cc987b1eac538edbe1ecbfa10d37129ce5456b401b780ef16",
+    "CARRIER_RECOMPUTATION.csv": "f34237a32eb6986b3a6906a27cf992b7ae4ff6f9425845bad59ed2fd393cdc7a",
+    "DIGITAL_REFERENCE_CONTROLS.csv": "53e9f4909beeeb236a04185e951c1e3b87eb0d0e06e5b22c6ef2ab6ebb7e0c34"
+  },
+  "receiver_process_truth_reads": 0,
+  "receiver_process_source_reference_reads": 0,
+  "records": 128,
+  "line_windows": 2304,
+  "frequency_differences": 1920,
+  "raw_records_recomputed": 128,
+  "missing_raw_ids": [],
+  "max_frequency_recompute_difference_hz": 0.0,
+  "max_f_rx_vs_LO_plus_offset_hz": 0.0,
+  "frequency_recompute_limit_hz": 1e-08,
+  "digital_reference_PASS": true,
+  "elapsed_s": 2.432357,
+  "sampled_RSS_max_bytes": 96022528
+}

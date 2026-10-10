@@ -1,0 +1,26 @@
+{
+  "REFERENCE_INFORMATION_ACCOUNTED": true,
+  "INTERWINDOW_FREQUENCY_FEATURE": "REPRODUCIBLE",
+  "RELATIVE_MOTION_MAPPING": "NOT_SUPPORTED_IN_SAVED_MODEL",
+  "same_leg_geometry_pass_ids": [],
+  "turn_geometry_pass_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "main_SNR_dB": 20,
+  "ABSOLUTE_RADIAL_ZERO_NOT_ESTABLISHED": true,
+  "FIRST_CZ_DYNAMIC_PROVIDER_UNCERTIFIED_FROM_RX1": true,
+  "DRIFT_NOT_EVALUATED": true,
+  "H2_FEEDBACK_NOT_AUTHORIZED": true,
+  "R4_percent": 0,
+  "new_KRAKEN_FIELD": 0,
+  "new_signal_noise_state_optimization": 0,
+  "status": "COMPLETED",
+  "stop": true
+}
