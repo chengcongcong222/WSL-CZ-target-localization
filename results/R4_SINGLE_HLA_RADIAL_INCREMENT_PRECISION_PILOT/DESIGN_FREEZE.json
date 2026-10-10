@@ -1,0 +1,838 @@
+{
+  "stage": "R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT",
+  "label": "HLA-H2",
+  "parent_sha": "dd13a0a32a4bd279c03c272b9ee8b86ceea14730",
+  "delegated_task_source": "D:\\Downloads\\HLA_H2_CODEX_TASK_20261010.md",
+  "delegated_task_source_sha256": "05042ae660f37153259c1acf40d208ae969f3f4d7bd4a9c3ca30c3c261e288ba",
+  "sha256": {
+    "results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/OFFGRID_TRUTH_EVALUATION_ONLY.csv": "1655fc525983c1a5d57be57a8e14325a3618c214d44fd6ab11f0c096e7da8d4e",
+    "results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/GPT_SYNC.md": "4931519351fd3653687e794f5d612034ae29055d2b5aa2212da19bc53156e2af",
+    "results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/DECISION.json": "0ef9c164cfdfcc2c96dae5d823c63c5199c038add5972afd0fac270e70a02462",
+    "results/R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/E1_ACOUSTIC_MEASUREMENT_MODEL_LOCK.md": "cd2504b259c7b6c5391e128f57fb9c4121a9ef801ca180efebc555846d8a3394",
+    "results/R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/E1_SOURCE_PROVENANCE.json": "832704ee07d6c8b3171b739ba45029b7245c7669339fa02b357c20b1afddc5dc",
+    "results/R4_E1_G0_FREQUENCY_INFORMATION/GPT_SYNC.md": "5cd879301c500e10e5116ecbf75351f822bcf1fed5c3eeb3aeb09a3a40a5ee15",
+    "results/R4_RC2_OBSERVATION_SUPPORT/OBSERVATION_AND_ERROR_CONTRACT.md": "007ef37b9854c02cb2e3e666cb8835b2eb73be14a4c084bbb40a9b3e5946dd0d",
+    "hla_h2_audit.py": "947d5b3fb3d774acacc551b58d23d9614041d4aec3a8044bd7678a37835689f2",
+    "hla_h2_core.py": "3f9e59a49fd5eeca07466040cfbacb1e7618c09fe0df954b7561a44f2c330c40",
+    "hla_h2_execute.py": "efcbaf2416fc653964692123055011267da2aaf7c2f143749d59dac6c39fb3fd",
+    "hla_h2_generate.py": "3dc5972b7744076477c82e734f659e1a3e972e6414e35948074c8aa0c845467d",
+    "hla_h2_independent.py": "27ec25795a2e46c02fc124978095a1d66ac733742e052e7348637e43b7f26246",
+    "hla_h2_preflight.py": "9fd345989d83f6269aa1872c7f02f607a4ffe9f926b9a8eaa78dcec3d3123c40",
+    "hla_h2_report.py": "446c9781d8b97195f5b0d65346ca6343caa3f8e1cf44109a1e7348913e360816",
+    "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/CONFIGURATION_PLAN.csv": "335c7fd208b3c2a0b6b7872e666d021f3bcf5acae8bcebb4bef19e6a12e7991e",
+    "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/DELEGATED_TASK.md": "05042ae660f37153259c1acf40d208ae969f3f4d7bd4a9c3ca30c3c261e288ba",
+    "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/MEASUREMENT_TO_SIGNAL_GAP.md": "e118e942dfcb3aa7f859a408fb93ba233921c4864adc0bdf4ad2970f6f79e4bc",
+    "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/METHOD_AND_OBSERVATION_CONTRACT.md": "18d07a58f5b82eb8914f899a0d17f0597c7f482076f9cfe7df40a7590f26ff81",
+    "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/PREFLIGHT.json": "0f8e4b286caf6f17a2bb4f2ece2fd3496bb51aca9375e8caa6a9b8118d90d5c0",
+    "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/PREFLIGHT_CHECKS.csv": "64018fa3260ab93e459a3ffe17ee3858e694c30b0c8111de766906ab84cb563e",
+    "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/SELECTION_PREFLIGHT.json": "002e2490c5fe3b08d11b4f7fbefe4c3b1f276d1610666a0f37daa4ea92411aab"
+  },
+  "h_order": [
+    "r_km",
+    "theta_deg",
+    "v_mps",
+    "psi_deg"
+  ],
+  "physical_domain_low": [
+    45.0,
+    -5.0,
+    1.0,
+    -15.0
+  ],
+  "physical_domain_high": [
+    60.0,
+    5.0,
+    3.0,
+    15.0
+  ],
+  "bias_domain": [
+    -0.2,
+    0.2
+  ],
+  "bearing_times_s": [
+    0.0,
+    10.0,
+    20.0,
+    30.0,
+    40.0,
+    50.0,
+    60.0,
+    70.0,
+    80.0,
+    90.0,
+    100.0,
+    110.0,
+    120.0,
+    130.0,
+    140.0,
+    150.0,
+    160.0,
+    170.0,
+    180.0,
+    190.0,
+    200.0,
+    210.0,
+    220.0,
+    230.0,
+    240.0,
+    250.0,
+    260.0,
+    270.0,
+    280.0,
+    290.0,
+    300.0,
+    310.0,
+    320.0,
+    330.0,
+    340.0,
+    350.0,
+    360.0,
+    370.0,
+    380.0,
+    390.0,
+    400.0,
+    410.0,
+    420.0,
+    430.0,
+    440.0,
+    450.0,
+    460.0,
+    470.0,
+    480.0,
+    490.0,
+    500.0,
+    510.0,
+    520.0,
+    530.0,
+    540.0,
+    550.0,
+    560.0,
+    570.0,
+    580.0,
+    590.0,
+    600.0,
+    610.0,
+    620.0,
+    630.0,
+    640.0,
+    650.0,
+    660.0,
+    670.0,
+    680.0,
+    690.0,
+    700.0,
+    710.0,
+    720.0,
+    730.0,
+    740.0,
+    750.0,
+    760.0,
+    770.0,
+    780.0,
+    790.0,
+    800.0,
+    810.0,
+    820.0,
+    830.0,
+    840.0,
+    850.0,
+    860.0,
+    870.0,
+    880.0,
+    890.0,
+    900.0,
+    910.0,
+    920.0,
+    930.0,
+    940.0,
+    950.0,
+    960.0,
+    970.0,
+    980.0,
+    990.0,
+    1000.0,
+    1010.0,
+    1020.0,
+    1030.0,
+    1040.0,
+    1050.0,
+    1060.0,
+    1070.0,
+    1080.0,
+    1090.0,
+    1100.0,
+    1110.0,
+    1120.0,
+    1130.0,
+    1140.0,
+    1150.0,
+    1160.0,
+    1170.0,
+    1180.0,
+    1190.0,
+    1200.0
+  ],
+  "radial_endpoints_s": [
+    0.0,
+    200.0,
+    400.0,
+    600.0,
+    800.0,
+    1000.0,
+    1200.0
+  ],
+  "radial_definition": "net horizontal range displacement / 200 seconds",
+  "sigma_beta_deg": 0.1,
+  "sigma_q_mps": [
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "primary": {
+    "method": "U",
+    "sigma_q": 0.05,
+    "zero_bias": true
+  },
+  "T_beta": 153.33785635731704,
+  "T_radial": 14.44937533544792,
+  "chi2_probability": 0.975,
+  "chi2_df": [
+    121,
+    6
+  ],
+  "acceptance": "both components at or below threshold; no fitted-parameter df subtraction",
+  "folded_distribution": "abs(signed Gaussian observation), not magnitude plus Gaussian",
+  "models": [
+    "B",
+    "S",
+    "U",
+    "U-mismatch",
+    "UB-matched"
+  ],
+  "geometries": 8,
+  "replicates_per_geometry": 32,
+  "base_innovation_pairs": 256,
+  "method_configurations": 2816,
+  "expected_terminal_runs": 203008,
+  "prng_seed": 2026101002,
+  "preflight_seed": 2026101012,
+  "source_depth_metadata_only": true,
+  "signs": [
+    [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      1.0,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      1.0,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      -1.0,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      -1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      1.0,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      1.0,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      1.0,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      -1.0,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      1.0,
+      -1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "sign_branch_count": 64,
+  "signed_control_file": "SIGNED_CONTROL_OBSERVATIONS.npz",
+  "unsigned_visible_file": "OBSERVATIONS.npz",
+  "hidden_generator_evaluation_file": "GENERATOR_TRUTH_AND_INNOVATIONS.npz",
+  "B_range_centers_km": [
+    45.46875,
+    46.40625,
+    47.34375,
+    48.28125,
+    49.21875,
+    50.15625,
+    51.09375,
+    52.03125,
+    52.96875,
+    53.90625,
+    54.84375,
+    55.78125,
+    56.71875,
+    57.65625,
+    58.59375,
+    59.53125
+  ],
+  "branch_starts": [
+    "observation_scaled_linear_geometry",
+    "physical_center"
+  ],
+  "physical_center": [
+    52.5,
+    0.0,
+    2.0,
+    0.0
+  ],
+  "B_starts": 17,
+  "S_starts": 2,
+  "U_UB_starts_per_branch": 2,
+  "least_squares": {
+    "method": "trf",
+    "loss": "linear",
+    "analytic_Jacobian": true,
+    "max_nfev": 100,
+    "ftol": 1e-09,
+    "xtol": 1e-09,
+    "gtol": 1e-09
+  },
+  "SVD_rcond": 1e-12,
+  "dedup_scales": [
+    0.005,
+    0.001,
+    0.005,
+    0.05,
+    0.005
+  ],
+  "bias_profile": "complete fixed-h piecewise quadratic with all knots; cold all64-sign interval minimum",
+  "metric_contract": "METHOD_AND_OBSERVATION_CONTRACT.md",
+  "quantiles": "nearest-rank; n32 P95=31st; abstain -> INF; not evaluated -> missing",
+  "descriptive_primary_signal": {
+    "minimum_scenes": 5,
+    "minimum_output_rate": 0.9,
+    "minimum_r_or_v_or_psi_unconditional_median_improvement": 0.3
+  },
+  "secondary_reference_critical": {
+    "minimum_scenes": 5,
+    "output_drop_pp": 10,
+    "median_multiplier": 1.3
+  },
+  "parameter_reference_P95": [
+    0.1,
+    1.0,
+    0.1,
+    5.0
+  ],
+  "no_sigma_interpolation": true,
+  "verification": {
+    "max_normalized_Jacobian_column_difference": 1e-05,
+    "max_relative_score_difference": 1e-07,
+    "all_terminals": true,
+    "cold_Jacobian_configurations": "all8 geometry rep0 U sigma.05; no new optimization"
+  },
+  "budget": {
+    "processes": 1,
+    "BLAS_threads": 4,
+    "memory_bytes": 8589934592,
+    "total_main_and_cold_wall_seconds": 14400,
+    "main_stop_seconds": 12600,
+    "cold_reserved_seconds": 1800,
+    "delivery_bytes": 536870912
+  },
+  "versions": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.9",
+    "psutil": "7.2.2",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "preflight_PASS": true,
+  "new_KRAKEN_FIELD_BELLHOP_calls": 0,
+  "new_audio_or_complex_spectrum": 0,
+  "new_feature_MC_allowed": true,
+  "actual_extraction": "NOT_EVALUATED",
+  "R4_percent": 0,
+  "stop": "Once frozen configuration executed and independently reviewed, Commit B push/verify then STOP; no changed solver, sigma, starts, geometry, propagation or architecture."
+}

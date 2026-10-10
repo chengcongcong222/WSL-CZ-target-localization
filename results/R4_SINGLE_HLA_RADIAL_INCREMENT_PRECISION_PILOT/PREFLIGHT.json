@@ -1,0 +1,13 @@
+{
+  "PASS": true,
+  "count": 72,
+  "max_Jacobian_column_normalized_difference": 2.642894502267994e-07,
+  "scientific_panel_observations_generated": false,
+  "benchmark_fixed_nonpanel_control": {
+    "fits": 8,
+    "seconds_per_fit": 0.0021016125101596117,
+    "estimated_203008_fit_seconds": 426.64415246248245
+  },
+  "elapsed_seconds": 0.09163049980998039,
+  "implementation_control_only": true
+}

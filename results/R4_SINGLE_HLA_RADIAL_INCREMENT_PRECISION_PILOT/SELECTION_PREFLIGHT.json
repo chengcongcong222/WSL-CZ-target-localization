@@ -1,0 +1,11 @@
+{
+  "PASS": true,
+  "controls": [
+    "empty_abstain",
+    "rejected_abstain",
+    "accepted_cost_tie_terminal_id",
+    "fixed_plan_2816",
+    "truth_free_dataclass"
+  ],
+  "scientific_runs": 0
+}
