@@ -1,0 +1,8 @@
+{
+  "scope": "Display correction only: per-axis common separate INF category replaces per-curve near-zero placement; rejection denominators unchanged",
+  "scientific_values_changed": false,
+  "frozen_estimator_or_report_code_changed": false,
+  "original_figures_preserved": true,
+  "rendered_from": "METRICS_BY_GEOMETRY.csv",
+  "input_sha256": "9f4f43a6d96f2b7f5d3186d15af32e36f4e5b86c78711341b31c3d0320ace6bc"
+}

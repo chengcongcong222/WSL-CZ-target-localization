@@ -1,0 +1,175 @@
+{
+  "checks": [
+    {
+      "path": "results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/OFFGRID_TRUTH_EVALUATION_ONLY.csv",
+      "working_sha256": "1655fc525983c1a5d57be57a8e14325a3618c214d44fd6ab11f0c096e7da8d4e",
+      "frozen_sha256": "1655fc525983c1a5d57be57a8e14325a3618c214d44fd6ab11f0c096e7da8d4e",
+      "git_blob_sha256": "b9c1b3cf0d0a47a5a50d924d46b75553cb10373cf241a38a7d514d4344a92b81",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/GPT_SYNC.md",
+      "working_sha256": "4931519351fd3653687e794f5d612034ae29055d2b5aa2212da19bc53156e2af",
+      "frozen_sha256": "4931519351fd3653687e794f5d612034ae29055d2b5aa2212da19bc53156e2af",
+      "git_blob_sha256": "962c2a02ecd9aaaaa01f32faafc6d00a53c564b566535b16ce7a1138c09dcc6b",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/DECISION.json",
+      "working_sha256": "0ef9c164cfdfcc2c96dae5d823c63c5199c038add5972afd0fac270e70a02462",
+      "frozen_sha256": "0ef9c164cfdfcc2c96dae5d823c63c5199c038add5972afd0fac270e70a02462",
+      "git_blob_sha256": "03e05adf8eea9587c648f0effd77843b700ae98a06cc5de17d7c0d6c36e4a437",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "results/R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/E1_ACOUSTIC_MEASUREMENT_MODEL_LOCK.md",
+      "working_sha256": "cd2504b259c7b6c5391e128f57fb9c4121a9ef801ca180efebc555846d8a3394",
+      "frozen_sha256": "cd2504b259c7b6c5391e128f57fb9c4121a9ef801ca180efebc555846d8a3394",
+      "git_blob_sha256": "f68d9c7b096c9ca8431a6c32dabbb229f6be90ee656fbda25c3a8b469e7911f3",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "results/R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/E1_SOURCE_PROVENANCE.json",
+      "working_sha256": "832704ee07d6c8b3171b739ba45029b7245c7669339fa02b357c20b1afddc5dc",
+      "frozen_sha256": "832704ee07d6c8b3171b739ba45029b7245c7669339fa02b357c20b1afddc5dc",
+      "git_blob_sha256": "42e8acde8467477a660ecb3985519b5ad3f6089dfb947ceea42e769ada815675",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "results/R4_E1_G0_FREQUENCY_INFORMATION/GPT_SYNC.md",
+      "working_sha256": "5cd879301c500e10e5116ecbf75351f822bcf1fed5c3eeb3aeb09a3a40a5ee15",
+      "frozen_sha256": "5cd879301c500e10e5116ecbf75351f822bcf1fed5c3eeb3aeb09a3a40a5ee15",
+      "git_blob_sha256": "0fccebc206dee26106df60610c0f4d0c8fc91322da63f1cd8ed792878bcccd78",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "results/R4_RC2_OBSERVATION_SUPPORT/OBSERVATION_AND_ERROR_CONTRACT.md",
+      "working_sha256": "007ef37b9854c02cb2e3e666cb8835b2eb73be14a4c084bbb40a9b3e5946dd0d",
+      "frozen_sha256": "007ef37b9854c02cb2e3e666cb8835b2eb73be14a4c084bbb40a9b3e5946dd0d",
+      "git_blob_sha256": "4cf6fbe53cb02f0ac90af2ea22295cc6877baf85426bbd3aacab89e75dd7434f",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "hla_h2_audit.py",
+      "working_sha256": "947d5b3fb3d774acacc551b58d23d9614041d4aec3a8044bd7678a37835689f2",
+      "frozen_sha256": "947d5b3fb3d774acacc551b58d23d9614041d4aec3a8044bd7678a37835689f2",
+      "git_blob_sha256": "b82a553ac41a73643698a29f9e82e463cf188fbc9c38fb2626babb3429306b5f",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "hla_h2_core.py",
+      "working_sha256": "3f9e59a49fd5eeca07466040cfbacb1e7618c09fe0df954b7561a44f2c330c40",
+      "frozen_sha256": "3f9e59a49fd5eeca07466040cfbacb1e7618c09fe0df954b7561a44f2c330c40",
+      "git_blob_sha256": "777a39aae926ae58410bcd314a20cd389344491bde0c9141c8310067d59235c5",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "hla_h2_execute.py",
+      "working_sha256": "efcbaf2416fc653964692123055011267da2aaf7c2f143749d59dac6c39fb3fd",
+      "frozen_sha256": "efcbaf2416fc653964692123055011267da2aaf7c2f143749d59dac6c39fb3fd",
+      "git_blob_sha256": "b8f782ea9d74a8258be72779aeee0ee5412abdbd5d2677ba594000b768ffbc1e",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "hla_h2_generate.py",
+      "working_sha256": "3dc5972b7744076477c82e734f659e1a3e972e6414e35948074c8aa0c845467d",
+      "frozen_sha256": "3dc5972b7744076477c82e734f659e1a3e972e6414e35948074c8aa0c845467d",
+      "git_blob_sha256": "ef41d3972f19076d7c9eab9ed3d298b068368c2675f2348862b93565bf9bd8a0",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "hla_h2_independent.py",
+      "working_sha256": "27ec25795a2e46c02fc124978095a1d66ac733742e052e7348637e43b7f26246",
+      "frozen_sha256": "27ec25795a2e46c02fc124978095a1d66ac733742e052e7348637e43b7f26246",
+      "git_blob_sha256": "27ec25795a2e46c02fc124978095a1d66ac733742e052e7348637e43b7f26246",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": true
+    },
+    {
+      "path": "hla_h2_preflight.py",
+      "working_sha256": "9fd345989d83f6269aa1872c7f02f607a4ffe9f926b9a8eaa78dcec3d3123c40",
+      "frozen_sha256": "9fd345989d83f6269aa1872c7f02f607a4ffe9f926b9a8eaa78dcec3d3123c40",
+      "git_blob_sha256": "3196e163ddfe91ebc258d938870b31d9608c0eb431c2f299d6b8d4ad18477b2d",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "hla_h2_report.py",
+      "working_sha256": "446c9781d8b97195f5b0d65346ca6343caa3f8e1cf44109a1e7348913e360816",
+      "frozen_sha256": "446c9781d8b97195f5b0d65346ca6343caa3f8e1cf44109a1e7348913e360816",
+      "git_blob_sha256": "95af7773b4d8ac4fbe33729911efb22b7a40cb3814ed03f8ef72b9ddd4f719c6",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/CONFIGURATION_PLAN.csv",
+      "working_sha256": "335c7fd208b3c2a0b6b7872e666d021f3bcf5acae8bcebb4bef19e6a12e7991e",
+      "frozen_sha256": "335c7fd208b3c2a0b6b7872e666d021f3bcf5acae8bcebb4bef19e6a12e7991e",
+      "git_blob_sha256": "27d27c39b1ebfe05ab0b367baf5bbf04b71446add94ba6d060accf6361267113",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/DELEGATED_TASK.md",
+      "working_sha256": "05042ae660f37153259c1acf40d208ae969f3f4d7bd4a9c3ca30c3c261e288ba",
+      "frozen_sha256": "05042ae660f37153259c1acf40d208ae969f3f4d7bd4a9c3ca30c3c261e288ba",
+      "git_blob_sha256": "05042ae660f37153259c1acf40d208ae969f3f4d7bd4a9c3ca30c3c261e288ba",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": true
+    },
+    {
+      "path": "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/MEASUREMENT_TO_SIGNAL_GAP.md",
+      "working_sha256": "e118e942dfcb3aa7f859a408fb93ba233921c4864adc0bdf4ad2970f6f79e4bc",
+      "frozen_sha256": "e118e942dfcb3aa7f859a408fb93ba233921c4864adc0bdf4ad2970f6f79e4bc",
+      "git_blob_sha256": "e118e942dfcb3aa7f859a408fb93ba233921c4864adc0bdf4ad2970f6f79e4bc",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": true
+    },
+    {
+      "path": "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/METHOD_AND_OBSERVATION_CONTRACT.md",
+      "working_sha256": "18d07a58f5b82eb8914f899a0d17f0597c7f482076f9cfe7df40a7590f26ff81",
+      "frozen_sha256": "18d07a58f5b82eb8914f899a0d17f0597c7f482076f9cfe7df40a7590f26ff81",
+      "git_blob_sha256": "18d07a58f5b82eb8914f899a0d17f0597c7f482076f9cfe7df40a7590f26ff81",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": true
+    },
+    {
+      "path": "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/PREFLIGHT.json",
+      "working_sha256": "0f8e4b286caf6f17a2bb4f2ece2fd3496bb51aca9375e8caa6a9b8118d90d5c0",
+      "frozen_sha256": "0f8e4b286caf6f17a2bb4f2ece2fd3496bb51aca9375e8caa6a9b8118d90d5c0",
+      "git_blob_sha256": "e579c4b4abc62c92e7d0075f6e4f67622b1b28a7c4220401054117344b82ceb8",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/PREFLIGHT_CHECKS.csv",
+      "working_sha256": "64018fa3260ab93e459a3ffe17ee3858e694c30b0c8111de766906ab84cb563e",
+      "frozen_sha256": "64018fa3260ab93e459a3ffe17ee3858e694c30b0c8111de766906ab84cb563e",
+      "git_blob_sha256": "646e455a083cd42dd8027895162253d41913dd0e4ad10d8c8f161c73c26f1761",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    },
+    {
+      "path": "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/SELECTION_PREFLIGHT.json",
+      "working_sha256": "002e2490c5fe3b08d11b4f7fbefe4c3b1f276d1610666a0f37daa4ea92411aab",
+      "frozen_sha256": "002e2490c5fe3b08d11b4f7fbefe4c3b1f276d1610666a0f37daa4ea92411aab",
+      "git_blob_sha256": "e7bbe1e296d537d4752d584ef29cf38b9642556fb76bd98de6f7824bb0db837d",
+      "working_matches_freeze": true,
+      "git_blob_equals_working": false
+    }
+  ],
+  "all_working_inputs_frozen": true,
+  "git_line_ending_conversion_note": "Git core.autocrlf may represent text bytes differently. FROZEN_INPUT_BYTES.zip preserves exact preregistered working bytes, for standalone cold reconstruction without touching historical files.",
+  "archive_sha256": "e8129664a6f6fff4070238f83a36ae47bbdd14f52c8ae6c2046eebdbf3b23ed5"
+}

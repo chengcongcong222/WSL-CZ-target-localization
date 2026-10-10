@@ -1,0 +1,21 @@
+{
+  "PASS": true,
+  "checks": {
+    "frozen_working_bytes": true,
+    "generated_files_unchanged": true,
+    "all8_source_states_exact": true,
+    "source_depth_metadata_exact": true,
+    "all_terminal_horizontal_bounds": true,
+    "all_original_bias_bounds": true,
+    "all_profile_bias_bounds": true,
+    "unique_configuration_ids": true,
+    "all_terminal_ids_unique": true,
+    "solver_audio_raw_spectra_zero": true,
+    "memory_budget": true,
+    "delivery_budget": true,
+    "archive_exact_frozen_bytes": true
+  },
+  "main_peak_rss_bytes": 115159040,
+  "main_elapsed_seconds": 785.3342845439911,
+  "postcheck_elapsed_from_run_start_seconds": 871.1809821128845
+}

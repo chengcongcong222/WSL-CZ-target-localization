@@ -1,0 +1,37 @@
+{
+  "stage": "HLA-H2",
+  "classifications": [
+    "HLA_H2_UNSIGNED_RADIAL_FEATURE_VALUE_SUPPORTED_CONDITIONALLY",
+    "HLA_H2_RADIAL_REFERENCE_CONDITION_CRITICAL",
+    "HLA_H2_VELOCITY_GAIN_WITH_RANGE_LIMIT"
+  ],
+  "primary": "U / sigma_q .05 / zero bias",
+  "primary_qualifying_geometries": 8,
+  "signed_control_qualifying_geometries": 8,
+  "radial_reference_loss_geometries": 8,
+  "velocity_gain_geometries": 8,
+  "INJECTED_FEATURE_ONLY": true,
+  "actual_receive_extraction": "NOT_EVALUATED",
+  "COLD_START_ACOUSTIC_CAPABILITY": "NOT_ESTABLISHED",
+  "continuous_global_certification": false,
+  "finite_envelope": "FINITE_TERMINAL_ENVELOPE_ONLY",
+  "source_frequency_issue": "E1_G0_FAIL_UNCHANGED",
+  "R4_percent": 0,
+  "independent_research_lead_audit": "PENDING",
+  "STOP": true,
+  "primary_output_accepted": 250,
+  "primary_output_total": 256,
+  "minimum_primary_scene_output_rate": 0.9375,
+  "primary_parameter_signal_geometries": {
+    "range": 0,
+    "speed": 8,
+    "heading": 7
+  },
+  "sign_direction_material_to_speed_tail": true,
+  "distance_gain": "NOT_SUPPORTED",
+  "primary_worst_scene_unconditional_P95": "INF_ALL_FOUR_PARAMETERS; G05 2/32 abstentions",
+  "unknown_bias_speed_mean_scene_unconditional_median_percent": 10.1074,
+  "csv_reader_review": "Initial default-parser 2 ID failures preserved; exact original float-token selection audit 2816/2816 passes with unchanged estimator",
+  "receiver_feature_extraction": "NOT_EVALUATED",
+  "next_step": "Only recommend separately designed speed/heading extraction and sign/zero-point verification; do not execute"
+}

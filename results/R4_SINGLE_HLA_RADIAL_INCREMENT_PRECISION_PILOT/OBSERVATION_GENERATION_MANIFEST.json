@@ -1,0 +1,16 @@
+{
+  "source_panel_sha256": "1655fc525983c1a5d57be57a8e14325a3618c214d44fd6ab11f0c096e7da8d4e",
+  "seed": 2026101002,
+  "PRNG": "NumPy default_rng PCG64 / SeedSequence [seed,geometry_zero_based,replicate_zero_based,stream_zero_based]",
+  "numpy_version": "1.26.4",
+  "base_innovations": 256,
+  "shared_across_methods_and_scales": true,
+  "sha256": {
+    "OBSERVATIONS.npz": "89c2489f19fe201954b3b6acc92825a12c10bfd1eec9712671e4a555faaf803e",
+    "SIGNED_CONTROL_OBSERVATIONS.npz": "e1f85a8feb9042947e6b4b01186ce8594281989c40d9e6f2412d6e36d229a010",
+    "GENERATOR_TRUTH_AND_INNOVATIONS.npz": "11b7a1f8b6cd802653a333e54f9a9ba462add360832ef5e5e57289999a332a51"
+  },
+  "signed_control_is_separate": true,
+  "source_depth": "METADATA_ONLY_NOT_USED",
+  "INJECTED_FEATURE_ONLY": true
+}

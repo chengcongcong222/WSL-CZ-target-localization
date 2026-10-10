@@ -1,0 +1,11 @@
+{
+  "PASS": true,
+  "selection_rebuild_checks": 2816,
+  "selection_rebuild_FAIL": 0,
+  "terminal_rows": 203008,
+  "reader": "stdlib csv.DictReader then Python float, preserving original double precision literals",
+  "ordering": "exact Python floating sum, then original terminal ID; no equality tolerance",
+  "estimator_or_frozen_contract_changed": false,
+  "main_reexecuted": false,
+  "all_configurations": true
+}

@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "configurations": 2816,
+  "terminal_runs": 203008,
+  "expected_terminal_runs": 203008,
+  "elapsed_seconds": 785.3342845439911,
+  "peak_rss_bytes": 115159040,
+  "design_sha": "ccd2cdd428f9db46453328da91a6380e5ca0b8a4",
+  "workers": 1,
+  "BLAS_threads": 4,
+  "new_KRAKEN_FIELD_BELLHOP": 0,
+  "new_audio_or_complex_spectra": 0,
+  "new_feature_MC": true
+}

@@ -1,0 +1,10 @@
+{
+  "PASS": true,
+  "checks": 14957,
+  "FAIL": 0,
+  "primary_qualifying_geometries": 8,
+  "signed_qualifying_geometries": 8,
+  "unknown_zero_loss_geometries": 8,
+  "scope": "stdlib CSV + scalar source-panel error, order statistics, denominators, equal-scene summaries, tested reference bins, all final classifications; no fitting",
+  "estimated_features_actually_extracted": false
+}

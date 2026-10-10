@@ -1,0 +1,56 @@
+{
+  "initial_default_pandas_mismatches": [
+    {
+      "config_id": 10,
+      "method": "UB-matched",
+      "recorded_id": 665,
+      "pandas_id": 666,
+      "chosen_total": 144.77283929803608,
+      "pandas_total": 144.77283929803605,
+      "state_difference": [
+        5.990827389723563e-09,
+        1.4903744904870564e-11,
+        1.4531487124713749e-11,
+        -1.2018919193224065e-09
+      ],
+      "python_float_minimum_id": 665,
+      "python_float_minimum_total": 144.77283929803608,
+      "python_float_recorded_total": 144.77283929803608,
+      "exact_original_tokens_for_recorded": [
+        "141.91499253157986",
+        "2.8578467664562224"
+      ],
+      "exact_original_tokens_for_pandas": [
+        "141.91499253158761",
+        "2.8578467664484495"
+      ]
+    },
+    {
+      "config_id": 1430,
+      "method": "B",
+      "recorded_id": 103099,
+      "pandas_id": 103095,
+      "chosen_total": 108.23134674146124,
+      "pandas_total": 108.23134674146124,
+      "state_difference": [
+        0.0,
+        3.197442310920451e-13,
+        -4.440892098500626e-16,
+        -2.396660647718818e-11
+      ],
+      "python_float_minimum_id": 103099,
+      "python_float_minimum_total": 108.23134674146124,
+      "python_float_recorded_total": 108.23134674146124,
+      "exact_original_tokens_for_recorded": [
+        "108.23134674146124",
+        "0.0"
+      ],
+      "exact_original_tokens_for_pandas": [
+        "108.23134674146125",
+        "0.0"
+      ]
+    }
+  ],
+  "estimator_not_changed": true,
+  "main_not_reexecuted": true
+}
