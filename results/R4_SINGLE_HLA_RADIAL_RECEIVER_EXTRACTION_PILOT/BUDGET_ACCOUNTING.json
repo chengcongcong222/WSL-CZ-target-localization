@@ -1,0 +1,8 @@
+{
+  "elapsed_since_execution_start_s": 1153.597044,
+  "limit_s": 14400,
+  "local_data_bytes": 1576135789,
+  "repo_new_stage_bytes": 15625142,
+  "RSS_limit_bytes": 8589934592,
+  "note": "one main computational worker; two brief concurrent saved-modal diagnostic processes explicitly recorded in BUDGET_PROTOCOL_DEVIATIONS.json; no claimed continuous peak RSS certification"
+}

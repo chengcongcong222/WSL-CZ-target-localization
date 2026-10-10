@@ -1,0 +1,57 @@
+{
+  "classifications": [
+    "FEATURE_MAPPING_NOT_ESTABLISHED",
+    "PARTIAL_EXECUTION",
+    "IMPLEMENTATION_OR_PROVIDER_LIMIT"
+  ],
+  "conditions": "per-source/SNR/method full denominators in FEATURE_ERROR_AND_COVERAGE.csv",
+  "receiver_extraction": "actual multichannel sampled records processed, not q+Gaussian",
+  "RX_mean_frequency_removal": "receiver peak centering intentionally removes unknown constant source offset and mean Doppler together; absolute speed zero not identifiable by this preprocessing",
+  "REF_permission": "source phase at receiver time; not retarded oracle alignment",
+  "H2_feedback": "NOT_AUTHORIZED_AND_MAPPING_NOT_ESTABLISHED",
+  "no_general_FDSL_NoGo": true,
+  "R4_percent": 0,
+  "independent_arithmetic_review_PASS": true,
+  "independent_signal_review_PASS": true,
+  "provider_group_delay_certified": false,
+  "stable_delay_fallback": "1500 m/s for failed group provider; dynamic modal delay not certified",
+  "per_condition": [
+    {
+      "source_family": "STABLE",
+      "SNR_dB": 20,
+      "registered_records": 64,
+      "completed_records": 64,
+      "classification": "IMPLEMENTATION_OR_PROVIDER_LIMIT",
+      "mapping": "NOT_ESTABLISHED"
+    },
+    {
+      "source_family": "STABLE",
+      "SNR_dB": 5,
+      "registered_records": 64,
+      "completed_records": 64,
+      "classification": "IMPLEMENTATION_OR_PROVIDER_LIMIT",
+      "mapping": "NOT_ESTABLISHED"
+    },
+    {
+      "source_family": "DRIFT",
+      "SNR_dB": 20,
+      "registered_records": 64,
+      "completed_records": 0,
+      "classification": "IMPLEMENTATION_OR_PROVIDER_LIMIT",
+      "mapping": "NOT_EVALUATED"
+    },
+    {
+      "source_family": "DRIFT",
+      "SNR_dB": 5,
+      "registered_records": 64,
+      "completed_records": 0,
+      "classification": "IMPLEMENTATION_OR_PROVIDER_LIMIT",
+      "mapping": "NOT_EVALUATED"
+    }
+  ],
+  "completed_stable_reference_dependence": "REF/RX mapping diagnostic differs strongly under the unvalidated delay fallback; reference dependent observation only, no certified CZ capability",
+  "singlepath_scope_only": "REFERENCE_DEPENDENT_ONLY: REF retains absolute motion; receiver-estimated carrier removes mean Doppler, not a general No-Go",
+  "kinematic_evaluation_reconstruction_PASS": true,
+  "execution_protocol_PASS": false,
+  "code_and_design_parameters_unchanged_after_A": true
+}

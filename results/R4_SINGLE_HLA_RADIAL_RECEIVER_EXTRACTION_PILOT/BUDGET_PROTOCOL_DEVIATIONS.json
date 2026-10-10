@@ -1,0 +1,10 @@
+{
+  "frozen_compute_process_limit": 1,
+  "temporary_saved_modal_diagnostic_concurrent_with_main_worker": true,
+  "observed_python_process_count_during_diagnostic": 2,
+  "diagnostic_commands_count": 2,
+  "combined_diagnostic_compute_seconds_approximately": 2,
+  "additional_solver_calls": 0,
+  "effect": "arithmetic inspection only; no change to configuration or receiver generation",
+  "interpretation": "strict single-process execution protocol was not fully met; report as a deviation, not full protocol PASS"
+}

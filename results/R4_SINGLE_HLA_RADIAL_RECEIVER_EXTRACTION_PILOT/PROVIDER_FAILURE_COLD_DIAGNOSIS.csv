@@ -1,0 +1,7 @@
+line,mesh,center_mode_count,minus_fine_mode_count,plus_fine_mode_count,cold_saved_provider_diagnosis,new_solver_calls
+0,80001,641,641,641,ValueError('DRIFT_PROVIDER_NOT_READY: group mode identity not supported'),0
+0,160001,641,641,641,ValueError('DRIFT_PROVIDER_NOT_READY: group mode identity not supported'),0
+1,80001,750,750,750,ValueError('DRIFT_PROVIDER_NOT_READY: group mode identity not supported'),0
+1,160001,750,750,750,ValueError('DRIFT_PROVIDER_NOT_READY: group mode identity not supported'),0
+2,80001,903,903,903,ValueError('DRIFT_PROVIDER_NOT_READY: group mode identity not supported'),0
+2,160001,903,903,903,ValueError('DRIFT_PROVIDER_NOT_READY: group mode identity not supported'),0

@@ -1,0 +1,6 @@
+control,error,limit,PASS,scope
+exact retarded singlepath REF units no double-Doppler,0.0002054511838185391,0.02,True,"known source frequency, magnitude only"
+same physical record two noninteger digital references,8.604228440844963e-14,0.005,True,"REF and RX, no truth offset correction"
+unknown source frequency/motion identical-record ambiguity,4.656613296586567e-10,1e-08,True,single channel single nondispersive component constant registered gain; not general No-Go
+baseband fs4 vs fs8 actual record,5.551115123125783e-17,0.005,True,REF RX bothlags
+real multichannel fs1024 / complex baseband equivalence,4.9313265401792184e-14,1e-08,True,"noninteger finite record, exact Fourier interpolation; edge and leakage retained"

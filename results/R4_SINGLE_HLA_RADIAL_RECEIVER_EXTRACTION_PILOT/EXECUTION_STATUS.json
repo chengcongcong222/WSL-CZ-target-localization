@@ -1,0 +1,11 @@
+{
+  "elapsed_s": 816.4379999998491,
+  "receiver_records_completed": 128,
+  "registered_records": 256,
+  "feature_rows": 9216,
+  "partial": "DRIFT_PROVIDER_NOT_READY",
+  "new_KRAKEN_calls": 30,
+  "new_FIELD_calls": 0,
+  "H2_feedback": false,
+  "R4_percent": 0
+}

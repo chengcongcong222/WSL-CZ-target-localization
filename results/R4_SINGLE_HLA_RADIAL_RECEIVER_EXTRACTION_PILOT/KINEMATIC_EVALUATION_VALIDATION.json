@@ -1,0 +1,6 @@
+{
+  "PASS": true,
+  "line_rows": 9216,
+  "max_independent_qbar_difference": 0.0,
+  "no_truth_used_in_estimator": true
+}

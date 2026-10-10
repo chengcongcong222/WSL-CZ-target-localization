@@ -1,0 +1,11 @@
+{
+  "PASS": true,
+  "checks": 131,
+  "FAIL": 0,
+  "forward_relative_worst": 2.6674500126502235e-10,
+  "retarded_time_residual_s": 0.0,
+  "raw_record_to_residual_relative_worst": 3.838669071119237e-15,
+  "elapsed_s": 8.093000000109896,
+  "source_truth_not_returned_to_RX": true,
+  "scope": "cold deterministic saved-record review only; no changed provider or experiment"
+}

@@ -1,0 +1,7 @@
+line,mesh,modes,minimum_mode_match,group_secant_difference,narrowband_field_error,limit,drift_ready
+0,80001,641,,,,0.02,False
+0,160001,641,,,,0.02,False
+1,80001,750,,,,0.02,False
+1,160001,750,,,,0.02,False
+2,80001,903,,,,0.02,False
+2,160001,903,,,,0.02,False

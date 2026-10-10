@@ -1,0 +1,6 @@
+{
+  "FIG1": "first registered STABLE20dB rep0 window0 band235; raw receiver and RX DC-dominated mapping failure, no favorable window selection",
+  "FIG2": "all completed source/SNR/method conditions; DRIFT not evaluated",
+  "FIG3": "all8 geometries all8 paired replicates all6 windows band235; no success subset",
+  "additional_failure_sample": "first chronological selected-peak mapping difference >0.2 m/s, evaluation-only diagnostic"
+}
