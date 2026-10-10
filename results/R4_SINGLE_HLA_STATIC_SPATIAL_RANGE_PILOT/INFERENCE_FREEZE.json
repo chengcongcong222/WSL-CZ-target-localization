@@ -1,0 +1,31 @@
+{
+  "time_utc": "2026-10-10T08:55:37.071121+00:00",
+  "private_truth_source_gain_reads": 0,
+  "DFT_sha256": "bc32dd3eeac72bfb86984d3b91b728bbe01cabb2d084bd6794902833d19cecd3",
+  "results_sha256": "79c8c746a049578eeb2d05a0e1eaeb6a9368a99e533a0885aac71936d0443def",
+  "catalogues": [
+    {
+      "step_km": 0.1,
+      "nonnegative_representatives": 66591,
+      "mirror_rule": "theta=0 once, positive theta restored +/-; all z labels preserved"
+    },
+    {
+      "step_km": 0.05,
+      "nonnegative_representatives": 259161,
+      "mirror_rule": "theta=0 once, positive theta restored +/-; all z labels preserved"
+    }
+  ],
+  "completed_configurations": 6144,
+  "score_files": {
+    "SCORES_step0.05_n160001.npy": "604b87e462d57592ab623cd3ffba74b57cd5b101413eb3e6a6cbab2cbd8db8fc",
+    "SCORES_step0.05_n80001.npy": "3dea47483f431d8596dc22fdf616da4e18bf47fe79021e77a1c3586e70293473",
+    "SCORES_step0.10_n160001.npy": "5957fd75d879171ea30661d8b6a2e5219ec7aba6bf6c96af59ff89d3cdaffca1",
+    "SCORES_step0.10_n80001.npy": "b11b952483faa8a904eb4f598cfc79efd7d4b8a0b3038f46ada50d5882ebbfc2"
+  },
+  "full_support_files": {
+    "FULL_RANGE_SUPPORT_0.05_n160001.npz": "f334ef50926442f5c9d95977acc6cf59c056e1b270c5961eb9359b95b0b09d3e",
+    "FULL_RANGE_SUPPORT_0.05_n80001.npz": "e29374fc07ec4146ebec4c2c255e2d190757ab455c3dba634ac28a217bed69ba",
+    "FULL_RANGE_SUPPORT_0.10_n160001.npz": "90682f537bb5512b342a44004c294ad0885a2279f76bdefcd937a7860a5fc4f4",
+    "FULL_RANGE_SUPPORT_0.10_n80001.npz": "34f4bd8af4ad4368a8f63b01dc2483ed5c6eb3fa20165a50743d1d3f5391440a"
+  }
+}

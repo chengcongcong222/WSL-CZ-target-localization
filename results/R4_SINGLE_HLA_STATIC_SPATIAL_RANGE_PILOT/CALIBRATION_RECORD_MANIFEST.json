@@ -1,0 +1,9 @@
+{
+  "public_index": "D:\\ProjectStorage\\WSL-CZ\\HLA_SP1\\calibration\\PUBLIC_RECORD_INDEX.csv",
+  "public_index_sha256": "0eee52417723a4d4f5cb41d04d3a8c6e452a724d9be3fedb992ec7b89c9fa534",
+  "private_manifest": "D:\\ProjectStorage\\WSL-CZ\\HLA_SP1\\calibration\\PRIVATE_MANIFEST.json",
+  "private_manifest_sha256": "c610993df889aa4a5917305381b1a195cac1d5179c17283126543cec71bc1a9e",
+  "records": 1024,
+  "local_raw_bytes": 1073872896,
+  "time_utc": "2026-10-10T08:53:22.059018+00:00"
+}

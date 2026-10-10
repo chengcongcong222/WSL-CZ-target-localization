@@ -1,0 +1,87 @@
+{
+  "classifications": [
+    "HLA_SP1_RANGE_CONTRACTION_NOT_SUPPORTED_IN_TESTED_CATALOGUE",
+    "HLA_SP1_PHASE_CALIBRATION_INVARIANCE_ONLY_OR_CONDITIONAL_GAIN",
+    "HLA_SP1_NUMERICAL_OR_GRID_LIMITED"
+  ],
+  "P1_preregistered_primary": {
+    "signal": false,
+    "geometries_by_grid": {
+      "0.1": [],
+      "0.05": []
+    },
+    "judgment": "RANGE_CONTRACTION_NOT_SUPPORTED"
+  },
+  "methods": {
+    "P0": {
+      "signal": false,
+      "geometries_by_grid": {
+        "0.1": [],
+        "0.05": []
+      },
+      "judgment": "RANGE_CONTRACTION_NOT_SUPPORTED"
+    },
+    "P1": {
+      "signal": false,
+      "geometries_by_grid": {
+        "0.1": [],
+        "0.05": []
+      },
+      "judgment": "RANGE_CONTRACTION_NOT_SUPPORTED"
+    },
+    "P2": {
+      "signal": false,
+      "geometries_by_grid": {
+        "0.1": [],
+        "0.05": []
+      },
+      "judgment": "RANGE_CONTRACTION_NOT_SUPPORTED"
+    }
+  },
+  "numeric_sensitivity": {
+    "P0": {
+      "median_absolute_grid_envelope_change_km": 0.0,
+      "median_absolute_modal_envelope_change_km": 0.0,
+      "maximum_grid_point_change_km": 13.549999999999997,
+      "maximum_modal_point_change_km": 9.050000000000004,
+      "grid_horizontal_label_flips": 14,
+      "modal_horizontal_label_flips": 0
+    },
+    "P1": {
+      "median_absolute_grid_envelope_change_km": 0.0,
+      "median_absolute_modal_envelope_change_km": 0.0,
+      "maximum_grid_point_change_km": 13.549999999999997,
+      "maximum_modal_point_change_km": 4.899999999999999,
+      "grid_horizontal_label_flips": 7,
+      "modal_horizontal_label_flips": 0
+    },
+    "P2": {
+      "median_absolute_grid_envelope_change_km": 0.0,
+      "median_absolute_modal_envelope_change_km": 0.0,
+      "maximum_grid_point_change_km": 14.149999999999999,
+      "maximum_modal_point_change_km": 12.649999999999999,
+      "grid_horizontal_label_flips": 14,
+      "modal_horizontal_label_flips": 0
+    }
+  },
+  "ranking_limit_scope": "best-point ranking only: observed grid jump14.15km and modal jump12.65km; envelope verdict consistent; post-execution audit under task section8, not a new performance threshold",
+  "phase_statement": "noise-free registered fixed cross-frequency gain invariance confirmed; no distance contraction or noisy dominance established",
+  "relative_to_P0": "per-method independently calibrated filters; not equal-coverage optimal-estimator comparison",
+  "scope": [
+    "STATIC_CONTROL",
+    "FINITE_CATALOGUE",
+    "DEPTH_NOT_TARGET",
+    "NO_VELOCITY_ESTIMATE"
+  ],
+  "v_psi": "NOT_EVALUATED",
+  "R4_percent": 0,
+  "new_KRAKEN": 6,
+  "new_FIELD": 3,
+  "calibration_records": 1024,
+  "test_records": 512,
+  "test_method_grid_modal_configurations": 6144,
+  "new_dynamic_signals": 0,
+  "CHIGH_UNCERTIFIED": true,
+  "old_E2_status_unchanged": true,
+  "next": "STOP"
+}

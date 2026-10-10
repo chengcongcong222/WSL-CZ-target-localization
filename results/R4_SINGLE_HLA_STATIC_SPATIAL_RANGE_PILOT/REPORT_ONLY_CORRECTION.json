@@ -1,0 +1,6 @@
+{
+  "initial_report_error": "NameError: design undefined at task SHA rendering",
+  "correction": "post-A report script loads DESIGN_FREEZE; no frozen code/threshold/inference edits or experiment rerun",
+  "report_figures_rewritten_only": true,
+  "scientific_results_unchanged": true
+}

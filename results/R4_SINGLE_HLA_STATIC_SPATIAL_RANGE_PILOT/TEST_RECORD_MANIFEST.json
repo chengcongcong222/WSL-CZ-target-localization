@@ -1,0 +1,9 @@
+{
+  "public_index": "D:\\ProjectStorage\\WSL-CZ\\HLA_SP1\\test\\PUBLIC_RECORD_INDEX.csv",
+  "public_index_sha256": "e378dbe11b5d6005c59e03448131938f79ac5f3f76bb4deed61347bf92496bf2",
+  "private_manifest": "D:\\ProjectStorage\\WSL-CZ\\HLA_SP1\\test\\PRIVATE_MANIFEST.json",
+  "private_manifest_sha256": "7e89c36c17356cb9c17378075647dd1b75b15da22a2350516a15ff2ff01cdb79",
+  "records": 512,
+  "local_raw_bytes": 536936448,
+  "time_utc": "2026-10-10T08:53:42.223533+00:00"
+}

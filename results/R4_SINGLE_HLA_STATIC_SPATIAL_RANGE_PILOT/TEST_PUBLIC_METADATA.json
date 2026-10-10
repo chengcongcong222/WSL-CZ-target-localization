@@ -1,0 +1,23 @@
+{
+  "fs_hz": 1024,
+  "N": 2048,
+  "K": 8,
+  "analysis_frequencies_hz": [
+    201.0,
+    235.0,
+    283.0
+  ],
+  "array_x_m": [
+    -7.0,
+    -5.0,
+    -3.0,
+    -1.0,
+    1.0,
+    3.0,
+    5.0,
+    7.0
+  ],
+  "array_z_m": 200,
+  "scope": "BIN_ALIGNED_STATIC_CONTROL",
+  "forbidden": "source,H,gain,truth,REF"
+}

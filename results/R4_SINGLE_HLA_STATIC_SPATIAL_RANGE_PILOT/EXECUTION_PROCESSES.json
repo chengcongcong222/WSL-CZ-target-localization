@@ -1,0 +1,62 @@
+[
+  {
+    "stage": [
+      "hla_sp1_generate.py",
+      "calibration"
+    ],
+    "returncode": 0,
+    "wall_s": 23.687999999849126,
+    "sampled_peak_RSS": 131760128
+  },
+  {
+    "stage": [
+      "hla_sp1_receiver.py",
+      "calibration"
+    ],
+    "returncode": 0,
+    "wall_s": 4.655999999959022,
+    "sampled_peak_RSS": 68247552
+  },
+  {
+    "stage": [
+      "hla_sp1_calibrate.py"
+    ],
+    "returncode": 0,
+    "wall_s": 3.6410000000614673,
+    "sampled_peak_RSS": 196919296
+  },
+  {
+    "stage": [
+      "hla_sp1_generate.py",
+      "test"
+    ],
+    "returncode": 0,
+    "wall_s": 11.797000000020489,
+    "sampled_peak_RSS": 131321856
+  },
+  {
+    "stage": [
+      "hla_sp1_receiver.py",
+      "test"
+    ],
+    "returncode": 0,
+    "wall_s": 2.375,
+    "sampled_peak_RSS": 65982464
+  },
+  {
+    "stage": [
+      "hla_sp1_infer.py"
+    ],
+    "returncode": 0,
+    "wall_s": 121.7180000001099,
+    "sampled_peak_RSS": 6545162240
+  },
+  {
+    "stage": [
+      "hla_sp1_evaluate.py"
+    ],
+    "returncode": 0,
+    "wall_s": 3.1409999998286366,
+    "sampled_peak_RSS": 210067456
+  }
+]

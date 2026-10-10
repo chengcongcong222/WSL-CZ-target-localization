@@ -1,0 +1,14 @@
+{
+  "time_utc": "2026-10-10T08:53:26.784574+00:00",
+  "file": "D:\\ProjectStorage\\WSL-CZ\\HLA_SP1\\calibration\\RECEIVER_DFT.npy",
+  "sha256": "6a6e59cd7a8acdc64bbdb067601dddbacf8c858e594ca252136826bb67b363fd",
+  "shape": [
+    1024,
+    8,
+    3,
+    8
+  ],
+  "waveform_hash_verified": 1024,
+  "private_truth_source_H_gain_reads": 0,
+  "public_index_sha256": "0eee52417723a4d4f5cb41d04d3a8c6e452a724d9be3fedb992ec7b89c9fa534"
+}

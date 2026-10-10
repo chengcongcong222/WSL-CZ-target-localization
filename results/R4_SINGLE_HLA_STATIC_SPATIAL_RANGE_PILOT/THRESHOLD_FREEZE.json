@@ -1,0 +1,8 @@
+{
+  "time_utc": "2026-10-10T08:53:30.238391+00:00",
+  "calibration_DFT_sha256": "6a6e59cd7a8acdc64bbdb067601dddbacf8c858e594ca252136826bb67b363fd",
+  "threshold_sha256": "df01fdd29438879e6591e9079aebdf03d1650a965f3799cebc959a8eeb0f7cd8",
+  "distribution_sha256": "2c6ec62d2f730acfa098ce40a8b8a430fb65f39e87655dd0f01a230402971428",
+  "test_inference_not_started": true,
+  "rule": "nearest rank95%,256 per method/C/SNR/grid; not theoretical95% confidence"
+}

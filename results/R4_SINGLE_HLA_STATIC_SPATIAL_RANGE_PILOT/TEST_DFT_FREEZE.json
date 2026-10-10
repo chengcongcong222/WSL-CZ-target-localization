@@ -1,0 +1,14 @@
+{
+  "time_utc": "2026-10-10T08:53:44.605429+00:00",
+  "file": "D:\\ProjectStorage\\WSL-CZ\\HLA_SP1\\test\\RECEIVER_DFT.npy",
+  "sha256": "bc32dd3eeac72bfb86984d3b91b728bbe01cabb2d084bd6794902833d19cecd3",
+  "shape": [
+    512,
+    8,
+    3,
+    8
+  ],
+  "waveform_hash_verified": 512,
+  "private_truth_source_H_gain_reads": 0,
+  "public_index_sha256": "e378dbe11b5d6005c59e03448131938f79ac5f3f76bb4deed61347bf92496bf2"
+}

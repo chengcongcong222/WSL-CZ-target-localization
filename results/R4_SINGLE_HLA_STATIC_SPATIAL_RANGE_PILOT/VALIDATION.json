@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-10-10T08:57:39.223663+00:00",
+  "PASS": true,
+  "PASS_count": 80307,
+  "FAIL_count": 0,
+  "receiver_waveforms": 1536,
+  "all_best_and_boundary_checks": 24561,
+  "direct_score_max_difference": 1.5120185103967287e-09,
+  "direct_boundary_flips": 0,
+  "new_solver_calls": {
+    "KRAKEN": 6,
+    "FIELD": 3
+  },
+  "code_after_A_unchanged": true,
+  "budget_wall_RSS": [
+    793.40942,
+    191856640
+  ],
+  "scope": "arithmetic/bytes/exact full stored modal sums; no omitted-mode certificate or sea-trial validation",
+  "supplemental_bookkeeping_PASS_count": 12672,
+  "supplemental_bookkeeping_FAIL_count": 0
+}
