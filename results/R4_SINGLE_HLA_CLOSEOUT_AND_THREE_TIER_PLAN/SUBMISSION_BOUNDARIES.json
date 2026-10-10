@@ -1,0 +1,10 @@
+{
+  "parent_SHA": "c7271ad10f427304026dd69b7f6f402f548b283b",
+  "new_scientific_calls": 0,
+  "ledger_git_blob_prefix_preserved": true,
+  "ledger_git_blob_prefix_sha256": "3a42ee4ff304510c9185a23d45799b6b6840e4803aa0a5b9200ea808506707ef",
+  "ledger_staged_suffix_rows": 1,
+  "task_package_hashes_verified": true,
+  "check_scope": "Working raw prefix and staged Git blob prefix both preserved; normal historical checkout conversion left in place. New result directory uses -text.",
+  "sub_agents_used": false
+}

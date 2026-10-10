@@ -1,0 +1,31 @@
+{
+  "stage": "HLA-CLOSE1",
+  "task_id": "HLA_CLOSE1_STAGE_CLOSEOUT_AND_THREE_TIER_PLAN",
+  "task_SHA256": "cb2f52618059f2fde99dbf80d5d512db88c82b11ee17dbdfb2df5355ad634c5e",
+  "parent_SHA": "c7271ad10f427304026dd69b7f6f402f548b283b",
+  "execution_SHA": "CONTAINING_COMMIT",
+  "execution_kind": "DOCUMENTATION_AND_PROSPECTIVE_DESIGN_ONLY",
+  "original_HLA_phase_status": "PHASE_CLOSEOUT_WITH_CONDITIONAL_EVIDENCE_AND_OPEN_QUESTIONS",
+  "all_methods_exhausted": false,
+  "physical_no_go_claim": false,
+  "three_tier_evidence_status": "COMPILED_WITH_SOURCE_GAPS",
+  "source_gaps": [
+    "Missing archived auxiliary raw bearings and reported tracks",
+    "Physical sign/array-axis,sync,calibration contracts not established"
+  ],
+  "next_priority": "AUX_D1_PAIRED_OBSERVATION_DESIGN_REVIEW",
+  "aux_design_status": "PROPOSED_NOT_FROZEN",
+  "vertical_design_status": "PROPOSED_NOT_FROZEN",
+  "numeric_design_status": "NUMERICAL_EXECUTION_NOT_AUTHORIZED",
+  "next_numeric_execution_authorized": false,
+  "vertical_numeric_execution_authorized": false,
+  "new_propagation_calls": 0,
+  "new_observations_or_noise": 0,
+  "new_optimizer_or_FIM_runs": 0,
+  "new_MC": 0,
+  "new_recordings": 0,
+  "historical_scientific_statuses_changed": false,
+  "R4_percent": 0,
+  "R4_delta": 0,
+  "STOP": true
+}

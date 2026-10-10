@@ -1,0 +1,21 @@
+执行新的 HLA-CLOSE1 文档与设计任务，不执行新的数值试验。
+
+先读：HLA_CLOSE1_CODEX_TASK_20261010_v1.md
+辅助索引：HLA_CLOSE1_SOURCE_ENTRYPOINTS_20261010_v1.json
+任务ID：HLA_CLOSE1_STAGE_CLOSEOUT_AND_THREE_TIER_PLAN
+任务SHA256：cb2f52618059f2fde99dbf80d5d512db88c82b11ee17dbdfb2df5355ad634c5e
+唯一预期parent：c7271ad10f427304026dd69b7f6f402f548b283b
+仓库：chengcongcong222/WSL-CZ-target-localization
+新目录：results/R4_SINGLE_HLA_CLOSEOUT_AND_THREE_TIER_PLAN/
+
+这不是SP1/RX1Z/RX1/H1恢复执行。用户已要求按计划先收束原单HLA预研，再形成三个资源档次的证据和后续增强方案。本轮交付：原HLA阶段总结、三档条件证据表、甲方交流稿、下一辅助节点同观测对比设计草案、垂向独立可选说明、来源与统计口径账本、短版交接。
+
+先检查任务文件精确哈希、HEAD/remote/main和工作区。若本任务同哈希已经完成，只回传该结果，不重复执行；若只有旧SP1等任务已完成，它们是本任务输入，不是本任务已完成。parent变更按完整任务的规则处理，不reset、不覆盖他人工作。
+
+读取旧表和必要源码文本核对来源；不import带副作用的科学模块。允许已有统计的同定义复算与文档校验；严禁新传播、观测/噪声/波形、优化、FIM或历史全量实验重跑。不要因为缺一份文件而用科学仿真补齐，记录缺口并完成可支持部分。
+
+保留R3最终4°/5°双航向候选；H2注入特征、RX映射未立、SP1总包络未收紧；辅助节点历史条件P95和垂向局部信息不能拼成一套工程精度。深度不是必须收紧目标，T3不默认包含T2。所有下一数值设计标PROPOSED_NOT_FROZEN，authorization=false。
+
+本轮无需新科学A/B冻结，记录输入来源后一次完成文档结果提交。新增文件放D盘；UTF-8写入，原工作树/原Git字节哈希分别记录，避免编码修补和哈希误报。只stage本轮文件及台账追加。
+
+文档检查后提交、推送、核对HEAD=remote/main并STOP。回传不超过约900中文字符的GPT_SYNC、真实提交SHA、新增科学计算=0、下一辅助草案状态和未解决缺口。不要自动执行辅助节点或垂向方案。

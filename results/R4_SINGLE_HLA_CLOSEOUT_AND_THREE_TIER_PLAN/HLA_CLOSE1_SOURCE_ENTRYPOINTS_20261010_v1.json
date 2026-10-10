@@ -1,0 +1,191 @@
+{
+  "package": "HLA_CLOSE1_STAGE_CLOSEOUT_AND_THREE_TIER_PLAN",
+  "version": "1.0",
+  "date": "2026-10-10",
+  "repository": "chengcongcong222/WSL-CZ-target-localization",
+  "read_at_commit": "c7271ad10f427304026dd69b7f6f402f548b283b",
+  "scope": "Reading entrypoints, not a claim that every source has been independently re-executed.",
+  "sources": [
+    {
+      "id": "E01",
+      "label": "原单HLA R3最终名义候选",
+      "path": "results/R3_FINAL_CLOSEOUT/R3_FINAL_DECISION.json",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R3_FINAL_CLOSEOUT/R3_FINAL_DECISION.json",
+      "scope_note": "以canonical冻结结果为准；不是早期50/54 km距离双候选"
+    },
+    {
+      "id": "E02",
+      "label": "R3逐个候选状态",
+      "path": "results/R3_FINAL_PARAMETER_CONTRACTION/FINAL_SURVIVOR_STATE_TABLE.csv",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R3_FINAL_PARAMETER_CONTRACTION/FINAL_SURVIVOR_STATE_TABLE.csv",
+      "scope_note": "核对r/theta/v相同、psi=4/5；深度剖面标签不等于深度置信区间"
+    },
+    {
+      "id": "E03",
+      "label": "原HLA连续搜索历史",
+      "path": "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/GPT_SYNC.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_A1_FIX2_ACOUSTIC_COVERAGE/GPT_SYNC.md",
+      "scope_note": "匹配、理想声学特征；小点误差不等于完整支持或现实精度"
+    },
+    {
+      "id": "E04",
+      "label": "H1四参数与源幅条件",
+      "path": "results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/FOUR_PARAMETER_RESULTS.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/FOUR_PARAMETER_RESULTS.md",
+      "scope_note": "有限格点条件信号，离网格0/32；保留源条件和统计对象"
+    },
+    {
+      "id": "E05",
+      "label": "H1接收不变性",
+      "path": "results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/EMPIRICAL_SOURCE_INVARIANCE.json",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/EMPIRICAL_SOURCE_INVARIANCE.json",
+      "scope_note": "S0/S1/S2配对重复不能增加独立样本量"
+    },
+    {
+      "id": "E06",
+      "label": "H2价值、符号、零点",
+      "path": "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/FOUR_PARAMETER_RESULTS.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/FOUR_PARAMETER_RESULTS.md",
+      "scope_note": "注入特征，不是原HLA已实测获取"
+    },
+    {
+      "id": "E07",
+      "label": "H2最终判定",
+      "path": "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/DECISION.json",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/DECISION.json",
+      "scope_note": "保持速度/航向收益、距离限制、无条件INF等并列结论"
+    },
+    {
+      "id": "E08",
+      "label": "RX1提取与提供器限制",
+      "path": "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/GPT_SYNC.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/GPT_SYNC.md",
+      "scope_note": "稳定源128条、DRIFT未完成、后备传播未认证；REF不可借给RX"
+    },
+    {
+      "id": "E09",
+      "label": "RX1Z映射边界",
+      "path": "results/R4_SINGLE_HLA_CARRIER_REFERENCE_CONTRAST_PILOT/GPT_SYNC.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_SINGLE_HLA_CARRIER_REFERENCE_CONTRAST_PILOT/GPT_SYNC.md",
+      "scope_note": "同航段失败、转向项单列；未建立绝对或相对径向量测"
+    },
+    {
+      "id": "E10",
+      "label": "SP1最新结果",
+      "path": "results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/GPT_SYNC.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/GPT_SYNC.md",
+      "scope_note": "静态三频、全包络15 km、点排序受限"
+    },
+    {
+      "id": "E11",
+      "label": "SP1逐方法统计",
+      "path": "results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/METHOD_AND_CALIBRATION_COMPARISON.csv",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/METHOD_AND_CALIBRATION_COMPARISON.csv",
+      "scope_note": "统计为各几何中位数再取中位，不能改称P95"
+    },
+    {
+      "id": "E12",
+      "label": "SP1判定及数值作用域",
+      "path": "results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/DECISION.json",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/DECISION.json",
+      "scope_note": "P0/P1/P2均未获距离收紧信号；不改成物理No-Go"
+    },
+    {
+      "id": "E13",
+      "label": "RC2观测来源缺口",
+      "path": "results/R4_RC2_OBSERVATION_SUPPORT/OBSERVATION_AND_ERROR_CONTRACT.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_RC2_OBSERVATION_SUPPORT/OBSERVATION_AND_ERROR_CONTRACT.md",
+      "scope_note": "原21个P/Q与双节点H案例不是同观测；不以真值补齐"
+    },
+    {
+      "id": "E14",
+      "label": "RC2保守外包络",
+      "path": "results/R4_RC2_OBSERVATION_SUPPORT/GPT_SYNC.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_RC2_OBSERVATION_SUPPORT/GPT_SYNC.md",
+      "scope_note": "方位-only外包络，不覆盖历史RC2+RC3正结果"
+    },
+    {
+      "id": "E15",
+      "label": "辅助节点条件动态精度",
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/GPT_SYNC.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/GPT_SYNC.md",
+      "scope_note": "Anchor A为主，B补充；12×500，四个最坏场景P95可能来自不同几何"
+    },
+    {
+      "id": "E16",
+      "label": "辅助节点速度归因",
+      "path": "results/R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/GPT_SYNC.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/GPT_SYNC.md",
+      "scope_note": "理想化偏差移除/真实节点控制与工程噪声条件分开；CRLB非实测P95"
+    },
+    {
+      "id": "E17",
+      "label": "垂向扩展局部信息",
+      "path": "results/R4_H3_G0_FINITE_VERTICAL_RESPONSE/GPT_SYNC.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_H3_G0_FINITE_VERTICAL_RESPONSE/GPT_SYNC.md",
+      "scope_note": "2.34–4.47是B1/B2信息比，不是米级精度或相对原8元全部收益"
+    },
+    {
+      "id": "E18",
+      "label": "H3-P1作用域",
+      "path": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/GPT_SYNC.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_H3_P1_UNIFIED_WINDOW_SSP/GPT_SYNC.md",
+      "scope_note": "模态窗口/SSP割线未准入；不推为深度不存在"
+    },
+    {
+      "id": "E19",
+      "label": "方法实际覆盖",
+      "path": "results/R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/LITERATURE_IMPLEMENTATION_COVERAGE.csv",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/LITERATURE_IMPLEMENTATION_COVERAGE.csv",
+      "scope_note": "是历史快照，须用后来的H1/H2/RX/SP1更新覆盖状态"
+    },
+    {
+      "id": "E20",
+      "label": "E2早期准入",
+      "path": "results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/GPT_SYNC.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/GPT_SYNC.md",
+      "scope_note": "原数值准入未闭合，不能被SP1回填"
+    },
+    {
+      "id": "E21",
+      "label": "E2九频对记录",
+      "path": "results/R4_E2_NINE_PAIR_INFORMATION_PILOT/PILOT_REPORT.md",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_E2_NINE_PAIR_INFORMATION_PILOT/PILOT_REPORT.md",
+      "scope_note": "检索后续修复/停止记录，不能把这一较早报告冒充最终状态"
+    },
+    {
+      "id": "E22",
+      "label": "冻结台账",
+      "path": "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+      "read_ref": "c7271ad10f427304026dd69b7f6f402f548b283b",
+      "url": "https://github.com/chengcongcong222/WSL-CZ-target-localization/blob/c7271ad10f427304026dd69b7f6f402f548b283b/results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+      "scope_note": "仅追加本轮文档记录；既有行字节保留"
+    }
+  ],
+  "additional_discovery": [
+    "H3-G1/G2E/P0 and E2 formula-repair final decisions: discover exact paths via tracked files, follow chronology; do not guess final status.",
+    "Auxiliary geometry/noise/config source paths: follow E15/E16 links and imports by reading text only; do not import/execute their modules.",
+    "Availability of raw bearings/reported positions on D: inspect metadata/read files only; report present/missing, do not reconstruct observations from truth."
+  ]
+}

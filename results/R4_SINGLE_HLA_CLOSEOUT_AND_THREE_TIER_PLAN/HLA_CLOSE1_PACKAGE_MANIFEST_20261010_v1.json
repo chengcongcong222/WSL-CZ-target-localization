@@ -1,0 +1,34 @@
+{
+  "task_id": "HLA_CLOSE1_STAGE_CLOSEOUT_AND_THREE_TIER_PLAN",
+  "version": "1.0",
+  "date": "2026-10-10",
+  "parent": "c7271ad10f427304026dd69b7f6f402f548b283b",
+  "task_file": "HLA_CLOSE1_CODEX_TASK_20261010_v1.md",
+  "task_sha256": "cb2f52618059f2fde99dbf80d5d512db88c82b11ee17dbdfb2df5355ad634c5e",
+  "execution_scope": "DOCUMENTATION_AND_PROSPECTIVE_DESIGN_ONLY",
+  "new_numerical_execution_authorized": false,
+  "repository_modified_by_this_package_creation": false,
+  "encoding": "UTF-8, LF",
+  "files": [
+    {
+      "name": "HLA_CLOSE1_CODEX_TASK_20261010_v1.md",
+      "bytes": 23617,
+      "sha256": "cb2f52618059f2fde99dbf80d5d512db88c82b11ee17dbdfb2df5355ad634c5e"
+    },
+    {
+      "name": "HLA_CLOSE1_SOURCE_ENTRYPOINTS_20261010_v1.json",
+      "bytes": 11653,
+      "sha256": "baec78abe2fdc0c7540146038ad4cf410e18b95aeedb8cbd5d3743dafbba7fef"
+    },
+    {
+      "name": "HLA_CLOSE1_NEXT_ROUND_BRIEF_20261010_v1.md",
+      "bytes": 3226,
+      "sha256": "e5402c72e4b3a4cd41d50d75a52ffb0f1ab56b25a3cf4c5110ec3a2dc4b8f07b"
+    },
+    {
+      "name": "HLA_CLOSE1_START_20261010_v1.txt",
+      "bytes": 2286,
+      "sha256": "71f770a202dbea54aa1b1d07dd083b077ec76e56872deec4110282dddcd30708"
+    }
+  ]
+}

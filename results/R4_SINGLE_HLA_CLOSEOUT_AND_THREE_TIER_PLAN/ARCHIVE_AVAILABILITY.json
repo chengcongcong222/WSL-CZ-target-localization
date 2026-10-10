@@ -1,0 +1,100 @@
+{
+  "scope": "Tracked auxiliary stage files + non-waveform operational metadata directories on D:/ProjectStorage/WSL-CZ. No exhaustive absence claim across all D: or external archives. Large receiver/cache/dependency/migration trees excluded.",
+  "tracked_auxiliary_paths": [
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_CASE_SUMMARY.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_DECISION.json",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_DESIGN_FREEZE.json",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_DRAWS_A.npz",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_DRAWS_B.npz",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_ERROR_MODEL.md",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_ESTIMATOR_DIAGNOSTICS.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_ESTIMATOR_DIAGNOSTICS_A.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_ESTIMATOR_SPEC.md",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_EXECUTION_START.json",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_GATE.md",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_GATE_CLOSURE_DETAILS.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_GLOBAL_SUMMARY.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_INDEPENDENT_CHECKS.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_INDEPENDENT_SOLVER_CHECKS.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_INITIALIZER_DIAGNOSTICS.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_INITIALIZER_DIAGNOSTICS_A.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_PRIMARY_SEAL.json",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_REPORT.md",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_RESULTS_FREEZE.json",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_RUN_RESULTS.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_RUN_RESULTS_A.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_RUN_RESULTS_B.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_TESTS.xml",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_TRUTH_PANEL.csv",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/GPT_SYNC.md",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/VALIDATION.json",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/figures/FIG1_FOUR_PARAMETER_P95.png",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/figures/FIG1_FOUR_PARAMETER_P95.svg",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/figures/FIG2_ESTIMATED_VS_TRUE.png",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/figures/FIG2_ESTIMATED_VS_TRUE.svg",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/figures/FIG3_ANGLE_ERROR_DISTRIBUTIONS.png",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/figures/FIG3_ANGLE_ERROR_DISTRIBUTIONS.svg",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/figures/FIG4_ANCHOR_COMPARISON.png",
+    "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/figures/FIG4_ANCHOR_COMPARISON.svg"
+  ],
+  "local_metadata_candidate_paths": [
+    "D:\\ProjectStorage\\WSL-CZ\\a1_new_prefreeze_tests.xml"
+  ],
+  "draw_container_members": [
+    "uniforms.npy",
+    "normals.npy"
+  ],
+  "saved_result_columns": [
+    "anchor",
+    "case_id",
+    "realization",
+    "draw_index",
+    "mirror",
+    "b_common_deg",
+    "b_diff_HALF_deg",
+    "beta_deg",
+    "failed",
+    "failure_reason",
+    "x_hat_m",
+    "y_hat_m",
+    "vx_hat_mps",
+    "vy_hat_mps",
+    "r_hat_km",
+    "theta_hat_deg",
+    "v_hat_mps",
+    "psi_hat_deg",
+    "range_error",
+    "bearing_error_deg",
+    "speed_error",
+    "heading_error_deg"
+  ],
+  "items": [
+    {
+      "item": "MAIN/AUX raw bearings",
+      "status": "MISSING",
+      "basis": "E13/E14,filename inventory,E32 members,E33/E34 headers; E35 returns arrays but does not save them"
+    },
+    {
+      "item": "MAIN/AUX reported positions",
+      "status": "MISSING",
+      "basis": "Same scoped inventory and source output review"
+    },
+    {
+      "item": "truths/point estimates",
+      "status": "SAVED_ESTIMATES_ONLY",
+      "basis": "TRUTH_PANEL.csv and E33/E34"
+    },
+    {
+      "item": "random innovations/error contract/time grid",
+      "status": "GENERATOR_METADATA_ONLY",
+      "basis": "E28/E29/E32/E35;not estimator-ready observed array"
+    },
+    {
+      "item": "physical array-axis history/sign resolution",
+      "status": "MISSING",
+      "basis": "Directional angle assumption;no passive attitude/extraction contract"
+    }
+  ],
+  "no_truth_based_reconstruction": true,
+  "new_observations": 0
+}
