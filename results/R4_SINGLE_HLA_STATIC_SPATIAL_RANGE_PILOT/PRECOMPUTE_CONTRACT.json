@@ -1,0 +1,19 @@
+{
+  "time_utc": "2026-10-10T08:46:05.644471+00:00",
+  "six_static_KRAKEN_max": 6,
+  "FIELD_max": 3,
+  "timeout_KRAKEN_s": 90,
+  "timeout_FIELD_s": 60,
+  "env_sha256": {
+    "sp1_f201_n80001.env": "dbb65eebe4c7124185637a942ace71b18b76fdd6669b462786b032f6c4ea2365",
+    "sp1_f235_n80001.env": "d4fe1a8171b1be84c81e5b225dcfbc96a58e948ab855f80dea30909c5c161be4",
+    "sp1_f283_n80001.env": "45dacce07cf015ef9c184e1a78cdf0faf1249855f2e59ecc1fd3e43cdf50f31f",
+    "sp1_f201_n160001.env": "5c9a97953a18736e083696291b4cfe0227ef0c8aa122717d42986516167f367d",
+    "sp1_f235_n160001.env": "68e39be9ffdcbc5fdaac235df015430b10dfceb0392dabf9b0e0f3c2bc69efc5",
+    "sp1_f283_n160001.env": "fd31a69f98842a0c3d5835173ebfb34abc49c532f6f2441e55d5789b0ce2262f"
+  },
+  "kraken_sha256": "997d533594c89f8cc63b520ae29cadec743ecfbdb64898f4c3294ab0254f4eb7",
+  "field_sha256": "65067be0f3fc3eb9cdf7b73e8a8888e0e3beabaa2de24fa25a24b960f03b00ba",
+  "physics_gate": "exact source depths, nonfinite/attenuation checks; independent FIELD shape <=0.002; algebra <=1e-10; waveform relative <=1e-10",
+  "no_dynamic_provider": true
+}

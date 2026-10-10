@@ -1,0 +1,104 @@
+{
+  "template": "results\\R3_C2_Yang_SA_depth\\R3_C2_1\\_kraken_zgrid\\zgrid_f201.env",
+  "template_sha256": "f5f383832b6429cfab766d39beb9fe479699f117b97dfacf63c035913e5650a9",
+  "KRAKEN_sha256": "997d533594c89f8cc63b520ae29cadec743ecfbdb64898f4c3294ab0254f4eb7",
+  "FIELD_sha256": "65067be0f3fc3eb9cdf7b73e8a8888e0e3beabaa2de24fa25a24b960f03b00ba",
+  "calls": [
+    {
+      "mesh": 80001,
+      "frequency_hz": 201.0,
+      "new_KRAKEN": true,
+      "returncode": 0,
+      "seconds": 4.733999999938533,
+      "modes": 641,
+      "mod_sha256": "6925cb51d4cbc476f4ea55e36885252ab290825ae1563cd0972169e21d15cea4",
+      "env_sha256": "dbb65eebe4c7124185637a942ace71b18b76fdd6669b462786b032f6c4ea2365"
+    },
+    {
+      "mesh": 80001,
+      "frequency_hz": 235.0,
+      "new_KRAKEN": true,
+      "returncode": 0,
+      "seconds": 5.6100000001024455,
+      "modes": 749,
+      "mod_sha256": "ebf2567339a440ec2151de12e7b5d32fbc1a8092048be0e7250a9e5bc66bf0e1",
+      "env_sha256": "d4fe1a8171b1be84c81e5b225dcfbc96a58e948ab855f80dea30909c5c161be4"
+    },
+    {
+      "mesh": 80001,
+      "frequency_hz": 283.0,
+      "new_KRAKEN": true,
+      "returncode": 0,
+      "seconds": 6.546000000089407,
+      "modes": 902,
+      "mod_sha256": "1661c1ff0e6089675dad5b5004932dcf1d2d812ed83071043048fe34bc83234a",
+      "env_sha256": "45dacce07cf015ef9c184e1a78cdf0faf1249855f2e59ecc1fd3e43cdf50f31f"
+    },
+    {
+      "mesh": 160001,
+      "frequency_hz": 201.0,
+      "new_KRAKEN": true,
+      "returncode": 0,
+      "seconds": 11.109999999869615,
+      "modes": 641,
+      "mod_sha256": "88cf827277417fca348909e72c793d9c14da6003781917ca19e2c825db9ff4f6",
+      "env_sha256": "5c9a97953a18736e083696291b4cfe0227ef0c8aa122717d42986516167f367d"
+    },
+    {
+      "mesh": 160001,
+      "frequency_hz": 235.0,
+      "new_KRAKEN": true,
+      "returncode": 0,
+      "seconds": 13.140000000130385,
+      "modes": 749,
+      "mod_sha256": "c590e8384a0dc4573fc3849c5bf218be66096f023cb5ab1c74462bbf4f3f1bfc",
+      "env_sha256": "68e39be9ffdcbc5fdaac235df015430b10dfceb0392dabf9b0e0f3c2bc69efc5"
+    },
+    {
+      "mesh": 160001,
+      "frequency_hz": 283.0,
+      "new_KRAKEN": true,
+      "returncode": 0,
+      "seconds": 15.187999999849126,
+      "modes": 902,
+      "mod_sha256": "9336511b8c4516751dc99a5d8d1942829cc6f0b26b787dde1e9fd0b13c2540aa",
+      "env_sha256": "fd31a69f98842a0c3d5835173ebfb34abc49c532f6f2441e55d5789b0ce2262f"
+    }
+  ],
+  "exact_depths_m": [
+    150.0,
+    155.0,
+    160.0,
+    165.0,
+    170.0,
+    175.0,
+    180.0,
+    185.0,
+    190.0,
+    195.0,
+    200.0,
+    205.0,
+    210.0,
+    215.0,
+    220.0,
+    225.0,
+    230.0,
+    235.0,
+    240.0,
+    245.0,
+    250.0
+  ],
+  "receiver_z_m": 200,
+  "complex_pressure": "sum phi(zs)*phi(zr)*sqrt(2pi/(complex k*r))*exp(-i k*r-i pi/4), all modes",
+  "time_convention": "exp(+i omega t), attenuation k.imag<=0",
+  "window": [
+    1500,
+    1800
+  ],
+  "CHIGH_truncation_UNCERTIFIED": true,
+  "old_E2_FAIL_UNCHANGED": true,
+  "grid_spline_step_m": 1,
+  "carrier": "midpoint returned min/max real k; restore exp(-i carrier*r)",
+  "physical_model": "STATIC_HELMHOLTZ_E0_MATCHED_NOMINAL_ENVIRONMENT",
+  "archive_qualification": "existing201/235/283 modes not at both registered meshes or exact21 depths; no qualified full six cache"
+}

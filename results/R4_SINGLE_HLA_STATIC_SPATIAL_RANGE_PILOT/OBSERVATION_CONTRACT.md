@@ -1,0 +1,9 @@
+# Observation and permissions
+
+Static8element HLA x=[-7,-5,-3,-1,1,3,5,7]m, z200m. Three tones201/235/283Hz exactly on2s DFT bins;fs1024,N2048,K8. Real waveform x=2Re sum_f S_fk G_m H_fm exp(i2pi f n/fs)+eta. Separate phase Uniform(-pi,pi), amplitude dB Uniform(-3,3) per frequency/segment. C1 gains amplitude dB Uniform(-1,1), phase Uniform(-30,30)degrees, fixed per record across frequency/segment. No source/gain alignment is available to receiver.
+
+Reference power is the median across16 frozen calibration geometries of unit-source power averaged across3frequencies and8elements; exact value in PREFLIGHT.json. nu=P_ref/10^(SNR/10), shared within a reference20/5dB condition. Each real noise sample has variance N*nu. Therefore E|DFT noise coefficient|^2=(N*N*nu)/N^2=nu; real/imaginary bin variance nu/2 at these non-DC tones. Reference complex-spectrum SNR is not broadband waveform SNR or per-record actual SNR. Actual weak-field SNRs are evaluation-only, no weak-record removal.
+
+Generator alone reads private geometry,H,S,G. It archives all innovations and writes a whitelist public index of ID,path,SHA,C,SNR,fs,N,K. Receiver reads only this and public metadata and waveform. Test inference reads receiver DFT, public index, independent frozen thresholds, and full replica catalogue. It has no private ID lookup. Evaluation opens test truth only after INFERENCE_FREEZE. Calibration alone uses its private nearest joint labels; thresholds are frozen before test generation/inference.
+
+SeedSequence: calibration geometry2026101017; calibration receiver2026101018; test2026101019; control2026101020. Each geometry/replicate spawns independent source/noise/gain streams; C/SNR reuse innovations. The source and noise archive stays private localD. K, pairs and paired conditions are not independent geometries. Three pair features share the same DFT and algebraic cycle; no Gaussian independence model is asserted.

@@ -1,0 +1,6 @@
+{
+  "parent": "f21f430fbe18f13b855042f91163d050c4fd9b78",
+  "new_task_sha256": "ac32c7f9c62c6cc19513b670bf1398e0f73736ca95c19b296fc1e182cd490efb",
+  "new_stage": "HLA_SP1_STATIC_RECEIVER_SPATIAL_RANGE_PILOT",
+  "old_RX1_RX1Z_E2_not_rerun": true
+}

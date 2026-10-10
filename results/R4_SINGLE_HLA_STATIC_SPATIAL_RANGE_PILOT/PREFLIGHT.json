@@ -1,0 +1,163 @@
+{
+  "PASS": true,
+  "checks": [
+    {
+      "control": "unknown_source_P0",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "moment_formula_P0",
+      "error": 3.3306690738754696e-16,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "unknown_source_P1",
+      "error": 2.220446049250313e-16,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "moment_formula_P1",
+      "error": 0.0,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "unknown_source_P2",
+      "error": 3.3306690738754696e-16,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "moment_formula_P2",
+      "error": 3.3306690738754696e-16,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "P2_crossfreq_gain_invariance",
+      "error": 3.3306690738754696e-16,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "P1_amplitude_NONinvariance_expected",
+      "error": 0.0,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "plane_wave_range_depth_null_P0",
+      "error": 3.3306690738754696e-16,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "plane_wave_range_depth_null_P1",
+      "error": 3.3306690738754696e-16,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "plane_wave_range_depth_null_P2",
+      "error": 3.3306690738754696e-16,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "single_element_no_resolution",
+      "error": 2.220446049250313e-16,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "real_waveform_DFT_scale",
+      "error": 3.4684344793871125e-15,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "independent_sine_fit",
+      "error": 2.2498025588697476e-15,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "noise_bin_variance_empirical",
+      "error": 0.0029717625490908173,
+      "limit": 0.08,
+      "PASS": true
+    },
+    {
+      "control": "shared_pair_cycle",
+      "error": 2.917678950533641e-16,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "interpolation_full_vector_n80001",
+      "error": 1.3422471046808206e-09,
+      "limit": 1e-05,
+      "PASS": true
+    },
+    {
+      "control": "theta_mirror_n80001",
+      "error": 0.0,
+      "limit": 1e-12,
+      "PASS": true
+    },
+    {
+      "control": "interpolation_full_vector_n160001",
+      "error": 1.341860026626609e-09,
+      "limit": 1e-05,
+      "PASS": true
+    },
+    {
+      "control": "theta_mirror_n160001",
+      "error": 0.0,
+      "limit": 1e-12,
+      "PASS": true
+    }
+  ],
+  "FIELD": [
+    {
+      "frequency_hz": 201.0,
+      "new_FIELD": true,
+      "shape_relative_error": 0.0006751062908519854,
+      "limit": 0.002,
+      "PASS": true,
+      "actual_ranges_m": "[54993.0, 54995.0, 54997.0, 54999.0, 55001.0, 55003.0, 55005.0, 55007.0]"
+    },
+    {
+      "frequency_hz": 235.0,
+      "new_FIELD": true,
+      "shape_relative_error": 0.0009963063946948512,
+      "limit": 0.002,
+      "PASS": true,
+      "actual_ranges_m": "[54993.0, 54995.0, 54997.0, 54999.0, 55001.0, 55003.0, 55005.0, 55007.0]"
+    },
+    {
+      "frequency_hz": 283.0,
+      "new_FIELD": true,
+      "shape_relative_error": 0.0010567863527252538,
+      "limit": 0.002,
+      "PASS": true,
+      "actual_ranges_m": "[54993.0, 54995.0, 54997.0, 54999.0, 55001.0, 55003.0, 55005.0, 55007.0]"
+    }
+  ],
+  "new_KRAKEN": 6,
+  "new_FIELD": 3,
+  "reference_power": 1.0827824981594692e-08,
+  "nu_by_reference_SNR_dB": {
+    "20": 1.0827824981594692e-10,
+    "5": 3.4240589047509986e-09
+  },
+  "budgets": [
+    162.494072,
+    259547136
+  ],
+  "failure_action": "no test execution if false"
+}

@@ -1,0 +1,138 @@
+{
+  "parent": "f21f430fbe18f13b855042f91163d050c4fd9b78",
+  "time_utc": "2026-10-10T08:51:34.785441+00:00",
+  "task_sha256": "ac32c7f9c62c6cc19513b670bf1398e0f73736ca95c19b296fc1e182cd490efb",
+  "code_sha256": {
+    "hla_sp1_calibrate.py": "4fc992df31c7c800797f95e42aa5ab8bb94f0160e5d33071682c0b2aa7fe66fe",
+    "hla_sp1_core.py": "8c9c295992bbd4c157537e9dbe3543bfdcaaeba003177c63d9fd135f773376bc",
+    "hla_sp1_evaluate.py": "678b66ebd49d5b673dd693bb9172f13183abecee47a5170b8d41d2f00f9ae78a",
+    "hla_sp1_execute.py": "6683a37ab424e977b48be731841a0b201c2b6f538bf84a9bf366fd0f482097ce",
+    "hla_sp1_freeze.py": "46fdf75419c88e485ce16fea9dd40907ab9ad9a473adc2af6c6d817c7dd1b82b",
+    "hla_sp1_generate.py": "a545cc882878903e935dc386073625a4bec3ebf64274e2dc54964e253ce83c73",
+    "hla_sp1_infer.py": "dd93319990c7fcc5b8844d0b49cfbdb5c8717bce2c9c596f48a2be597493b01c",
+    "hla_sp1_preflight.py": "8a6bff7e8a1dac18286b6d29e5693e55c74ed2dfba165b62f9aea9904c0f88db",
+    "hla_sp1_receiver.py": "c0208628fdf0bb1c3389c703f23a0ee528ed3252b22ebff6916e1f1ec9ee4048"
+  },
+  "input_sha256": {
+    "DELEGATED_TASK.md": "ac32c7f9c62c6cc19513b670bf1398e0f73736ca95c19b296fc1e182cd490efb",
+    "CALIBRATION_PANEL.csv": "fb3b375070fba7678455fd977e728967af3d86e10bc306ed0fdac05980281011",
+    "PREFLIGHT.json": "e6d3517739ef854e297077d6c3ef17bae8d7e3d628a150a66e34b6af54917cf7",
+    "PROVIDER_PROVENANCE.json": "29139929a7100af8f844ba02dceea3142fc51332ba9ec65905998e7e640fe7a0",
+    "PRECOMPUTE_CONTRACT.json": "3392b92c20803795da509ad8d4f3fb0781bd0e18a678b2790f05b9cf0f5dc7c5",
+    "INPUT_PROVENANCE.csv": "cfa4d9b05d341412646adcf9c552153a3beb1e228794016dbd9ecf7b0c126dc6",
+    "TEST_PANEL_SOURCE_HASH.json": "67c29dd0b47e302374a28f661efe4ec0e3082f38fd0f33aac1d6065a372c02df",
+    "METHOD_IDENTITY.md": "26e5c4b795e441858ce8f4761916d484697f984d5cb374a99c40b5b96e35dbf5",
+    "OBSERVATION_CONTRACT.md": "c9bd0756fe948e5b63f5def18f2d4352d1ce0a6e2ee290358412282771add440",
+    "STATIC_SCOPE_AND_TRANSFER_GAP.md": "4dc29a399c42a35f2b5ac7dfb881714d0cec89406cad4005fb09d1287551f443",
+    "NEW_TASK_AND_PARENT.json": "20e5e8a93c35377d7626be4e5154f9e08ff3aaf6e891eab326a7f9a6f87de86a"
+  },
+  "reference_power": 1.0827824981594692e-08,
+  "nu": {
+    "20": 1.0827824981594692e-10,
+    "5": 3.4240589047509986e-09
+  },
+  "panel_sizes": {
+    "calibration_records": 1024,
+    "test_records": 512
+  },
+  "methods": [
+    "P0",
+    "P1_PRIMARY",
+    "P2"
+  ],
+  "depths": [
+    150.0,
+    155.0,
+    160.0,
+    165.0,
+    170.0,
+    175.0,
+    180.0,
+    185.0,
+    190.0,
+    195.0,
+    200.0,
+    205.0,
+    210.0,
+    215.0,
+    220.0,
+    225.0,
+    230.0,
+    235.0,
+    240.0,
+    245.0,
+    250.0
+  ],
+  "frequencies": [
+    201.0,
+    235.0,
+    283.0
+  ],
+  "paired_frequencies": [
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "steps_km": [
+    0.1,
+    0.05
+  ],
+  "theta_steps_deg": [
+    0.25,
+    0.125
+  ],
+  "grids_nonnegative_counts": [
+    66591,
+    259161
+  ],
+  "mirrors": "restore +/- theta exactly, not duplicate zero",
+  "modal_meshes": [
+    160001,
+    80001
+  ],
+  "generation_mesh": 160001,
+  "all_returned_modes": true,
+  "threshold": "256 D at nearest(r,abs(theta),true calibration z), nearest rank95%; ties lower numeric label; freeze before test; same tau for80001 numerical control",
+  "tie_rule": "strict score then first ascending candidateID",
+  "signal_rule": "P1 C0 20dB at least5/8 geometries >=15/16 effective and horizontal retention, median nonempty cell envelope<=10km, coarse/fine conclusion not reversed",
+  "empty_rule": "not zero width; rejected and numerical failure errors INF",
+  "numeric_rules": {
+    "interpolation_vector_relative": 1e-05,
+    "direct_score_absolute": 1e-07,
+    "boundary_flip": "report exact and interpolated without altering tau; any flip triggers NUMERICAL_OR_GRID_LIMITED",
+    "major_numeric_change": "modal or grid method signal verdict reversed, or median abs envelope change>1km; report limited",
+    "FIELD_shape_relative": 0.002,
+    "roundoff_B": 1e-10
+  },
+  "chunk_candidates": 4096,
+  "score_storage": "localD float64; all raw strictscores retained",
+  "compute_budget": {
+    "total_wall_s": 14400,
+    "RSS_bytes": 8589934592,
+    "BLAS_threads": 4,
+    "local_bytes": 17179869184,
+    "repo_added_bytes": 268435456,
+    "single_compute_process": true,
+    "KRAKEN_max": 6,
+    "FIELD_max": 3
+  },
+  "stage_order": "A then calibration generation/receiver/threshold freeze; test generation/receiver/full inference/evaluation/cold audit/B/STOP",
+  "new_solver_calls_already_prepared_for_reference_power": {
+    "KRAKEN": 6,
+    "FIELD": 3
+  },
+  "sources": {
+    "Yin_XML_sha256": "e353cc959663db6082f626fb647ab133187d4be4549d676daaf7ae775ce66499",
+    "Park_HTML_sha256": "dcd235ff2848205ca54235850411ee444b1b58c749910b3a04d4f4571b93faf2"
+  },
+  "R4": 0
+}
