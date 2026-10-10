@@ -1,0 +1,390 @@
+{
+  "stage": "R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT",
+  "parent_sha": "132cdd22eba8ce7f5965b342a588c7697c6c772e",
+  "delegated_task_sha256": "0d4a7841d5cbaee946dec6131e5efef6342addc06c145f37d78aa5552edd8ea8",
+  "private_source_frequency_hz": [
+    201.137,
+    235.083,
+    283.211
+  ],
+  "private_drift_hz_per_s": [
+    3.566258865248227e-06,
+    4.16813829787234e-06,
+    5.021471631205674e-06
+  ],
+  "receiver_metadata": {
+    "sample_rate_hz": 4.0,
+    "real_equivalence_sample_rate_hz": 1024.0,
+    "digital_reference_hz": [
+      201.0,
+      235.0,
+      283.0
+    ],
+    "search_band_halfwidth_hz": 0.6,
+    "noise_band_halfwidth_hz": 0.75,
+    "offsets_m": [
+      -7.0,
+      -5.0,
+      -3.0,
+      -1.0,
+      1.0,
+      3.0,
+      5.0,
+      7.0
+    ],
+    "receiver_depth_m": 200.0,
+    "c_ref_mps": 1509.6886,
+    "array_orientation": "fixed global +x inherited explicitly; platform heading turns independently",
+    "navigation": "exact frozen original main-platform trajectory",
+    "beam": "equal fixed global +x endfire at public receiver LO; no truth bearing"
+  },
+  "seed": 2026101017,
+  "truth_file": "results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/OFFGRID_TRUTH_EVALUATION_ONLY.csv",
+  "modal_depths_m": [
+    180.0,
+    190.0,
+    195.0,
+    198.0,
+    199.0,
+    199.5,
+    200.0,
+    200.5,
+    201.0,
+    202.0,
+    205.0,
+    210.0,
+    220.0
+  ],
+  "propagation_plan": [
+    {
+      "line": 0,
+      "mesh": 80001,
+      "offset_hz": -0.012,
+      "frequency_hz": 201.125,
+      "stem": "rx1_l0_n80001_d-0p012"
+    },
+    {
+      "line": 0,
+      "mesh": 80001,
+      "offset_hz": -0.006,
+      "frequency_hz": 201.131,
+      "stem": "rx1_l0_n80001_d-0p006"
+    },
+    {
+      "line": 0,
+      "mesh": 80001,
+      "offset_hz": 0.0,
+      "frequency_hz": 201.137,
+      "stem": "rx1_l0_n80001_d+0p000"
+    },
+    {
+      "line": 0,
+      "mesh": 80001,
+      "offset_hz": 0.006,
+      "frequency_hz": 201.143,
+      "stem": "rx1_l0_n80001_d+0p006"
+    },
+    {
+      "line": 0,
+      "mesh": 80001,
+      "offset_hz": 0.012,
+      "frequency_hz": 201.149,
+      "stem": "rx1_l0_n80001_d+0p012"
+    },
+    {
+      "line": 0,
+      "mesh": 160001,
+      "offset_hz": -0.012,
+      "frequency_hz": 201.125,
+      "stem": "rx1_l0_n160001_d-0p012"
+    },
+    {
+      "line": 0,
+      "mesh": 160001,
+      "offset_hz": -0.006,
+      "frequency_hz": 201.131,
+      "stem": "rx1_l0_n160001_d-0p006"
+    },
+    {
+      "line": 0,
+      "mesh": 160001,
+      "offset_hz": 0.0,
+      "frequency_hz": 201.137,
+      "stem": "rx1_l0_n160001_d+0p000"
+    },
+    {
+      "line": 0,
+      "mesh": 160001,
+      "offset_hz": 0.006,
+      "frequency_hz": 201.143,
+      "stem": "rx1_l0_n160001_d+0p006"
+    },
+    {
+      "line": 0,
+      "mesh": 160001,
+      "offset_hz": 0.012,
+      "frequency_hz": 201.149,
+      "stem": "rx1_l0_n160001_d+0p012"
+    },
+    {
+      "line": 1,
+      "mesh": 80001,
+      "offset_hz": -0.012,
+      "frequency_hz": 235.071,
+      "stem": "rx1_l1_n80001_d-0p012"
+    },
+    {
+      "line": 1,
+      "mesh": 80001,
+      "offset_hz": -0.006,
+      "frequency_hz": 235.077,
+      "stem": "rx1_l1_n80001_d-0p006"
+    },
+    {
+      "line": 1,
+      "mesh": 80001,
+      "offset_hz": 0.0,
+      "frequency_hz": 235.083,
+      "stem": "rx1_l1_n80001_d+0p000"
+    },
+    {
+      "line": 1,
+      "mesh": 80001,
+      "offset_hz": 0.006,
+      "frequency_hz": 235.089,
+      "stem": "rx1_l1_n80001_d+0p006"
+    },
+    {
+      "line": 1,
+      "mesh": 80001,
+      "offset_hz": 0.012,
+      "frequency_hz": 235.095,
+      "stem": "rx1_l1_n80001_d+0p012"
+    },
+    {
+      "line": 1,
+      "mesh": 160001,
+      "offset_hz": -0.012,
+      "frequency_hz": 235.071,
+      "stem": "rx1_l1_n160001_d-0p012"
+    },
+    {
+      "line": 1,
+      "mesh": 160001,
+      "offset_hz": -0.006,
+      "frequency_hz": 235.077,
+      "stem": "rx1_l1_n160001_d-0p006"
+    },
+    {
+      "line": 1,
+      "mesh": 160001,
+      "offset_hz": 0.0,
+      "frequency_hz": 235.083,
+      "stem": "rx1_l1_n160001_d+0p000"
+    },
+    {
+      "line": 1,
+      "mesh": 160001,
+      "offset_hz": 0.006,
+      "frequency_hz": 235.089,
+      "stem": "rx1_l1_n160001_d+0p006"
+    },
+    {
+      "line": 1,
+      "mesh": 160001,
+      "offset_hz": 0.012,
+      "frequency_hz": 235.095,
+      "stem": "rx1_l1_n160001_d+0p012"
+    },
+    {
+      "line": 2,
+      "mesh": 80001,
+      "offset_hz": -0.012,
+      "frequency_hz": 283.199,
+      "stem": "rx1_l2_n80001_d-0p012"
+    },
+    {
+      "line": 2,
+      "mesh": 80001,
+      "offset_hz": -0.006,
+      "frequency_hz": 283.20500000000004,
+      "stem": "rx1_l2_n80001_d-0p006"
+    },
+    {
+      "line": 2,
+      "mesh": 80001,
+      "offset_hz": 0.0,
+      "frequency_hz": 283.211,
+      "stem": "rx1_l2_n80001_d+0p000"
+    },
+    {
+      "line": 2,
+      "mesh": 80001,
+      "offset_hz": 0.006,
+      "frequency_hz": 283.217,
+      "stem": "rx1_l2_n80001_d+0p006"
+    },
+    {
+      "line": 2,
+      "mesh": 80001,
+      "offset_hz": 0.012,
+      "frequency_hz": 283.223,
+      "stem": "rx1_l2_n80001_d+0p012"
+    },
+    {
+      "line": 2,
+      "mesh": 160001,
+      "offset_hz": -0.012,
+      "frequency_hz": 283.199,
+      "stem": "rx1_l2_n160001_d-0p012"
+    },
+    {
+      "line": 2,
+      "mesh": 160001,
+      "offset_hz": -0.006,
+      "frequency_hz": 283.20500000000004,
+      "stem": "rx1_l2_n160001_d-0p006"
+    },
+    {
+      "line": 2,
+      "mesh": 160001,
+      "offset_hz": 0.0,
+      "frequency_hz": 283.211,
+      "stem": "rx1_l2_n160001_d+0p000"
+    },
+    {
+      "line": 2,
+      "mesh": 160001,
+      "offset_hz": 0.006,
+      "frequency_hz": 283.217,
+      "stem": "rx1_l2_n160001_d+0p006"
+    },
+    {
+      "line": 2,
+      "mesh": 160001,
+      "offset_hz": 0.012,
+      "frequency_hz": 283.223,
+      "stem": "rx1_l2_n160001_d+0p012"
+    }
+  ],
+  "kraken_executable": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\tools\\acoustics_toolbox\\atWin10\\at\\bin\\kraken.exe",
+  "source_time": "retarded mode u, CV extension before receive zero",
+  "panel": {
+    "geometries": 8,
+    "source_families": [
+      "STABLE",
+      "DRIFT"
+    ],
+    "SNR_dB": [
+      20,
+      5
+    ],
+    "repetitions": 8,
+    "records": 256,
+    "main": "STABLE/20dB"
+  },
+  "input_and_code_sha256": {
+    "hla_rx1_common.py": "408e1ffbb8abaae2566ffa03d17bf70a10fd3b3f82eb3fa8cc667a0204462c9c",
+    "hla_rx1_controls.py": "6940511c5102500269fe71064cc1ab439db2a4ef68be3e337e80bd4f49cad336",
+    "hla_rx1_evaluate.py": "5c3a4353df7f6e5a6dbd0895e1cd16c5b54cd913d52d29a94039ec1ca0175f4c",
+    "hla_rx1_execute.py": "2dd51799cfdc0a1dc5cf0ff7b221fcdda401ba30cdffe4305d8ad979f7bff7a4",
+    "hla_rx1_extract.py": "780703c0051923dc6e191dac25faa9f91e07742837d5cd5773859fee7b60a639",
+    "hla_rx1_generate.py": "fb27d8d07ca85e50b7ee764750681ce902e3fa8b8477a344657efdd8a48d0626",
+    "hla_rx1_independent.py": "f38c428ca46a389b8d13bb66ffad01ff42db8a2bcef0135da600703049039a6b",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l0_n160001_d+0p000.env": "88a1526d0aee716656ef4dcdca93ab5d1e6a6f7d26da78f9774bcb674167d418",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l0_n160001_d+0p006.env": "5a9800bc4fb6b688526c16aa64e00d5ea21075e87d61d3390735ee27c887a815",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l0_n160001_d+0p012.env": "b0547d2a7acb5424638a712710fc0f1578ef7d682b9dcbd580614a56b3f67550",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l0_n160001_d-0p006.env": "8962b6a0fced788bf3c802c991e1634df32e49f2d36c963956a13ce998b77c61",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l0_n160001_d-0p012.env": "3c1dbb544ab9a931aaf59fc5e9705d13e71e33d01efb665fc80c9aca0accc979",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l0_n80001_d+0p000.env": "a4af7b00fdf13aff325f751706ed50428af771e603ba7f2cdd2e92a94e64dc22",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l0_n80001_d+0p006.env": "63951312d85ee86d9592e2533d34bc5fb231761f101ed693da6fe2e819fce394",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l0_n80001_d+0p012.env": "f30602576be42b90031369502705e9869313338493c0719906ce1519eb45d4ff",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l0_n80001_d-0p006.env": "52d3c7bae72ac589d19255537a1104b05146acf23dbcc5ba43d61b1976cc9e75",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l0_n80001_d-0p012.env": "58796495f65d0ddcab3d813af0c9ae268c7b134d0fbf4c4ef28b2f5a750719ec",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l1_n160001_d+0p000.env": "9480b95ef07a7edb0f33eee60713bc434ab8f3e3c7bdec86994c54a548910e8d",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l1_n160001_d+0p006.env": "74cac9014619fcc649a726a6b73e201775aa259674eb4f6c23edfd2bf823b264",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l1_n160001_d+0p012.env": "dbeea90d0e1ce965763c64c837b5f4c9595ad298b5d13e31ef18db97fee89e7b",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l1_n160001_d-0p006.env": "692aa260c6956f124de5326847f4cff4e35e32b5968b5e09495d2cb519a5ee55",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l1_n160001_d-0p012.env": "dfc8b62cc5dcf93830c607cd90ad8ee8062645da363d0c5ad7fa123c3995d0b0",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l1_n80001_d+0p000.env": "ca095d3c5a836593b4c5b8d9b26479b35f2bbaaa3c760aab036a079a766acb68",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l1_n80001_d+0p006.env": "3546f1b4aa2f0c985ef9ee8de581e41fdcdc58995051eac31c439bef7cbff484",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l1_n80001_d+0p012.env": "e6bb3cd486509282c2fe0bb225e2a9a62615891b08f80610626294447094f33a",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l1_n80001_d-0p006.env": "82fccd510b0e132949d0f8ab4565166988aa07e0b0e13aeb2a96a418357a84ad",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l1_n80001_d-0p012.env": "273732e00ff3884c29e935e66c8215966bde0e0f037f5e965ef82ce668290f60",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l2_n160001_d+0p000.env": "01dd239d12f28702ac4e2fcc3524e6a8d3ff00b330ee0ec95859058c66db5288",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l2_n160001_d+0p006.env": "3959847aa09791af4f23c4e133e56b8e7f75ce9c7f11112fd286a69ff83a04f0",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l2_n160001_d+0p012.env": "79f683a766c7bff8152e6f1a9a6174a3688efab59094c3d86e864a3afd5412e2",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l2_n160001_d-0p006.env": "89855a6e4d5eb58f0e8816b6505bc76f1e6d9e6cb4c80d072d05d930f977ba0f",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l2_n160001_d-0p012.env": "79a529b734cb11389ac7e234aa6870669fb51a9237c96eff417187a482506009",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l2_n80001_d+0p000.env": "50c397cc851ec1fcca3add635a8ce3a857537c1f5e79288fd64f8aa6bdba6dd6",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l2_n80001_d+0p006.env": "a4cd8786fb3d0d3ebfd06db775a132ec1be16f67917d252837a3d8e7ae762df2",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l2_n80001_d+0p012.env": "5c9f6a483ac337d77e6b1f360a3d4a6111037eafa45caf673621506d77a33969",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l2_n80001_d-0p006.env": "decad6dd1cf2eaca3355676d6db4a406e2ad37b9f6345c44137b94edd2434ccc",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/environment/rx1_l2_n80001_d-0p012.env": "a256a82ca60dd477b8e5298cee0efc54f3fd9966d09d8da1fa21ee4df6676a85",
+    "results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/OFFGRID_TRUTH_EVALUATION_ONLY.csv": "1655fc525983c1a5d57be57a8e14325a3618c214d44fd6ab11f0c096e7da8d4e",
+    "results/R3_C2_Yang_SA_depth/R3_C2_1/_kraken_zgrid/zgrid_f201.env": "f5f383832b6429cfab766d39beb9fe479699f117b97dfacf63c035913e5650a9",
+    "r4_e2_g0.py": "0e716a96fa041a325305b4849b2650bd45cb95edf043b1434445c9199053da3c",
+    "r4_h3_g0.py": "f9a123ac76547f1928a1e74b55b96d7dcb456a1c8e13b0fe8e76b031c8a605ee",
+    "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/GPT_SYNC.md": "912483c044b53b46dfbdc7c1b296e3ffd95a58af6f8dc42c1d20e565cb2806a4",
+    "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/FOUR_PARAMETER_RESULTS.md": "1bfa84309e62ac6372074e117024e567fbf72b9e40f6b1af321386f8d386d122",
+    "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/MEASUREMENT_TO_SIGNAL_GAP.md": "e118e942dfcb3aa7f859a408fb93ba233921c4864adc0bdf4ad2970f6f79e4bc",
+    "results/R4_SINGLE_HLA_RADIAL_INCREMENT_PRECISION_PILOT/DESIGN_FREEZE.json": "0dc6d724dfd04b3b93d5b6d9c8f9e734e8104cbe6812e5f597d0dc6085ad658e",
+    "results/R4_SINGLE_HLA_RADIAL_RECEIVER_EXTRACTION_PILOT/METHOD_INPUT_LOCK.md": "8f989b388f78364f252bb2ceb4240dd3951fae1a3efe6a69fd4920426ec19f6e"
+  },
+  "budget": {
+    "single_process": true,
+    "BLAS_threads": 4,
+    "RAM_bytes": 8589934592,
+    "total_execution_and_cold_s": 14400,
+    "main_s": 12600,
+    "cold_reserved_s": 1800,
+    "new_kraken_max": 36,
+    "new_kraken_registered": 30,
+    "per_call_timeout_s": 90,
+    "repo_bytes": 536870912,
+    "local_data_bytes": 34359738368
+  },
+  "stft": {
+    "Hann_s": 8,
+    "hop_s": 1,
+    "global_phase_origin_s": 0,
+    "line_fft_interpolation": 16384
+  },
+  "correlation": {
+    "main_max_lag_s": 200,
+    "control_max_lag_s": 100,
+    "normalization": "biased finite-record ACF / zero-lag",
+    "spectrum": "DCT-I n8193; zeros numerical interpolation only",
+    "peak_keep_relative_power": 0.25,
+    "minimum_detection_ratio": 6,
+    "dominant_selection": "power then low frequency; include DC",
+    "fusion": "three-line equal median",
+    "sign": "both +/- retained no forced choice"
+  },
+  "pre_registered_limits": {
+    "singlepath_mapping_mps": 0.02,
+    "reference_or_sampling_mapping_mps": 0.005,
+    "real_baseband_relative": 1e-08,
+    "mode_overlap": 0.95,
+    "group_stencil_relative": 0.02,
+    "complete_complex_field_grid_descriptive": 0.01,
+    "cold_ACF": 1e-10,
+    "cold_spectral_relative": 1e-09,
+    "drift_narrowband_field_relative": 0.01
+  },
+  "report_errors": [
+    "qbar",
+    "midpoint",
+    "mean_abs_q",
+    "uncertified nonlinear correlation weight"
+  ],
+  "historical_state_unchanged": true,
+  "R4_percent": 0,
+  "STOP": "once execution and independent cold review; B push verify; no H2 feedback or new methods",
+  "versions": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "psutil": "7.2.2"
+  }
+}

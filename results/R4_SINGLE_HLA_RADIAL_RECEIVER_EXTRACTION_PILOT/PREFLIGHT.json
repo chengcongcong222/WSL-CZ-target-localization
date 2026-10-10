@@ -1,0 +1,55 @@
+{
+  "PASS": true,
+  "checks": [
+    {
+      "check": "parse hla_rx1_common.py",
+      "PASS": true
+    },
+    {
+      "check": "parse hla_rx1_controls.py",
+      "PASS": true
+    },
+    {
+      "check": "parse hla_rx1_evaluate.py",
+      "PASS": true
+    },
+    {
+      "check": "parse hla_rx1_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "parse hla_rx1_extract.py",
+      "PASS": true
+    },
+    {
+      "check": "parse hla_rx1_generate.py",
+      "PASS": true
+    },
+    {
+      "check": "parse hla_rx1_independent.py",
+      "PASS": true
+    },
+    {
+      "check": "8 original HLA channels 14m resource consistency",
+      "PASS": true
+    },
+    {
+      "check": "30 exact frozen noninteger frequency environment files; no solver yet",
+      "PASS": true
+    },
+    {
+      "check": "source phase delay plus compensation algebra: stable carrier cancels delay once",
+      "PASS": true
+    },
+    {
+      "check": "receiver extractor has no private generator/history import",
+      "PASS": true
+    },
+    {
+      "check": "D-only generated files and runtime",
+      "PASS": true
+    }
+  ],
+  "actual_signal_controls": "POST_COMMIT_A_ONLY",
+  "solver_calls": 0
+}
