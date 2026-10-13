@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-13T01:58:24.708109+00:00",
+  "public_test": {
+    "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\public_inputs\\test.npz",
+    "bytes": 8139746,
+    "sha256": "2fe09a2940ae20b18d3b1710daa62ed4dbefe9ce05918ced7626c3caa6e94859"
+  },
+  "private_test": {
+    "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\evaluation_only\\test_private.npz",
+    "bytes": 10743575,
+    "sha256": "fa37284ec7e9bc3ff14a73dfcb4556c75680304455670368c4d821646397a8b6"
+  },
+  "threshold_freeze_sha256": "310331715971cda9fff3301ff71fdadddd60e3fcd190d84ec8ae1d9d679ee694",
+  "plan": {
+    "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\PAIRED_RECORD_INDEX.csv",
+    "bytes": 24757,
+    "sha256": "af5c257a608eeaf2d09576f4eb147ab18550a0f8fe49d5c70beef6fd061eb1fc"
+  },
+  "records": 1536,
+  "test_error_seed": 2026101203
+}

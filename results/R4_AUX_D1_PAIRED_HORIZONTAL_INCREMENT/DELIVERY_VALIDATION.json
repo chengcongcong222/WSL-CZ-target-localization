@@ -1,0 +1,302 @@
+{
+  "PASS": true,
+  "checks": [
+    {
+      "check": "393216_once_only",
+      "PASS": true
+    },
+    {
+      "check": "main_science_caps",
+      "PASS": true
+    },
+    {
+      "check": "science_boundaries",
+      "PASS": true
+    },
+    {
+      "check": "cold_audit_and_initializer",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\public_inputs\\calibration.npz",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\public_inputs\\test.npz",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\evaluation_only\\calibration_private.npz",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\evaluation_only\\test_private.npz",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\public_inputs\\calibration.npz",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\evaluation_only\\calibration_private.npz",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\CALIBRATION_SCORES.csv",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\CALIBRATION_THRESHOLDS.json",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\ALL_TERMINALS.npy",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\STARTS_USED.npy",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\CONFIGURATION_OUTPUTS.jsonl",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\INITIALIZER_AND_SEARCH_DIAGNOSTICS.csv",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\TERMINAL_SCHEMA.json",
+      "PASS": true
+    },
+    {
+      "check": "original_seal:results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "historical_source_raw:DRAFT",
+      "PASS": true
+    },
+    {
+      "check": "historical_source_raw:ERROR_MODEL",
+      "PASS": true
+    },
+    {
+      "check": "historical_source_raw:OLD_ESTIMATOR",
+      "PASS": true
+    },
+    {
+      "check": "historical_source_raw:TRUTH_PANEL",
+      "PASS": true
+    },
+    {
+      "check": "historical_source_raw:CLOSEOUT",
+      "PASS": true
+    },
+    {
+      "check": "historical_source_raw:ARCHIVE",
+      "PASS": true
+    },
+    {
+      "check": "historical_source_raw:THREE_TIERS",
+      "PASS": true
+    },
+    {
+      "check": "historical_source_raw:OLD_RESULTS",
+      "PASS": true
+    },
+    {
+      "check": "ledger_raw_prefix_identical",
+      "PASS": true
+    },
+    {
+      "check": "ledger_exactly_one_append",
+      "PASS": true
+    },
+    {
+      "check": "required_outputs_exist",
+      "PASS": true
+    },
+    {
+      "check": "only3_primary_figures",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:FOUR_PARAMETER_PAIRED_RESULTS.md",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:PAIRED_RESULTS_BY_CASE.csv",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:PAIRED_RESULTS_BY_SIDE.csv",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:PAIRED_OUTCOME_COUNTS.csv",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:CALIBRATION_SCORES.csv",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:CALIBRATION_THRESHOLDS.json",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:THRESHOLD_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:PUBLIC_OBSERVATION_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:PRIVATE_GENERATOR_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:ESTIMATES.csv",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:FINITE_TERMINAL_ENVELOPES.csv",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:SHARED_START_SUBSET_DIAGNOSTIC.csv",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:INITIALIZER_AND_SEARCH_DIAGNOSTICS.csv",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:TRUTH_COMPATIBILITY_EVAL_ONLY.csv",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:VALIDATION.json",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:REPRODUCTION.md",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:SOURCE_AND_SCOPE.md",
+      "PASS": true
+    },
+    {
+      "check": "readable_UTF8:DRAFT_TO_EXECUTION_CHANGES.md",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U0runconditional_mean_geometry_median",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U0runconditional_worst_geometry_P95",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U0thetaunconditional_mean_geometry_median",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U0thetaunconditional_worst_geometry_P95",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U0vunconditional_mean_geometry_median",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U0vunconditional_worst_geometry_P95",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U0psiunconditional_mean_geometry_median",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U0psiunconditional_worst_geometry_P95",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U5runconditional_mean_geometry_median",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U5runconditional_worst_geometry_P95",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U5thetaunconditional_mean_geometry_median",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U5thetaunconditional_worst_geometry_P95",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U5vunconditional_mean_geometry_median",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U5vunconditional_worst_geometry_P95",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U5psiunconditional_mean_geometry_median",
+      "PASS": true
+    },
+    {
+      "check": "sync_number:U5psiunconditional_worst_geometry_P95",
+      "PASS": true
+    },
+    {
+      "check": "sync_1200_1800_chinese_chars",
+      "PASS": true
+    },
+    {
+      "check": "output_only_recovery_disclosed",
+      "PASS": true
+    },
+    {
+      "check": "supplement_disclosure",
+      "PASS": true
+    },
+    {
+      "check": "no_other_scientific_file_changes",
+      "PASS": true
+    },
+    {
+      "check": "data_budget_under2GiB",
+      "PASS": true
+    },
+    {
+      "check": "repo_new_bytes_under512MiB",
+      "PASS": true
+    }
+  ],
+  "new_scientific_tests": 0,
+  "science_budget_elapsed_s": 3323.6510944000065,
+  "GPT_SYNC_chinese_chars": 1481,
+  "repository_new_bytes": 105400469,
+  "legacy_untracked_files_not_included": true
+}

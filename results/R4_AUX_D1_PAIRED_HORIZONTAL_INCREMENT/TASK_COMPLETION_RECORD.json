@@ -1,0 +1,12 @@
+{
+  "task_id": "AUX_D1_PAIRED_BEARING_RESOURCE_INCREMENT_V1",
+  "task_SHA256": "d3079beff433bfa07d84a06769b45c878e18d61ad991f5b6cb1a4728025d42f5",
+  "parent_SHA": "9060ca4ccd82f572ef099b185c3d742674752099",
+  "design_SHA": "01c96bece060675103793722b7f8eb813c3fff1a",
+  "result_SHA": "CONTAINING_COMMIT",
+  "status": "COMPLETE_CONDITIONAL_EXPERIMENT_AND_COLD_REVIEW",
+  "scientific_runs_once_only": true,
+  "output_recovery_recorded": true,
+  "research_lead_audit": "PENDING",
+  "STOP": true
+}

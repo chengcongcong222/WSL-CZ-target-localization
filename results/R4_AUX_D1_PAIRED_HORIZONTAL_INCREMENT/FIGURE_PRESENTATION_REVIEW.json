@@ -1,0 +1,7 @@
+{
+  "scope": "Saved-table only; no source values or science changed",
+  "fix": "Rate axis 0..1;discrete cluster bars;original continuous-bin histogram retained",
+  "original_archive": "figures/original_reporting",
+  "main_figure_count": 3,
+  "visual_inspection_completed": true
+}

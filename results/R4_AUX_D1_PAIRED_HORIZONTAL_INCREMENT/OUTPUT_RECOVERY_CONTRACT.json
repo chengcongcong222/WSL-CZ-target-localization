@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-13T02:44:38.703012+00:00",
+  "recovery_code": {
+    "path": "aux_d1_evaluate_output_recovery.py",
+    "bytes": 13420,
+    "sha256": "d8ffb0f84d6b17bddde11ea9ea0d39c1cf08393182e27a1cf9b4770e31b974ea"
+  },
+  "input_inference_seal_sha256": "39a3dc95c11a7ed88f5b8a718d27ad051e3dc091e2ff11b622721bca1e7a5bd4",
+  "old_frozen_code_untouched": true,
+  "modified_definition": "None;same large-error-count aggregation with correct variable lifetime",
+  "all_original_selected_points_locked": true,
+  "no_optimizer_calls": true
+}

@@ -1,0 +1,10 @@
+{
+  "scientific_decision_sha256": "4fa2629144bff5de6c51ac30dbbf6f28ddec150cf22cb7b6c0c63280e9311f20",
+  "original_scientific_decision_bytes_retained": true,
+  "independent_research_lead_audit": "PENDING",
+  "local_cold_audit_PASS": true,
+  "initializer_cold_supplement_PASS": true,
+  "output_layer_exception_recovered": true,
+  "scientific_estimations_repeated": false,
+  "frozen_input_and_selected_points_unchanged": true
+}

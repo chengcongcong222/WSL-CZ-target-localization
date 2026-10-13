@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-13T01:58:23.072005+00:00",
+  "thresholds": {
+    "U0": 2.0005291355216444,
+    "U5": 1.7616384565508147
+  },
+  "bindings": [
+    {
+      "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\public_inputs\\calibration.npz",
+      "bytes": 2718123,
+      "sha256": "3b6245465f4e7635eea937880d03d549286197550d3e87435e9e78f0e6918f7c"
+    },
+    {
+      "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\evaluation_only\\calibration_private.npz",
+      "bytes": 3602027,
+      "sha256": "7e44a018300fb066b1e331aea80a05c1a5fa57d525d7043185ff9d9ef05341b1"
+    },
+    {
+      "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\CALIBRATION_SCORES.csv",
+      "bytes": 31591,
+      "sha256": "73fbf5e52841cde0c1ae4218430cb4d267673686ad04fc060a46ad42bf371fd9"
+    },
+    {
+      "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\CALIBRATION_THRESHOLDS.json",
+      "bytes": 11459,
+      "sha256": "1237b577a9768e2996ef78cbc1461c6a004e074b479b08df46cf7c67217b77b9"
+    }
+  ],
+  "test_generation_started": false
+}

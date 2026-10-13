@@ -10,7 +10,39 @@
       "elapsed_s": 0.046608899952843785,
       "control_fits": 0,
       "gradient_checks": 0
+    },
+    "calibration": {
+      "elapsed_s": 0.4239845001138747,
+      "optimizer_runs": 0,
+      "records": 512
+    },
+    "test": {
+      "elapsed_s": 1.1509887999854982,
+      "optimizer_runs": 0,
+      "records": 1536
+    },
+    "main_optimization": {
+      "elapsed_s": 2578.2534952000715,
+      "complete_configurations": 3072,
+      "terminals": 393216,
+      "nfev": 8156032
+    },
+    "failed_evaluation_upper_bound": {
+      "elapsed_s": 158.546458,
+      "note": "Conservative bound from original start to failure recognition; includes idle after exception. Optimizer calls0."
+    },
+    "evaluation": {
+      "elapsed_s": 86.95992209995165,
+      "optimizer_runs": 0
+    },
+    "cold_audit": {
+      "elapsed_s": 497.4480727999471,
+      "optimizer_calls": 0
+    },
+    "initializer_and_cost_cold_supplement": {
+      "elapsed_s": 0.7753812000155449,
+      "optimizer_calls": 0
     }
   },
-  "total_scientific_elapsed_s": 0.0927917999215424
+  "total_scientific_elapsed_s": 3323.6510944000065
 }

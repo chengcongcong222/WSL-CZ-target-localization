@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-13T02:41:23.554304+00:00",
+  "complete_configurations": 3072,
+  "complete_pairs": 1536,
+  "terminals": 393216,
+  "expected_terminals": 393216,
+  "status": "COMPLETE",
+  "stop_reason": "",
+  "unexecuted_configurations": [],
+  "bindings": [
+    {
+      "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\ALL_TERMINALS.npy",
+      "bytes": 50331776,
+      "sha256": "35af3ea8f1b46977c2fb29c65493f68e4234aa070b40bad9a6e74d699617988f"
+    },
+    {
+      "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\STARTS_USED.npy",
+      "bytes": 12583040,
+      "sha256": "c3e5c2c6fc75004255bb4ae7c2692ab0c0a1e881a5b3f3f7f6a1456ecf3406a7"
+    },
+    {
+      "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\CONFIGURATION_OUTPUTS.jsonl",
+      "bytes": 6265378,
+      "sha256": "3c6019eb9fb8a167d187f8bc1ec1ad6f27dbeaf3fb95762f70c3f0fedf827f02"
+    },
+    {
+      "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\INITIALIZER_AND_SEARCH_DIAGNOSTICS.csv",
+      "bytes": 1748450,
+      "sha256": "61c23fee2f779a363969ea56a4a983955eb419f2749ccb1f35c814acb14d1783"
+    },
+    {
+      "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\TERMINAL_SCHEMA.json",
+      "bytes": 520,
+      "sha256": "c5c95a048695a8d79c48c48397297323179b3bac12869cae2beb36f328f96e5b"
+    }
+  ],
+  "main_elapsed_s": 2578.2534952000715,
+  "peak_RSS_bytes": 129863680,
+  "actual_nfev": 8156032,
+  "new_propagation": 0,
+  "truth_read": false
+}

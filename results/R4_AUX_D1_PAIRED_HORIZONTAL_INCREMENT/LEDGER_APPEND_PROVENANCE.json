@@ -1,0 +1,8 @@
+{
+  "path": "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+  "old_raw_bytes": 26349,
+  "old_raw_sha256": "cdf9bbae1f1ca8fd7f0c7bf7131c6666c355d87e710dfbf5dda83c2386ff0be8",
+  "appended_rows": 1,
+  "old_rows_unchanged": true,
+  "credited_weight_percent": 0
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-13T02:44:38.700990+00:00",
+  "phase": "Saved-result evaluation aggregation",
+  "original_frozen_file": {
+    "path": "aux_d1_evaluate.py",
+    "bytes": 13356,
+    "sha256": "0916f050bf7ac3baa49d06246008a5f064995a4759d6ae5877ad00cf11c11bba"
+  },
+  "exception": "NameError: free variable 'summary' referenced before assignment, line87 tradeoff report aggregation",
+  "original_main_status": "COMPLETE",
+  "original_terminals": 393216,
+  "scientific_estimator_rerun": false,
+  "calibration_or_observation_regeneration": false,
+  "point_selection_changes": false,
+  "recovery": "Use same precomputed primary case table to aggregate per-parameter large-error counts; no change to thresholds/signals/inference"
+}

@@ -1,0 +1,30 @@
+{
+  "file": "ALL_TERMINALS.npy",
+  "dtype": "float64",
+  "shape": [
+    3072,
+    128,
+    16
+  ],
+  "fields": [
+    "r_km",
+    "theta_deg",
+    "v_mps",
+    "psi_deg",
+    "Q",
+    "solver_cost",
+    "success",
+    "status",
+    "nfev",
+    "njev",
+    "fun_calls",
+    "jac_calls",
+    "geometry_calls",
+    "optimality",
+    "boundary",
+    "elapsed_s"
+  ],
+  "unexecuted": "allNaN,never treated as zero or failure",
+  "score_order": "epochmajor,nodewithin epoch;np.sumfloat64stableterms",
+  "start_id_axis": true
+}

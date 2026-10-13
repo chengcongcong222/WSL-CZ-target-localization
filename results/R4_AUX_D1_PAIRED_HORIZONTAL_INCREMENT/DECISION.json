@@ -1,0 +1,594 @@
+{
+  "stage": "AUX-D1",
+  "task_SHA256": "d3079beff433bfa07d84a06769b45c878e18d61ad991f5b6cb1a4728025d42f5",
+  "parent_SHA": "9060ca4ccd82f572ef099b185c3d742674752099",
+  "design_SHA": "01c96bece060675103793722b7f8eb813c3fff1a",
+  "execution_SHA": "CONTAINING_COMMIT",
+  "classifications": [
+    "AUX_D1_PAIRED_HORIZONTAL_GAIN_SUPPORTED_CONDITIONALLY",
+    "AUX_D1_POSITION_OR_HEADING_GAIN_WITH_SPEED_TAIL_LIMIT"
+  ],
+  "primary": {
+    "primary_classification": "AUX_D1_PAIRED_HORIZONTAL_GAIN_SUPPORTED_CONDITIONALLY",
+    "qualifying_geometry_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "signal_geometries_by_parameter": {
+      "r": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "v": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "psi": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ]
+    },
+    "by_geometry": [
+      {
+        "geometry_index": 0,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.9763877772270988,
+          "v": 0.8667337875532908,
+          "psi": 0.9375502536843708
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 1,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.9726831964500926,
+          "v": 0.7286834421550397,
+          "psi": 0.8848964778521157
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 2,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.970017990929974,
+          "v": 0.856809828572465,
+          "psi": 0.9442123880784483
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 3,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.965188088747287,
+          "v": 0.891178389600477,
+          "psi": 0.8280564886414162
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 4,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.9604465871329131,
+          "v": 0.8155810287714768,
+          "psi": 0.7495346769000899
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 5,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.9509272221305917,
+          "v": 0.847921012445379,
+          "psi": 0.8000415027736214
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 6,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.938296378121565,
+          "v": 0.7381105687115754,
+          "psi": 0.679849125502752
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 7,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.9268777155277145,
+          "v": 0.8623125485906489,
+          "psi": 0.8331293193908728
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 8,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.9061706596261706,
+          "v": 0.8873480583848693,
+          "psi": 0.7361372220725946
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 9,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.8641706722991842,
+          "v": 0.7905324842409118,
+          "psi": 0.7678612985659412
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 10,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": false
+        },
+        "improvements": {
+          "r": 0.7897471305036147,
+          "v": 0.8901641675286092,
+          "psi": 0.2753360963547845
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 11,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.42330389265638857,
+          "v": 0.7727242089536306,
+          "psi": 0.5034901121046458
+        },
+        "output_condition": true
+      }
+    ]
+  },
+  "shared_start_subset": {
+    "primary_classification": "AUX_D1_PAIRED_HORIZONTAL_GAIN_SUPPORTED_CONDITIONALLY",
+    "qualifying_geometry_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "signal_geometries_by_parameter": {
+      "r": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "v": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "psi": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ]
+    },
+    "by_geometry": [
+      {
+        "geometry_index": 0,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.9763877772270988,
+          "v": 0.8667337875532908,
+          "psi": 0.9375502536843708
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 1,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.9726831964500926,
+          "v": 0.7286834421550397,
+          "psi": 0.8848964778521157
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 2,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.970017990929974,
+          "v": 0.856809828572465,
+          "psi": 0.9442123880784483
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 3,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.965188088747287,
+          "v": 0.891178389600477,
+          "psi": 0.8280564886414162
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 4,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.9604465871329131,
+          "v": 0.8155810287714768,
+          "psi": 0.7495346769000899
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 5,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.9509272221305917,
+          "v": 0.847921012445379,
+          "psi": 0.8000415027736214
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 6,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.938296378121565,
+          "v": 0.7381105687115754,
+          "psi": 0.679849125502752
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 7,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.9268777155277145,
+          "v": 0.8623125485906482,
+          "psi": 0.8331293193908728
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 8,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.9061706596261706,
+          "v": 0.8873480583848693,
+          "psi": 0.7361372220725946
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 9,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.8641706722991842,
+          "v": 0.7905324842409118,
+          "psi": 0.7678612985659412
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 10,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": false
+        },
+        "improvements": {
+          "r": 0.7897471305036147,
+          "v": 0.8901641675286092,
+          "psi": 0.2753360963547845
+        },
+        "output_condition": true
+      },
+      {
+        "geometry_index": 11,
+        "signal_by_parameter": {
+          "r": true,
+          "v": true,
+          "psi": true
+        },
+        "improvements": {
+          "r": 0.42330389265638857,
+          "v": 0.7727242089536306,
+          "psi": 0.5034901121046458
+        },
+        "output_condition": true
+      }
+    ]
+  },
+  "U5_speed_P95_above10percent_geometries": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "summary": [
+    {
+      "resource": "U0",
+      "evaluated": 1536,
+      "accepted": 1536,
+      "planned": 1536,
+      "r_unconditional_mean_geometry_median": 0.09607897460077357,
+      "r_unconditional_worst_geometry_P95": 0.19264535365247648,
+      "r_conditional_mean_geometry_median": 0.09607897460077357,
+      "r_conditional_worst_geometry_P95": 0.19264535365247648,
+      "r_pooled_unconditional_median": 0.0848274822962181,
+      "r_pooled_unconditional_P90": 0.17321166693824347,
+      "r_pooled_unconditional_P95": 0.19264535365247634,
+      "r_pooled_unconditional_P99": 0.19264535365247648,
+      "r_pooled_unconditional_max": 0.19264535365247648,
+      "r_large_output_count": 729,
+      "theta_unconditional_mean_geometry_median": 0.029673979302324568,
+      "theta_unconditional_worst_geometry_P95": 0.09308519301132935,
+      "theta_conditional_mean_geometry_median": 0.029673979302324568,
+      "theta_conditional_worst_geometry_P95": 0.09308519301132935,
+      "theta_pooled_unconditional_median": 0.030017208047882174,
+      "theta_pooled_unconditional_P90": 0.06953967712004631,
+      "theta_pooled_unconditional_P95": 0.08253464053344878,
+      "theta_pooled_unconditional_P99": 0.10421855741473192,
+      "theta_pooled_unconditional_max": 0.15388803677562962,
+      "theta_large_output_count": 0,
+      "v_unconditional_mean_geometry_median": 0.48432090205524797,
+      "v_unconditional_worst_geometry_P95": 0.9554589896795214,
+      "v_conditional_mean_geometry_median": 0.48432090205524797,
+      "v_conditional_worst_geometry_P95": 0.9554589896795214,
+      "v_pooled_unconditional_median": 0.47480540761907386,
+      "v_pooled_unconditional_P90": 0.7638412542871138,
+      "v_pooled_unconditional_P95": 0.8547140649149814,
+      "v_pooled_unconditional_P99": 0.9554589896795156,
+      "v_pooled_unconditional_max": 0.955458989679522,
+      "v_large_output_count": 1508,
+      "psi_unconditional_mean_geometry_median": 2.2066873586478364,
+      "psi_unconditional_worst_geometry_P95": 7.8688217299110805,
+      "psi_conditional_mean_geometry_median": 2.2066873586478364,
+      "psi_conditional_worst_geometry_P95": 7.8688217299110805,
+      "psi_pooled_unconditional_median": 1.5053044982639041,
+      "psi_pooled_unconditional_P90": 5.238356245720004,
+      "psi_pooled_unconditional_P95": 6.214510096651603,
+      "psi_pooled_unconditional_P99": 7.342902634062634,
+      "psi_pooled_unconditional_max": 8.953461609170796,
+      "psi_large_output_count": 182,
+      "large_any_output_count": 1527,
+      "better_terminal_not_selected": 0
+    },
+    {
+      "resource": "U5",
+      "evaluated": 1536,
+      "accepted": 1536,
+      "planned": 1536,
+      "r_unconditional_mean_geometry_median": 0.004888967051096599,
+      "r_unconditional_worst_geometry_P95": 0.012955015504874,
+      "r_conditional_mean_geometry_median": 0.004888967051096599,
+      "r_conditional_worst_geometry_P95": 0.012955015504874,
+      "r_pooled_unconditional_median": 0.00497709220245032,
+      "r_pooled_unconditional_P90": 0.009771409905058948,
+      "r_pooled_unconditional_P95": 0.01118450901772445,
+      "r_pooled_unconditional_P99": 0.013939463828697263,
+      "r_pooled_unconditional_max": 0.018992098916629212,
+      "r_large_output_count": 0,
+      "theta_unconditional_mean_geometry_median": 0.029234857999018884,
+      "theta_unconditional_worst_geometry_P95": 0.09163498440466804,
+      "theta_conditional_mean_geometry_median": 0.029234857999018884,
+      "theta_conditional_worst_geometry_P95": 0.09163498440466804,
+      "theta_pooled_unconditional_median": 0.029594357387577146,
+      "theta_pooled_unconditional_P90": 0.06905824555771249,
+      "theta_pooled_unconditional_P95": 0.08407455330834758,
+      "theta_pooled_unconditional_P99": 0.1070013392072431,
+      "theta_pooled_unconditional_max": 0.15505708865082404,
+      "theta_large_output_count": 0,
+      "v_unconditional_mean_geometry_median": 0.07380979545614026,
+      "v_unconditional_worst_geometry_P95": 0.31163104087763643,
+      "v_conditional_mean_geometry_median": 0.07380979545614026,
+      "v_conditional_worst_geometry_P95": 0.31163104087763643,
+      "v_pooled_unconditional_median": 0.07292849489767184,
+      "v_pooled_unconditional_P90": 0.18781063893211705,
+      "v_pooled_unconditional_P95": 0.2286021253448895,
+      "v_pooled_unconditional_P99": 0.3169500341206548,
+      "v_pooled_unconditional_max": 0.48691612355562347,
+      "v_large_output_count": 550,
+      "psi_unconditional_mean_geometry_median": 0.3538612099998899,
+      "psi_unconditional_worst_geometry_P95": 2.939069545588537,
+      "psi_conditional_mean_geometry_median": 0.3538612099998899,
+      "psi_conditional_worst_geometry_P95": 2.939069545588537,
+      "psi_pooled_unconditional_median": 0.32944444906116166,
+      "psi_pooled_unconditional_P90": 1.0662679650278024,
+      "psi_pooled_unconditional_P95": 1.3989375197501497,
+      "psi_pooled_unconditional_P99": 2.5131787112757564,
+      "psi_pooled_unconditional_max": 4.959760539061719,
+      "psi_large_output_count": 0,
+      "large_any_output_count": 550,
+      "better_terminal_not_selected": 0
+    }
+  ],
+  "execution_status": "COMPLETE",
+  "new_paired_test_records": 1536,
+  "new_calibration_paired_records": 512,
+  "executed_optimization_terminals": 393216,
+  "no_radial_depth_acoustics": true,
+  "new_propagation_calls": 0,
+  "signed_bearing": "ABSOLUTE_BEARING_SIGN_CONDITION_ASSUMED",
+  "confidence_scope": "FINITE_TERMINAL_ENVELOPE_ONLY",
+  "R4_percent": 0,
+  "next_stage_execution_authorized": false,
+  "STOP": true
+}

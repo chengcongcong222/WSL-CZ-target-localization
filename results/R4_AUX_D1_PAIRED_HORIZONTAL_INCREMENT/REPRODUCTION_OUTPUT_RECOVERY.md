@@ -1,0 +1,7 @@
+# 输出恢复与复核入口
+
+设计A内aux_d1_evaluate.py的汇总变量顺序错误保持原始字节。只读恢复入口aux_d1_evaluate_output_recovery.py使用同一primary case table对大误差计数聚合，再生成原规则结果；输入为已封存的INFERENCE_SEAL及原float64终点，不运行优化器或重新生成数据。原EVALUATION_START保留，恢复另有EVALUATION_OUTPUT_RECOVERY_START。重复科学任务受START守卫禁止。
+
+aux_d1_audit.py已完成一次登记冷复核，aux_d1_delivery_review.py是补齐资源特有初始化与成本记录的只读补充。两者不运行优化器。源代码、输入、阈值和原选点未改变；不存在第二套性能面板。原失败、初始报告及修复代码身份全部存档。未来若要重新运行归档审查，应另记审查预算与时钟，不重复调用当前一次执行入口。
+
+报告与图只读取保存表格。主研究分类保持，研究负责人独立科学审计仍PENDING。R4=0%，本轮后STOP。

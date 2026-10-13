@@ -1,0 +1,18 @@
+{
+  "truth_access": "Generator/calibrator andsealedindependentevaluation/auditonly;notestimator",
+  "arrays": [
+    {
+      "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\evaluation_only\\calibration_private.npz",
+      "bytes": 3602027,
+      "sha256": "7e44a018300fb066b1e331aea80a05c1a5fa57d525d7043185ff9d9ef05341b1"
+    },
+    {
+      "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\evaluation_only\\test_private.npz",
+      "bytes": 10743575,
+      "sha256": "fa37284ec7e9bc3ff14a73dfcb4556c75680304455670368c4d821646397a8b6"
+    }
+  ],
+  "calibration_geometry_seed": 2026101201,
+  "calibration_error_seed": 2026101202,
+  "streams": "SeedSequence([errorseed,geometry,rep,stream0..4]);uniform3,mainangle121,auxangle121,mainnav121x2,auxnav121x2"
+}

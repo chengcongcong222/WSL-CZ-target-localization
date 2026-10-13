@@ -1,0 +1,3 @@
+resource,executed_terminals,actual_nfev,actual_njev,geometry_calls,sum_fit_wall_seconds,bearing_samples_per_residual,CPU_seconds,comparison
+U0,196608,5162000,4431262,5178814,1537.6235577613115,121,NOT_SEPARATELY_INSTRUMENTED,Equalstarts/nfevlimitnot equalCPU or observationcost
+U5,196608,2994032,2486675,3004111,904.806368947262,242,NOT_SEPARATELY_INSTRUMENTED,Equalstarts/nfevlimitnot equalCPU or observationcost

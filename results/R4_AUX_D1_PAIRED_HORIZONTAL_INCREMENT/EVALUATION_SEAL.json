@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-13T02:46:06.161895+00:00",
+  "inference_seal_sha256": "39a3dc95c11a7ed88f5b8a718d27ad051e3dc091e2ff11b622721bca1e7a5bd4",
+  "decision": {
+    "path": "results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\DECISION.json",
+    "bytes": 15614,
+    "sha256": "4fa2629144bff5de6c51ac30dbbf6f28ddec150cf22cb7b6c0c63280e9311f20"
+  },
+  "frozen_selection_unchanged": true
+}
