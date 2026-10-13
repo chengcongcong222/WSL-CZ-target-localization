@@ -1,0 +1,8 @@
+{
+  "PASS": true,
+  "kind": "deterministic synthetic error-array unit control;not observations or performance runs",
+  "optimizer_fits": 0,
+  "no_panel_state_inputs": true,
+  "nearest_rank_and_INF": true,
+  "signal_logic": true
+}

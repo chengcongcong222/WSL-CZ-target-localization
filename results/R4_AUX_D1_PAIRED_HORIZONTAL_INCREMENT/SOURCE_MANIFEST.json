@@ -1,0 +1,85 @@
+{
+  "sources": [
+    {
+      "source_id": "DRAFT",
+      "path": "results/R4_SINGLE_HLA_CLOSEOUT_AND_THREE_TIER_PLAN/NEXT_AUX_D1_DESIGN_DRAFT.md",
+      "read_at_commit": "9060ca4ccd82f572ef099b185c3d742674752099",
+      "git_blob_id": "b34171cc042ae2ecf3a665369d3fcfae1cbe057b",
+      "git_blob_byte_sha256": "697ca87ec8fe926c35ff989c721e50e3d59299894c390a9e9a26006c1a5b68b3",
+      "working_raw_byte_sha256": "697ca87ec8fe926c35ff989c721e50e3d59299894c390a9e9a26006c1a5b68b3",
+      "purpose": "配对试验的历史草案；尚非执行冻结",
+      "full_text_read": true
+    },
+    {
+      "source_id": "ERROR_MODEL",
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_ERROR_MODEL.md",
+      "read_at_commit": "9060ca4ccd82f572ef099b185c3d742674752099",
+      "git_blob_id": "34c977a34322d951d07e0ede16d13119a87fd8d3",
+      "git_blob_byte_sha256": "e7c5d1a113ac881fa7cd500948e312fdad5f8af0f3b4650d1e7fc1466e3a30d6",
+      "working_raw_byte_sha256": "1c9201fff29e09542dde285c049849a24ed881d0c88f594ed8e157f8d015e263",
+      "purpose": "Anchor A的系统偏置、导航、布放及参照定义",
+      "full_text_read": true
+    },
+    {
+      "source_id": "OLD_ESTIMATOR",
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_ESTIMATOR_SPEC.md",
+      "read_at_commit": "9060ca4ccd82f572ef099b185c3d742674752099",
+      "git_blob_id": "cad9e3bc9712fd1154fce1322dfc4209597dce9e",
+      "git_blob_byte_sha256": "f34753415801a48ab1968b31852b6634f1f16271c4c4bae1d64f555297ddf8e9",
+      "working_raw_byte_sha256": "4ef08e48099d81ea0134b6f0612056f51155ed2c271683fde99030f01403661f",
+      "purpose": "有向交会、IRLS、soft_l1；本任务明确新增有界域、多起点与校准",
+      "full_text_read": true
+    },
+    {
+      "source_id": "TRUTH_PANEL",
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_TRUTH_PANEL.csv",
+      "read_at_commit": "9060ca4ccd82f572ef099b185c3d742674752099",
+      "git_blob_id": "d749e3d50e47ffd2cff738ddb43573a67ba6146c",
+      "git_blob_byte_sha256": "32827787058b6ef2b28c791cc9d403850c1d64f3da7d98bb4accf5ac821482c6",
+      "working_raw_byte_sha256": "b65dec9b7f594c092b374c12d7f30909f22291e35bacf27825e547e471844cfb",
+      "purpose": "12个已见状态；只能进入生成／评价侧",
+      "full_text_read": true
+    },
+    {
+      "source_id": "CLOSEOUT",
+      "path": "results/R4_SINGLE_HLA_CLOSEOUT_AND_THREE_TIER_PLAN/CLOSEOUT_DECISION.json",
+      "read_at_commit": "9060ca4ccd82f572ef099b185c3d742674752099",
+      "git_blob_id": "39b30602fdb1d5a46ae25077699b03a64cea87d4",
+      "git_blob_byte_sha256": "94a53065feeba59a16b1c0b33acb5e5871652886bb917cd48b5d1802fc5b77fc",
+      "working_raw_byte_sha256": "94a53065feeba59a16b1c0b33acb5e5871652886bb917cd48b5d1802fc5b77fc",
+      "purpose": "原第一档阶段收束与下一草案未执行状态保持历史原样",
+      "full_text_read": true
+    },
+    {
+      "source_id": "ARCHIVE",
+      "path": "results/R4_SINGLE_HLA_CLOSEOUT_AND_THREE_TIER_PLAN/ARCHIVE_AVAILABILITY.json",
+      "read_at_commit": "9060ca4ccd82f572ef099b185c3d742674752099",
+      "git_blob_id": "f95b7a12de8e058c7e7060d9a3233f1b0dae2d28",
+      "git_blob_byte_sha256": "5f57cda2a8a60bf093237f7f7e514ad1c90022e41c5091b4106422157473c55b",
+      "working_raw_byte_sha256": "5f57cda2a8a60bf093237f7f7e514ad1c90022e41c5091b4106422157473c55b",
+      "purpose": "旧原始方位／报告轨迹缺口，不重复搜索或伪称恢复",
+      "full_text_read": true
+    },
+    {
+      "source_id": "THREE_TIERS",
+      "path": "results/R4_SINGLE_HLA_CLOSEOUT_AND_THREE_TIER_PLAN/THREE_TIER_EVIDENCE_AND_CONDITIONS.md",
+      "read_at_commit": "9060ca4ccd82f572ef099b185c3d742674752099",
+      "git_blob_id": "55cbb5bf4bb0e5cf77f4045287bd70a53d39aec3",
+      "git_blob_byte_sha256": "856537e183aed1d79f31c664cb15fe2b121bd04a436843281c28ad19beebc787",
+      "working_raw_byte_sha256": "856537e183aed1d79f31c664cb15fe2b121bd04a436843281c28ad19beebc787",
+      "purpose": "避免跨档统计混用、把垂向并入辅助",
+      "full_text_read": true
+    },
+    {
+      "source_id": "OLD_RESULTS",
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/GPT_SYNC.md",
+      "read_at_commit": "9060ca4ccd82f572ef099b185c3d742674752099",
+      "git_blob_id": "c47afc1d27c146c221ff614a5a98720fee28a14b",
+      "git_blob_byte_sha256": "03e3c0f5ff61de3de557895d3ab5844998a8eab628af9cb9beaf86a4b31d5e87",
+      "working_raw_byte_sha256": "6f2baee38f51c3b53a487011e9aaf4c2c004a06ad95e92b7c526ec90666bbe9e",
+      "purpose": "旧双节点精度只旁栏，不作本轮配对基线或进步幅度",
+      "full_text_read": true
+    }
+  ],
+  "task_SHA256": "d3079beff433bfa07d84a06769b45c878e18d61ad991f5b6cb1a4728025d42f5"
+}

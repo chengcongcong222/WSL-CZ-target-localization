@@ -1,0 +1,16 @@
+{
+  "definition": "Sum elapsed times of scientific stages, excluding authoring/Git; main includes full worker walltime. No parallel scientific processes.",
+  "stages": {
+    "preflight": {
+      "elapsed_s": 0.04618289996869862,
+      "control_fits": 4,
+      "gradient_checks": 64
+    },
+    "preflight_statistics": {
+      "elapsed_s": 0.046608899952843785,
+      "control_fits": 0,
+      "gradient_checks": 0
+    }
+  },
+  "total_scientific_elapsed_s": 0.0927917999215424
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "AUX_D1_PAIRED_BEARING_RESOURCE_INCREMENT_V1",
+  "expected_parent": "9060ca4ccd82f572ef099b185c3d742674752099",
+  "task_sha256": "d3079beff433bfa07d84a06769b45c878e18d61ad991f5b6cb1a4728025d42f5",
+  "creation_date": "2026-10-12",
+  "package_type": "NEW_CODEX_EXECUTION_TASK",
+  "not_same_as_HLA_CLOSE1": true,
+  "no_repository_write_or_experiment_executed_by_this_package_builder": true,
+  "files": {
+    "AUX_D1_CODEX_TASK_20261012_v1.md": {
+      "bytes": 27714,
+      "sha256": "d3079beff433bfa07d84a06769b45c878e18d61ad991f5b6cb1a4728025d42f5"
+    },
+    "AUX_D1_START_20261012_v1.txt": {
+      "bytes": 2428,
+      "sha256": "6da400538dd4a2ee2b39e4b42d2d90dc750053f0ecb180e2fcf89d97770edd43"
+    },
+    "AUX_D1_RESEARCH_BRIEF_20261012_v1.md": {
+      "bytes": 2591,
+      "sha256": "3d6902663aca3b870d4c810ac2d82705bd105a08b5b60dbec7f03648b5f74123"
+    },
+    "AUX_D1_SOURCE_ENTRYPOINTS_20261012_v1.json": {
+      "bytes": 2847,
+      "sha256": "126c88b98b5973abf36d879256628ac9351eebbf157c105f3a62aefa96e78a0f"
+    },
+    "AUX_D1_TASK_SPEC_20261012_v1.json": {
+      "bytes": 6274,
+      "sha256": "c60fa2d06b60fa560aed5fa2c950d18851ac986c957564f416dbaade4ceb9f53"
+    }
+  },
+  "manifest_does_not_hash_itself": true
+}

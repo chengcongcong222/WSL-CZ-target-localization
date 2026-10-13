@@ -1,0 +1,59 @@
+{
+  "repository": "chengcongcong222/WSL-CZ-target-localization",
+  "read_at_commit": "9060ca4ccd82f572ef099b185c3d742674752099",
+  "note": "Git blob SHA1是Git标识，不是工作树文件SHA256。Codex在A前核对实际来源字节，不把CRLF/LF差异混为科学输入改变。",
+  "sources": [
+    {
+      "source_id": "DRAFT",
+      "path": "results/R4_SINGLE_HLA_CLOSEOUT_AND_THREE_TIER_PLAN/NEXT_AUX_D1_DESIGN_DRAFT.md",
+      "git_blob_sha_when_available": "b34171cc042ae2ecf3a665369d3fcfae1cbe057b",
+      "purpose": "配对试验的历史草案；尚非执行冻结"
+    },
+    {
+      "source_id": "ERROR_MODEL",
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_ERROR_MODEL.md",
+      "git_blob_sha_when_available": "34c977a34322d951d07e0ede16d13119a87fd8d3",
+      "purpose": "Anchor A的系统偏置、导航、布放及参照定义"
+    },
+    {
+      "source_id": "OLD_ESTIMATOR",
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_ESTIMATOR_SPEC.md",
+      "git_blob_sha_when_available": "cad9e3bc9712fd1154fce1322dfc4209597dce9e",
+      "purpose": "有向交会、IRLS、soft_l1；本任务明确新增有界域、多起点与校准"
+    },
+    {
+      "source_id": "TRUTH_PANEL",
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_TRUTH_PANEL.csv",
+      "git_blob_sha_when_available": "d749e3d50e47ffd2cff738ddb43573a67ba6146c",
+      "purpose": "12个已见状态；只能进入生成／评价侧"
+    },
+    {
+      "source_id": "CLOSEOUT",
+      "path": "results/R4_SINGLE_HLA_CLOSEOUT_AND_THREE_TIER_PLAN/CLOSEOUT_DECISION.json",
+      "git_blob_sha_when_available": "39b30602fdb1d5a46ae25077699b03a64cea87d4",
+      "purpose": "原第一档阶段收束与下一草案未执行状态保持历史原样"
+    },
+    {
+      "source_id": "ARCHIVE",
+      "path": "results/R4_SINGLE_HLA_CLOSEOUT_AND_THREE_TIER_PLAN/ARCHIVE_AVAILABILITY.json",
+      "git_blob_sha_when_available": null,
+      "purpose": "旧原始方位／报告轨迹缺口，不重复搜索或伪称恢复"
+    },
+    {
+      "source_id": "THREE_TIERS",
+      "path": "results/R4_SINGLE_HLA_CLOSEOUT_AND_THREE_TIER_PLAN/THREE_TIER_EVIDENCE_AND_CONDITIONS.md",
+      "git_blob_sha_when_available": "55cbb5bf4bb0e5cf77f4045287bd70a53d39aec3",
+      "purpose": "避免跨档统计混用、把垂向并入辅助"
+    },
+    {
+      "source_id": "OLD_RESULTS",
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/GPT_SYNC.md",
+      "git_blob_sha_when_available": null,
+      "purpose": "旧双节点精度只旁栏，不作本轮配对基线或进步幅度"
+    }
+  ],
+  "implementation_only_references": [
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.least_squares.html",
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.qmc.Sobol.random_base2.html"
+  ]
+}

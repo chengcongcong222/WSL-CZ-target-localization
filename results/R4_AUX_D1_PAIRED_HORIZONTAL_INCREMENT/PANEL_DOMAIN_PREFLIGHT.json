@@ -1,0 +1,18 @@
+{
+  "all12_original_physical_states_in_domain": true,
+  "cases": [
+    "H01",
+    "H02",
+    "H03",
+    "H04",
+    "H05",
+    "H06",
+    "H07",
+    "H08",
+    "H09",
+    "H10",
+    "H11",
+    "H12"
+  ],
+  "truth_file_used_only_for_domain_check_and_generator_evaluation": true
+}

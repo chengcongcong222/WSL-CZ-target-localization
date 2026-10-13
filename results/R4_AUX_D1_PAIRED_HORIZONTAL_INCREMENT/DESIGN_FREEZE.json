@@ -1,0 +1,53 @@
+{
+  "stage": "AUX-D1",
+  "task_id": "AUX_D1_PAIRED_BEARING_RESOURCE_INCREMENT_V1",
+  "task_SHA256": "d3079beff433bfa07d84a06769b45c878e18d61ad991f5b6cb1a4728025d42f5",
+  "parent_SHA": "9060ca4ccd82f572ef099b185c3d742674752099",
+  "design_commit": "CONTAINING_COMMIT",
+  "utc": "2026-10-13T01:57:59.050520+00:00",
+  "code_and_input_sha256": {
+    "aux_d1_audit.py": "8ef054f6e5c32f6f06777db1c3de7e02435147e72f585430a75ba39dad87aa15",
+    "aux_d1_common.py": "631ee3313549c08f955e2a12d9f4d546dd8f66a8831c44f022c67c3917007f1b",
+    "aux_d1_evaluate.py": "0916f050bf7ac3baa49d06246008a5f064995a4759d6ae5877ad00cf11c11bba",
+    "aux_d1_execute.py": "eda601657d55f40caa67e4474bad1f6eafdf5c0ea293d9b63ac1fe6b34381087",
+    "aux_d1_generate.py": "371e2ccede09d3d4484222fab146ac624b1c9e5f4d8e597e15989f08ec244473",
+    "aux_d1_model.py": "4b355de6c3ca50906aa6996a161c9dafa269edfc8dfcec0aa2359bfd1ae611ac",
+    "aux_d1_preflight.py": "e245fa254d4bedb906676a09e32b8a9d4db7a7fac74a63647d78a19ffc3d4e81",
+    "aux_d1_prepare.py": "1cf531c04049fcc6329d7b3599d0f2fc4edbfc447bb89d8fb202ce2bbd0500df",
+    "aux_d1_report.py": "e072540505506fa8ea44b621ce66c7447710d0c87021c12f5a68a5be08c7a84e",
+    "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/AUX_D1_TASK_SPEC_20261012_v1.json": "c60fa2d06b60fa560aed5fa2c950d18851ac986c957564f416dbaade4ceb9f53",
+    "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/AUX_D1_CODEX_TASK_20261012_v1.md": "d3079beff433bfa07d84a06769b45c878e18d61ad991f5b6cb1a4728025d42f5",
+    "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/SOBOL_128_RAW.npy": "4ec8d95395e4c174424377555a32244bffadc0a4a199707b0596dc13a83d12bc",
+    "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/SHARED_FIXED_126.npy": "40feb642d9eddfabe467c42ae9ca9604feba5b14af90f93314fbe3d630cece4f",
+    "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/CONFIGURATION_PLAN.csv": "c44a677000972c64e10483763f948e880250f1dfe171ad92f9c70b4e040f0e52",
+    "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/SOURCE_MANIFEST.json": "25252280553bc02bdadc0de78f54165829798703fcf7af4f1ca86cab238b48bd",
+    "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/PREFLIGHT.json": "d0913d5267dc5237ca22b8b9153b0d1688b4284010008f6d4e18ec8cec253093",
+    "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/STATISTICS_PREFLIGHT.json": "c640b681b911d350002eef4890ba23354ee1cf6e2d3c681fc91e8d934d7ad73b"
+  },
+  "runtime": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "BLAS_threads": 1
+  },
+  "science_model": "Fulltask MD andTASK_SPEC;bounded4parameterobservation-onlyprocessor",
+  "no_test_or_calibration_execution_before_freeze": true,
+  "execution_authorized": true,
+  "next_stage_after_B_authorized": false,
+  "preflight_summary": {
+    "fits": 4,
+    "gradient_checks": 64
+  },
+  "budgets": {
+    "total_scientific_seconds": 21600,
+    "main_optimization_seconds": 18000,
+    "compute_processes": 1,
+    "BLAS_threads_max": 4,
+    "RSS_bytes": 8589934592,
+    "new_local_bytes": 2147483648,
+    "new_repository_bytes": 536870912,
+    "preflight_fits_max": 12,
+    "preflight_gradient_checks_max": 128
+  },
+  "R4_percent": 0
+}
