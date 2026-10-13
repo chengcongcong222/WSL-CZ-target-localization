@@ -1,0 +1,14 @@
+{
+  "PASS": true,
+  "small_constructed_vectors": 10,
+  "random_draws": 0,
+  "controls": 34,
+  "real_archived_score_computations": 0,
+  "budget": {
+    "wall_s": 0,
+    "RSS_bytes": 33542144,
+    "new_D_bytes": 58898,
+    "new_git_result_bytes": 58898
+  },
+  "utc": "2026-10-13T06:48:37.713617+00:00"
+}

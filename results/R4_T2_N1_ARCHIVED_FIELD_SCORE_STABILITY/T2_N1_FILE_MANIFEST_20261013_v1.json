@@ -1,0 +1,38 @@
+{
+  "task_id": "T2-N1",
+  "created_date": "2026-10-13",
+  "parent_sha": "6b60c39f52b68a361b2c005e74126b9f68401b77",
+  "run_status": "NOT_STARTED",
+  "files": [
+    {
+      "filename": "T2_N1_CODEX_TASK_20261013_v1.md",
+      "sha256": "36a0d6341046263490a69ae12dff5f64e25d0e4c4d7068dd6327344b3d0f0fc9",
+      "size_bytes": 15686
+    },
+    {
+      "filename": "T2_N1_EXPERIMENT_SPEC_20261013_v1.json",
+      "sha256": "54472076e1b5cbb18b36cb2cc055002310e67d7c5c1e20e007c92a013a1de07d",
+      "size_bytes": 3724
+    },
+    {
+      "filename": "T2_N1_RESEARCH_BRIEF_20261013_v1.md",
+      "sha256": "10abbccdea91e32e51f267fa3ac865675992b6dc47d7e70b93cf0e40f0a078f6",
+      "size_bytes": 1567
+    },
+    {
+      "filename": "T2_N1_START_20261013_v1.txt",
+      "sha256": "ed5bf40b463dbf7b75b31bf766a1db9cb71d240f2a88b0dcb8d94c98f3b5b061",
+      "size_bytes": 2067
+    }
+  ],
+  "run_authorization": "freeze A / one archived numerical analysis B / independent audit / STOP",
+  "not_authorized": [
+    "KRAKEN",
+    "FIELD",
+    "new_modal_mesh",
+    "new_waveforms",
+    "MC",
+    "optimizer",
+    "R4_GATE_CHANGE"
+  ]
+}

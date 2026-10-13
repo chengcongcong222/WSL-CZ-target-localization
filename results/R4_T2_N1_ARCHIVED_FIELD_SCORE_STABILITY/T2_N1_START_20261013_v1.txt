@@ -1,0 +1,22 @@
+请在本地Codex中执行新的一轮T2-N1，一次只读档案数值诊断；**不重复T2-TILT-G0，不运行新传播/接收/定位实验**。
+
+Repository: chengcongcong222/WSL-CZ-target-localization
+当前基线HEAD与remote/main必须精确等于：
+6b60c39f52b68a361b2c005e74126b9f68401b77
+新输出：results/R4_T2_N1_ARCHIVED_FIELD_SCORE_STABILITY
+原始大阵列与计算工作区均为D盘；不得将缺失数组以真值/重新求解“恢复”。
+
+下载的三个任务文件必须先校验SHA256：
+* T2_N1_CODEX_TASK_20261013_v1.md: 36a0d6341046263490a69ae12dff5f64e25d0e4c4d7068dd6327344b3d0f0fc9
+* T2_N1_EXPERIMENT_SPEC_20261013_v1.json: 54472076e1b5cbb18b36cb2cc055002310e67d7c5c1e20e007c92a013a1de07d
+* T2_N1_RESEARCH_BRIEF_20261013_v1.md: 10abbccdea91e32e51f267fa3ac865675992b6dc47d7e70b93cf0e40f0a078f6
+
+最重要的科学问题：原T2-G0的两网格数值形状差是否会影响远距离错误分支排名和T2-A/B的阵型条件比较？
+严守原判：FORWARD_NUMERIC_NOT_ADMITTED; A/B NOT_EVALUATED; CHIGH UNCERTIFIED; R4=0%。
+
+步骤：
+1. 只核SHA、dtype/shape、文件存在与公式自检；在Commit A冻结探针、公式、输入字节、预算、代码并推送；本次A之前不得先跑真正的档案评分诊断。
+2. Commit A后唯一一次执行只读分析：433620个e，全部范数/几何分层；投影评分的解析上界E(c)；五个固定模板探针的全域远距离错误候选排名；A_P4M/A0_0与B1_V4/B2_DUP的配对数值敏感界。没有实际观测，不能做真值保留、精度或阵型工程性能统计。
+3. 独立冷审计读取原复声场重建全部e以及模板排序，保存报告Commit B，推送并核对remote/main，STOP。缺文件/哈希不符/精度不等式异常必须保留失败并STOP，禁止二次科学运行或改门槛。
+
+回传完整Commit A/B SHA、任务SHA256、源文件身份、旧e计数复现、五探针对照结果、解析上界是否覆盖、独立审计、下一轮是否需要独立传播认证，以及GPT_SYNC.md路径。只叙述本轮新增证据。

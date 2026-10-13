@@ -1,0 +1,966 @@
+{
+  "parent_SHA": "6b60c39f52b68a361b2c005e74126b9f68401b77",
+  "sources": [
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\GPT_SYNC.md",
+      "sha256": "c2c6b28da80ea2a10e13de1add8cbd69d6732ad96b17bac63acd8639ab2000a2",
+      "bytes": 3457,
+      "parent_blob_sha256": "c2c6b28da80ea2a10e13de1add8cbd69d6732ad96b17bac63acd8639ab2000a2",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\DECISION.json",
+      "sha256": "64bf59c0c011c2d0f59f1d4e73a58ff89d0f2cb837125a300987ecdf5eb6cc61",
+      "bytes": 718,
+      "parent_blob_sha256": "64bf59c0c011c2d0f59f1d4e73a58ff89d0f2cb837125a300987ecdf5eb6cc61",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\FORWARD_DECISION.json",
+      "sha256": "847fb1ac7ee6a381060308d3160435a952634d7d176d06ffda625b685ece5cce",
+      "bytes": 664,
+      "parent_blob_sha256": "847fb1ac7ee6a381060308d3160435a952634d7d176d06ffda625b685ece5cce",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\FORWARD_CATALOGUE_NUMERICAL_STABILITY.csv",
+      "sha256": "753f5d775b1ecc43dbe5eed33eef6d36e1863a6c1f9fb72c31415692336cbbae",
+      "bytes": 8085,
+      "parent_blob_sha256": "753f5d775b1ecc43dbe5eed33eef6d36e1863a6c1f9fb72c31415692336cbbae",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\FORWARD_WEAK_FIELD_AND_FAILURE_COUNTS.csv",
+      "sha256": "fdf9a8822612d7572d99400dfddd2003859a94d43dbff29d167f3d4f99107a63",
+      "bytes": 5478,
+      "parent_blob_sha256": "fdf9a8822612d7572d99400dfddd2003859a94d43dbff29d167f3d4f99107a63",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\OUTPUT_RECOVERY_INPUT_SEAL.json",
+      "sha256": "82bacc0a44a0d7f1f43e1d7cf65d656b4fac2bf40bd0b9a1309cfb8704519b11",
+      "bytes": 17825,
+      "parent_blob_sha256": "82bacc0a44a0d7f1f43e1d7cf65d656b4fac2bf40bd0b9a1309cfb8704519b11",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\LOCAL_ARCHIVE_INDEX.csv",
+      "sha256": "fe5d5492443fb1d8268e427197e3a4470ccf8995262fc934f63ecc9949d68aa9",
+      "bytes": 15569,
+      "parent_blob_sha256": "fe5d5492443fb1d8268e427197e3a4470ccf8995262fc934f63ecc9949d68aa9",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\REPLICA_FREEZE.json",
+      "sha256": "04d0592291c8307312f48b4798cff3dc1195053452c573dd44eb3cb2b2be4a18",
+      "bytes": 7379,
+      "parent_blob_sha256": "04d0592291c8307312f48b4798cff3dc1195053452c573dd44eb3cb2b2be4a18",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\PROVIDER_MODE_WINDOW_AND_MESH.csv",
+      "sha256": "021b88998c8d789834f93a4e29d739adb3c1a59fbd7289cb6f74b9d0fbc293d3",
+      "bytes": 1855,
+      "parent_blob_sha256": "021b88998c8d789834f93a4e29d739adb3c1a59fbd7289cb6f74b9d0fbc293d3",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\FIELD_STORAGE_QUANTIZATION_COLD_DIAGNOSTIC.csv",
+      "sha256": "919df26f500aa695a543c216f24b70fbd5656e69e77e94de2650ed90024d6d40",
+      "bytes": 518,
+      "parent_blob_sha256": "919df26f500aa695a543c216f24b70fbd5656e69e77e94de2650ed90024d6d40",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\CATALOGUE_primary.npy",
+      "sha256": "daf44e30864bb81105b3954a52efc4b4a6ea539e3e83472d640fddd220753c81",
+      "bytes": 80648,
+      "parent_blob_sha256": "daf44e30864bb81105b3954a52efc4b4a6ea539e3e83472d640fddd220753c81",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\CATALOGUE_fine.npy",
+      "sha256": "b80bfd74ef7f22f61440de95312c28a09a7a6bd9f5a39afe872d0a02467edd07",
+      "bytes": 305048,
+      "parent_blob_sha256": "b80bfd74ef7f22f61440de95312c28a09a7a6bd9f5a39afe872d0a02467edd07",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\ARRAY_GEOMETRY_TABLE.csv",
+      "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "bytes": 3793,
+      "parent_blob_sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\T2_TILT_G0_EXPERIMENT_SPEC_20261013_v1.json",
+      "sha256": "0307093e60ec758a33ad98e3d54230b81ecb666bd7be570c106ab69bb9d8c7ee",
+      "bytes": 4448,
+      "parent_blob_sha256": "0307093e60ec758a33ad98e3d54230b81ecb666bd7be570c106ab69bb9d8c7ee",
+      "usage": "read-only historical source, not a new result"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\t2_tilt_g0_core.py",
+      "sha256": "e1bbe7efbc9b167d5f22935c11c180d32a0abc6e6c7f7cea55f01cf4cf023d5d",
+      "bytes": 5627,
+      "parent_blob_sha256": "e1bbe7efbc9b167d5f22935c11c180d32a0abc6e6c7f7cea55f01cf4cf023d5d",
+      "usage": "read-only formula provenance; not imported or executed"
+    }
+  ],
+  "arrays": [
+    {
+      "filename": "A0_0_primary_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A0_0_primary_n80001.npy",
+      "sha256": "2a1595601677a07ad37ceb86f3aa489813135dc752ece5112edce1a31f0a8142",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A0_0",
+      "catalogue": "primary",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A0_0_primary_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A0_0_primary_n160001.npy",
+      "sha256": "265dabbccb64fb6a93e15be5d5562a4fb7a94fef3464595e284d2387e164d7e6",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A0_0",
+      "catalogue": "primary",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A0_0_primary.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A0_0_primary.npy",
+      "sha256": "9d8997afb9e293a9298f5390022ad591f58319396a894537ec6a6aad906e42f9",
+      "bytes": 80648,
+      "shape": [
+        3355,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A0_0",
+      "catalogue": "primary",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A_P05_primary_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P05_primary_n80001.npy",
+      "sha256": "56d9d28c0d2062b5466ace5d2cd2b82a617331c0dbc73ff7c6e255a75c851cb7",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_P05",
+      "catalogue": "primary",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A_P05_primary_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P05_primary_n160001.npy",
+      "sha256": "746fcb3e755c6713cfd6308103343102b00088bcfcf1426dd8107b02b7149fb1",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_P05",
+      "catalogue": "primary",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A_P05_primary.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A_P05_primary.npy",
+      "sha256": "a92e6e0f6c284e76e2121653d2fbf42ec91ff14b279f9e2f2c594ac9e4dc061d",
+      "bytes": 80648,
+      "shape": [
+        3355,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A_P05",
+      "catalogue": "primary",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A_M05_primary_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_M05_primary_n80001.npy",
+      "sha256": "d6d0d8fb2f81914283765bb7e6bd07d26a159ad8a506223eda3511d2c5c87c1b",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_M05",
+      "catalogue": "primary",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A_M05_primary_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_M05_primary_n160001.npy",
+      "sha256": "ccc6222c3cdf9d62a7a7f6b53d23995bcf4fa5bc7a14ab57e4d3f3b547cf97c2",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_M05",
+      "catalogue": "primary",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A_M05_primary.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A_M05_primary.npy",
+      "sha256": "f153a1f27c4375558da36361dfeeea39bb3f1ee21346526855dc4de416a49458",
+      "bytes": 80648,
+      "shape": [
+        3355,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A_M05",
+      "catalogue": "primary",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A_P10_primary_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P10_primary_n80001.npy",
+      "sha256": "f79a7268801b65a55cbfb10de9e487a85baff917249b22c3269a56ab6feb6cbc",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_P10",
+      "catalogue": "primary",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A_P10_primary_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P10_primary_n160001.npy",
+      "sha256": "f1af65e4164bc4afd97247e4c192eba9a2d0137e2edf46bfe0d53abe4d0364e2",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_P10",
+      "catalogue": "primary",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A_P10_primary.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A_P10_primary.npy",
+      "sha256": "6aa8e7b092149d8505373d17a2b4496ad16b352501274e8afd17096cbb683f21",
+      "bytes": 80648,
+      "shape": [
+        3355,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A_P10",
+      "catalogue": "primary",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A_M10_primary_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_M10_primary_n80001.npy",
+      "sha256": "dd3e56e111ce4392dff0fe930e0c5df7b107e221717a2a5dd61033867f90a26a",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_M10",
+      "catalogue": "primary",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A_M10_primary_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_M10_primary_n160001.npy",
+      "sha256": "26a7f56013bf1d79c83271b2067a0b9ede8f50fb8f6372a912bcf7f496b9e4dd",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_M10",
+      "catalogue": "primary",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A_M10_primary.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A_M10_primary.npy",
+      "sha256": "2a5f581b014b5f7f5c68e4336b0b94123c1b06953802d2ede62ec6a5010fcf84",
+      "bytes": 80648,
+      "shape": [
+        3355,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A_M10",
+      "catalogue": "primary",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A_P4M_primary_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P4M_primary_n80001.npy",
+      "sha256": "4805b75a83fa385ab7e3412dbc68042d920732ce56657a838699b8e7921c804b",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_P4M",
+      "catalogue": "primary",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A_P4M_primary_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P4M_primary_n160001.npy",
+      "sha256": "d121a44905c29bbf05021bd9c293fcb698dea0970052939ad65b3b566507e226",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_P4M",
+      "catalogue": "primary",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A_P4M_primary.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A_P4M_primary.npy",
+      "sha256": "09befe80f8c3c2f79ed805fc5bdc210a4f60fd166c9b5f86eae31dafc0760cb2",
+      "bytes": 80648,
+      "shape": [
+        3355,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A_P4M",
+      "catalogue": "primary",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A_M4M_primary_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_M4M_primary_n80001.npy",
+      "sha256": "848fe85a037913ad3b6d62ecf75a1fca09e44337f5c52e75fc89a5e6afc160e6",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_M4M",
+      "catalogue": "primary",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A_M4M_primary_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_M4M_primary_n160001.npy",
+      "sha256": "905981be84ebc31e466d020f2a1315f3e72a6c3558dfed3ef1cabb702553c73d",
+      "bytes": 1288448,
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_M4M",
+      "catalogue": "primary",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A_M4M_primary.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A_M4M_primary.npy",
+      "sha256": "c3643d496a47bb0e216827e35b9e364e49a15793f8c54444634fd04784265777",
+      "bytes": 80648,
+      "shape": [
+        3355,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A_M4M",
+      "catalogue": "primary",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "B1_V4_primary_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B1_V4_primary_n80001.npy",
+      "sha256": "38506b387364608318834de97b8aa885411acb773f669f0593438dd42a020b3a",
+      "bytes": 1932608,
+      "shape": [
+        3355,
+        3,
+        12
+      ],
+      "dtype": "complex128",
+      "resource": "B1_V4",
+      "catalogue": "primary",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "B1_V4_primary_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B1_V4_primary_n160001.npy",
+      "sha256": "16cf8fe2feee91c41eee32c4d839a938f095dd855b5d81297e620abf689ff2bb",
+      "bytes": 1932608,
+      "shape": [
+        3355,
+        3,
+        12
+      ],
+      "dtype": "complex128",
+      "resource": "B1_V4",
+      "catalogue": "primary",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_B1_V4_primary.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_B1_V4_primary.npy",
+      "sha256": "e3da094a2aa5f7960f89064bdd88f08d56260efc1310441d46cc129264ccab13",
+      "bytes": 80648,
+      "shape": [
+        3355,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "B1_V4",
+      "catalogue": "primary",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "B2_DUP_primary_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B2_DUP_primary_n80001.npy",
+      "sha256": "5bc6621ccf14d0ece1c4b5ef06ebca0c381e282a734527ce59456d3070bdf5de",
+      "bytes": 1932608,
+      "shape": [
+        3355,
+        3,
+        12
+      ],
+      "dtype": "complex128",
+      "resource": "B2_DUP",
+      "catalogue": "primary",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "B2_DUP_primary_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B2_DUP_primary_n160001.npy",
+      "sha256": "e3f7dbfd54908895344254682c51e4be5e2b642ed531c0b2a67134ebe7d08443",
+      "bytes": 1932608,
+      "shape": [
+        3355,
+        3,
+        12
+      ],
+      "dtype": "complex128",
+      "resource": "B2_DUP",
+      "catalogue": "primary",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_B2_DUP_primary.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_B2_DUP_primary.npy",
+      "sha256": "a429ee33989edddcc391424d84c6d103fe94d292119661506b842fa88e732191",
+      "bytes": 80648,
+      "shape": [
+        3355,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "B2_DUP",
+      "catalogue": "primary",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A0_0_fine_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A0_0_fine_n80001.npy",
+      "sha256": "04186ca1710a91912b3fe4db461b97b24f214de6c70e14a1461b599f771f2e88",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A0_0",
+      "catalogue": "fine",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A0_0_fine_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A0_0_fine_n160001.npy",
+      "sha256": "a8e948d1434c7da93ac16b246aa2d8e829586eab34a90a2f712f9817e2645587",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A0_0",
+      "catalogue": "fine",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A0_0_fine.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A0_0_fine.npy",
+      "sha256": "215572cc618e8ca474296f564c30e242d95171d008a273224d434b29c8d42631",
+      "bytes": 305048,
+      "shape": [
+        12705,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A0_0",
+      "catalogue": "fine",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A_P05_fine_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P05_fine_n80001.npy",
+      "sha256": "be2e05404da7179131af1004ef9224e9a637162e19b4b68f5ffeea4c604ebb9c",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_P05",
+      "catalogue": "fine",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A_P05_fine_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P05_fine_n160001.npy",
+      "sha256": "989e63ac5d54c740b49d4aa251b94b2ece9a22500e9f85b7f083013f58165a56",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_P05",
+      "catalogue": "fine",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A_P05_fine.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A_P05_fine.npy",
+      "sha256": "9ea9a913b094d34d93c34fa0c6009f129d2911cd1d24ccbe36ee4c0c32aa2655",
+      "bytes": 305048,
+      "shape": [
+        12705,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A_P05",
+      "catalogue": "fine",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A_M05_fine_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_M05_fine_n80001.npy",
+      "sha256": "e3b692d1cd5744b402ab9d926c2d6387a777537d66b8458b1ecdaf56e0261bee",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_M05",
+      "catalogue": "fine",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A_M05_fine_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_M05_fine_n160001.npy",
+      "sha256": "89eb5db358b04f9b56a031e67401d2ddeaf42e5fc9d66f1d5d4e2bd1d61ef47a",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_M05",
+      "catalogue": "fine",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A_M05_fine.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A_M05_fine.npy",
+      "sha256": "925330c6e032a116762407edeeffa6822a96846286bb9d94513590c7763e1d59",
+      "bytes": 305048,
+      "shape": [
+        12705,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A_M05",
+      "catalogue": "fine",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A_P10_fine_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P10_fine_n80001.npy",
+      "sha256": "80710706c185fa46be5dd7c8f68a705efc880a67eeaff0575ed644d8334692d7",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_P10",
+      "catalogue": "fine",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A_P10_fine_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P10_fine_n160001.npy",
+      "sha256": "eeb556d9c881147a7b9f75c8d68b06e2236b07071d1c61637d01f760e068bb8a",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_P10",
+      "catalogue": "fine",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A_P10_fine.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A_P10_fine.npy",
+      "sha256": "ea21ee2ea8eb79287bb43953d72c7bbc5d7c22f4b8b0ac127c23c8ee72ec9125",
+      "bytes": 305048,
+      "shape": [
+        12705,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A_P10",
+      "catalogue": "fine",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A_M10_fine_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_M10_fine_n80001.npy",
+      "sha256": "e3c8c4f3af6ae7625478e7d0fc43cfe59c0da6f2f1a28e34b74b430eeec63af0",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_M10",
+      "catalogue": "fine",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A_M10_fine_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_M10_fine_n160001.npy",
+      "sha256": "2c28f029e84fbe481274701f8d6250287047efb3e30e5eab6c077207e2266c90",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_M10",
+      "catalogue": "fine",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A_M10_fine.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A_M10_fine.npy",
+      "sha256": "a7a4a243fb27b958d8ed00583cc96beb2c244893764d69b615f43fbc80665bb2",
+      "bytes": 305048,
+      "shape": [
+        12705,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A_M10",
+      "catalogue": "fine",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A_P4M_fine_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P4M_fine_n80001.npy",
+      "sha256": "1eb8f05ee347452bfc7e5047714dcf1ce940c134dafe09f297c714d83dd44be8",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_P4M",
+      "catalogue": "fine",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A_P4M_fine_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P4M_fine_n160001.npy",
+      "sha256": "2df11e5523435af7c2e11bbac9f84a6d569124f8936a3e3944fd7c289161a05f",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_P4M",
+      "catalogue": "fine",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A_P4M_fine.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A_P4M_fine.npy",
+      "sha256": "4667b41850547d5de3699c4f4caf4f045f8b23baa9e1872ca082352f1aa24dcf",
+      "bytes": 305048,
+      "shape": [
+        12705,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A_P4M",
+      "catalogue": "fine",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "A_M4M_fine_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_M4M_fine_n80001.npy",
+      "sha256": "2827ec997c008eca0d0aebe7368f14047796530dc633548624aa82452641b15a",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_M4M",
+      "catalogue": "fine",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "A_M4M_fine_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_M4M_fine_n160001.npy",
+      "sha256": "54dae1cbd08e2551ff05b17ec774497d5f138113cf92f4d69da305bed1b2628f",
+      "bytes": 4878848,
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128",
+      "resource": "A_M4M",
+      "catalogue": "fine",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_A_M4M_fine.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_A_M4M_fine.npy",
+      "sha256": "076aa82c300b401e1da98b16ae37ffcc9d37646b89e40eee34da6842633318df",
+      "bytes": 305048,
+      "shape": [
+        12705,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "A_M4M",
+      "catalogue": "fine",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "B1_V4_fine_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B1_V4_fine_n80001.npy",
+      "sha256": "7371496c99b640868d62f84569f509472e5352ae7394d1e27d3e8ade1ff24d8a",
+      "bytes": 7318208,
+      "shape": [
+        12705,
+        3,
+        12
+      ],
+      "dtype": "complex128",
+      "resource": "B1_V4",
+      "catalogue": "fine",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "B1_V4_fine_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B1_V4_fine_n160001.npy",
+      "sha256": "8c326186bfbf3f0365d60411f9833018a017b39aad1add641867135cb4618765",
+      "bytes": 7318208,
+      "shape": [
+        12705,
+        3,
+        12
+      ],
+      "dtype": "complex128",
+      "resource": "B1_V4",
+      "catalogue": "fine",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_B1_V4_fine.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_B1_V4_fine.npy",
+      "sha256": "59d5155236a32b2ddc133db1d28753f921ec15425b238c7c745ffb97b9f3098b",
+      "bytes": 305048,
+      "shape": [
+        12705,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "B1_V4",
+      "catalogue": "fine",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    },
+    {
+      "filename": "B2_DUP_fine_n80001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B2_DUP_fine_n80001.npy",
+      "sha256": "c15de9adfb7b2f72e50a2e7b03b2f939604adacee34f8b30a4772e8872b9a123",
+      "bytes": 7318208,
+      "shape": [
+        12705,
+        3,
+        12
+      ],
+      "dtype": "complex128",
+      "resource": "B2_DUP",
+      "catalogue": "fine",
+      "mesh": 80001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "B2_DUP_fine_n160001.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B2_DUP_fine_n160001.npy",
+      "sha256": "6217d9c123e3a3eaabbcf78b7ed3049cfdf525ffd6a4f0968abc16f7cf620697",
+      "bytes": 7318208,
+      "shape": [
+        12705,
+        3,
+        12
+      ],
+      "dtype": "complex128",
+      "resource": "B2_DUP",
+      "catalogue": "fine",
+      "mesh": 160001,
+      "role": "archived complex field"
+    },
+    {
+      "filename": "SHAPE_ERROR_B2_DUP_fine.npy",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\SHAPE_ERROR_B2_DUP_fine.npy",
+      "sha256": "79728380f051e58c9d87e5b74f70ca60dac91ba96ccd9cd72a750683a086e217",
+      "bytes": 305048,
+      "shape": [
+        12705,
+        3
+      ],
+      "dtype": "float64",
+      "resource": "B2_DUP",
+      "catalogue": "fine",
+      "mesh": "comparison",
+      "role": "historical per-candidate shape errors"
+    }
+  ],
+  "36_complex_and18_error_arrays": true,
+  "pre_A_only_hashes_headers_coordinate_identity": true,
+  "new_scores_or_ranks_before_A": false,
+  "historical_G0": "FORWARD_NUMERIC_NOT_ADMITTED_UNCHANGED",
+  "A": "NOT_EVALUATED",
+  "B": "NOT_EVALUATED",
+  "CHIGH": "UNCERTIFIED",
+  "R4_percent": 0
+}

@@ -1,0 +1,234 @@
+{
+  "task_parameters": {
+    "stage": "T2_N1_ARCHIVED_FIELD_SCORE_STABILITY_DIAGNOSTIC",
+    "authorization": "ONE_EXECUTION_OF_READ_ONLY_ARCHIVED_NUMERIC_DIAGNOSTICS_ONLY",
+    "parent_sha": "6b60c39f52b68a361b2c005e74126b9f68401b77",
+    "repository": "chengcongcong222/WSL-CZ-target-localization",
+    "output_directory": "results/R4_T2_N1_ARCHIVED_FIELD_SCORE_STABILITY",
+    "D_local_directory": "D:/ProjectStorage/WSL-CZ/T2_N1",
+    "D_parent_archive": "D:/ProjectStorage/WSL-CZ/T2_TILT_G0",
+    "source_directory": "results/R4_T2_TILT_VS_SHORT_VERTICAL_G0",
+    "resources": [
+      "A0_0",
+      "A_P05",
+      "A_M05",
+      "A_P10",
+      "A_M10",
+      "A_P4M",
+      "A_M4M",
+      "B1_V4",
+      "B2_DUP"
+    ],
+    "registered_comparisons": [
+      {
+        "pair": "A",
+        "treated": "A_P4M",
+        "control": "A0_0",
+        "channels": 8
+      },
+      {
+        "pair": "B",
+        "treated": "B1_V4",
+        "control": "B2_DUP",
+        "channels": 12
+      }
+    ],
+    "catalogues": {
+      "primary": 3355,
+      "fine": 12705
+    },
+    "modal_meshes": [
+      80001,
+      160001
+    ],
+    "frequencies_hz": [
+      201,
+      235,
+      283
+    ],
+    "expected_candidate_frequency_vectors": 433620,
+    "original_gate": {
+      "max_shape_error": 0.002,
+      "observed_max_shape_error": 0.0073441923068232945,
+      "individual_vectors_above_gate": 8012,
+      "failed_groupwise_max_checks": 54,
+      "groupwise_max_checks": 54,
+      "formal_status": "FORWARD_NUMERIC_NOT_ADMITTED",
+      "CHIGH": "UNCERTIFIED"
+    },
+    "projector_score": {
+      "normalized_complex_space": true,
+      "per_frequency_unknown_common_complex_source": true,
+      "score": "mean_{f=3,k=8} abs(u_c_f.conj() dot w_k_f)^2",
+      "candidate_bound": "E(c)=mean_{f=3} sqrt(1-abs(u_H_cf^H u_L_cf)^2)",
+      "scope": "same_fixed_observation_w_across_meshes_only"
+    },
+    "strata": {
+      "range_km": [
+        45,
+        50,
+        55,
+        60
+      ],
+      "range_bins": [
+        "[45,50)",
+        "[50,55)",
+        "[55,60]"
+      ],
+      "theta_abs_deg": [
+        "theta=0",
+        "0<theta<5",
+        "theta=5"
+      ],
+      "source_depth_m": [
+        180,
+        190,
+        200,
+        210,
+        220
+      ],
+      "norm_deciles": 10,
+      "weak_decile_tie_break": "ascending_candidate_id",
+      "top_error_candidates_per_group": 5,
+      "quantiles": [
+        0.5,
+        0.9,
+        0.95,
+        0.99,
+        1.0
+      ],
+      "spearman_is_descriptive": true,
+      "no_candidate_removed": true
+    },
+    "template_probes": [
+      {
+        "id": "P01",
+        "r_km": 45.5,
+        "abs_theta_deg": 0.0,
+        "z_m": 180
+      },
+      {
+        "id": "P02",
+        "r_km": 50.0,
+        "abs_theta_deg": 0.0,
+        "z_m": 200
+      },
+      {
+        "id": "P03",
+        "r_km": 55.0,
+        "abs_theta_deg": 2.5,
+        "z_m": 200
+      },
+      {
+        "id": "P04",
+        "r_km": 58.0,
+        "abs_theta_deg": 4.5,
+        "z_m": 210
+      },
+      {
+        "id": "P05",
+        "r_km": 59.5,
+        "abs_theta_deg": 5.0,
+        "z_m": 220
+      }
+    ],
+    "probe_wrong_candidate_rule": "abs(candidate_r_km-probe_r_km)>=1.0 exactly; theta_and_z_profiled_full",
+    "probe_generator": "archived_normalized_mesh160001_template_no_noise_not_real_observation",
+    "probe_observation_rule": "fixed_high_mesh_template_for_comparing_both_score_models",
+    "ranking_rule": "descending_score_then_ascending_candidate_id",
+    "candidate_gap": "G(mesh)=score(probe)-max_score(wrong_range_candidates)",
+    "gap_bound": "B=E(probe)+max_{wrong} E(candidate)",
+    "pair_advantage": "G(treated)-G(control)",
+    "pair_robust_certificate": "abs(high_advantage)>B_treated+B_control and direction_consistent_both_catalogues_and_five_probes_for_resource_pair",
+    "output_row_counts": {
+      "per_resource_frequency_catalogue_shape_summary": 54,
+      "template_probe_ranking": 90,
+      "pair_advantage_numeric_intervals": 20
+    },
+    "no_new_solver": true,
+    "no_new_waveform_DFT_noise_or_optimizer": true,
+    "R4_percent_after": 0,
+    "historical_A_B_status": "NOT_EVALUATED",
+    "independent_audit": {
+      "max_error_discrepancy": 1e-10,
+      "max_score_discrepancy": 1e-10,
+      "bound_tolerance": 1e-10,
+      "audit_reads_original_archived_complex_fields": true
+    },
+    "budgets": {
+      "total_wall_s": 1800,
+      "peak_RSS_bytes": 4294967296,
+      "new_D_bytes": 2147483648,
+      "new_Git_bytes": 67108864,
+      "BLAS_threads_max": 4,
+      "science_processes": 1
+    },
+    "commit_policy": "Commit A frozen code and inputs; exactly one read-only archive analysis; cold audit and Commit B; push verify STOP"
+  },
+  "normalization": "complex128 Euclidean norm; zero/nonfinite vector => input anomaly STOP preserving IDs; never silently zero",
+  "e_main": "norm(u_H-u_L*vdot(u_L,u_H)), stable equivalent of sqrt(1-|inner|^2)",
+  "e_cold": "Householder thin QR of [u_L,u_H], abs(R22), full vectors; projector eigvalsh separate deterministiccontrols",
+  "main_scores": "mean3 abs(einsum(u_candidate.conj(),fixed_H_probe))^2, K identical algebraiccopies; no synthetic spectra",
+  "cold_scores": "full Hermitian projector quadratic forms using independently normalized raw archives, chunked; no main scoring imports",
+  "ranking": "strict raw float64 descending score then lower candidateID; no epsilon retie, no truth",
+  "roundoff_diagnostic": "also flag abs(G/Adv)<=1e-10; do not overwrite raw signs/ranks; independent near-tied argmax ID changes separately reported, score tolerance1e-10 does not certify IDs",
+  "statistics": "median conventional, P90/P95/P99 nearest rank ceil(q*N); Spearman average ranks; equal normdeciles floor(10*ascending-stable-position/N)",
+  "strata": "marginal range/angle/depth bins plus joint3x3x5, no deletion; complete nonnegative reps, mirrors remain implicit",
+  "probe_ids": [
+    [
+      "P01",
+      45.5,
+      0.0,
+      180.0
+    ],
+    [
+      "P02",
+      50.0,
+      0.0,
+      200.0
+    ],
+    [
+      "P03",
+      55.0,
+      2.5,
+      200.0
+    ],
+    [
+      "P04",
+      58.0,
+      4.5,
+      210.0
+    ],
+    [
+      "P05",
+      59.5,
+      5.0,
+      220.0
+    ]
+  ],
+  "wrong_distance_radius_km": 1.0,
+  "historical_error_gate": 0.002,
+  "historical_gate_interpretation": "UNCHANGED_OLD_G0_ONLY; no new admission threshold",
+  "inequality_roundoff_tolerance": 1e-10,
+  "archive_e_discrepancy_tolerance": 1e-10,
+  "cold_score_tolerance": 1e-10,
+  "robust_pair": "all10 (bothcatalogues*5) strict abs(AdvH)>Bsum and consistent direction; report A/B separately",
+  "sensitive": "any most-dangerous wrong candidateID change, raw G sign flip or main-pair Adv sign flip; report raw nearzero flags too",
+  "unresolved": "pair not all10 robust; may coexist with sensitive",
+  "budgets": {
+    "total_wall_s": 1800,
+    "peak_RSS_bytes": 4294967296,
+    "new_D_bytes": 2147483648,
+    "new_Git_bytes": 67108864,
+    "BLAS_threads_max": 4,
+    "science_processes": 1
+  },
+  "BLAS_threads": 1,
+  "single_science_process": true,
+  "new_propagation_MC_receiver_spectrum_optimization_FIM": 0,
+  "R4_percent": 0,
+  "historical_G0": "FORWARD_NUMERIC_NOT_ADMITTED_UNCHANGED",
+  "A_B": "NOT_EVALUATED",
+  "CHIGH": "UNCERTIFIED",
+  "STOP_after_B": true
+}
