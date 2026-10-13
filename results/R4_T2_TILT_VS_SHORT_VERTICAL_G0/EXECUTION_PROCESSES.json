@@ -1,0 +1,11 @@
+[
+  {
+    "stage": [
+      "t2_tilt_g0_forward.py"
+    ],
+    "returncode": 1,
+    "wall_s": 133.21900000004098,
+    "peak_RSS_bytes": 88559616,
+    "log": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\t2_tilt_g0_forward.py.log"
+  }
+]

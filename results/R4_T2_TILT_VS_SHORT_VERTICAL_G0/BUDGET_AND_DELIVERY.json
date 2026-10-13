@@ -1,0 +1,21 @@
+{
+  "science_wall_s": 133.21900000004098,
+  "peak_RSS_bytes": 88559616,
+  "new_D_bytes_at_delivery": 131161621,
+  "new_git_result_bytes": 2172980,
+  "limits": {
+    "science_seconds": 21600,
+    "RSS": 8589934592,
+    "D_new": 34359738368,
+    "Git_new": 536870912
+  },
+  "KRAKEN": 6,
+  "FIELD": 3,
+  "formal_calibration_base_records": 0,
+  "formal_test_base_innovations": 0,
+  "formal_test_configs": 0,
+  "forward_resource_candidate_states": 144540,
+  "forward_frequency_spatial_vectors": 433620,
+  "formal_scoring_and_truth_retention": "NOT_EVALUATED",
+  "RSS_scope": "sampled main Python compute process; solver child RSS not separately sampled"
+}

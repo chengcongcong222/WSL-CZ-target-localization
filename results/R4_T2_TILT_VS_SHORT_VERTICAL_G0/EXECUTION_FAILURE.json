@@ -1,0 +1,8 @@
+{
+  "stage": [
+    "t2_tilt_g0_forward.py"
+  ],
+  "returncode": 1,
+  "action": "STOP_NO_SCIENTIFIC_RERUN",
+  "science_wall_s": 133.21900000004098
+}

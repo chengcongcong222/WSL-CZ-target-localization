@@ -1,0 +1,13 @@
+{
+  "scope": "forward controls and archived modal/field/candidate reconstruction only",
+  "formal_calibration_records": 0,
+  "formal_test_records": 0,
+  "waveform_DFT_MC_candidate_acceptance_boundaries": "NOT_EVALUATED",
+  "zero_DFT_errors_in_original_validation": "ZERO_CHECKS_NOT_A_PRECISION_CLAIM",
+  "zero_acceptance_flips": "ZERO_CHECKS_NOT_A_BOUNDARY_CERTIFICATE",
+  "pairing_invariance": "design and geometry controls only; no received records generated",
+  "additional_FIELD_review": "single float32 saved-range cold diagnostic, no formal threshold replacement or new solver",
+  "independent_checks": 1061,
+  "FIELD_saved_coordinates_max_error": 0.001770790338218349,
+  "R4_percent": 0
+}

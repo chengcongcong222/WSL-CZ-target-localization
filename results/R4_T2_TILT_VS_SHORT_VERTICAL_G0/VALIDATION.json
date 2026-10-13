@@ -1,0 +1,17 @@
+{
+  "PASS": true,
+  "checks": 1061,
+  "FAIL": 0,
+  "cold_records_rebuilt": 0,
+  "common8_raw_pairs": 0,
+  "all_resources_source_noise_pairing": "same privatebaseinnovation; tilted raw signal differs by geometry, commongeometry raw8 byte-equal",
+  "max_DFT_relative": 0.0,
+  "max_waveform_relative": 0.0,
+  "max_cold_score_absolute": 0.0,
+  "cold_boundary_checks": 0,
+  "acceptance_flips": 0,
+  "new_solver_MC_or_inference": 0,
+  "audit_wall_s": 0.9529999999795109,
+  "frozen_hashes_checked": 41,
+  "external_mode_or_derivative_accuracy_certified": false
+}

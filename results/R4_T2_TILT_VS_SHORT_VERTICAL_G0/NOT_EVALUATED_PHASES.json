@@ -1,0 +1,10 @@
+{
+  "reason": "FORWARD_NUMERIC_NOT_ADMITTED, all9resources/both completecatalogues fail registered0.002 worst-case shape gate",
+  "calibration_waveforms_DFT_thresholds": "NOT_EVALUATED",
+  "test_waveforms_DFT_fullcatalogue_inference": "NOT_EVALUATED",
+  "A_B_signal_truth_retention_envelope_point_error": "NOT_EVALUATED",
+  "C0_C1_SNR_depth_angle_performance_comparison": "NOT_EVALUATED",
+  "no_fake_ZERO_or_PASS_for_unrun_tests": true,
+  "scientific_new_runs_after_stop": 0,
+  "state": "STOP"
+}

@@ -1,0 +1,17 @@
+{
+  "PASS": true,
+  "design_identities_verified": 41,
+  "original_science_and_recovery_sources_verified": 119,
+  "solver_calls": {
+    "KRAKEN": 6,
+    "FIELD": 3
+  },
+  "no_formal_calibration_or_test_created": true,
+  "no_science_after_forward_stop": true,
+  "raw_solver_artifacts_committed": true,
+  "original_reporting_exception_retained": true,
+  "frozen_scripts_unchanged": true,
+  "research_lead_status": "PENDING",
+  "R4_percent": 0,
+  "STOP": true
+}

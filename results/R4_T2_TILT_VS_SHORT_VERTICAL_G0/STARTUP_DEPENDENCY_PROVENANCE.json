@@ -1,0 +1,10 @@
+{
+  "original_startup_exception": "ModuleNotFoundError: No module named psutil",
+  "before_EXECUTION_STARTED_or_new_solver": true,
+  "remedy": "set PYTHONPATH to preexisting D:/ProjectStorage/WSL-CZ/HLA_H1/runtime_packages; no package installed or scientific version change",
+  "psutil_version": "7.2.2",
+  "module_path": "D:\\ProjectStorage\\WSL-CZ\\HLA_H1\\runtime_packages\\psutil\\__init__.py",
+  "module_SHA256": "7b6a0675824eb1fa2ff0cb1eb36e358dc454703e51dfa4e9a0e6ccd26a159f0c",
+  "frozen_code_modified": false,
+  "numpy_version": "1.26.4"
+}

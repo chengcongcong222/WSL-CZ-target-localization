@@ -1,0 +1,4 @@
+control,frequency_hz,error,limit,PASS,n_points,source_z_m,one_factor_per_frequency
+FIELD_shared_scalar_all3resources_all3ranges,201.0,0.0015255288384354818,0.002,True,84,200,True
+FIELD_shared_scalar_all3resources_all3ranges,235.0,0.002251655103727467,0.002,False,84,200,True
+FIELD_shared_scalar_all3resources_all3ranges,283.0,0.0021703686623365513,0.002,False,84,200,True

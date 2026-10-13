@@ -1,0 +1,10 @@
+{
+  "path": "results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+  "parent": "251aa604af546827ab10080861c776d8666fe780",
+  "original_working_SHA256": "fbaa543c3c09a8d38238825ece275e0969dd809bf1596ab04e0e2cb354394dc7",
+  "parent_blob_SHA256": "ffaf425a2de180b25ac12d08bfe1c90bab28bac9cabd377159caa0c5c2e980d1",
+  "original_working_prefix_preserved": true,
+  "new_rows": 1,
+  "R4_delta": 0,
+  "new_working_SHA256": "36c59eee5db451309a78198eab512df52a17c5cb075859d5feb285b952415d53"
+}

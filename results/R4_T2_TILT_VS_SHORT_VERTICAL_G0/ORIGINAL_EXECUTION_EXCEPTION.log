@@ -1,0 +1,39 @@
+KRAKEN 1 /6 modes 641
+KRAKEN 2 /6 modes 749
+KRAKEN 3 /6 modes 902
+KRAKEN 4 /6 modes 641
+KRAKEN 5 /6 modes 749
+KRAKEN 6 /6 modes 902
+FIELD 201 shape 0.0015255288384354818
+FIELD 235 shape 0.002251655103727467
+FIELD 283 shape 0.0021703686623365513
+MESH primary A0_0 max 0.004451684738905436
+MESH primary A_P05 max 0.004819657841976157
+MESH primary A_M05 max 0.00462039386226433
+MESH primary A_P10 max 0.005334831001697391
+MESH primary A_M10 max 0.004734951200406542
+MESH primary A_P4M max 0.005507591336793296
+MESH primary A_M4M max 0.004835199476201056
+MESH primary B1_V4 max 0.004531393216155614
+MESH primary B2_DUP max 0.005286841524922015
+MESH fine A0_0 max 0.006932363299857148
+MESH fine A_P05 max 0.0073441923068232945
+MESH fine A_M05 max 0.006161840395836811
+MESH fine A_P10 max 0.00564097545180966
+MESH fine A_M10 max 0.004734951200406542
+MESH fine A_P4M max 0.005507591336793296
+MESH fine A_M4M max 0.004835199476201056
+MESH fine B1_V4 max 0.004531393216155614
+MESH fine B2_DUP max 0.0072665169509065035
+Traceback (most recent call last):
+  File "D:\XiaomiMiMoProjects\WSL系统汇聚区目标定位\t2_tilt_g0_forward.py", line 69, in <module>
+    if __name__=='__main__':main()
+  File "D:\XiaomiMiMoProjects\WSL系统汇聚区目标定位\t2_tilt_g0_forward.py", line 64, in main
+    allcontrols=fields+cal+sym;table(OUT/'FORWARD_CONTROLS.csv',allcontrols)
+  File "D:\XiaomiMiMoProjects\WSL系统汇聚区目标定位\t2_tilt_g0_core.py", line 27, in table
+    w=csv.DictWriter(f,fieldnames=fields or list(a[0]));w.writeheader();w.writerows(a)
+  File "C:\Users\ccc\AppData\Local\Programs\Python\Python310\lib\csv.py", line 157, in writerows
+    return self.writer.writerows(map(self._dict_to_list, rowdicts))
+  File "C:\Users\ccc\AppData\Local\Programs\Python\Python310\lib\csv.py", line 149, in _dict_to_list
+    raise ValueError("dict contains fields not in fieldnames: "
+ValueError: dict contains fields not in fieldnames: 'resource'

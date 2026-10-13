@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-13T05:50:34.649800+00:00",
+  "original_failure": "CSV DictWriter mixed field schemas after all6KRAKEN/3FIELD/both full catalogues/CALfields, before forward decision and any MC",
+  "original_code_sha256": "f961f010f5c9842758799c1e422c408629449748bb84e40c373822e1bdf27bb9",
+  "recovery_code_sha256": "e7edc1ad261f15ac311d27a048d0b3a7c1a8b87a502427b39337716a3efdbf24",
+  "source_seal_sha256": "82bacc0a44a0d7f1f43e1d7cf65d656b4fac2bf40bd0b9a1309cfb8704519b11",
+  "changes": "restore missing reporting aggregation from stored arrays, replace partial CSV, seal existing outputs; symmetry analytic proof and stored shared channels; frozen tolerances unchanged",
+  "new_solver_MC_signal_DFT_inference_or_optimization": 0,
+  "all_sealed_sources_unchanged": true,
+  "science_failure_scope": "reporting schema exception; independently observed forward numeric nonadmission remains",
+  "STOP": true
+}

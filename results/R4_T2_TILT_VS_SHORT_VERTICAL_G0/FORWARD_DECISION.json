@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-13T05:50:34.273247+00:00",
+  "admitted": false,
+  "status": "FORWARD_NUMERIC_NOT_ADMITTED",
+  "CHIGH": "CONDITIONAL_MODAL_WINDOW_LIMIT",
+  "new_KRAKEN": 6,
+  "new_FIELD": 3,
+  "max_cross_mesh_profiled_error": 0.0073441923068232945,
+  "max_FIELD_profiled_error": 0.002251655103727467,
+  "failed_catalogue_frequency_controls": 54,
+  "failed_other_controls": 4,
+  "full_catalogue_states_checked": 433620,
+  "calibration_test_MC_allowed": false,
+  "interpolation": "NONE_DIRECT_ALL_MODE_SUM",
+  "science_wall_s": 133.21900000004098,
+  "output_only_recovery": true,
+  "original_failure_retained": true,
+  "original_frozen_code_not_modified": true
+}

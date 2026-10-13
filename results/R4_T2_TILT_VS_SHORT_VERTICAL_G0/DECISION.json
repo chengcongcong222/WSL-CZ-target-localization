@@ -1,0 +1,24 @@
+{
+  "stage": "T2-TILT-G0",
+  "status": "FORWARD_NUMERIC_NOT_ADMITTED",
+  "A": "NOT_EVALUATED",
+  "B": "NOT_EVALUATED",
+  "primary_geometry_counts": {
+    "A": "NOT_EVALUATED",
+    "B": "NOT_EVALUATED",
+    "denominator": 3
+  },
+  "calibration_records_executed": 0,
+  "planned_calibration_base_records": 256,
+  "test_base_innovations_executed": 0,
+  "test_resource_configs_executed": 0,
+  "planned_test_resource_configs": 5184,
+  "main_inference": "NOT_EVALUATED",
+  "propagation_status": "CONDITIONAL_MODAL_WINDOW_LIMIT",
+  "original_H3_P0_P1_SP1_RX_AUX_gate_unchanged": true,
+  "output_only_recovery": true,
+  "R4_percent": 0,
+  "research_lead_audit": "PENDING",
+  "state": "STOP",
+  "next_stage_authorized": false
+}
