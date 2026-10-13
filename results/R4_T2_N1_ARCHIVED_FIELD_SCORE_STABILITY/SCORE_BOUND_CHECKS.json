@@ -1,0 +1,10 @@
+{
+  "candidate_probe_checks": 722700,
+  "max_signed_bound_excess": -1.7562930750593594e-05,
+  "all_candidate_bounds_covered_with_tolerance": true,
+  "gap_checks": 90,
+  "pair_advantage_checks": 20,
+  "no_sqrtK_reduction": true,
+  "all90_fixed_H_observation_between_models": true,
+  "inequality_tolerance": 1e-10
+}

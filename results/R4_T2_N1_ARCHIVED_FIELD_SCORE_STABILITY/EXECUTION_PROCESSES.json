@@ -1,0 +1,23 @@
+[
+  {
+    "stage": "t2_n1_analyze.py",
+    "returncode": 0,
+    "wall_s": 3.9689999998081475,
+    "sampled_peak_RSS_bytes": 132317184,
+    "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N1\\t2_n1_analyze.py.log"
+  },
+  {
+    "stage": "t2_n1_audit.py",
+    "returncode": 0,
+    "wall_s": 3.9380000000819564,
+    "sampled_peak_RSS_bytes": 88326144,
+    "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N1\\t2_n1_audit.py.log"
+  },
+  {
+    "stage": "t2_n1_report.py",
+    "returncode": 0,
+    "wall_s": 0.875,
+    "sampled_peak_RSS_bytes": 67158016,
+    "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N1\\t2_n1_report.py.log"
+  }
+]

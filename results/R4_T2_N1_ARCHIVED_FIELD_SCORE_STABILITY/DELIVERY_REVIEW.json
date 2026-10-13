@@ -1,0 +1,44 @@
+{
+  "PASS": true,
+  "parent_SHA": "6b60c39f52b68a361b2c005e74126b9f68401b77",
+  "design_SHA": "6c9fb3fd25bffd0d81bede9eeeed25bec2066e59",
+  "task_SHA256": "36a0d6341046263490a69ae12dff5f64e25d0e4c4d7068dd6327344b3d0f0fc9",
+  "frozen_code_and_input_identities_verified": 19,
+  "old_source_identities_verified": 69,
+  "all_sealed_main_results_unchanged": true,
+  "old_T2_G0_gate_unchanged": true,
+  "scientific_execution_times": [
+    {
+      "stage": "t2_n1_analyze.py",
+      "returncode": 0,
+      "wall_s": 3.9689999998081475,
+      "sampled_peak_RSS_bytes": 132317184,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N1\\t2_n1_analyze.py.log"
+    },
+    {
+      "stage": "t2_n1_audit.py",
+      "returncode": 0,
+      "wall_s": 3.9380000000819564,
+      "sampled_peak_RSS_bytes": 88326144,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N1\\t2_n1_audit.py.log"
+    },
+    {
+      "stage": "t2_n1_report.py",
+      "returncode": 0,
+      "wall_s": 0.875,
+      "sampled_peak_RSS_bytes": 67158016,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N1\\t2_n1_report.py.log"
+    }
+  ],
+  "storage": {
+    "wall_s": 0,
+    "RSS_bytes": 31866880,
+    "new_D_bytes": 26078313,
+    "new_git_result_bytes": 1765774
+  },
+  "independent_audit_PASS": true,
+  "new_solver_MC_receiver_optimizer_FIM": 0,
+  "research_lead_audit": "PENDING",
+  "R4_percent": 0,
+  "STOP": true
+}

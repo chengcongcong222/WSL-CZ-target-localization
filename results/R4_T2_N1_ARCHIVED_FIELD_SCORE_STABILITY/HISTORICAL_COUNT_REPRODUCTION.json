@@ -1,0 +1,10 @@
+{
+  "PASS": true,
+  "frequency_vectors": 433620,
+  "individual_above_0p002": 8012,
+  "groupwise_max_failures": 54,
+  "groupwise_denominator": 54,
+  "shape_error_max": 0.007344192306823264,
+  "old_error_max_absolute_discrepancy": 1.222980050563649e-16,
+  "original_admission_changed": false
+}

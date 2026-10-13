@@ -1,0 +1,42 @@
+{
+  "stage": "T2-N1",
+  "status": "ARCHIVED_NUMERIC_DIAGNOSTIC_COMPLETE",
+  "pair_analysis": {
+    "A": {
+      "analysis_tags": [
+        "ARCHIVED_TEMPLATE_NUMERIC_IMPACT_UNRESOLVED"
+      ],
+      "strict_probe_certificates": 9,
+      "certificate_denominator": 10,
+      "actual_advantage_sign_flips": 0,
+      "most_wrong_ID_changes_in_pair_resources": 0,
+      "gap_sign_flips_in_pair_resources": 0,
+      "all10_robust_same_direction": false,
+      "G0_array_performance": "NOT_EVALUATED"
+    },
+    "B": {
+      "analysis_tags": [
+        "ARCHIVED_TEMPLATE_NUMERIC_COMPARISON_ROBUST_IN_RECORDED_PROBES"
+      ],
+      "strict_probe_certificates": 10,
+      "certificate_denominator": 10,
+      "actual_advantage_sign_flips": 0,
+      "most_wrong_ID_changes_in_pair_resources": 0,
+      "gap_sign_flips_in_pair_resources": 0,
+      "all10_robust_same_direction": true,
+      "G0_array_performance": "NOT_EVALUATED"
+    }
+  },
+  "global_ranking_sensitive": false,
+  "HISTORICAL_G0_FORWARD_NUMERIC_NOT_ADMITTED_UNCHANGED": true,
+  "A_NOT_EVALUATED": true,
+  "B_NOT_EVALUATED": true,
+  "CHIGH_UNCERTIFIED": true,
+  "R4_percent": 0,
+  "new_KRAKEN_FIELD_other_propagation": 0,
+  "new_MC_waveform_spectrum_optimizer_FIM": 0,
+  "probe_observation_scope": "archived high-mesh templates, NOT real or simulated receiver measurements",
+  "research_lead_audit": "PENDING",
+  "state": "STOP",
+  "next_scientific_stage_authorized": false
+}

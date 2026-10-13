@@ -1,0 +1,15 @@
+{
+  "all_stages_wall_s": 8.781999999890104,
+  "sampled_peak_RSS_bytes": 132317184,
+  "storage": {
+    "wall_s": 0,
+    "RSS_bytes": 32481280,
+    "new_D_bytes": 26073912,
+    "new_git_result_bytes": 1761373
+  },
+  "new_KRAKEN_FIELD_propagation": 0,
+  "new_MC_waveform_DFT_spectra_optimization_FIM": 0,
+  "numeric_worker_processes": 1,
+  "BLAS_threads": 1,
+  "STOP": true
+}

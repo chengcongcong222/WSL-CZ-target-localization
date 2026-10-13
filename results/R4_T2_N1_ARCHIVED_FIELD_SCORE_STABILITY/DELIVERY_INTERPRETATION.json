@@ -1,0 +1,57 @@
+{
+  "only_previously_reported_fields_aggregated": true,
+  "score_max_E_dimensionless": 0.0028204286395541837,
+  "observed_probe_max_score_change_dimensionless": 0.002354920823744555,
+  "most_dangerous_wrong_ID_changes": 0,
+  "full_distance_order_changed_groups": 85,
+  "full_state_order_changed_groups": 90,
+  "probe_group_denominator": 90,
+  "wrong_argmax_ID_strict_interval_certificates": 2,
+  "A_unresolved_probe_rows": [
+    {
+      "catalogue": "fine",
+      "probe": "P02",
+      "Adv_H": 0.004093633591767398,
+      "Adv_L": 0.004078663173066821,
+      "B": 0.005518617162231327
+    }
+  ],
+  "A_negative_advantage_rows": [
+    {
+      "catalogue": "primary",
+      "probe": "P04",
+      "Adv_H": -0.04384004468822922,
+      "Adv_L": -0.04397023711898118
+    },
+    {
+      "catalogue": "fine",
+      "probe": "P04",
+      "Adv_H": -0.029155096922888868,
+      "Adv_L": -0.02916793507598847
+    }
+  ],
+  "B_all10_positive_and_strict": true,
+  "failure_counts_by_withingroup_norm_decile": {
+    "1": 6910,
+    "2": 961,
+    "3": 141,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "spearman_range": [
+    -0.8857143001086453,
+    -0.7056433712218451
+  ],
+  "no_new_scientific_calculation_or_reclassification": true,
+  "source_summary_hashes": {
+    "TEMPLATE_PROBE_RANKING.csv": "0b7eb23b16f4a035a1a918234af161a78d02a2e2a8966fb3e63c3e76c6d56557",
+    "PAIR_ADVANTAGE_NUMERIC_INTERVALS.csv": "946fa888f421e3386ddbc568b58a5bb0e1af62a9e45bffde4453caf640bb0c23",
+    "FIELD_NORM_DECILE_STRESS.csv": "f9b3b7c227f2f23ac1e23b4c9172f2e0abbcf7dd829c84aac708fbde1ff688a2",
+    "SCORE_PERTURBATION_BOUNDS_BY_RESOURCE.csv": "95a03fd56bcf65277228fb91ef92ad5c3afc121829bc604365da4f92b279a10a"
+  }
+}

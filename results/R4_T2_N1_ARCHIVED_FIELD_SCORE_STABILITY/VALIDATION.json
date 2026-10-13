@@ -1,0 +1,36 @@
+{
+  "PASS": true,
+  "check_rows": 4805,
+  "FAIL": 0,
+  "source_identities": 69,
+  "full_shape_error_entries": 433620,
+  "full_E_candidate_entries": 144540,
+  "full_probe_score_entries_both_models": 1445400,
+  "probe_groups": 90,
+  "pair_advantage_groups": 20,
+  "max_shape_error_absolute_discrepancy": 1.410113345534647e-15,
+  "max_E_absolute_discrepancy": 7.902207534160599e-16,
+  "max_score_absolute_discrepancy": 1.1102230246251565e-15,
+  "max_signed_fixed_w_bound_excess": -1.7562930750852786e-05,
+  "historical_above8012_reproduced": 8012,
+  "historical_failed_max_groups_reproduced": 54,
+  "independent_wrong_argmax_ID_differences": 0,
+  "independent_pair_certificate_counts": {
+    "A": 9,
+    "B": 10
+  },
+  "independent_pair_advantage_sign_flips": {
+    "A": 0,
+    "B": 0
+  },
+  "near_roundoff_classification_notes": 0,
+  "original_inputs_read_again": true,
+  "main_score_function_used": false,
+  "source_mutations_or_new_physical_inputs": 0,
+  "wall_s": 3.702999999979511,
+  "tolerances": {
+    "e_score_inequalities": 1e-10
+  },
+  "scope": "two_archived_meshes_not_physical_accuracy_or_receiver_performance",
+  "R4_percent": 0
+}
