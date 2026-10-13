@@ -1,0 +1,13 @@
+control,error,limit,PASS
+coordinate_and_primary4m_span,4.778399897986674e-13,1e-10,True
+B1_B2_original8_and_DUP,0.0,1e-10,True
+plane_wave_axis_projection_and_mirror,0.0,1e-10,True
+source_phase_amplitude_invariance,0.0,1e-10,True
+real_waveform_DFT_identity,3.161033009574717e-15,1e-10,True
+independent_sine_fit,1.9376047131234164e-15,1e-10,True
+covariance_direct_score,0.0,1e-10,True
+C1_no_false_gain_invariance,0.0,1e-10,True
+noise_DFT_variance,0.04241871549017895,0.12,True
+nearest_rank244_and_empty_INF,0.0,1e-10,True
+seed_test_calibration_isolation,0.0,1e-10,True
+once_guard_absent,0.0,1e-10,True

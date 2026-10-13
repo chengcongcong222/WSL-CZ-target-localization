@@ -1,0 +1,161 @@
+{
+  "template_path": "results\\R3_C2_Yang_SA_depth\\R3_C2_1\\_kraken_zgrid\\zgrid_f201.env",
+  "template_SHA256": "f5f383832b6429cfab766d39beb9fe479699f117b97dfacf63c035913e5650a9",
+  "solver_KRAKEN_SHA256": "997d533594c89f8cc63b520ae29cadec743ecfbdb64898f4c3294ab0254f4eb7",
+  "solver_FIELD_SHA256": "65067be0f3fc3eb9cdf7b73e8a8888e0e3beabaa2de24fa25a24b960f03b00ba",
+  "expected_output_depths_m": [
+    180.0,
+    185.0,
+    190.0,
+    198.0,
+    198.571428571429,
+    198.784462756331,
+    199.0,
+    199.131759111665,
+    199.142857142857,
+    199.389909800766,
+    199.479055466999,
+    199.564221286262,
+    199.714285714286,
+    199.738532771757,
+    199.826351822333,
+    199.912844257252,
+    200.0,
+    200.087155742748,
+    200.173648177667,
+    200.261467228243,
+    200.285714285714,
+    200.435778713738,
+    200.520944533001,
+    200.610090199234,
+    200.857142857143,
+    200.868240888335,
+    201.0,
+    201.215537243669,
+    201.428571428571,
+    202.0,
+    210.0,
+    215.0,
+    220.0
+  ],
+  "absolute_depth_match_tolerance_m": 1e-05,
+  "source_depths_m": [
+    180,
+    185,
+    190,
+    200,
+    210,
+    215,
+    220
+  ],
+  "receiver_depths_m": [
+    198.0,
+    198.571428571429,
+    198.784462756331,
+    199.0,
+    199.131759111665,
+    199.142857142857,
+    199.389909800766,
+    199.479055466999,
+    199.564221286262,
+    199.714285714286,
+    199.738532771757,
+    199.826351822333,
+    199.912844257252,
+    200.0,
+    200.087155742748,
+    200.173648177667,
+    200.261467228243,
+    200.285714285714,
+    200.435778713738,
+    200.520944533001,
+    200.610090199234,
+    200.857142857143,
+    200.868240888335,
+    201.0,
+    201.215537243669,
+    201.428571428571,
+    202.0
+  ],
+  "plans": [
+    {
+      "stem": "t2_f201_n80001",
+      "mesh": 80001,
+      "frequency_hz": 201.0,
+      "env_SHA256": "560cdfb74d643be26aadfa4908c5e5c5d5a099f656984333345babf8a861cb76",
+      "new_KRAKEN": true
+    },
+    {
+      "stem": "t2_f235_n80001",
+      "mesh": 80001,
+      "frequency_hz": 235.0,
+      "env_SHA256": "fe02f2b8dfdc86912d954c1f82d092114ecc99951fb41a36cf54bf093c5e435e",
+      "new_KRAKEN": true
+    },
+    {
+      "stem": "t2_f283_n80001",
+      "mesh": 80001,
+      "frequency_hz": 283.0,
+      "env_SHA256": "84ee874c1d397792422ddfea969fc30616d00c0c1dc531fb79b76ea4147f4d2b",
+      "new_KRAKEN": true
+    },
+    {
+      "stem": "t2_f201_n160001",
+      "mesh": 160001,
+      "frequency_hz": 201.0,
+      "env_SHA256": "910d211f2b44d86ee2568bd404c0bc41d20aaf6d924b87094d9035684b3d605a",
+      "new_KRAKEN": true
+    },
+    {
+      "stem": "t2_f235_n160001",
+      "mesh": 160001,
+      "frequency_hz": 235.0,
+      "env_SHA256": "f4c70832de768f1a350e0781b83e210024a8a246f528bea6fd292c3aaba143f9",
+      "new_KRAKEN": true
+    },
+    {
+      "stem": "t2_f283_n160001",
+      "mesh": 160001,
+      "frequency_hz": 283.0,
+      "env_SHA256": "142252a0d1d706efe5aa88fa89cc4b1b21b15505420b9940b91ee83c5ee71090",
+      "new_KRAKEN": true
+    }
+  ],
+  "FIELD_plan": {
+    "resources": [
+      "A0_0",
+      "A_P4M",
+      "B1_V4"
+    ],
+    "states": [
+      [
+        45.321,
+        1.37,
+        200
+      ],
+      [
+        55.123,
+        2.31,
+        200
+      ],
+      [
+        59.731,
+        4.13,
+        200
+      ]
+    ],
+    "one_common_complex_alignment_per_frequency_across_all_resources_and_ranges": true
+  },
+  "CLOW": 1500,
+  "CHIGH": 1800,
+  "CHIGH_certification": "UNCERTIFIED_HISTORICAL_LIMIT_UNCHANGED",
+  "all_returned_modes_used": true,
+  "vertical_or_range_interpolation": "NONE_DIRECT_SUM_AT_ALL_REQUESTED_POINTS",
+  "thesis_original": "ORIGINAL_PDF_LOCAL_NOT_FOUND",
+  "PDF_search_roots": [
+    "D:/Downloads",
+    "D:/Downloads/Documents",
+    "D:/ProjectStorage/WSL-CZ",
+    "repo/literature"
+  ]
+}

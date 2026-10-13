@@ -1,0 +1,14 @@
+{
+  "P_ref": 1.4723876183823757e-08,
+  "nu": {
+    "20": 1.4723876183823756e-10,
+    "5": 4.6560984727191115e-09
+  },
+  "rule": "median of unit-source mean3-frequency/8-element B0 power over16 independent calibration positions; qualified historical B0 provider, before any new calls",
+  "legacy_MOD_SHA256": {
+    "201": "88cf827277417fca348909e72c793d9c14da6003781917ca19e2c825db9ff4f6",
+    "235": "c590e8384a0dc4573fc3849c5bf218be66096f023cb5ab1c74462bbf4f3f1bfc",
+    "283": "9336511b8c4516751dc99a5d8d1942829cc6f0b26b787dde1e9fd0b13c2540aa"
+  },
+  "no_resource_renormalization": true
+}

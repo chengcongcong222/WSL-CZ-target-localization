@@ -1,0 +1,179 @@
+{
+  "stage": "T2_TILT_G0_STATIC_SPATIAL_RANGE_SUPPORT_PILOT",
+  "parent_sha": "251aa604af546827ab10080861c776d8666fe780",
+  "output_directory": "results/R4_T2_TILT_VS_SHORT_VERTICAL_G0",
+  "method": "unknown-source per frequency/segment source-profiled spatial shape matching; NOT exact thesis WSF",
+  "array_resources": [
+    "A0_0",
+    "A_P05",
+    "A_M05",
+    "A_P10",
+    "A_M10",
+    "A_P4M",
+    "A_M4M",
+    "B1_V4",
+    "B2_DUP"
+  ],
+  "primary_comparisons": [
+    {
+      "treated": "A_P4M",
+      "control": "A0_0",
+      "same_channels": 8
+    },
+    {
+      "treated": "B1_V4",
+      "control": "B2_DUP",
+      "same_channels": 12
+    }
+  ],
+  "angle_definition": "signed inclination from horizontal; original thesis gamma is from vertical; alpha=90-gamma for nonnegative alpha",
+  "alpha_primary_deg": 16.601549599020235,
+  "array_geometry_reference": "T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+  "frequencies_hz": [
+    201,
+    235,
+    283
+  ],
+  "source_depths_generated_m": [
+    185,
+    200,
+    215
+  ],
+  "source_depths_candidates_m": [
+    180,
+    190,
+    200,
+    210,
+    220
+  ],
+  "generator_truth_case_ids": [
+    "H01",
+    "H06",
+    "H12"
+  ],
+  "reference_depth_m": 200,
+  "predeclared_ssp": "frozen historical E-STD Munk-like nominal; exact file hash before execution",
+  "array_snapshot_times_s": [
+    0.0
+  ],
+  "candidate_r_km": {
+    "start": 45,
+    "stop": 60,
+    "step": 0.25,
+    "count": 61
+  },
+  "candidate_abs_theta_deg": {
+    "start": 0,
+    "stop": 5,
+    "step": 0.5,
+    "count": 11
+  },
+  "candidate_z_m": {
+    "start": 180,
+    "stop": 220,
+    "step": 10,
+    "count": 5
+  },
+  "n_candidates_nonnegative": 3355,
+  "numeric_check_r_step_km": 0.125,
+  "numeric_check_abs_theta_step_deg": 0.25,
+  "channel_calibration": [
+    {
+      "id": "C0",
+      "gain": "identity"
+    },
+    {
+      "id": "C1",
+      "amplitude_db_uniform": [
+        -1,
+        1
+      ],
+      "phase_deg_uniform": [
+        -30,
+        30
+      ],
+      "fixed_across_freq_and_segments": true
+    }
+  ],
+  "segments_per_record": 8,
+  "segment_seconds": 2,
+  "sampling_hz": 1024,
+  "samples_per_segment": 2048,
+  "source_amplitude_db_uniform": [
+    -3,
+    3
+  ],
+  "source_phase_rad_uniform": [
+    -3.141592653589793,
+    3.141592653589793
+  ],
+  "reference_snr_db": [
+    20,
+    5
+  ],
+  "noise_reference": "one global reference B0 power from frozen calibration, common complex DFT variance over all resources",
+  "calibration_panel": {
+    "n_geometries": 16,
+    "replicates": 16,
+    "base_records": 256,
+    "threshold_quantile": 0.95,
+    "nearest_rank_one_based": 244,
+    "truth_access_only_calibration": true
+  },
+  "primary_test_panel": {
+    "n_independent_horizontal_geometries": 3,
+    "n_source_depths": 3,
+    "replicates": 16,
+    "base_innovations": 144,
+    "condition_perturbation_views": 576,
+    "n_resources": 9,
+    "n_resource_configs": 5184
+  },
+  "seeds": {
+    "calibration_geometry": 2026101301,
+    "calibration_source": 2026101302,
+    "calibration_noise": 2026101303,
+    "test_source": 2026101304,
+    "test_noise": 2026101305,
+    "test_gain": 2026101306,
+    "preflight": 2026101307
+  },
+  "modality_meshes": [
+    80001,
+    160001
+  ],
+  "forward_gates": {
+    "max_cross_mesh_profiled_relative": 0.002,
+    "max_FIELD_profiled_relative": 0.002,
+    "max_interpolation_relative": 1e-05,
+    "max_direct_score_abs_difference": 1e-07,
+    "allowed_boundary_flips": 0,
+    "CHIGH_cert_status": "record, do not inherit old certification; conditional status if uncertified"
+  },
+  "signal_gate": {
+    "main_source_depth_m": 200,
+    "calibration": "C0",
+    "SNR_db": 20,
+    "mesh": 160001,
+    "catalogue": "primary",
+    "at_least_geometries": 2,
+    "out_of_geometries": 3,
+    "per_geometry_min_accepted": 15,
+    "per_geometry_min_horizontal_label_retained": 15,
+    "per_geometry_replicates": 16,
+    "treated_median_unconditional_envelope_km_at_most": 10,
+    "treated_vs_control_envelope_relative_reduction_at_least": 0.3
+  },
+  "budget": {
+    "max_new_KRAKEN_calls": 6,
+    "max_new_FIELD_calls": 3,
+    "max_main_wall_s": 21600,
+    "max_RSS_bytes": 8589934592,
+    "max_D_new_bytes": 34359738368,
+    "max_git_new_bytes": 536870912,
+    "max_blas_threads": 4,
+    "max_science_processes": 1
+  },
+  "R4_percent_after": 0,
+  "execution_policy": "Commit A freeze then once-only experiment then independent audit and Commit B push, STOP; no auto G1 or other tier"
+}

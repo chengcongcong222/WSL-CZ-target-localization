@@ -1,0 +1,73 @@
+{
+  "source": {
+    "calibration_seed": 2026101302,
+    "test_seed": 2026101304,
+    "amplitude_db": [
+      -3,
+      3
+    ],
+    "phase_rad": [
+      -3.141592653589793,
+      3.141592653589793
+    ]
+  },
+  "noise": {
+    "calibration_seed": 2026101303,
+    "test_seed": 2026101305,
+    "real_time_sample_variance": "2048*nu",
+    "shared_first8_numbered_innovations": true,
+    "extra4_B1_B2_shared": true
+  },
+  "gain": {
+    "calibration_seed": 2026101308,
+    "test_seed": 2026101306,
+    "first8_shared_across_resources": true,
+    "extra4_B1_B2_shared": false,
+    "fixed_all_freq_and_segments": true,
+    "C1_gain_not_given_to_inference": true,
+    "independent_extra_gain_ranges": {
+      "B1_V4": [
+        8,
+        12
+      ],
+      "B2_DUP": [
+        12,
+        16
+      ]
+    }
+  },
+  "calibration_order": "16geometries*16replicates; IDdisjoint; z=185,200,215 cyclic by geometry (96,80,80 records)",
+  "threshold": "244th/256 D at nearest r/abs(theta)/z; tie smaller label; separately each mesh/resource/C/SNR/catalogue; seal before test",
+  "preflight_controls_max": 12,
+  "forward_catalogues": [
+    "primary",
+    "fine"
+  ],
+  "noise_reference_qualification": "archived exact B0 fields only at independent calibration geometries, frozen before new KRAKEN; not test truth",
+  "generation_mesh": 160001,
+  "candidate_order": "r then abs(theta) then z, ascending",
+  "envelope": "half-grid cells clipped45..60, no continuous coverage guarantee; empty INF",
+  "cold_score_tolerance": 1e-07,
+  "cold_acceptance_flips_allowed": 0,
+  "solver_limits": {
+    "KRAKEN_calls": 6,
+    "KRAKEN_timeout_s": 90,
+    "FIELD_calls": 3,
+    "FIELD_timeout_s": 60
+  },
+  "budgets": {
+    "science_wall_s": 21600,
+    "RSS": 8589934592,
+    "new_D_bytes": 34359738368,
+    "new_git_bytes": 536870912,
+    "BLAS_threads": 1,
+    "science_processes": 1
+  },
+  "main_rule": "fixed A_P4M/A0 and B1/B2; >=2/3 at z200,C0,SNR20,primary160001; each>=15/16 accepted&horizontal-retained;median unconditional cellenvelope<=10km&reduction>=.30; numerical reversal =>limited",
+  "new_trials_after_B": false,
+  "statistics": {
+    "median": "arithmetic mean of sorted positions8 and9 for16 replicates (numpy median)",
+    "P90": "nearest rank ceil(.9*n)",
+    "P95": "nearest rank ceil(.95*n)"
+  }
+}

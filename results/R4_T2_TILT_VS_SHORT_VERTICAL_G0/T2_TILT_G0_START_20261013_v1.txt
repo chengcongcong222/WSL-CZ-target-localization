@@ -1,0 +1,21 @@
+请在本机 Codex 工作区执行下一轮T2-TILT-G0（一次性静态观测机制试验），不要重复历史H3/SP1/AUX-D1，也不要只交一份待授权报告。
+
+GitHub仓库：chengcongcong222/WSL-CZ-target-localization
+必须先确认本地与远端main均指向parent：
+251aa604af546827ab10080861c776d8666fe780
+新输出：results/R4_T2_TILT_VS_SHORT_VERTICAL_G0/
+
+请先逐字节校验本任务包内文件：
+- 完整任务MD SHA256：7dddc10e1d504d967c79d96e7437c73eaa1a874390c3e0ae6535a8e0b4a1fb94
+- 机器实验规格JSON SHA256：0307093e60ec758a33ad98e3d54230b81ecb666bd7be570c106ab69bb9d8c7ee
+- 九阵型坐标CSV SHA256：bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd
+- 研究简报MD SHA256：82dbec69c5fa4bbfaa3bf6e3d297b5ca5361f25dd39062abc3b356cc85a3e4a6
+
+研究主比较：同8通道 A_P4M（整体倾斜+asin(2/7)，约16.60°，垂向4m）对 A0_0（原水平阵）；同12通道 B1_V4（原8通道+短垂直4通道）对 B2_DUP（原8通道+4个同深共位置通道）。
++/-5、+/-10、-16.60°都做冻结的敏感性，不允许事后挑最佳角代替主判。
+
+本任务从用户原博士论文第三章的“倾斜角与到达俯仰/方位耦合”建立自有、明确标注为简化的空间传播匹配控制；不是论文WSF全法、也不是海底反射区第四/五章公式移植。原文定义gamma为相对竖直方向的角，本任务alpha相对水平；单线阵仍有左右舷镜像。原论文PDF若本地可用先记准确SHA，否则明确标来源缺口，不伪称重新读取。
+
+严格Commit A预检/冻结并推送，再唯一一次KRAKEN/静态接收/DFT/完整候选推断及独立冷复核Commit B推送；科学前向一致性未准入则保存PARTIAL/NOT_EVALUATED并STOP，不调参补过。不能从R4 H3的CHIGH和SSP失败自动继承“已认证”。不得增加5km辅助节点、理想径向、动态四五参搜索，不改历史Gate/R4进度。
+
+执行结束一次性反馈：A、B两项信号几何数、真实水平标签保留、全部距离候选包络、噪声/校准/角度不对称与数值限制、KRAKEN/FIELD次数、独立复核、Commit A及B完整SHA和remote/main、GPT_SYNC路径，然后STOP。

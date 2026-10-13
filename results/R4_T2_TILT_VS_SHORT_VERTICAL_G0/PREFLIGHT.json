@@ -1,0 +1,82 @@
+{
+  "PASS": true,
+  "controls": [
+    {
+      "control": "coordinate_and_primary4m_span",
+      "error": 4.778399897986674e-13,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "B1_B2_original8_and_DUP",
+      "error": 0.0,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "plane_wave_axis_projection_and_mirror",
+      "error": 0.0,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "source_phase_amplitude_invariance",
+      "error": 0.0,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "real_waveform_DFT_identity",
+      "error": 3.161033009574717e-15,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "independent_sine_fit",
+      "error": 1.9376047131234164e-15,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "covariance_direct_score",
+      "error": 0.0,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "C1_no_false_gain_invariance",
+      "error": 0.0,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "noise_DFT_variance",
+      "error": 0.04241871549017895,
+      "limit": 0.12,
+      "PASS": true
+    },
+    {
+      "control": "nearest_rank244_and_empty_INF",
+      "error": 0.0,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "seed_test_calibration_isolation",
+      "error": 0.0,
+      "limit": 1e-10,
+      "PASS": true
+    },
+    {
+      "control": "once_guard_absent",
+      "error": 0.0,
+      "limit": 1e-10,
+      "PASS": true
+    }
+  ],
+  "control_cases": 12,
+  "new_KRAKEN": 0,
+  "new_FIELD": 0,
+  "calibration_or_test_records": 0,
+  "utc": "2026-10-13T05:39:24.753225+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "stage": "T2-TILT-G0",
+  "created_date": "2026-10-13",
+  "repo": "chengcongcong222/WSL-CZ-target-localization",
+  "expected_parent_sha": "251aa604af546827ab10080861c776d8666fe780",
+  "files": [
+    {
+      "name": "T2_TILT_G0_CODEX_TASK_20261013_v1.md",
+      "size_bytes": 22418,
+      "sha256": "7dddc10e1d504d967c79d96e7437c73eaa1a874390c3e0ae6535a8e0b4a1fb94"
+    },
+    {
+      "name": "T2_TILT_G0_EXPERIMENT_SPEC_20261013_v1.json",
+      "size_bytes": 4448,
+      "sha256": "0307093e60ec758a33ad98e3d54230b81ecb666bd7be570c106ab69bb9d8c7ee"
+    },
+    {
+      "name": "T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "size_bytes": 3793,
+      "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd"
+    },
+    {
+      "name": "T2_TILT_G0_RESEARCH_BRIEF_20261013_v1.md",
+      "size_bytes": 2288,
+      "sha256": "82dbec69c5fa4bbfaa3bf6e3d297b5ca5361f25dd39062abc3b356cc85a3e4a6"
+    },
+    {
+      "name": "T2_TILT_G0_START_20261013_v1.txt",
+      "size_bytes": 2202,
+      "sha256": "671666c3a16f524544befdd072431480f26a88191bd297abf406dc7d611f7272"
+    }
+  ],
+  "execution_authorization": "one preregistered G0 conditional experiment via local Codex, once only",
+  "gate_status": "new work not run, R4 remains 0%"
+}
