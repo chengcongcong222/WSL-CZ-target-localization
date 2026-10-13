@@ -1,0 +1,39 @@
+{
+  "design_SHA": "56eb1f6acdf2f469ee08618f0cc72f3c09b5392f",
+  "raw_files": {
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h1800_n160001\\FIELDS.npz": "47710b4d9611256973a6dad3b5e1357fd044f475946e53e7b70faa018bbda76c",
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h1800_n160001\\n3_PR_R_f201_h1800_n160001.env": "0445097bcefb068eb39a12e86b1e98f70f37face66e0cb1410835936fcf7dfab",
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h1800_n160001\\n3_PR_R_f201_h1800_n160001.mod": "cf5745862a3b367283c9ea9deef723ff194ca354c7f389fa5b185b992f028d0f",
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h1800_n160001\\n3_PR_R_f201_h1800_n160001.prt": "b6c649a34e90d3ec4171e0c5559406fdd60c2c7b72845a22ec51a123ce397e6e",
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h1800_n160001\\n3_PR_R_f201_h1800_n160001.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h1800_n160001\\n3_PR_R_f201_h1800_n160001.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h2400_n160001\\exception.txt": "fbf731a03b73b96db430cccb055599e591bfaeb18b31774a6bab6d60205ca74c",
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h2400_n160001\\FIELDS.npz": "1acdb41ac5d9df71c065181c0517cc551f4105cdb217d6b8f233bcc1d31c5fb6",
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h2400_n160001\\n3_PR_R_f201_h2400_n160001.env": "1402c1855128d58a526e69868934c45e5b950952400992ec43b0ffa674daf8b5",
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h2400_n160001\\n3_PR_R_f201_h2400_n160001.mod": "d9e476d0ed84c08c30f7551ad090e3823067d36918ed41375eeb3ec720afae42",
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h2400_n160001\\n3_PR_R_f201_h2400_n160001.prt": "13bd74df5b8db28e3375030061487b134bf38a84fdd5ff2600901538bffa19d6",
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h2400_n160001\\n3_PR_R_f201_h2400_n160001.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\runs\\n3_PR_R_f201_h2400_n160001\\n3_PR_R_f201_h2400_n160001.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "scientific_tables": {
+    "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\SOLVER_CALLS.csv": "86d0c981d7b27442fa67feab36403010146a96cca469f6adf78c534d0d42e4fa",
+    "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\ANALYTIC_KRAKEN_MODE_AND_FIELD_CROSSCHECK.csv": "2de1541cdfcc93c5f3dc76310fb3c6b8b47bf2e382518d8534d5ede2f56860bd",
+    "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\ANALYTIC_MODAL_ERRORS.csv": "1a6bf5874de993ce4907ac408b81a60f424fd247cd658ed9cc0a61672f85ddf0",
+    "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\ANALYTIC_MESH_COMPARISON.csv": "73781838e8cdfd49c6ae2082f17c24a552374f674644ae9e24ebea16e1c082b7",
+    "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\E_STD_BOTTOM_EXTREMES.csv": "410f0d9cd0f7d301a94ed7fe486e60b5ee007fca5b7fc1e6bda3dc8475e7525c",
+    "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\ANALYTIC_RAW_GLOBAL_FACTOR.csv": "cde35fe651ff04793a070ed8fb48a0b594dd6277f67f5deb4fee4e031f472f61",
+    "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\RUN_FAILURES.json": "74a835cdd322a4c71f2a3be3683e28fa66374347039dc2510c717f3638cb93ac",
+    "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\ALL_PLANNED_CALL_STATUS.csv": "1feb41366b0bbf64bd496493a2015b9c61730b01b18362d098fdc43b6da2ec50"
+  },
+  "analytic_configs_PASS": 1,
+  "calls_attempted": 2,
+  "E_STD_calls": 0,
+  "budget": {
+    "wall_s": 29.609000000171363,
+    "RSS_bytes": 53235712,
+    "D_bytes": 4053486,
+    "git_output_bytes": 3151606
+  },
+  "peak_process_tree_RSS_bytes": 71319552,
+  "new_SCOOTER_FIELDS_FIELD_waveforms_DFT_MC_FIM_optimizer": 0
+}

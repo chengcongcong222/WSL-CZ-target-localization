@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\XiaomiMiMoProjects\WSL系统汇聚区目标定位\t2_n3_run.py", line 58, in main
+    if not passed:raise RuntimeError('ANALYTIC_HARD_GATE_FAIL')
+RuntimeError: ANALYTIC_HARD_GATE_FAIL

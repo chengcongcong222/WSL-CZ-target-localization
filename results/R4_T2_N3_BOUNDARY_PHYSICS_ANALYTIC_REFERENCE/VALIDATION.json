@@ -1,0 +1,11 @@
+{
+  "PASS": true,
+  "cold_reconstruction_PASS": true,
+  "scientific_gate_PASS": false,
+  "all_frozen_code_inputs_unchanged": true,
+  "no_second_solver_attempt": true,
+  "stop_after_first_gate_failure": true,
+  "new_field_or_signal_calls": 0,
+  "completed_analytic_configurations": 2,
+  "not_evaluated_E_STD_is_not_PASS": true
+}

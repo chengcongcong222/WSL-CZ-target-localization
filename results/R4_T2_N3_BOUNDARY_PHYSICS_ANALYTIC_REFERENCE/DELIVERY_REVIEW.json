@@ -1,0 +1,33 @@
+{
+  "PASS": true,
+  "all_frozen_code_and_inputs_unchanged": true,
+  "all_sealed_scientific_results_unchanged": true,
+  "cold_checks": 22649,
+  "cold_FAIL": 0,
+  "new_calls": 2,
+  "field_rows": 40,
+  "field_FAIL_rows": 4,
+  "all_field_FAIL_at_P04": true,
+  "later_call_count": 0,
+  "independent_bottom_checks": 0,
+  "R4_percent": 0,
+  "ledger_one_row_prefix_preserved": true,
+  "snapshot_index_changes": [
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\t2_n3_report.pipeline.log",
+      "snapshot_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_sha256": "37938feaefe05827c5a8b113ce234ec410d84eacba4a2dd085e47af481457908"
+    }
+  ],
+  "final_index_authoritative": "FINAL_LOCAL_ARCHIVE_INDEX.csv",
+  "mode_function_auxiliary_alignment": "Stored auxiliary modal_function_max_abs_error fits a common complex factor including magnitude, not phase alone; it is not a phase-only normalized-function accuracy certificate; factors never enter primary propagation, wave number or field gates. Raw modes retained.",
+  "modal_function_auxiliary_factor_magnitude_min": 0.9969637366607365,
+  "modal_function_auxiliary_factor_magnitude_max": 1.0010989926498648,
+  "budget": {
+    "wall_s": 0,
+    "RSS_bytes": 51019776,
+    "D_bytes": 5789290,
+    "git_output_bytes": 4886786
+  },
+  "STOP": true
+}

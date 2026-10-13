@@ -1,0 +1,70 @@
+{
+  "stage": "T2-N3",
+  "overall": "T2_N3_PARTIAL_NUMERIC_NOT_ADMITTED",
+  "PHYSICAL_SOURCE_AND_TURNING_AUDIT": "COMPLETE",
+  "ANALYTIC_ISOVELOCITY_GATE": "FAIL",
+  "analytic_main": {
+    "attempted": 2,
+    "planned": 12,
+    "PASS": 1
+  },
+  "analytic_secondary": {
+    "attempted": 0,
+    "planned": 4,
+    "PASS": 0
+  },
+  "analytic_field_vectors": {
+    "completed": 40,
+    "planned": 320,
+    "max_shape_error": 0.002214939749691183,
+    "threshold": 0.002,
+    "max_kr_relative_error": 5.230384599925343e-08,
+    "kr_threshold": 2e-05
+  },
+  "IDEAL_RIGID_AND_PRESSURE_RELEASE_BOUNDARY_COMPARISON": "COMPLETE",
+  "ideal_comparison_scope": "SOLVER_FREE_ANALYTIC_REFERENCE_ONLY;16 count,240window and80radial rows independently checked; not evidence all KRAKEN configs executed",
+  "E_STD_BOTTOM_R_V_DIAGNOSTIC": "NOT_EVALUATED",
+  "E_STD_vectors": {
+    "completed": 0,
+    "planned": 144,
+    "max_shape_difference": null
+  },
+  "failure": [
+    {
+      "call_order": 2,
+      "stem": "n3_PR_R_f201_h2400_n160001",
+      "reason": "ANALYTIC_HARD_GATE_FAIL",
+      "future_calls": "CANCELLED_NO_RETRY"
+    }
+  ],
+  "cold_audit": {
+    "PASS": true,
+    "checks": 22649,
+    "FAIL": 0,
+    "independent_root_method": "brentq cos/sin; independent struct MOD reader; J0-iY0; QR projection",
+    "preview_records": 336,
+    "old_modal_classification_records": 8684,
+    "old_band_field_vectors": 432,
+    "analytic_configs_cold_rebuilt": 2,
+    "analytic_field_vectors_cold_rebuilt": 40,
+    "E_STD_bottom_vectors_cold_rebuilt": 0,
+    "max_independent_analytic_shape_discrepancy": 1.9927270012050358e-12,
+    "scope": "REBUILD_AND_REPORTED_GATE_CORRECTNESS; cold PASS does not turn a scientific FAIL into PASS"
+  },
+  "new_calls": {
+    "KRAKEN": 2,
+    "SCOOTER": 0,
+    "FIELDS": 0,
+    "FIELD": 0,
+    "waveforms_DFT_MC_FIM_optimizers": 0
+  },
+  "REAL_CZ1_PHYSICAL_PROPAGATION": "NOT_CERTIFIED",
+  "T2_A_B_RECEIVER_PERFORMANCE": "NOT_EVALUATED",
+  "historical_G0_N1_N2": "UNCHANGED",
+  "CHIGH_global_completeness": "NOT_CERTIFIED",
+  "real_seabed_parameters": "UNKNOWN",
+  "R4_PERCENT": 0,
+  "research_lead_audit": "PENDING",
+  "STOP": true,
+  "next_stage_authorized": false
+}

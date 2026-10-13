@@ -1,0 +1,8 @@
+[
+  {
+    "call_order": 2,
+    "stem": "n3_PR_R_f201_h2400_n160001",
+    "reason": "ANALYTIC_HARD_GATE_FAIL",
+    "future_calls": "CANCELLED_NO_RETRY"
+  }
+]

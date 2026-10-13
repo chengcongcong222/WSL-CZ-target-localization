@@ -1,0 +1,35 @@
+{
+  "stages": [
+    {
+      "script": "t2_n3_run.py",
+      "returncode": 0,
+      "wall_s": 31.54699999978766,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\t2_n3_run.pipeline.log",
+      "sha256": "7a3be81bd1e39e673920e55d64b59f5634dd3f824a446167a01a00ee0d1ae773"
+    },
+    {
+      "script": "t2_n3_audit.py",
+      "returncode": 0,
+      "wall_s": 22.094000000040978,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\t2_n3_audit.pipeline.log",
+      "sha256": "61b542232dad069ff850556989c23ba93ffab1a0805953a6a8e4cf497cb9b7e0"
+    },
+    {
+      "script": "t2_n3_report.py",
+      "returncode": 0,
+      "wall_s": 1.5310000001918525,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N3\\t2_n3_report.pipeline.log",
+      "sha256": "37938feaefe05827c5a8b113ce234ec410d84eacba4a2dd085e47af481457908"
+    }
+  ],
+  "wall_s": 55.20299999997951,
+  "peak_tree_RSS_bytes": 131682304,
+  "storage": {
+    "wall_s": 0,
+    "RSS_bytes": 46534656,
+    "D_bytes": 5783040,
+    "git_output_bytes": 4880536
+  },
+  "all_stages_completed": true,
+  "science_retries": 0
+}

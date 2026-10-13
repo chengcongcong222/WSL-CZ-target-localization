@@ -1,0 +1,14 @@
+{
+  "PASS": true,
+  "checks": 22649,
+  "FAIL": 0,
+  "independent_root_method": "brentq cos/sin; independent struct MOD reader; J0-iY0; QR projection",
+  "preview_records": 336,
+  "old_modal_classification_records": 8684,
+  "old_band_field_vectors": 432,
+  "analytic_configs_cold_rebuilt": 2,
+  "analytic_field_vectors_cold_rebuilt": 40,
+  "E_STD_bottom_vectors_cold_rebuilt": 0,
+  "max_independent_analytic_shape_discrepancy": 1.9927270012050358e-12,
+  "scope": "REBUILD_AND_REPORTED_GATE_CORRECTNESS; cold PASS does not turn a scientific FAIL into PASS"
+}
