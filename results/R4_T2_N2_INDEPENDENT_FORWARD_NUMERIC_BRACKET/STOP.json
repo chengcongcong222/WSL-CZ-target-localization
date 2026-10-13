@@ -1,0 +1,11 @@
+{
+  "STOP": true,
+  "solver_or_grid_followups_authorized": false,
+  "receiver_performance_followup_authorized": false,
+  "CHIGH_global": "UNCERTIFIED",
+  "R4_percent": 0,
+  "independent_audit_PASS": true,
+  "raw_GRN_SHD_large_field_storage": "LOCAL_D_ONLY_NOT_CLAIMED_PUBLIC",
+  "MOD_copy_public": true,
+  "utc": "2026-10-13T08:20:36.085316+00:00"
+}

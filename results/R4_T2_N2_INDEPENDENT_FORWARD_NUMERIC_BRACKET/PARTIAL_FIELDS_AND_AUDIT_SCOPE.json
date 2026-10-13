@@ -1,0 +1,19 @@
+{
+  "source_SCOOTER_call": "201Hz_F1_completed_returncode0_GRN_generated",
+  "FIELDS_call": "firstP01_d050_timedout_at_frozen120seconds",
+  "failure_is_registered_compute_timeout_not_observed_input_incompatibility": true,
+  "partial_SHD_sha256": "b0702c3dbc8d9c9bbc844139afdcd9d4f36f70007f435fc53f0ca45b6b716a65",
+  "partial_SHD_bytes": 262728,
+  "record_bytes": 6408,
+  "header_source_depths": 5,
+  "header_receiver_depths": 11,
+  "header_range_samples": 801,
+  "expected_complete_records": 65,
+  "available_record_slots": 41,
+  "expected_complete_file_bytes": 416520,
+  "partial_SHD_not_used_for_FFP_metrics": true,
+  "FFP_shape_interpolation_cross_method_cold_fields": "NOT_EVALUATED",
+  "K_and_source_record_cold_audit": "PASS1159_0FAIL",
+  "extreme_K_direct_MOD_review": "PASS3",
+  "no_new_scientific_run_or_tolerance_change": true
+}

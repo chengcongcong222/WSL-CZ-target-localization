@@ -1,0 +1,78 @@
+{
+  "stage": "T2-N2",
+  "overall": "T2_N2_NUMERIC_BRACKETING_NOT_ESTABLISHED",
+  "K_WINDOW": {
+    "status": "WINDOW_CHANGE_MATERIAL",
+    "PASS": false,
+    "planned": 48,
+    "completed": 48,
+    "max_difference": 0.9999018579554306,
+    "threshold": 0.002,
+    "failures": 48
+  },
+  "K_MESH": {
+    "status": "K_MESH_DIFFERENCE_MATERIAL",
+    "PASS": false,
+    "planned": 24,
+    "completed": 24,
+    "max_difference": 0.0037122251601531455,
+    "threshold": 0.002,
+    "failures": 4
+  },
+  "FFP_SELF": {
+    "status": "INDEPENDENT_SOLVER_NOT_READY",
+    "PASS": false,
+    "mesh_and_spectral": {
+      "status": "NOT_EVALUATED_PARTIAL_EXECUTION",
+      "PASS": false,
+      "planned": 288,
+      "completed": 0,
+      "max_difference": "NOT_EVALUATED",
+      "threshold": 0.002,
+      "failures": 0
+    },
+    "interpolation": {
+      "status": "NOT_EVALUATED_PARTIAL_EXECUTION",
+      "PASS": false,
+      "planned": 144,
+      "completed": 0,
+      "max_difference": "NOT_EVALUATED",
+      "threshold": 0.0005,
+      "failures": 0
+    }
+  },
+  "CROSS_METHOD": {
+    "status": "CROSS_METHOD_NOT_EVALUATED",
+    "PASS": false,
+    "planned": 144,
+    "completed": 0,
+    "max_difference": "NOT_EVALUATED",
+    "threshold": 0.002,
+    "failures": 0,
+    "diagnostic_predictions_saved_even_if_not_admitted": true,
+    "reason": "FFP_SELF_BRACKET_NOT_ESTABLISHED; raw_differences_not_a_truth_error_bound"
+  },
+  "new_calls": {
+    "kraken": 9,
+    "scooter": 1,
+    "fields": 1
+  },
+  "max_call_budget": {
+    "kraken": 9,
+    "scooter": 9,
+    "fields": 144
+  },
+  "all_K_plans_complete": true,
+  "all_FFP_plans_complete": false,
+  "historical_G0": "FORWARD_NUMERIC_NOT_ADMITTED_UNCHANGED",
+  "N1_template_advantage": "UNCHANGED_NOT_REEVALUATED",
+  "A_performance": "NOT_EVALUATED",
+  "B_performance": "NOT_EVALUATED",
+  "CHIGH_global": "UNCERTIFIED_ABOVE_TESTED_WINDOWS_AND_OUTSIDE_SENTINELS",
+  "SSP_locality_and_source_derivative": "UNCHANGED_NOT_EVALUATED",
+  "R4_percent": 0,
+  "physical_truth_certification": false,
+  "research_lead_audit": "PENDING",
+  "state": "STOP",
+  "next_stage_authorized": false
+}

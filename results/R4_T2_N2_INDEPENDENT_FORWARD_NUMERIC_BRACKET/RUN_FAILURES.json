@@ -1,0 +1,9 @@
+[
+  {
+    "path": "SCOOTER_FIELDS",
+    "variant": "F1",
+    "frequency_hz": 201,
+    "reason": "fields_NONZERO_OR_TIMEOUT",
+    "action": "STOP_FFP_PATH_NO_RETRY"
+  }
+]

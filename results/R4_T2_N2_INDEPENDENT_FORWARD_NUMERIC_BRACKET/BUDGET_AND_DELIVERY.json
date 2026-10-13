@@ -1,0 +1,13 @@
+{
+  "wall_s_all_stages": 427.79799999995157,
+  "peak_process_tree_RSS_bytes": 384212992,
+  "storage": {
+    "elapsed_s": 0,
+    "RSS_bytes": 32608256,
+    "new_D_bytes": 193376828,
+    "new_git_bytes": 3648338
+  },
+  "one_science_process": true,
+  "BLAS_threads": 1,
+  "STOP": true
+}

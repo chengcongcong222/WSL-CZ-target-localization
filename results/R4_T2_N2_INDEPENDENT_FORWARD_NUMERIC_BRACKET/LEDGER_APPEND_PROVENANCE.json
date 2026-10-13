@@ -1,0 +1,9 @@
+{
+  "parent_SHA": "eeb06809b1b37852ef41d5d03b6348dcf95310a8",
+  "working_original_SHA256": "b9fd0dac194860fc5455841db02b0e66f9b42bff1652086623ec6ce59662800d",
+  "parent_blob_SHA256": "da6404cd7c7b65f556a5314d2052e2841a213f59952873585d16bf51152b1304",
+  "working_prefix_preserved": true,
+  "new_rows": 1,
+  "R4_delta": 0,
+  "working_after_SHA256": "ce1dd2e7d9299ae9b65563d946a4e63eacc1f42d6517953b4196292b7bcc99d6"
+}

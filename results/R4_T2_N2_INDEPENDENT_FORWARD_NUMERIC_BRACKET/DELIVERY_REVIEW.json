@@ -1,0 +1,25 @@
+{
+  "PASS": true,
+  "design_SHA": "ec1872fb788f455b18c63ee5efaf7d5c30cc357c",
+  "task_SHA256": "e2cc30ce930932f5135bb33e63f916eefa25d6c6f9e4679a5a6f43dd4693df17",
+  "code_and_input_sha256_verified": 187,
+  "source_identity_verified": 49,
+  "all_sealed_scientific_outputs_unchanged": true,
+  "K_source_cold_audit": "1159_PASS_0_FAIL",
+  "extreme_MOD_cold_review": "3_PASS_0_FAIL",
+  "independent_FFP_field_validation": "NOT_EVALUATED",
+  "legacy_cold_no_fake_PASS_flag": "computed as FFPcoldcount>0; false means noFFPcoldnumericchecks, not an FFPpass",
+  "failed_call": "FIELDS_first_call_TIMEOUT120s",
+  "no_solver_retries": true,
+  "no_source_or_receiver_subsets_removed_after_failure": true,
+  "storage_final": {
+    "elapsed_s": 0,
+    "RSS_bytes": 32174080,
+    "new_D_bytes": 200478985,
+    "new_git_bytes": 10750495
+  },
+  "historical_G0_N1_unchanged": true,
+  "R4_percent": 0,
+  "research_lead_audit": "PENDING",
+  "STOP": true
+}

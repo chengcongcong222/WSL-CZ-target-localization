@@ -1,0 +1,17 @@
+{
+  "PASS": true,
+  "check_rows": 1159,
+  "FAIL": 0,
+  "cold_K_sentinel_vectors": 576,
+  "full_K_shape_entries": 578160,
+  "cold_FIELDS_resource_vectors": 0,
+  "FIELDS_records_actually_checked": 0,
+  "max_cold_modal_field_relative": 4.969652339081454e-15,
+  "max_QR_shape_absolute_discrepancy": 6.661338147750939e-16,
+  "max_cold_FFP_interp_relative": "NOT_EVALUATED",
+  "new_solver_calls": 0,
+  "no_fake_PASS_for_zero_evaluated_FFP": false,
+  "original_physical_field_accuracy_certified": false,
+  "wall_s": 1.7809999999590218,
+  "R4_percent": 0
+}

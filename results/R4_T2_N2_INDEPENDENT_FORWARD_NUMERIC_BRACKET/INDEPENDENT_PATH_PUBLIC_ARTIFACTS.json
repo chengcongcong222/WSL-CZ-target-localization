@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "local_original": "D:\\ProjectStorage\\WSL-CZ\\T2_N2\\FFP\\F1\\f201\\n2_F1_f201.grn",
+      "public_copy": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\independent_path_archive\\n2_F1_f201.grn",
+      "sha256": "61ae250e2fa4259c241b80729cfcc0f2e32b049c299c81be8822f4cf104cf52e",
+      "bytes": 6793800,
+      "partial": false
+    },
+    {
+      "local_original": "D:\\ProjectStorage\\WSL-CZ\\T2_N2\\FFP\\F1\\f201\\n2_F1_f201.prt",
+      "public_copy": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\independent_path_archive\\n2_F1_f201.prt",
+      "sha256": "403c65c96427059845c50bf56710108e992f7c17af11664a9b4d9509d1c589a8",
+      "bytes": 17945,
+      "partial": false
+    },
+    {
+      "local_original": "D:\\ProjectStorage\\WSL-CZ\\T2_N2\\FFP\\F1\\f201\\n2_F1_f201_P01_d050\\n2_F1_f201_P01_d050.shd",
+      "public_copy": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\independent_path_archive\\n2_F1_f201_P01_d050.shd",
+      "sha256": "b0702c3dbc8d9c9bbc844139afdcd9d4f36f70007f435fc53f0ca45b6b716a65",
+      "bytes": 262728,
+      "partial": true
+    }
+  ],
+  "partial_SHD_not_a_completed_prediction": true,
+  "remaining_large_field_arrays": "LOCAL_D_INDEX_ONLY",
+  "no_NEW_fields_or_signal_generated": true
+}
