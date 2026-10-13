@@ -1,0 +1,146 @@
+{
+  "status": "PHYSICAL_SOURCE_AND_TURNING_AUDIT_COMPLETE",
+  "c_min": 1500.0,
+  "c_max": 1635.1811,
+  "axis_depths": [
+    1300.0
+  ],
+  "SSP_nodes": 251,
+  "water_depth": 5000,
+  "option": "CVWT",
+  "top": "V",
+  "bottom": "R",
+  "water_rho": 1,
+  "modal_records": 8684,
+  "contribution_records": 1728,
+  "mode_summary": [
+    {
+      "variant": "K0",
+      "frequency_hz": 201,
+      "modes": 641,
+      "cp_min": 1500.1185019848076,
+      "cp_max": 1799.6494154218424,
+      "above_cmax": 291,
+      "bands": [
+        350,
+        291,
+        0,
+        0
+      ]
+    },
+    {
+      "variant": "K0",
+      "frequency_hz": 235,
+      "modes": 749,
+      "cp_min": 1500.1014551918606,
+      "cp_max": 1799.3840486304232,
+      "above_cmax": 340,
+      "bands": [
+        409,
+        340,
+        0,
+        0
+      ]
+    },
+    {
+      "variant": "K0",
+      "frequency_hz": 283,
+      "modes": 902,
+      "cp_min": 1500.084429281119,
+      "cp_max": 1799.4577214912333,
+      "above_cmax": 409,
+      "bands": [
+        493,
+        409,
+        0,
+        0
+      ]
+    },
+    {
+      "variant": "K1",
+      "frequency_hz": 201,
+      "modes": 807,
+      "cp_min": 1500.1185019848076,
+      "cp_max": 1999.5662477979383,
+      "above_cmax": 457,
+      "bands": [
+        350,
+        291,
+        166,
+        0
+      ]
+    },
+    {
+      "variant": "K1",
+      "frequency_hz": 235,
+      "modes": 943,
+      "cp_min": 1500.1014551918606,
+      "cp_max": 1998.9943779047715,
+      "above_cmax": 534,
+      "bands": [
+        409,
+        340,
+        194,
+        0
+      ]
+    },
+    {
+      "variant": "K1",
+      "frequency_hz": 283,
+      "modes": 1136,
+      "cp_min": 1500.084429281119,
+      "cp_max": 1999.543889899085,
+      "above_cmax": 643,
+      "bands": [
+        493,
+        409,
+        234,
+        0
+      ]
+    },
+    {
+      "variant": "K2",
+      "frequency_hz": 201,
+      "modes": 980,
+      "cp_min": 1500.1185019848076,
+      "cp_max": 2396.8781920151177,
+      "above_cmax": 630,
+      "bands": [
+        350,
+        291,
+        166,
+        173
+      ]
+    },
+    {
+      "variant": "K2",
+      "frequency_hz": 235,
+      "modes": 1146,
+      "cp_min": 1500.1014551918606,
+      "cp_max": 2397.7707138434607,
+      "above_cmax": 737,
+      "bands": [
+        409,
+        340,
+        194,
+        203
+      ]
+    },
+    {
+      "variant": "K2",
+      "frequency_hz": 283,
+      "modes": 1380,
+      "cp_min": 1500.084429281119,
+      "cp_max": 2397.830899260776,
+      "above_cmax": 887,
+      "bands": [
+        493,
+        409,
+        234,
+        244
+      ]
+    }
+  ],
+  "no_real_seabed_parameters": true,
+  "all_complex_band_reconstruction_PASS": true
+}

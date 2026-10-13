@@ -1,0 +1,242 @@
+[
+  {
+    "call_order": 1,
+    "kind": "ANALYTIC",
+    "boundary": "PR_R",
+    "f": 201,
+    "high": 1800,
+    "mesh": 160001,
+    "stem": "n3_PR_R_f201_h1800_n160001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_R_f201_h1800_n160001.env",
+    "sha256": "0445097bcefb068eb39a12e86b1e98f70f37face66e0cb1410835936fcf7dfab",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 2,
+    "kind": "ANALYTIC",
+    "boundary": "PR_R",
+    "f": 201,
+    "high": 2400,
+    "mesh": 160001,
+    "stem": "n3_PR_R_f201_h2400_n160001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_R_f201_h2400_n160001.env",
+    "sha256": "1402c1855128d58a526e69868934c45e5b950952400992ec43b0ffa674daf8b5",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 3,
+    "kind": "ANALYTIC",
+    "boundary": "PR_R",
+    "f": 201,
+    "high": 4000,
+    "mesh": 160001,
+    "stem": "n3_PR_R_f201_h4000_n160001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_R_f201_h4000_n160001.env",
+    "sha256": "00ff33cc9c842a6405dc0e4d416b37bd9a2c853ea95a66942336a9853fb98341",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 4,
+    "kind": "ANALYTIC",
+    "boundary": "PR_R",
+    "f": 283,
+    "high": 1800,
+    "mesh": 160001,
+    "stem": "n3_PR_R_f283_h1800_n160001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_R_f283_h1800_n160001.env",
+    "sha256": "44aefe7abc3ae64cf52e44d5da2e6ea647cf53cd90193b3e48eed04ae66ed326",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 5,
+    "kind": "ANALYTIC",
+    "boundary": "PR_R",
+    "f": 283,
+    "high": 2400,
+    "mesh": 160001,
+    "stem": "n3_PR_R_f283_h2400_n160001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_R_f283_h2400_n160001.env",
+    "sha256": "ed1e903eba889574addf8bde0c813a602ac390ac63b016eb48f21dfd4657a70e",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 6,
+    "kind": "ANALYTIC",
+    "boundary": "PR_R",
+    "f": 283,
+    "high": 4000,
+    "mesh": 160001,
+    "stem": "n3_PR_R_f283_h4000_n160001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_R_f283_h4000_n160001.env",
+    "sha256": "b4766e7845135f5074acc02ad869da21bed3464ffd3daa38be942a4e7cd3b7bb",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 7,
+    "kind": "ANALYTIC",
+    "boundary": "PR_PR",
+    "f": 201,
+    "high": 1800,
+    "mesh": 160001,
+    "stem": "n3_PR_PR_f201_h1800_n160001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_PR_f201_h1800_n160001.env",
+    "sha256": "c7c29dd76056046197f644ffe80197288d3303bf14c8c1a24dfb9d2771436873",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 8,
+    "kind": "ANALYTIC",
+    "boundary": "PR_PR",
+    "f": 201,
+    "high": 2400,
+    "mesh": 160001,
+    "stem": "n3_PR_PR_f201_h2400_n160001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_PR_f201_h2400_n160001.env",
+    "sha256": "dd5319279c319c7805b82562b017bcffc9af01eb7bd5c9139e5e8b7a3bbed89e",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 9,
+    "kind": "ANALYTIC",
+    "boundary": "PR_PR",
+    "f": 201,
+    "high": 4000,
+    "mesh": 160001,
+    "stem": "n3_PR_PR_f201_h4000_n160001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_PR_f201_h4000_n160001.env",
+    "sha256": "27e4b84619b757dc74af00329bfe80161de842214c7e2816a74777edffb88966",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 10,
+    "kind": "ANALYTIC",
+    "boundary": "PR_PR",
+    "f": 283,
+    "high": 1800,
+    "mesh": 160001,
+    "stem": "n3_PR_PR_f283_h1800_n160001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_PR_f283_h1800_n160001.env",
+    "sha256": "3d3b64bb50697e802dc68492f8e1a5cffa68be9f18f8e12589a4ca06cca8e4df",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 11,
+    "kind": "ANALYTIC",
+    "boundary": "PR_PR",
+    "f": 283,
+    "high": 2400,
+    "mesh": 160001,
+    "stem": "n3_PR_PR_f283_h2400_n160001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_PR_f283_h2400_n160001.env",
+    "sha256": "1f11f0ae57c021c09ca3e2f9fb216edd88ebb5b1f64fb074ecd9a3985367be14",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 12,
+    "kind": "ANALYTIC",
+    "boundary": "PR_PR",
+    "f": 283,
+    "high": 4000,
+    "mesh": 160001,
+    "stem": "n3_PR_PR_f283_h4000_n160001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_PR_f283_h4000_n160001.env",
+    "sha256": "a72be0c175c78fcda6ba48d19bcd618bd8d29d541f9bc88049b526c994bf6957",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 13,
+    "kind": "ANALYTIC",
+    "boundary": "PR_R",
+    "f": 201,
+    "high": 2400,
+    "mesh": 80001,
+    "stem": "n3_PR_R_f201_h2400_n80001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_R_f201_h2400_n80001.env",
+    "sha256": "b5ec9aa2aa875cdf0ba9c8e1789c0ec9479eb366dd290515ce9cc0429c2da0cb",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 14,
+    "kind": "ANALYTIC",
+    "boundary": "PR_R",
+    "f": 283,
+    "high": 2400,
+    "mesh": 80001,
+    "stem": "n3_PR_R_f283_h2400_n80001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_R_f283_h2400_n80001.env",
+    "sha256": "bf40f1ce29f60583e028d0d9afad718dc92fe964363897b8ceb377624ef6f9ba",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 15,
+    "kind": "ANALYTIC",
+    "boundary": "PR_PR",
+    "f": 201,
+    "high": 2400,
+    "mesh": 80001,
+    "stem": "n3_PR_PR_f201_h2400_n80001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_PR_f201_h2400_n80001.env",
+    "sha256": "c3a57dc4f30fb5743aa3e873c17e0b61b252d437442875202dad553acece00d9",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 16,
+    "kind": "ANALYTIC",
+    "boundary": "PR_PR",
+    "f": 283,
+    "high": 2400,
+    "mesh": 80001,
+    "stem": "n3_PR_PR_f283_h2400_n80001",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_PR_PR_f283_h2400_n80001.env",
+    "sha256": "3671da83789534e5ae49e6fb5862b6a04503e54f75f35da764f5f28df98d8725",
+    "timeout_s": 180
+  },
+  {
+    "call_order": 17,
+    "kind": "E_STD_V",
+    "boundary": "V",
+    "f": 201,
+    "high": 2400,
+    "mesh": 160001,
+    "stem": "n3_ESTD_V_f201",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_ESTD_V_f201.env",
+    "sha256": "4cbb5909e962c6e58c0dca8b1a7ac04ece45560747c9b2541d4e088c86e1d8f1",
+    "timeout_s": 180,
+    "allowed_changed_lines": [
+      0,
+      256
+    ]
+  },
+  {
+    "call_order": 18,
+    "kind": "E_STD_V",
+    "boundary": "V",
+    "f": 235,
+    "high": 2400,
+    "mesh": 160001,
+    "stem": "n3_ESTD_V_f235",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_ESTD_V_f235.env",
+    "sha256": "1cc020e54180df9993fc1b498d1db49f19615d1407d54a8a80bfc1093e89652f",
+    "timeout_s": 180,
+    "allowed_changed_lines": [
+      0,
+      256
+    ]
+  },
+  {
+    "call_order": 19,
+    "kind": "E_STD_V",
+    "boundary": "V",
+    "f": 283,
+    "high": 2400,
+    "mesh": 160001,
+    "stem": "n3_ESTD_V_f283",
+    "ENV": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\environments\\n3_ESTD_V_f283.env",
+    "sha256": "06e4915ae5d9336f8c741f4380631377814b79fa5546f2c5af84d9f23989e941",
+    "timeout_s": 180,
+    "allowed_changed_lines": [
+      0,
+      256
+    ]
+  }
+]

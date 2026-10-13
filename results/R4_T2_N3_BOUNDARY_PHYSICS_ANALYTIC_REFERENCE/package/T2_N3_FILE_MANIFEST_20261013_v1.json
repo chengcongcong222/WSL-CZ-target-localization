@@ -1,0 +1,80 @@
+{
+  "stage": "T2_N3_CZ1_BOUNDARY_PHYSICS_AND_ANALYTIC_BENCHMARK_V1",
+  "parent_git_sha": "1ddc329edec9cbf07ffd6f2f5bbd63805104964e",
+  "created_date": "2026-10-13",
+  "scientific_preview": "analytic closed-form only; no new KRAKEN or FIELDS, 256 independent analytic cold checks PASS",
+  "new_local_KRAKEN_budget": "max19, only on subsequent Codex execution; not run here",
+  "original_N2_G0_R4": "unchanged",
+  "files": [
+    {
+      "name": "T2_N3_CODEX_TASK_20261013_v1.md",
+      "size_bytes": 16727,
+      "sha256": "5082da133db2ab54de93c71cd2179f8b2df531cc5dbefbcc86335994c714e127"
+    },
+    {
+      "name": "T2_N3_EXPERIMENT_SPEC_20261013_v1.json",
+      "size_bytes": 5324,
+      "sha256": "7ac647cd2bd0d235a09f00ea7422a2e436b89edb5ba3c0f3d85d0a5929c9f0a4"
+    },
+    {
+      "name": "T2_N3_SOURCE_SCOPE_20261013_v1.md",
+      "size_bytes": 5001,
+      "sha256": "de5c3e5867312aa7892fe969ae69b7ea06a59fd87f85e9e9922314182a86a8ca"
+    },
+    {
+      "name": "T2_N3_RESEARCH_BRIEF_20261013_v1.md",
+      "size_bytes": 2346,
+      "sha256": "3e5d9a625bb7441e28bd3abec4321e4841c497acf72846ae02d928251b8adf38"
+    },
+    {
+      "name": "T2_N3_ANALYTIC_RESULT_NOTE_20261013_v1.md",
+      "size_bytes": 2937,
+      "sha256": "f8d568ff2266d3bc500ffb0dcadfa3269abc7411039602657349e82353d33f8a"
+    },
+    {
+      "name": "T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "size_bytes": 3793,
+      "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd"
+    },
+    {
+      "name": "T2_N2_SENTINELS_20261013_v1.csv",
+      "size_bytes": 945,
+      "sha256": "1093a5e26284a43711f05d26940372ef040733c5ae877102324a9fc075ad0d6e"
+    },
+    {
+      "name": "t2_n3_analytic_reference.py",
+      "size_bytes": 5938,
+      "sha256": "456468df64afb04dc25ebb28cd96c62bbf2f973e03c9bc92df4fcf71d6902467"
+    },
+    {
+      "name": "t2_n3_independent_reference_check.py",
+      "size_bytes": 3057,
+      "sha256": "01fd04241b1ac66dfe33868b9480ab65911ddd940f983be38a781fc5f2a32ef4"
+    },
+    {
+      "name": "ANALYTIC_WAVEGUIDE_MODE_COUNTS.csv",
+      "size_bytes": 1433,
+      "sha256": "422103189b0c0dea223329d20aea234e109891a9d49493ba34f80ff80b7483bd"
+    },
+    {
+      "name": "ANALYTIC_WAVEGUIDE_WINDOW_SHAPES.csv",
+      "size_bytes": 27299,
+      "sha256": "a3b411de31e086366f8dc256283f4d78223b803270f4bb2d29148d638bdab4d0"
+    },
+    {
+      "name": "ANALYTIC_EXACT_RADIAL_VS_FARFIELD.csv",
+      "size_bytes": 5728,
+      "sha256": "d236c8b4fb5dc5db915378fa1f66a21d389f49eb76ab56ccdb729b18e3bc8997"
+    },
+    {
+      "name": "ANALYTIC_REFERENCE_INDEPENDENT_CHECK.json",
+      "size_bytes": 252,
+      "sha256": "2b404f75564b50e79c6f84afbaca97a2b27428328e1407515d5349816cd5cee0"
+    },
+    {
+      "name": "T2_N3_START_20261013_v1.txt",
+      "size_bytes": 1847,
+      "sha256": "d72dd14d6caa364d01bcabd31b56292eafea355487b9776516ff90b997d6a986"
+    }
+  ]
+}

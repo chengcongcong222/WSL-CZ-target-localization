@@ -1,0 +1,22 @@
+T2-N3 / Codex完整科研工作包启动提示（2026-10-13）
+
+先完整阅读本ZIP内完整任务MD、实验规格JSON、来源/物理合同MD和解析方法说明；不能只看此TXT开工。
+
+仓库：chengcongcong222/WSL-CZ-target-localization
+HEAD与remote/main必须均为：1ddc329edec9cbf07ffd6f2f5bbd63805104964e
+输出目录：results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/
+独立D盘大文件：D:/ProjectStorage/WSL-CZ/T2_N3/
+
+冻结关键SHA256：
+TASK MD  5082da133db2ab54de93c71cd2179f8b2df531cc5dbefbcc86335994c714e127
+SPEC JSON 7ac647cd2bd0d235a09f00ea7422a2e436b89edb5ba3c0f3d85d0a5929c9f0a4
+ANALYTIC PY 456468df64afb04dc25ebb28cd96c62bbf2f973e03c9bc92df4fcf71d6902467
+SOURCE_SCOPE MD de5c3e5867312aa7892fe969ae69b7ea06a59fd87f85e9e9922314182a86a8ca
+
+目标：分清旧Munk-like E-STD理想刚性海底的高相速度模态、原N2窗口依赖、KRAKEN对可解析均匀波导的正确性、海底R/V数学边界对照；严禁把理想底V或R当真实底质。
+
+一次科学任务严格采用：物理原始ENV/MOD只读审计→Commit A冻结含代码/冷审计/ENV/调用预算→最多12次主解析KRAKEN＋4次双网格KRAKEN；仅解析Gate全面通过才增加3次旧E-STD改底部边界R→V的数学对照→独立冷复核→Commit B push并核对remote/main→STOP。
+
+新KRAKEN最多19；SCOOTER/FIELDS/FIELD均0；主科学进程1，7200秒壁钟上限。旧T2-G0失败及N1/N2判定不变；A/B实际接收性能NOT_EVALUATED、R4=0%。没有信号波形、DFT、蒙特卡洛、优化或五维联合定位。
+
+回传一次：PHYSICAL_SOURCE_AND_TURNING_AUDIT，理想两种边界解析模态和复场Gate及分母，旧E-STD底界对照或没有评估的原因，调用/预算/冷复核，新Commit A和B完整SHA、remote/main、GPT_SYNC.md位置，STOP。失败保留数据不重跑、不改门槛。

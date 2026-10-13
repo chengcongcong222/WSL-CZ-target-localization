@@ -1,0 +1,17 @@
+boundary,frequency_hz,chigh_mps,analytic_modes,total_propagating_modes,max_cp_full_mps,source
+PR_R,201,1800,741,1340,54914.13847965646,closed_form_kz_eigenvalues_no_solver
+PR_R,201,2400,1046,1340,54914.13847965646,closed_form_kz_eigenvalues_no_solver
+PR_R,201,4000,1242,1340,54914.13847965646,closed_form_kz_eigenvalues_no_solver
+PR_R,201,ALL_PROPAGATING,1340,1340,54914.13847965646,closed_form_kz_eigenvalues_no_solver
+PR_R,283,1800,1043,1887,112851.94958376093,closed_form_kz_eigenvalues_no_solver
+PR_R,283,2400,1473,1887,112851.94958376093,closed_form_kz_eigenvalues_no_solver
+PR_R,283,4000,1749,1887,112851.94958376093,closed_form_kz_eigenvalues_no_solver
+PR_R,283,ALL_PROPAGATING,1887,1887,112851.94958376093,closed_form_kz_eigenvalues_no_solver
+PR_PR,201,1800,740,1339,38833.78310140098,closed_form_kz_eigenvalues_no_solver
+PR_PR,201,2400,1046,1339,38833.78310140098,closed_form_kz_eigenvalues_no_solver
+PR_PR,201,4000,1242,1339,38833.78310140098,closed_form_kz_eigenvalues_no_solver
+PR_PR,201,ALL_PROPAGATING,1339,1339,38833.78310140098,closed_form_kz_eigenvalues_no_solver
+PR_PR,283,1800,1042,1886,56429.713798659424,closed_form_kz_eigenvalues_no_solver
+PR_PR,283,2400,1472,1886,56429.713798659424,closed_form_kz_eigenvalues_no_solver
+PR_PR,283,4000,1748,1886,56429.713798659424,closed_form_kz_eigenvalues_no_solver
+PR_PR,283,ALL_PROPAGATING,1886,1886,56429.713798659424,closed_form_kz_eigenvalues_no_solver

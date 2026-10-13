@@ -1,0 +1,9 @@
+{
+  "PASS": true,
+  "AST_scripts": 6,
+  "MOD_frequency_and_global_scale": true,
+  "analytic_spectrum_controls": 12,
+  "new_solver_calls": 0,
+  "pre_A_report_syntax_error_fixed": true,
+  "physical_and_reference_data_not_rerun": true
+}

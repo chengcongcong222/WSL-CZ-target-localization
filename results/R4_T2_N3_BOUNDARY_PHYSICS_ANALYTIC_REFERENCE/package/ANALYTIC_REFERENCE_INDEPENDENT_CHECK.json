@@ -1,0 +1,9 @@
+{
+  "PASS": true,
+  "mode_count_records": 16,
+  "window_shape_records": 240,
+  "checks": 256,
+  "max_independent_shape_difference_discrepancy": 1.1102230246251565e-16,
+  "solver_calls": 0,
+  "scope": "closed_form_ideal_constant_speed_waveguide_only"
+}
