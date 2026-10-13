@@ -1,0 +1,40 @@
+{
+  "stage": "T2-N2",
+  "date": "2026-10-13",
+  "repo": "chengcongcong222/WSL-CZ-target-localization",
+  "parent_sha": "eeb06809b1b37852ef41d5d03b6348dcf95310a8",
+  "science_status": "TASK_PREPARED_NOT_EXECUTED",
+  "R4_percent": 0,
+  "files": [
+    {
+      "name": "T2_N2_CODEX_TASK_20261013_v1.md",
+      "sha256": "e2cc30ce930932f5135bb33e63f916eefa25d6c6f9e4679a5a6f43dd4693df17",
+      "bytes": 14443
+    },
+    {
+      "name": "T2_N2_EXPERIMENT_SPEC_20261013_v1.json",
+      "sha256": "7ea4aa1f2cdd7878f59c7d12e24053d376869d3bece23c4b5619a72ad713110c",
+      "bytes": 6972
+    },
+    {
+      "name": "T2_N2_SENTINELS_20261013_v1.csv",
+      "sha256": "1093a5e26284a43711f05d26940372ef040733c5ae877102324a9fc075ad0d6e",
+      "bytes": 945
+    },
+    {
+      "name": "T2_N2_SOURCE_SCOPE_20261013_v1.md",
+      "sha256": "c5649672b010a26be68128d760fb7d82a01f7a12711559e29c9623159ff7f1d7",
+      "bytes": 3607
+    },
+    {
+      "name": "T2_N2_RESEARCH_BRIEF_20261013_v1.md",
+      "sha256": "e8ac12670cae8ed416f5839c9f1661d526c6728cf09d238612976065d262ce53",
+      "bytes": 1643
+    },
+    {
+      "name": "T2_N2_START_20261013_v1.txt",
+      "sha256": "9c02211f9d6ddf077d07208d94fb1d329320ee3df6cdf5996f444a551ff0fbce",
+      "bytes": 1512
+    }
+  ]
+}

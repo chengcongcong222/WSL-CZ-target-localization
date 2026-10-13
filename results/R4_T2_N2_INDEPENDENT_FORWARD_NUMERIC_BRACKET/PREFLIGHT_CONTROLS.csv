@@ -1,0 +1,9 @@
+control,error,limit,PASS
+common_complex_source_scalar_null,0.0,1e-10,True
+projector_identity,2.220446049250313e-16,1e-10,True
+physical_mirror_yzero,0.0,0,True
+exact_horizontal_mirror,0.0,0,True
+same_channel_duplicates,0.0,0,True
+actualaxis_linear_complex_interp,6.280369834735101e-16,1e-10,True
+locked_plan_counts_and_N801_1601,0.0,0,True
+frozen_physics_whitelist,0.0,0,True

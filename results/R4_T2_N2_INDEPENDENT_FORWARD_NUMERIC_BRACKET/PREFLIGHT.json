@@ -1,0 +1,14 @@
+{
+  "PASS": true,
+  "algebra_control_cases": 8,
+  "new_acoustic_calls": 0,
+  "new_samples": 0,
+  "FFP": "READY_TO_ATTEMPT_RUNTIME_UNCERTIFIED",
+  "budget": {
+    "elapsed_s": 0,
+    "RSS_bytes": 34021376,
+    "new_D_bytes": 374986,
+    "new_git_bytes": 318716
+  },
+  "utc": "2026-10-13T08:10:10.002570+00:00"
+}

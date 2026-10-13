@@ -1,0 +1,11 @@
+T2-N2新一轮任务，单独授权并冻结一次，不重复T2-N1/T2-G0：
+
+先核对remote/main与本地HEAD等于 `eeb06809b1b37852ef41d5d03b6348dcf95310a8`；任务包SHA校验见MANIFEST，必须完整阅读同包主任务MD、实验JSON、锁定哨兵CSV与来源文档。新目录：`results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/`，本地原始数据根：`D:/ProjectStorage/WSL-CZ/T2_N2/`。
+
+本轮只验证名义前向数值：四资源 A0_0、A_P4M、B2_DUP、B1_V4；201/235/283Hz。9次新KRAKEN（160001/2000、160001/2400、240001/2400）与旧160001/1800比较全目录；9次SCOOTER+最多144次FIELDS只比较12锁定哨兵。SCOOTER是独立谱积分数值路径，若不可运行记NOT_READY，绝不能以KRAKEN FIELD充数。全部失败/阴性保留、不给旧G0改Gate、无波形/DFT/MC/定位精度。
+
+必须Commit A冻结+push后一次有界执行、独立冷复核、Commit B+push、核对remote/main并STOP；如失效也交付PARTIAL/NOT_EVALUATED，绝不重复新科学计算或改变数值设置自救。反馈正式研究结论、各K窗口/网格最大差异、SCOOTER自身与跨方法差异、复声压坐标误差、模态数/上界、KRAKEN/SCOOTER/FIELDS调用数、冷复核及A/B两SHA与GPT_SYNC路径。R4=0%。
+
+主任务SHA256：e2cc30ce930932f5135bb33e63f916eefa25d6c6f9e4679a5a6f43dd4693df17
+规格SHA256：7ea4aa1f2cdd7878f59c7d12e24053d376869d3bece23c4b5619a72ad713110c
+哨兵SHA256：1093a5e26284a43711f05d26940372ef040733c5ae877102324a9fc075ad0d6e

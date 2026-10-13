@@ -1,0 +1,198 @@
+{
+  "stage": "T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET",
+  "task_date": "2026-10-13",
+  "repo": "chengcongcong222/WSL-CZ-target-localization",
+  "expected_parent_sha": "eeb06809b1b37852ef41d5d03b6348dcf95310a8",
+  "result_directory": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET",
+  "resource_primary_comparisons": [
+    {
+      "id": "A",
+      "treated": "A_P4M",
+      "control": "A0_0",
+      "channels_each": 8
+    },
+    {
+      "id": "B",
+      "treated": "B1_V4",
+      "control": "B2_DUP",
+      "channels_each": 12
+    }
+  ],
+  "source_environment": {
+    "previous_stage": "T2-TILT-G0",
+    "frequencies_hz": [
+      201.0,
+      235.0,
+      283.0
+    ],
+    "source_depths_for_K": [
+      180,
+      185,
+      190,
+      200,
+      210,
+      215,
+      220
+    ],
+    "source_depths_for_FFP": [
+      180,
+      190,
+      200,
+      210,
+      220
+    ],
+    "receiver_depths": "unchanged exact union from existing 4-resource ARRAY_GEOMETRY_TABLE.csv",
+    "original_CLOW_mps": 1500,
+    "original_CHIGH_mps": 1800,
+    "original_RMAX_km": 60,
+    "CLOW_new_mps": 1500,
+    "boundary": "same top VACUUM, bottom PERFECTLY_RIGID at 5000m, 1-layer original sampled SSP/density/THORP, no SSP change",
+    "source_receiver_geometry": "same Cartesian actual sensor xyz and exact horizontal source-receiver ranges; no geometry modification"
+  },
+  "kraken_full_catalogue": {
+    "reuse_saved_anchor": {
+      "mesh": 160001,
+      "CHIGH": 1800,
+      "frequency_count": 3,
+      "old_mod_baseline": "D:/ProjectStorage/WSL-CZ/T2_TILT_G0/modal/t2_f{f}_n160001.mod"
+    },
+    "new_plan": [
+      {
+        "mesh": 160001,
+        "CHIGH": 2000
+      },
+      {
+        "mesh": 160001,
+        "CHIGH": 2400
+      },
+      {
+        "mesh": 240001,
+        "CHIGH": 2400
+      }
+    ],
+    "new_calls": 9,
+    "per_call_timeout_s": 180,
+    "catalogues": {
+      "primary": 3355,
+      "fine": 12705
+    },
+    "resources": [
+      "A0_0",
+      "A_P4M",
+      "B1_V4",
+      "B2_DUP"
+    ],
+    "comparisons": [
+      "OLD160k_1800_vs_NEW160k_2000",
+      "NEW160k_2000_vs_NEW160k_2400",
+      "NEW160k_2400_vs_NEW240k_2400"
+    ],
+    "full_catalogue_physical_states_per_resource": 16060,
+    "full_catalogue_score_contract": "Normalized cross-mesh/window complex spatial-vector shape after one complex scalar fitted per frequency per candidate, no deletion; ancillary raw pressure ratios and mode-band decomposition"
+  },
+  "ffp_independent_reference": {
+    "solver": "SCOOTER + FIELDS, distinct spectral-integral method, not KRAKEN FIELD or BELLHOP",
+    "binary_expected_paths": [
+      "tools/acoustics_toolbox/atWin10/at/bin/scooter.exe",
+      "tools/acoustics_toolbox/atWin10/at/bin/fields.exe"
+    ],
+    "variants": [
+      {
+        "id": "F1",
+        "vertical_mesh": 16001,
+        "spectral_CHIGH": 2400
+      },
+      {
+        "id": "F2",
+        "vertical_mesh": 32001,
+        "spectral_CHIGH": 2400
+      },
+      {
+        "id": "F3",
+        "vertical_mesh": 32001,
+        "spectral_CHIGH": 3000
+      }
+    ],
+    "new_scooter_calls": 9,
+    "per_scooter_timeout_s": 900,
+    "range_max_km": 65,
+    "CLOW_mps": 1500,
+    "sentinel_count": 12,
+    "sentinel_csv": "T2_N2_SENTINELS_20261013_v1.csv",
+    "fields_range_slice_halfwidth_m": 20.0,
+    "fields_range_step_primary_m": 0.05,
+    "fields_range_step_refined_m": 0.025,
+    "fields_interp": "piecewise-linear real and imaginary separately on actual float32 saved range-coordinate vector; never sample from requested unrounded ranges",
+    "fields_primary_runs": 108,
+    "fields_refined_F2_only_runs": 36,
+    "fields_max_calls": 144,
+    "per_fields_timeout_s": 120,
+    "ffp_internal_checks": [
+      "F1 vs F2 at same spectral cutoff2400",
+      "F2 vs F3 at same mesh32001",
+      "actual stored range coordinate & interpolation 0.05m vs0.025m for F2"
+    ],
+    "cross_method_check": "F2 K-independent matched pressure/spatial shape against KRAKEN 240001 CHIGH2400 at exact same physics and sensor ranges, no per-channel complex gain adjustment",
+    "unsupported_handling": "If FIELDS interface, GRN parser, physical boundary or spectral representation cannot be verified, report independent solver NOT_READY; no fabricated cross-solver agreement. Keep K results."
+  },
+  "thresholds_predeclared": {
+    "descriptive_shape_max": 0.002,
+    "raw_common_factor_scope": "one global complex factor per frequency and source-depth for each reference family across positions/resources; raw check separate from shape",
+    "rank_pair_advantage": "NOT_EVALUATED_NO_RECEIVED_DATA",
+    "no_template_advantage_reclassification": true,
+    "no_chigh_full_proof_above_2400_or_ffp_3000": true,
+    "conditional_no_old_gate_upgrade": true,
+    "ffp_interpolation_error_target": 0.0005,
+    "cold_reconstruction_error_max": 1e-10,
+    "nonnumerical_errors_never_labeled_zero": true
+  },
+  "output_requirements": [
+    "GPT_SYNC.md",
+    "NUMERICAL_DECISION.json",
+    "PROVIDER_CALLS.csv",
+    "WINDOW_MODAL_CONTRIBUTION.csv",
+    "FULL_CATALOGUE_KRAKEN_STABILITY.csv",
+    "SENTINEL_KRAKEN_STABILITY.csv",
+    "SCOOTER_FIELDS_PROVENANCE.csv",
+    "FFP_INTERNAL_STABILITY.csv",
+    "KRAKEN_FFP_CROSS_METHOD.csv",
+    "FFP_RANGE_INTERPOLATION.csv",
+    "NUMERIC_SCOPE_AND_FAILURES.md",
+    "INDEPENDENT_COLD_AUDIT.json",
+    "LOCAL_ARCHIVE_INDEX.csv",
+    "SOURCE_IDENTITY.json",
+    "SOURCE_RECORDS.json",
+    "STOP.json"
+  ],
+  "budget": {
+    "new_kraken_calls": 9,
+    "new_scooter_calls": 9,
+    "new_fields_calls": 144,
+    "total_wall_s": 21600,
+    "new_local_bytes": 17179869184,
+    "new_git_bytes": 536870912,
+    "peak_rss_bytes": 8589934592,
+    "processes": 1,
+    "blas_threads": 1
+  },
+  "stopping": {
+    "stage_sequence": "Commit A freeze -> one bounded execution (K first, FFP second) -> cold audit -> Commit B -> remote/main verify -> STOP",
+    "failure": "Preserve partial results, mark unopened units NOT_EVALUATED; do not alter meshes/windows/sentinels/tolerances or rerun after failure",
+    "original_T2_G0": "FORWARD_NUMERIC_NOT_ADMITTED_UNCHANGED",
+    "original_T2_N1": "ARCHIVED_NUMERIC_DIAGNOSTIC_COMPLETE_UNCHANGED",
+    "tilted_array_performance": "NOT_EVALUATED",
+    "short_vertical_array_performance": "NOT_EVALUATED",
+    "CHIGH_global": "UNCERTIFIED",
+    "R4_percent": 0,
+    "next_stage_automatic_authorization": false
+  },
+  "sources": {
+    "tool_repository_commit": "eeb06809b1b37852ef41d5d03b6348dcf95310a8",
+    "git_g0": "results/R4_T2_TILT_VS_SHORT_VERTICAL_G0/",
+    "git_n1": "results/R4_T2_N1_ARCHIVED_FIELD_SCORE_STABILITY/",
+    "prior_h3": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/",
+    "official_kraken_manual": "https://oalib-acoustics.org/website_resources/AcousticsToolbox/manual/node47.html",
+    "official_scooter_manual": "https://oalib-acoustics.org/website_resources/AcousticsToolbox/manual/node64.html",
+    "official_fields_manual": "https://oalib-acoustics.org/website_resources/AcousticsToolbox/manual/node65.html"
+  }
+}

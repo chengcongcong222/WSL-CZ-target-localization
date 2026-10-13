@@ -1,0 +1,30 @@
+{
+  "static_FFP_ready": true,
+  "FIELDS_options": "RPO",
+  "local_interpolation": "np.interp real and imaginary separately, actual SHD float32 saved axis only, no extrapolation",
+  "depth_absolute_tolerance_m": 1e-05,
+  "frequency_absolute_tolerance_hz": 1e-06,
+  "shape_threshold_K_and_FFP": 0.002,
+  "FFP_interpolation_threshold": 0.0005,
+  "cold_relative_error_tolerance": 1e-10,
+  "raw_reference": "B field in shape(a,b); raw norm(b-a)/norm(b); crossmethod global scalar/f/source-depth acrossall12sentinelsand4resources, each pressure entry retained",
+  "K0_field_source": "qualified original high-grid full-catalogue complex archives, no recomputation of old solver",
+  "modal_band_diagnostic": "K1 cp>1800, K2 cp>2000, auxiliary only; fullreturnedmode arrays unchanged",
+  "K_failure": "stop subsequentK calls at first failure; preserve completed; FFP still attempts frozen table ifready/budget",
+  "FFP_failure": "stop independentFFP path at first nonzero solver or invalidGRN/SHD; remainingregisteredcalls NOT_EVALUATED, no parameterchangeor retry",
+  "source_receiver_K_depth_lists": "all originalG0 depths retained per Kwhitelist, includesrequired4resourceunion; unusedregistereddepthsnot newgeometry",
+  "new_waveform_MC_DFT_FIM_optimizer_or_template_score": 0,
+  "budget": {
+    "new_kraken_calls": 9,
+    "new_scooter_calls": 9,
+    "new_fields_calls": 144,
+    "total_wall_s": 21600,
+    "new_local_bytes": 17179869184,
+    "new_git_bytes": 536870912,
+    "peak_rss_bytes": 8589934592,
+    "processes": 1,
+    "blas_threads": 1
+  },
+  "historical_R4_percent": 0,
+  "no_next_stage_authorization": true
+}

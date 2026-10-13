@@ -1,0 +1,423 @@
+{
+  "parent_SHA": "eeb06809b1b37852ef41d5d03b6348dcf95310a8",
+  "task_SHA256": "e2cc30ce930932f5135bb33e63f916eefa25d6c6f9e4679a5a6f43dd4693df17",
+  "records": [
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\GPT_SYNC.md",
+      "sha256": "c2c6b28da80ea2a10e13de1add8cbd69d6732ad96b17bac63acd8639ab2000a2",
+      "bytes": 3457,
+      "parent_blob_sha256": "c2c6b28da80ea2a10e13de1add8cbd69d6732ad96b17bac63acd8639ab2000a2",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\DESIGN_FREEZE.json",
+      "sha256": "4899d1e502a9901ce2e75f0ccbd88d4d0e38e0f671edea52c935ff9941ac9302",
+      "bytes": 6140,
+      "parent_blob_sha256": "4899d1e502a9901ce2e75f0ccbd88d4d0e38e0f671edea52c935ff9941ac9302",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\PROVIDER_PROVENANCE.json",
+      "sha256": "1f3e09d50ae754b005a5285d254f34920f28d256106fde2e6e3e9299eebd6f8b",
+      "bytes": 3764,
+      "parent_blob_sha256": "1f3e09d50ae754b005a5285d254f34920f28d256106fde2e6e3e9299eebd6f8b",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\PROVIDER_MODE_WINDOW_AND_MESH.csv",
+      "sha256": "021b88998c8d789834f93a4e29d739adb3c1a59fbd7289cb6f74b9d0fbc293d3",
+      "bytes": 1855,
+      "parent_blob_sha256": "021b88998c8d789834f93a4e29d739adb3c1a59fbd7289cb6f74b9d0fbc293d3",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\FORWARD_DECISION.json",
+      "sha256": "847fb1ac7ee6a381060308d3160435a952634d7d176d06ffda625b685ece5cce",
+      "bytes": 664,
+      "parent_blob_sha256": "847fb1ac7ee6a381060308d3160435a952634d7d176d06ffda625b685ece5cce",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\FORWARD_CATALOGUE_NUMERICAL_STABILITY.csv",
+      "sha256": "753f5d775b1ecc43dbe5eed33eef6d36e1863a6c1f9fb72c31415692336cbbae",
+      "bytes": 8085,
+      "parent_blob_sha256": "753f5d775b1ecc43dbe5eed33eef6d36e1863a6c1f9fb72c31415692336cbbae",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\ARRAY_GEOMETRY_TABLE.csv",
+      "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "bytes": 3793,
+      "parent_blob_sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\CATALOGUE_primary.npy",
+      "sha256": "daf44e30864bb81105b3954a52efc4b4a6ea539e3e83472d640fddd220753c81",
+      "bytes": 80648,
+      "parent_blob_sha256": "daf44e30864bb81105b3954a52efc4b4a6ea539e3e83472d640fddd220753c81",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\CATALOGUE_fine.npy",
+      "sha256": "b80bfd74ef7f22f61440de95312c28a09a7a6bd9f5a39afe872d0a02467edd07",
+      "bytes": 305048,
+      "parent_blob_sha256": "b80bfd74ef7f22f61440de95312c28a09a7a6bd9f5a39afe872d0a02467edd07",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\LOCAL_ARCHIVE_INDEX.csv",
+      "sha256": "fe5d5492443fb1d8268e427197e3a4470ccf8995262fc934f63ecc9949d68aa9",
+      "bytes": 15569,
+      "parent_blob_sha256": "fe5d5492443fb1d8268e427197e3a4470ccf8995262fc934f63ecc9949d68aa9",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_TILT_VS_SHORT_VERTICAL_G0\\REPLICA_FREEZE.json",
+      "sha256": "04d0592291c8307312f48b4798cff3dc1195053452c573dd44eb3cb2b2be4a18",
+      "bytes": 7379,
+      "parent_blob_sha256": "04d0592291c8307312f48b4798cff3dc1195053452c573dd44eb3cb2b2be4a18",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N1_ARCHIVED_FIELD_SCORE_STABILITY\\GPT_SYNC.md",
+      "sha256": "2c3130d8e1878b6fe0912df05049ad59b514e8767e9d2927b96c3a412d6c2898",
+      "bytes": 3903,
+      "parent_blob_sha256": "2c3130d8e1878b6fe0912df05049ad59b514e8767e9d2927b96c3a412d6c2898",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N1_ARCHIVED_FIELD_SCORE_STABILITY\\NEXT_RESEARCH_DECISION.md",
+      "sha256": "797257a7672e48487417c9bfbdd3745ee0d520253b4f088e350d72a20f952a3b",
+      "bytes": 1661,
+      "parent_blob_sha256": "797257a7672e48487417c9bfbdd3745ee0d520253b4f088e350d72a20f952a3b",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N1_ARCHIVED_FIELD_SCORE_STABILITY\\TOP_ERROR_CANDIDATES.csv",
+      "sha256": "90640ead53fa8d8c695fb6f4be45bd06a8cd13763ccf5cfe99ae2c0262933cfa",
+      "bytes": 28570,
+      "parent_blob_sha256": "90640ead53fa8d8c695fb6f4be45bd06a8cd13763ccf5cfe99ae2c0262933cfa",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N1_ARCHIVED_FIELD_SCORE_STABILITY\\PAIR_ADVANTAGE_NUMERIC_INTERVALS.csv",
+      "sha256": "946fa888f421e3386ddbc568b58a5bb0e1af62a9e45bffde4453caf640bb0c23",
+      "bytes": 8212,
+      "parent_blob_sha256": "946fa888f421e3386ddbc568b58a5bb0e1af62a9e45bffde4453caf640bb0c23",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N1_ARCHIVED_FIELD_SCORE_STABILITY\\ANALYSIS_FREEZE.json",
+      "sha256": "de5c018b6137ce525b66d3ce31aa51c7cd248c14b6c898f67e271d2f0a8353f7",
+      "bytes": 7495,
+      "parent_blob_sha256": "de5c018b6137ce525b66d3ce31aa51c7cd248c14b6c898f67e271d2f0a8353f7",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_H3_P1_UNIFIED_WINDOW_SSP\\GPT_SYNC.md",
+      "sha256": "ce763548f8be06ad77853a4aaf824f28d7f7d9671c8a83c086c1fb5eb360e46f",
+      "bytes": 5338,
+      "parent_blob_sha256": "95ae116bf97d6188e8d889347a4e8e951b5fb61bbebe8051fe5f4839f3593865",
+      "role": "historical_read_only_source"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_H3_P1_UNIFIED_WINDOW_SSP\\FAILURE_SCOPE.md",
+      "sha256": "363ae64bc330629d24ae81026b024de40209d059971c665052c31a883dacc8c5",
+      "bytes": 3085,
+      "parent_blob_sha256": "c5c584830d7e61342b5ee7fd986ebaa90b522f60038d6356aedd1f38b5449050",
+      "role": "historical_read_only_source"
+    },
+    {
+      "name": "kraken",
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\tools\\acoustics_toolbox\\atWin10\\at\\bin\\kraken.exe",
+      "sha256": "997d533594c89f8cc63b520ae29cadec743ecfbdb64898f4c3294ab0254f4eb7",
+      "bytes": 1195081,
+      "executable_access": true,
+      "role": "frozen_binary"
+    },
+    {
+      "name": "scooter",
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\tools\\acoustics_toolbox\\atWin10\\at\\bin\\scooter.exe",
+      "sha256": "b70a32c10f36751c3e9c07835cf354cbaa2df6e8ac43d8db877b101fb45274a0",
+      "bytes": 1163898,
+      "executable_access": true,
+      "role": "frozen_binary"
+    },
+    {
+      "name": "fields",
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\tools\\acoustics_toolbox\\atWin10\\at\\bin\\fields.exe",
+      "sha256": "89d8756efc532ae0f2aeb3d6a1c8e6d0db1c15fb6716e104560701970eb844bb",
+      "bytes": 1114362,
+      "executable_access": true,
+      "role": "frozen_binary"
+    },
+    {
+      "name": "field",
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\tools\\acoustics_toolbox\\atWin10\\at\\bin\\field.exe",
+      "sha256": "65067be0f3fc3eb9cdf7b73e8a8888e0e3beabaa2de24fa25a24b960f03b00ba",
+      "bytes": 1151751,
+      "executable_access": true,
+      "role": "frozen_binary"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\modal\\t2_f201_n160001.mod",
+      "sha256": "336a79058eade6489383ca5061d697683d5324f05ffee4505c3bd5823c9d9b3c",
+      "bytes": 176352,
+      "role": "old_K0_mod"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\modal\\t2_f201_n160001.env",
+      "sha256": "910d211f2b44d86ee2568bd404c0bc41d20aaf6d924b87094d9035684b3d605a",
+      "bytes": 9688,
+      "role": "old_K0_env"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\modal\\t2_f235_n160001.mod",
+      "sha256": "1edfc77a822e1d785811062d4d0a38a4b7664dd084cb3cd1e3c3aaa3c5824a47",
+      "bytes": 205656,
+      "role": "old_K0_mod"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\modal\\t2_f235_n160001.env",
+      "sha256": "f4c70832de768f1a350e0781b83e210024a8a246f528bea6fd292c3aaba143f9",
+      "bytes": 9688,
+      "role": "old_K0_env"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\modal\\t2_f283_n160001.mod",
+      "sha256": "5db3630239a35c1d78764addba53f5e8aba962ad6e15291cf6ba423ac3be669f",
+      "bytes": 247368,
+      "role": "old_K0_mod"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\modal\\t2_f283_n160001.env",
+      "sha256": "142252a0d1d706efe5aa88fa89cc4b1b21b15505420b9940b91ee83c5ee71090",
+      "bytes": 9688,
+      "role": "old_K0_env"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A0_0_primary_n80001.npy",
+      "sha256": "2a1595601677a07ad37ceb86f3aa489813135dc752ece5112edce1a31f0a8142",
+      "bytes": 1288448,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A0_0_primary_n160001.npy",
+      "sha256": "265dabbccb64fb6a93e15be5d5562a4fb7a94fef3464595e284d2387e164d7e6",
+      "bytes": 1288448,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P4M_primary_n80001.npy",
+      "sha256": "4805b75a83fa385ab7e3412dbc68042d920732ce56657a838699b8e7921c804b",
+      "bytes": 1288448,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P4M_primary_n160001.npy",
+      "sha256": "d121a44905c29bbf05021bd9c293fcb698dea0970052939ad65b3b566507e226",
+      "bytes": 1288448,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        3355,
+        3,
+        8
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B1_V4_primary_n80001.npy",
+      "sha256": "38506b387364608318834de97b8aa885411acb773f669f0593438dd42a020b3a",
+      "bytes": 1932608,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        3355,
+        3,
+        12
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B1_V4_primary_n160001.npy",
+      "sha256": "16cf8fe2feee91c41eee32c4d839a938f095dd855b5d81297e620abf689ff2bb",
+      "bytes": 1932608,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        3355,
+        3,
+        12
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B2_DUP_primary_n80001.npy",
+      "sha256": "5bc6621ccf14d0ece1c4b5ef06ebca0c381e282a734527ce59456d3070bdf5de",
+      "bytes": 1932608,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        3355,
+        3,
+        12
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B2_DUP_primary_n160001.npy",
+      "sha256": "e3f7dbfd54908895344254682c51e4be5e2b642ed531c0b2a67134ebe7d08443",
+      "bytes": 1932608,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        3355,
+        3,
+        12
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A0_0_fine_n80001.npy",
+      "sha256": "04186ca1710a91912b3fe4db461b97b24f214de6c70e14a1461b599f771f2e88",
+      "bytes": 4878848,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A0_0_fine_n160001.npy",
+      "sha256": "a8e948d1434c7da93ac16b246aa2d8e829586eab34a90a2f712f9817e2645587",
+      "bytes": 4878848,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P4M_fine_n80001.npy",
+      "sha256": "1eb8f05ee347452bfc7e5047714dcf1ce940c134dafe09f297c714d83dd44be8",
+      "bytes": 4878848,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\A_P4M_fine_n160001.npy",
+      "sha256": "2df11e5523435af7c2e11bbac9f84a6d569124f8936a3e3944fd7c289161a05f",
+      "bytes": 4878848,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        12705,
+        3,
+        8
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B1_V4_fine_n80001.npy",
+      "sha256": "7371496c99b640868d62f84569f509472e5352ae7394d1e27d3e8ade1ff24d8a",
+      "bytes": 7318208,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        12705,
+        3,
+        12
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B1_V4_fine_n160001.npy",
+      "sha256": "8c326186bfbf3f0365d60411f9833018a017b39aad1add641867135cb4618765",
+      "bytes": 7318208,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        12705,
+        3,
+        12
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B2_DUP_fine_n80001.npy",
+      "sha256": "c15de9adfb7b2f72e50a2e7b03b2f939604adacee34f8b30a4772e8872b9a123",
+      "bytes": 7318208,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        12705,
+        3,
+        12
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_TILT_G0\\replicas\\B2_DUP_fine_n160001.npy",
+      "sha256": "6217d9c123e3a3eaabbcf78b7ed3049cfdf525ffd6a4f0968abc16f7cf620697",
+      "bytes": 7318208,
+      "role": "old_immutable_complex_archive",
+      "shape": [
+        12705,
+        3,
+        12
+      ],
+      "dtype": "complex128"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N2\\source_review\\fields.f90",
+      "sha256": "137be44dc697b0276c7aa37247ff7a1e7af886bb2a3e2e73532917c40f3a3fd9",
+      "bytes": 13749,
+      "role": "official_source_static_reference_not_binary_build_proof"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N2\\source_review\\scooter.f90",
+      "sha256": "1c6d5859bba1f1d22d025033384695ad1dc974f7bf17cfa452dbe35a54884792",
+      "bytes": 25885,
+      "role": "official_source_static_reference_not_binary_build_proof"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N2\\source_review\\SourceReceiverPositions.f90",
+      "sha256": "d8f440d1b119cee2d3d8630084486e28423282d0b2f20dd132a38078b938f353",
+      "bytes": 10762,
+      "role": "official_source_static_reference_not_binary_build_proof"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N2\\source_review\\SOURCE_DOWNLOADS.json",
+      "sha256": "cf1802f14cfa40a6eeb6076026cd591588bb23fe93d9bfc96ff9df52e4914a95",
+      "bytes": 977,
+      "role": "official_source_static_reference_not_binary_build_proof"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N2\\source_review\\TransformG.f90",
+      "sha256": "b6f7a859e5ccb4b5f288bddcc5cc7dd2a725095f22576526a5f7266d752e34bc",
+      "bytes": 4819,
+      "role": "official_source_static_reference_not_binary_build_proof"
+    }
+  ],
+  "old_sources_unchanged": true
+}

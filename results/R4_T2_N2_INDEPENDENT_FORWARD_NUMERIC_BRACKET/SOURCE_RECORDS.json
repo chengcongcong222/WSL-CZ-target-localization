@@ -1,0 +1,40 @@
+{
+  "official_manuals": {
+    "tool_repository_commit": "eeb06809b1b37852ef41d5d03b6348dcf95310a8",
+    "git_g0": "results/R4_T2_TILT_VS_SHORT_VERTICAL_G0/",
+    "git_n1": "results/R4_T2_N1_ARCHIVED_FIELD_SCORE_STABILITY/",
+    "prior_h3": "results/R4_H3_P1_UNIFIED_WINDOW_SSP/",
+    "official_kraken_manual": "https://oalib-acoustics.org/website_resources/AcousticsToolbox/manual/node47.html",
+    "official_scooter_manual": "https://oalib-acoustics.org/website_resources/AcousticsToolbox/manual/node64.html",
+    "official_fields_manual": "https://oalib-acoustics.org/website_resources/AcousticsToolbox/manual/node65.html"
+  },
+  "official_source_downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/main/Scooter/fields.f90",
+      "commit": "main",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N2\\source_review\\fields.f90",
+      "sha256": "137be44dc697b0276c7aa37247ff7a1e7af886bb2a3e2e73532917c40f3a3fd9",
+      "bytes": 13749
+    },
+    {
+      "url": "https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/main/Scooter/scooter.f90",
+      "commit": "main",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N2\\source_review\\scooter.f90",
+      "sha256": "1c6d5859bba1f1d22d025033384695ad1dc974f7bf17cfa452dbe35a54884792",
+      "bytes": 25885
+    },
+    {
+      "url": "https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/main/Scooter/TransformG.f90",
+      "commit": "main",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N2\\source_review\\TransformG.f90",
+      "sha256": "b6f7a859e5ccb4b5f288bddcc5cc7dd2a725095f22576526a5f7266d752e34bc",
+      "bytes": 4819
+    }
+  ],
+  "FIELDS_format": "RPO; then integer NR; then RMIN RMAX slash; ReadRcvrRanges/ReadVector current interface, not1997 RDB/RMIN RMAX NR",
+  "FFT_convention": "positive-wavenumber cylindrical, exp(-ikR), frozen polynomial G interpolation; no sourcebeam",
+  "same_TopOpt_CVWT_boundary_R_SSP_density": true,
+  "binary_source_exact_build_not_claimed": true,
+  "static_interface_ready_to_attempt": true,
+  "runtime_ready_not_pretested": true
+}

@@ -1,0 +1,13 @@
+sentinel_id,r_km,abs_theta_deg,source_z_m,role,provenance_scope
+P01,45.5,0.0,180.0,N1_FIXED_PROBE,"N1 first anchor, source template"
+P02,50.0,0.0,200.0,N1_FIXED_PROBE,N1 reference middle range
+P03,55.0,2.5,200.0,N1_FIXED_PROBE,N1 nonzero angle
+P04,58.0,4.5,210.0,N1_FIXED_PROBE,"A negative archived advantage, do not omit"
+P05,59.5,5.0,220.0,N1_FIXED_PROBE,N1 near upper range / theta boundary
+S01,58.375,5.0,190.0,N1_PRIOR_STRESS,A0 fine/283 large archive error
+S02,45.25,5.0,220.0,N1_PRIOR_STRESS,A_P4M fine/201 large archive error
+S03,55.75,5.0,200.0,N1_PRIOR_STRESS,B1 fine/201 large archive error
+S04,58.5,5.0,200.0,N1_PRIOR_STRESS,B2 fine/235 large archive error
+H01,47.375,3.75,190.0,PREDECLARED_UNTARGETED,frozen untargeted geometry from fine catalogue
+H02,52.125,1.25,210.0,PREDECLARED_UNTARGETED,frozen untargeted geometry from fine catalogue
+H03,57.875,4.75,180.0,PREDECLARED_UNTARGETED,frozen untargeted geometry from fine catalogue
