@@ -1,0 +1,8 @@
+{
+  "stage": "prec3_cold.py",
+  "stage_wall_s": 151.53100000019185,
+  "total_wall_s": 241.18700000015087,
+  "RSS_bytes": 87994368,
+  "local_bytes": 123581524,
+  "git_result_bytes": 468396
+}

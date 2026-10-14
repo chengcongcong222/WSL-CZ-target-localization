@@ -1,0 +1,8 @@
+{
+  "main_B_independent_FD_mode961": "CANCELLED_AFTER_MODE481; separately examined only by registered cold audit",
+  "C_all60sentinels": "NOT_EVALUATED",
+  "C3": "NOT_EVALUATED",
+  "C_full_field_accuracy": "NOT_EVALUATED",
+  "external_solver_calls": 0,
+  "new_waveform_MC_DFT_FIM_localization_calls": 0
+}

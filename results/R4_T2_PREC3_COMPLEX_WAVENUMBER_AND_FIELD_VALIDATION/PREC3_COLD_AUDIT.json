@@ -1,0 +1,10 @@
+{
+  "PASS": false,
+  "checks": 487,
+  "FAIL": 4,
+  "new_Pruefer_roots": 3,
+  "raw_fields_rebuilt": 0,
+  "wall_s": 160.9220000000205,
+  "scope": "independent roots3; extrapolation15 as completed; independent FD complex3 as completed; field scalar/QR only executed branch",
+  "R4_percent": 0
+}

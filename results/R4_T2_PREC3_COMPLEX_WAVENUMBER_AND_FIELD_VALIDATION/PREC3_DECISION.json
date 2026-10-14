@@ -1,0 +1,15 @@
+{
+  "stage": "T2-PREC3",
+  "Gate_A": "PASS_SUBSET_CONDITIONAL",
+  "Gate_B": "FAIL",
+  "Gate_C": "NOT_EVALUATED",
+  "A_planned": 15,
+  "B_planned": 15,
+  "C_planned": 60,
+  "R4_percent": 0,
+  "STOP": true,
+  "status": "PREC3_B_COMPLEX_K_NOT_CERTIFIED",
+  "stop_reason": "B_INDEPENDENT_FD_OR_MODE_FUNCTION_FAIL",
+  "A_completed": 15,
+  "B_completed": 15
+}

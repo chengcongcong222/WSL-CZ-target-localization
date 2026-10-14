@@ -1,0 +1,29 @@
+{
+  "stages": [
+    {
+      "program": "prec3_main.py",
+      "wall_limit_s": 3000,
+      "returncode": 0,
+      "wall_s": 89.39099999982864,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\logs\\prec3_main.py.log",
+      "sha256": "302ec8edf80b40a67288419af547e8282a948af7965fc74941a97f92dfe0b769"
+    },
+    {
+      "program": "prec3_cold.py",
+      "wall_limit_s": 600,
+      "returncode": 1,
+      "wall_s": 162.93800000008196,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\logs\\prec3_cold.py.log",
+      "sha256": "2f294229c546aa19e13b6061360f0ec4fe4642fc5dfb49dae9909003989283e8"
+    }
+  ],
+  "failure": "PROGRAM_EXCEPTION_NO_RETRY prec3_cold.py",
+  "wall_s": 252.60899999993853,
+  "peak_tree_RSS_bytes": 1957117952,
+  "main_calls": 1,
+  "cold_calls": 1,
+  "retries": 0,
+  "new_named_acoustic_solver_MC_waveform_DFT_FIM_localization_calls": 0,
+  "local_bytes": 123637039,
+  "git_result_bytes": 523164
+}

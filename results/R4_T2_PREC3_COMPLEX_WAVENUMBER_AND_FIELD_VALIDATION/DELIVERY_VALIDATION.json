@@ -1,0 +1,2361 @@
+{
+  "PASS": true,
+  "scope": "identity, failure preservation, complete delivery; DOES_NOT_OVERRIDE_SCIENTIFIC_FAIL",
+  "checks": [
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\prec3_cold.py",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_COMPLEX_K_VALIDATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\prec3_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_INDEPENDENT_COMPLEX_AND_PHI.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_INPUT_IDENTITIES.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_LOSS_CONTROLS.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\prec3_main.py",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_RAW_EIGENVALUES.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_REAL_K_INDEPENDENT_VALIDATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_SOURCE_AND_BINARY_AUDIT.md",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\prec3_cold.py",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_COLD_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_COLD_PRUEFER.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_COMPLEX_K_VALIDATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\prec3_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_INDEPENDENT_COMPLEX_AND_PHI.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_INPUT_IDENTITIES.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_LOSS_CONTROLS.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\prec3_main.py",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_RAW_EIGENVALUES.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_REAL_K_INDEPENDENT_VALIDATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\worktree\\results\\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\\PREC3_SOURCE_AND_BINARY_AUDIT.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/.gitattributes",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/ARRAY_GEOMETRY_TABLE.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/BUDGET_AND_DELIVERY.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/DELIVERY_REVIEW.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/ENVIRONMENT_WHITELIST_AUDIT.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/EXECUTION_CONTRACT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/EXECUTION_PROCESSES.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/EXECUTION_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/EXTREME_FIELD_COLD_REVIEW.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/FFP_INTERNAL_STABILITY.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/FFP_RANGE_INTERPOLATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/FFP_SENTINEL_EXECUTION_STATUS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/FINAL_LOCAL_ARCHIVE_INDEX.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/FULL_CATALOGUE_KRAKEN_STABILITY.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/INDEPENDENT_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/INDEPENDENT_COLD_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/INDEPENDENT_PATH_PUBLIC_ARTIFACTS.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/KRAKEN_FFP_CROSS_METHOD.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/LEDGER_APPEND_PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/LOCAL_ARCHIVE_INDEX.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/MODE_WINDOW_AND_MATCHING.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/NEXT_RESEARCH_DECISION.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/NUMERICAL_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/NUMERICAL_EVALUATION_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/NUMERIC_SCOPE_AND_FAILURES.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/PARTIAL_FIELDS_AND_AUDIT_SCOPE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/PREFLIGHT_CONTROLS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/PROPAGATION_CONTRACT_AND_SCOPE.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/PROVIDER_CALLS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/RAW_GLOBAL_COMPLEX_FACTOR_DIAGNOSTIC.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/RUN_FAILURES.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SCIENCE_OUTPUT_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SCIENCE_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SCOOTER_FIELDS_PROVENANCE.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SENTINEL_CATALOGUE_MEMBERSHIP.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SENTINEL_KRAKEN_STABILITY.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SOLVER_PLAN.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SOURCE_IDENTITY.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SOURCE_RECORDS.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/T2_N2_CODEX_TASK_20261013_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/T2_N2_EXPERIMENT_SPEC_20261013_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/T2_N2_FILE_MANIFEST_20261013_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/T2_N2_RESEARCH_BRIEF_20261013_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/T2_N2_SENTINELS_20261013_v1.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/T2_N2_SOURCE_SCOPE_20261013_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/T2_N2_START_20261013_v1.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/WINDOW_MODAL_CONTRIBUTION.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_F1_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_F1_f235.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_F1_f283.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_F2_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_F2_f235.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_F2_f283.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_F3_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_F3_f235.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_F3_f283.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K1_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K1_f235.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K1_f283.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f201_H01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f201_H02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f201_H03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f201_P01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f201_P02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f201_P03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f201_P04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f201_P05_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f201_S01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f201_S02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f201_S03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f201_S04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f235_H01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f235_H02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f235_H03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f235_P01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f235_P02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f235_P03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f235_P04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f235_P05_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f235_S01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f235_S02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f235_S03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f235_S04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f283_H01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f283_H02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f283_H03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f283_P01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f283_P02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f283_P03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f283_P04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f283_P05_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f283_S01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f283_S02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f283_S03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F1_f283_S04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_H01_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_H01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_H02_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_H02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_H03_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_H03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_P01_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_P01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_P02_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_P02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_P03_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_P03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_P04_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_P04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_P05_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_P05_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_S01_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_S01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_S02_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_S02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_S03_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_S03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_S04_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f201_S04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_H01_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_H01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_H02_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_H02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_H03_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_H03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_P01_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_P01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_P02_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_P02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_P03_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_P03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_P04_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_P04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_P05_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_P05_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_S01_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_S01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_S02_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_S02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_S03_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_S03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_S04_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f235_S04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_H01_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_H01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_H02_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_H02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_H03_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_H03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_P01_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_P01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_P02_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_P02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_P03_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_P03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_P04_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_P04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_P05_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_P05_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_S01_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_S01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_S02_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_S02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_S03_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_S03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_S04_d025.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F2_f283_S04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f201_H01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f201_H02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f201_H03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f201_P01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f201_P02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f201_P03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f201_P04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f201_P05_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f201_S01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f201_S02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f201_S03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f201_S04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f235_H01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f235_H02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f235_H03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f235_P01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f235_P02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f235_P03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f235_P04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f235_P05_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f235_S01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f235_S02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f235_S03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f235_S04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f283_H01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f283_H02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f283_H03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f283_P01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f283_P02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f283_P03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f283_P04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f283_P05_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f283_S01_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f283_S02_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f283_S03_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/fields_parameters/n2_F3_f283_S04_d050.flp",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/figures/K_WINDOW_MESH_DIAGNOSTIC.png",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/independent_path_archive/n2_F1_f201.grn",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/independent_path_archive/n2_F1_f201.prt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/independent_path_archive/n2_F1_f201_P01_d050.shd",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K1_f201.mod",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K1_f201.prt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K1_f201.stderr.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K1_f201.stdout.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K1_f235.mod",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K1_f235.prt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K1_f235.stderr.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K1_f235.stdout.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K1_f283.mod",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K1_f283.prt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K1_f283.stderr.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K1_f283.stdout.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.stderr.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.stdout.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.stderr.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.stdout.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.stderr.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.stdout.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.stderr.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.stdout.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.stderr.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.stdout.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.stderr.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.stdout.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/.gitattributes",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/ALL_PLANNED_CALL_STATUS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/ANALYTIC_KRAKEN_MODE_AND_FIELD_CROSSCHECK.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/ANALYTIC_MESH_COMPARISON.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/ANALYTIC_MODAL_ERRORS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/ANALYTIC_RAW_GLOBAL_FACTOR.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/ANALYTIC_REFERENCE_VALIDATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/COLD_AUDIT_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/DELIVERY_REVIEW.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/E_STD_BOTTOM_EXTREMES.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/FINAL_LOCAL_ARCHIVE_INDEX.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/LEDGER_APPEND_PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/LEDGER_BEFORE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/LOCAL_ARCHIVE_INDEX.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/N3_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/NEXT_RESEARCH_DECISION.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/OLD_N2_MODAL_BAND_CONTRIBUTIONS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/OLD_N2_SOURCE_IDENTITIES.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/PHYSICAL_ENV_CONTRACT.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/PHYSICAL_SOURCE_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/PIPELINE_BUDGET.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/PRECHECK_INDEPENDENT_REFERENCE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/PREPARATION_CONTROL_RECORD.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/RUN_FAILURES.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/SCIENCE_OUTPUT_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/SCIENCE_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/SOLVER_CALLS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/SOLVER_PLAN.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/SSP_AND_TURNING_CLASSIFICATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/VALIDATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_ESTD_V_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_ESTD_V_f235.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_ESTD_V_f283.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_PR_f201_h1800_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_PR_f201_h2400_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_PR_f201_h2400_n80001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_PR_f201_h4000_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_PR_f283_h1800_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_PR_f283_h2400_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_PR_f283_h2400_n80001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_PR_f283_h4000_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_R_f201_h1800_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_R_f201_h2400_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_R_f201_h2400_n80001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_R_f201_h4000_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_R_f283_h1800_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_R_f283_h2400_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_R_f283_h2400_n80001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/environments/n3_PR_R_f283_h4000_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/figures/PHYSICAL_CONTRACT_AND_MODAL_GROUPS.png",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h1800_n160001/n3_PR_R_f201_h1800_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h1800_n160001/n3_PR_R_f201_h1800_n160001.mod",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h1800_n160001/n3_PR_R_f201_h1800_n160001.prt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h1800_n160001/n3_PR_R_f201_h1800_n160001.stderr.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h1800_n160001/n3_PR_R_f201_h1800_n160001.stdout.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h2400_n160001/exception.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h2400_n160001/n3_PR_R_f201_h2400_n160001.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h2400_n160001/n3_PR_R_f201_h2400_n160001.mod",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h2400_n160001/n3_PR_R_f201_h2400_n160001.prt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h2400_n160001/n3_PR_R_f201_h2400_n160001.stderr.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h2400_n160001/n3_PR_R_f201_h2400_n160001.stdout.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/ANALYTIC_EXACT_RADIAL_VS_FARFIELD.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/ANALYTIC_REFERENCE_INDEPENDENT_CHECK.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/ANALYTIC_WAVEGUIDE_MODE_COUNTS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/ANALYTIC_WAVEGUIDE_WINDOW_SHAPES.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_N2_SENTINELS_20261013_v1.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/t2_n3_analytic_reference.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_N3_ANALYTIC_RESULT_NOTE_20261013_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_N3_CODEX_TASK_20261013_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_N3_EXPERIMENT_SPEC_20261013_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_N3_FILE_MANIFEST_20261013_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/t2_n3_independent_reference_check.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_N3_RESEARCH_BRIEF_20261013_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_N3_SOURCE_SCOPE_20261013_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_N3_START_20261013_v1.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/.gitattributes",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/DELIVERY_CHECK.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/EXECUTION_BUDGET.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/FINAL_ADJUDICATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/FORMAL_PIPELINE_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/GPT_SYNC_PREC1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/LEDGER_APPEND_PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/MAIN_OUTPUT_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/OUTPUT_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/P04_precision_attribution.png",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PREC1_ALL_40_CASES.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PREC1_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PREC1_COLD_AUDIT_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PREC1_COLD_AUDIT_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PREC1_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PREC1_EXECUTION_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PREC1_GATE_ATTRIBUTION.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PREC1_MODE_WAVENUMBER_STORAGE.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PREC1_P04_FROZEN_FOUR_RESOURCE.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PRECHECK_HASH_CORRECTION.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PRECHECK_REVALIDATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PRECHECK_SELFTEST.log",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PREFLIGHT_IDENTITY.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/SCIENTIFIC_OUTPUT_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/runtime_logs/t2_n3_prec1.log",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/runtime_logs/t2_n3_prec1_cold_audit.log",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/CURRENT_PREC1_P04_FOUR_ARM_COMPARISON.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/INDEPENDENT_IDEAL_FLOAT32_K_ONLY_40_CASES.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/PREC1_P04_PRECISION_ATTRIBUTION.png",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/README_T2_N3_PREC1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/t2_n3_prec1.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/T2_N3_PREC1_CODEX_TASK_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/t2_n3_prec1_cold_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/T2_N3_PREC1_EXPERIMENT_SPEC_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/T2_N3_PREC1_FILE_MANIFEST_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/T2_N3_PREC1_RESEARCH_NOTE_20261014.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/T2_N3_PREC1_START_20261014_v1.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/TASK_PACKAGE/test_synthetic_only.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/.gitattributes",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/DELIVERY_VALIDATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/EXECUTION_BUDGET.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/EXECUTION_PROGRESS.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/GPT_SYNC_PREC2.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/LEDGER_APPEND_PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/MAIN_OUTPUT_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_ZIP_RECOVERY.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/OUTPUT_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PIPELINE_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_COLD_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_FINAL_ADJUDICATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_LOSSLESS_SUBSET_FDM.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_NEXT_RESEARCH_DECISION.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_PRT_MOD_ALL_SAMPLES.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_PRT_MOD_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_PRUFER_COLD_ROOTS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_SCOPED_INTERPRETATION.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_SOURCE_HASH_CORRECTION.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_SOURCE_IDENTITIES.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/README_T2_PREC2_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/SCIENTIFIC_OUTPUT_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/SOURCE_HASH_CORRECTION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/t2_prec2_cold_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_FILE_MANIFEST_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/t2_prec2_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/t2_prec2_readonly.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_START_20261014_v1.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/test_t2_prec2_synthetic.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/CORRECTED_PREFLIGHT_FIRST/PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_PREFLIGHT_STOP/PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_PREFLIGHT_STOP/PREC2_STOP_SUMMARY.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_PREFLIGHT_STOP/PROPOSED_SOURCE_HASH_CORRECTION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_TASK_PACKAGE/PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_TASK_PACKAGE/README_T2_PREC2_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_TASK_PACKAGE/T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_TASK_PACKAGE/t2_prec2_cold_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_TASK_PACKAGE/T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_TASK_PACKAGE/T2_PREC2_FILE_MANIFEST_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_TASK_PACKAGE/t2_prec2_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_TASK_PACKAGE/t2_prec2_readonly.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_TASK_PACKAGE/T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_TASK_PACKAGE/T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_TASK_PACKAGE/T2_PREC2_START_20261014_v1.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_TASK_PACKAGE/test_t2_prec2_synthetic.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/runtime_logs/t2_prec2_cold_audit.log",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/runtime_logs/t2_prec2_readonly.log",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/task_archives/T2_PREC2_TASK_PACKAGE_20261014_v1-corr1.zip",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/task_archives/T2_PREC2_TASK_PACKAGE_20261014_v1.zip",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n2_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n2_common.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n2_evaluate.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n2_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n2_prepare.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n2_report.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n2_run.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n3_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n3_common.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n3_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n3_prec1.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n3_prec1_cold_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n3_prepare.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n3_report.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_n3_run.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_prec2_cold_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_prec2_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/t2_prec2_readonly.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/tools/acoustics_toolbox/atWin10/at/bin/kraken.exe",
+      "PASS": true
+    },
+    {
+      "check": "parent_source/tools/acoustics_toolbox/atWin10/at/bin/krakenc.exe",
+      "PASS": true
+    },
+    {
+      "check": "frozen_code/prec3_cold.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen_code/prec3_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen_code/prec3_main.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen_code/prepare_freeze.py",
+      "PASS": true
+    },
+    {
+      "check": "upstream_source/https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/8b4682bd719d5d17f5a1c798039d6be8235e3859/Kraken/kraken.f90",
+      "PASS": true
+    },
+    {
+      "check": "upstream_source/https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/8b4682bd719d5d17f5a1c798039d6be8235e3859/Kraken/KrakenMod.f90",
+      "PASS": true
+    },
+    {
+      "check": "upstream_source/https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/8b4682bd719d5d17f5a1c798039d6be8235e3859/Kraken/krakenc.f90",
+      "PASS": true
+    },
+    {
+      "check": "upstream_source/https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/8b4682bd719d5d17f5a1c798039d6be8235e3859/misc/AttenMod.f90",
+      "PASS": true
+    },
+    {
+      "check": "upstream_source/https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/8b4682bd719d5d17f5a1c798039d6be8235e3859/misc/sspMod.f90",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\fd_f201_m1_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\fd_f201_m1_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\fd_f201_m481_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\fd_f201_m481_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m1_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m1_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m225_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m225_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m481_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m481_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m705_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m705_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m961_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m961_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m1141_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m1141_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m1_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m1_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m267_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m267_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m571_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m571_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m837_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m837_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m1013_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m1013_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m1335_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m1335_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m1_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m1_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m323_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m323_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m691_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m691_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m1_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m1_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m225_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m225_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m481_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m481_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m705_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m705_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m961_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m961_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m1141_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m1141_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m1_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m1_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m267_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m267_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m571_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m571_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m837_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m837_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m1013_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m1013_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m1335_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m1335_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m1_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m1_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m323_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m323_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m691_N160000.npz",
+      "PASS": true
+    },
+    {
+      "check": "D_vector/D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m691_N80000.npz",
+      "PASS": true
+    },
+    {
+      "check": "AST/prec3_cold.py",
+      "PASS": true
+    },
+    {
+      "check": "AST/prec3_deliver.py",
+      "PASS": true
+    },
+    {
+      "check": "AST/prec3_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "AST/prec3_main.py",
+      "PASS": true
+    },
+    {
+      "check": "AST/prec3_plot.py",
+      "PASS": true
+    },
+    {
+      "check": "AST/prepare_freeze.py",
+      "PASS": true
+    },
+    {
+      "check": "cold487_actual_rows",
+      "PASS": true
+    },
+    {
+      "check": "four_failures_all_modal_functions",
+      "PASS": true
+    },
+    {
+      "check": "source_extrapolation_scalar_k_cold_PASS",
+      "PASS": true
+    },
+    {
+      "check": "main_sealed_Gate_B_failure",
+      "PASS": true
+    },
+    {
+      "check": "C_cancelled_no_fields",
+      "PASS": true
+    },
+    {
+      "check": "no_false_complete_certification",
+      "PASS": true
+    },
+    {
+      "check": "one_main_one_cold_zero_retry",
+      "PASS": true
+    },
+    {
+      "check": "cold_nonzero_is_deliberate_scientific_check_failure",
+      "PASS": true
+    },
+    {
+      "check": "budget_in_bounds",
+      "PASS": true
+    },
+    {
+      "check": "runtime_log/prec3_main.py",
+      "PASS": true
+    },
+    {
+      "check": "runtime_log/prec3_cold.py",
+      "PASS": true
+    },
+    {
+      "check": "historical_ledger_prefix",
+      "PASS": true
+    },
+    {
+      "check": "ledger_one_zero_credit_append",
+      "PASS": true
+    },
+    {
+      "check": "required/GPT_SYNC_PREC3.md",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC3_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC3_SOURCE_AND_BINARY_AUDIT.md",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC3_REAL_K_INDEPENDENT_VALIDATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC3_COMPLEX_K_VALIDATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC3_FIELD_SHAPE_COMPARISON.csv",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC3_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC3_COLD_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC3_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC3_NEXT_RESEARCH_DECISION.md",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC3_NUMERICAL_DIAGNOSTICS.png",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC3_NUMERICAL_DIAGNOSTICS.pdf",
+      "PASS": true
+    },
+    {
+      "check": "delivery_size_budget",
+      "PASS": true
+    }
+  ],
+  "cold_scientific_FAIL": 4,
+  "R4_percent": 0,
+  "STOP": true
+}

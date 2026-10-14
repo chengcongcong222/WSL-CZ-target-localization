@@ -1,0 +1,66 @@
+{
+  "stage": "T2-PREC3",
+  "classifications": [
+    "PREC3_A_REAL_K_SUPPORTED_SUBSET_ONLY",
+    "PREC3_B_COMPLEX_K_NOT_CERTIFIED"
+  ],
+  "Gate_A": "PASS_SUBSET_CONDITIONAL",
+  "Gate_B": "FAIL_FROZEN_MODAL_FUNCTION_COMPARISON",
+  "Gate_C": "NOT_EVALUATED",
+  "failure_scope": "201Hz mode481 main paired FE-vs-FD normalized modal functions; cold confirms modes481+961, not complex-wavenumber disagreement",
+  "counts_and_maxima": {
+    "A_real_roots": {
+      "completed": 15,
+      "preregistered": 15,
+      "PASS": 15,
+      "max_Galerkin_vs_PREC2": 4.938272013532696e-13,
+      "max_Galerkin_R4_gap": 1.524433912436507e-10,
+      "max_discrete_mass_dual_residual_k_bound": 7.033786968602415e-12
+    },
+    "B_complex_root_comparisons": {
+      "completed": 15,
+      "preregistered": 15,
+      "individual_root_flags_PASS": 15,
+      "max_real_path_disagreement": 2.554623179662485e-13,
+      "max_imag_path_disagreement": 1.5327061180566565e-18,
+      "max_real_shift_grid_difference": 3.065325770990057e-13,
+      "max_imag_shift_grid_difference": 3.158587237586858e-12,
+      "MOD_imag_vs_independent": 1.0859395234576836e-12
+    },
+    "main_independent_complex_function_modes": {
+      "completed": 2,
+      "preregistered": 3,
+      "third_cancelled_at_second_mode_gate": true
+    },
+    "fresh_cold_Pruefer": {
+      "completed": 3,
+      "preregistered": 3,
+      "max_difference_vs_Galerkin": 8.533374007413386e-11,
+      "max_two_level_difference": 1.8441437266147886e-10
+    },
+    "cold_checks": {
+      "completed": 487,
+      "PASS": 483,
+      "FAIL": 4,
+      "false_categories": [
+        "independent_complex_mode_shape"
+      ],
+      "source_identity454_PASS": true
+    },
+    "C_fixed_sentinels": {
+      "completed": 0,
+      "preregistered": 60,
+      "status": "NOT_EVALUATED_GATE_B_FAIL"
+    },
+    "complete_C3": "NOT_EVALUATED_NOT_AVAILABLE"
+  },
+  "cold_returncode1_reason": "intentional COLD_FAIL_NO_RETRY after all4scientific failures saved; no crash preceding results; no scientific retry",
+  "public_source_vs_binary_build": "NOT_ESTABLISHED",
+  "CHIGH_completeness_real_bottom_full_lossy_field": "NOT_CERTIFIED",
+  "T2_A_B_actual_performance": "NOT_EVALUATED",
+  "historical_G0_N1_N2_N3_PREC1_PREC2": "UNCHANGED",
+  "R4_percent": 0,
+  "research_lead_audit": "PENDING",
+  "STOP": true,
+  "next_stage_authorized": false
+}

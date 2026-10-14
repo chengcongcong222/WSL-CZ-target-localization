@@ -1,0 +1,10 @@
+COLD_PRUEFER 1
+COLD_PRUEFER 481
+COLD_PRUEFER 961
+{"PASS": false, "checks": 487, "FAIL": 4, "new_Pruefer_roots": 3, "raw_fields_rebuilt": 0, "wall_s": 160.9220000000205, "scope": "independent roots3; extrapolation15 as completed; independent FD complex3 as completed; field scalar/QR only executed branch", "R4_percent": 0}
+Traceback (most recent call last):
+  File "D:\ProjectStorage\WSL-CZ\T2_PREC3\worktree\results\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\prec3_cold.py", line 90, in <module>
+    if __name__=='__main__':main()
+  File "D:\ProjectStorage\WSL-CZ\T2_PREC3\worktree\results\R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION\prec3_cold.py", line 89, in main
+    if fail:raise RuntimeError('COLD_FAIL_NO_RETRY')
+RuntimeError: COLD_FAIL_NO_RETRY

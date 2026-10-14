@@ -1,0 +1,325 @@
+{
+  "scope": "actual vectors for completed calculations, retained on D; unperformed field branch absent",
+  "files": [
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\fd_f201_m1_N160000.npz",
+      "bytes": 2440756,
+      "sha256": "1cdd018f42b3f9184a1216ab7f5db6b480ff40b641f89a4ded8447b42a7b2338"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\fd_f201_m1_N80000.npz",
+      "bytes": 1228542,
+      "sha256": "2fb2a2f3120cd552411e82f740fc349afa1411b9461353a8e9df872d169f7b22"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\fd_f201_m481_N160000.npz",
+      "bytes": 2471661,
+      "sha256": "c07807496e75fe7bcac8242ea61d8e366195d5148ea3dbf5345860021ce12677"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\fd_f201_m481_N80000.npz",
+      "bytes": 1237569,
+      "sha256": "b2eadebf969dc8bee9b8a56f1aad9a0f8cab93b916b2fdfd37230229d8bc54b6"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m1_N160000.npz",
+      "bytes": 2390712,
+      "sha256": "7f48ba28488b615d29a1af50036379b36f6c9ab23745d29c4d0dcf2300f0ad51"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m1_N80000.npz",
+      "bytes": 1218609,
+      "sha256": "14a402d30283d5db82bfb11d6838712539cabc43a7a55c13d32d7dbfc63debdb"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m225_N160000.npz",
+      "bytes": 2460465,
+      "sha256": "f2293074834634c69ab8b95888c16ee51683e2f68268b9bcf813bef29080eb6f"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m225_N80000.npz",
+      "bytes": 1215984,
+      "sha256": "bf7c8753372777fb1acebb5d62c9046e1133eb1d27d1723a87698161bcbaf318"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m481_N160000.npz",
+      "bytes": 2471519,
+      "sha256": "48149f346fbeb61ba3af2b13bead7f6b7b84d32317be57663f8fb125880bbc32"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m481_N80000.npz",
+      "bytes": 1237489,
+      "sha256": "333a33341aa79a6d858ad6bbbbf3b4f6eccd48055d6966afa54e7b509389b81a"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m705_N160000.npz",
+      "bytes": 2472670,
+      "sha256": "5217849cac493b1f71056193c7c41d720adee5ab92f517536ea44cfdc1d60bfb"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m705_N80000.npz",
+      "bytes": 1237285,
+      "sha256": "be5d596ef63df9ee65ef435289f80f156565b8eac1c3b6b091a3f38cb9f15bed"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m961_N160000.npz",
+      "bytes": 2473024,
+      "sha256": "518346a13ac80ad29a2a9287336fe8b8d4276e24e7f1d1275f299d7b5093bac0"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f201_m961_N80000.npz",
+      "bytes": 1237344,
+      "sha256": "239e6dcb837403865fc4a5d67ef18552332adaba3819ceb342159e192183c344"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m1141_N160000.npz",
+      "bytes": 2473691,
+      "sha256": "bb377d618035d6551c6ecd7072632503c48b77aa7221dbce736e9d15eaaf93d3"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m1141_N80000.npz",
+      "bytes": 1237440,
+      "sha256": "b58b448ec7ae9072ce0f6e675d0ce972ddac2fa22f49b7f8a51bef4a43c0e27c"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m1_N160000.npz",
+      "bytes": 2364461,
+      "sha256": "917ce136233d459914e184e088a63470edba0db4b165d956763d189da68ae6c4"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m1_N80000.npz",
+      "bytes": 1195867,
+      "sha256": "2ffaf0b4df208b7b903fd079477e4f591a14e2a94c1287a2b8e628a3c1f6e5f5"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m267_N160000.npz",
+      "bytes": 2465904,
+      "sha256": "03a4d7346e0473420610af7bce03d910ea2e9e8da1115c98fb4d3ce324d2b1b7"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m267_N80000.npz",
+      "bytes": 1219747,
+      "sha256": "c5c7a5febabc6120741ea4a2c9229aada34485302d7f2114c1033c203d4860b2"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m571_N160000.npz",
+      "bytes": 2472595,
+      "sha256": "9917a449fbb662de10b9697df4d6c03164a98727c4ada48bf7180e4a9729ece1"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m571_N80000.npz",
+      "bytes": 1237293,
+      "sha256": "5352543cedfc4bdd61f5c95e2bc2209aa68aa427625c4d923392fd37d3d2986e"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m837_N160000.npz",
+      "bytes": 2473548,
+      "sha256": "b54f3561237e20fe6ebc5b9231e44b1f8162628aa14c4c6fa7c475b2cfe48f0f"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f235_m837_N80000.npz",
+      "bytes": 1237172,
+      "sha256": "6367432a3bf4c69c0f9fb7a7a25afc0fd0d6116628fb219dbccf6486096c1d96"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m1013_N160000.npz",
+      "bytes": 2474274,
+      "sha256": "ed97bb56b051069c7508578f86ea8e6a2e575f568120a0176b55600a218e721d"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m1013_N80000.npz",
+      "bytes": 1237887,
+      "sha256": "1e8012b2826619ebc1b451570656315fbf3ba5fca97ba150404ebee401575a9c"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m1335_N160000.npz",
+      "bytes": 2473381,
+      "sha256": "df537fd9b25fdee55bff7de6cb7112003ec64991d82b70ec537052c0b7d339bf"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m1335_N80000.npz",
+      "bytes": 1237426,
+      "sha256": "1d10da266d3e3c8951b79fdbfbcff8d313062d234666d8d3da0af3a25a469f44"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m1_N160000.npz",
+      "bytes": 2342255,
+      "sha256": "d4ace0683058a9ef5e136e4a9bd96af7c1bedd452df99a0e76d0b5d4517f76c8"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m1_N80000.npz",
+      "bytes": 1213076,
+      "sha256": "54b5008a379e125346fc0932231fb5767a038c77169196ec6f51f9c55c0d6350"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m323_N160000.npz",
+      "bytes": 2378350,
+      "sha256": "c07b719de6e9acdcdc9f73cbb5531186f25248993f2a463d5c455e62afa4c839"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m323_N80000.npz",
+      "bytes": 1210138,
+      "sha256": "1d6926a6cbff933997642ac5f467a42431fc911fbeef59fb0164c6fdddcf907a"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m691_N160000.npz",
+      "bytes": 2473487,
+      "sha256": "0b535528eebd361917996be137733e91a11b579c7b66f4265f9177297231199c"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\gal_f283_m691_N80000.npz",
+      "bytes": 1237999,
+      "sha256": "ba3726db5c455e5a5323ef6aaa82d2d14c9221acb33a2cc7eda14b82a86df5f2"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m1_N160000.npz",
+      "bytes": 473372,
+      "sha256": "3dcb995cc5349e1cf7d34b6a987cb1110de3fbe2d5eff630c9601d378c7346be"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m1_N80000.npz",
+      "bytes": 241658,
+      "sha256": "96e625613bd4a6c89c1cc4dfa3d134ce32b14c1d1f37a57ece39e77f7c3c1d47"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m225_N160000.npz",
+      "bytes": 811301,
+      "sha256": "c292cc962e6b64f612376d53aa7cc04c73a9bcda3221f2f8e14199723cd89004"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m225_N80000.npz",
+      "bytes": 407213,
+      "sha256": "dc2acbd26128e99a1e3c95883d39f6c1c3e0be95c005844773ffcf3e12f4c2e2"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m481_N160000.npz",
+      "bytes": 1216752,
+      "sha256": "f3458652103786c08768c1c48eea793ce329f452542d33caa1f3d565ae94ad41"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m481_N80000.npz",
+      "bytes": 608823,
+      "sha256": "537c3b3f133a3036d5aa5b8ce1fe180288afad3c553620357cb4f29301f079ac"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m705_N160000.npz",
+      "bytes": 1217029,
+      "sha256": "ef1c292300bcf061035245790b3921a80343cc30b1a634a7922af7b4f583b855"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m705_N80000.npz",
+      "bytes": 609302,
+      "sha256": "70ad744a14628456dbe16781a3002dada93df8780608725f3d2bfdc3a58e29d9"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m961_N160000.npz",
+      "bytes": 1217433,
+      "sha256": "971c3b318b98fca0998cbbdbefaea916b79f486b7fc44d4512af2155167db272"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f201_m961_N80000.npz",
+      "bytes": 609358,
+      "sha256": "fea9b2620a751dfb872417aaab10942c2e83172973b290be58c84d8d382b49d5"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m1141_N160000.npz",
+      "bytes": 1217790,
+      "sha256": "f46345ddba3fcfc45a7856e90df1ef6a88f8c16baaa5eca20d7b71384aa45253"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m1141_N80000.npz",
+      "bytes": 609418,
+      "sha256": "7b3d59bd43503d21e7707222ef4b7257f8492e6f6483668f995451ecc2df11f3"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m1_N160000.npz",
+      "bytes": 437109,
+      "sha256": "e2e513812e2bcb3b8f7e56dc08514a826ee0f00d4ecbb0e18fce88d985da5fae"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m1_N80000.npz",
+      "bytes": 226007,
+      "sha256": "5ef644e722b3d4f0663e284c51ea0e79146841ec47f101926bcc9375f33a482e"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m267_N160000.npz",
+      "bytes": 800915,
+      "sha256": "3c0e893008f5d282a79af9436a8bacd18e6fdc86099f9e7ebc059f5514c1b3a7"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m267_N80000.npz",
+      "bytes": 404970,
+      "sha256": "bfb389c989882c466506ecf3878d8e431433846afb72cb9c23fd42fdefff46b4"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m571_N160000.npz",
+      "bytes": 1216454,
+      "sha256": "b2b740e85a3505874bceb67d591c2198195887128e3d6ae367215875ed249670"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m571_N80000.npz",
+      "bytes": 608849,
+      "sha256": "90f80a2fdd75c87ca8fbf318831b8d7e77789aacf7b43eb5dc24da61d6bd8bbb"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m837_N160000.npz",
+      "bytes": 1216583,
+      "sha256": "323d953679fcfc3394a7efaf5983b75575b343e9a0d076184ff0cb5566f78112"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f235_m837_N80000.npz",
+      "bytes": 608838,
+      "sha256": "5802a4f4c29dc9c49c9c7242e7865dbd09a1801a2e2dadbbf3323ed4c69d9db0"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m1013_N160000.npz",
+      "bytes": 1217718,
+      "sha256": "916f34e7738b0d5305d83eb1e51aada03fb02dd9ee24d74c394a8d141168a935"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m1013_N80000.npz",
+      "bytes": 609308,
+      "sha256": "a8b05b7b05465ab5b93fe5e012d357314c420f58b9c2f2ee5efdc07bec734b2d"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m1335_N160000.npz",
+      "bytes": 1217614,
+      "sha256": "e0a9c1287d6009bd66e36c94603c153d8349e117d912f7f64e681fe30afb487f"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m1335_N80000.npz",
+      "bytes": 609369,
+      "sha256": "1e733b32de210d0c5c05f30b8535c8c4469a5a1961612d3c6f074f2c2fd4ea15"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m1_N160000.npz",
+      "bytes": 405380,
+      "sha256": "c40bb275c2fc262b6e9daf01f9b6b7183e4cdc677fab94d4ce9eb230422a08ac"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m1_N80000.npz",
+      "bytes": 213273,
+      "sha256": "375e1884ffe641d7a989bdc8537aeb40834976cc7d1a71b18caa1b4da85149c3"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m323_N160000.npz",
+      "bytes": 791436,
+      "sha256": "d98560faecb834da6f57e7d0541e10b369637b0dcd8383b7a268474da39400ab"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m323_N80000.npz",
+      "bytes": 399044,
+      "sha256": "d0f6dd5c105120d6cfa6ff431ff447980efdd4b22bc0fef18a6a4d94dd5e03d7"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m691_N160000.npz",
+      "bytes": 1216908,
+      "sha256": "420e155401fc3316db422849a40a404825b32a8f1b50c5202fe809ca2c07f5a0"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\vectors\\real_f283_m691_N80000.npz",
+      "bytes": 608953,
+      "sha256": "5d3470aa7de003c1848c973f96108dd83570054a397bf6413ca21d15112b5903"
+    }
+  ]
+}
