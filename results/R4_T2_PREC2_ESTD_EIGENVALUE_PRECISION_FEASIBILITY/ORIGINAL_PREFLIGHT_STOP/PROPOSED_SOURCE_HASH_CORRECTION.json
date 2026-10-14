@@ -1,0 +1,12 @@
+{
+  "NOT_EXECUTED": true,
+  "approval_required": "Research-lead clarification of frozen source identity",
+  "only_proposed_change": {
+    "file": "T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+    "json_path": "archive_sets[stem=n2_K2_f283].sha256.env",
+    "from": "8bb8e66c6666187a68f1458a71c9f1b71e94f53851b3d68efd082f852cc6ec",
+    "to": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec"
+  },
+  "scientific_parameters_code_and_thresholds_change": false,
+  "required_followup_if_authorized": "Preserve original STOP and original ZIP; create documented corrected metadata version with new SPEC/manifest/start SHA identities; redo original full preflight before Commit A."
+}

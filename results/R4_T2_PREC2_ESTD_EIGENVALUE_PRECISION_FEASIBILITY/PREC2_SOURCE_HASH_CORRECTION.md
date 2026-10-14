@@ -1,0 +1,26 @@
+# PREC2 单项源哈希登记更正审计（v1-corr1）
+
+研究负责人在本轮明确批准仅更正 archive_sets[2].sha256.env，并更新受影响的元数据哈希链；不得修改任务MD、科学Python代码、15个预登记模态、阈值、预算或父提交。
+
+- 错误源哈希（62字符）：8bb8e66c6666187a68f1458a71c9f1b71e94f53851b3d68efd082f852cc6ec
+- 正确源哈希（64字符）：8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec
+- 原SPEC：6733字节；SHA256 945d963b0a09eb1008fcf5c0faa657d68ba314c18c943e5bb54c4268913d39c0
+- 更正SPEC：6735字节；SHA256 71acc2be68c503334f8842472406936dfaf2799440c05c8920cfafb8c02ba16d
+
+SPEC采用原字节精确替换，仅上述字符串一处改变；JSON语义比对确认其它字段全部不变。任务MD和全部科学源代码原字节保持。更新了SPEC对应清单的长度及哈希、清单顶层SPEC哈希、START的SPEC哈希、START对应清单哈希和清单版本标识；仅3份原包文件发生获授权的元数据改变。
+
+新ZIP：T2_PREC2_TASK_PACKAGE_20261014_v1-corr1.zip
+新ZIP SHA256：eceaa385ebfc97f22af86afd7b8a060dd4a7d685279605cbfc2e01ca371832a4
+START SHA256：1a05e380203692c0e2fa6c42adc2d1bb1f28d0dc325227ba76ca9e9b2538719f
+清单SHA256：e2cb17b6b17d50edb2743b1344a987563dee8150b3529622a7d744973c9aae5d
+
+原始解压12份文件保留于 package/，逐项通过旧清单校验；原始SPEC及首次STOP原件未覆盖。首次STOP SHA256仍为8230c7e6da9419e37315ab7526b7744305c1e6164d2deccabaf2d90d7177353b。
+
+原ZIP先前已验得SHA256 aac2a63dce3c4a26b356d180e92061608909e55f6c36eea4c0cd8dadaa87ca03，但当前 D:/Downloads 原路径已不存在。在相关下载、项目、附件和回收站路径中未找到该精确SHA原件。新ZIP是纠正后封装，不是原ZIP原件。原ZIP二进制保留要求尚待恢复或研究负责人明确调整；不得声称已保留不存在的原ZIP。
+
+原始预检STOP保持原样。重新预检写入独立 preflight-v1-corr1/，不继承原108项PASS。正式分析、独立科学冷审计、Commit A和新声学求解在本记录创建时均为0，R4=0%。
+## 原ZIP恢复与保留条件闭合
+
+用户随后提供 D:/Downloads/T2_PREC2_TASK_PACKAGE_20261014_v1。已在同一下载位置找到原始ZIP，逐字节SHA256仍为 aac2a63dce3c4a26b356d180e92061608909e55f6c36eea4c0cd8dadaa87ca03，12个ZIP条目与保留的原始解压文件全部相同。
+
+原ZIP永久复制到 D:/ProjectStorage/WSL-CZ/T2_PREC2/original_archive/T2_PREC2_TASK_PACKAGE_20261014_v1.zip，并再次核对SHA。首次STOP原件及原SPEC保持不变。先前“暂缺原ZIP”的描述是当时状态；当前原ZIP原件已经恢复，保留合同已闭合，未使用快照替代原件。详细记录见 ORIGINAL_ZIP_RECOVERY.json。

@@ -1,0 +1,66 @@
+{
+  "stage": "T2-PREC2",
+  "version": "20261014-v1",
+  "package_files_excluding_manifest": 11,
+  "self_manifest_sha_not_embedded": true,
+  "parent_sha": "ac43a8702282fc6c80663319cb6757a30b084e09",
+  "task_md_SHA256": "f8eef00f759af543b6cb58199fdf255d0a696ca49ed0bd8401fe0070bc856efe",
+  "spec_SHA256": "945d963b0a09eb1008fcf5c0faa657d68ba314c18c943e5bb54c4268913d39c0",
+  "files": [
+    {
+      "filename": "T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "bytes": 9626,
+      "sha256": "f8eef00f759af543b6cb58199fdf255d0a696ca49ed0bd8401fe0070bc856efe"
+    },
+    {
+      "filename": "T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "bytes": 6733,
+      "sha256": "945d963b0a09eb1008fcf5c0faa657d68ba314c18c943e5bb54c4268913d39c0"
+    },
+    {
+      "filename": "T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "bytes": 3904,
+      "sha256": "dcabcc911bf2822a67e3fbe90fc46dd8255fc05963faa3bea143cf1354f00938"
+    },
+    {
+      "filename": "T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "bytes": 1519,
+      "sha256": "cbc0079814e24cf82df5baf090d3959c75963949fb9d3127ae466de8b3e55b0d"
+    },
+    {
+      "filename": "README_T2_PREC2_20261014_v1.md",
+      "bytes": 1066,
+      "sha256": "aa6f819e6008f815700bb09f96ed1a3faef28c54450a19c75d8212a6f32c0ad4"
+    },
+    {
+      "filename": "PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "bytes": 863,
+      "sha256": "9b9447c54a6df1b66439c2581d23c20e13b3a7f93705e7e8a2dfe0738866f141"
+    },
+    {
+      "filename": "t2_prec2_readonly.py",
+      "bytes": 11701,
+      "sha256": "a7935b5a75ae9c306a2a999fb4e8815598192b1c49a192fdeb32ceca38cb4f4f"
+    },
+    {
+      "filename": "t2_prec2_cold_audit.py",
+      "bytes": 6618,
+      "sha256": "9f02c0e83e72abc71547a3f711311992040fa1534cc9b9dacf9097c59e8663b3"
+    },
+    {
+      "filename": "t2_prec2_preflight.py",
+      "bytes": 4184,
+      "sha256": "3983ddd6d6a6610eada153ec4d8c25e0480464c79f5d8642a11ec393172328e8"
+    },
+    {
+      "filename": "test_t2_prec2_synthetic.py",
+      "bytes": 2468,
+      "sha256": "c979cc74bc701c23b46a31c943ee611b3c6a4884b77679f399229cda97f92900"
+    },
+    {
+      "filename": "T2_PREC2_START_20261014_v1.txt",
+      "bytes": 2353,
+      "sha256": "6b0b7f98c22506cf1176bd020914cc5f9cb6b8e5d5642b33bbd8dada8eecb2c8"
+    }
+  ]
+}

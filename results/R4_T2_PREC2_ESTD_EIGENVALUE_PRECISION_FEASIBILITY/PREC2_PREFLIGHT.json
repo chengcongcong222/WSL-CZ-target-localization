@@ -1,0 +1,681 @@
+{
+  "stage": "T2-PREC2-PREFLIGHT",
+  "time_UTC": "2026-10-14T09:06:00.883469+00:00",
+  "admitted": true,
+  "errors": [],
+  "checks": [
+    {
+      "item": "package_file_present/T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "package_sha256/T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "PASS": true,
+      "actual": "f8eef00f759af543b6cb58199fdf255d0a696ca49ed0bd8401fe0070bc856efe",
+      "expected": "f8eef00f759af543b6cb58199fdf255d0a696ca49ed0bd8401fe0070bc856efe"
+    },
+    {
+      "item": "package_bytes/T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "PASS": true,
+      "actual": "9626",
+      "expected": "9626"
+    },
+    {
+      "item": "package_file_present/T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "package_sha256/T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "PASS": true,
+      "actual": "71acc2be68c503334f8842472406936dfaf2799440c05c8920cfafb8c02ba16d",
+      "expected": "71acc2be68c503334f8842472406936dfaf2799440c05c8920cfafb8c02ba16d"
+    },
+    {
+      "item": "package_bytes/T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "PASS": true,
+      "actual": "6735",
+      "expected": "6735"
+    },
+    {
+      "item": "package_file_present/T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "package_sha256/T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "PASS": true,
+      "actual": "dcabcc911bf2822a67e3fbe90fc46dd8255fc05963faa3bea143cf1354f00938",
+      "expected": "dcabcc911bf2822a67e3fbe90fc46dd8255fc05963faa3bea143cf1354f00938"
+    },
+    {
+      "item": "package_bytes/T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "PASS": true,
+      "actual": "3904",
+      "expected": "3904"
+    },
+    {
+      "item": "package_file_present/T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "package_sha256/T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "PASS": true,
+      "actual": "cbc0079814e24cf82df5baf090d3959c75963949fb9d3127ae466de8b3e55b0d",
+      "expected": "cbc0079814e24cf82df5baf090d3959c75963949fb9d3127ae466de8b3e55b0d"
+    },
+    {
+      "item": "package_bytes/T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "PASS": true,
+      "actual": "1519",
+      "expected": "1519"
+    },
+    {
+      "item": "package_file_present/README_T2_PREC2_20261014_v1.md",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "package_sha256/README_T2_PREC2_20261014_v1.md",
+      "PASS": true,
+      "actual": "aa6f819e6008f815700bb09f96ed1a3faef28c54450a19c75d8212a6f32c0ad4",
+      "expected": "aa6f819e6008f815700bb09f96ed1a3faef28c54450a19c75d8212a6f32c0ad4"
+    },
+    {
+      "item": "package_bytes/README_T2_PREC2_20261014_v1.md",
+      "PASS": true,
+      "actual": "1066",
+      "expected": "1066"
+    },
+    {
+      "item": "package_file_present/PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "package_sha256/PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "PASS": true,
+      "actual": "9b9447c54a6df1b66439c2581d23c20e13b3a7f93705e7e8a2dfe0738866f141",
+      "expected": "9b9447c54a6df1b66439c2581d23c20e13b3a7f93705e7e8a2dfe0738866f141"
+    },
+    {
+      "item": "package_bytes/PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "PASS": true,
+      "actual": "863",
+      "expected": "863"
+    },
+    {
+      "item": "package_file_present/t2_prec2_readonly.py",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "package_sha256/t2_prec2_readonly.py",
+      "PASS": true,
+      "actual": "a7935b5a75ae9c306a2a999fb4e8815598192b1c49a192fdeb32ceca38cb4f4f",
+      "expected": "a7935b5a75ae9c306a2a999fb4e8815598192b1c49a192fdeb32ceca38cb4f4f"
+    },
+    {
+      "item": "package_bytes/t2_prec2_readonly.py",
+      "PASS": true,
+      "actual": "11701",
+      "expected": "11701"
+    },
+    {
+      "item": "package_file_present/t2_prec2_cold_audit.py",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "package_sha256/t2_prec2_cold_audit.py",
+      "PASS": true,
+      "actual": "9f02c0e83e72abc71547a3f711311992040fa1534cc9b9dacf9097c59e8663b3",
+      "expected": "9f02c0e83e72abc71547a3f711311992040fa1534cc9b9dacf9097c59e8663b3"
+    },
+    {
+      "item": "package_bytes/t2_prec2_cold_audit.py",
+      "PASS": true,
+      "actual": "6618",
+      "expected": "6618"
+    },
+    {
+      "item": "package_file_present/t2_prec2_preflight.py",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "package_sha256/t2_prec2_preflight.py",
+      "PASS": true,
+      "actual": "3983ddd6d6a6610eada153ec4d8c25e0480464c79f5d8642a11ec393172328e8",
+      "expected": "3983ddd6d6a6610eada153ec4d8c25e0480464c79f5d8642a11ec393172328e8"
+    },
+    {
+      "item": "package_bytes/t2_prec2_preflight.py",
+      "PASS": true,
+      "actual": "4184",
+      "expected": "4184"
+    },
+    {
+      "item": "package_file_present/test_t2_prec2_synthetic.py",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "package_sha256/test_t2_prec2_synthetic.py",
+      "PASS": true,
+      "actual": "c979cc74bc701c23b46a31c943ee611b3c6a4884b77679f399229cda97f92900",
+      "expected": "c979cc74bc701c23b46a31c943ee611b3c6a4884b77679f399229cda97f92900"
+    },
+    {
+      "item": "package_bytes/test_t2_prec2_synthetic.py",
+      "PASS": true,
+      "actual": "2468",
+      "expected": "2468"
+    },
+    {
+      "item": "package_file_present/T2_PREC2_START_20261014_v1.txt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "package_sha256/T2_PREC2_START_20261014_v1.txt",
+      "PASS": true,
+      "actual": "1a05e380203692c0e2fa6c42adc2d1bb1f28d0dc325227ba76ca9e9b2538719f",
+      "expected": "1a05e380203692c0e2fa6c42adc2d1bb1f28d0dc325227ba76ca9e9b2538719f"
+    },
+    {
+      "item": "package_bytes/T2_PREC2_START_20261014_v1.txt",
+      "PASS": true,
+      "actual": "2353",
+      "expected": "2353"
+    },
+    {
+      "item": "HEAD_equals_frozen_parent",
+      "PASS": true,
+      "actual": "ac43a8702282fc6c80663319cb6757a30b084e09",
+      "expected": "ac43a8702282fc6c80663319cb6757a30b084e09"
+    },
+    {
+      "item": "clean_independent_worktree",
+      "PASS": true,
+      "actual": "",
+      "expected": "no tracked/untracked files"
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+      "PASS": true,
+      "actual": "ca3e2c473d4286d055d2b9febf1a4ba9eb45f60d1e34f4009fa0e5190936ffb3",
+      "expected": "ca3e2c473d4286d055d2b9febf1a4ba9eb45f60d1e34f4009fa0e5190936ffb3"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+      "PASS": true,
+      "actual": "ca3e2c473d4286d055d2b9febf1a4ba9eb45f60d1e34f4009fa0e5190936ffb3",
+      "expected": "ca3e2c473d4286d055d2b9febf1a4ba9eb45f60d1e34f4009fa0e5190936ffb3"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+      "PASS": true,
+      "actual": "ca508ba6b8cc65d6dcfbc832c6da097df2d2cf2a638018803b25d08c973dc10e",
+      "expected": "ca508ba6b8cc65d6dcfbc832c6da097df2d2cf2a638018803b25d08c973dc10e"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+      "PASS": true,
+      "actual": "ca508ba6b8cc65d6dcfbc832c6da097df2d2cf2a638018803b25d08c973dc10e",
+      "expected": "ca508ba6b8cc65d6dcfbc832c6da097df2d2cf2a638018803b25d08c973dc10e"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt",
+      "PASS": true,
+      "actual": "32779972c3b7c1cf5ab3aac95b700f6e861d95105ac321e189824fddc0010ca2",
+      "expected": "32779972c3b7c1cf5ab3aac95b700f6e861d95105ac321e189824fddc0010ca2"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt",
+      "PASS": true,
+      "actual": "32779972c3b7c1cf5ab3aac95b700f6e861d95105ac321e189824fddc0010ca2",
+      "expected": "32779972c3b7c1cf5ab3aac95b700f6e861d95105ac321e189824fddc0010ca2"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+      "PASS": true,
+      "actual": "9e4c2dc538e7f17c1b4644b315b375e8e9332c1d242ab9826bde8aa31413e799",
+      "expected": "9e4c2dc538e7f17c1b4644b315b375e8e9332c1d242ab9826bde8aa31413e799"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+      "PASS": true,
+      "actual": "9e4c2dc538e7f17c1b4644b315b375e8e9332c1d242ab9826bde8aa31413e799",
+      "expected": "9e4c2dc538e7f17c1b4644b315b375e8e9332c1d242ab9826bde8aa31413e799"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+      "PASS": true,
+      "actual": "fdfdd57c081e4420d19aec68a077e3a9cafdd4f80cfe12cbb2832cc95de61b04",
+      "expected": "fdfdd57c081e4420d19aec68a077e3a9cafdd4f80cfe12cbb2832cc95de61b04"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+      "PASS": true,
+      "actual": "fdfdd57c081e4420d19aec68a077e3a9cafdd4f80cfe12cbb2832cc95de61b04",
+      "expected": "fdfdd57c081e4420d19aec68a077e3a9cafdd4f80cfe12cbb2832cc95de61b04"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt",
+      "PASS": true,
+      "actual": "8ec8274934ff8690fa42fa2570165771685b4c9341ce062cd57bbd36ba83bbca",
+      "expected": "8ec8274934ff8690fa42fa2570165771685b4c9341ce062cd57bbd36ba83bbca"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt",
+      "PASS": true,
+      "actual": "8ec8274934ff8690fa42fa2570165771685b4c9341ce062cd57bbd36ba83bbca",
+      "expected": "8ec8274934ff8690fa42fa2570165771685b4c9341ce062cd57bbd36ba83bbca"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+      "PASS": true,
+      "actual": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec",
+      "expected": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+      "PASS": true,
+      "actual": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec",
+      "expected": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+      "PASS": true,
+      "actual": "8a583399525f23c9970341044c603a83bfb3d4d2c1503d8a34d4b805026f04d6",
+      "expected": "8a583399525f23c9970341044c603a83bfb3d4d2c1503d8a34d4b805026f04d6"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+      "PASS": true,
+      "actual": "8a583399525f23c9970341044c603a83bfb3d4d2c1503d8a34d4b805026f04d6",
+      "expected": "8a583399525f23c9970341044c603a83bfb3d4d2c1503d8a34d4b805026f04d6"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt",
+      "PASS": true,
+      "actual": "e57363632fd0453718f5e2b49b7a9d3a8d6f432161033cbde461707154a49ac1",
+      "expected": "e57363632fd0453718f5e2b49b7a9d3a8d6f432161033cbde461707154a49ac1"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt",
+      "PASS": true,
+      "actual": "e57363632fd0453718f5e2b49b7a9d3a8d6f432161033cbde461707154a49ac1",
+      "expected": "e57363632fd0453718f5e2b49b7a9d3a8d6f432161033cbde461707154a49ac1"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+      "PASS": true,
+      "actual": "1aae8daf2861e96c49bf6fa9f8a22eeb0bfcd9a6fe5dd825927aad6833e5c3db",
+      "expected": "1aae8daf2861e96c49bf6fa9f8a22eeb0bfcd9a6fe5dd825927aad6833e5c3db"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+      "PASS": true,
+      "actual": "1aae8daf2861e96c49bf6fa9f8a22eeb0bfcd9a6fe5dd825927aad6833e5c3db",
+      "expected": "1aae8daf2861e96c49bf6fa9f8a22eeb0bfcd9a6fe5dd825927aad6833e5c3db"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+      "PASS": true,
+      "actual": "319a07457bf514913ec5c0d8942600743693dc678f610d2d5dc50b3929e4ddd2",
+      "expected": "319a07457bf514913ec5c0d8942600743693dc678f610d2d5dc50b3929e4ddd2"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+      "PASS": true,
+      "actual": "319a07457bf514913ec5c0d8942600743693dc678f610d2d5dc50b3929e4ddd2",
+      "expected": "319a07457bf514913ec5c0d8942600743693dc678f610d2d5dc50b3929e4ddd2"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt",
+      "PASS": true,
+      "actual": "7dbc9c5f9dd18438fa3307de41ae7271a45c864735f49421496b916aa4dd4eaa",
+      "expected": "7dbc9c5f9dd18438fa3307de41ae7271a45c864735f49421496b916aa4dd4eaa"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt",
+      "PASS": true,
+      "actual": "7dbc9c5f9dd18438fa3307de41ae7271a45c864735f49421496b916aa4dd4eaa",
+      "expected": "7dbc9c5f9dd18438fa3307de41ae7271a45c864735f49421496b916aa4dd4eaa"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+      "PASS": true,
+      "actual": "df5beb6ee131169b4c48c63974280f0943bec29032aaf844554aa2c1271463ad",
+      "expected": "df5beb6ee131169b4c48c63974280f0943bec29032aaf844554aa2c1271463ad"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+      "PASS": true,
+      "actual": "df5beb6ee131169b4c48c63974280f0943bec29032aaf844554aa2c1271463ad",
+      "expected": "df5beb6ee131169b4c48c63974280f0943bec29032aaf844554aa2c1271463ad"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+      "PASS": true,
+      "actual": "93a183e9352504e4f1ede345017a7d32de413ec7bc9360fea0f10bdda2477a60",
+      "expected": "93a183e9352504e4f1ede345017a7d32de413ec7bc9360fea0f10bdda2477a60"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+      "PASS": true,
+      "actual": "93a183e9352504e4f1ede345017a7d32de413ec7bc9360fea0f10bdda2477a60",
+      "expected": "93a183e9352504e4f1ede345017a7d32de413ec7bc9360fea0f10bdda2477a60"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt",
+      "PASS": true,
+      "actual": "ef065143c754e2d70c656aead1d8e046b344c6b027e5e69872bc84e7d696ccc7",
+      "expected": "ef065143c754e2d70c656aead1d8e046b344c6b027e5e69872bc84e7d696ccc7"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt",
+      "PASS": true,
+      "actual": "ef065143c754e2d70c656aead1d8e046b344c6b027e5e69872bc84e7d696ccc7",
+      "expected": "ef065143c754e2d70c656aead1d8e046b344c6b027e5e69872bc84e7d696ccc7"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+      "PASS": true,
+      "actual": "5fda357e2432b20c58ce2575622a07efdfdcbd95987dc2801af64a2fac95fa4f",
+      "expected": "5fda357e2432b20c58ce2575622a07efdfdcbd95987dc2801af64a2fac95fa4f"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+      "PASS": true,
+      "actual": "5fda357e2432b20c58ce2575622a07efdfdcbd95987dc2801af64a2fac95fa4f",
+      "expected": "5fda357e2432b20c58ce2575622a07efdfdcbd95987dc2801af64a2fac95fa4f"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+      "PASS": true,
+      "actual": "b695f76fe665fad03df02612ff9da0be9283ac615d3406dea8009712c55dcf76",
+      "expected": "b695f76fe665fad03df02612ff9da0be9283ac615d3406dea8009712c55dcf76"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+      "PASS": true,
+      "actual": "b695f76fe665fad03df02612ff9da0be9283ac615d3406dea8009712c55dcf76",
+      "expected": "b695f76fe665fad03df02612ff9da0be9283ac615d3406dea8009712c55dcf76"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt",
+      "PASS": true,
+      "actual": "844ad1b3c5dc470454e3660ca116ee207e6a893286fe69a22e9f97909ce0cd73",
+      "expected": "844ad1b3c5dc470454e3660ca116ee207e6a893286fe69a22e9f97909ce0cd73"
+    },
+    {
+      "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt",
+      "PASS": true,
+      "actual": "844ad1b3c5dc470454e3660ca116ee207e6a893286fe69a22e9f97909ce0cd73",
+      "expected": "844ad1b3c5dc470454e3660ca116ee207e6a893286fe69a22e9f97909ce0cd73"
+    },
+    {
+      "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "scipy_numpy_available",
+      "PASS": true,
+      "actual": "",
+      "expected": ""
+    },
+    {
+      "item": "BLAS_thread_cap",
+      "PASS": true,
+      "actual": "{'OPENBLAS_NUM_THREADS': '1', 'MKL_NUM_THREADS': '1', 'OMP_NUM_THREADS': '1'}",
+      "expected": "1 or unset"
+    },
+    {
+      "item": "reserve_storage_GiB",
+      "PASS": true,
+      "actual": "31053938688",
+      "expected": ">=1GiB"
+    }
+  ],
+  "environment": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "platform": "win32",
+    "visible_blas_threads": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1"
+    }
+  },
+  "next_step": "Commit A only if admitted; never auto execute",
+  "R4_percent": 0
+}

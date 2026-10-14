@@ -1,0 +1,28 @@
+{
+  "version": "20261014-v1-corr1",
+  "authorization": "User explicitly approved only archive_sets[2].sha256.env registration and affected metadata chain",
+  "source_hash_old": "8bb8e66c6666187a68f1458a71c9f1b71e94f53851b3d68efd082f852cc6ec",
+  "source_hash_corrected": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec",
+  "original_SPEC_sha256": "945d963b0a09eb1008fcf5c0faa657d68ba314c18c943e5bb54c4268913d39c0",
+  "original_SPEC_bytes": 6733,
+  "corrected_SPEC_sha256": "71acc2be68c503334f8842472406936dfaf2799440c05c8920cfafb8c02ba16d",
+  "corrected_SPEC_bytes": 6735,
+  "old_START_sha256": "6b0b7f98c22506cf1176bd020914cc5f9cb6b8e5d5642b33bbd8dada8eecb2c8",
+  "corrected_START_sha256": "1a05e380203692c0e2fa6c42adc2d1bb1f28d0dc325227ba76ca9e9b2538719f",
+  "original_manifest_sha256": "9b67e27bf00abdd462fc38a57b5b225ef0534fc4995d8b6cd487f3e932f116cc",
+  "corrected_manifest_sha256": "e2cb17b6b17d50edb2743b1344a987563dee8150b3529622a7d744973c9aae5d",
+  "new_ZIP_path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\T2_PREC2_TASK_PACKAGE_20261014_v1-corr1.zip",
+  "new_ZIP_sha256": "eceaa385ebfc97f22af86afd7b8a060dd4a7d685279605cbfc2e01ca371832a4",
+  "changed_files": [
+    "T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+    "T2_PREC2_FILE_MANIFEST_20261014_v1.json",
+    "T2_PREC2_START_20261014_v1.txt"
+  ],
+  "task_MD_scientific_code_parameters_thresholds_budget_parent_unchanged": true,
+  "original_unpacked_files_preserved": true,
+  "original_STOP_preserved_sha256": "8230c7e6da9419e37315ab7526b7744305c1e6164d2deccabaf2d90d7177353b",
+  "original_ZIP_registered_and_previously_verified_sha256": "aac2a63dce3c4a26b356d180e92061608909e55f6c36eea4c0cd8dadaa87ca03",
+  "original_ZIP_currently_available": false,
+  "formal_scientific_runs": 0,
+  "Commit_A_created": false
+}

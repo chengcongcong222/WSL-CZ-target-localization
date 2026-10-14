@@ -1,0 +1,1180 @@
+{
+  "stage": "T2-PREC2",
+  "parent_SHA": "ac43a8702282fc6c80663319cb6757a30b084e09",
+  "scope": "15 lossless real roots,3 independent continuous IVP roots; no complete lossy field",
+  "authorization": "Single archive_sets[2].sha256.env correction and affected metadata only; preserve original ZIP and STOP",
+  "scientific_code_changed": false,
+  "preflight_from_scratch": {
+    "stage": "T2-PREC2-PREFLIGHT",
+    "time_UTC": "2026-10-14T09:06:00.883469+00:00",
+    "admitted": true,
+    "errors": [],
+    "checks": [
+      {
+        "item": "package_file_present/T2_PREC2_CODEX_TASK_20261014_v1.md",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "package_sha256/T2_PREC2_CODEX_TASK_20261014_v1.md",
+        "PASS": true,
+        "actual": "f8eef00f759af543b6cb58199fdf255d0a696ca49ed0bd8401fe0070bc856efe",
+        "expected": "f8eef00f759af543b6cb58199fdf255d0a696ca49ed0bd8401fe0070bc856efe"
+      },
+      {
+        "item": "package_bytes/T2_PREC2_CODEX_TASK_20261014_v1.md",
+        "PASS": true,
+        "actual": "9626",
+        "expected": "9626"
+      },
+      {
+        "item": "package_file_present/T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "package_sha256/T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+        "PASS": true,
+        "actual": "71acc2be68c503334f8842472406936dfaf2799440c05c8920cfafb8c02ba16d",
+        "expected": "71acc2be68c503334f8842472406936dfaf2799440c05c8920cfafb8c02ba16d"
+      },
+      {
+        "item": "package_bytes/T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+        "PASS": true,
+        "actual": "6735",
+        "expected": "6735"
+      },
+      {
+        "item": "package_file_present/T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "package_sha256/T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+        "PASS": true,
+        "actual": "dcabcc911bf2822a67e3fbe90fc46dd8255fc05963faa3bea143cf1354f00938",
+        "expected": "dcabcc911bf2822a67e3fbe90fc46dd8255fc05963faa3bea143cf1354f00938"
+      },
+      {
+        "item": "package_bytes/T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+        "PASS": true,
+        "actual": "3904",
+        "expected": "3904"
+      },
+      {
+        "item": "package_file_present/T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "package_sha256/T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+        "PASS": true,
+        "actual": "cbc0079814e24cf82df5baf090d3959c75963949fb9d3127ae466de8b3e55b0d",
+        "expected": "cbc0079814e24cf82df5baf090d3959c75963949fb9d3127ae466de8b3e55b0d"
+      },
+      {
+        "item": "package_bytes/T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+        "PASS": true,
+        "actual": "1519",
+        "expected": "1519"
+      },
+      {
+        "item": "package_file_present/README_T2_PREC2_20261014_v1.md",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "package_sha256/README_T2_PREC2_20261014_v1.md",
+        "PASS": true,
+        "actual": "aa6f819e6008f815700bb09f96ed1a3faef28c54450a19c75d8212a6f32c0ad4",
+        "expected": "aa6f819e6008f815700bb09f96ed1a3faef28c54450a19c75d8212a6f32c0ad4"
+      },
+      {
+        "item": "package_bytes/README_T2_PREC2_20261014_v1.md",
+        "PASS": true,
+        "actual": "1066",
+        "expected": "1066"
+      },
+      {
+        "item": "package_file_present/PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "package_sha256/PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+        "PASS": true,
+        "actual": "9b9447c54a6df1b66439c2581d23c20e13b3a7f93705e7e8a2dfe0738866f141",
+        "expected": "9b9447c54a6df1b66439c2581d23c20e13b3a7f93705e7e8a2dfe0738866f141"
+      },
+      {
+        "item": "package_bytes/PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+        "PASS": true,
+        "actual": "863",
+        "expected": "863"
+      },
+      {
+        "item": "package_file_present/t2_prec2_readonly.py",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "package_sha256/t2_prec2_readonly.py",
+        "PASS": true,
+        "actual": "a7935b5a75ae9c306a2a999fb4e8815598192b1c49a192fdeb32ceca38cb4f4f",
+        "expected": "a7935b5a75ae9c306a2a999fb4e8815598192b1c49a192fdeb32ceca38cb4f4f"
+      },
+      {
+        "item": "package_bytes/t2_prec2_readonly.py",
+        "PASS": true,
+        "actual": "11701",
+        "expected": "11701"
+      },
+      {
+        "item": "package_file_present/t2_prec2_cold_audit.py",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "package_sha256/t2_prec2_cold_audit.py",
+        "PASS": true,
+        "actual": "9f02c0e83e72abc71547a3f711311992040fa1534cc9b9dacf9097c59e8663b3",
+        "expected": "9f02c0e83e72abc71547a3f711311992040fa1534cc9b9dacf9097c59e8663b3"
+      },
+      {
+        "item": "package_bytes/t2_prec2_cold_audit.py",
+        "PASS": true,
+        "actual": "6618",
+        "expected": "6618"
+      },
+      {
+        "item": "package_file_present/t2_prec2_preflight.py",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "package_sha256/t2_prec2_preflight.py",
+        "PASS": true,
+        "actual": "3983ddd6d6a6610eada153ec4d8c25e0480464c79f5d8642a11ec393172328e8",
+        "expected": "3983ddd6d6a6610eada153ec4d8c25e0480464c79f5d8642a11ec393172328e8"
+      },
+      {
+        "item": "package_bytes/t2_prec2_preflight.py",
+        "PASS": true,
+        "actual": "4184",
+        "expected": "4184"
+      },
+      {
+        "item": "package_file_present/test_t2_prec2_synthetic.py",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "package_sha256/test_t2_prec2_synthetic.py",
+        "PASS": true,
+        "actual": "c979cc74bc701c23b46a31c943ee611b3c6a4884b77679f399229cda97f92900",
+        "expected": "c979cc74bc701c23b46a31c943ee611b3c6a4884b77679f399229cda97f92900"
+      },
+      {
+        "item": "package_bytes/test_t2_prec2_synthetic.py",
+        "PASS": true,
+        "actual": "2468",
+        "expected": "2468"
+      },
+      {
+        "item": "package_file_present/T2_PREC2_START_20261014_v1.txt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "package_sha256/T2_PREC2_START_20261014_v1.txt",
+        "PASS": true,
+        "actual": "1a05e380203692c0e2fa6c42adc2d1bb1f28d0dc325227ba76ca9e9b2538719f",
+        "expected": "1a05e380203692c0e2fa6c42adc2d1bb1f28d0dc325227ba76ca9e9b2538719f"
+      },
+      {
+        "item": "package_bytes/T2_PREC2_START_20261014_v1.txt",
+        "PASS": true,
+        "actual": "2353",
+        "expected": "2353"
+      },
+      {
+        "item": "HEAD_equals_frozen_parent",
+        "PASS": true,
+        "actual": "ac43a8702282fc6c80663319cb6757a30b084e09",
+        "expected": "ac43a8702282fc6c80663319cb6757a30b084e09"
+      },
+      {
+        "item": "clean_independent_worktree",
+        "PASS": true,
+        "actual": "",
+        "expected": "no tracked/untracked files"
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+        "PASS": true,
+        "actual": "ca3e2c473d4286d055d2b9febf1a4ba9eb45f60d1e34f4009fa0e5190936ffb3",
+        "expected": "ca3e2c473d4286d055d2b9febf1a4ba9eb45f60d1e34f4009fa0e5190936ffb3"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+        "PASS": true,
+        "actual": "ca3e2c473d4286d055d2b9febf1a4ba9eb45f60d1e34f4009fa0e5190936ffb3",
+        "expected": "ca3e2c473d4286d055d2b9febf1a4ba9eb45f60d1e34f4009fa0e5190936ffb3"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+        "PASS": true,
+        "actual": "ca508ba6b8cc65d6dcfbc832c6da097df2d2cf2a638018803b25d08c973dc10e",
+        "expected": "ca508ba6b8cc65d6dcfbc832c6da097df2d2cf2a638018803b25d08c973dc10e"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+        "PASS": true,
+        "actual": "ca508ba6b8cc65d6dcfbc832c6da097df2d2cf2a638018803b25d08c973dc10e",
+        "expected": "ca508ba6b8cc65d6dcfbc832c6da097df2d2cf2a638018803b25d08c973dc10e"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt",
+        "PASS": true,
+        "actual": "32779972c3b7c1cf5ab3aac95b700f6e861d95105ac321e189824fddc0010ca2",
+        "expected": "32779972c3b7c1cf5ab3aac95b700f6e861d95105ac321e189824fddc0010ca2"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt",
+        "PASS": true,
+        "actual": "32779972c3b7c1cf5ab3aac95b700f6e861d95105ac321e189824fddc0010ca2",
+        "expected": "32779972c3b7c1cf5ab3aac95b700f6e861d95105ac321e189824fddc0010ca2"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+        "PASS": true,
+        "actual": "9e4c2dc538e7f17c1b4644b315b375e8e9332c1d242ab9826bde8aa31413e799",
+        "expected": "9e4c2dc538e7f17c1b4644b315b375e8e9332c1d242ab9826bde8aa31413e799"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+        "PASS": true,
+        "actual": "9e4c2dc538e7f17c1b4644b315b375e8e9332c1d242ab9826bde8aa31413e799",
+        "expected": "9e4c2dc538e7f17c1b4644b315b375e8e9332c1d242ab9826bde8aa31413e799"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+        "PASS": true,
+        "actual": "fdfdd57c081e4420d19aec68a077e3a9cafdd4f80cfe12cbb2832cc95de61b04",
+        "expected": "fdfdd57c081e4420d19aec68a077e3a9cafdd4f80cfe12cbb2832cc95de61b04"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+        "PASS": true,
+        "actual": "fdfdd57c081e4420d19aec68a077e3a9cafdd4f80cfe12cbb2832cc95de61b04",
+        "expected": "fdfdd57c081e4420d19aec68a077e3a9cafdd4f80cfe12cbb2832cc95de61b04"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt",
+        "PASS": true,
+        "actual": "8ec8274934ff8690fa42fa2570165771685b4c9341ce062cd57bbd36ba83bbca",
+        "expected": "8ec8274934ff8690fa42fa2570165771685b4c9341ce062cd57bbd36ba83bbca"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt",
+        "PASS": true,
+        "actual": "8ec8274934ff8690fa42fa2570165771685b4c9341ce062cd57bbd36ba83bbca",
+        "expected": "8ec8274934ff8690fa42fa2570165771685b4c9341ce062cd57bbd36ba83bbca"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+        "PASS": true,
+        "actual": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec",
+        "expected": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+        "PASS": true,
+        "actual": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec",
+        "expected": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+        "PASS": true,
+        "actual": "8a583399525f23c9970341044c603a83bfb3d4d2c1503d8a34d4b805026f04d6",
+        "expected": "8a583399525f23c9970341044c603a83bfb3d4d2c1503d8a34d4b805026f04d6"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+        "PASS": true,
+        "actual": "8a583399525f23c9970341044c603a83bfb3d4d2c1503d8a34d4b805026f04d6",
+        "expected": "8a583399525f23c9970341044c603a83bfb3d4d2c1503d8a34d4b805026f04d6"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt",
+        "PASS": true,
+        "actual": "e57363632fd0453718f5e2b49b7a9d3a8d6f432161033cbde461707154a49ac1",
+        "expected": "e57363632fd0453718f5e2b49b7a9d3a8d6f432161033cbde461707154a49ac1"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt",
+        "PASS": true,
+        "actual": "e57363632fd0453718f5e2b49b7a9d3a8d6f432161033cbde461707154a49ac1",
+        "expected": "e57363632fd0453718f5e2b49b7a9d3a8d6f432161033cbde461707154a49ac1"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+        "PASS": true,
+        "actual": "1aae8daf2861e96c49bf6fa9f8a22eeb0bfcd9a6fe5dd825927aad6833e5c3db",
+        "expected": "1aae8daf2861e96c49bf6fa9f8a22eeb0bfcd9a6fe5dd825927aad6833e5c3db"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+        "PASS": true,
+        "actual": "1aae8daf2861e96c49bf6fa9f8a22eeb0bfcd9a6fe5dd825927aad6833e5c3db",
+        "expected": "1aae8daf2861e96c49bf6fa9f8a22eeb0bfcd9a6fe5dd825927aad6833e5c3db"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+        "PASS": true,
+        "actual": "319a07457bf514913ec5c0d8942600743693dc678f610d2d5dc50b3929e4ddd2",
+        "expected": "319a07457bf514913ec5c0d8942600743693dc678f610d2d5dc50b3929e4ddd2"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+        "PASS": true,
+        "actual": "319a07457bf514913ec5c0d8942600743693dc678f610d2d5dc50b3929e4ddd2",
+        "expected": "319a07457bf514913ec5c0d8942600743693dc678f610d2d5dc50b3929e4ddd2"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt",
+        "PASS": true,
+        "actual": "7dbc9c5f9dd18438fa3307de41ae7271a45c864735f49421496b916aa4dd4eaa",
+        "expected": "7dbc9c5f9dd18438fa3307de41ae7271a45c864735f49421496b916aa4dd4eaa"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt",
+        "PASS": true,
+        "actual": "7dbc9c5f9dd18438fa3307de41ae7271a45c864735f49421496b916aa4dd4eaa",
+        "expected": "7dbc9c5f9dd18438fa3307de41ae7271a45c864735f49421496b916aa4dd4eaa"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+        "PASS": true,
+        "actual": "df5beb6ee131169b4c48c63974280f0943bec29032aaf844554aa2c1271463ad",
+        "expected": "df5beb6ee131169b4c48c63974280f0943bec29032aaf844554aa2c1271463ad"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+        "PASS": true,
+        "actual": "df5beb6ee131169b4c48c63974280f0943bec29032aaf844554aa2c1271463ad",
+        "expected": "df5beb6ee131169b4c48c63974280f0943bec29032aaf844554aa2c1271463ad"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+        "PASS": true,
+        "actual": "93a183e9352504e4f1ede345017a7d32de413ec7bc9360fea0f10bdda2477a60",
+        "expected": "93a183e9352504e4f1ede345017a7d32de413ec7bc9360fea0f10bdda2477a60"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+        "PASS": true,
+        "actual": "93a183e9352504e4f1ede345017a7d32de413ec7bc9360fea0f10bdda2477a60",
+        "expected": "93a183e9352504e4f1ede345017a7d32de413ec7bc9360fea0f10bdda2477a60"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt",
+        "PASS": true,
+        "actual": "ef065143c754e2d70c656aead1d8e046b344c6b027e5e69872bc84e7d696ccc7",
+        "expected": "ef065143c754e2d70c656aead1d8e046b344c6b027e5e69872bc84e7d696ccc7"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt",
+        "PASS": true,
+        "actual": "ef065143c754e2d70c656aead1d8e046b344c6b027e5e69872bc84e7d696ccc7",
+        "expected": "ef065143c754e2d70c656aead1d8e046b344c6b027e5e69872bc84e7d696ccc7"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+        "PASS": true,
+        "actual": "5fda357e2432b20c58ce2575622a07efdfdcbd95987dc2801af64a2fac95fa4f",
+        "expected": "5fda357e2432b20c58ce2575622a07efdfdcbd95987dc2801af64a2fac95fa4f"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+        "PASS": true,
+        "actual": "5fda357e2432b20c58ce2575622a07efdfdcbd95987dc2801af64a2fac95fa4f",
+        "expected": "5fda357e2432b20c58ce2575622a07efdfdcbd95987dc2801af64a2fac95fa4f"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+        "PASS": true,
+        "actual": "b695f76fe665fad03df02612ff9da0be9283ac615d3406dea8009712c55dcf76",
+        "expected": "b695f76fe665fad03df02612ff9da0be9283ac615d3406dea8009712c55dcf76"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+        "PASS": true,
+        "actual": "b695f76fe665fad03df02612ff9da0be9283ac615d3406dea8009712c55dcf76",
+        "expected": "b695f76fe665fad03df02612ff9da0be9283ac615d3406dea8009712c55dcf76"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "source_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "local_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt",
+        "PASS": true,
+        "actual": "844ad1b3c5dc470454e3660ca116ee207e6a893286fe69a22e9f97909ce0cd73",
+        "expected": "844ad1b3c5dc470454e3660ca116ee207e6a893286fe69a22e9f97909ce0cd73"
+      },
+      {
+        "item": "parent_sha256/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt",
+        "PASS": true,
+        "actual": "844ad1b3c5dc470454e3660ca116ee207e6a893286fe69a22e9f97909ce0cd73",
+        "expected": "844ad1b3c5dc470454e3660ca116ee207e6a893286fe69a22e9f97909ce0cd73"
+      },
+      {
+        "item": "worktree_equals_parent/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "scipy_numpy_available",
+        "PASS": true,
+        "actual": "",
+        "expected": ""
+      },
+      {
+        "item": "BLAS_thread_cap",
+        "PASS": true,
+        "actual": "{'OPENBLAS_NUM_THREADS': '1', 'MKL_NUM_THREADS': '1', 'OMP_NUM_THREADS': '1'}",
+        "expected": "1 or unset"
+      },
+      {
+        "item": "reserve_storage_GiB",
+        "PASS": true,
+        "actual": "31053938688",
+        "expected": ">=1GiB"
+      }
+    ],
+    "environment": {
+      "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+      "numpy": "1.26.4",
+      "scipy": "1.15.3",
+      "platform": "win32",
+      "visible_blas_threads": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      }
+    },
+    "next_step": "Commit A only if admitted; never auto execute",
+    "R4_percent": 0
+  },
+  "config": {
+    "stage": "T2_PREC2_ESTD_REAL_K_FEASIBILITY_READONLY",
+    "scope": "E-STD/C-linear/V-R/Thorp KRAKEN PRT-MOD read-only plus independent LOSSLESS Sturm-Liouville real-k subset",
+    "parent_sha": "ac43a8702282fc6c80663319cb6757a30b084e09",
+    "repository": "chengcongcong222/WSL-CZ-target-localization",
+    "output_directory": "results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY",
+    "archive_sets": [
+      {
+        "stem": "n2_K2_f201",
+        "variant": "K2",
+        "freq": 201,
+        "mesh": 160001,
+        "modes": 980,
+        "paths": {
+          "env": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+          "mod": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+          "prt": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt"
+        },
+        "sha256": {
+          "env": "ca3e2c473d4286d055d2b9febf1a4ba9eb45f60d1e34f4009fa0e5190936ffb3",
+          "mod": "ca508ba6b8cc65d6dcfbc832c6da097df2d2cf2a638018803b25d08c973dc10e",
+          "prt": "32779972c3b7c1cf5ab3aac95b700f6e861d95105ac321e189824fddc0010ca2"
+        },
+        "prt_rows_expected": 31
+      },
+      {
+        "stem": "n2_K2_f235",
+        "variant": "K2",
+        "freq": 235,
+        "mesh": 160001,
+        "modes": 1146,
+        "paths": {
+          "env": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+          "mod": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+          "prt": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt"
+        },
+        "sha256": {
+          "env": "9e4c2dc538e7f17c1b4644b315b375e8e9332c1d242ab9826bde8aa31413e799",
+          "mod": "fdfdd57c081e4420d19aec68a077e3a9cafdd4f80cfe12cbb2832cc95de61b04",
+          "prt": "8ec8274934ff8690fa42fa2570165771685b4c9341ce062cd57bbd36ba83bbca"
+        },
+        "prt_rows_expected": 31
+      },
+      {
+        "stem": "n2_K2_f283",
+        "variant": "K2",
+        "freq": 283,
+        "mesh": 160001,
+        "modes": 1380,
+        "paths": {
+          "env": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+          "mod": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+          "prt": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt"
+        },
+        "sha256": {
+          "env": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec",
+          "mod": "8a583399525f23c9970341044c603a83bfb3d4d2c1503d8a34d4b805026f04d6",
+          "prt": "e57363632fd0453718f5e2b49b7a9d3a8d6f432161033cbde461707154a49ac1"
+        },
+        "prt_rows_expected": 30
+      },
+      {
+        "stem": "n2_K3_f201",
+        "variant": "K3",
+        "freq": 201,
+        "mesh": 240001,
+        "modes": 980,
+        "paths": {
+          "env": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+          "mod": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+          "prt": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt"
+        },
+        "sha256": {
+          "env": "1aae8daf2861e96c49bf6fa9f8a22eeb0bfcd9a6fe5dd825927aad6833e5c3db",
+          "mod": "319a07457bf514913ec5c0d8942600743693dc678f610d2d5dc50b3929e4ddd2",
+          "prt": "7dbc9c5f9dd18438fa3307de41ae7271a45c864735f49421496b916aa4dd4eaa"
+        },
+        "prt_rows_expected": 31
+      },
+      {
+        "stem": "n2_K3_f235",
+        "variant": "K3",
+        "freq": 235,
+        "mesh": 240001,
+        "modes": 1146,
+        "paths": {
+          "env": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+          "mod": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+          "prt": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt"
+        },
+        "sha256": {
+          "env": "df5beb6ee131169b4c48c63974280f0943bec29032aaf844554aa2c1271463ad",
+          "mod": "93a183e9352504e4f1ede345017a7d32de413ec7bc9360fea0f10bdda2477a60",
+          "prt": "ef065143c754e2d70c656aead1d8e046b344c6b027e5e69872bc84e7d696ccc7"
+        },
+        "prt_rows_expected": 31
+      },
+      {
+        "stem": "n2_K3_f283",
+        "variant": "K3",
+        "freq": 283,
+        "mesh": 240001,
+        "modes": 1380,
+        "paths": {
+          "env": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+          "mod": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+          "prt": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt"
+        },
+        "sha256": {
+          "env": "5fda357e2432b20c58ce2575622a07efdfdcbd95987dc2801af64a2fac95fa4f",
+          "mod": "b695f76fe665fad03df02612ff9da0be9283ac615d3406dea8009712c55dcf76",
+          "prt": "844ad1b3c5dc470454e3660ca116ee207e6a893286fe69a22e9f97909ce0cd73"
+        },
+        "prt_rows_expected": 30
+      }
+    ],
+    "freeze_source": "N2 SCIENCE_OUTPUT_FREEZE raw file SHA, SOLVER_PLAN env SHA; all present in Git parent",
+    "phase_reference_range_m": 60000,
+    "phase_target_radians": 0.0001,
+    "delta_k_design_budget_m_inverse": 1.6666666666666667e-09,
+    "prt_rank_positions": [
+      0,
+      7,
+      15,
+      22,
+      -1
+    ],
+    "FDM_grid_intervals": [
+      20000,
+      40000,
+      80000,
+      160000
+    ],
+    "FDM_nominal_bc": "Dirichlet at 0 m / Neumann at 5000 m; symmetric weighted bottom ghost",
+    "FDM_ODE": "phi second derivative + [(omega/c(z))^2-kr^2]phi = 0; rho 1",
+    "FDM_uses": "nominal C-linear speed only; Thorp attenuation excluded from real self-adjoint eigenproblem",
+    "richardson_order": "h2, h4, h6 extrapolate lambda=k_real^2",
+    "cold_ivp_selected_rank_indices": [
+      0,
+      2,
+      4
+    ],
+    "cold_ivp_method": "Pruefer-angle independent DOP853, two adaptive tolerances 1e-11/1e-12, max step 1 m / 0.5 m",
+    "cold_ivp_wall_s": 900,
+    "wall_s": 1800,
+    "max_RSS_bytes": 4294967296,
+    "max_git_new_bytes": 67108864,
+    "max_new_KRAKEN": 0,
+    "max_new_KRAKENC": 0,
+    "max_new_FIELD": 0,
+    "max_new_SCOOTER": 0,
+    "max_new_mc_waveform_DFT": 0,
+    "official_KRAKEN_source_context": "Fortran source uses internal double quantities and CMPLX(k) at mode write in public version; cannot assert binary build equivalence",
+    "gate_interpretation": "PRT f32 identity checks are representation evidence; FDM/Pruefer subset convergence is not full complex-field certification",
+    "historical_G0_N1_N2_N3_PREC1": "unchanged",
+    "real_environment_accuracy": "NOT_CERTIFIED",
+    "T2_A_B_receiver_performance": "NOT_EVALUATED",
+    "R4_percent_after": 0,
+    "completion_policy": "freeze Commit A, once-only main analysis, independent cold audit, Commit B push, STOP; no auto next stage",
+    "expected_total_prt_samples": 184
+  },
+  "total_wall_limit_s": 2700,
+  "science_attempts": {
+    "main": 1,
+    "cold": 1,
+    "retries": 0
+  },
+  "budget_enforcement": "single science child; serial; BLAS1;4GiB RSS;64MiB outputs;D free>1GiB;main1800s;cold900s",
+  "stop_priority": [
+    "input identity failure",
+    "hard budget limit",
+    "main exception",
+    "registered FDM internal convergence flag false",
+    "cold exception or check FAIL",
+    "completed frozen execution STOP"
+  ],
+  "FDM_flag_scope": "Internal diagnostic at registered phase budget; not absolute field certification. False stops cold per research lead scientific Gate STOP instruction.",
+  "output_classifications": [
+    "PREC2_SPARSE_OUTPUT_LOSS_AND_SUBSET_LOSSLESS_REAL_K_CORROBORATED",
+    "PREC2_SPARSE_ROUNDING_SUPPORTED_SUBSET_NOT_CORROBORATED",
+    "PREC2_INPUT_NOT_ADMITTED"
+  ],
+  "historical_results": "UNCHANGED",
+  "R4_percent": 0,
+  "next_execution_authorized": false,
+  "files": [
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\original_archive\\T2_PREC2_TASK_PACKAGE_20261014_v1.zip",
+      "sha256": "aac2a63dce3c4a26b356d180e92061608909e55f6c36eea4c0cd8dadaa87ca03",
+      "bytes": 27521
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\preflight\\PREC2_PREFLIGHT.json",
+      "sha256": "8230c7e6da9419e37315ab7526b7744305c1e6164d2deccabaf2d90d7177353b",
+      "bytes": 26503
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\prec2_delivery.py",
+      "sha256": "b294421cd0bbf6b57cd444b1478c225199af60f589860a6be0ade97207d9976d",
+      "bytes": 11298
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\prec2_execute.py",
+      "sha256": "e0e3b30a533cbe82bdc85ce7579c45d054fb18d1dee8813c43bdbb767f1d949f",
+      "bytes": 5011
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\environments\\n2_K2_f201.env",
+      "sha256": "ca3e2c473d4286d055d2b9febf1a4ba9eb45f60d1e34f4009fa0e5190936ffb3",
+      "bytes": 9385
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\environments\\n2_K2_f235.env",
+      "sha256": "9e4c2dc538e7f17c1b4644b315b375e8e9332c1d242ab9826bde8aa31413e799",
+      "bytes": 9385
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\environments\\n2_K2_f283.env",
+      "sha256": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec",
+      "bytes": 9385
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\environments\\n2_K3_f201.env",
+      "sha256": "1aae8daf2861e96c49bf6fa9f8a22eeb0bfcd9a6fe5dd825927aad6833e5c3db",
+      "bytes": 9385
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\environments\\n2_K3_f235.env",
+      "sha256": "df5beb6ee131169b4c48c63974280f0943bec29032aaf844554aa2c1271463ad",
+      "bytes": 9385
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\environments\\n2_K3_f283.env",
+      "sha256": "5fda357e2432b20c58ce2575622a07efdfdcbd95987dc2801af64a2fac95fa4f",
+      "bytes": 9385
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K2_f201.mod",
+      "sha256": "ca508ba6b8cc65d6dcfbc832c6da097df2d2cf2a638018803b25d08c973dc10e",
+      "bytes": 268488
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K2_f201.prt",
+      "sha256": "32779972c3b7c1cf5ab3aac95b700f6e861d95105ac321e189824fddc0010ca2",
+      "bytes": 20978
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K2_f235.mod",
+      "sha256": "fdfdd57c081e4420d19aec68a077e3a9cafdd4f80cfe12cbb2832cc95de61b04",
+      "bytes": 313632
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K2_f235.prt",
+      "sha256": "8ec8274934ff8690fa42fa2570165771685b4c9341ce062cd57bbd36ba83bbca",
+      "bytes": 20978
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K2_f283.mod",
+      "sha256": "8a583399525f23c9970341044c603a83bfb3d4d2c1503d8a34d4b805026f04d6",
+      "bytes": 377256
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K2_f283.prt",
+      "sha256": "e57363632fd0453718f5e2b49b7a9d3a8d6f432161033cbde461707154a49ac1",
+      "bytes": 20899
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K3_f201.mod",
+      "sha256": "319a07457bf514913ec5c0d8942600743693dc678f610d2d5dc50b3929e4ddd2",
+      "bytes": 268488
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K3_f201.prt",
+      "sha256": "7dbc9c5f9dd18438fa3307de41ae7271a45c864735f49421496b916aa4dd4eaa",
+      "bytes": 20978
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K3_f235.mod",
+      "sha256": "93a183e9352504e4f1ede345017a7d32de413ec7bc9360fea0f10bdda2477a60",
+      "bytes": 313632
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K3_f235.prt",
+      "sha256": "ef065143c754e2d70c656aead1d8e046b344c6b027e5e69872bc84e7d696ccc7",
+      "bytes": 20978
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K3_f283.mod",
+      "sha256": "b695f76fe665fad03df02612ff9da0be9283ac615d3406dea8009712c55dcf76",
+      "bytes": 377256
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K3_f283.prt",
+      "sha256": "844ad1b3c5dc470454e3660ca116ee207e6a893286fe69a22e9f97909ce0cd73",
+      "bytes": 20899
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\.gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "bytes": 8
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\CORRECTED_PREFLIGHT_FIRST\\PREC2_PREFLIGHT.json",
+      "sha256": "56b625d89f871ab3913e48373abec2018977ef90e9d4f544bc7218550d8601fd",
+      "bytes": 26296
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_PREFLIGHT_STOP\\PREC2_PREFLIGHT.json",
+      "sha256": "8230c7e6da9419e37315ab7526b7744305c1e6164d2deccabaf2d90d7177353b",
+      "bytes": 26503
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_PREFLIGHT_STOP\\PREC2_STOP_SUMMARY.json",
+      "sha256": "84b7ff2018dc97b15a8c76a2b37f2edf78e3835d3ae1a8dcad6c927190a78d14",
+      "bytes": 1110
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_PREFLIGHT_STOP\\PROPOSED_SOURCE_HASH_CORRECTION.json",
+      "sha256": "40bc6552c8ca73b38e0441a0503cf32856fcbd31bd932e211f0ed346221540e8",
+      "bytes": 691
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "sha256": "9b9447c54a6df1b66439c2581d23c20e13b3a7f93705e7e8a2dfe0738866f141",
+      "bytes": 863
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\README_T2_PREC2_20261014_v1.md",
+      "sha256": "aa6f819e6008f815700bb09f96ed1a3faef28c54450a19c75d8212a6f32c0ad4",
+      "bytes": 1066
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "sha256": "f8eef00f759af543b6cb58199fdf255d0a696ca49ed0bd8401fe0070bc856efe",
+      "bytes": 9626
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\t2_prec2_cold_audit.py",
+      "sha256": "9f02c0e83e72abc71547a3f711311992040fa1534cc9b9dacf9097c59e8663b3",
+      "bytes": 6618
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "sha256": "945d963b0a09eb1008fcf5c0faa657d68ba314c18c943e5bb54c4268913d39c0",
+      "bytes": 6733
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_FILE_MANIFEST_20261014_v1.json",
+      "sha256": "9b67e27bf00abdd462fc38a57b5b225ef0534fc4995d8b6cd487f3e932f116cc",
+      "bytes": 2256
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\t2_prec2_preflight.py",
+      "sha256": "3983ddd6d6a6610eada153ec4d8c25e0480464c79f5d8642a11ec393172328e8",
+      "bytes": 4184
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\t2_prec2_readonly.py",
+      "sha256": "a7935b5a75ae9c306a2a999fb4e8815598192b1c49a192fdeb32ceca38cb4f4f",
+      "bytes": 11701
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "sha256": "dcabcc911bf2822a67e3fbe90fc46dd8255fc05963faa3bea143cf1354f00938",
+      "bytes": 3904
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "sha256": "cbc0079814e24cf82df5baf090d3959c75963949fb9d3127ae466de8b3e55b0d",
+      "bytes": 1519
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_START_20261014_v1.txt",
+      "sha256": "6b0b7f98c22506cf1176bd020914cc5f9cb6b8e5d5642b33bbd8dada8eecb2c8",
+      "bytes": 2353
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\test_t2_prec2_synthetic.py",
+      "sha256": "c979cc74bc701c23b46a31c943ee611b3c6a4884b77679f399229cda97f92900",
+      "bytes": 2468
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_ZIP_RECOVERY.json",
+      "sha256": "5a2c39c7a6580ab0341f4f5265da34edb96b59f3c51dca0c5552795cdb68c8b2",
+      "bytes": 718
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PREFLIGHT.json",
+      "sha256": "8f88240035921a5ed84874800f181f8c9cd1a3c17e279eecbf85b6f38f22ba36",
+      "bytes": 26296
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_SOURCE_HASH_CORRECTION.md",
+      "sha256": "dae7073b994af8a6a731843d27bf2ab746f73bd8856f9be8b7bba9a0305c1558",
+      "bytes": 2785
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "sha256": "9b9447c54a6df1b66439c2581d23c20e13b3a7f93705e7e8a2dfe0738866f141",
+      "bytes": 863
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\README_T2_PREC2_20261014_v1.md",
+      "sha256": "aa6f819e6008f815700bb09f96ed1a3faef28c54450a19c75d8212a6f32c0ad4",
+      "bytes": 1066
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\SOURCE_HASH_CORRECTION.json",
+      "sha256": "cad9f472970961bb5337abb2a625a1ade4f8b8c83a36d630a294a5c39f9683c9",
+      "bytes": 1787
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "sha256": "f8eef00f759af543b6cb58199fdf255d0a696ca49ed0bd8401fe0070bc856efe",
+      "bytes": 9626
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\t2_prec2_cold_audit.py",
+      "sha256": "9f02c0e83e72abc71547a3f711311992040fa1534cc9b9dacf9097c59e8663b3",
+      "bytes": 6618
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "sha256": "71acc2be68c503334f8842472406936dfaf2799440c05c8920cfafb8c02ba16d",
+      "bytes": 6735
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_FILE_MANIFEST_20261014_v1.json",
+      "sha256": "e2cb17b6b17d50edb2743b1344a987563dee8150b3529622a7d744973c9aae5d",
+      "bytes": 2262
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\t2_prec2_preflight.py",
+      "sha256": "3983ddd6d6a6610eada153ec4d8c25e0480464c79f5d8642a11ec393172328e8",
+      "bytes": 4184
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\t2_prec2_readonly.py",
+      "sha256": "a7935b5a75ae9c306a2a999fb4e8815598192b1c49a192fdeb32ceca38cb4f4f",
+      "bytes": 11701
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "sha256": "dcabcc911bf2822a67e3fbe90fc46dd8255fc05963faa3bea143cf1354f00938",
+      "bytes": 3904
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "sha256": "cbc0079814e24cf82df5baf090d3959c75963949fb9d3127ae466de8b3e55b0d",
+      "bytes": 1519
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_START_20261014_v1.txt",
+      "sha256": "1a05e380203692c0e2fa6c42adc2d1bb1f28d0dc325227ba76ca9e9b2538719f",
+      "bytes": 2353
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\task_archives\\T2_PREC2_TASK_PACKAGE_20261014_v1-corr1.zip",
+      "sha256": "eceaa385ebfc97f22af86afd7b8a060dd4a7d685279605cbfc2e01ca371832a4",
+      "bytes": 27523
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\task_archives\\T2_PREC2_TASK_PACKAGE_20261014_v1.zip",
+      "sha256": "aac2a63dce3c4a26b356d180e92061608909e55f6c36eea4c0cd8dadaa87ca03",
+      "bytes": 27521
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\test_t2_prec2_synthetic.py",
+      "sha256": "c979cc74bc701c23b46a31c943ee611b3c6a4884b77679f399229cda97f92900",
+      "bytes": 2468
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\t2_prec2_cold_audit.py",
+      "sha256": "9f02c0e83e72abc71547a3f711311992040fa1534cc9b9dacf9097c59e8663b3",
+      "bytes": 6618
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\t2_prec2_preflight.py",
+      "sha256": "3983ddd6d6a6610eada153ec4d8c25e0480464c79f5d8642a11ec393172328e8",
+      "bytes": 4184
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\t2_prec2_readonly.py",
+      "sha256": "a7935b5a75ae9c306a2a999fb4e8815598192b1c49a192fdeb32ceca38cb4f4f",
+      "bytes": 11701
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\WORKTREE_LEDGER_BEFORE.csv",
+      "sha256": "d3b71caf4ddd077d3e6c512c5523eaa3aa0f4dfc788b15e8b654414dc6e3ed58",
+      "bytes": 28335
+    }
+  ]
+}

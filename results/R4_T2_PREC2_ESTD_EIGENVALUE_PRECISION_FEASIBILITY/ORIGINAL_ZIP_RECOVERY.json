@@ -1,0 +1,11 @@
+{
+  "original_ZIP_restored_path": "D:\\Downloads\\T2_PREC2_TASK_PACKAGE_20261014_v1.zip",
+  "original_ZIP_permanent_copy": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\original_archive\\T2_PREC2_TASK_PACKAGE_20261014_v1.zip",
+  "original_ZIP_sha256": "aac2a63dce3c4a26b356d180e92061608909e55f6c36eea4c0cd8dadaa87ca03",
+  "original_ZIP_original_unpacked_files_match": true,
+  "first_STOP_unchanged": true,
+  "corrected_ZIP_sha256": "eceaa385ebfc97f22af86afd7b8a060dd4a7d685279605cbfc2e01ca371832a4",
+  "retention_contract_complete": true,
+  "scientific_calls": 0,
+  "prior_network_read_failure": "git ls-remote rc128: Recv failure: Connection was aborted; no science executed; read-only network recheck permitted before A"
+}

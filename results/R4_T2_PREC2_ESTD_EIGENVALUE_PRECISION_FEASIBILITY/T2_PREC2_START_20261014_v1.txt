@@ -1,0 +1,20 @@
+T2-PREC2 正式本地执行提示（请完整交给Codex）
+
+研究对象：716第一会聚区定位项目；下一节点PREC2，原E-STD非均匀声速剖面水平波数有效精度可行性研究。
+仓库：chengcongcong222/WSL-CZ-target-localization
+唯一父提交：ac43a8702282fc6c80663319cb6757a30b084e09
+
+任务MD字节SHA256：f8eef00f759af543b6cb58199fdf255d0a696ca49ed0bd8401fe0070bc856efe
+实验SPEC字节SHA256：71acc2be68c503334f8842472406936dfaf2799440c05c8920cfafb8c02ba16d
+
+请完整阅读并严格执行本包任务MD、机器冻结SPEC与文件SHA清单。先在D盘的干净、独立Git工作树，使用包内`t2_prec2_preflight.py`核验父提交、Git blob和工作区18份历史ENV/MOD/PRT哈希；首次预检时不要先把研究源代码复制进Git工作树，避免破坏清洁性。可在独立解压目录执行：
+  python -B t2_prec2_preflight.py --repo <干净独立仓库目录> --package <本包解压目录> --out D:/ProjectStorage/WSL-CZ/T2_PREC2/preflight
+建议预先将OPENBLAS_NUM_THREADS、OMP_NUM_THREADS、MKL_NUM_THREADS统一设为1。
+
+预检全部PASS后，将本包科学文件、冻结配置及预检结果复制到新结果目录和仓库代码根，提交Commit A。然后恪守一次性执行：
+  python -B t2_prec2_readonly.py --repo . --config results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json --out results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY
+  python -B t2_prec2_cold_audit.py --repo . --config results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json --out results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY
+
+正式主程序和独立冷审计各仅一次，禁止修改阈值、无界重试、重新运行声学传播求解器、生成接收信号或MC。必须输出全部PRT/MOD复核、15条有限无损实波数FDM收敛与3条独立IVP；如果科学Gate失败，保留原始异常和负结果。整理GPT_SYNC_PREC2.md、源字节SHA、预算、科研结果及Git提交记录，提交Commit B并确认remote/main后STOP。
+
+特别强调：PREC2仅能判定原SSP条件下部分无损自伴实本征值的数值可行性；有损虚部、全模态响应、CHIGH完整性、真实底质和T2-A/B实际定位性能仍未认证。G0/N1/N2/N3/PREC1历史Gate及R4=0%不变。

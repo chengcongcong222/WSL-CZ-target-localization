@@ -1,0 +1,161 @@
+{
+  "stage": "T2_PREC2_ESTD_REAL_K_FEASIBILITY_READONLY",
+  "scope": "E-STD/C-linear/V-R/Thorp KRAKEN PRT-MOD read-only plus independent LOSSLESS Sturm-Liouville real-k subset",
+  "parent_sha": "ac43a8702282fc6c80663319cb6757a30b084e09",
+  "repository": "chengcongcong222/WSL-CZ-target-localization",
+  "output_directory": "results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY",
+  "archive_sets": [
+    {
+      "stem": "n2_K2_f201",
+      "variant": "K2",
+      "freq": 201,
+      "mesh": 160001,
+      "modes": 980,
+      "paths": {
+        "env": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+        "mod": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+        "prt": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt"
+      },
+      "sha256": {
+        "env": "ca3e2c473d4286d055d2b9febf1a4ba9eb45f60d1e34f4009fa0e5190936ffb3",
+        "mod": "ca508ba6b8cc65d6dcfbc832c6da097df2d2cf2a638018803b25d08c973dc10e",
+        "prt": "32779972c3b7c1cf5ab3aac95b700f6e861d95105ac321e189824fddc0010ca2"
+      },
+      "prt_rows_expected": 31
+    },
+    {
+      "stem": "n2_K2_f235",
+      "variant": "K2",
+      "freq": 235,
+      "mesh": 160001,
+      "modes": 1146,
+      "paths": {
+        "env": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+        "mod": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+        "prt": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt"
+      },
+      "sha256": {
+        "env": "9e4c2dc538e7f17c1b4644b315b375e8e9332c1d242ab9826bde8aa31413e799",
+        "mod": "fdfdd57c081e4420d19aec68a077e3a9cafdd4f80cfe12cbb2832cc95de61b04",
+        "prt": "8ec8274934ff8690fa42fa2570165771685b4c9341ce062cd57bbd36ba83bbca"
+      },
+      "prt_rows_expected": 31
+    },
+    {
+      "stem": "n2_K2_f283",
+      "variant": "K2",
+      "freq": 283,
+      "mesh": 160001,
+      "modes": 1380,
+      "paths": {
+        "env": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+        "mod": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+        "prt": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt"
+      },
+      "sha256": {
+        "env": "8bb8e66c6666187a68f1458a71c9f1b71e94f53851b3d68efd082f852cc6ec",
+        "mod": "8a583399525f23c9970341044c603a83bfb3d4d2c1503d8a34d4b805026f04d6",
+        "prt": "e57363632fd0453718f5e2b49b7a9d3a8d6f432161033cbde461707154a49ac1"
+      },
+      "prt_rows_expected": 30
+    },
+    {
+      "stem": "n2_K3_f201",
+      "variant": "K3",
+      "freq": 201,
+      "mesh": 240001,
+      "modes": 980,
+      "paths": {
+        "env": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+        "mod": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+        "prt": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt"
+      },
+      "sha256": {
+        "env": "1aae8daf2861e96c49bf6fa9f8a22eeb0bfcd9a6fe5dd825927aad6833e5c3db",
+        "mod": "319a07457bf514913ec5c0d8942600743693dc678f610d2d5dc50b3929e4ddd2",
+        "prt": "7dbc9c5f9dd18438fa3307de41ae7271a45c864735f49421496b916aa4dd4eaa"
+      },
+      "prt_rows_expected": 31
+    },
+    {
+      "stem": "n2_K3_f235",
+      "variant": "K3",
+      "freq": 235,
+      "mesh": 240001,
+      "modes": 1146,
+      "paths": {
+        "env": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+        "mod": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+        "prt": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt"
+      },
+      "sha256": {
+        "env": "df5beb6ee131169b4c48c63974280f0943bec29032aaf844554aa2c1271463ad",
+        "mod": "93a183e9352504e4f1ede345017a7d32de413ec7bc9360fea0f10bdda2477a60",
+        "prt": "ef065143c754e2d70c656aead1d8e046b344c6b027e5e69872bc84e7d696ccc7"
+      },
+      "prt_rows_expected": 31
+    },
+    {
+      "stem": "n2_K3_f283",
+      "variant": "K3",
+      "freq": 283,
+      "mesh": 240001,
+      "modes": 1380,
+      "paths": {
+        "env": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+        "mod": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+        "prt": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt"
+      },
+      "sha256": {
+        "env": "5fda357e2432b20c58ce2575622a07efdfdcbd95987dc2801af64a2fac95fa4f",
+        "mod": "b695f76fe665fad03df02612ff9da0be9283ac615d3406dea8009712c55dcf76",
+        "prt": "844ad1b3c5dc470454e3660ca116ee207e6a893286fe69a22e9f97909ce0cd73"
+      },
+      "prt_rows_expected": 30
+    }
+  ],
+  "freeze_source": "N2 SCIENCE_OUTPUT_FREEZE raw file SHA, SOLVER_PLAN env SHA; all present in Git parent",
+  "phase_reference_range_m": 60000,
+  "phase_target_radians": 0.0001,
+  "delta_k_design_budget_m_inverse": 1.6666666666666667e-09,
+  "prt_rank_positions": [
+    0,
+    7,
+    15,
+    22,
+    -1
+  ],
+  "FDM_grid_intervals": [
+    20000,
+    40000,
+    80000,
+    160000
+  ],
+  "FDM_nominal_bc": "Dirichlet at 0 m / Neumann at 5000 m; symmetric weighted bottom ghost",
+  "FDM_ODE": "phi second derivative + [(omega/c(z))^2-kr^2]phi = 0; rho 1",
+  "FDM_uses": "nominal C-linear speed only; Thorp attenuation excluded from real self-adjoint eigenproblem",
+  "richardson_order": "h2, h4, h6 extrapolate lambda=k_real^2",
+  "cold_ivp_selected_rank_indices": [
+    0,
+    2,
+    4
+  ],
+  "cold_ivp_method": "Pruefer-angle independent DOP853, two adaptive tolerances 1e-11/1e-12, max step 1 m / 0.5 m",
+  "cold_ivp_wall_s": 900,
+  "wall_s": 1800,
+  "max_RSS_bytes": 4294967296,
+  "max_git_new_bytes": 67108864,
+  "max_new_KRAKEN": 0,
+  "max_new_KRAKENC": 0,
+  "max_new_FIELD": 0,
+  "max_new_SCOOTER": 0,
+  "max_new_mc_waveform_DFT": 0,
+  "official_KRAKEN_source_context": "Fortran source uses internal double quantities and CMPLX(k) at mode write in public version; cannot assert binary build equivalence",
+  "gate_interpretation": "PRT f32 identity checks are representation evidence; FDM/Pruefer subset convergence is not full complex-field certification",
+  "historical_G0_N1_N2_N3_PREC1": "unchanged",
+  "real_environment_accuracy": "NOT_CERTIFIED",
+  "T2_A_B_receiver_performance": "NOT_EVALUATED",
+  "R4_percent_after": 0,
+  "completion_policy": "freeze Commit A, once-only main analysis, independent cold audit, Commit B push, STOP; no auto next stage",
+  "expected_total_prt_samples": 184
+}
