@@ -1,0 +1,29 @@
+{
+  "event": "Initial preflight aborted on worktree status-only cache after explicit CRLF checkout normalization; historical content check452 PASS and actual git diff empty",
+  "failed_check": "only_new_stage_untracked",
+  "status_before_refresh": " M t2_n2_audit.py\n M t2_n2_common.py\n M t2_n2_evaluate.py\n M t2_n2_execute.py\n M t2_n2_prepare.py\n M t2_n2_report.py\n M t2_n2_run.py\n M t2_n3_audit.py\n M t2_n3_common.py\n M t2_n3_execute.py\n M t2_n3_prec1.py\n M t2_n3_prec1_cold_audit.py\n M t2_n3_prepare.py\n M t2_n3_report.py\n M t2_n3_run.py\n M t2_prec2_cold_audit.py\n M t2_prec2_preflight.py\n M t2_prec2_readonly.py\n?? results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/.gitattributes\n?? results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/HISTORICAL_READ_INDEX.json\n?? results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/OFFICIAL_SOURCE_INDEX.json\n?? results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/RESEARCH_LEAD_TASK.txt\n?? results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_cold.py\n?? results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_execute.py\n?? results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_main.py\n",
+  "refresh_paths": [
+    "t2_n2_audit.py",
+    "t2_n2_common.py",
+    "t2_n2_evaluate.py",
+    "t2_n2_execute.py",
+    "t2_n2_prepare.py",
+    "t2_n2_report.py",
+    "t2_n2_run.py",
+    "t2_n3_audit.py",
+    "t2_n3_common.py",
+    "t2_n3_execute.py",
+    "t2_n3_prec1.py",
+    "t2_n3_prec1_cold_audit.py",
+    "t2_n3_prepare.py",
+    "t2_n3_report.py",
+    "t2_n3_run.py",
+    "t2_prec2_cold_audit.py",
+    "t2_prec2_preflight.py",
+    "t2_prec2_readonly.py"
+  ],
+  "scientific_calls": 0,
+  "new_scientific_inputs_changed": false,
+  "resolution": "Index metadata refreshed only; staged blobs verified equal HEAD before full fresh preflight",
+  "first_script_sha256": "21ba5cba1b245db0f6d9d56c1eeedb664e2d439eb311fbc9968c19bd57dde401"
+}

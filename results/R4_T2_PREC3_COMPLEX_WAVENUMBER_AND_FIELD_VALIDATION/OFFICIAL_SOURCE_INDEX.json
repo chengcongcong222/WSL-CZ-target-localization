@@ -1,0 +1,37 @@
+[
+  {
+    "upstream_commit": "8b4682bd719d5d17f5a1c798039d6be8235e3859",
+    "url": "https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/8b4682bd719d5d17f5a1c798039d6be8235e3859/Kraken/kraken.f90",
+    "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\official_source\\kraken.f90",
+    "sha256": "0a9a6ae02a7513a860af6d6eea0bf86f691f40b5ad5987c593a85cc0ba46330a",
+    "bytes": 39506
+  },
+  {
+    "upstream_commit": "8b4682bd719d5d17f5a1c798039d6be8235e3859",
+    "url": "https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/8b4682bd719d5d17f5a1c798039d6be8235e3859/Kraken/KrakenMod.f90",
+    "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\official_source\\KrakenMod.f90",
+    "sha256": "abafe3882989e0836154273ba03a55b73cebff25825aa3233ce36fc84b0327b7",
+    "bytes": 1051
+  },
+  {
+    "upstream_commit": "8b4682bd719d5d17f5a1c798039d6be8235e3859",
+    "url": "https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/8b4682bd719d5d17f5a1c798039d6be8235e3859/Kraken/krakenc.f90",
+    "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\official_source\\krakenc.f90",
+    "sha256": "8e16c14c2c0d553da1c31297fa8cae7973dc27e9c0a023c3dff73a8d42a9dace",
+    "bytes": 34320
+  },
+  {
+    "upstream_commit": "8b4682bd719d5d17f5a1c798039d6be8235e3859",
+    "url": "https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/8b4682bd719d5d17f5a1c798039d6be8235e3859/misc/AttenMod.f90",
+    "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\official_source\\AttenMod.f90",
+    "sha256": "1b2bb44a9ec9cb574206cd61a8a495f1f869f346307db63a1dd3c3ba7a4e1e64",
+    "bytes": 6349
+  },
+  {
+    "upstream_commit": "8b4682bd719d5d17f5a1c798039d6be8235e3859",
+    "url": "https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/8b4682bd719d5d17f5a1c798039d6be8235e3859/misc/sspMod.f90",
+    "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3\\official_source\\sspMod.f90",
+    "sha256": "b7d83a1e45f5dfaa0d9a991e92ee234afb9b020f1748ff4ccc2e8437fe4bafb7",
+    "bytes": 17246
+  }
+]
