@@ -1,0 +1,5 @@
+resource,original_exceeds,k_only_replacement_clears,phi_only_replacement_clears
+A0_0,True,True,True
+A_P4M,True,True,False
+B1_V4,True,True,False
+B2_DUP,True,True,True

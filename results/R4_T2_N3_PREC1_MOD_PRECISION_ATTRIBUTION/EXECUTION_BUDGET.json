@@ -1,0 +1,26 @@
+{
+  "stages": [
+    {
+      "program": "t2_n3_prec1.py",
+      "returncode": 0,
+      "wall_s": 0.4690000000409782,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\logs\\t2_n3_prec1.log",
+      "sha256": "d65412e9b3c2953859f030928c3ec372a31aa34b1d8e011e47787d1034b3847d"
+    },
+    {
+      "program": "t2_n3_prec1_cold_audit.py",
+      "returncode": 0,
+      "wall_s": 2.530999999959022,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\logs\\t2_n3_prec1_cold_audit.log",
+      "sha256": "c926d3a2e5ebd238ef6a0cbb4ebe41a3c4d2a0fdeed2e8395cab7332b2bebeb0"
+    }
+  ],
+  "failure": null,
+  "wall_s": 3.0630000000819564,
+  "peak_tree_RSS_bytes": 79126528,
+  "result_bytes": 297343,
+  "formal_main_calls": 1,
+  "formal_cold_calls": 1,
+  "new_KRAKEN_SCOOTER_FIELD_FIELDS_MC_waveforms_DFT_inference": 0,
+  "retries": 0
+}

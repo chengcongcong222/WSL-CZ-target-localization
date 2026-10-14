@@ -1,0 +1,19 @@
+{
+  "status": "PREC1_K_STORAGE_ROUNDING_MECHANISM_SUPPORTED_CONDITIONALLY",
+  "original_main_decision_preserved": true,
+  "main_rows": 40,
+  "cold_cases": 40,
+  "cold_checks": 1991,
+  "cold_FAIL": 0,
+  "scientific_source_and_result_identities_unchanged": true,
+  "original_N3_GATE": "FAIL_UNCHANGED",
+  "N2": "NUMERIC_BRACKETING_NOT_ESTABLISHED_UNCHANGED",
+  "G0": "FORWARD_NUMERIC_NOT_ADMITTED_UNCHANGED",
+  "T2_A_B_receiver_performance": "NOT_EVALUATED",
+  "E_STD_variable_SSP_high_precision_k": "NOT_EVALUATED",
+  "CHIGH_and_real_seabed": "NOT_CERTIFIED",
+  "R4_percent": 0,
+  "research_lead_audit": "PENDING",
+  "STOP": true,
+  "next_stage_authorized": false
+}

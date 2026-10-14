@@ -1,0 +1,205 @@
+{
+  "scope": "Final snapshot excluding own hash to avoid self-reference; all scientific outputs unchanged",
+  "files": [
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\.gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "bytes": 8
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\DELIVERY_CHECK.json",
+      "sha256": "7d2d4090fd34b88f962058ea67938fec3d3acbd644d176a29bdf116f622b2fd4",
+      "bytes": 766
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\DESIGN_FREEZE.json",
+      "sha256": "9c8b92af4319acc3285c6068a8a0185566e00a7b367b7ccd13b3a8230feed6b6",
+      "bytes": 13041
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\EXECUTION_BUDGET.json",
+      "sha256": "26abff2ff1ad68fb38328f3dae5c7f88f749cb4e1803fb050c2499a87d0f16d0",
+      "bytes": 827
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\FINAL_ADJUDICATION.json",
+      "sha256": "589621b0905800c2ea98e5242bff2a6f2546fef6668549fae46d01a8d55ea4e3",
+      "bytes": 665
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\FORMAL_PIPELINE_STARTED.json",
+      "sha256": "0fdc75d54c8774cbf924d4aff772a8b18ba5037c20d61ef62d570199d994c2a7",
+      "bytes": 166
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\GPT_SYNC_PREC1.md",
+      "sha256": "4e7dd349a79a64d1283254f4b33148af45f392be3d324412aa13798f386637ef",
+      "bytes": 2741
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\LEDGER_APPEND_PROVENANCE.json",
+      "sha256": "859c4f2a613ddac8c1327dcf9d57fcc4c9696c8053f3b165d2e44d6b030018c8",
+      "bytes": 170
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\MAIN_OUTPUT_SEAL.json",
+      "sha256": "8d3f5be24198a95fcfdb3d147d6c61a1e59adbcfc2ae7b9427ece92c77ae91f4",
+      "bytes": 1523
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\P04_precision_attribution.png",
+      "sha256": "5982c2b88f4b99327699bd5273e283b1cd3f52b1c890ec75d161756ab847f92d",
+      "bytes": 89722
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PREC1_ALL_40_CASES.csv",
+      "sha256": "20dc2f2056c1207499f9b2616907edbd8bff04237d8bd97afa90af8fd8838264",
+      "bytes": 10333
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PREC1_COLD_AUDIT.json",
+      "sha256": "c926d3a2e5ebd238ef6a0cbb4ebe41a3c4d2a0fdeed2e8395cab7332b2bebeb0",
+      "bytes": 280
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PREC1_COLD_AUDIT_CHECKS.csv",
+      "sha256": "1080b4621b52093b89e38d6f29c85b18ce215b52b3e4bcc2eeddc584eb345738",
+      "bytes": 139957
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PREC1_COLD_AUDIT_STARTED.json",
+      "sha256": "9f9bdab08f6dbf9dbd7431ba80e41cb94bbb93293d8d43762f6709dca4050194",
+      "bytes": 71
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PREC1_DECISION.json",
+      "sha256": "790395ca3f91f7cd49fdb002211a96b52c77c48e5ac48ac2a9b5535544f25f53",
+      "bytes": 1587
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PREC1_EXECUTION_STARTED.json",
+      "sha256": "081bde305d85427736f50b6d59d57a31fd5fdb0068e19f3a3c1846e1ce0c8913",
+      "bytes": 184
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PREC1_GATE_ATTRIBUTION.csv",
+      "sha256": "0763f0ffb3321bda63f373abe421534835d9a10403ea937c6f88b304ca7b7fcd",
+      "bytes": 166
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PREC1_MODE_WAVENUMBER_STORAGE.csv",
+      "sha256": "b951bce99781dfd4658998528fea5da475932e8feb66550f4f5fe2f80fd8b465",
+      "bytes": 366
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PREC1_P04_FROZEN_FOUR_RESOURCE.csv",
+      "sha256": "c3271df34cc9576263cb15567987e111adff9f438e9211ac37096b4e147e83ee",
+      "bytes": 1375
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PRECHECK_HASH_CORRECTION.md",
+      "sha256": "c4da3c0fa5c46e4f4230d9d005e83cfb905ee528170d1b3448b1b9e4a1c6ba00",
+      "bytes": 1252
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PRECHECK_REVALIDATION.json",
+      "sha256": "2b8ff9bb60ce45526ebf1c215f5cc4bfc4ca64e63d7d69e224918647b8fe97d7",
+      "bytes": 7062
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PRECHECK_SELFTEST.log",
+      "sha256": "593bcd77de99eead43c5aa3b83a9b8ad37f77c9e83ae0944db9039c4d6fc3e16",
+      "bytes": 15
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PREFLIGHT_IDENTITY.json",
+      "sha256": "7fb775e6d8fb64acadb738619bdec5f8793b60d526d5f8bb7bd25e73d60d5c9c",
+      "bytes": 5586
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PROVENANCE.json",
+      "sha256": "a9121f990fbd48cfcb64423a92a2ba02efe44040341282af9f836f0a880b4688",
+      "bytes": 3883
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\SCIENTIFIC_OUTPUT_SEAL.json",
+      "sha256": "ab92d38aa080a5c89b5689f1df6423c3b5446d0492cf8a317aea19fd9d68f3cd",
+      "bytes": 2239
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\runtime_logs\\t2_n3_prec1.log",
+      "sha256": "d65412e9b3c2953859f030928c3ec372a31aa34b1d8e011e47787d1034b3847d",
+      "bytes": 898
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\runtime_logs\\t2_n3_prec1_cold_audit.log",
+      "sha256": "c926d3a2e5ebd238ef6a0cbb4ebe41a3c4d2a0fdeed2e8395cab7332b2bebeb0",
+      "bytes": 280
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\CURRENT_PREC1_P04_FOUR_ARM_COMPARISON.csv",
+      "sha256": "36ecafd77c01dd5a37c5952667948e0d863113cf66d474e3546268465882603e",
+      "bytes": 895
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\INDEPENDENT_IDEAL_FLOAT32_K_ONLY_40_CASES.csv",
+      "sha256": "71067da40531a3759196faee2d8952c2324476e805480995f12d5bd0d2209f0f",
+      "bytes": 2346
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\PREC1_P04_PRECISION_ATTRIBUTION.png",
+      "sha256": "e18e2f3bb654773d1a4a835a27dbfa03c0d0719cedc524f657073287e1cdaa86",
+      "bytes": 67705
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\README_T2_N3_PREC1.md",
+      "sha256": "ff77003650712d65ee9ff6b8c54b73c5b8e58ef730d0d88e004ee12961657641",
+      "bytes": 1319
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\t2_n3_prec1.py",
+      "sha256": "e93dee59c8425b77cbfd15161d3d9305e49ddd8dd9b77d6dc31eeeddb596bc2b",
+      "bytes": 12062
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\T2_N3_PREC1_CODEX_TASK_20261014_v1.md",
+      "sha256": "647a0afcb6546f8d78bbe1ab7c84eaf253f8cd1b711d9c760aa2a10b181cd791",
+      "bytes": 6996
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\t2_n3_prec1_cold_audit.py",
+      "sha256": "895b3515fe11377c9119de88835112aa122aa2582eda412da97e6944e3bb1e46",
+      "bytes": 6109
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\T2_N3_PREC1_EXPERIMENT_SPEC_20261014_v1.json",
+      "sha256": "2cbc0cf953b1c5867d87b12a28ffa5e0aaae97bfd61c4e6697d780257b572c92",
+      "bytes": 3832
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\T2_N3_PREC1_FILE_MANIFEST_20261014_v1.json",
+      "sha256": "560015cd5d9e308904107f598c0e881d4f089d6a2b508a201c8eac9bf5e440ab",
+      "bytes": 2292
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\T2_N3_PREC1_RESEARCH_NOTE_20261014.md",
+      "sha256": "278f8a837f7fe4a87b2f6f5eacbfcbd8a7157de5c5af0dddb608669e8869803f",
+      "bytes": 3310
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\T2_N3_PREC1_START_20261014_v1.txt",
+      "sha256": "d19c729a81ba19247b2d34ed2cb56ee6e66cf2b3e245979ade70b88aab27ce32",
+      "bytes": 1644
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "bytes": 3793
+    },
+    {
+      "path": "results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\test_synthetic_only.py",
+      "sha256": "a9470660d3419fbffcf1d22f61ae9d1962c86206d46a28bbba92b260de50d0c7",
+      "bytes": 2068
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "PASS": true,
+  "FAIL": 0,
+  "check_count": 1991,
+  "cold_cases": 40,
+  "modal_rounding_checks": 1787,
+  "max_shape_delta": 1.9917787037748713e-12,
+  "max_k_round_delta": 0.0,
+  "no_external_solver": true,
+  "original_N3_gate_unchanged": true,
+  "R4_percent": 0
+}

@@ -1,0 +1,77 @@
+{
+  "parent_SHA": "8ee2bd53fe1b7a50725833e6c7b5c5dea35fbe23",
+  "design_SHA": "505bca32f63d22847fa7168b89132cf12b59c940",
+  "task_MD_SHA256": "647a0afcb6546f8d78bbe1ab7c84eaf253f8cd1b711d9c760aa2a10b181cd791",
+  "ZIP_SHA256": "64e14064a5960575b72f95b0e90aa6b0d2c15356491d5cf483057462cc1f4cff",
+  "original_main_program_SHA256": "e93dee59c8425b77cbfd15161d3d9305e49ddd8dd9b77d6dc31eeeddb596bc2b",
+  "original_cold_program_SHA256": "895b3515fe11377c9119de88835112aa122aa2582eda412da97e6944e3bb1e46",
+  "source_records": [
+    {
+      "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h1800_n160001/n3_PR_R_f201_h1800_n160001.mod",
+      "sha256": "cf5745862a3b367283c9ea9deef723ff194ca354c7f389fa5b185b992f028d0f",
+      "modes": 741,
+      "PASS": true,
+      "parent_blob_sha256": "cf5745862a3b367283c9ea9deef723ff194ca354c7f389fa5b185b992f028d0f"
+    },
+    {
+      "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h2400_n160001/n3_PR_R_f201_h2400_n160001.mod",
+      "sha256": "d9e476d0ed84c08c30f7551ad090e3823067d36918ed41375eeb3ec720afae42",
+      "modes": 1046,
+      "PASS": true,
+      "parent_blob_sha256": "d9e476d0ed84c08c30f7551ad090e3823067d36918ed41375eeb3ec720afae42"
+    },
+    {
+      "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/ANALYTIC_KRAKEN_MODE_AND_FIELD_CROSSCHECK.csv",
+      "sha256": "2de1541cdfcc93c5f3dc76310fb3c6b8b47bf2e382518d8534d5ede2f56860bd",
+      "PASS": true,
+      "parent_blob_sha256": "2de1541cdfcc93c5f3dc76310fb3c6b8b47bf2e382518d8534d5ede2f56860bd"
+    },
+    {
+      "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "PASS": true,
+      "parent_blob_sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd"
+    },
+    {
+      "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/t2_n3_analytic_reference.py",
+      "sha256": "456468df64afb04dc25ebb28cd96c62bbf2f973e03c9bc92df4fcf71d6902467",
+      "use": "provenance/read-only; original benchmark implementation",
+      "PASS": true,
+      "parent_blob_sha256": "456468df64afb04dc25ebb28cd96c62bbf2f973e03c9bc92df4fcf71d6902467"
+    }
+  ],
+  "first_STOP_SHA256": "7fb775e6d8fb64acadb738619bdec5f8793b60d526d5f8bb7bd25e73d60d5c9c",
+  "first_STOP_preserved": true,
+  "external_hash_registration_corrected_by_user": true,
+  "reference_CSV_and_PNG_in_TASK_PACKAGE": "PREANALYSIS_ONLY_NEVER_MAIN_INPUT",
+  "radial_kernel": "FARFIELD_SAME_FOR_C0_C1_C2_C3; old N3 Hankel history compared with preregistered2e-6 tolerance",
+  "mode_order": "1787 elementwise exact float32 analytic-rounding comparisons verify stored order; cold roots independent",
+  "zero_C3_error": "REFERENCE_SELF_COMPARISON_BY_DEFINITION_NOT_LOCALIZATION_ZERO_ERROR",
+  "cold_scope": "ACTUAL_GIT_ARCHIVED_MOD; synthetic selftest separate",
+  "formal_budget": {
+    "stages": [
+      {
+        "program": "t2_n3_prec1.py",
+        "returncode": 0,
+        "wall_s": 0.4690000000409782,
+        "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\logs\\t2_n3_prec1.log",
+        "sha256": "d65412e9b3c2953859f030928c3ec372a31aa34b1d8e011e47787d1034b3847d"
+      },
+      {
+        "program": "t2_n3_prec1_cold_audit.py",
+        "returncode": 0,
+        "wall_s": 2.530999999959022,
+        "log": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\logs\\t2_n3_prec1_cold_audit.log",
+        "sha256": "c926d3a2e5ebd238ef6a0cbb4ebe41a3c4d2a0fdeed2e8395cab7332b2bebeb0"
+      }
+    ],
+    "failure": null,
+    "wall_s": 3.0630000000819564,
+    "peak_tree_RSS_bytes": 79126528,
+    "result_bytes": 297343,
+    "formal_main_calls": 1,
+    "formal_cold_calls": 1,
+    "new_KRAKEN_SCOOTER_FIELD_FIELDS_MC_waveforms_DFT_inference": 0,
+    "retries": 0
+  }
+}

@@ -1,0 +1,3 @@
+CHIGH,mode_count,all_stored_k_equal_float32_analytic,max_abs_k_difference,max_relative_k_difference,max_phase_error_58km_rad,max_analytic_cp_mps,nonzero_im_k_count
+1800,741,True,2.9755122143981794e-08,4.173804262819511e-08,0.001725797084350944,1799.7724668524338,0
+2400,1046,True,2.9755122143981794e-08,5.230384599925343e-08,0.001725797084350944,2398.080167496515,0

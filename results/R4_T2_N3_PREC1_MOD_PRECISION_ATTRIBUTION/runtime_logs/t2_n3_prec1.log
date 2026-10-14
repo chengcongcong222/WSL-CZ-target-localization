@@ -1,0 +1,23 @@
+READ_ONLY_ATTRIBUTION 1800 modes 741 rows_so_far 20
+READ_ONLY_ATTRIBUTION 2400 modes 1046 rows_so_far 40
+{
+  "stage": "T2_N3_PREC1",
+  "scope": "IDEAL_ISOVELOCITY_PRESSURE_RELEASE_SURFACE_RIGID_BOTTOM_ONLY",
+  "status": "PREC1_K_STORAGE_ROUNDING_MECHANISM_SUPPORTED_CONDITIONALLY",
+  "original_N3_scientific_status": "T2_N3_PARTIAL_NUMERIC_NOT_ADMITTED_UNCHANGED",
+  "all_40_control_rows": 40,
+  "K_float32_exact_modes": 1787,
+  "P04_k_replacement_cleared_count": 4,
+  "P04_phi_replacement_cleared_count": 2,
+  "all_40_k_replacement_below_original_threshold": true,
+  "max_history_delta": 3.7468866762034624e-07,
+  "binary_solver_calls": 0,
+  "new_KRAKEN": 0,
+  "new_FIELD": 0,
+  "new_MC_waveforms": 0,
+  "R4_percent": 0,
+  "E_STD_CHIGH_real_seabed_and_A_B_performance": "NOT_EVALUATED",
+  "wall_s": 0.106264,
+  "stop": "STOP_ONCE_ONLY",
+  "research_lead_audit": "PENDING"
+}

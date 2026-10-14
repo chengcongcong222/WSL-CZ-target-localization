@@ -1,0 +1,31 @@
+{
+  "PASS": true,
+  "sources_and_original_programs_byte_exact": true,
+  "all_sealed_scientific_outputs_unchanged": true,
+  "first_STOP_preserved": true,
+  "four_original_P04_failures_reproduced": true,
+  "all40_C1_below_original_threshold": true,
+  "C2_failures": [
+    {
+      "CHIGH": "2400",
+      "probe": "P04",
+      "resource": "A_P4M"
+    },
+    {
+      "CHIGH": "2400",
+      "probe": "P04",
+      "resource": "B1_V4"
+    }
+  ],
+  "actual_MOD_cold_checks": 1991,
+  "actual_MOD_cold_FAIL": 0,
+  "formal_main_count": 1,
+  "formal_cold_count": 1,
+  "retries": 0,
+  "new_solvers_MC_receivers": 0,
+  "result_bytes_before_final_index": 407362,
+  "canonical_untracked_unchanged": 11,
+  "ledger_original_prefix_preserved": true,
+  "R4_percent": 0,
+  "STOP": true
+}
