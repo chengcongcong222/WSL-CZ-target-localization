@@ -1,0 +1,300 @@
+{
+  "scope": "all delivered files except self to avoid hash self-reference",
+  "files": [
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\.gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "bytes": 8
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\CORRECTED_PREFLIGHT_FIRST\\PREC2_PREFLIGHT.json",
+      "sha256": "56b625d89f871ab3913e48373abec2018977ef90e9d4f544bc7218550d8601fd",
+      "bytes": 26296
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\DELIVERY_VALIDATION.json",
+      "sha256": "55d250f5446b68d0c14a81204cbedd656eb03eabc8517fc29b5620b427e503de",
+      "bytes": 20570
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\DESIGN_FREEZE.json",
+      "sha256": "9a3b62f38c8d0ef44e5b2683b557c255009b3d29e53c6ff7e3c4b3b48017f0ac",
+      "bytes": 51788
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\EXECUTION_BUDGET.json",
+      "sha256": "f7b97057874ffa05d82c2615e73402436ccf3d2cede5fc82e434050746627c34",
+      "bytes": 925
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\EXECUTION_PROGRESS.json",
+      "sha256": "288c8478b25f5b59459436598272ded1c39b76daedf9ae4b3db6179432473551",
+      "bytes": 147
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\GPT_SYNC_PREC2.md",
+      "sha256": "051a252e0e53b71ff5eba6905b092e05cbf5e78f5c683bc1d78dcfd4a19d2ed2",
+      "bytes": 3080
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\LEDGER_APPEND_PROVENANCE.json",
+      "sha256": "0cb6c1526251e70931ac36cede0f572be88aacba6cac89e252d385dd8e47f752",
+      "bytes": 166
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\MAIN_OUTPUT_SEAL.json",
+      "sha256": "6ad2c50a73cc9f893858101c44c242a98dc90335f15ced1458b7be646352b6fb",
+      "bytes": 1773
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_PREFLIGHT_STOP\\PREC2_PREFLIGHT.json",
+      "sha256": "8230c7e6da9419e37315ab7526b7744305c1e6164d2deccabaf2d90d7177353b",
+      "bytes": 26503
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_PREFLIGHT_STOP\\PREC2_STOP_SUMMARY.json",
+      "sha256": "84b7ff2018dc97b15a8c76a2b37f2edf78e3835d3ae1a8dcad6c927190a78d14",
+      "bytes": 1110
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_PREFLIGHT_STOP\\PROPOSED_SOURCE_HASH_CORRECTION.json",
+      "sha256": "40bc6552c8ca73b38e0441a0503cf32856fcbd31bd932e211f0ed346221540e8",
+      "bytes": 691
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "sha256": "9b9447c54a6df1b66439c2581d23c20e13b3a7f93705e7e8a2dfe0738866f141",
+      "bytes": 863
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\README_T2_PREC2_20261014_v1.md",
+      "sha256": "aa6f819e6008f815700bb09f96ed1a3faef28c54450a19c75d8212a6f32c0ad4",
+      "bytes": 1066
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "sha256": "f8eef00f759af543b6cb58199fdf255d0a696ca49ed0bd8401fe0070bc856efe",
+      "bytes": 9626
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\t2_prec2_cold_audit.py",
+      "sha256": "9f02c0e83e72abc71547a3f711311992040fa1534cc9b9dacf9097c59e8663b3",
+      "bytes": 6618
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "sha256": "945d963b0a09eb1008fcf5c0faa657d68ba314c18c943e5bb54c4268913d39c0",
+      "bytes": 6733
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_FILE_MANIFEST_20261014_v1.json",
+      "sha256": "9b67e27bf00abdd462fc38a57b5b225ef0534fc4995d8b6cd487f3e932f116cc",
+      "bytes": 2256
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\t2_prec2_preflight.py",
+      "sha256": "3983ddd6d6a6610eada153ec4d8c25e0480464c79f5d8642a11ec393172328e8",
+      "bytes": 4184
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\t2_prec2_readonly.py",
+      "sha256": "a7935b5a75ae9c306a2a999fb4e8815598192b1c49a192fdeb32ceca38cb4f4f",
+      "bytes": 11701
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "sha256": "dcabcc911bf2822a67e3fbe90fc46dd8255fc05963faa3bea143cf1354f00938",
+      "bytes": 3904
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "sha256": "cbc0079814e24cf82df5baf090d3959c75963949fb9d3127ae466de8b3e55b0d",
+      "bytes": 1519
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_START_20261014_v1.txt",
+      "sha256": "6b0b7f98c22506cf1176bd020914cc5f9cb6b8e5d5642b33bbd8dada8eecb2c8",
+      "bytes": 2353
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\test_t2_prec2_synthetic.py",
+      "sha256": "c979cc74bc701c23b46a31c943ee611b3c6a4884b77679f399229cda97f92900",
+      "bytes": 2468
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_ZIP_RECOVERY.json",
+      "sha256": "5a2c39c7a6580ab0341f4f5265da34edb96b59f3c51dca0c5552795cdb68c8b2",
+      "bytes": 718
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PIPELINE_STARTED.json",
+      "sha256": "796939ee7b4d6f86598d07a9dc18fe74580bfc25bc5e2fd74be7c899163c64dd",
+      "bytes": 172
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_COLD_AUDIT.json",
+      "sha256": "e28a1f55f81b6dbe503171e6ca8a62dd89b975a7167e0e9061177e1910dae15f",
+      "bytes": 344
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_COLD_CHECKS.csv",
+      "sha256": "9fd675984562fc049ee335f98c5e70b8969d129b155dd2056141b1fdd22403b1",
+      "bytes": 43016
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_DECISION.json",
+      "sha256": "068ac95b14a5ee0f5cc1be8cf47dea45cd6f76f9abf0ebfbfb8ad0069fcfb9e1",
+      "bytes": 799
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_FINAL_ADJUDICATION.json",
+      "sha256": "b32dc6a4cc63945ec3bc616b03bbe41adc3f98a45328b949b87fde92af612695",
+      "bytes": 1039
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_LOSSLESS_SUBSET_FDM.csv",
+      "sha256": "51c610ff32f93ff929ddb267375d3c9836b1d1a43661112ec413b7b5b9f2ba72",
+      "bytes": 3831
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_NEXT_RESEARCH_DECISION.md",
+      "sha256": "5e0b693ef036bebaccc98513874731ef8104d600460437b253394b2695d8c1b6",
+      "bytes": 384
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PREFLIGHT.json",
+      "sha256": "8f88240035921a5ed84874800f181f8c9cd1a3c17e279eecbf85b6f38f22ba36",
+      "bytes": 26296
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PRT_MOD_ALL_SAMPLES.csv",
+      "sha256": "7b3ef90f36f99e92ec960b0ae53745502e6ea64124865b67d0ba6dc57fcd4a21",
+      "bytes": 27558
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PRT_MOD_SUMMARY.csv",
+      "sha256": "815d8880432df4892e151130a6e828789cca9af75ea1a2a9eee801b5870caabd",
+      "bytes": 754
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PRUFER_COLD_ROOTS.csv",
+      "sha256": "d93401969d697765eb22cbe089f424e467719fca0b0efdfdde5b76fd43b10cd5",
+      "bytes": 639
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_SCOPED_INTERPRETATION.md",
+      "sha256": "2e44ccb2629be813b0798f8279b20c7ca4af0e9b69ae1725389ec275bf5d3f53",
+      "bytes": 2023
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_SOURCE_HASH_CORRECTION.md",
+      "sha256": "dae7073b994af8a6a731843d27bf2ab746f73bd8856f9be8b7bba9a0305c1558",
+      "bytes": 2785
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_SOURCE_IDENTITIES.csv",
+      "sha256": "5dd10a6e53cc9f060720d72ce0673b61ed60e8c9aeb837bda95caba4a3e9a256",
+      "bytes": 2932
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "sha256": "9b9447c54a6df1b66439c2581d23c20e13b3a7f93705e7e8a2dfe0738866f141",
+      "bytes": 863
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PROVENANCE.json",
+      "sha256": "33efe596f32e7d24e6963c95f51070c1703f34eeffcc28e6ce6e5042dce8d0a0",
+      "bytes": 6010
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\README_T2_PREC2_20261014_v1.md",
+      "sha256": "aa6f819e6008f815700bb09f96ed1a3faef28c54450a19c75d8212a6f32c0ad4",
+      "bytes": 1066
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\runtime_logs\\t2_prec2_cold_audit.log",
+      "sha256": "e28a1f55f81b6dbe503171e6ca8a62dd89b975a7167e0e9061177e1910dae15f",
+      "bytes": 344
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\runtime_logs\\t2_prec2_readonly.log",
+      "sha256": "8a91686fce018b12c818b3855c05390d1e56cb57cd65eadfc1c123ef8c7ada3f",
+      "bytes": 62
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\SCIENTIFIC_OUTPUT_SEAL.json",
+      "sha256": "68c1ad0ed07d5e97ed07bf61d3c105a01039fc64e59a3c5841b182d5111e56ab",
+      "bytes": 2538
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\SOURCE_HASH_CORRECTION.json",
+      "sha256": "cad9f472970961bb5337abb2a625a1ade4f8b8c83a36d630a294a5c39f9683c9",
+      "bytes": 1787
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\STOP.json",
+      "sha256": "1b8eac3778ced0bcec14a8420d09a190d708fdceed9982745233b6579b1b3813",
+      "bytes": 72
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "sha256": "f8eef00f759af543b6cb58199fdf255d0a696ca49ed0bd8401fe0070bc856efe",
+      "bytes": 9626
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\t2_prec2_cold_audit.py",
+      "sha256": "9f02c0e83e72abc71547a3f711311992040fa1534cc9b9dacf9097c59e8663b3",
+      "bytes": 6618
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "sha256": "71acc2be68c503334f8842472406936dfaf2799440c05c8920cfafb8c02ba16d",
+      "bytes": 6735
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_FILE_MANIFEST_20261014_v1.json",
+      "sha256": "e2cb17b6b17d50edb2743b1344a987563dee8150b3529622a7d744973c9aae5d",
+      "bytes": 2262
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\t2_prec2_preflight.py",
+      "sha256": "3983ddd6d6a6610eada153ec4d8c25e0480464c79f5d8642a11ec393172328e8",
+      "bytes": 4184
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\t2_prec2_readonly.py",
+      "sha256": "a7935b5a75ae9c306a2a999fb4e8815598192b1c49a192fdeb32ceca38cb4f4f",
+      "bytes": 11701
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "sha256": "dcabcc911bf2822a67e3fbe90fc46dd8255fc05963faa3bea143cf1354f00938",
+      "bytes": 3904
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "sha256": "cbc0079814e24cf82df5baf090d3959c75963949fb9d3127ae466de8b3e55b0d",
+      "bytes": 1519
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_START_20261014_v1.txt",
+      "sha256": "1a05e380203692c0e2fa6c42adc2d1bb1f28d0dc325227ba76ca9e9b2538719f",
+      "bytes": 2353
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\task_archives\\T2_PREC2_TASK_PACKAGE_20261014_v1-corr1.zip",
+      "sha256": "eceaa385ebfc97f22af86afd7b8a060dd4a7d685279605cbfc2e01ca371832a4",
+      "bytes": 27523
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\task_archives\\T2_PREC2_TASK_PACKAGE_20261014_v1.zip",
+      "sha256": "aac2a63dce3c4a26b356d180e92061608909e55f6c36eea4c0cd8dadaa87ca03",
+      "bytes": 27521
+    },
+    {
+      "path": "results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\test_t2_prec2_synthetic.py",
+      "sha256": "c979cc74bc701c23b46a31c943ee611b3c6a4884b77679f399229cda97f92900",
+      "bytes": 2468
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "PASS": true,
+  "scope": "delivery/identity/completeness checks; no roots recomputed",
+  "checks": [
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\original_archive\\T2_PREC2_TASK_PACKAGE_20261014_v1.zip",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\preflight\\PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\prec2_delivery.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\prec2_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\environments\\n2_K2_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\environments\\n2_K2_f235.env",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\environments\\n2_K2_f283.env",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\environments\\n2_K3_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\environments\\n2_K3_f235.env",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\environments\\n2_K3_f283.env",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K2_f201.mod",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K2_f201.prt",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K2_f235.mod",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K2_f235.prt",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K2_f283.mod",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K2_f283.prt",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K3_f201.mod",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K3_f201.prt",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K3_f235.mod",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K3_f235.prt",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K3_f283.mod",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET\\modal_archive\\n2_K3_f283.prt",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\.gitattributes",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\CORRECTED_PREFLIGHT_FIRST\\PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_PREFLIGHT_STOP\\PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_PREFLIGHT_STOP\\PREC2_STOP_SUMMARY.json",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_PREFLIGHT_STOP\\PROPOSED_SOURCE_HASH_CORRECTION.json",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\README_T2_PREC2_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\t2_prec2_cold_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_FILE_MANIFEST_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\t2_prec2_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\t2_prec2_readonly.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\T2_PREC2_START_20261014_v1.txt",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_TASK_PACKAGE\\test_t2_prec2_synthetic.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\ORIGINAL_ZIP_RECOVERY.json",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_SOURCE_HASH_CORRECTION.md",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\README_T2_PREC2_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\SOURCE_HASH_CORRECTION.json",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\t2_prec2_cold_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_FILE_MANIFEST_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\t2_prec2_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\t2_prec2_readonly.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\T2_PREC2_START_20261014_v1.txt",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\task_archives\\T2_PREC2_TASK_PACKAGE_20261014_v1-corr1.zip",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\task_archives\\T2_PREC2_TASK_PACKAGE_20261014_v1.zip",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\test_t2_prec2_synthetic.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\t2_prec2_cold_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\t2_prec2_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\t2_prec2_readonly.py",
+      "PASS": true
+    },
+    {
+      "check": "frozen/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\WORKTREE_LEDGER_BEFORE.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_COLD_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_LOSSLESS_SUBSET_FDM.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PRT_MOD_ALL_SAMPLES.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PRT_MOD_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PRUFER_COLD_ROOTS.csv",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_SOURCE_HASH_CORRECTION.md",
+      "PASS": true
+    },
+    {
+      "check": "sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_SOURCE_IDENTITIES.csv",
+      "PASS": true
+    },
+    {
+      "check": "main_sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "main_sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_LOSSLESS_SUBSET_FDM.csv",
+      "PASS": true
+    },
+    {
+      "check": "main_sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "main_sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PRT_MOD_ALL_SAMPLES.csv",
+      "PASS": true
+    },
+    {
+      "check": "main_sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PRT_MOD_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "main_sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_SOURCE_HASH_CORRECTION.md",
+      "PASS": true
+    },
+    {
+      "check": "main_sealed/D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_SOURCE_IDENTITIES.csv",
+      "PASS": true
+    },
+    {
+      "check": "actual_cold_all_PASS",
+      "PASS": true
+    },
+    {
+      "check": "cold_count_accounting",
+      "PASS": true
+    },
+    {
+      "check": "zip_integrity/T2_PREC2_TASK_PACKAGE_20261014_v1-corr1.zip",
+      "PASS": true
+    },
+    {
+      "check": "zip12_exact/T2_PREC2_TASK_PACKAGE_20261014_v1-corr1.zip",
+      "PASS": true
+    },
+    {
+      "check": "zip_integrity/T2_PREC2_TASK_PACKAGE_20261014_v1.zip",
+      "PASS": true
+    },
+    {
+      "check": "zip12_exact/T2_PREC2_TASK_PACKAGE_20261014_v1.zip",
+      "PASS": true
+    },
+    {
+      "check": "first_STOP_preserved",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+      "PASS": true
+    },
+    {
+      "check": "archive18/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt",
+      "PASS": true
+    },
+    {
+      "check": "fresh_preflight_110",
+      "PASS": true
+    },
+    {
+      "check": "once_only",
+      "PASS": true
+    },
+    {
+      "check": "forbidden_calls_zero",
+      "PASS": true
+    },
+    {
+      "check": "wall_RSS_budget",
+      "PASS": true
+    },
+    {
+      "check": "log/t2_prec2_readonly.py",
+      "PASS": true
+    },
+    {
+      "check": "log/t2_prec2_cold_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "ledger_old_prefix",
+      "PASS": true
+    },
+    {
+      "check": "ledger_one_zero_credit_row",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC2_SOURCE_IDENTITIES.csv",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC2_PRT_MOD_ALL_SAMPLES.csv",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC2_PRT_MOD_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC2_LOSSLESS_SUBSET_FDM.csv",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC2_PRUFER_COLD_ROOTS.csv",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC2_COLD_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC2_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC2_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC2_SCOPED_INTERPRETATION.md",
+      "PASS": true
+    },
+    {
+      "check": "required/PREC2_NEXT_RESEARCH_DECISION.md",
+      "PASS": true
+    },
+    {
+      "check": "required/GPT_SYNC_PREC2.md",
+      "PASS": true
+    },
+    {
+      "check": "result_size_budget",
+      "PASS": true
+    }
+  ],
+  "cold_actual_check_categories": {
+    "source_sha256": 18,
+    "mode_count": 6,
+    "PRT_float32_matches_MOD": 184,
+    "attenuation_sign_reproduced": 184,
+    "main_k_MOD_reconstructed": 184,
+    "main_delta_rounded_reconstructed": 184,
+    "IVP_two_tolerances_agree": 3,
+    "IVP_vs_FDM_R6": 3
+  },
+  "cold_synthetic_author_claim_not_used": 774,
+  "actual_cold_checks": 766,
+  "operational_read_errors": [
+    "rg unavailable; used Python file read instead",
+    "one inspection read lacked UTF8 and failed decode; reread explicit UTF8, no write or scientific call"
+  ],
+  "science_retries": 0,
+  "R4_percent": 0,
+  "STOP": true
+}

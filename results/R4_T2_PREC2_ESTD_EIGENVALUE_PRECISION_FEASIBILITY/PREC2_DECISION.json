@@ -1,0 +1,20 @@
+{
+  "stage": "T2-PREC2",
+  "parent_sha": "ac43a8702282fc6c80663319cb6757a30b084e09",
+  "status": "SPARSE_PRT_MOD_ROUNDING_REPRODUCED_WITH_LOSSLESS_SUBSET_DIAGNOSTIC",
+  "sources_verified": 18,
+  "samples_verified": 184,
+  "MOD_mode_total_duplicated_mesh_views": 7012,
+  "subset_roots": 15,
+  "FDM_R4_gap_all_within_target": true,
+  "any_k_full_field_refinement_completed": false,
+  "actual_imaginary_k_refined": false,
+  "accuracy_certified_in_actual_lossy_waveguide": false,
+  "parent_G0_N2_N3_PREC1_unchanged": true,
+  "A_B_receiver_performance": "NOT_EVALUATED",
+  "R4_percent": 0,
+  "new_KRAKEN_FIELD_SCOOTER_MC_DFT": 0,
+  "state": "STOP_AFTER_COLD_AUDIT",
+  "elapsed_s": 2.25,
+  "note": "FDM is an independent self-adjoint real-k diagnostic, not a high-precision full complex-mode provider."
+}

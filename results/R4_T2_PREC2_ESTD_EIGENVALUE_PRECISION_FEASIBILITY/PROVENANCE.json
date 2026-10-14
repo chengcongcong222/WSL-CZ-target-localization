@@ -1,0 +1,132 @@
+{
+  "parent_SHA": "ac43a8702282fc6c80663319cb6757a30b084e09",
+  "design_SHA": "e7b19f081f587d5c815a6e0b9c5eb3c44a0d5aa5",
+  "corrected_SPEC_sha256": "71acc2be68c503334f8842472406936dfaf2799440c05c8920cfafb8c02ba16d",
+  "corrected_ZIP_sha256": "eceaa385ebfc97f22af86afd7b8a060dd4a7d685279605cbfc2e01ca371832a4",
+  "original_ZIP_sha256": "aac2a63dce3c4a26b356d180e92061608909e55f6c36eea4c0cd8dadaa87ca03",
+  "original_STOP_sha256": "8230c7e6da9419e37315ab7526b7744305c1e6164d2deccabaf2d90d7177353b",
+  "source_code_sha256": {
+    "t2_prec2_readonly.py": "a7935b5a75ae9c306a2a999fb4e8815598192b1c49a192fdeb32ceca38cb4f4f",
+    "t2_prec2_cold_audit.py": "9f02c0e83e72abc71547a3f711311992040fa1534cc9b9dacf9097c59e8663b3",
+    "t2_prec2_preflight.py": "3983ddd6d6a6610eada153ec4d8c25e0480464c79f5d8642a11ec393172328e8"
+  },
+  "source_rows": [
+    {
+      "stem": "n2_K2_f201",
+      "type": "env",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+      "sha256": "ca3e2c473d4286d055d2b9febf1a4ba9eb45f60d1e34f4009fa0e5190936ffb3"
+    },
+    {
+      "stem": "n2_K2_f201",
+      "type": "mod",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.mod",
+      "sha256": "ca508ba6b8cc65d6dcfbc832c6da097df2d2cf2a638018803b25d08c973dc10e"
+    },
+    {
+      "stem": "n2_K2_f201",
+      "type": "prt",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f201.prt",
+      "sha256": "32779972c3b7c1cf5ab3aac95b700f6e861d95105ac321e189824fddc0010ca2"
+    },
+    {
+      "stem": "n2_K2_f235",
+      "type": "env",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f235.env",
+      "sha256": "9e4c2dc538e7f17c1b4644b315b375e8e9332c1d242ab9826bde8aa31413e799"
+    },
+    {
+      "stem": "n2_K2_f235",
+      "type": "mod",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.mod",
+      "sha256": "fdfdd57c081e4420d19aec68a077e3a9cafdd4f80cfe12cbb2832cc95de61b04"
+    },
+    {
+      "stem": "n2_K2_f235",
+      "type": "prt",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f235.prt",
+      "sha256": "8ec8274934ff8690fa42fa2570165771685b4c9341ce062cd57bbd36ba83bbca"
+    },
+    {
+      "stem": "n2_K2_f283",
+      "type": "env",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f283.env",
+      "sha256": "8bb8e66c6666187a68f1458a71c9f1b71f9e94f53851b3d68efd082f852cc6ec"
+    },
+    {
+      "stem": "n2_K2_f283",
+      "type": "mod",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.mod",
+      "sha256": "8a583399525f23c9970341044c603a83bfb3d4d2c1503d8a34d4b805026f04d6"
+    },
+    {
+      "stem": "n2_K2_f283",
+      "type": "prt",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K2_f283.prt",
+      "sha256": "e57363632fd0453718f5e2b49b7a9d3a8d6f432161033cbde461707154a49ac1"
+    },
+    {
+      "stem": "n2_K3_f201",
+      "type": "env",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f201.env",
+      "sha256": "1aae8daf2861e96c49bf6fa9f8a22eeb0bfcd9a6fe5dd825927aad6833e5c3db"
+    },
+    {
+      "stem": "n2_K3_f201",
+      "type": "mod",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.mod",
+      "sha256": "319a07457bf514913ec5c0d8942600743693dc678f610d2d5dc50b3929e4ddd2"
+    },
+    {
+      "stem": "n2_K3_f201",
+      "type": "prt",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f201.prt",
+      "sha256": "7dbc9c5f9dd18438fa3307de41ae7271a45c864735f49421496b916aa4dd4eaa"
+    },
+    {
+      "stem": "n2_K3_f235",
+      "type": "env",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f235.env",
+      "sha256": "df5beb6ee131169b4c48c63974280f0943bec29032aaf844554aa2c1271463ad"
+    },
+    {
+      "stem": "n2_K3_f235",
+      "type": "mod",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.mod",
+      "sha256": "93a183e9352504e4f1ede345017a7d32de413ec7bc9360fea0f10bdda2477a60"
+    },
+    {
+      "stem": "n2_K3_f235",
+      "type": "prt",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f235.prt",
+      "sha256": "ef065143c754e2d70c656aead1d8e046b344c6b027e5e69872bc84e7d696ccc7"
+    },
+    {
+      "stem": "n2_K3_f283",
+      "type": "env",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K3_f283.env",
+      "sha256": "5fda357e2432b20c58ce2575622a07efdfdcbd95987dc2801af64a2fac95fa4f"
+    },
+    {
+      "stem": "n2_K3_f283",
+      "type": "mod",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.mod",
+      "sha256": "b695f76fe665fad03df02612ff9da0be9283ac615d3406dea8009712c55dcf76"
+    },
+    {
+      "stem": "n2_K3_f283",
+      "type": "prt",
+      "path": "results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/modal_archive/n2_K3_f283.prt",
+      "sha256": "844ad1b3c5dc470454e3660ca116ee207e6a893286fe69a22e9f97909ce0cd73"
+    }
+  ],
+  "science_inputs": "ACTUAL18GIT_ARCHIVED_ENV_MOD_PRT; preliminaryCSV never input",
+  "lossless_operator": "phi second derivative + [(omega/Clinear_c(z))^2-kr^2]phi=0; rho1; V top R bottom",
+  "FD_ghost": "mass symmetry: bottom offdiag sqrt2/h^2; Nintervals20000/40000/80000/160000; lambda extrapolated h2/h4/h6",
+  "selection": "K2 PRT positions0/7/15/22/-1 eachfrequency;3IVP201Hz indices0/2/4",
+  "precision_design_budget": 1.6666666666666667e-09,
+  "phase_budget_scope": "single-mode illustrative1e-4rad/60000m, not proof of0.2percent full-array error",
+  "public_source_reference": "https://raw.githubusercontent.com/oalib-acoustics/Acoustics-Toolbox/main/Kraken/kraken.f90",
+  "public_source_binary_build_equivalence": "NOT_ESTABLISHED",
+  "science_outputs_unchanged": true
+}

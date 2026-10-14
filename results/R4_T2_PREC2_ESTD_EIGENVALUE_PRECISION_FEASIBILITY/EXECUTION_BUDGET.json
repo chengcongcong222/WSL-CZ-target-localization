@@ -1,0 +1,30 @@
+{
+  "stages": [
+    {
+      "program": "t2_prec2_readonly.py",
+      "limit_s": 1800,
+      "status": "SUCCESS",
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\science_logs\\t2_prec2_readonly.log",
+      "returncode": 0,
+      "wall_s": 3.969000000040978,
+      "sha256": "8a91686fce018b12c818b3855c05390d1e56cb57cd65eadfc1c123ef8c7ada3f"
+    },
+    {
+      "program": "t2_prec2_cold_audit.py",
+      "limit_s": 900,
+      "status": "SUCCESS",
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\science_logs\\t2_prec2_cold_audit.log",
+      "returncode": 0,
+      "wall_s": 178.25,
+      "sha256": "e28a1f55f81b6dbe503171e6ca8a62dd89b975a7167e0e9061177e1910dae15f"
+    }
+  ],
+  "failure": null,
+  "wall_s": 182.28100000019185,
+  "peak_tree_RSS_bytes": 86134784,
+  "new_result_bytes": 381581,
+  "main_calls": 1,
+  "cold_calls": 1,
+  "science_retries": 0,
+  "new_acoustic_solver_MC_waveform_DFT_FIM_inference_calls": 0
+}

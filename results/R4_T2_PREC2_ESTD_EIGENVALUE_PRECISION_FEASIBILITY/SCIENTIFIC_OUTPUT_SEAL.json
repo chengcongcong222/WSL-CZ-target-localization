@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_COLD_AUDIT.json",
+      "sha256": "e28a1f55f81b6dbe503171e6ca8a62dd89b975a7167e0e9061177e1910dae15f"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_COLD_CHECKS.csv",
+      "sha256": "9fd675984562fc049ee335f98c5e70b8969d129b155dd2056141b1fdd22403b1"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_DECISION.json",
+      "sha256": "068ac95b14a5ee0f5cc1be8cf47dea45cd6f76f9abf0ebfbfb8ad0069fcfb9e1"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_LOSSLESS_SUBSET_FDM.csv",
+      "sha256": "51c610ff32f93ff929ddb267375d3c9836b1d1a43661112ec413b7b5b9f2ba72"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PREFLIGHT.json",
+      "sha256": "8f88240035921a5ed84874800f181f8c9cd1a3c17e279eecbf85b6f38f22ba36"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PRT_MOD_ALL_SAMPLES.csv",
+      "sha256": "7b3ef90f36f99e92ec960b0ae53745502e6ea64124865b67d0ba6dc57fcd4a21"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PRT_MOD_SUMMARY.csv",
+      "sha256": "815d8880432df4892e151130a6e828789cca9af75ea1a2a9eee801b5870caabd"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_PRUFER_COLD_ROOTS.csv",
+      "sha256": "d93401969d697765eb22cbe089f424e467719fca0b0efdfdde5b76fd43b10cd5"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_SOURCE_HASH_CORRECTION.md",
+      "sha256": "dae7073b994af8a6a731843d27bf2ab746f73bd8856f9be8b7bba9a0305c1558"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC2\\worktree\\results\\R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY\\PREC2_SOURCE_IDENTITIES.csv",
+      "sha256": "5dd10a6e53cc9f060720d72ce0673b61ed60e8c9aeb837bda95caba4a3e9a256"
+    }
+  ],
+  "failure": null,
+  "final_science_STOP": true
+}

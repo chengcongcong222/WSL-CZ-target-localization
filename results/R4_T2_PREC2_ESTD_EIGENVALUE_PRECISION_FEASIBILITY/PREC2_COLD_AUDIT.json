@@ -1,0 +1,12 @@
+{
+  "PASS": true,
+  "checks": 766,
+  "FAIL": 0,
+  "cold_ivp_roots": 3,
+  "scope": "PRT/MOD identity and subset lossless C-linear real-k IVP vs FDM; not full complex propagation",
+  "max_IVP_vs_FDM_delta": 5.90520965459973e-11,
+  "new_acoustic_solvers_or_MC": 0,
+  "wall_s": 176.2180000001099,
+  "R4_percent": 0,
+  "state": "STOP"
+}

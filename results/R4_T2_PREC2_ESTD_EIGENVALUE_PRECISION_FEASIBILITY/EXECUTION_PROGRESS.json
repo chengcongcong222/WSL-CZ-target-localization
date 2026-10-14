@@ -1,0 +1,7 @@
+{
+  "stage": "t2_prec2_cold_audit.py",
+  "stage_wall_s": 150.25,
+  "total_wall_s": 154.28100000019185,
+  "RSS_bytes": 85016576,
+  "log_bytes": 0
+}
