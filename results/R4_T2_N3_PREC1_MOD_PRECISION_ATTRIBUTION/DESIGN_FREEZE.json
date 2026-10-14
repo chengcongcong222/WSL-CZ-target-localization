@@ -1,0 +1,285 @@
+{
+  "parent_SHA": "8ee2bd53fe1b7a50725833e6c7b5c5dea35fbe23",
+  "task_MD_SHA256": "647a0afcb6546f8d78bbe1ab7c84eaf253f8cd1b711d9c760aa2a10b181cd791",
+  "spec": {
+    "stage": "T2_N3_PREC1_MOD_STORAGE_PHASE_ATTRIBUTION",
+    "parent_remote_main_commit": "8ee2bd53fe1b7a50725833e6c7b5c5dea35fbe23",
+    "execution_authorization": "EXACTLY_ONE_LOCAL_ARCHIVED_DATA_EXECUTION_WITH_COLD_AUDIT",
+    "physical_scope": "201Hz homogeneous H=5000m c=1500m/s, pressure-release top and rigid bottom, exact analytic normal modes; source+receive around 200m",
+    "not_in_scope": [
+      "real-CZ1 propagation",
+      "E-STD variable SSP repairs",
+      "missing modal-window modes",
+      "sediment selection",
+      "T2-A/B receiver accuracy",
+      "R4 milestone change"
+    ],
+    "immutable_sources": [
+      {
+        "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h1800_n160001/n3_PR_R_f201_h1800_n160001.mod",
+        "sha256": "cf5745862a3b367283c9ea9deef723ff194ca354c7f389fa5b185b992f028d0f",
+        "modes": 741
+      },
+      {
+        "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h2400_n160001/n3_PR_R_f201_h2400_n160001.mod",
+        "sha256": "d9e476d0ed84c08c30f7551ad090e3823067d36918ed41375eeb3ec720afae42",
+        "modes": 1046
+      },
+      {
+        "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/ANALYTIC_KRAKEN_MODE_AND_FIELD_CROSSCHECK.csv",
+        "sha256": "2de1541cdfcc93c5f3dc76310fb3c6b8b47bf2e382518d8534d5ede2f56860bd"
+      },
+      {
+        "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+        "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd"
+      },
+      {
+        "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/t2_n3_analytic_reference.py",
+        "sha256": "456468df64afb04dc25ebb28cd96c62bbf2f973e03c9bc92df4fcf71d6902467",
+        "use": "provenance/read-only; original benchmark implementation"
+      }
+    ],
+    "numeric_scope": {
+      "frequency_hz": 201,
+      "chigh_mps": [
+        1800,
+        2400
+      ],
+      "probe_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "resources": [
+        "A0_0",
+        "A_P4M",
+        "B1_V4",
+        "B2_DUP"
+      ],
+      "number_of_complete_four_arm_rows": 40,
+      "original_spatial_shape_gate": 0.002
+    },
+    "four_arms": {
+      "C0": "MOD-stored complex phi + MOD-stored float32 complex horizontal k",
+      "C1": "MOD-stored complex phi + analytic double k from mu=(n+1/2)pi/H",
+      "C2": "analytic double phi + MOD-stored float32 k",
+      "C3": "analytic double phi + analytic double k",
+      "source_and_receiver_phi_replace_together": true,
+      "radial_kernel": "sqrt(2*pi/(k*r))*exp(-j*k*r-j*pi/4) (same historical long-range MOD summation), not J0-iY0 exact; distinguish baseline exact-Hankel reference from this frozen attribution"
+    },
+    "registered_checks": {
+      "source_SHA256_exact": true,
+      "modal_float32_rounding_exact": true,
+      "mode_counts": [
+        741,
+        1046
+      ],
+      "history_shape_reproduction_abs_tolerance": 2e-06,
+      "cold_case_shape_max_abs_delta": 5e-10,
+      "old_P04_four_failures_reproduced": true,
+      "P04_C1_four_below_original_0p002": true,
+      "all_40_C1_below_original_0p002_descriptive": true,
+      "all_unfavorable_results_must_be_reported": true
+    },
+    "compute_budget": {
+      "KRAKEN": 0,
+      "SCOOTER": 0,
+      "FIELD": 0,
+      "FIELDS": 0,
+      "new_MC": 0,
+      "new_waveforms_DFT": 0,
+      "new_receiver_inference": 0,
+      "wall_seconds": 600,
+      "new_binary_storage_bytes": 1073741824,
+      "max_threads": 2
+    },
+    "delivery": {
+      "out": "results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/",
+      "data_tables": [
+        "PREC1_ALL_40_CASES.csv",
+        "PREC1_P04_FROZEN_FOUR_RESOURCE.csv",
+        "PREC1_MODE_WAVENUMBER_STORAGE.csv",
+        "PREC1_GATE_ATTRIBUTION.csv"
+      ],
+      "cold_audit": [
+        "PREC1_COLD_AUDIT_CHECKS.csv",
+        "PREC1_COLD_AUDIT.json"
+      ],
+      "reports": [
+        "GPT_SYNC_PREC1.md",
+        "PREC1_DECISION.json",
+        "PROVENANCE.json",
+        "P04_precision_attribution.png"
+      ]
+    },
+    "scientific_interpretation": "Original N3 hard gate remains FAIL. C1 lowering error can conditionally attribute ideal-waveguide phase precision, not certify physical receiver performance or restore old G0 or CHIGH completeness.",
+    "commit_protocol": "Confirm parent, Commit A freeze code/spec/input hashes, run once, independent cold audit, Commit B push, remote/main verify, STOP."
+  },
+  "files": [
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\.gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "bytes": 8
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PRECHECK_HASH_CORRECTION.md",
+      "sha256": "c4da3c0fa5c46e4f4230d9d005e83cfb905ee528170d1b3448b1b9e4a1c6ba00",
+      "bytes": 1252
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PRECHECK_REVALIDATION.json",
+      "sha256": "2b8ff9bb60ce45526ebf1c215f5cc4bfc4ca64e63d7d69e224918647b8fe97d7",
+      "bytes": 7062
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PRECHECK_SELFTEST.log",
+      "sha256": "593bcd77de99eead43c5aa3b83a9b8ad37f77c9e83ae0944db9039c4d6fc3e16",
+      "bytes": 15
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\PREFLIGHT_IDENTITY.json",
+      "sha256": "7fb775e6d8fb64acadb738619bdec5f8793b60d526d5f8bb7bd25e73d60d5c9c",
+      "bytes": 5586
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\CURRENT_PREC1_P04_FOUR_ARM_COMPARISON.csv",
+      "sha256": "36ecafd77c01dd5a37c5952667948e0d863113cf66d474e3546268465882603e",
+      "bytes": 895
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\INDEPENDENT_IDEAL_FLOAT32_K_ONLY_40_CASES.csv",
+      "sha256": "71067da40531a3759196faee2d8952c2324476e805480995f12d5bd0d2209f0f",
+      "bytes": 2346
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\PREC1_P04_PRECISION_ATTRIBUTION.png",
+      "sha256": "e18e2f3bb654773d1a4a835a27dbfa03c0d0719cedc524f657073287e1cdaa86",
+      "bytes": 67705
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\README_T2_N3_PREC1.md",
+      "sha256": "ff77003650712d65ee9ff6b8c54b73c5b8e58ef730d0d88e004ee12961657641",
+      "bytes": 1319
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\t2_n3_prec1.py",
+      "sha256": "e93dee59c8425b77cbfd15161d3d9305e49ddd8dd9b77d6dc31eeeddb596bc2b",
+      "bytes": 12062
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\T2_N3_PREC1_CODEX_TASK_20261014_v1.md",
+      "sha256": "647a0afcb6546f8d78bbe1ab7c84eaf253f8cd1b711d9c760aa2a10b181cd791",
+      "bytes": 6996
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\t2_n3_prec1_cold_audit.py",
+      "sha256": "895b3515fe11377c9119de88835112aa122aa2582eda412da97e6944e3bb1e46",
+      "bytes": 6109
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\T2_N3_PREC1_EXPERIMENT_SPEC_20261014_v1.json",
+      "sha256": "2cbc0cf953b1c5867d87b12a28ffa5e0aaae97bfd61c4e6697d780257b572c92",
+      "bytes": 3832
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\T2_N3_PREC1_FILE_MANIFEST_20261014_v1.json",
+      "sha256": "560015cd5d9e308904107f598c0e881d4f089d6a2b508a201c8eac9bf5e440ab",
+      "bytes": 2292
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\T2_N3_PREC1_RESEARCH_NOTE_20261014.md",
+      "sha256": "278f8a837f7fe4a87b2f6f5eacbfcbd8a7157de5c5af0dddb608669e8869803f",
+      "bytes": 3310
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\T2_N3_PREC1_START_20261014_v1.txt",
+      "sha256": "d19c729a81ba19247b2d34ed2cb56ee6e66cf2b3e245979ade70b88aab27ce32",
+      "bytes": 1644
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "bytes": 3793
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION\\TASK_PACKAGE\\test_synthetic_only.py",
+      "sha256": "a9470660d3419fbffcf1d22f61ae9d1962c86206d46a28bbba92b260de50d0c7",
+      "bytes": 2068
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\t2_n3_prec1.py",
+      "sha256": "e93dee59c8425b77cbfd15161d3d9305e49ddd8dd9b77d6dc31eeeddb596bc2b",
+      "bytes": 12062
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\t2_n3_prec1_cold_audit.py",
+      "sha256": "895b3515fe11377c9119de88835112aa122aa2582eda412da97e6944e3bb1e46",
+      "bytes": 6109
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\prec1_execute.py",
+      "sha256": "1b4a0e2379c3d475ced889bbc03ce4f8c644d215bb9e299c936a389f214d7196",
+      "bytes": 3857
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\prec1_delivery.py",
+      "sha256": "c920ca1057a6bf6f4410d49291f5c5493057f750b52f59951ace7203577aaa67",
+      "bytes": 9176
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\modal_archive\\n3_PR_R_f201_h1800_n160001\\n3_PR_R_f201_h1800_n160001.mod",
+      "sha256": "cf5745862a3b367283c9ea9deef723ff194ca354c7f389fa5b185b992f028d0f",
+      "bytes": 125760
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\modal_archive\\n3_PR_R_f201_h2400_n160001\\n3_PR_R_f201_h2400_n160001.mod",
+      "sha256": "d9e476d0ed84c08c30f7551ad090e3823067d36918ed41375eeb3ec720afae42",
+      "bytes": 176960
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\ANALYTIC_KRAKEN_MODE_AND_FIELD_CROSSCHECK.csv",
+      "sha256": "2de1541cdfcc93c5f3dc76310fb3c6b8b47bf2e382518d8534d5ede2f56860bd",
+      "bytes": 10440
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\package\\T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "bytes": 3793
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\package\\t2_n3_analytic_reference.py",
+      "sha256": "456468df64afb04dc25ebb28cd96c62bbf2f973e03c9bc92df4fcf71d6902467",
+      "bytes": 5938
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\WORKTREE_LEDGER_ORIGINAL.csv",
+      "sha256": "4d17bd2e00bb55ca578ecb0f1a7431d3ec99f2ab5ad9a8b66c1b0b525cb56221",
+      "bytes": 28025
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\CANONICAL_LEDGER_ORIGINAL.csv",
+      "sha256": "ae9e91df3539e43e50b42826eaf124d040484c190181b23ee0c6ae79846fee67",
+      "bytes": 28017
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\preflight\\PREFLIGHT_IDENTITY.json",
+      "sha256": "7fb775e6d8fb64acadb738619bdec5f8793b60d526d5f8bb7bd25e73d60d5c9c",
+      "bytes": 5586
+    }
+  ],
+  "original_science_programs_byte_exact": true,
+  "no_actual_MOD_experiment_before_A": true,
+  "limits": {
+    "wall_s": 600,
+    "peak_RSS_bytes": 2147483648,
+    "new_result_bytes": 1073741824,
+    "BLAS_threads": 1,
+    "main_calls": 1,
+    "cold_calls": 1,
+    "solver_MC_waveform_DFT_inference_calls": 0
+  },
+  "python_TEMP": "D:\\Temp",
+  "canonical_untracked_preserved": 11
+}

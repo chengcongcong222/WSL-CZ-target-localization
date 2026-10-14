@@ -1,0 +1,129 @@
+{
+  "stage": "T2-N3-PREC1",
+  "status": "PREFLIGHT_TASK_HASH_CONFLICT_AWAITING_VERSION_CLARIFICATION",
+  "ZIP_sha256": "64e14064a5960575b72f95b0e90aa6b0d2c15356491d5cf483057462cc1f4cff",
+  "ZIP_registered_sha256": "64e14064a5960575b72f95b0e90aa6b0d2c15356491d5cf483057462cc1f4cff",
+  "task_actual_sha256": "647a0afcb6546f8d78bbe1ab7c84eaf253f8cd1b711d9c760aa2a10b181cd791",
+  "task_user_registered_sha256": "6d9cabada38585fd00b06eaacdd1477148f1304f254d7fb66ecbce4f72b3bb26",
+  "package_files": [
+    {
+      "name": "T2_N3_PREC1_CODEX_TASK_20261014_v1.md",
+      "sha256": "647a0afcb6546f8d78bbe1ab7c84eaf253f8cd1b711d9c760aa2a10b181cd791",
+      "bytes": 6996,
+      "manifest_match": true
+    },
+    {
+      "name": "T2_N3_PREC1_EXPERIMENT_SPEC_20261014_v1.json",
+      "sha256": "2cbc0cf953b1c5867d87b12a28ffa5e0aaae97bfd61c4e6697d780257b572c92",
+      "bytes": 3832,
+      "manifest_match": true
+    },
+    {
+      "name": "T2_N3_PREC1_RESEARCH_NOTE_20261014.md",
+      "sha256": "278f8a837f7fe4a87b2f6f5eacbfcbd8a7157de5c5af0dddb608669e8869803f",
+      "bytes": 3310,
+      "manifest_match": true
+    },
+    {
+      "name": "T2_N3_PREC1_START_20261014_v1.txt",
+      "sha256": "d19c729a81ba19247b2d34ed2cb56ee6e66cf2b3e245979ade70b88aab27ce32",
+      "bytes": 1644,
+      "manifest_match": true
+    },
+    {
+      "name": "README_T2_N3_PREC1.md",
+      "sha256": "ff77003650712d65ee9ff6b8c54b73c5b8e58ef730d0d88e004ee12961657641",
+      "bytes": 1319,
+      "manifest_match": true
+    },
+    {
+      "name": "t2_n3_prec1.py",
+      "sha256": "e93dee59c8425b77cbfd15161d3d9305e49ddd8dd9b77d6dc31eeeddb596bc2b",
+      "bytes": 12062,
+      "manifest_match": true
+    },
+    {
+      "name": "t2_n3_prec1_cold_audit.py",
+      "sha256": "895b3515fe11377c9119de88835112aa122aa2582eda412da97e6944e3bb1e46",
+      "bytes": 6109,
+      "manifest_match": true
+    },
+    {
+      "name": "test_synthetic_only.py",
+      "sha256": "a9470660d3419fbffcf1d22f61ae9d1962c86206d46a28bbba92b260de50d0c7",
+      "bytes": 2068,
+      "manifest_match": true
+    },
+    {
+      "name": "T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "bytes": 3793,
+      "manifest_match": true
+    },
+    {
+      "name": "CURRENT_PREC1_P04_FOUR_ARM_COMPARISON.csv",
+      "sha256": "36ecafd77c01dd5a37c5952667948e0d863113cf66d474e3546268465882603e",
+      "bytes": 895,
+      "manifest_match": true
+    },
+    {
+      "name": "INDEPENDENT_IDEAL_FLOAT32_K_ONLY_40_CASES.csv",
+      "sha256": "71067da40531a3759196faee2d8952c2324476e805480995f12d5bd0d2209f0f",
+      "bytes": 2346,
+      "manifest_match": true
+    },
+    {
+      "name": "PREC1_P04_PRECISION_ATTRIBUTION.png",
+      "sha256": "e18e2f3bb654773d1a4a835a27dbfa03c0d0719cedc524f657073287e1cdaa86",
+      "bytes": 67705,
+      "manifest_match": true
+    }
+  ],
+  "immutable_sources": [
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\modal_archive\\n3_PR_R_f201_h1800_n160001\\n3_PR_R_f201_h1800_n160001.mod",
+      "actual_sha256": "cf5745862a3b367283c9ea9deef723ff194ca354c7f389fa5b185b992f028d0f",
+      "registered_sha256": "cf5745862a3b367283c9ea9deef723ff194ca354c7f389fa5b185b992f028d0f",
+      "source_match": true,
+      "parent_blob_match": true
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\modal_archive\\n3_PR_R_f201_h2400_n160001\\n3_PR_R_f201_h2400_n160001.mod",
+      "actual_sha256": "d9e476d0ed84c08c30f7551ad090e3823067d36918ed41375eeb3ec720afae42",
+      "registered_sha256": "d9e476d0ed84c08c30f7551ad090e3823067d36918ed41375eeb3ec720afae42",
+      "source_match": true,
+      "parent_blob_match": true
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\ANALYTIC_KRAKEN_MODE_AND_FIELD_CROSSCHECK.csv",
+      "actual_sha256": "2de1541cdfcc93c5f3dc76310fb3c6b8b47bf2e382518d8534d5ede2f56860bd",
+      "registered_sha256": "2de1541cdfcc93c5f3dc76310fb3c6b8b47bf2e382518d8534d5ede2f56860bd",
+      "source_match": true,
+      "parent_blob_match": true
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\package\\T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "actual_sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "registered_sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "source_match": true,
+      "parent_blob_match": true
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE\\package\\t2_n3_analytic_reference.py",
+      "actual_sha256": "456468df64afb04dc25ebb28cd96c62bbf2f973e03c9bc92df4fcf71d6902467",
+      "registered_sha256": "456468df64afb04dc25ebb28cd96c62bbf2f973e03c9bc92df4fcf71d6902467",
+      "source_match": true,
+      "parent_blob_match": true
+    }
+  ],
+  "HEAD": "8ee2bd53fe1b7a50725833e6c7b5c5dea35fbe23",
+  "remote_main": "8ee2bd53fe1b7a50725833e6c7b5c5dea35fbe23",
+  "contract_stop_quote": "Any frozen input or preregistered SHA mismatch: immediately STOP, do not substitute a similar file.",
+  "Commit_A_created": false,
+  "actual_MOD_science_executions": 0,
+  "cold_audit_executions": 0,
+  "new_solvers": 0,
+  "historical_results_changed": false,
+  "R4_percent": 0,
+  "utc": "2026-10-14T03:25:14.956358+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "stage": "T2_N3_PREC1",
+  "parent_commit": "8ee2bd53fe1b7a50725833e6c7b5c5dea35fbe23",
+  "scientific_status": "ideal-waveguide numerical attribution observed in session, original N3 Gate unchanged, actual MOD Python cold audit delegated to local Codex",
+  "files": [
+    {
+      "name": "T2_N3_PREC1_CODEX_TASK_20261014_v1.md",
+      "sha256": "647a0afcb6546f8d78bbe1ab7c84eaf253f8cd1b711d9c760aa2a10b181cd791",
+      "bytes": 6996
+    },
+    {
+      "name": "T2_N3_PREC1_EXPERIMENT_SPEC_20261014_v1.json",
+      "sha256": "2cbc0cf953b1c5867d87b12a28ffa5e0aaae97bfd61c4e6697d780257b572c92",
+      "bytes": 3832
+    },
+    {
+      "name": "T2_N3_PREC1_RESEARCH_NOTE_20261014.md",
+      "sha256": "278f8a837f7fe4a87b2f6f5eacbfcbd8a7157de5c5af0dddb608669e8869803f",
+      "bytes": 3310
+    },
+    {
+      "name": "T2_N3_PREC1_START_20261014_v1.txt",
+      "sha256": "d19c729a81ba19247b2d34ed2cb56ee6e66cf2b3e245979ade70b88aab27ce32",
+      "bytes": 1644
+    },
+    {
+      "name": "README_T2_N3_PREC1.md",
+      "sha256": "ff77003650712d65ee9ff6b8c54b73c5b8e58ef730d0d88e004ee12961657641",
+      "bytes": 1319
+    },
+    {
+      "name": "t2_n3_prec1.py",
+      "sha256": "e93dee59c8425b77cbfd15161d3d9305e49ddd8dd9b77d6dc31eeeddb596bc2b",
+      "bytes": 12062
+    },
+    {
+      "name": "t2_n3_prec1_cold_audit.py",
+      "sha256": "895b3515fe11377c9119de88835112aa122aa2582eda412da97e6944e3bb1e46",
+      "bytes": 6109
+    },
+    {
+      "name": "test_synthetic_only.py",
+      "sha256": "a9470660d3419fbffcf1d22f61ae9d1962c86206d46a28bbba92b260de50d0c7",
+      "bytes": 2068
+    },
+    {
+      "name": "T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "bytes": 3793
+    },
+    {
+      "name": "CURRENT_PREC1_P04_FOUR_ARM_COMPARISON.csv",
+      "sha256": "36ecafd77c01dd5a37c5952667948e0d863113cf66d474e3546268465882603e",
+      "bytes": 895
+    },
+    {
+      "name": "INDEPENDENT_IDEAL_FLOAT32_K_ONLY_40_CASES.csv",
+      "sha256": "71067da40531a3759196faee2d8952c2324476e805480995f12d5bd0d2209f0f",
+      "bytes": 2346
+    },
+    {
+      "name": "PREC1_P04_PRECISION_ATTRIBUTION.png",
+      "sha256": "e18e2f3bb654773d1a4a835a27dbfa03c0d0719cedc524f657073287e1cdaa86",
+      "bytes": 67705
+    }
+  ]
+}

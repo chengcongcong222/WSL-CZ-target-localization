@@ -1,0 +1,28 @@
+{
+  "stage": "T2_N3_PREC1_MOD_STORAGE_PHASE_ATTRIBUTION",
+  "parent_remote_main_commit": "8ee2bd53fe1b7a50725833e6c7b5c5dea35fbe23",
+  "execution_authorization": "EXACTLY_ONE_LOCAL_ARCHIVED_DATA_EXECUTION_WITH_COLD_AUDIT",
+  "physical_scope": "201Hz homogeneous H=5000m c=1500m/s, pressure-release top and rigid bottom, exact analytic normal modes; source+receive around 200m",
+  "not_in_scope": ["real-CZ1 propagation", "E-STD variable SSP repairs", "missing modal-window modes", "sediment selection", "T2-A/B receiver accuracy", "R4 milestone change"],
+  "immutable_sources": [
+    {"file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h1800_n160001/n3_PR_R_f201_h1800_n160001.mod", "sha256": "cf5745862a3b367283c9ea9deef723ff194ca354c7f389fa5b185b992f028d0f", "modes": 741},
+    {"file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h2400_n160001/n3_PR_R_f201_h2400_n160001.mod", "sha256": "d9e476d0ed84c08c30f7551ad090e3823067d36918ed41375eeb3ec720afae42", "modes": 1046},
+    {"file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/ANALYTIC_KRAKEN_MODE_AND_FIELD_CROSSCHECK.csv", "sha256": "2de1541cdfcc93c5f3dc76310fb3c6b8b47bf2e382518d8534d5ede2f56860bd"},
+    {"file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv", "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd"},
+    {"file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/t2_n3_analytic_reference.py", "sha256": "456468df64afb04dc25ebb28cd96c62bbf2f973e03c9bc92df4fcf71d6902467", "use": "provenance/read-only; original benchmark implementation"}
+  ],
+  "numeric_scope": {"frequency_hz": 201, "chigh_mps": [1800,2400], "probe_ids": ["P01","P02","P03","P04","P05"], "resources": ["A0_0","A_P4M","B1_V4","B2_DUP"], "number_of_complete_four_arm_rows":40, "original_spatial_shape_gate": 0.002},
+  "four_arms": {
+    "C0": "MOD-stored complex phi + MOD-stored float32 complex horizontal k",
+    "C1": "MOD-stored complex phi + analytic double k from mu=(n+1/2)pi/H",
+    "C2": "analytic double phi + MOD-stored float32 k",
+    "C3": "analytic double phi + analytic double k",
+    "source_and_receiver_phi_replace_together": true,
+    "radial_kernel": "sqrt(2*pi/(k*r))*exp(-j*k*r-j*pi/4) (same historical long-range MOD summation), not J0-iY0 exact; distinguish baseline exact-Hankel reference from this frozen attribution"
+  },
+  "registered_checks": {"source_SHA256_exact": true,"modal_float32_rounding_exact": true,"mode_counts": [741,1046],"history_shape_reproduction_abs_tolerance": 2e-6,"cold_case_shape_max_abs_delta":5e-10,"old_P04_four_failures_reproduced":true,"P04_C1_four_below_original_0p002":true,"all_40_C1_below_original_0p002_descriptive":true,"all_unfavorable_results_must_be_reported":true},
+  "compute_budget": {"KRAKEN":0,"SCOOTER":0,"FIELD":0,"FIELDS":0,"new_MC":0,"new_waveforms_DFT":0,"new_receiver_inference":0,"wall_seconds":600,"new_binary_storage_bytes":1073741824,"max_threads":2},
+  "delivery": {"out":"results/R4_T2_N3_PREC1_MOD_PRECISION_ATTRIBUTION/", "data_tables": ["PREC1_ALL_40_CASES.csv","PREC1_P04_FROZEN_FOUR_RESOURCE.csv","PREC1_MODE_WAVENUMBER_STORAGE.csv","PREC1_GATE_ATTRIBUTION.csv"], "cold_audit": ["PREC1_COLD_AUDIT_CHECKS.csv","PREC1_COLD_AUDIT.json"], "reports":["GPT_SYNC_PREC1.md","PREC1_DECISION.json","PROVENANCE.json","P04_precision_attribution.png"]},
+  "scientific_interpretation": "Original N3 hard gate remains FAIL. C1 lowering error can conditionally attribute ideal-waveguide phase precision, not certify physical receiver performance or restore old G0 or CHIGH completeness.",
+  "commit_protocol":"Confirm parent, Commit A freeze code/spec/input hashes, run once, independent cold audit, Commit B push, remote/main verify, STOP."
+}

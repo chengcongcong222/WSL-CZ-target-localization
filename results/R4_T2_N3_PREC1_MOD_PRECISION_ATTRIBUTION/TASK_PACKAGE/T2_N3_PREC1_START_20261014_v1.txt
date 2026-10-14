@@ -1,0 +1,7 @@
+接手“程-汇聚区定位项目申请”的 T2-N3-PREC1 单精度波数归因研究。仓库 chengcongcong222/WSL-CZ-target-localization，要求开始时 remote/main 与 8ee2bd53fe1b7a50725833e6c7b5c5dea35fbe23 完全一致。
+
+请解压本包，完整阅读 T2_N3_PREC1_CODEX_TASK_20261014_v1.md（SHA256 647a0afcb6546f8d78bbe1ab7c84eaf253f8cd1b711d9c760aa2a10b181cd791）和 T2_N3_PREC1_EXPERIMENT_SPEC_20261014_v1.json，严格核对冻结源二进制及哈希。分析程序 t2_n3_prec1.py SHA256 e93dee59c8425b77cbfd15161d3d9305e49ddd8dd9b77d6dc31eeeddb596bc2b；独立冷审计 t2_n3_prec1_cold_audit.py SHA256 895b3515fe11377c9119de88835112aa122aa2582eda412da97e6944e3bb1e46。
+
+请在 Git Commit A 中冻结代码／计划并推送，再执行一次真实MOD读取及40项C0/C1/C2/C3解析归因；须保存全40行和P04四阵型主结果。成功条件仅为模型内的单精度波数作用机制得到支持，历史N3 FAIL不改变。运行一次独立冷审计，完整交付CSV、JSON、图、报告GPT_SYNC_PREC1.md和SHA存档，再Git Commit B推送并核对remote/main。不得新增KRAKEN、FIELD、SCOOTER、FIELDS、模态窗、网格、MC、接收波形、优化或定位精度试验。
+
+研究目标是回答：单独将原MOD存储波数替换成等声速解析双精度波数，是否在P04全部四种阵型消除原0.2%门槛超限，并与只替换模态函数构成有辨识性的对照。不得拿本包P04已计算CSV当作真实MOD重新运行的输入。任何预检、数值重建或冷审计异常均保留负结果并STOP；不靠修改阈值或重复运行获得成功。一次交付后STOP，R4=0%。

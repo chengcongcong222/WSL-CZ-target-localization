@@ -1,0 +1,188 @@
+{
+  "PASS": true,
+  "parent_SHA": "8ee2bd53fe1b7a50725833e6c7b5c5dea35fbe23",
+  "task_MD_sha256": "647a0afcb6546f8d78bbe1ab7c84eaf253f8cd1b711d9c760aa2a10b181cd791",
+  "ZIP_sha256": "64e14064a5960575b72f95b0e90aa6b0d2c15356491d5cf483057462cc1f4cff",
+  "package_checks": [
+    {
+      "name": "T2_N3_PREC1_CODEX_TASK_20261014_v1.md",
+      "sha256": "647a0afcb6546f8d78bbe1ab7c84eaf253f8cd1b711d9c760aa2a10b181cd791",
+      "bytes": 6996,
+      "PASS": true
+    },
+    {
+      "name": "T2_N3_PREC1_EXPERIMENT_SPEC_20261014_v1.json",
+      "sha256": "2cbc0cf953b1c5867d87b12a28ffa5e0aaae97bfd61c4e6697d780257b572c92",
+      "bytes": 3832,
+      "PASS": true
+    },
+    {
+      "name": "T2_N3_PREC1_RESEARCH_NOTE_20261014.md",
+      "sha256": "278f8a837f7fe4a87b2f6f5eacbfcbd8a7157de5c5af0dddb608669e8869803f",
+      "bytes": 3310,
+      "PASS": true
+    },
+    {
+      "name": "T2_N3_PREC1_START_20261014_v1.txt",
+      "sha256": "d19c729a81ba19247b2d34ed2cb56ee6e66cf2b3e245979ade70b88aab27ce32",
+      "bytes": 1644,
+      "PASS": true
+    },
+    {
+      "name": "README_T2_N3_PREC1.md",
+      "sha256": "ff77003650712d65ee9ff6b8c54b73c5b8e58ef730d0d88e004ee12961657641",
+      "bytes": 1319,
+      "PASS": true
+    },
+    {
+      "name": "t2_n3_prec1.py",
+      "sha256": "e93dee59c8425b77cbfd15161d3d9305e49ddd8dd9b77d6dc31eeeddb596bc2b",
+      "bytes": 12062,
+      "PASS": true
+    },
+    {
+      "name": "t2_n3_prec1_cold_audit.py",
+      "sha256": "895b3515fe11377c9119de88835112aa122aa2582eda412da97e6944e3bb1e46",
+      "bytes": 6109,
+      "PASS": true
+    },
+    {
+      "name": "test_synthetic_only.py",
+      "sha256": "a9470660d3419fbffcf1d22f61ae9d1962c86206d46a28bbba92b260de50d0c7",
+      "bytes": 2068,
+      "PASS": true
+    },
+    {
+      "name": "T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "bytes": 3793,
+      "PASS": true
+    },
+    {
+      "name": "CURRENT_PREC1_P04_FOUR_ARM_COMPARISON.csv",
+      "sha256": "36ecafd77c01dd5a37c5952667948e0d863113cf66d474e3546268465882603e",
+      "bytes": 895,
+      "PASS": true
+    },
+    {
+      "name": "INDEPENDENT_IDEAL_FLOAT32_K_ONLY_40_CASES.csv",
+      "sha256": "71067da40531a3759196faee2d8952c2324476e805480995f12d5bd0d2209f0f",
+      "bytes": 2346,
+      "PASS": true
+    },
+    {
+      "name": "PREC1_P04_PRECISION_ATTRIBUTION.png",
+      "sha256": "e18e2f3bb654773d1a4a835a27dbfa03c0d0719cedc524f657073287e1cdaa86",
+      "bytes": 67705,
+      "PASS": true
+    }
+  ],
+  "source_checks": [
+    {
+      "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h1800_n160001/n3_PR_R_f201_h1800_n160001.mod",
+      "sha256": "cf5745862a3b367283c9ea9deef723ff194ca354c7f389fa5b185b992f028d0f",
+      "modes": 741,
+      "PASS": true,
+      "parent_blob_sha256": "cf5745862a3b367283c9ea9deef723ff194ca354c7f389fa5b185b992f028d0f"
+    },
+    {
+      "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/modal_archive/n3_PR_R_f201_h2400_n160001/n3_PR_R_f201_h2400_n160001.mod",
+      "sha256": "d9e476d0ed84c08c30f7551ad090e3823067d36918ed41375eeb3ec720afae42",
+      "modes": 1046,
+      "PASS": true,
+      "parent_blob_sha256": "d9e476d0ed84c08c30f7551ad090e3823067d36918ed41375eeb3ec720afae42"
+    },
+    {
+      "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/ANALYTIC_KRAKEN_MODE_AND_FIELD_CROSSCHECK.csv",
+      "sha256": "2de1541cdfcc93c5f3dc76310fb3c6b8b47bf2e382518d8534d5ede2f56860bd",
+      "PASS": true,
+      "parent_blob_sha256": "2de1541cdfcc93c5f3dc76310fb3c6b8b47bf2e382518d8534d5ede2f56860bd"
+    },
+    {
+      "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/T2_TILT_G0_ARRAY_GEOMETRY_20261013_v1.csv",
+      "sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd",
+      "PASS": true,
+      "parent_blob_sha256": "bc2ccaebfa52893ba7bc7f217791ec980c47cb37d743abcd20cae055cf732ffd"
+    },
+    {
+      "file": "results/R4_T2_N3_BOUNDARY_PHYSICS_ANALYTIC_REFERENCE/package/t2_n3_analytic_reference.py",
+      "sha256": "456468df64afb04dc25ebb28cd96c62bbf2f973e03c9bc92df4fcf71d6902467",
+      "use": "provenance/read-only; original benchmark implementation",
+      "PASS": true,
+      "parent_blob_sha256": "456468df64afb04dc25ebb28cd96c62bbf2f973e03c9bc92df4fcf71d6902467"
+    }
+  ],
+  "program_AST_PASS": true,
+  "selftest_PASS": true,
+  "selftest_execution_count": 1,
+  "selftest_scope": "SYNTHETIC_UNIT_CONTROL_ONLY_NO_ACTUAL_MOD_REPLAY",
+  "actual_science_runs_before_Commit_A": 0,
+  "cold_runs_before_Commit_A": 0,
+  "clean_worktree_before_preparation": true,
+  "tracked_tree_still_clean": true,
+  "worktree": "D:\\ProjectStorage\\WSL-CZ\\T2_N3_PREC1\\worktree",
+  "canonical_repo": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位",
+  "prior_untracked_files_preserved": [
+    {
+      "relative_path": "_tmp_check_arr.py",
+      "sha256": "fd79d9c00493f86fd49b1410e12db77b030e9d42efd4009588004110bc7255d9",
+      "bytes": 1127
+    },
+    {
+      "relative_path": "_tmp_check_vla.py",
+      "sha256": "ffb69a35865432094498e92344dce44474225244582ab39ebab67d5ac6737a9f",
+      "bytes": 1016
+    },
+    {
+      "relative_path": "_tmp_diag_eq15.py",
+      "sha256": "f006cf75ef35803725ca53b878c1164c784c328679cecd6565b1b60f0540e1f4",
+      "bytes": 1488
+    },
+    {
+      "relative_path": "_tmp_extract_texts.py",
+      "sha256": "988ee38bc502bdb15f13d1afef03bcf0c1058a75ee8f227ac1ec0117df1d5cad",
+      "bytes": 775
+    },
+    {
+      "relative_path": "_tmp_flp2.py",
+      "sha256": "0e3165930f8869026e44e50f577c3d1248e3c688d6b4d4d542f008b6bf2ccdc9",
+      "bytes": 1429
+    },
+    {
+      "relative_path": "_tmp_id_pdfs.py",
+      "sha256": "5b61cd84a41f3c0c672874f462e72d477d80dfca3d812ab25b681d18eae36b69",
+      "bytes": 832
+    },
+    {
+      "relative_path": "_tmp_test_interp.py",
+      "sha256": "799080e1a35aa390e8117757cb83826058f68bb7650dc2b3b00a711d66fe7c91",
+      "bytes": 719
+    },
+    {
+      "relative_path": "_tmp_try_flp.py",
+      "sha256": "0f0a91add38bb0f6d53698986a9a383203aea3af287e8a2d9a2206276fc23905",
+      "bytes": 2990
+    },
+    {
+      "relative_path": "_tmp_try_flp2.py",
+      "sha256": "ec4489840384b8692e51a4959a0c10acd4d5b91384eef7539b62e6787a4bf93e",
+      "bytes": 1492
+    },
+    {
+      "relative_path": "_tmp_try_kraken_env.py",
+      "sha256": "1075dd37fa5a83634c75eac0f15071c43e9cb566ff708fc440a7fcd295162de5",
+      "bytes": 1931
+    },
+    {
+      "relative_path": "literature/xu_jialin_2024_cz_tdoa.pdf",
+      "sha256": "0116495bef9d3cea862344f5e215d98a9593c4118874566bc31fd022f13a6423",
+      "bytes": 58
+    }
+  ],
+  "initial_STOP_sha256": "7fb775e6d8fb64acadb738619bdec5f8793b60d526d5f8bb7bd25e73d60d5c9c",
+  "hash_correction_only_no_source_or_threshold_changes": true,
+  "operational_path_decoding": "UTF8 explicitly used for Git worktree paths; initial helper default GBK could not decode Chinese path; no scientific execution or input mismatch",
+  "runtime_TEMP": "D:\\Temp",
+  "runtime_TMP": "D:\\Temp",
+  "R4_percent": 0
+}
