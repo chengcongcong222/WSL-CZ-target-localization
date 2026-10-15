@@ -1,0 +1,44 @@
+{
+  "stage": "R4-T3-W1",
+  "parent_SHA": "7d36d15ecbc9a3435c65e114585328a3bbbf94cc",
+  "design_SHA": "88946fe08b49ef17b6f018a3acb25a3bc2dc4768",
+  "research_result": "CONDITIONAL_WIDE_BASELINE_HORIZONTAL_INFORMATION_AND_DEMO",
+  "claim_level": "RESOURCE_INFORMATION_DESIGN_REFERENCE_ONLY;NO_RECEIVED_MEASUREMENT_CHAIN_CERTIFICATION",
+  "consistency": {
+    "Q1": {
+      "median_speed_cases": 12,
+      "P95_speed_cases": 12,
+      "P95_range_cases": 12,
+      "P95_heading_cases": 12,
+      "Fisher_free_side_cases_improved": 24
+    },
+    "Q2": {
+      "median_speed_cases": 12,
+      "P95_speed_cases": 12,
+      "P95_range_cases": 11,
+      "P95_heading_cases": 12,
+      "Fisher_free_side_cases_improved": 24
+    }
+  },
+  "primary_geometry": "B3=(3,+/-15)km",
+  "monte_carlo_configurations": 48000,
+  "independent_base_innovations": 6000,
+  "cases": 12,
+  "known_development_geometries": true,
+  "two_qualities": true,
+  "cold_PASS": true,
+  "cold_checks": 19401,
+  "cold_FAIL": 0,
+  "bias_prior": "uniformsupportonly;noaddedGaussianpenalty",
+  "novelty": "increasingbaselinealoneisstandardgeometricinformationgain;noalgorithmicnoveltyclaim",
+  "route": "STOP_WIDE_BASELINE_PARAMETER_SWEEPS;RETAIN_CONDITIONAL_DEMO_AND_MEASUREMENT_CHAIN_GAP",
+  "physical_bearing_navigation_hardware": "UNKNOWN",
+  "synchronization_association": "ASSUMED_NOT_VALIDATED",
+  "depth": "NOT_EVALUATED",
+  "T2_STOP": "UNCHANGED",
+  "historical_Gates": "UNCHANGED",
+  "R4_percent": 0,
+  "research_lead_audit": "PENDING",
+  "automatic_next_stage": false,
+  "STOP": true
+}

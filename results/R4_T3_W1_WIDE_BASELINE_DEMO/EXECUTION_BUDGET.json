@@ -1,0 +1,31 @@
+{
+  "main_calls": 1,
+  "cold_calls": 1,
+  "scientific_retries": 0,
+  "wall_s": 303.8289999999106,
+  "peak_tree_RSS_bytes": 357085184,
+  "new_D_bytes": 290326484,
+  "Git_result_bytes": 25445684,
+  "failure": null,
+  "stages": [
+    {
+      "program": "t3_w1_main.py",
+      "wall_limit_s": 5400,
+      "start_since_s": 0.0,
+      "returncode": 0,
+      "wall_s": 289.1099999998696,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T3_W1\\runtime_logs\\t3_w1_main.py.log",
+      "sha256": "1fbb70242382d4d8dbd6ff7c1150f28863922fb81d841bd64dc72b15bcbd319d"
+    },
+    {
+      "program": "t3_w1_cold.py",
+      "wall_limit_s": 1800,
+      "start_since_s": 289.4069999998901,
+      "returncode": 0,
+      "wall_s": 14.422000000020489,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T3_W1\\runtime_logs\\t3_w1_cold.py.log",
+      "sha256": "29e688fcb654fc16212142f2aecf397f1044767b54ee28625cc3560959e8c212"
+    }
+  ],
+  "acoustic_solver_T2_radial_feature_signal_MC_otherthan_W1": 0
+}

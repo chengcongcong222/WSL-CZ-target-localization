@@ -1,0 +1,13 @@
+{
+  "configurations": 48000,
+  "files": [
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\ESTIMATOR_OUTPUTS.csv",
+      "bytes": 16885136,
+      "sha256": "7703fc37b9ccf2da53798502cd05b258d7210e85853907f185f099db1205ee17"
+    }
+  ],
+  "one_fit_per_configuration": true,
+  "truth_not_initializer_or_selector": true,
+  "no_global_branch_certificate": true
+}

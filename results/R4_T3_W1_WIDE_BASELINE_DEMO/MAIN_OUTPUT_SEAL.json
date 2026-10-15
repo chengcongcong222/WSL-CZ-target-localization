@@ -1,0 +1,140 @@
+{
+  "files": [
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\.gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\CASE_STATISTICS.csv",
+      "sha256": "3bad4b4a61f5e55a5a17e37f24d2d7f6ec5855b96b163af8825a1dff692afeb6"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\ESTIMATOR_OUTPUTS.csv",
+      "sha256": "7703fc37b9ccf2da53798502cd05b258d7210e85853907f185f099db1205ee17"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\ESTIMATOR_SEAL.json",
+      "sha256": "1c98ea96c65b2252ed770c5be11f2a0a5743a99bf22c534b1e88de7678f6dd46"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\EXECUTION_STARTED.json",
+      "sha256": "513e7c1c4bc28901efd7bb1bccec57be55617eb27b8148792ba0ae4c5318a7c6"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\GEOMETRY_AND_RESOURCE_AUDIT.csv",
+      "sha256": "7144311b18ff7a9a443258d38957e2c206ea07b1f768be55a83d6ffaad428dd8"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\GLOBAL_STATISTICS.csv",
+      "sha256": "27b649bfba08c9580c76c6bbdf2b196292499ad3633a679800ffdc7b98ff6e53"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\HISTORICAL_CONTRACT_REVIEW.json",
+      "sha256": "be111242686a79e070d975f45ef43ec83458087d1fcda136545935d565b05a8f"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\INFORMATION_MATRICES.npz",
+      "sha256": "d2ad428320459cb29a19036e5946f2da575743e7e3d277173b4ac9e7917a3bd1"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\INFORMATION_SEAL.json",
+      "sha256": "593404243724729ff90adaa9d23c75f80fc46595d06312e8816a2cb5c296951a"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\JACOBIAN_CROSSCHECK.csv",
+      "sha256": "99fb4a8aca5255af74dfc15370970dfc5b0e6843ca9a20eb7a28d22a6cad4277"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\LOCAL_INFORMATION.csv",
+      "sha256": "585f9eba0ba1ff37ca3a03a570d807414834a63fdc6c0329e478d4a492b0ec50"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\MAIN_PROGRESS.json",
+      "sha256": "64825872107e2508bf7f59bb8e7fcec6920b4e240a5a554fc8f2e30127045d82"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\OBSERVATION_SEAL.json",
+      "sha256": "9c5eaaeefff3a4ae7c57f8c6dbcbc7cabb19654d71212ef3aacae2f153fecb56"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\PAIRED_CHANGES.csv",
+      "sha256": "288e80c5e39a0c59db43506663e91dca98423a3b95da3e13c155a9654919a613"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\PREFLIGHT.json",
+      "sha256": "33e78c87bd3f86255206d86bf1c7ee430266e774eecc5cbbac4d048e61ea005f"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\PREFLIGHT_CHECKOUT_EOL_PAUSE.json",
+      "sha256": "9129bb1e92230298f671789d8adca6ac69d80178f8650e90620f1c5d33893ec1"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\PREFLIGHT_RUNTIME_IMPORT_PAUSE.json",
+      "sha256": "a8d8bb8a2829ebd10c6b8264fc055f2e56d16641a39ae71572c775eb278b6ffe"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\PREFLIGHT_SOURCE_ALIAS_PAUSE.json",
+      "sha256": "f337b585761aea4337df13513a1e2479f31337b74004b39ddef2f8d07fd6c8ad"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\PRIVATE_INNOVATION_IDENTITIES.csv",
+      "sha256": "b18def9b04bf77a4a38c74e9db4dccf238b5a944a5b09e96354897190d92b8b9"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\PUBLIC_BLOCK_IDENTITIES.csv",
+      "sha256": "2c747cb9d9d48feecfe3b650c170bcd5f17e884ef28e76f6c31f0d15f0726c4c"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\RESEARCH_LEAD_SCOPE.md",
+      "sha256": "0ea650c4c2efebc4a695a06136524b91735f641c5d1b8fa009f6cd76d52ab967"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\RUN_ERRORS.csv",
+      "sha256": "dc8e323344a6db669b62894a140b479b709042bfb362c5ce90367cdde0990936"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\SOURCE_IDENTITIES.csv",
+      "sha256": "7d0074a30ee4e0aa349e3ad76c04ce9aeedcd4db2550b6e448920fd802311ef9"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_cold.py",
+      "sha256": "a419e4b2cec4df455f8370bd804a6a82350408554f36cd71799c06ac2625df8d"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\T3_W1_DECISION.json",
+      "sha256": "4da2b075ddb74a196490c5c8f2436ca34a141884586b98cd9dbabe15b8c479e8"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\T3_W1_DESIGN_FREEZE.json",
+      "sha256": "438326fc6cba43fc0bcbb739ce6173e11fe9f20c31a3dea444f12acc7c6bf2ec"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_execute.py",
+      "sha256": "3b85cf30fab851bd9da8ae72e7c5ecebdadf91bb3402ea66fcaa58b244dbc88b"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_generate.py",
+      "sha256": "5c3dabeb60f99b120670f024a5a9fdd61396daf6dd9e7658a6233f36a5b92899"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_information.py",
+      "sha256": "a0622c8c5211ffca01a4750621b8c255df1d0a3d57edcff59079bc344645ad48"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_main.py",
+      "sha256": "c9990a6a7457e8d2d484ef58f39c0830caa4f576f968fffb36b0f0061fe43d7a"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_model.py",
+      "sha256": "d9cdf7c81dd0cabd0bc71abf3cb4c8d0ce81515a080acdc5fb4279438464f0ee"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_preflight.py",
+      "sha256": "e8daa02c14fa16735f591491dcfcf1e863f85b940e136fbcf5fe658745fb1cb5"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_statistics.py",
+      "sha256": "fca348cda34af266b4d0148df7ffe791354c32d7f55e60de81346d8b19adebaa"
+    }
+  ]
+}

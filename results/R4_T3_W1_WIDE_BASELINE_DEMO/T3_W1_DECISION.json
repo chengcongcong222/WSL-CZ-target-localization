@@ -1,0 +1,215 @@
+{
+  "stage": "R4-T3-W1",
+  "scope": "CONDITIONAL_BEARING_NAVIGATION_FEATURE_LEVEL_DEMO",
+  "case_directions": [
+    {
+      "quality": "Q1",
+      "case_id": "H01",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q1",
+      "case_id": "H02",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q1",
+      "case_id": "H03",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q1",
+      "case_id": "H04",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q1",
+      "case_id": "H05",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q1",
+      "case_id": "H06",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q1",
+      "case_id": "H07",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q1",
+      "case_id": "H08",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q1",
+      "case_id": "H09",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q1",
+      "case_id": "H10",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q1",
+      "case_id": "H11",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q1",
+      "case_id": "H12",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q2",
+      "case_id": "H01",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q2",
+      "case_id": "H02",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q2",
+      "case_id": "H03",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q2",
+      "case_id": "H04",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q2",
+      "case_id": "H05",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q2",
+      "case_id": "H06",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q2",
+      "case_id": "H07",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q2",
+      "case_id": "H08",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q2",
+      "case_id": "H09",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q2",
+      "case_id": "H10",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q2",
+      "case_id": "H11",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": true,
+      "failure_rate_increase": 0.0
+    },
+    {
+      "quality": "Q2",
+      "case_id": "H12",
+      "median_speed_improved": true,
+      "P95_speed_improved": true,
+      "P95_range_improved": false,
+      "failure_rate_increase": 0.0
+    }
+  ],
+  "summary": "WIDE_BASELINE_RESOURCE_INFORMATION_DEMO_ONLY",
+  "measurement_chain": "NOT_VALIDATED;directedbearing,sync,association,hardwareUNKNOWN",
+  "depth": "NOT_EVALUATED",
+  "physical_received_signal_evidence": false,
+  "novelty": "baselineincreasealoneisstandardtriangulation;weakdirectionandbias/resourceconditionsaretheresearchquestion",
+  "R4_percent": 0,
+  "historical_Gates": "UNCHANGED",
+  "next_stage_authorized": false,
+  "STOP": true,
+  "status": "PAIRED_CONFIRMATION_EXECUTED_ONCE",
+  "configurations": 48000,
+  "base_innovations": 6000,
+  "information_rows": 384,
+  "nominal_geometry_checks": 192,
+  "input_blocks": 96,
+  "scientific_wall_s": 288.2970000000205,
+  "independent_cold_audit": "PENDING"
+}

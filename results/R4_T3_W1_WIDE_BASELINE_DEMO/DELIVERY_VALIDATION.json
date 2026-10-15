@@ -1,0 +1,12 @@
+{
+  "main_seal_preserved": true,
+  "frozen_code_unchanged": true,
+  "historical_source_unchanged_except_zero_credit_ledger_append": true,
+  "main_calls": 1,
+  "cold_calls": 1,
+  "scientific_retries": 0,
+  "cold_PASS": true,
+  "depth": "NOT_EVALUATED",
+  "R4_percent": 0,
+  "STOP": true
+}

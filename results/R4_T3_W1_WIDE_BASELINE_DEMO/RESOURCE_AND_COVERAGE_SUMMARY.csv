@@ -1,0 +1,5 @@
+geometry,forward_km,lateral_km,node_separation_km,relative_to5km_resource,aux_range_min_km,aux_range_max_km,outside45to60km_epoch_locations,registered_locations,nodes,measurements_per_record,hardware_DOA_navigation_sync_association,cost_scope
+B0,0.0,5.0,5.0,1.0,50.426055142375816,60.25020075072765,82,2904,2,242,UNKNOWN_OR_NOT_VALIDATED,geometricdeploymentresourceonly;nomonetaryclaim;inrangeisnotdetectability
+B1,0.0,7.0,7.0,1.4,50.616308234758826,60.48628280787809,168,2904,2,242,UNKNOWN_OR_NOT_VALIDATED,geometricdeploymentresourceonly;nomonetaryclaim;inrangeisnotdetectability
+B2,2.0,10.0,10.198039027185569,2.0396078054371136,49.07868369948246,58.99656026391246,0,2904,2,242,UNKNOWN_OR_NOT_VALIDATED,geometricdeploymentresourceonly;nomonetaryclaim;inrangeisnotdetectability
+B3,3.0,15.0,15.297058540778355,3.059411708155671,49.256591432188436,59.177508277834924,0,2904,2,242,UNKNOWN_OR_NOT_VALIDATED,geometricdeploymentresourceonly;nomonetaryclaim;inrangeisnotdetectability

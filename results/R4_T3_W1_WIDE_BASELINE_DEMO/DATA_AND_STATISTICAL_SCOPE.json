@@ -1,0 +1,16 @@
+{
+  "data": "syntheticdirectedbearingfeaturesandreportedpositions,noreceivedwaveforms",
+  "state": "4horizontalparametersplus2fixedbiasnuisances;depthnotobserved",
+  "baseinnovations": 6000,
+  "configurations": 48000,
+  "cases": 12,
+  "geometries": "seenpanel,newseed;noexternalgeometricconfirmation",
+  "pairednotindependent": "B/Qsameinnovations;allmaininputsbyteequalacrossBwithinQ",
+  "P95": "nearest-rankceil(.95*n),500case/250side;unconditionalINFfailures",
+  "likelihood": "firstorderGaussianmarginalnavigationapproximation;state-dependentvarianceandlognormalizationincluded",
+  "prior": "UniformsupportofcommonandHALFdifferential;noGaussianpenalty",
+  "Fisher": "localunbiasedGaussianreference;Uniformboundarynotadded;knownbiasinformationcontrolnotestimator",
+  "physicaldomain": "sameboundedr,theta,v,psi forallconfigurations;boundaryratesreported;noglobalbranchguarantee",
+  "novelty": "baselinealoneisstandardgeometry,notnewinvention",
+  "R4_percent": 0
+}

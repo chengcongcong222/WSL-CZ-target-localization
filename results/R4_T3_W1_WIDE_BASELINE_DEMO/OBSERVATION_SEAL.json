@@ -1,0 +1,10 @@
+{
+  "public_blocks": 96,
+  "private_blocks": 12,
+  "paired_base_innovations": 6000,
+  "method_configurations": 48000,
+  "all_inputs_generated_before_any_fit": true,
+  "public_index_sha256": "2c747cb9d9d48feecfe3b650c170bcd5f17e884ef28e76f6c31f0d15f0726c4c",
+  "private_index_sha256": "b18def9b04bf77a4a38c74e9db4dccf238b5a944a5b09e96354897190d92b8b9",
+  "seed": 202610151701
+}

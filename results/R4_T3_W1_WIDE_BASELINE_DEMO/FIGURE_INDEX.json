@@ -1,0 +1,42 @@
+[
+  {
+    "file": "FIG1_RESOURCE_ERROR.pdf",
+    "source": "sealed estimator statistics or nominal Fisher matrices; no new computation of observations/estimates",
+    "sha256": "cc134624bbf21db07c721332497419976499efcb194ac96632b62e6379051bb3"
+  },
+  {
+    "file": "FIG1_RESOURCE_ERROR.png",
+    "source": "sealed estimator statistics or nominal Fisher matrices; no new computation of observations/estimates",
+    "sha256": "204a77154fc4365b5fb54d7ca8c90a7fba108c0ca294438c47d817863d4b086b"
+  },
+  {
+    "file": "FIG2_SPEED_DISTRIBUTIONS.pdf",
+    "source": "sealed estimator statistics or nominal Fisher matrices; no new computation of observations/estimates",
+    "sha256": "24437244a37c394ea091657d2e0d031d12b19638127f25efdaf6869b58e135d7"
+  },
+  {
+    "file": "FIG2_SPEED_DISTRIBUTIONS.png",
+    "source": "sealed estimator statistics or nominal Fisher matrices; no new computation of observations/estimates",
+    "sha256": "1f7247158aa87ad59d34e5ea81f42d2520ec033ccdf86a296b1154a10dbdb3e1"
+  },
+  {
+    "file": "FIG3_BIAS_INFORMATION_LIMIT.pdf",
+    "source": "sealed estimator statistics or nominal Fisher matrices; no new computation of observations/estimates",
+    "sha256": "68b91fd4421942c460127d49cf7388d6062ac3cf41a8acdf47d67ed5eaca06e4"
+  },
+  {
+    "file": "FIG3_BIAS_INFORMATION_LIMIT.png",
+    "source": "sealed estimator statistics or nominal Fisher matrices; no new computation of observations/estimates",
+    "sha256": "b8b21c043c47948fd374d6848e5e06900f8cc5a37bfe7073a309fbd30ebaa18a"
+  },
+  {
+    "file": "FIG4_VELOCITY_WEAK_DIRECTION.pdf",
+    "source": "sealed estimator statistics or nominal Fisher matrices; no new computation of observations/estimates",
+    "sha256": "97eeed0fb863a9c0f295481d1f14dc4cc816d0d5e07bfe200c811a89631614fa"
+  },
+  {
+    "file": "FIG4_VELOCITY_WEAK_DIRECTION.png",
+    "source": "sealed estimator statistics or nominal Fisher matrices; no new computation of observations/estimates",
+    "sha256": "1a05dbb8cbbd3b72e3de8f99893e3c326dfd82bf9a3b45b450b3ba3c73106f55"
+  }
+]

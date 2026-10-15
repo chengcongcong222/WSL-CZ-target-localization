@@ -1,0 +1,28 @@
+{
+  "Jacobian_controls": 192,
+  "information_rows": 384,
+  "matrices": 192,
+  "files": [
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\GEOMETRY_AND_RESOURCE_AUDIT.csv",
+      "bytes": 36217,
+      "sha256": "7144311b18ff7a9a443258d38957e2c206ea07b1f768be55a83d6ffaad428dd8"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\JACOBIAN_CROSSCHECK.csv",
+      "bytes": 14399,
+      "sha256": "99fb4a8aca5255af74dfc15370970dfc5b0e6843ca9a20eb7a28d22a6cad4277"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\LOCAL_INFORMATION.csv",
+      "bytes": 181713,
+      "sha256": "585f9eba0ba1ff37ca3a03a570d807414834a63fdc6c0329e478d4a492b0ec50"
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\INFORMATION_MATRICES.npz",
+      "bytes": 107148,
+      "sha256": "d2ad428320459cb29a19036e5946f2da575743e7e3d277173b4ac9e7917a3bd1"
+    }
+  ],
+  "uniform_hard_prior_not_added_to_Fisher": true
+}

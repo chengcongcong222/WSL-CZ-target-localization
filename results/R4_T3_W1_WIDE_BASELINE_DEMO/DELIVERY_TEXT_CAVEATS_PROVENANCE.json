@@ -1,0 +1,24 @@
+{
+  "scope": "text-only clarification from sealed statistics; no refits or new information calculations",
+  "GPT_SYNC_before_sha256": "04fd3dccdba93d70b7856e5486db16b4c957c3e43b40219b77d19571c08b19cb",
+  "GPT_SYNC_after_sha256": "27e3ca6f3c7ca080f923d515dd8454cc01b77a5cd87125323b39a6075684f5bf",
+  "correction": "Q2/H12 rangeP95 equal, not worse; allB3biasbound; knownpriorandphysicalboundarylimitations",
+  "main_code_changed": false,
+  "main_outputs_changed": false,
+  "new_scientific_executions": 0,
+  "final_prose_line_ending_cleanup": [
+    {
+      "file": "GPT_SYNC_T3_W1.md",
+      "before_sha256": "27e3ca6f3c7ca080f923d515dd8454cc01b77a5cd87125323b39a6075684f5bf",
+      "after_sha256": "6e377fae87aa158642fb1a2140bfbef728557ccd177cc8a638fde8d6933849b3",
+      "scope": "prose_EOL_only"
+    },
+    {
+      "file": "RESEARCH_ROUTE_AND_LIMITS.md",
+      "before_sha256": "61aff1bd86271323d9f61c43f2c0d5d2048cb6e723064b1c1e5602e423f9a476",
+      "after_sha256": "90a0d803340103c0aa1f7e6eb4809f3d1cb15d5a25293c391a7e1552c52fc5ae",
+      "scope": "prose_EOL_only"
+    }
+  ],
+  "final_GPT_SYNC_sha256": "6e377fae87aa158642fb1a2140bfbef728557ccd177cc8a638fde8d6933849b3"
+}
