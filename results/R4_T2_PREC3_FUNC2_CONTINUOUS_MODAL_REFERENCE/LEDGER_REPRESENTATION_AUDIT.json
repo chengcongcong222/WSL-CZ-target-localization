@@ -1,0 +1,9 @@
+{
+  "Git_parent_SHA256": "cdc5924eb6fa6873cf19a4815644d027dc44d2dd30b1a25661b2410da3d29a34",
+  "working_SHA256": "4eaf7baef403482efecbc66ea67eace180c297350108904908cc5f711c8f709f",
+  "working_CRLF": 94,
+  "difference": "CRLF_checkout_vs_LF_git_blob_only",
+  "content_changed": false,
+  "science_source_identity_failure": false,
+  "original_preflight_preserved": "FUNC2_FIRST_PREFLIGHT_PAUSE.json"
+}

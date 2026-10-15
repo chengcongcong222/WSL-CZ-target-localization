@@ -1,0 +1,1183 @@
+{
+  "failed": "exact_parent_bytes/results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+  "checks": [
+    {
+      "check": "parent_HEAD",
+      "PASS": true
+    },
+    {
+      "check": "remote_parent",
+      "PASS": true
+    },
+    {
+      "check": "no_tracked_or_staged_changes",
+      "PASS": true
+    },
+    {
+      "check": "ledger_unchanged",
+      "PASS": true
+    },
+    {
+      "check": "no_formal_execution",
+      "PASS": true
+    },
+    {
+      "check": "task_bytes_preserved",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/.gitattributes",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/.gitattributes",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/CORRECTED_PREFLIGHT_FIRST/PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/CORRECTED_PREFLIGHT_FIRST/PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/DELIVERY_VALIDATION.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/DELIVERY_VALIDATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/EXECUTION_BUDGET.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/EXECUTION_BUDGET.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/EXECUTION_PROGRESS.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/EXECUTION_PROGRESS.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/GPT_SYNC_PREC2.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/GPT_SYNC_PREC2.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/LEDGER_APPEND_PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/LEDGER_APPEND_PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/MAIN_OUTPUT_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/MAIN_OUTPUT_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_PREFLIGHT_STOP/PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_PREFLIGHT_STOP/PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_PREFLIGHT_STOP/PREC2_STOP_SUMMARY.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_PREFLIGHT_STOP/PREC2_STOP_SUMMARY.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_PREFLIGHT_STOP/PROPOSED_SOURCE_HASH_CORRECTION.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_PREFLIGHT_STOP/PROPOSED_SOURCE_HASH_CORRECTION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_ZIP_RECOVERY.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/ORIGINAL_ZIP_RECOVERY.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/OUTPUT_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/OUTPUT_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PIPELINE_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PIPELINE_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_COLD_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_COLD_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_FINAL_ADJUDICATION.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_FINAL_ADJUDICATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_LOSSLESS_SUBSET_FDM.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_LOSSLESS_SUBSET_FDM.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_NEXT_RESEARCH_DECISION.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_NEXT_RESEARCH_DECISION.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_PRT_MOD_ALL_SAMPLES.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_PRT_MOD_ALL_SAMPLES.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_PRT_MOD_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_PRT_MOD_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_PRUFER_COLD_ROOTS.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_PRUFER_COLD_ROOTS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_SCOPED_INTERPRETATION.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_SCOPED_INTERPRETATION.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_SOURCE_HASH_CORRECTION.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_SOURCE_HASH_CORRECTION.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_SOURCE_IDENTITIES.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PREC2_SOURCE_IDENTITIES.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PRELIMINARY_ESTD_PRT_MOD_SPARSE_AUDIT.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/README_T2_PREC2_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/README_T2_PREC2_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/runtime_logs/t2_prec2_cold_audit.log",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/runtime_logs/t2_prec2_cold_audit.log",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/runtime_logs/t2_prec2_readonly.log",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/runtime_logs/t2_prec2_readonly.log",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/SCIENTIFIC_OUTPUT_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/SCIENTIFIC_OUTPUT_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/SOURCE_HASH_CORRECTION.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/SOURCE_HASH_CORRECTION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_CODEX_TASK_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/t2_prec2_cold_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/t2_prec2_cold_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_EXPERIMENT_SPEC_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_FILE_MANIFEST_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_FILE_MANIFEST_20261014_v1.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/t2_prec2_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/t2_prec2_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/t2_prec2_readonly.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/t2_prec2_readonly.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_RESEARCH_BRIEF_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_SOURCE_SCOPE_20261014_v1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_START_20261014_v1.txt",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/T2_PREC2_START_20261014_v1.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/task_archives/T2_PREC2_TASK_PACKAGE_20261014_v1-corr1.zip",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/task_archives/T2_PREC2_TASK_PACKAGE_20261014_v1-corr1.zip",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/task_archives/T2_PREC2_TASK_PACKAGE_20261014_v1.zip",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/task_archives/T2_PREC2_TASK_PACKAGE_20261014_v1.zip",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/test_t2_prec2_synthetic.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC2_ESTD_EIGENVALUE_PRECISION_FEASIBILITY/test_t2_prec2_synthetic.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/.gitattributes",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/.gitattributes",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/DELIVERY_VALIDATION.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/DELIVERY_VALIDATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/EXECUTION_BUDGET.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/EXECUTION_BUDGET.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/EXECUTION_PROGRESS.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/EXECUTION_PROGRESS.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/EXECUTION_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/EXECUTION_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/FINAL_SCIENCE_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/FINAL_SCIENCE_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/GPT_SYNC_PREC3.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/GPT_SYNC_PREC3.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/HISTORICAL_READ_INDEX.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/HISTORICAL_READ_INDEX.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/LEDGER_APPEND_PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/LEDGER_APPEND_PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/MAIN_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/MAIN_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/NOT_EVALUATED_BRANCHES.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/NOT_EVALUATED_BRANCHES.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/OFFICIAL_SOURCE_INDEX.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/OFFICIAL_SOURCE_INDEX.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/OUTPUT_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/OUTPUT_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_cold.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_cold.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_COLD_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_COLD_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_COLD_PRUEFER.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_COLD_PRUEFER.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_COMPLEX_K_VALIDATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_COMPLEX_K_VALIDATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_deliver.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_deliver.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_FIELD_SHAPE_COMPARISON.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_FIELD_SHAPE_COMPARISON.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_FINAL_ADJUDICATION.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_FINAL_ADJUDICATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_INDEPENDENT_COMPLEX_AND_PHI.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_INDEPENDENT_COMPLEX_AND_PHI.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_INPUT_IDENTITIES.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_INPUT_IDENTITIES.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_LARGE_DATA_INDEX.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_LARGE_DATA_INDEX.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_LOSS_CONTROLS.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_LOSS_CONTROLS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_main.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_main.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_NEXT_RESEARCH_DECISION.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_NEXT_RESEARCH_DECISION.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_plot.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prec3_plot.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_PREFLIGHT_SUPPLEMENT.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_PREFLIGHT_SUPPLEMENT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_RAW_EIGENVALUES.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_RAW_EIGENVALUES.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_REAL_K_INDEPENDENT_VALIDATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_REAL_K_INDEPENDENT_VALIDATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_SCOPE_AND_FAILURES.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_SCOPE_AND_FAILURES.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_SOURCE_AND_BINARY_AUDIT.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREC3_SOURCE_AND_BINARY_AUDIT.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREFLIGHT_OPERATIONAL_STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/PREFLIGHT_OPERATIONAL_STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prepare_freeze.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/prepare_freeze.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/RESEARCH_LEAD_TASK.txt",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/RESEARCH_LEAD_TASK.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/runtime_logs/prec3_cold.py.log",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/runtime_logs/prec3_cold.py.log",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/runtime_logs/prec3_main.py.log",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/runtime_logs/prec3_main.py.log",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_COMPLEX_WAVENUMBER_AND_FIELD_VALIDATION/STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/.gitattributes",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/.gitattributes",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/DELIVERY_VALIDATION.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/DELIVERY_VALIDATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/EXECUTION_BUDGET.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/EXECUTION_BUDGET.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/EXECUTION_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/EXECUTION_STARTED.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_CASE_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_CASE_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/func1_cold.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/func1_cold.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_COLD_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_COLD_CHECKS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_COUPLING_CHANNELS.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_COUPLING_CHANNELS.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_COUPLING_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_COUPLING_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_DATA_DICTIONARY.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_DATA_DICTIONARY.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/func1_deliver.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/func1_deliver.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_DENSE_SAMPLES.npz",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_DENSE_SAMPLES.npz",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_DENSE_SAMPLING_COMPARISON.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_DENSE_SAMPLING_COMPARISON.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_DEPTH_RESOLVED_ERROR.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_DEPTH_RESOLVED_ERROR.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_EMPIRICAL_ORDER.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_EMPIRICAL_ORDER.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/func1_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/func1_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_FE_FD_CROSS_GRID.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_FE_FD_CROSS_GRID.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_FINAL_ADJUDICATION.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_FINAL_ADJUDICATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_FINAL_PRE_RUN_CHECK.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_FINAL_PRE_RUN_CHECK.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_LOCAL_FUNCTION_COMPARISON.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_LOCAL_FUNCTION_COMPARISON.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_LOCAL_MODAL_COUPLING.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_LOCAL_MODAL_COUPLING.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/func1_main.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/func1_main.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_MODE961_DATA_SCOPE.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_MODE961_DATA_SCOPE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_NEXT_RESEARCH_DECISION.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_NEXT_RESEARCH_DECISION.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_NORMALIZATION_AND_PHASE_AUDIT.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_NORMALIZATION_AND_PHASE_AUDIT.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_ORIGINAL_GATE_RECONSTRUCTION.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_ORIGINAL_GATE_RECONSTRUCTION.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/func1_plot.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/func1_plot.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_PREFLIGHT.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/func1_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/func1_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_SAMPLING_RISK.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_SAMPLING_RISK.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_VECTOR_IDENTITIES.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_VECTOR_IDENTITIES.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_VERTICAL_WAVELENGTH_BY_DEPTH.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/FUNC1_VERTICAL_WAVELENGTH_BY_DEPTH.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/GPT_SYNC_FUNC1.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/GPT_SYNC_FUNC1.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/LEDGER_APPEND_PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/LEDGER_APPEND_PROVENANCE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/MAIN_OUTPUT_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/MAIN_OUTPUT_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/OUTPUT_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/OUTPUT_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/RESEARCH_LEAD_TASK.txt",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/RESEARCH_LEAD_TASK.txt",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/runtime_logs/func1_cold.py.log",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/runtime_logs/func1_cold.py.log",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/runtime_logs/func1_main.py.log",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/runtime_logs/func1_main.py.log",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/SCIENCE_OUTPUT_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/SCIENCE_OUTPUT_SEAL.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/WORKTREE_MATERIALIZATION.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT/WORKTREE_MATERIALIZATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/PROPAGATION_CONTRACT_AND_SCOPE.md",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/PROPAGATION_CONTRACT_AND_SCOPE.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SOURCE_IDENTITY.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SOURCE_IDENTITY.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SCIENCE_OUTPUT_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SCIENCE_OUTPUT_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SOLVER_PLAN.json",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/SOLVER_PLAN.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/ARRAY_GEOMETRY_TABLE.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/ARRAY_GEOMETRY_TABLE.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/T2_N2_SENTINELS_20261013_v1.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/T2_N2_SENTINELS_20261013_v1.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/environments/n2_K2_f201.env",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_bytes/results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+      "PASS": false
+    }
+  ],
+  "science_executions": 0,
+  "STOP": true
+}
