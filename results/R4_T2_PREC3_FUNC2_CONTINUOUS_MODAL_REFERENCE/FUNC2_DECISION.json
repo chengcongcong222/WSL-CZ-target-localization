@@ -1,0 +1,15 @@
+{
+  "stage": "T2-PREC3-FUNC2",
+  "A": "FAIL",
+  "B": "NOT_EVALUATED",
+  "C": "NOT_EVALUATED",
+  "D": "NOT_EVALUATED",
+  "classifications": [
+    "FUNC2_ANALYTIC_REFERENCE_GATE_FAIL"
+  ],
+  "R4_percent": 0,
+  "historical_PREC3_B": "COMPLEX_K_NOT_CERTIFIED_UNCHANGED",
+  "STOP": true,
+  "completed": {},
+  "stop_reason": "SHOOT_ROOT_NOT_CONVERGED"
+}

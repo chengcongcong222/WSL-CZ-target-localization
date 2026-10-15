@@ -1,0 +1,11 @@
+stage,item,planned,attempted,completed_result_rows,failure_count,not_evaluated,status,k_real_imag_tolerance,shape_tolerance,max_observed_k_deviation,max_observed_shape_deviation,reason
+A,analytic method-level-mode-loss endpoint controls,24,1,0,1,23,FUNC2_ANALYTIC_REFERENCE_GATE_FAIL,1.6666667e-09,0.0005,,,DOP853 level0 mode1 loss0 root exhausted10iterations; no converged root or function saved
+B,E-STD complex continuation roots,48,0,0,0,48,NOT_EVALUATED,,,,,Gate A failed before any E-STD continuous solve
+B,independent continuous mode references,3,0,0,0,3,NOT_EVALUATED,,,,,Gate A failed
+C,original FE/FD function versus continuous reference,10,0,0,0,10,NOT_EVALUATED,,,,,no admitted reference; FD961 not authorized
+C,200m error bands,250,0,0,0,250,NOT_EVALUATED,,,,,no admitted reference
+D,original FE/FD Q versus continuous reference,200,0,0,0,200,NOT_EVALUATED,,,,,no admitted reference
+D,reference-path and own-precision Q comparisons,180,0,0,0,180,NOT_EVALUATED,,,,,no admitted reference
+COLD,identity checks actually available,160,160,160,0,0,INTEGRITY_ONLY_PASS,,,,,144 parent inputs +10 NPZ +6 frozen Python files
+COLD,fresh highmode RK45 reconstruction,1,0,0,0,1,NOT_EVALUATED,,,,,no admitted highmode root; cold scope must not imply numeric certification
+E,go/no-go document,1,1,1,0,0,NO_GO_CURRENT_IMPLEMENTATION,,,,,close current numerical repair chain; no automatic new study

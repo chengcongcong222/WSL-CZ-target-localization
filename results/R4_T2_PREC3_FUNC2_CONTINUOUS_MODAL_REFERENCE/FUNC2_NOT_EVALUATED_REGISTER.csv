@@ -1,0 +1,16 @@
+mode,stage,status,reason
+1,E_STD_CONTINUOUS_REFERENCE,NOT_EVALUATED,analytic reference gate failed before admission
+1,FE_VS_REFERENCE,NOT_EVALUATED,analytic reference gate failed before admission
+1,FD_VS_REFERENCE,NOT_EVALUATED,analytic reference gate failed before admission
+1,LOCAL_COUPLING,NOT_EVALUATED,analytic reference gate failed before admission
+1,REFERENCE_K_FUNCTION_BOUNDARY_COLD_RECONSTRUCTION,NOT_EVALUATED,analytic reference gate failed before admission
+481,E_STD_CONTINUOUS_REFERENCE,NOT_EVALUATED,analytic reference gate failed before admission
+481,FE_VS_REFERENCE,NOT_EVALUATED,analytic reference gate failed before admission
+481,FD_VS_REFERENCE,NOT_EVALUATED,analytic reference gate failed before admission
+481,LOCAL_COUPLING,NOT_EVALUATED,analytic reference gate failed before admission
+481,REFERENCE_K_FUNCTION_BOUNDARY_COLD_RECONSTRUCTION,NOT_EVALUATED,analytic reference gate failed before admission
+961,E_STD_CONTINUOUS_REFERENCE,NOT_EVALUATED,analytic reference gate failed before admission
+961,FE_VS_REFERENCE,NOT_EVALUATED,analytic reference gate failed before admission
+961,FD_VS_REFERENCE,NOT_EVALUATED_FD_VECTOR_NOT_ARCHIVED,FD961 not archived and recomputation prohibited
+961,LOCAL_COUPLING,NOT_EVALUATED,analytic reference gate failed before admission
+961,REFERENCE_K_FUNCTION_BOUNDARY_COLD_RECONSTRUCTION,NOT_EVALUATED,analytic reference gate failed before admission

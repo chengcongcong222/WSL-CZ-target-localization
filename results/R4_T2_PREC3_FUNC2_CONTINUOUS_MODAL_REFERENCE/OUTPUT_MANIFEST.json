@@ -1,0 +1,252 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "EXECUTION_BUDGET.json",
+      "bytes": 1062,
+      "sha256": "795c5cfc06ecf8f1769e7ed3465eb60cba0ea39d6c4beaaa90667f6cba12bc9a"
+    },
+    {
+      "path": "EXECUTION_STARTED.json",
+      "bytes": 131,
+      "sha256": "54ee27ce9b59cbd162fe8216d6e0608fa715f8b02753a9aa7d303e79b44315ca"
+    },
+    {
+      "path": "FUNC2_ANALYTIC_WAVEGUIDE_VALIDATION.csv",
+      "bytes": 14,
+      "sha256": "5a52db93a2107f568efee5e08d78f3ab6d3f95ccc1c1ef294360d6248b47fdcd"
+    },
+    {
+      "path": "FUNC2_CHANNEL_COUPLING_REFERENCE.csv",
+      "bytes": 14,
+      "sha256": "5a52db93a2107f568efee5e08d78f3ab6d3f95ccc1c1ef294360d6248b47fdcd"
+    },
+    {
+      "path": "func2_cold.py",
+      "bytes": 10548,
+      "sha256": "ac874855e3cadf1236f62f889ea81a6c20271161eb91c6874d55669853324f7b"
+    },
+    {
+      "path": "FUNC2_COLD_CHECKS.csv",
+      "bytes": 17756,
+      "sha256": "4a7e5f4c1b4103077464e78fd56f07ac65fbc3d620b666d2b139b4eb22d14754"
+    },
+    {
+      "path": "FUNC2_CONTINUOUS_COMPLEX_ROOTS.csv",
+      "bytes": 14,
+      "sha256": "5a52db93a2107f568efee5e08d78f3ab6d3f95ccc1c1ef294360d6248b47fdcd"
+    },
+    {
+      "path": "FUNC2_CONTINUOUS_MODE_REFERENCE.csv",
+      "bytes": 14,
+      "sha256": "5a52db93a2107f568efee5e08d78f3ab6d3f95ccc1c1ef294360d6248b47fdcd"
+    },
+    {
+      "path": "FUNC2_DATA_DICTIONARY.json",
+      "bytes": 1194,
+      "sha256": "8b4323e9b134aef8c3dd9a80ff6d5b9975d6cec44a73f344288131e0052861e6"
+    },
+    {
+      "path": "FUNC2_DECISION.json",
+      "bytes": 363,
+      "sha256": "5536b56cd8b8845147415df9ecb461a3591fa08541c74812f9b7407b06a59ab8"
+    },
+    {
+      "path": "func2_deliver.py",
+      "bytes": 20504,
+      "sha256": "4a0268bc6ac44361d17c101b88feab867a9c4f1b415fb8ee168a87745f8f0a16"
+    },
+    {
+      "path": "FUNC2_DELIVERY_VALIDATION.json",
+      "bytes": 476,
+      "sha256": "0bff0b524794d6bdfa83501e0c48ed45ad63866903f470d4f00c5e3d0ac69175"
+    },
+    {
+      "path": "FUNC2_DESIGN_FREEZE.json",
+      "bytes": 40411,
+      "sha256": "c4fce98fa66dbba13479ba7ff576740f69ea892e489b6b3be12c5ffd68c091e2"
+    },
+    {
+      "path": "func2_dop853.py",
+      "bytes": 4943,
+      "sha256": "0d95d82d2e802c2cd4988334b990ccc662cc7bea2abe7c87ee95f84c144dd60f"
+    },
+    {
+      "path": "func2_execute.py",
+      "bytes": 4118,
+      "sha256": "b5479223c676313892e10bbf047483352bfcb1a62d22dd86ed51872ab9673adc"
+    },
+    {
+      "path": "FUNC2_EXECUTION_SCOPE.pdf",
+      "bytes": 16407,
+      "sha256": "870872c8794e157b6c1d20bb391027458acccae0fff5cf99ebc37a57b0b401ea"
+    },
+    {
+      "path": "FUNC2_EXECUTION_SCOPE.png",
+      "bytes": 67363,
+      "sha256": "3b376bac9220ffe0386b7941e5dc83d791fd0997f8c98aab15abcdf5e17cc7d6"
+    },
+    {
+      "path": "FUNC2_FE_FD_VS_REFERENCE.csv",
+      "bytes": 14,
+      "sha256": "5a52db93a2107f568efee5e08d78f3ab6d3f95ccc1c1ef294360d6248b47fdcd"
+    },
+    {
+      "path": "FUNC2_FIGURE_SCOPE.md",
+      "bytes": 161,
+      "sha256": "120b30ab6abc38b34ccadc60c144190d849d62d6735272b0d5dd85b7401c7589"
+    },
+    {
+      "path": "FUNC2_FINAL_ADJUDICATION.json",
+      "bytes": 1826,
+      "sha256": "61b0478065e2362c1f28fe9da0b3dc08afe2a91e97946f2966ad1a77eff4b26b"
+    },
+    {
+      "path": "FUNC2_FIRST_PREFLIGHT_PAUSE.json",
+      "bytes": 45600,
+      "sha256": "266a6a809e48c9c5ec4dfce2bf1f9c8858ce39a163e38891e8dd63986298734b"
+    },
+    {
+      "path": "func2_gauss.py",
+      "bytes": 5516,
+      "sha256": "78c52edc170508cb2476bec1877d7cce7853ebf593d40d19b527c55ba92278da"
+    },
+    {
+      "path": "FUNC2_INDEPENDENT_COLD_AUDIT.json",
+      "bytes": 381,
+      "sha256": "1cd7650e92ac9bb47d90095b5b3a14b480288f9601f75b41b668339a3493d743"
+    },
+    {
+      "path": "FUNC2_LOCAL_COUPLING_REFERENCE.csv",
+      "bytes": 14,
+      "sha256": "5a52db93a2107f568efee5e08d78f3ab6d3f95ccc1c1ef294360d6248b47fdcd"
+    },
+    {
+      "path": "FUNC2_LOCAL_FUNCTION_REFERENCE.csv",
+      "bytes": 14,
+      "sha256": "5a52db93a2107f568efee5e08d78f3ab6d3f95ccc1c1ef294360d6248b47fdcd"
+    },
+    {
+      "path": "func2_main.py",
+      "bytes": 16115,
+      "sha256": "36d0bee5b5e51881e99c3b028135c9869cd395805205bd7ac946d273b1ff379d"
+    },
+    {
+      "path": "FUNC2_MODAL_ERROR_BY_DEPTH.csv",
+      "bytes": 14,
+      "sha256": "5a52db93a2107f568efee5e08d78f3ab6d3f95ccc1c1ef294360d6248b47fdcd"
+    },
+    {
+      "path": "FUNC2_NEXT_RESEARCH_DECISION.md",
+      "bytes": 762,
+      "sha256": "48a08887cd969e25387cb4cbafb7053af42e7142cfaea2dc00d317dbc99d9445"
+    },
+    {
+      "path": "FUNC2_NOT_EVALUATED_REGISTER.csv",
+      "bytes": 1400,
+      "sha256": "3b2896095a300d56e6bb03a5b28b5bbd3f608e33832b14b65225d314c3b90951"
+    },
+    {
+      "path": "FUNC2_PREFLIGHT.json",
+      "bytes": 52285,
+      "sha256": "231cc3b326e2500cc03996f746a23fe6000184772bb597beec613819f1702f7d"
+    },
+    {
+      "path": "func2_preflight.py",
+      "bytes": 11369,
+      "sha256": "a40b7ef58bbfa6d4d1a73c65bef2bc128ff01d333ced0ac539b85cdc249b90a9"
+    },
+    {
+      "path": "FUNC2_RAW_DATA_INDEX.json",
+      "bytes": 48,
+      "sha256": "803e89e487c8e8f3427d55c3f92b6bb57c6069197fea9d1324a2b050d7ed04c9"
+    },
+    {
+      "path": "FUNC2_REFERENCE_LOCAL_STABILITY.csv",
+      "bytes": 14,
+      "sha256": "5a52db93a2107f568efee5e08d78f3ab6d3f95ccc1c1ef294360d6248b47fdcd"
+    },
+    {
+      "path": "FUNC2_ROOT_TRACES.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "FUNC2_RUNTIME_ADMISSION.json",
+      "bytes": 1055,
+      "sha256": "185bb9ab2a0a711de8fe48dd87dc766702bea3797185beb9c9024e22d03fabe0"
+    },
+    {
+      "path": "FUNC2_SCIENCE_EXCEPTION.txt",
+      "bytes": 785,
+      "sha256": "fcd9d593da74244758630d09a7ada6ea83d3a10bf5820332058b4e89e22d03bd"
+    },
+    {
+      "path": "FUNC2_SOURCE_IDENTITIES.csv",
+      "bytes": 27042,
+      "sha256": "5a1bd244f403d40fff68ea4d3c712425f5d164e624f1f690f8330b036cd1fd6f"
+    },
+    {
+      "path": "FUNC2_STAGE_COMPLETION.csv",
+      "bytes": 1394,
+      "sha256": "9522d0149273bff7ced28fe4095ac526b901042acf27b1433b8c35eb935a680e"
+    },
+    {
+      "path": "GPT_SYNC_FUNC2.md",
+      "bytes": 4906,
+      "sha256": "781d2ce9704bc240ee766710a51b9668eeb7f811bbcfeff721324ed15c26d0de"
+    },
+    {
+      "path": "LEDGER_APPEND_PROVENANCE.json",
+      "bytes": 298,
+      "sha256": "d786995233e778e9ea8e7e6b237706b07c6f1bf39d5f3465210414413fb9f2d3"
+    },
+    {
+      "path": "LEDGER_REPRESENTATION_AUDIT.json",
+      "bytes": 408,
+      "sha256": "82872a5125a7c730c76091b1079ceb5a0f6824f14dce5c0dddb80e50c3cb92c4"
+    },
+    {
+      "path": "MAIN_OUTPUT_SEAL.json",
+      "bytes": 6856,
+      "sha256": "0e9761a4b9f13cc80faa801dbae8d6d0ba48bfa9751f16f240eb59c41543969a"
+    },
+    {
+      "path": "RESEARCH_LEAD_TASK.txt",
+      "bytes": 17570,
+      "sha256": "3d4a1449fa337ac1b8a2708f27fd1ca20dd35678596fc79ce40a04a73797d14f"
+    },
+    {
+      "path": "RUNTIME_DEPENDENCY_PROVENANCE.json",
+      "bytes": 364,
+      "sha256": "4a2343a2b935ef7104e45e8d30eb2cd7dd74dfea6817a38929144c756c469ecd"
+    },
+    {
+      "path": "runtime_logs/func2_cold.py.log",
+      "bytes": 354,
+      "sha256": "e8f12200442938b0a217c36bb970f199640823c2e206dfb0247b6b13cb974a17"
+    },
+    {
+      "path": "runtime_logs/func2_main.py.log",
+      "bytes": 74,
+      "sha256": "000e9012a82268978b2dd43eba1a19b02c7fab4c2cfbd6750ec9157e006177f3"
+    },
+    {
+      "path": "STOP.json",
+      "bytes": 142,
+      "sha256": "833e2db686ace922bef1abd4bc31d84bfb5ed346511490985efa5cdfb4d82205"
+    },
+    {
+      "path": "T2_NUMERICAL_ROUTE_GO_NO_GO.md",
+      "bytes": 3633,
+      "sha256": "3d5b50c7cce46308996da602c5459d4de721b5e8f6c51621747fd12f8f685f32"
+    }
+  ],
+  "scope": "all delivery files except this manifest; main scientific outputs and frozen code unchanged",
+  "R4_percent": 0,
+  "STOP": true
+}

@@ -1,0 +1,32 @@
+{
+  "wall_s": 10.016000000061467,
+  "peak_tree_RSS_bytes": 81276928,
+  "main_calls": 1,
+  "cold_calls": 1,
+  "retries": 0,
+  "failure": null,
+  "stages": [
+    {
+      "program": "func2_main.py",
+      "start_since_s": 0.030999999959021807,
+      "wall_limit_s": 2900,
+      "returncode": 0,
+      "wall_s": 9.188000000081956,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC2\\runtime_logs\\func2_main.py.log",
+      "sha256": "000e9012a82268978b2dd43eba1a19b02c7fab4c2cfbd6750ec9157e006177f3"
+    },
+    {
+      "program": "func2_cold.py",
+      "start_since_s": 9.312000000150874,
+      "wall_limit_s": 700,
+      "returncode": 0,
+      "wall_s": 0.6879999998491257,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC2\\runtime_logs\\func2_cold.py.log",
+      "sha256": "e8f12200442938b0a217c36bb970f199640823c2e206dfb0247b6b13cb974a17"
+    }
+  ],
+  "new_D_bytes": 1309779,
+  "git_result_bytes": 263439,
+  "new_external_acoustic_solvers": 0,
+  "new_old_FE_FD_Pruefer_fullmode_MC_waveform_DFT_FIM_localization": 0
+}

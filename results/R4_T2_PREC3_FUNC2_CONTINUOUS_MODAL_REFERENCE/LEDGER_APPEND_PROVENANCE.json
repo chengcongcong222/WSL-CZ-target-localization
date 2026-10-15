@@ -1,0 +1,8 @@
+{
+  "old_physical_sha256": "4eaf7baef403482efecbc66ea67eace180c297350108904908cc5f711c8f709f",
+  "new_physical_sha256": "fa3ca587d16b61cf07570148b22b1c80ec2efd19363b7702bf8eb027e762d998",
+  "old_bytes": 29214,
+  "preserved_exact_prefix": true,
+  "one_appended_row": true,
+  "R4_delta": 0
+}

@@ -1,0 +1,11 @@
+{
+  "empty_science_CSV": "header-only means0 completed numeric rows, not zero-valued error or successful precision",
+  "planned_counts": "A24 endpoints=2methods*2precisions*3modes*2reportedlosses; B48 continuation points=2*2*3*4",
+  "A_attempted_failure": "first control; neither k nor function deviation quantified before root convergence",
+  "identity_checks": "160 checks are144 repository inputs+10 originalNPZ+6 frozen Python files, not160 independent physical samples",
+  "cold_PASS": "identity-only because no numeric reference arrays existed; k/function/boundary/highmodeQ cold scopes NOT_EVALUATED",
+  "historical_metrics": "all old numbers remain historical diagnostics, no new reference-based error or FE/FD ranking",
+  "runtime_admission": "first wrapper import lackedpsutil before execution marker; dependency added only onD; no formal scientific retry",
+  "ledger": "physicalCRLF and GitLF differ only by checkout text conversion; original bytes preserved before zero-credit append",
+  "root_trace_limit": "frozen solver kept unsuccessful Newton trace only in process memory; no converged snapshot or iteration values archived; no posthoc scientific rerun permitted"
+}

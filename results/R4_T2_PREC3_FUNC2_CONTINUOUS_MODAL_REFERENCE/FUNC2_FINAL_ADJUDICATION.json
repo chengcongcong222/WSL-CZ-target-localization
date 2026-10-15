@@ -1,0 +1,47 @@
+{
+  "stage": "T2-PREC3-FUNC2",
+  "parent_SHA": "35ce80055c641711ace8639f528679917bfdbef2",
+  "design_SHA": "635f0650e18168b2b9497127fd958d50a246ddbb",
+  "classifications": [
+    "FUNC2_ANALYTIC_REFERENCE_GATE_FAIL"
+  ],
+  "scientific_result": "NEW_REFERENCE_NOT_ADMITTED_AT_ANALYTIC_GATE",
+  "first_failed_case": {
+    "method": "DOP853",
+    "level": 0,
+    "mode": 1,
+    "environment": "constant1500m/s,5000m,pressure_release_surface,rigid_bottom",
+    "loss": 0,
+    "reason": "SHOOT_ROOT_NOT_CONVERGED",
+    "max_registered_iterations": 10
+  },
+  "A": {
+    "planned_endpoint_cases": 24,
+    "attempted": 1,
+    "completed": 0,
+    "failed": 1,
+    "deviation_metrics": "UNAVAILABLE_NO_CONVERGED_REFERENCE_SAVED"
+  },
+  "B": "NOT_EVALUATED",
+  "C": "NOT_EVALUATED",
+  "D": "NOT_EVALUATED",
+  "cold_integrity_checks": 160,
+  "cold_integrity_FAIL": 0,
+  "cold_numeric_reconstructions": 0,
+  "cold_scope": "IDENTITY_ONLY_NOT_K_FUNCTION_OR_COUPLING_CERTIFICATION",
+  "continuous_reference_supported_modes": [],
+  "FE_vs_FD_accuracy_ranking": "NOT_ESTABLISHED",
+  "local_coupling_accuracy": "NOT_EVALUATED",
+  "root_iteration_trace_saved": false,
+  "diagnostic_limit": "root nonconvergence traceback saved; no iteration history survived exception; do not attribute detailed numerical cause",
+  "route": "NO_GO_CURRENT_IMPLEMENTATION_AND_T2_PERFORMANCE_RESTART_UNDER_CURRENT_CONTRACT",
+  "next_priority": "research-lead review of T3 paired-node and broader observation/state constraints; NOT_AUTHORIZED_FOR_EXECUTION",
+  "history": "UNCHANGED",
+  "PREC3_B": "COMPLEX_K_NOT_CERTIFIED",
+  "PREC3_C": "NOT_EVALUATED",
+  "T2_A_B_actual_performance": "NOT_EVALUATED",
+  "CHIGH_and_real_bottom": "NOT_CERTIFIED",
+  "R4_percent": 0,
+  "research_lead_review": "PENDING",
+  "STOP": true
+}

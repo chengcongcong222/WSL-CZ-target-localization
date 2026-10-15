@@ -1,0 +1,17 @@
+{
+  "source_identities": 144,
+  "original_vectors": 10,
+  "frozen_code_files": 6,
+  "main_output_seal_preserved": true,
+  "source_files_unchanged_before_ledger_append": true,
+  "ledger_exact_prefix_preserved": true,
+  "main_calls": 1,
+  "cold_calls": 1,
+  "scientific_retries": 0,
+  "science_admission": "FAIL",
+  "cold_scope": "IDENTITY_ONLY",
+  "numeric_reference_arrays": 0,
+  "R4_percent": 0,
+  "STOP": true,
+  "UTC": "2026-10-15T08:33:06.085427+00:00"
+}

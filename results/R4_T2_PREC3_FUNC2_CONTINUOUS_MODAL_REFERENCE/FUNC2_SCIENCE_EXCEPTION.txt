@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\XiaomiMiMoProjects\WSL系统汇聚区目标定位\results\R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE\func2_main.py", line 57, in main
+    k,fn,h,info=module.solve(zz,speed,mode,guess,level,cfg['loss_scales'],observe);traces.append({'stage':'A','method':method,'level':level,'mode':mode,'continuation':h})
+  File "D:\XiaomiMiMoProjects\WSL系统汇聚区目标定位\results\R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE\func2_dop853.py", line 82, in solve
+    current,h=solver.root(current)
+  File "D:\XiaomiMiMoProjects\WSL系统汇聚区目标定位\results\R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE\func2_dop853.py", line 51, in root
+    raise RuntimeError('SHOOT_ROOT_NOT_CONVERGED')
+RuntimeError: SHOOT_ROOT_NOT_CONVERGED

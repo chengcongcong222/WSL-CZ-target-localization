@@ -1,0 +1,1 @@
+{"PASS": true, "checks": 160, "FAIL": 0, "reference_arrays_rebuilt_or_residual_checked": 0, "new_independent_RK45_highmode_reconstruction": 0, "scope": "source SHA; analytic controls; fresh scalar norm; sampled ODE residual; original archive interpolation; fixed-k independent RK45 mode481 and20Q vectors when available", "R4_percent": 0, "STOP": true}

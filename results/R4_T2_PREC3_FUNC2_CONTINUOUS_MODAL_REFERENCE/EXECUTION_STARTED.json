@@ -1,0 +1,6 @@
+{
+  "design_SHA": "635f0650e18168b2b9497127fd958d50a246ddbb",
+  "main_calls_max": 1,
+  "cold_calls_max": 1,
+  "retries": 0
+}
