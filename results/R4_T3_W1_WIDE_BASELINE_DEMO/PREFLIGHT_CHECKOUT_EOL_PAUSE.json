@@ -1,0 +1,160 @@
+{
+  "failed": "exact_parent_identity/r4_a1_new_dynamic.py",
+  "checks": [
+    {
+      "check": "parent_HEAD",
+      "PASS": true
+    },
+    {
+      "check": "remote_parent",
+      "PASS": true
+    },
+    {
+      "check": "no_tracked_or_staged_changes",
+      "PASS": true
+    },
+    {
+      "check": "no_science_marker",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC\\A1_NEW_TRUTH_PANEL.csv",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC\\A1_NEW_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC\\A1_NEW_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC\\A1_NEW_CASE_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC\\SPEED_DIAGNOSTIC_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY\\SPEED_INFO_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\PUBLIC_OBSERVATION_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\PRIVATE_GENERATOR_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\CALIBRATION_THRESHOLDS.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET\\AUX_GATE2A_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET\\AUX_GATE2A_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2B_JOINT_ERROR_BUDGET\\AUX_GATE2B_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2B_JOINT_ERROR_BUDGET\\AUX_GATE2B_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2B_JOINT_ERROR_BUDGET\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2B_JOINT_ERROR_BUDGET\\AUX_CLIENT_REQUIREMENTS_UPDATED.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_CLIENT_CONFIRMATION\\AUX_CLIENT_CONFIRMATION_MATRIX.csv",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_CLIENT_CONFIRMATION\\AUX_ARCHITECTURE_DECISION_AFTER_CLIENT.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_CLIENT_CONFIRMATION\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE\\GPT_SYNC_FUNC2.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE\\T2_NUMERICAL_ROUTE_GO_NO_GO.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE\\FUNC2_FINAL_ADJUDICATION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE\\STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_E1_G0_FREQUENCY_INFORMATION\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_E1_G0_FREQUENCY_INFORMATION\\E1_G0_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_E1_G0_FREQUENCY_INFORMATION\\E1_G0_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/r4_a1_new_dynamic.py",
+      "PASS": true
+    },
+    {
+      "check": "exact_parent_identity/r4_a1_new_dynamic.py",
+      "PASS": false
+    }
+  ],
+  "main_calls": 0,
+  "cold_calls": 0,
+  "STOP": true
+}

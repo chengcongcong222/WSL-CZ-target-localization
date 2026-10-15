@@ -1,0 +1,637 @@
+{
+  "PASS": true,
+  "checks": [
+    {
+      "check": "parent_HEAD",
+      "PASS": true
+    },
+    {
+      "check": "remote_parent",
+      "PASS": true
+    },
+    {
+      "check": "no_tracked_or_staged_changes",
+      "PASS": true
+    },
+    {
+      "check": "no_science_marker",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC\\A1_NEW_TRUTH_PANEL.csv",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC\\A1_NEW_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC\\A1_NEW_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC\\A1_NEW_CASE_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC\\SPEED_DIAGNOSTIC_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY\\SPEED_INFO_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\PUBLIC_OBSERVATION_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\PRIVATE_GENERATOR_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT\\CALIBRATION_THRESHOLDS.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET\\AUX_GATE2A_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET\\AUX_GATE2A_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2B_JOINT_ERROR_BUDGET\\AUX_GATE2B_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2B_JOINT_ERROR_BUDGET\\AUX_GATE2B_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2B_JOINT_ERROR_BUDGET\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_GATE2B_JOINT_ERROR_BUDGET\\AUX_CLIENT_REQUIREMENTS_UPDATED.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_CLIENT_CONFIRMATION\\AUX_CLIENT_CONFIRMATION_MATRIX.csv",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_CLIENT_CONFIRMATION\\AUX_ARCHITECTURE_DECISION_AFTER_CLIENT.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_AUX_CLIENT_CONFIRMATION\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE\\GPT_SYNC_FUNC2.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE\\T2_NUMERICAL_ROUTE_GO_NO_GO.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE\\FUNC2_FINAL_ADJUDICATION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE\\STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_E1_G0_FREQUENCY_INFORMATION\\GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_E1_G0_FREQUENCY_INFORMATION\\E1_G0_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "history_file_present/results\\R4_E1_G0_FREQUENCY_INFORMATION\\E1_G0_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/r4_a1_new_dynamic.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/r4_a1_new_dynamic.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/r4_a1_new_estimator.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/r4_a1_new_estimator.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/r4_speed_diagnostic.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/r4_speed_diagnostic.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/r4_speed_bias_estimator.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/r4_speed_bias_estimator.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/r4_speed_information.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/r4_speed_information.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/r4_speed_diagnostic_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/r4_speed_diagnostic_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/r4_speed_information_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/r4_speed_information_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/r4_aux_gate2a.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/r4_aux_gate2a.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/r4_aux_gate2b.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/r4_aux_gate2b.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/aux_d1_generate.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/aux_d1_generate.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/aux_d1_model.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/aux_d1_model.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/aux_d1_evaluate.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/aux_d1_evaluate.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/aux_d1_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/aux_d1_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_TRUTH_PANEL.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_TRUTH_PANEL.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_CASE_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_CASE_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC/SPEED_DIAGNOSTIC_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_A1_NEW_SPEED_BOTTLENECK_DIAGNOSTIC/SPEED_DIAGNOSTIC_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/SPEED_INFO_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_A1_NEW_SPEED_INFORMATION_EFFICIENCY/SPEED_INFO_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/PUBLIC_OBSERVATION_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/PUBLIC_OBSERVATION_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/PRIVATE_GENERATOR_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/PRIVATE_GENERATOR_MANIFEST.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/CALIBRATION_THRESHOLDS.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/CALIBRATION_THRESHOLDS.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET/AUX_GATE2A_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET/AUX_GATE2A_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET/AUX_GATE2A_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET/AUX_GATE2A_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_GATE2A_NONIDEAL_ERROR_BUDGET/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_GATE2B_JOINT_ERROR_BUDGET/AUX_GATE2B_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_GATE2B_JOINT_ERROR_BUDGET/AUX_GATE2B_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_GATE2B_JOINT_ERROR_BUDGET/AUX_GATE2B_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_GATE2B_JOINT_ERROR_BUDGET/AUX_GATE2B_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_GATE2B_JOINT_ERROR_BUDGET/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_GATE2B_JOINT_ERROR_BUDGET/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_GATE2B_JOINT_ERROR_BUDGET/AUX_CLIENT_REQUIREMENTS_UPDATED.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_GATE2B_JOINT_ERROR_BUDGET/AUX_CLIENT_REQUIREMENTS_UPDATED.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_CLIENT_CONFIRMATION/AUX_CLIENT_CONFIRMATION_MATRIX.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_CLIENT_CONFIRMATION/AUX_CLIENT_CONFIRMATION_MATRIX.csv",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_CLIENT_CONFIRMATION/AUX_ARCHITECTURE_DECISION_AFTER_CLIENT.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_CLIENT_CONFIRMATION/AUX_ARCHITECTURE_DECISION_AFTER_CLIENT.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_AUX_CLIENT_CONFIRMATION/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_AUX_CLIENT_CONFIRMATION/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE/GPT_SYNC_FUNC2.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE/GPT_SYNC_FUNC2.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE/T2_NUMERICAL_ROUTE_GO_NO_GO.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE/T2_NUMERICAL_ROUTE_GO_NO_GO.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE/FUNC2_FINAL_ADJUDICATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE/FUNC2_FINAL_ADJUDICATION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE/STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE/STOP.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_E1_G0_FREQUENCY_INFORMATION/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_E1_G0_FREQUENCY_INFORMATION/GPT_SYNC.md",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_E1_G0_FREQUENCY_INFORMATION/E1_G0_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_E1_G0_FREQUENCY_INFORMATION/E1_G0_DECISION.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_E1_G0_FREQUENCY_INFORMATION/E1_G0_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_content_identity_including_Git_EOL/results/R4_E1_G0_FREQUENCY_INFORMATION/E1_G0_DESIGN_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "check": "parent_blob_exists/results/R4_MASTER/R4_EVIDENCE_LEDGER.csv",
+      "PASS": true
+    },
+    {
+      "check": "ledger_Git_checkout_content",
+      "PASS": true
+    },
+    {
+      "check": "ledger_original_physical_bytes",
+      "PASS": true
+    },
+    {
+      "check": "epochs_time_turn",
+      "PASS": true
+    },
+    {
+      "check": "historical_platform_exact",
+      "PASS": true
+    },
+    {
+      "check": "augmented_NLL_full_Jacobian_0.05",
+      "PASS": true
+    },
+    {
+      "check": "NLL_normalization_identity_0.05",
+      "PASS": true
+    },
+    {
+      "check": "augmented_NLL_full_Jacobian_0.075",
+      "PASS": true
+    },
+    {
+      "check": "NLL_normalization_identity_0.075",
+      "PASS": true
+    },
+    {
+      "check": "independent_Cartesian_mean_Jacobian",
+      "PASS": true
+    },
+    {
+      "check": "independent_Cartesian_variance_Jacobian",
+      "PASS": true
+    },
+    {
+      "check": "failure_INF_quantile",
+      "PASS": true
+    },
+    {
+      "check": "nearest_rank_not_linear",
+      "PASS": true
+    },
+    {
+      "check": "failure_all_errors_INF",
+      "PASS": true
+    },
+    {
+      "check": "runtime_monitor_psutil",
+      "PASS": true
+    },
+    {
+      "check": "runtime_dependencies_import",
+      "PASS": true
+    },
+    {
+      "check": "AST/t3_w1_cold.py",
+      "PASS": true
+    },
+    {
+      "check": "AST/t3_w1_execute.py",
+      "PASS": true
+    },
+    {
+      "check": "AST/t3_w1_generate.py",
+      "PASS": true
+    },
+    {
+      "check": "AST/t3_w1_information.py",
+      "PASS": true
+    },
+    {
+      "check": "AST/t3_w1_main.py",
+      "PASS": true
+    },
+    {
+      "check": "AST/t3_w1_model.py",
+      "PASS": true
+    },
+    {
+      "check": "estimator_no_truth_generator_access",
+      "PASS": true
+    },
+    {
+      "check": "AST/t3_w1_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "AST/t3_w1_statistics.py",
+      "PASS": true
+    },
+    {
+      "check": "registered12exact_cases",
+      "PASS": true
+    },
+    {
+      "check": "all_states_in_inherited_physical_domain",
+      "PASS": true
+    },
+    {
+      "check": "D_disk_reserve",
+      "PASS": true
+    }
+  ],
+  "source_count": 46,
+  "formal_main_calls": 0,
+  "formal_cold_calls": 0,
+  "versions": {
+    "Python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "NumPy": "1.26.4",
+    "SciPy": "1.15.3",
+    "psutil": "5.9.8",
+    "matplotlib": "3.10.9"
+  },
+  "initial_state": {
+    "parent_SHA": "7d36d15ecbc9a3435c65e114585328a3bbbf94cc",
+    "status": "?? _tmp_check_arr.py\n?? _tmp_check_vla.py\n?? _tmp_diag_eq15.py\n?? _tmp_extract_texts.py\n?? _tmp_flp2.py\n?? _tmp_id_pdfs.py\n?? _tmp_test_interp.py\n?? _tmp_try_flp.py\n?? _tmp_try_flp2.py\n?? _tmp_try_kraken_env.py\n?? audit-user-caches.ps1\n?? literature/xu_jialin_2024_cz_tdoa.pdf\n?? results/R4_T3_W1_WIDE_BASELINE_DEMO/\n?? results/local-storage-audit-20261015/\n?? user-cache-audit.json\n?? user-cache-metadata.json",
+    "ledger_SHA256": "fa3ca587d16b61cf07570148b22b1c80ec2efd19363b7702bf8eb027e762d998"
+  },
+  "R4_percent": 0
+}
