@@ -1,0 +1,7 @@
+{
+  "initial_preparation_assertion": "no-checkout worktree still had empty index; canonical repo and archived vectors unaffected",
+  "correction": "initialize sparse index and working files from fixed HEAD with read-tree -mu; only new independent worktree materialized",
+  "aborted_owned_readonly_git_diff": "stopped before making changes",
+  "new_worktree_status": "CLEAN",
+  "scientific_calls": 0
+}
