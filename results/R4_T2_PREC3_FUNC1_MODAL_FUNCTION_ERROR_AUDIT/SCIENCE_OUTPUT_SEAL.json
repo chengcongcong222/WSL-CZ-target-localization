@@ -1,0 +1,101 @@
+{
+  "files": [
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\func1_cold.py",
+      "sha256": "31a3c460afbb9023440c7e075a67e3a31b7bc6a78f25658842cd10b17fb76855"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_COLD_AUDIT.json",
+      "sha256": "0925e5c122aec7ae55f6ff91a22373b9125b035ccddcbda4b9125cfb1da07651"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_COLD_CHECKS.csv",
+      "sha256": "2eaf3a02c7b25f980ec7a740cd52d9e89aa3d885646f48da9db48fc28a45d505"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_COUPLING_CHANNELS.csv",
+      "sha256": "e81de6107c3c180605c439ec0078c521ddf99ce074c4da03a6dcdd0fa30a28de"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_DECISION.json",
+      "sha256": "2acf3b24bfd05813452afd4f34868ed5f29287e2351f32404e229ea0ce0d662c"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_DENSE_SAMPLES.npz",
+      "sha256": "4c3d9e57870a5d51d47f6e7649579a39f7a91df7c2219e41982213743cba0842"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_DENSE_SAMPLING_COMPARISON.csv",
+      "sha256": "fe86e35d5572975f87743a07f2c887f711b6c957442a6dd8c9b0867fae970b07"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_DEPTH_RESOLVED_ERROR.csv",
+      "sha256": "417da5d76e8d8a01ff58f93eec67c36f24203de8f85ade572f0df07de4b38558"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_DESIGN_FREEZE.json",
+      "sha256": "03f56ee5beb76178e85040049516190416af4097c3a4879bc035c90c4aa5196c"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_EMPIRICAL_ORDER.csv",
+      "sha256": "085d91b839e7f076a235ce605c6ed3e737872324879b55d50159cb50bc4fdcea"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\func1_execute.py",
+      "sha256": "2af1cdbbd1697c37330a5a598d3b12a176648cc5d6a650eb30624c8b7a452563"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_FE_FD_CROSS_GRID.csv",
+      "sha256": "0525a6b4461ecb01de44fafc696bda47ac15a3402992a25e12c37d3d93b226f3"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_FINAL_PRE_RUN_CHECK.json",
+      "sha256": "59881cc4db3b506fcd8efcecc4e6ab38979e2f6f186c0c1f84590d40b00a7aa8"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_LOCAL_FUNCTION_COMPARISON.csv",
+      "sha256": "96318366d3daa0d87c301e48069b0b30bc3632d948c5d5ec41208ba117a6d150"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_LOCAL_MODAL_COUPLING.csv",
+      "sha256": "fd10a4034828f63fe678fc22ee548c0571f464a89a556df1b3b5c415d4bcd0a7"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\func1_main.py",
+      "sha256": "69381a0a3956250806f0303223250d1d6bc6e4a2b6b757896ae2752bc4a6673e"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_MODE961_DATA_SCOPE.json",
+      "sha256": "ff477461df4646b633166e6536e305d2d2f6dfb3b4bcb9072b003440942be6bb"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_NORMALIZATION_AND_PHASE_AUDIT.csv",
+      "sha256": "ac847e238a389bccf5af14cba53b63ede408011be50f3622023c454b1695429e"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_ORIGINAL_GATE_RECONSTRUCTION.csv",
+      "sha256": "55505f17b7d3b4497dfb7b8bc73634595af0a2a67e5a60e875b16bd692e62590"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_PREFLIGHT.json",
+      "sha256": "d03bbbaafe464aca56543ce1e75f6b8236d224a180d29818c00fe790e8bc0d31"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\func1_preflight.py",
+      "sha256": "20174ea89a3c29cd172c21c444aa096213276f86a4a00b83fdccb4be4a70c7d5"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_SAMPLING_RISK.csv",
+      "sha256": "9c5646958372c13680e59d02bf252f30d283b6142cc6a1c3cb9394b3960f782e"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_VECTOR_IDENTITIES.csv",
+      "sha256": "786494718648a7f56e2f568f298788ab2c474f538920528e7255477fb7b73f8f"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\worktree\\results\\R4_T2_PREC3_FUNC1_MODAL_FUNCTION_ERROR_AUDIT\\FUNC1_VERTICAL_WAVELENGTH_BY_DEPTH.csv",
+      "sha256": "b6758ab87958810388938c72013cc8140c932394496e6223e3189a62a29a1cbe"
+    }
+  ],
+  "STOP": true
+}

@@ -1,0 +1,23 @@
+{
+  "FE_cross_grid": "COMPLETED_0p25M_GRID",
+  "FE_FD_dense_comparison": "NOT_EVALUATED_FD_VECTOR_NOT_ARCHIVED",
+  "single_mode_FE_FD_coupling": "NOT_EVALUATED_FD_VECTOR_NOT_ARCHIVED",
+  "historical_cold_results_scope": "HISTORICAL_COLD_RESULT_ONLY",
+  "historical_cold_rows": [
+    {
+      "check": "independent_complex_mode_shape",
+      "error": "0.02568706566675486",
+      "tolerance": "0.002",
+      "PASS": "False",
+      "detail": "961/80000"
+    },
+    {
+      "check": "independent_complex_mode_shape",
+      "error": "0.006421653310254197",
+      "tolerance": "0.002",
+      "PASS": "False",
+      "detail": "961/160000"
+    }
+  ],
+  "new_FD_Galerkin_Pruefer_solves": 0
+}

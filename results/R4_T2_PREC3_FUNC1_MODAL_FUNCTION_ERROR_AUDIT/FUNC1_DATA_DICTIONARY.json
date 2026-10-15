@@ -1,0 +1,14 @@
+{
+  "errors": "dimensionless; multiply100 for percent",
+  "sampling_bias": "20m original has unweighted norm; SSP_TRAPZ separately isolates endpoint weighting before dense sampling",
+  "metric_e_sign": "reference is second vector, FD in FE-vs-FD; raw archived values, sign selection only",
+  "metric_e_complex": "reference target norm is first vector; alpha minimizes weighted residual; diagnostic only",
+  "same_method_cross_grid_metric_names": "In generic metric fields FE_* means first/coarse vector and FD_* means second/fine reference, BOTH belong to method column. No FD961 vector is implied.",
+  "coupling": "phi(source)*phi(receiver), no radial propagation factor or full-mode summation; no per-channel fitted gain",
+  "equal_depth_arrays": "single-mode Q vectors at same receiver depth are collinear by construction; nearzero shape errors are a structural control, not full-field accuracy",
+  "weak_flags": "fixed design flags, no realistic SNR inferred; raw finite ratios retained, exactly zero reference undefined",
+  "own_method_order": "single cross-grid pair does not estimate individual-method convergence order",
+  "full_field_and_localization": "NOT_EVALUATED",
+  "bias_classification_formula": "abs(e_dense-e_20m)>max(2e-5,0.1*e_dense); reported relative increase uses e_20m denominator",
+  "check_counts": "cold checks are reconstruction items, not independent physical experiments"
+}

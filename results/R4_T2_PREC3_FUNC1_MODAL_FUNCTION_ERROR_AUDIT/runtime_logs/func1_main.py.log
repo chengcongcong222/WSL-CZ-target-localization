@@ -1,0 +1,63 @@
+{
+  "stage": "T2-PREC3-FUNC1",
+  "archive_vectors": 10,
+  "historical_reconstruction": "PASS",
+  "dense_quadrature": "PASS",
+  "classifications": [
+    "FUNC1_EVALUATION_GRID_NOT_DOMINANT_IN_TESTED_MODES",
+    "FUNC1_SECOND_ORDER_BEHAVIOR_OBSERVED",
+    "FUNC1_LOCAL_MODAL_COUPLING_DIAGNOSTIC_ONLY"
+  ],
+  "R4_percent": 0,
+  "historical_PREC3_B": "FAIL_UNCHANGED",
+  "STOP": true,
+  "original_reconstructions": 4,
+  "dense_sampling_rows": 20,
+  "phase_rows": 20,
+  "cross_grid_rows": 9,
+  "depth_band_rows": 100,
+  "local_function_rows": 4,
+  "coupling_vectors": 80,
+  "coupling_channels": 800,
+  "original_vs_dense": [
+    {
+      "mode": 1,
+      "N": 80000,
+      "original": 2.505294124435544e-08,
+      "dense": 2.5421822016487272e-08,
+      "bias_observed": false,
+      "sign_of_dense_minus_original": 1,
+      "original_failure_persists_descriptively": false
+    },
+    {
+      "mode": 1,
+      "N": 160000,
+      "original": 6.1684211919452705e-09,
+      "dense": 6.261728790303207e-09,
+      "bias_observed": false,
+      "sign_of_dense_minus_original": 1,
+      "original_failure_persists_descriptively": false
+    },
+    {
+      "mode": 481,
+      "N": 80000,
+      "original": 0.01418252257581303,
+      "dense": 0.014863045168752882,
+      "bias_observed": false,
+      "sign_of_dense_minus_original": 1,
+      "original_failure_persists_descriptively": true
+    },
+    {
+      "mode": 481,
+      "N": 160000,
+      "original": 0.0035455515831372907,
+      "dense": 0.003715776827999502,
+      "bias_observed": false,
+      "sign_of_dense_minus_original": 1,
+      "original_failure_persists_descriptively": true
+    }
+  ],
+  "FD961_status": "NOT_EVALUATED_FD_VECTOR_NOT_ARCHIVED",
+  "independent_audit": "PENDING",
+  "new_solves": 0
+}

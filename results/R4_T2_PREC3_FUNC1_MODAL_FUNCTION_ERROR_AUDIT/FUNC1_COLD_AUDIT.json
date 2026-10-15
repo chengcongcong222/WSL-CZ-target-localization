@@ -1,0 +1,14 @@
+{
+  "PASS": true,
+  "checks": 12792,
+  "FAIL": 0,
+  "vectors_read": 10,
+  "paired_modes_dense": [
+    1,
+    481
+  ],
+  "mode961_new_FD_solves": 0,
+  "method": "independent linear interpolation and interval weights; fsum integrals; QR coefficient; fresh archived NPZ inputs; no main imports",
+  "R4_percent": 0,
+  "STOP": true
+}

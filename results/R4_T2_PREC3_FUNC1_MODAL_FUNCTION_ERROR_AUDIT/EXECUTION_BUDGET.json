@@ -1,0 +1,29 @@
+{
+  "stages": [
+    {
+      "program": "func1_main.py",
+      "wall_limit_s": 1200,
+      "returncode": 0,
+      "wall_s": 1.156999999890104,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\runtime_logs\\func1_main.py.log",
+      "sha256": "25a3e4cec4f5b7824e77533c4fbb7ad7f777ab92c2362b2f9ad9b03ca3c71baa"
+    },
+    {
+      "program": "func1_cold.py",
+      "wall_limit_s": 600,
+      "returncode": 0,
+      "wall_s": 1.2339999999385327,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\T2_PREC3_FUNC1\\runtime_logs\\func1_cold.py.log",
+      "sha256": "7e88ed34fc435682b619b7cef3842a9755ee1daeecc273f57bc096cdf66932a4"
+    }
+  ],
+  "failure": null,
+  "wall_s": 2.6410000000614673,
+  "peak_tree_RSS_bytes": 77635584,
+  "main_calls": 1,
+  "cold_calls": 1,
+  "science_retries": 0,
+  "new_KRAKEN_KRAKENC_FIELD_FIELDS_SCOOTER_FE_FD_PRUFER_fullmode_MC_waveform_DFT_FIM_localization_calls": 0,
+  "new_D_bytes": 21971187,
+  "git_result_bytes": 5442159
+}
