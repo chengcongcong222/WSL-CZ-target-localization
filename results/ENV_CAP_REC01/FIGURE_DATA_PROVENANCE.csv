@@ -1,0 +1,2 @@
+figure,input,input_sha256,selection
+figures/REC01_energy_roundoff.png; figures/REC01_energy_roundoff.pdf,REC01_FULL_RANGE_ENERGY.csv,0a60905d91b5065ed6b8ddd02d0f855159344e54b60e60214213b8e7a891dbf9,two previously known legacy-failure examples shown descriptively; all cases and all bins remain in full CSV; no selection for scientific Gate

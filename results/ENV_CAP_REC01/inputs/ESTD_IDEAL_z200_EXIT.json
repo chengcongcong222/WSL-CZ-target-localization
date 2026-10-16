@@ -1,0 +1,27 @@
+{
+  "case_id": "ESTD_IDEAL_z200",
+  "source_family": "ESTD_IDEAL",
+  "nominal_C_linear_only": true,
+  "old_stage_unchanged": true,
+  "fold": null,
+  "refined_angle_fold": null,
+  "classification": "CZ_PHYSICAL_IDENTITY_UNRESOLVED",
+  "geometry_supported": false,
+  "ray_TL_conditional_supported": false,
+  "boundary_contributions_isolated": false,
+  "raw_ray_checks": [
+    {
+      "n": 201,
+      "max_error_km": 1.797661981228771e-05,
+      "PASS": true,
+      "level": "R0"
+    },
+    {
+      "n": 201,
+      "max_error_km": 5.435543371845597e-06,
+      "PASS": true,
+      "level": "R1"
+    }
+  ],
+  "reason": "No interior zero-boundary first-return fold in frozen downward-angle/range domain. Archived field retained; no adaptive focus selection."
+}

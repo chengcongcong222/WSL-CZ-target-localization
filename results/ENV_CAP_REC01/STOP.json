@@ -1,0 +1,14 @@
+{
+  "stage": "ENV_CAP_REC01",
+  "status": "STOP",
+  "time_unix": 1792134607.0934336,
+  "reason": "CONDITIONAL_CZ_NUMERICS_RECOVERED_COHERENT_PROVIDER_NOT_READY",
+  "cancelled_dependent_work": [
+    "Yang/MMAR CZ ideal/nonoracle depth performance",
+    "E3 sensitivity and performance MC"
+  ],
+  "new_solver_calls": 0,
+  "new_MC": 0,
+  "history_unchanged": true,
+  "next_stage_requires_new_authorization": true
+}

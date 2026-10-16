@@ -1,0 +1,9 @@
+{
+  "execution_completed": true,
+  "R1_cases": 15,
+  "positive_energy_bins": 31716,
+  "R2_PASS": true,
+  "R3_new_numeric_execution": "NOT_REQUESTED_NO_CERTIFIED_COHERENT_PROVIDER",
+  "new_solver_calls": 0,
+  "new_MC": 0
+}

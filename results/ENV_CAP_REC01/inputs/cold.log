@@ -1,0 +1,1 @@
+{"PASS": true, "checks": 1137, "FAIL_count": 0, "scope": "All 31716 stored-field bins reconstructed independently; Decimal sentinels/zeros; ray prefix and path quadrature; conditional classifications; mirror Decimal distances. No absolute real-ocean or coherent modal accuracy certificate."}

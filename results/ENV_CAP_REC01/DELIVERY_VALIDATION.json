@@ -1,0 +1,290 @@
+{
+  "PASS": true,
+  "scope": "Delivery integrity only; no scientific retry or recomputation",
+  "sizes": {
+    "Git_results_bytes": 10623321,
+    "D_work_bytes": 277438
+  },
+  "checks": [
+    {
+      "check": "all825_input_and_frozen_code_still_identical",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "post_cold_metadata_only_no_scientific_case_changes",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_R4 T3 W1 conditional demo",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_T2 numerical route closeout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_E-STD modal numeric warning",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_Yang paper reproduction",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_Yang first CZ-like E-STD transfer",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_Yang primary source lock",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_Yang primary source note",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_Liang MMAR spectrum limits",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_Liang MMAR Hankel bridge",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_Observability research reset",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_Existing research protocol",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_WOA23 sourcegrid code",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_WOA23 interim code",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_ETOPO WOA first CZ code",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_SCS shallow/deep reconstruction and CZ Snell control",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_B3D3 path association bottleneck",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_BELLHOP BOX warning",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_BELLHOP old CZ source audit",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_R3 C2 Yang oracle vs extracted gap",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_R4 H3 source-depth conditional mechanism",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_R4 H3 method review",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_E2 old spatial autoproduct numerical gate",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_R4 RC2 support and mirrors",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_R4 E1 frequency nuisance",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_Single HLA stage closeout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_T3 W1 final adjudication",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_Aux hardware confirmation",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "historical_reference_Application old master ledger",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_GPT_SYNC_ENV_CAP_REC01.md",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_REC01_E1_NUMERICAL_RECONSTRUCTION.csv",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_REC01_CZ_PHYSICS_ADJUDICATION.json",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_REC01_MIRROR_CONTROL.json",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_REC01_COHERENT_FORWARD_FEASIBILITY.md",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_REC01_RESOURCE_AND_RESEARCH_GAPS.md",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_REC01_INDEPENDENT_COLD_AUDIT.json",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_REC01_FINAL_DECISION.json",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_STOP.json",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_RAW_DATA_INDEX.csv",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all31716_energy_rows_present",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all15_units_retained",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_independent_audit_PASS",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all12_old_failures_mapped",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "zero_windows_retained",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "zero_new_solver_MC",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "old_STOP_file_identity_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_code_preflight.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_code_rec01_analysis.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_code_rec01_cold.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_code_run_once.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_before_formal_science",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "only_new_REC01_tracked_paths_changed",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Git_under64MiB",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "new_D_under4GiB",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "one_analysis_and_one_cold_launch",
+      "PASS": true,
+      "detail": null
+    }
+  ]
+}

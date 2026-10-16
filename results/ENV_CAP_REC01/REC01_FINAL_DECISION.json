@@ -1,0 +1,49 @@
+{
+  "stage": "ENV_CAP_REC01",
+  "parent_SHA": "a34a1466d21e74b0ea2cfbad53957e1d6c3f49bc",
+  "design_SHA": "ebb1f45fddf468c04bedfd027e8bce54d1cbec65",
+  "status": "STOP",
+  "decision": "CONDITIONAL_CZ_NUMERICS_RECOVERED_COHERENT_PROVIDER_NOT_READY",
+  "independent_cold_PASS": true,
+  "cold_checks": 1137,
+  "cold_FAIL": 0,
+  "R1": {
+    "all_cases": 15,
+    "classes": {
+      "CZ_NOT_PRESENT_IN_TESTED_DOMAIN": 3,
+      "CZ_PHYSICAL_IDENTITY_UNRESOLVED": 3,
+      "CZ_RAY_TL_CONDITIONAL_SUPPORTED": 9
+    },
+    "full_energy_bins": 31716,
+    "distinct_source_families": 1,
+    "source_family": "WOA23_17N118E",
+    "exclusive_refractive_energy": "UNRESOLVED",
+    "negative_controls_preserved": 3,
+    "E_STD_physical_identity_unresolved": 3
+  },
+  "R2": "FLOAT64_MIRROR_CONTROL_SUPPORTED_OLD_25_OF_26_UNCHANGED",
+  "R3": {
+    "current_coherent_provider": "NOT_READY",
+    "new_solver_calls": 0,
+    "Yang_CZ_ideal_depth": "NOT_EVALUATED",
+    "MMAR_CZ_nonoracle_extraction": "NOT_EVALUATED",
+    "reference_paths": 2
+  },
+  "R4_stage_research_decision": {
+    "A_nominal_CZ_environment": "YES_CONDITIONAL_ONE_SOURCE_FAMILY",
+    "B_coherent_provider": "NO_CURRENT_CERTIFIED_PROVIDER",
+    "C_Yang_MMAR_performance_prerequisites": "NOT_READY",
+    "D_proven_frontmost_obstacle": "COHERENT_FORWARD_AND_NONORACLE_OBSERVATION_CONTRACT_MISSING",
+    "E_resource_lower_bounds": "NOT_ESTABLISHED_FOR_NEW_CZ"
+  },
+  "budget": {
+    "new_MC": 0,
+    "new_solver_calls": 0,
+    "science_wall_s": 81.9097600998357,
+    "science_peak_RSS_bytes": 408469504
+  },
+  "historical_R4": "0%",
+  "historical_ENV_CAP": "NO_GO_CURRENT_CZ_METHOD_PERFORMANCE_DEMO_UNCHANGED",
+  "T2_FUNC2": "STOP_UNCHANGED",
+  "next_execution_authorized": false
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "ENV_CAP_REC01",
+  "phase": "STOP",
+  "formal_runs": 1,
+  "cold_runs": 1,
+  "analysis_launch": "inputs/ANALYSIS_LAUNCH.json",
+  "cold_launch": "inputs/COLD_LAUNCH.json",
+  "scientific_threshold_changes_after_A": 0,
+  "new_solver_calls": 0,
+  "new_MC": 0,
+  "coherent_performance": "NOT_EVALUATED",
+  "raw_files_copied": false
+}

@@ -1,0 +1,89 @@
+{
+  "case_id": "SCS17_JW_z200",
+  "source_family": "WOA23_17N118E",
+  "nominal_C_linear_only": true,
+  "old_stage_unchanged": true,
+  "fold": {
+    "angle_deg": 2.77655,
+    "deep_return_km": 47.756121497383,
+    "turn_z_m": 2799.573334949619,
+    "phase_speed_mps": 1506.0530165037894,
+    "deep_bottom_bounce": false,
+    "upper_return_km": 1.5906986630028754,
+    "upper_surface_bounce": false,
+    "upper_then_deep_km": 49.346820160385874,
+    "turn_nearest_SSP_node_m": 0.4266650503809615
+  },
+  "refined_angle_fold": {
+    "angle_deg": 2.781525,
+    "deep_return_km": 47.755557660521724,
+    "turn_z_m": 2799.938721066667,
+    "phase_speed_mps": 1506.0593643173165,
+    "deep_bottom_bounce": false,
+    "upper_return_km": 1.593553343230462,
+    "upper_surface_bounce": false,
+    "upper_then_deep_km": 49.349111003752185,
+    "turn_nearest_SSP_node_m": 0.06127893333314205
+  },
+  "classification": "CZ_RAY_TL_CONDITIONAL_SUPPORTED",
+  "geometry_supported": true,
+  "ray_TL_conditional_supported": true,
+  "boundary_contributions_isolated": false,
+  "raw_ray_checks": [
+    {
+      "n": 96,
+      "max_error_km": 7.240775893535556e-06,
+      "PASS": true,
+      "level": "R0"
+    },
+    {
+      "n": 96,
+      "max_error_km": 4.636167751925768e-06,
+      "PASS": true,
+      "level": "R1"
+    }
+  ],
+  "focus_metrics": [
+    {
+      "peak_km": 49.125,
+      "width_km": 4.75,
+      "prominence_dB": 12.461147332996745,
+      "boundary": false
+    },
+    {
+      "peak_km": 49.125,
+      "width_km": 4.625,
+      "prominence_dB": 12.393773014796096,
+      "boundary": false
+    },
+    {
+      "peak_km": 49.125,
+      "width_km": 4.75,
+      "prominence_dB": 12.194289640184323,
+      "boundary": false
+    }
+  ],
+  "field_refinement": [
+    {
+      "comparison": "I0_I1",
+      "median_dB": 0.026626224489589845,
+      "P95_dB": 0.12773867678400633,
+      "peak_delta_km": 0.0,
+      "width_delta_km": 0.125,
+      "PASS": true
+    },
+    {
+      "comparison": "I1_I2",
+      "median_dB": 0.01090857612245344,
+      "P95_dB": 0.2033269887537912,
+      "peak_delta_km": 0.0,
+      "width_delta_km": 0.125,
+      "PASS": true
+    }
+  ],
+  "fold_angle_refinement_PASS": true,
+  "enhancement_PASS": true,
+  "possible_boundary_path_overlap_in_focus": true,
+  "boundary_path_overlap_samples": 63,
+  "physical_scope": "Zero-boundary first-return fold plus total incoherent energy enhancement; boundary energy not separated. Conditional nominal C-linear evidence, not exclusive refractive intensity or detection."
+}

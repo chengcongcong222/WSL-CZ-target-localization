@@ -1,0 +1,6055 @@
+{
+  "PASS": true,
+  "checks": 1137,
+  "FAIL_count": 0,
+  "scope": "All 31716 stored-field bins reconstructed independently; Decimal sentinels/zeros; ray prefix and path quadrature; conditional classifications; mirror Decimal distances. No absolute real-ocean or coherent modal accuracy certificate.",
+  "checks_detail": [
+    {
+      "check": "SCS17_JW_z150I0_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I0_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I0_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006241361588788715
+      }
+    },
+    {
+      "check": "SCS17_JW_z150I0_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I0_decimal_bin0",
+      "PASS": true,
+      "detail": 1.6155871338926322e-27
+    },
+    {
+      "check": "SCS17_JW_z150I0_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z150I0_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z150I0_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I0_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I1_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I1_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I1_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 2.6469779601696886e-23,
+        "max_bound_ratio": 0.0006468374680667006
+      }
+    },
+    {
+      "check": "SCS17_JW_z150I1_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I1_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z150I1_decimal_bin440",
+      "PASS": true,
+      "detail": 4.1359030627651384e-25
+    },
+    {
+      "check": "SCS17_JW_z150I1_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z150I1_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I1_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I2_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I2_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I2_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006241727967817695
+      }
+    },
+    {
+      "check": "SCS17_JW_z150I2_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I2_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z150I2_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z150I2_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z150I2_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z150I2_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z150I2_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z150I2_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z150I2_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z150I2_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150I2_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150_Snell_independent_quadrature_1.0",
+      "PASS": true,
+      "detail": 1.1957013157370966e-09
+    },
+    {
+      "check": "SCS17_JW_z150_Snell_independent_quadrature_3.0",
+      "PASS": true,
+      "detail": 8.737828238736256e-10
+    },
+    {
+      "check": "SCS17_JW_z150_Snell_independent_quadrature_5.0",
+      "PASS": true,
+      "detail": 2.5350033183713094e-10
+    },
+    {
+      "check": "SCS17_JW_z150R0_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150R1_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150_fold_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150_conditional_CZ_classification",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z150_focus_and_refinement_metrics",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I0_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I0_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I0_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006335069672339142
+      }
+    },
+    {
+      "check": "SCS17_JW_z200I0_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin1",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin2",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin3",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin4",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin5",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin6",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin7",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin8",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin9",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin10",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin11",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin12",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin13",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin14",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin15",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin16",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin17",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin40",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin440",
+      "PASS": true,
+      "detail": 2.0679515313825692e-25
+    },
+    {
+      "check": "SCS17_JW_z200I0_decimal_bin880",
+      "PASS": true,
+      "detail": 2.0679515313825692e-25
+    },
+    {
+      "check": "SCS17_JW_z200I0_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I0_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I1_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I1_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I1_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006132946265754368
+      }
+    },
+    {
+      "check": "SCS17_JW_z200I1_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I1_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I1_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I1_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I1_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I1_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I2_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I2_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I2_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 2.6469779601696886e-23,
+        "max_bound_ratio": 0.0006384209480392285
+      }
+    },
+    {
+      "check": "SCS17_JW_z200I2_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I2_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I2_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z200I2_decimal_bin880",
+      "PASS": true,
+      "detail": 2.0679515313825692e-25
+    },
+    {
+      "check": "SCS17_JW_z200I2_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200I2_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200_Snell_independent_quadrature_1.0",
+      "PASS": true,
+      "detail": 1.5533814234913734e-09
+    },
+    {
+      "check": "SCS17_JW_z200_Snell_independent_quadrature_3.0",
+      "PASS": true,
+      "detail": 1.2601546472978953e-09
+    },
+    {
+      "check": "SCS17_JW_z200_Snell_independent_quadrature_5.0",
+      "PASS": true,
+      "detail": 5.567812877416145e-11
+    },
+    {
+      "check": "SCS17_JW_z200R0_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200R1_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200_fold_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200_conditional_CZ_classification",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z200_focus_and_refinement_metrics",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I0_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I0_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I0_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 9.926167350636332e-24,
+        "max_bound_ratio": 0.0006298554988520889
+      }
+    },
+    {
+      "check": "SCS17_JW_z250I0_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I0_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z250I0_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z250I0_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z250I0_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I0_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I1_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I1_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I1_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006586191293635811
+      }
+    },
+    {
+      "check": "SCS17_JW_z250I1_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I1_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z250I1_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z250I1_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JW_z250I1_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I1_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I2_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I2_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I2_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006327239783504867
+      }
+    },
+    {
+      "check": "SCS17_JW_z250I2_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I2_decimal_bin0",
+      "PASS": true,
+      "detail": 4.0389678347315804e-28
+    },
+    {
+      "check": "SCS17_JW_z250I2_decimal_bin440",
+      "PASS": true,
+      "detail": 2.0679515313825692e-25
+    },
+    {
+      "check": "SCS17_JW_z250I2_decimal_bin880",
+      "PASS": true,
+      "detail": 2.0679515313825692e-25
+    },
+    {
+      "check": "SCS17_JW_z250I2_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250I2_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250_Snell_independent_quadrature_1.0",
+      "PASS": true,
+      "detail": 9.042935289471643e-10
+    },
+    {
+      "check": "SCS17_JW_z250_Snell_independent_quadrature_3.0",
+      "PASS": true,
+      "detail": 2.611528771012672e-10
+    },
+    {
+      "check": "SCS17_JW_z250_Snell_independent_quadrature_5.0",
+      "PASS": true,
+      "detail": 1.1445280279076542e-09
+    },
+    {
+      "check": "SCS17_JW_z250R0_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250R1_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250_fold_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250_conditional_CZ_classification",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JW_z250_focus_and_refinement_metrics",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I0_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I0_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I0_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 3.970466940254533e-23,
+        "max_bound_ratio": 0.000611949471431752
+      }
+    },
+    {
+      "check": "SCS17_JA_z150I0_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I0_decimal_bin0",
+      "PASS": true,
+      "detail": 1.6155871338926322e-27
+    },
+    {
+      "check": "SCS17_JA_z150I0_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z150I0_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z150I0_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I0_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I1_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I1_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I1_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 2.6469779601696886e-23,
+        "max_bound_ratio": 0.0006568217251139177
+      }
+    },
+    {
+      "check": "SCS17_JA_z150I1_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I1_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z150I1_decimal_bin440",
+      "PASS": true,
+      "detail": 4.1359030627651384e-25
+    },
+    {
+      "check": "SCS17_JA_z150I1_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z150I1_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I1_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I2_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I2_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I2_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 2.6469779601696886e-23,
+        "max_bound_ratio": 0.0006295639700061607
+      }
+    },
+    {
+      "check": "SCS17_JA_z150I2_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I2_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z150I2_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z150I2_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z150I2_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z150I2_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z150I2_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z150I2_decimal_bin440",
+      "PASS": true,
+      "detail": 4.1359030627651384e-25
+    },
+    {
+      "check": "SCS17_JA_z150I2_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z150I2_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150I2_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150_Snell_independent_quadrature_1.0",
+      "PASS": true,
+      "detail": 6.354312631629e-10
+    },
+    {
+      "check": "SCS17_JA_z150_Snell_independent_quadrature_3.0",
+      "PASS": true,
+      "detail": 4.248263962836063e-10
+    },
+    {
+      "check": "SCS17_JA_z150_Snell_independent_quadrature_5.0",
+      "PASS": true,
+      "detail": 5.557794224841928e-10
+    },
+    {
+      "check": "SCS17_JA_z150R0_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150R1_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150_fold_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150_conditional_CZ_classification",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z150_focus_and_refinement_metrics",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I0_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I0_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I0_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006533239411681313
+      }
+    },
+    {
+      "check": "SCS17_JA_z200I0_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin1",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin2",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin3",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin4",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin5",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin6",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin7",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin8",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin9",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin10",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin11",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin12",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin13",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin14",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin15",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin16",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin17",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin40",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I0_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I0_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I1_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I1_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I1_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 2.6469779601696886e-23,
+        "max_bound_ratio": 0.0006208428395828548
+      }
+    },
+    {
+      "check": "SCS17_JA_z200I1_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I1_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I1_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I1_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I1_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I1_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I2_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I2_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I2_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006496344992262226
+      }
+    },
+    {
+      "check": "SCS17_JA_z200I2_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I2_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I2_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z200I2_decimal_bin880",
+      "PASS": true,
+      "detail": 2.0679515313825692e-25
+    },
+    {
+      "check": "SCS17_JA_z200I2_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200I2_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200_Snell_independent_quadrature_1.0",
+      "PASS": true,
+      "detail": 1.345370037597604e-09
+    },
+    {
+      "check": "SCS17_JA_z200_Snell_independent_quadrature_3.0",
+      "PASS": true,
+      "detail": 1.7826806697485154e-10
+    },
+    {
+      "check": "SCS17_JA_z200_Snell_independent_quadrature_5.0",
+      "PASS": true,
+      "detail": 9.396927680427325e-11
+    },
+    {
+      "check": "SCS17_JA_z200R0_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200R1_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200_fold_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200_conditional_CZ_classification",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z200_focus_and_refinement_metrics",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I0_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I0_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I0_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006366950149755976
+      }
+    },
+    {
+      "check": "SCS17_JA_z250I0_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I0_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z250I0_decimal_bin440",
+      "PASS": true,
+      "detail": 2.0679515313825692e-25
+    },
+    {
+      "check": "SCS17_JA_z250I0_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z250I0_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I0_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I1_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I1_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I1_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 2.6469779601696886e-23,
+        "max_bound_ratio": 0.0006596149505725759
+      }
+    },
+    {
+      "check": "SCS17_JA_z250I1_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I1_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z250I1_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z250I1_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z250I1_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I1_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I2_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I2_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I2_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 3.970466940254533e-23,
+        "max_bound_ratio": 0.0006654328530862809
+      }
+    },
+    {
+      "check": "SCS17_JA_z250I2_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I2_decimal_bin0",
+      "PASS": true,
+      "detail": 4.0389678347315804e-28
+    },
+    {
+      "check": "SCS17_JA_z250I2_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z250I2_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_JA_z250I2_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250I2_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250_Snell_independent_quadrature_1.0",
+      "PASS": true,
+      "detail": 2.8222686410117603e-09
+    },
+    {
+      "check": "SCS17_JA_z250_Snell_independent_quadrature_3.0",
+      "PASS": true,
+      "detail": 1.1605791883084748e-09
+    },
+    {
+      "check": "SCS17_JA_z250_Snell_independent_quadrature_5.0",
+      "PASS": true,
+      "detail": 5.679439141204057e-10
+    },
+    {
+      "check": "SCS17_JA_z250R0_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250R1_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250_fold_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250_conditional_CZ_classification",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_JA_z250_focus_and_refinement_metrics",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0005717974299649596
+      }
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin1",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin2",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin3",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin4",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin5",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin6",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin7",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin8",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin9",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin10",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin11",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin12",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin13",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin14",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin15",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin16",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin17",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I0_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006184976939517914
+      }
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin1",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin2",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin3",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin4",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin5",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin6",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin7",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin8",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin9",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin10",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin11",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin12",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin13",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin14",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin15",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin16",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin17",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I1_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0005563779398982237
+      }
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin1",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin2",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin3",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin4",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin5",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin6",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin7",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin8",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin9",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin10",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin11",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin12",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin13",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin14",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin15",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin16",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin17",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin440",
+      "PASS": true,
+      "detail": 4.1359030627651384e-25
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150I2_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_Snell_independent_quadrature_1.0",
+      "PASS": true,
+      "detail": 1.9672796724989894e-10
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_Snell_independent_quadrature_3.0",
+      "PASS": true,
+      "detail": 1.5077006310093566e-10
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_Snell_independent_quadrature_5.0",
+      "PASS": true,
+      "detail": 3.722107067005709e-10
+    },
+    {
+      "check": "SCS17_ANNUAL_z150R0_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150R1_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_fold_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_conditional_CZ_classification",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_focus_and_refinement_metrics",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0005593166595176523
+      }
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin11",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin12",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin13",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin14",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin15",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin16",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin17",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I0_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 6.617444900424222e-24,
+        "max_bound_ratio": 0.0005836374445128122
+      }
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin1",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin2",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin3",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin4",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin5",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin6",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin7",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin8",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin9",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin10",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin11",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin12",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin13",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin14",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin15",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin16",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin17",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I1_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 6.617444900424222e-24,
+        "max_bound_ratio": 0.0006298279209472164
+      }
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin1",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin2",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin3",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin4",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin5",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin6",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin7",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin8",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin9",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin10",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin11",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin12",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin13",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin14",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin15",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin16",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin17",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_decimal_bin880",
+      "PASS": true,
+      "detail": 2.0679515313825692e-25
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200I2_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_Snell_independent_quadrature_1.0",
+      "PASS": true,
+      "detail": 2.7711166694643907e-13
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_Snell_independent_quadrature_3.0",
+      "PASS": true,
+      "detail": 1.282813855141285e-10
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_Snell_independent_quadrature_5.0",
+      "PASS": true,
+      "detail": 8.402452067457489e-10
+    },
+    {
+      "check": "SCS17_ANNUAL_z200R0_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200R1_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_fold_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_conditional_CZ_classification",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_focus_and_refinement_metrics",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 2.6469779601696886e-23,
+        "max_bound_ratio": 0.000655225470501158
+      }
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I0_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.9852334701272664e-23,
+        "max_bound_ratio": 0.0006297237293690896
+      }
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin1",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin2",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin3",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin4",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin5",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin6",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin7",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin8",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin9",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin10",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin11",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin12",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin13",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin14",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin15",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin16",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin17",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I1_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006089052389867508
+      }
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin1",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin2",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin3",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin4",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin5",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin6",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin7",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin8",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin9",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin10",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin11",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin12",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin13",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin14",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin15",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin16",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin17",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250I2_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_Snell_independent_quadrature_1.0",
+      "PASS": true,
+      "detail": 1.297024709856487e-10
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_Snell_independent_quadrature_3.0",
+      "PASS": true,
+      "detail": 4.532552111413679e-11
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_Snell_independent_quadrature_5.0",
+      "PASS": true,
+      "detail": 1.4357226518768584e-10
+    },
+    {
+      "check": "SCS17_ANNUAL_z250R0_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250R1_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_fold_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_conditional_CZ_classification",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_focus_and_refinement_metrics",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I0_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I0_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I0_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006416873865977198
+      }
+    },
+    {
+      "check": "ESTD_IDEAL_z150I0_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I0_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I0_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I0_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I0_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I0_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 6.617444900424222e-24,
+        "max_bound_ratio": 0.0006521475889473807
+      }
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin440",
+      "PASS": true,
+      "detail": 8.271806125530277e-25
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_decimal_bin880",
+      "PASS": true,
+      "detail": 4.1359030627651384e-25
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I1_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 6.617444900424222e-24,
+        "max_bound_ratio": 0.0005538733834193562
+      }
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin17",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin18",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin19",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin20",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin21",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin22",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin23",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin24",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin25",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin26",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin27",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin28",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin29",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin30",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin40",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin41",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin42",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin43",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin44",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin45",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin46",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin47",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin48",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin49",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_decimal_bin880",
+      "PASS": true,
+      "detail": 4.1359030627651384e-25
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150I2_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150_Snell_independent_quadrature_1.0",
+      "PASS": true,
+      "detail": 2.5914204115906614e-10
+    },
+    {
+      "check": "ESTD_IDEAL_z150_Snell_independent_quadrature_3.0",
+      "PASS": true,
+      "detail": 6.39865049834043e-10
+    },
+    {
+      "check": "ESTD_IDEAL_z150_Snell_independent_quadrature_5.0",
+      "PASS": true,
+      "detail": 5.775788736173126e-10
+    },
+    {
+      "check": "ESTD_IDEAL_z150R0_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150R1_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z150_fold_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.000659800752793611
+      }
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_decimal_bin0",
+      "PASS": true,
+      "detail": 1.6543612251060553e-24
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_decimal_bin440",
+      "PASS": true,
+      "detail": 8.271806125530277e-25
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I0_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.9852334701272664e-23,
+        "max_bound_ratio": 0.0005428860677649358
+      }
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin40",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin41",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin42",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin43",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin44",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin45",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin46",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin47",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin48",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin49",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin50",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin51",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin52",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin53",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin54",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin440",
+      "PASS": true,
+      "detail": 8.271806125530277e-25
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I1_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 1.3234889800848443e-23,
+        "max_bound_ratio": 0.0006021898528795823
+      }
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin31",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin32",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin33",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin34",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin35",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin36",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin37",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin38",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin39",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin40",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin41",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin42",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin43",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin44",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin45",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin46",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin47",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin48",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin49",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin50",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin51",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin52",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin53",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin54",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin55",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin56",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin57",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin58",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin59",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_decimal_bin880",
+      "PASS": true,
+      "detail": 4.1359030627651384e-25
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200I2_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200_Snell_independent_quadrature_1.0",
+      "PASS": true,
+      "detail": 5.549836146201415e-10
+    },
+    {
+      "check": "ESTD_IDEAL_z200_Snell_independent_quadrature_3.0",
+      "PASS": true,
+      "detail": 5.328004704097111e-10
+    },
+    {
+      "check": "ESTD_IDEAL_z200_Snell_independent_quadrature_5.0",
+      "PASS": true,
+      "detail": 9.841150756528805e-07
+    },
+    {
+      "check": "ESTD_IDEAL_z200R0_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200R1_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z200_fold_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 5.293955920339377e-23,
+        "max_bound_ratio": 0.000630844741851823
+      }
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_decimal_bin0",
+      "PASS": true,
+      "detail": 1.6543612251060553e-24
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_decimal_bin43",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_decimal_bin44",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_decimal_bin45",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_decimal_bin46",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_decimal_bin47",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_decimal_bin48",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_decimal_bin49",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_decimal_bin50",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_decimal_bin51",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_decimal_bin880",
+      "PASS": true,
+      "detail": 4.1359030627651384e-25
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I0_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 2.6469779601696886e-23,
+        "max_bound_ratio": 0.0006430949319059329
+      }
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin0",
+      "PASS": true,
+      "detail": 1.6543612251060553e-24
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin43",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin44",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin45",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin46",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin47",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin48",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin49",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin50",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin51",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin52",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin53",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin54",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin55",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin56",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin57",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I1_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_layout",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_all_range_and_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_linear_energy_fsum",
+      "PASS": true,
+      "detail": {
+        "max_absolute": 3.970466940254533e-23,
+        "max_bound_ratio": 0.0006569652873400729
+      }
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_exact_zero_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin0",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin43",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin44",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin45",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin46",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin47",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin48",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin49",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin50",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin51",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin52",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin53",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin54",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin55",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin56",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin57",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin440",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_decimal_bin880",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_TL_and_dynamic_labels",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250I2_summary_zero_and_legacy",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250_Snell_independent_quadrature_1.0",
+      "PASS": true,
+      "detail": 5.223910193308257e-10
+    },
+    {
+      "check": "ESTD_IDEAL_z250_Snell_independent_quadrature_3.0",
+      "PASS": true,
+      "detail": 2.623750106067746e-10
+    },
+    {
+      "check": "ESTD_IDEAL_z250_Snell_independent_quadrature_5.0",
+      "PASS": true,
+      "detail": 1.9486634528220748e-10
+    },
+    {
+      "check": "ESTD_IDEAL_z250R0_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250R1_ray_prefix_replay",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ESTD_IDEAL_z250_fold_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z150_negative_no_fabricated_field",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z200_negative_no_fabricated_field",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z250_negative_no_fabricated_field",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_0_channel0_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_0_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_0_channel2_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_0_channel3_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_0_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_0_channel5_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_0_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_0_channel7_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_0_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_1_channel0_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_1_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_1_channel2_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_1_channel3_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_1_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_1_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_1_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_1_channel7_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_1_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_2_channel0_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_2_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_2_channel2_decimal",
+      "PASS": true,
+      "detail": 1.1641532182693481e-10
+    },
+    {
+      "check": "mirror_2_channel3_decimal",
+      "PASS": true,
+      "detail": 1.1641532182693481e-10
+    },
+    {
+      "check": "mirror_2_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_2_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_2_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_2_channel7_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_2_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_3_channel0_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_3_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_3_channel2_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_3_channel3_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_3_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_3_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_3_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_3_channel7_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_3_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_4_channel0_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_4_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_4_channel2_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_4_channel3_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_4_channel4_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_4_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_4_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_4_channel7_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_4_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_5_channel0_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_5_channel1_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_5_channel2_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_5_channel3_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_5_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_5_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_5_channel6_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_5_channel7_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_5_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_6_channel0_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_6_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_6_channel2_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_6_channel3_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_6_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_6_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_6_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_6_channel7_decimal",
+      "PASS": true,
+      "detail": 1.1641532182693481e-10
+    },
+    {
+      "check": "mirror_6_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_7_channel0_decimal",
+      "PASS": true,
+      "detail": 8.881784197001252e-16
+    },
+    {
+      "check": "mirror_7_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_7_channel2_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_7_channel3_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_7_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_7_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_7_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_7_channel7_decimal",
+      "PASS": true,
+      "detail": 8.881784197001252e-16
+    },
+    {
+      "check": "mirror_7_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_8_channel0_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_8_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_8_channel2_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_8_channel3_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_8_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_8_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_8_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_8_channel7_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_8_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_9_channel0_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_9_channel1_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_9_channel2_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_9_channel3_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_9_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_9_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_9_channel6_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_9_channel7_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_9_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_10_channel0_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_10_channel1_decimal",
+      "PASS": true,
+      "detail": 1.1641532182693481e-10
+    },
+    {
+      "check": "mirror_10_channel2_decimal",
+      "PASS": true,
+      "detail": 1.1641532182693481e-10
+    },
+    {
+      "check": "mirror_10_channel3_decimal",
+      "PASS": true,
+      "detail": 1.1641532182693481e-10
+    },
+    {
+      "check": "mirror_10_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_10_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_10_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_10_channel7_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_10_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_11_channel0_decimal",
+      "PASS": true,
+      "detail": 8.881784197001252e-16
+    },
+    {
+      "check": "mirror_11_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_11_channel2_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_11_channel3_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_11_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_11_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_11_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_11_channel7_decimal",
+      "PASS": true,
+      "detail": 8.881784197001252e-16
+    },
+    {
+      "check": "mirror_11_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_12_channel0_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_12_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_12_channel2_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_12_channel3_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_12_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_12_channel5_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_12_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_12_channel7_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_12_channel8_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_12_channel9_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_12_channel10_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_12_channel11_decimal",
+      "PASS": true,
+      "detail": 7.275957614183426e-12
+    },
+    {
+      "check": "mirror_12_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_13_channel0_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_13_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_13_channel2_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_13_channel3_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_13_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_13_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_13_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_13_channel7_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_13_channel8_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_13_channel9_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_13_channel10_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_13_channel11_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_13_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_14_channel0_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_14_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_14_channel2_decimal",
+      "PASS": true,
+      "detail": 1.1641532182693481e-10
+    },
+    {
+      "check": "mirror_14_channel3_decimal",
+      "PASS": true,
+      "detail": 1.1641532182693481e-10
+    },
+    {
+      "check": "mirror_14_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_14_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_14_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_14_channel7_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_14_channel8_decimal",
+      "PASS": true,
+      "detail": 1.1641532182693481e-10
+    },
+    {
+      "check": "mirror_14_channel9_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_14_channel10_decimal",
+      "PASS": true,
+      "detail": 1.1641532182693481e-10
+    },
+    {
+      "check": "mirror_14_channel11_decimal",
+      "PASS": true,
+      "detail": 1.1641532182693481e-10
+    },
+    {
+      "check": "mirror_14_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_15_channel0_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_15_channel1_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_15_channel2_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_15_channel3_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_15_channel4_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_15_channel5_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_15_channel6_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_15_channel7_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_15_channel8_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_15_channel9_decimal",
+      "PASS": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "check": "mirror_15_channel10_decimal",
+      "PASS": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "check": "mirror_15_channel11_decimal",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "mirror_15_symmetry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all_units_and_full_bins",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "old_audit_12_failures_retained",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "new_MC_and_solver_zero",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "mirror_result_and_guard",
+      "PASS": true,
+      "detail": null
+    }
+  ],
+  "per_curve": [
+    {
+      "case_id": "SCS17_JW_z150",
+      "level": "I0",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JW_z150",
+      "level": "I1",
+      "bins": 881,
+      "max_fsum_absolute_difference": 2.6469779601696886e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JW_z150",
+      "level": "I2",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 5
+    },
+    {
+      "case_id": "SCS17_JW_z200",
+      "level": "I0",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 41
+    },
+    {
+      "case_id": "SCS17_JW_z200",
+      "level": "I1",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JW_z200",
+      "level": "I2",
+      "bins": 881,
+      "max_fsum_absolute_difference": 2.6469779601696886e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JW_z250",
+      "level": "I0",
+      "bins": 881,
+      "max_fsum_absolute_difference": 9.926167350636332e-24,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JW_z250",
+      "level": "I1",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JW_z250",
+      "level": "I2",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JA_z150",
+      "level": "I0",
+      "bins": 881,
+      "max_fsum_absolute_difference": 3.970466940254533e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JA_z150",
+      "level": "I1",
+      "bins": 881,
+      "max_fsum_absolute_difference": 2.6469779601696886e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JA_z150",
+      "level": "I2",
+      "bins": 881,
+      "max_fsum_absolute_difference": 2.6469779601696886e-23,
+      "exact_zero_bins": 5
+    },
+    {
+      "case_id": "SCS17_JA_z200",
+      "level": "I0",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 41
+    },
+    {
+      "case_id": "SCS17_JA_z200",
+      "level": "I1",
+      "bins": 881,
+      "max_fsum_absolute_difference": 2.6469779601696886e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JA_z200",
+      "level": "I2",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JA_z250",
+      "level": "I0",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JA_z250",
+      "level": "I1",
+      "bins": 881,
+      "max_fsum_absolute_difference": 2.6469779601696886e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_JA_z250",
+      "level": "I2",
+      "bins": 881,
+      "max_fsum_absolute_difference": 3.970466940254533e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "SCS17_ANNUAL_z150",
+      "level": "I0",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 39
+    },
+    {
+      "case_id": "SCS17_ANNUAL_z150",
+      "level": "I1",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 39
+    },
+    {
+      "case_id": "SCS17_ANNUAL_z150",
+      "level": "I2",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 39
+    },
+    {
+      "case_id": "SCS17_ANNUAL_z200",
+      "level": "I0",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 29
+    },
+    {
+      "case_id": "SCS17_ANNUAL_z200",
+      "level": "I1",
+      "bins": 881,
+      "max_fsum_absolute_difference": 6.617444900424222e-24,
+      "exact_zero_bins": 40
+    },
+    {
+      "case_id": "SCS17_ANNUAL_z200",
+      "level": "I2",
+      "bins": 881,
+      "max_fsum_absolute_difference": 6.617444900424222e-24,
+      "exact_zero_bins": 40
+    },
+    {
+      "case_id": "SCS17_ANNUAL_z250",
+      "level": "I0",
+      "bins": 881,
+      "max_fsum_absolute_difference": 2.6469779601696886e-23,
+      "exact_zero_bins": 22
+    },
+    {
+      "case_id": "SCS17_ANNUAL_z250",
+      "level": "I1",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.9852334701272664e-23,
+      "exact_zero_bins": 40
+    },
+    {
+      "case_id": "SCS17_ANNUAL_z250",
+      "level": "I2",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 40
+    },
+    {
+      "case_id": "ESTD_IDEAL_z150",
+      "level": "I0",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 0
+    },
+    {
+      "case_id": "ESTD_IDEAL_z150",
+      "level": "I1",
+      "bins": 881,
+      "max_fsum_absolute_difference": 6.617444900424222e-24,
+      "exact_zero_bins": 14
+    },
+    {
+      "case_id": "ESTD_IDEAL_z150",
+      "level": "I2",
+      "bins": 881,
+      "max_fsum_absolute_difference": 6.617444900424222e-24,
+      "exact_zero_bins": 33
+    },
+    {
+      "case_id": "ESTD_IDEAL_z200",
+      "level": "I0",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 6
+    },
+    {
+      "case_id": "ESTD_IDEAL_z200",
+      "level": "I1",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.9852334701272664e-23,
+      "exact_zero_bins": 24
+    },
+    {
+      "case_id": "ESTD_IDEAL_z200",
+      "level": "I2",
+      "bins": 881,
+      "max_fsum_absolute_difference": 1.3234889800848443e-23,
+      "exact_zero_bins": 29
+    },
+    {
+      "case_id": "ESTD_IDEAL_z250",
+      "level": "I0",
+      "bins": 881,
+      "max_fsum_absolute_difference": 5.293955920339377e-23,
+      "exact_zero_bins": 9
+    },
+    {
+      "case_id": "ESTD_IDEAL_z250",
+      "level": "I1",
+      "bins": 881,
+      "max_fsum_absolute_difference": 2.6469779601696886e-23,
+      "exact_zero_bins": 15
+    },
+    {
+      "case_id": "ESTD_IDEAL_z250",
+      "level": "I2",
+      "bins": 881,
+      "max_fsum_absolute_difference": 3.970466940254533e-23,
+      "exact_zero_bins": 15
+    }
+  ]
+}
