@@ -1,0 +1,45 @@
+{
+  "unit": "E4_L0_AND_HISTORICAL_RESOURCE_MAP",
+  "code_sha256": "d2646d7d17d8ec80f47ab10e814ba832f440203c278f891548626914ab3c1b79",
+  "inputs": [
+    {
+      "path": "results/R3_C2_Yang_SA_depth/R3_C2_2C/_kraken_paper/yang2014_f350.mod",
+      "sha256": "829f5086211499e2b24ca6576c9ca52cf9a88fbfd9884bdcb103339d5c207961"
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/FOUR_PARAMETER_DEMO_TABLE.csv",
+      "sha256": "d208907f9d3e93a3f302c613ab681ba9c09656ed6c4496f7fb5349a79003485f"
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/RESOURCE_AND_COVERAGE_SUMMARY.csv",
+      "sha256": "00dbfdf3f2f84bdf4fca180659b8343c129d68588051ea083cc65f7f5230bf82"
+    }
+  ],
+  "scope": "NO new CZ precision or new MC; originalT3 empirical quantiles only",
+  "gap_grid": [
+    1e-05,
+    3e-05,
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01
+  ],
+  "radial_rate_grid": [
+    0.1,
+    0.25,
+    0.5,
+    1,
+    2
+  ],
+  "frequency_grid_hz": [
+    150,
+    200,
+    350
+  ],
+  "phase_budget_illustrative_rad": 0.1,
+  "budget_s": 600,
+  "scientific_retries": 0,
+  "new_MC": 0,
+  "new_solvers": 0
+}

@@ -1,0 +1,22 @@
+{
+  "raw_main_CZ2_subcases": 9,
+  "raw_main_distinct_source_families": 1,
+  "cold_PASS": false,
+  "cold_fail_checks": 12,
+  "scientifically_admitted_CZ2_count": 0,
+  "decision": "E1_ADMISSION_WITHHELD_COLD_RECONSTRUCTION_MISMATCH",
+  "scope": "Conservative campaign-wide admission withheld under E0 audit rule. Eight SCS units have no failing per-unit cold checks but are retained as provisional diagnostics, not a complete audited environment-family certificate.",
+  "failed_units": [
+    "ESTD",
+    "SCS17_ANNUAL_z200"
+  ],
+  "no_reruns": true,
+  "dependent_CZ_pressure_extraction": "NOT_EVALUATED",
+  "independent_permitted_work": [
+    "shallow archived paper checks",
+    "L0 nuisance controls",
+    "analytic resource bounds",
+    "historical T3 resource-map-only",
+    "complete negative campaign report"
+  ]
+}

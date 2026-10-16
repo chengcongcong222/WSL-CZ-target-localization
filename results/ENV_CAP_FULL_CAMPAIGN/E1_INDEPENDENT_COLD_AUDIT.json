@@ -1,0 +1,1378 @@
+{
+  "PASS": false,
+  "checks": 274,
+  "FAIL_count": 12,
+  "scope": "Every attempted E1 raw SHD reconstructed with struct parser and explicit energy smoothing; analytic integrals independently quadrature-checked; input identities/classifications recomputed. No new solver calls or science rerun. WOA reconstruction identity covered by source audit, not external CTD or coherent modal certification.",
+  "rows": [
+    {
+      "check": "SCS17_JW_z150_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_Snell_quadrature_a1.0",
+      "PASS": true,
+      "detail": "1.2047678410453955e-09"
+    },
+    {
+      "check": "SCS17_JW_z150_Snell_quadrature_a3.0",
+      "PASS": true,
+      "detail": "8.699458931005211e-10"
+    },
+    {
+      "check": "SCS17_JW_z150_Snell_quadrature_a5.0",
+      "PASS": true,
+      "detail": "2.4720492319829646e-10"
+    },
+    {
+      "check": "SCS17_JW_z150_I0_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "5.684341886080802e-14"
+    },
+    {
+      "check": "SCS17_JW_z150_I0_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_I1_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "4.263256414560601e-14"
+    },
+    {
+      "check": "SCS17_JW_z150_I1_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_I2_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "6.707523425575346e-12"
+    },
+    {
+      "check": "SCS17_JW_z150_I2_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_comparison_I0_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_comparison_I1_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_R0_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_R1_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_classification",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_fine_peak",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_Snell_quadrature_a1.0",
+      "PASS": true,
+      "detail": "1.5395826835629123e-09"
+    },
+    {
+      "check": "SCS17_JW_z200_Snell_quadrature_a3.0",
+      "PASS": true,
+      "detail": "1.264986337901064e-09"
+    },
+    {
+      "check": "SCS17_JW_z200_Snell_quadrature_a5.0",
+      "PASS": true,
+      "detail": "5.835687488797703e-11"
+    },
+    {
+      "check": "SCS17_JW_z200_I0_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "9.947598300641403e-14"
+    },
+    {
+      "check": "SCS17_JW_z200_I0_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_I1_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "8.526512829121202e-14"
+    },
+    {
+      "check": "SCS17_JW_z200_I1_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_I2_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "4.263256414560601e-14"
+    },
+    {
+      "check": "SCS17_JW_z200_I2_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_comparison_I0_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_comparison_I1_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_R0_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_R1_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_classification",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_fine_peak",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_Snell_quadrature_a1.0",
+      "PASS": true,
+      "detail": "9.242242526852351e-10"
+    },
+    {
+      "check": "SCS17_JW_z250_Snell_quadrature_a3.0",
+      "PASS": true,
+      "detail": "2.455351477692602e-10"
+    },
+    {
+      "check": "SCS17_JW_z250_Snell_quadrature_a5.0",
+      "PASS": true,
+      "detail": "1.152010042915208e-09"
+    },
+    {
+      "check": "SCS17_JW_z250_I0_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "5.684341886080802e-14"
+    },
+    {
+      "check": "SCS17_JW_z250_I0_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_I1_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "1.1368683772161603e-13"
+    },
+    {
+      "check": "SCS17_JW_z250_I1_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_I2_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "2.842170943040401e-14"
+    },
+    {
+      "check": "SCS17_JW_z250_I2_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_comparison_I0_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_comparison_I1_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_R0_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_R1_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_classification",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_fine_peak",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_Snell_quadrature_a1.0",
+      "PASS": true,
+      "detail": "6.445759481721325e-10"
+    },
+    {
+      "check": "SCS17_JA_z150_Snell_quadrature_a3.0",
+      "PASS": true,
+      "detail": "4.210960469208658e-10"
+    },
+    {
+      "check": "SCS17_JA_z150_Snell_quadrature_a5.0",
+      "PASS": true,
+      "detail": "5.620037768494512e-10"
+    },
+    {
+      "check": "SCS17_JA_z150_I0_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "5.684341886080802e-14"
+    },
+    {
+      "check": "SCS17_JA_z150_I0_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_I1_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "4.263256414560601e-14"
+    },
+    {
+      "check": "SCS17_JA_z150_I1_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_I2_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "6.707523425575346e-12"
+    },
+    {
+      "check": "SCS17_JA_z150_I2_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_comparison_I0_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_comparison_I1_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_R0_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_R1_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_classification",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_fine_peak",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_Snell_quadrature_a1.0",
+      "PASS": true,
+      "detail": "1.3323102621143335e-09"
+    },
+    {
+      "check": "SCS17_JA_z200_Snell_quadrature_a3.0",
+      "PASS": true,
+      "detail": "1.8416557168166037e-10"
+    },
+    {
+      "check": "SCS17_JA_z200_Snell_quadrature_a5.0",
+      "PASS": true,
+      "detail": "9.686829116617446e-11"
+    },
+    {
+      "check": "SCS17_JA_z200_I0_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "1.1368683772161603e-13"
+    },
+    {
+      "check": "SCS17_JA_z200_I0_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_I1_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "4.263256414560601e-14"
+    },
+    {
+      "check": "SCS17_JA_z200_I1_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_I2_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "1.1368683772161603e-13"
+    },
+    {
+      "check": "SCS17_JA_z200_I2_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_comparison_I0_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_comparison_I1_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_R0_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_R1_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_classification",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_fine_peak",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_Snell_quadrature_a1.0",
+      "PASS": true,
+      "detail": "2.8416451414159383e-09"
+    },
+    {
+      "check": "SCS17_JA_z250_Snell_quadrature_a3.0",
+      "PASS": true,
+      "detail": "1.1455583148745063e-09"
+    },
+    {
+      "check": "SCS17_JA_z250_Snell_quadrature_a5.0",
+      "PASS": true,
+      "detail": "5.749072329308547e-10"
+    },
+    {
+      "check": "SCS17_JA_z250_I0_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "4.263256414560601e-14"
+    },
+    {
+      "check": "SCS17_JA_z250_I0_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_I1_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "1.2789769243681803e-13"
+    },
+    {
+      "check": "SCS17_JA_z250_I1_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_I2_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "8.526512829121202e-14"
+    },
+    {
+      "check": "SCS17_JA_z250_I2_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_comparison_I0_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_comparison_I1_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_R0_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_R1_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_classification",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_fine_peak",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_Snell_quadrature_a1.0",
+      "PASS": true,
+      "detail": "1.9620927105279407e-10"
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_Snell_quadrature_a3.0",
+      "PASS": true,
+      "detail": "1.5207746173473424e-10"
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_Snell_quadrature_a5.0",
+      "PASS": true,
+      "detail": "3.7207570358077646e-10"
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_I0_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "5.684341886080802e-14"
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_I0_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_I1_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "5.684341886080802e-14"
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_I1_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_I2_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "4.263256414560601e-14"
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_I2_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_comparison_I0_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_comparison_I1_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_R0_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_R1_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_classification",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_fine_peak",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_Snell_quadrature_a1.0",
+      "PASS": true,
+      "detail": "1.7905676941154525e-12"
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_Snell_quadrature_a3.0",
+      "PASS": true,
+      "detail": "1.2925482906211982e-10"
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_Snell_quadrature_a5.0",
+      "PASS": true,
+      "detail": "8.410552254645154e-10"
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_I0_TL_from_raw_SHD",
+      "PASS": false,
+      "detail": "28.888169845476796"
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_I0_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_I1_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "9.947598300641403e-14"
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_I1_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_I2_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "4.263256414560601e-14"
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_I2_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_comparison_I0_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_comparison_I1_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_R0_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_R1_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_classification",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_fine_peak",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_Snell_quadrature_a1.0",
+      "PASS": true,
+      "detail": "1.2854428632635972e-10"
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_Snell_quadrature_a3.0",
+      "PASS": true,
+      "detail": "4.622080496119452e-11"
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_Snell_quadrature_a5.0",
+      "PASS": true,
+      "detail": "1.4522782976200688e-10"
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_I0_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "4.547473508864641e-13"
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_I0_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_I1_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "2.842170943040401e-14"
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_I1_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_I2_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "5.684341886080802e-14"
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_I2_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_comparison_I0_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_comparison_I1_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_R0_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_R1_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_classification",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_fine_peak",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_Snell_quadrature_a1.0",
+      "PASS": true,
+      "detail": "2.5786306423469796e-10"
+    },
+    {
+      "check": "ESTD_IDEAL_z150_Snell_quadrature_a3.0",
+      "PASS": true,
+      "detail": "6.389484497049125e-10"
+    },
+    {
+      "check": "ESTD_IDEAL_z150_Snell_quadrature_a5.0",
+      "PASS": true,
+      "detail": "5.693792104466411e-10"
+    },
+    {
+      "check": "ESTD_IDEAL_z150_I0_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "2.2311041902867146e-12"
+    },
+    {
+      "check": "ESTD_IDEAL_z150_I0_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_I1_TL_from_raw_SHD",
+      "PASS": false,
+      "detail": "61.380898012351366"
+    },
+    {
+      "check": "ESTD_IDEAL_z150_I1_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_I2_TL_from_raw_SHD",
+      "PASS": false,
+      "detail": "54.4047909216184"
+    },
+    {
+      "check": "ESTD_IDEAL_z150_I2_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_comparison_I0_I1",
+      "PASS": false,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_comparison_I1_I2",
+      "PASS": false,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_R0_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_R1_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_classification",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_fine_peak",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_Snell_quadrature_a1.0",
+      "PASS": true,
+      "detail": "5.609237518910959e-10"
+    },
+    {
+      "check": "ESTD_IDEAL_z200_Snell_quadrature_a3.0",
+      "PASS": true,
+      "detail": "5.325517804521951e-10"
+    },
+    {
+      "check": "ESTD_IDEAL_z200_Snell_quadrature_a5.0",
+      "PASS": true,
+      "detail": "9.841157648793342e-07"
+    },
+    {
+      "check": "ESTD_IDEAL_z200_I0_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "2.6344082471041474e-10"
+    },
+    {
+      "check": "ESTD_IDEAL_z200_I0_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_I1_TL_from_raw_SHD",
+      "PASS": false,
+      "detail": "50.602678504502336"
+    },
+    {
+      "check": "ESTD_IDEAL_z200_I1_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_I2_TL_from_raw_SHD",
+      "PASS": true,
+      "detail": "1.5631940186722204e-13"
+    },
+    {
+      "check": "ESTD_IDEAL_z200_I2_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_comparison_I0_I1",
+      "PASS": false,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_comparison_I1_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_R0_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_R1_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_classification",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_fine_peak",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_Snell_quadrature_a1.0",
+      "PASS": true,
+      "detail": "5.256524104879645e-10"
+    },
+    {
+      "check": "ESTD_IDEAL_z250_Snell_quadrature_a3.0",
+      "PASS": true,
+      "detail": "2.7186786155652953e-10"
+    },
+    {
+      "check": "ESTD_IDEAL_z250_Snell_quadrature_a5.0",
+      "PASS": true,
+      "detail": "1.9031887177334283e-10"
+    },
+    {
+      "check": "ESTD_IDEAL_z250_I0_TL_from_raw_SHD",
+      "PASS": false,
+      "detail": "65.7215121142911"
+    },
+    {
+      "check": "ESTD_IDEAL_z250_I0_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_I1_TL_from_raw_SHD",
+      "PASS": false,
+      "detail": "62.91992233778754"
+    },
+    {
+      "check": "ESTD_IDEAL_z250_I1_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_I2_TL_from_raw_SHD",
+      "PASS": false,
+      "detail": "65.63377287121602"
+    },
+    {
+      "check": "ESTD_IDEAL_z250_I2_range_depth_units",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_comparison_I0_I1",
+      "PASS": false,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_comparison_I1_I2",
+      "PASS": false,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_R0_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_R1_raw_ray_replay",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_classification",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_fine_peak",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z150_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z150_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z150_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z150_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z150_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z150_no_return_domain",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z200_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z200_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z200_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z200_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z200_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z200_no_return_domain",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z250_input_R0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z250_input_R1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z250_input_I0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z250_input_I1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z250_input_I2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z250_no_return_domain",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "all_15_units_present",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z150_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z200_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JW_z250_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z150_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z200_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_JA_z250_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z150_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z200_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SCS17_ANNUAL_z250_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z150_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z200_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "ESTD_IDEAL_z250_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z150_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z200_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NO_CZ_CONSTANT_z250_unit_marker_and_exit",
+      "PASS": true,
+      "detail": ""
+    }
+  ]
+}

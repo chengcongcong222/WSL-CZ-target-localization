@@ -1,0 +1,19 @@
+{
+  "CZ2_subcases": 9,
+  "CZ2_env_ids": [
+    "SCS17_ANNUAL",
+    "SCS17_JA",
+    "SCS17_JW"
+  ],
+  "distinct_source_families": [
+    "WOA23_17N118E"
+  ],
+  "cross_environment_claim_allowed": false,
+  "main_CZ_admitted": true,
+  "coherent_complex_modal_provider": "NOT_ADMITTED",
+  "not_evaluated_sources": {
+    "ENV_SCS_WOA_18N114E": "Cross-study diagnostic deep completion and old NCSS vertical remapping; no new certified full-depth original source SSP; retain diagnostic only",
+    "ENV_INDEPENDENT_REGIONAL_25N140E": "Fixed raw T/S requests HTTP400, ETOPO obtained; no site substitution or invented SSP"
+  },
+  "no_reruns": true
+}

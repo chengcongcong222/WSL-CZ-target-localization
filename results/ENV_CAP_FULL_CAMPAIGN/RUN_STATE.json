@@ -4,7 +4,7 @@
   "research_branch": "research/env-cap-20261016",
   "phases": {
     "E0": "PASS",
-    "E1": "PENDING",
+    "E1": "LIMITED",
     "E2": "PENDING",
     "E3": "PENDING",
     "E4": "PENDING",
@@ -29,6 +29,20 @@
       "phase": "E0",
       "new_status": "PASS",
       "note": "Inputs, contracts, source identities and analytic controls frozen; no new main-CZ science yet."
+    },
+    {
+      "time_utc": "2026-10-16T05:02:38+00:00",
+      "action": "start",
+      "phase": "E1",
+      "new_status": "RUNNING",
+      "note": "Commit-0 frozen; execute once 15 independent environmental units."
+    },
+    {
+      "time_utc": "2026-10-16T05:10:34+00:00",
+      "action": "finish",
+      "phase": "E1",
+      "new_status": "LIMITED",
+      "note": "Main9 provisionalCZ2; cold274 checks12FAIL; formaladmissionwithheld; preserve all data and continue independent analytic/paper path."
     }
   ]
 }

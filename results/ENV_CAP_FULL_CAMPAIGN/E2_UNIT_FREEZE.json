@@ -1,0 +1,62 @@
+{
+  "unit": "E2_ARCHIVED_PAPER_AND_ANALYTIC_CONTROL",
+  "inputs": [
+    {
+      "path": "results/R3_C2_Yang_SA_depth/R3_C2_2C/_kraken_paper/yang2014_f350.mod",
+      "sha256": "829f5086211499e2b24ca6576c9ca52cf9a88fbfd9884bdcb103339d5c207961"
+    },
+    {
+      "path": "results/R3_C2_Yang_SA_depth/R3_C2_2C/paper_mode_identification.csv",
+      "sha256": "758cde11d92bed745d6f76110357015e381831d929b2e30551c6ee72914b0202"
+    },
+    {
+      "path": "results/R3_C2_Yang_SA_depth/R3_C2_2C/paper_depth_ambiguity.csv",
+      "sha256": "9f7c23fc3707aa96b3d9c39c9bf9f5dc9960fc00edd872f0d7f7784392b5f485"
+    },
+    {
+      "path": "literature/yang2015.pdf",
+      "sha256": "b34952ead13fdaabdf9f1e7d87728fc2cb72fd09497240aac20ebdfc47f4b5b4"
+    },
+    {
+      "path": "literature/2018-2.pdf",
+      "sha256": "5123bf0278a55c94e181428a3977247ba7bb9cc3b93d5720238fa8e54873a4da"
+    },
+    {
+      "path": "literature/liang2018_mmar_7824671.pdf",
+      "sha256": "9364914d34f5408f80065a31cd7fbcb5195c21047c97b2eb118348191b861834"
+    }
+  ],
+  "code_sha256": "6d838736ea13f298a4f4e5af395989ac61cffb01e5f49175c3c01bc2ba3d67a4",
+  "source_kinds": "archived shallow modal outputs and supplied primary publications; no new CZ truth",
+  "single_mode_eq1_eq5_tolerance": 1e-06,
+  "stored_depth_peak_score_tolerance": 1e-09,
+  "zero_controls_tolerance": 1e-12,
+  "4_shallow_cases": [
+    [
+      4,
+      18
+    ],
+    [
+      4,
+      70
+    ],
+    [
+      50,
+      18
+    ],
+    [
+      50,
+      70
+    ]
+  ],
+  "regularization_ratios": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "budget_s": 600,
+  "MC": 0,
+  "external_solvers": 0,
+  "scientific_retries": 0,
+  "status": "PREPARED_PRIOR_TO_SCIENCE"
+}
