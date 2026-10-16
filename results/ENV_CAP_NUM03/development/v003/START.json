@@ -1,0 +1,5 @@
+{
+  "reason": "Fix the test driver only after v002 parse failure; integrator/reference unchanged. Full synthetic angular, MP60/80 and ODE tests.",
+  "time_unix": 1792140713.1421192,
+  "actual_environment_science": false
+}

@@ -1,0 +1,10 @@
+{
+  "reason": "Initial stable C-linear primitive and whole-path square-root mapping; independent adaptive and 60-digit synthetic references before any SCS evaluation",
+  "time_unix": 1792140568.9420443,
+  "actual_SCS_profiles_used": false,
+  "code": {
+    "integrator.py": "9ae4635d2b3b0c1014e42299f2c1c9c6a8123e2882c77e8ecfd54e0284190690",
+    "independent_reference.py": "59bb93f7f6ecc586f7baacc9494693ab7d2df045e7b7ff753fb3e14c3a82e4d9",
+    "development_suite.py": "85d93fdc357752e5e0dec9777b5b744fdfb6025521644fe46304e80ac0ba4d55"
+  }
+}

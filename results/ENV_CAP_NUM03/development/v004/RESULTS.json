@@ -1,0 +1,41 @@
+{
+  "PASS": true,
+  "version": "v004",
+  "reason": "Final synthetic harness validation and Decimal cross-precision comparison; numerical integrator unchanged from v001",
+  "wall_s": 0.2384202480316162,
+  "actual_environment_science": false,
+  "checks": 6,
+  "FAIL_count": 0,
+  "records": [
+    {
+      "check": "independent_golden_quadratic",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "primary_bounded_refinement_quadratic",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "C_LINEAR_decimal_MP60_MP80",
+      "PASS": true,
+      "detail": 2.344545884270313e-51
+    },
+    {
+      "check": "PCHIP_decimal_MP60_MP80",
+      "PASS": true,
+      "detail": 2.939618537122288e-53
+    },
+    {
+      "check": "cold_imports_no_main_integrator",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "guard_seals_output_and_requires_completed",
+      "PASS": true,
+      "detail": null
+    }
+  ]
+}

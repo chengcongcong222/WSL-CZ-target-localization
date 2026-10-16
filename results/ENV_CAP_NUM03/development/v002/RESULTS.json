@@ -1,0 +1,10 @@
+{
+  "PASS": false,
+  "version": "v002",
+  "reason": "Test-driver extension inserted at an inner res assignment; parser failed before tests. No integrator or reference implementation changed. Restore v001 driver and use a separate full-domain suite.",
+  "checks": 0,
+  "FAIL_count": 1,
+  "actual_environment_science": false,
+  "time_unix": 1792140712.4527218,
+  "code_sha256": "02f681015bd4320cdb4e50a7ebfb3fedf44996a29e2c49d79577807d817e7eac"
+}

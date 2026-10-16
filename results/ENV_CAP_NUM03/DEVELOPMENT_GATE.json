@@ -1,0 +1,12 @@
+{
+  "PASS": true,
+  "numerical_checks_passed": 16113,
+  "accepted_versions": [
+    "v001",
+    "v003",
+    "v004"
+  ],
+  "development_parse_failure_retained": "v002",
+  "integrator_and_reference_unchanged_since_v001": true,
+  "actual_SCS_science_started": false
+}
