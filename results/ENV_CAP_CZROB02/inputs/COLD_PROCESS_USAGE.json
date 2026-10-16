@@ -1,0 +1,11 @@
+{
+  "phase": "cold",
+  "elapsed_s": 35.898405600106344,
+  "tree_peak_RSS_bytes": 509632512,
+  "samples": 160,
+  "new_D_total_bytes": 24583320,
+  "returncode": 2,
+  "hard_limit_failure": null,
+  "new_solver_calls": 0,
+  "new_MC": 0
+}

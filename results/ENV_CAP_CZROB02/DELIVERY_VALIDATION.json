@@ -1,0 +1,166 @@
+{
+  "PASS": true,
+  "scope": "Delivery identities/completeness only, scientific admission remains FALSE",
+  "science_GATE_PASS": false,
+  "cold_audit_PASS": false,
+  "cold_audit_FAIL_count": 6,
+  "git_result_bytes_before_manifest": 25360627,
+  "local_work_bytes": 125968,
+  "checks": [
+    {
+      "check": "all931_frozen_input_and_code_identities",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "primary_outputs_and_local_exit_records_unchanged_after_cold",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_GPT_SYNC_CZROB02.md",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_CZROB02_SSP_TOPOLOGY.csv",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_CZROB02_PATH_ATTRIBUTION.csv",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_CZROB02_INDEPENDENT_COLD_AUDIT.json",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_CZROB02_RESEARCH_DECISION.md",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_CZROB02_FINAL_DECISION.json",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_RAW_DATA_INDEX.csv",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_STOP.json",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_PRIMARY_OUTPUT_FREEZE.json",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all9_cases_retained",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "single_source_family",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all18_failed_quadrature_gates_reported",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all6_cold_failures_retained_no_relabel",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all_ODE_cancelled_not_claimed_pass",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "energy_attribution_unresolved_and_no_provider_opened",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "two_science_launches_only",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_code_physics.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_code_analysis.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_code_cold.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_code_preflight.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_code_run_once.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "A_precedes_main",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "only_new_stage_tracked_paths",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "16_old_untracked_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ANALYSIS_execution_and_budget",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "COLD_execution_and_budget",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "science_wall_under_limit",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Git_under64MiB",
+      "PASS": true,
+      "detail": 25360627
+    },
+    {
+      "check": "D_under4GiB",
+      "PASS": true,
+      "detail": 25486595
+    }
+  ]
+}

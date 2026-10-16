@@ -1,0 +1,7 @@
+# CZROB02审核入口
+
+先读GPT_SYNC_CZROB02.md及CZROB02_RESEARCH_DECISION.md，再读最终JSON与冷审计。注意：交付完整不等于科学Gate通过；本轮冷审计6项FAIL全部保留。
+
+设计代码与阈值在Commit A固定，主分析与冷审计各一次。PRIMARY_OUTPUT_FREEZE.json封存冷审计前的输入。CZROB02_SSP_TOPOLOGY.csv是正式分类；CZROB02_SAVED_CANDIDATE_DIAGNOSTICS.csv仅为保存结果的诊断汇总，不替代失败Gate。全部72,018个角度—表示—单元记录在CZROB02_RETURN_CURVES.csv。原节点/系数、节点邻域探针、全体局部最小值均保留。
+
+边界路径的几何存在与能量贡献必须分开。原C-linear RAY有前者，存档SHD没有可用的分支能量标签；不能把统计回返次数作为能量权重，也不能把旧TL移植到PCHIP。STOP后不自动重跑、加阶或开启相干提供器。

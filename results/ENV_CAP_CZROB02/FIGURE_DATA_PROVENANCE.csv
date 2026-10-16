@@ -1,0 +1,3 @@
+figures,input,sha256,scope
+figures/CZROB02_return_curves.png/.pdf; figures/CZROB02_numerical_precision.png/.pdf,CZROB02_RETURN_CURVES.csv,1a5e03bf028f25e05099933e6b15fef06f720da77c82077fd08580767ca07db1,All 9 cases; registered launch/range domains; no performance or energy inference
+figures/CZROB02_candidate_shifts.png/.pdf,CZROB02_SAVED_CANDIDATE_DIAGNOSTICS.csv,d7f47e59fc179cb34c37649449f2a8fb2621dfa704862e8fb920e2ef41856ecf,Descriptive saved candidates; does not revise failed formal Gates

@@ -1,0 +1,10 @@
+AUDIT SCS17_JW_z150
+AUDIT SCS17_JW_z200
+AUDIT SCS17_JW_z250
+AUDIT SCS17_JA_z150
+AUDIT SCS17_JA_z200
+AUDIT SCS17_JA_z250
+AUDIT SCS17_ANNUAL_z150
+AUDIT SCS17_ANNUAL_z200
+AUDIT SCS17_ANNUAL_z250
+{"PASS": false, "checks": 39601, "FAIL_count": 6, "scope": "Own Hermite slopes/root bisection; all C-linear return ranges; registered PCHIP adaptive-quadrature sentinels and all folds; ODE saved-path invariants and reference returns; all raw-ray prefix summaries. No independent energy decomposition."}

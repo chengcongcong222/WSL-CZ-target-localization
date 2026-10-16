@@ -1,0 +1,63 @@
+{
+  "stage": "ENV_CAP_CZROB02",
+  "parent_SHA": "4e53bf035625aeddf4d8ab6ee009242c06726a9c",
+  "design_SHA": "3d2a56e1821c3c94949346bb5d9e80170dfc221b",
+  "branch": "research/env-cap-czrob02",
+  "status": "STOP",
+  "execution": "COMPLETED_NEGATIVE_BRANCH_NO_RETRY",
+  "decision": "CZROB02_NUMERICAL_ADMISSION_NOT_CLOSED_AND_ENERGY_ATTRIBUTION_UNRESOLVED",
+  "science_gate_PASS": false,
+  "cold_audit": {
+    "PASS": false,
+    "checks": 39601,
+    "PASS_count": 39595,
+    "FAIL_count": 6
+  },
+  "A": {
+    "cases_retained": 9,
+    "source_families": 1,
+    "full_angle_return_rows": 72018,
+    "numeric_admitted_cases": 0,
+    "formal_robust_CZ_cases": 0,
+    "all18_full_angle_integral_gates_failed": true,
+    "SSP_INTERPOLATION_SENSITIVE": "LOCAL_MINIMUM_COUNTS_CHANGE_OBSERVED_ONLY; GLOBAL_ROBUSTNESS_UNCERTIFIED",
+    "CZ_GEOMETRY_NOT_ROBUST": "NOT_ESTABLISHED_PHYSICALLY_NUMERICAL_ADMISSION_FAILED",
+    "diagnostic_candidate_shift_m": [
+      3.944680187011329,
+      32.20624253960125
+    ],
+    "diagnostic_turn_shift_m": [
+      1.8136496716801958,
+      24.527296345175273
+    ],
+    "independent_ODE_runs": 0,
+    "ODE_status": "NOT_EVALUATED_CANCELLED_BY_QUADRATURE_GATE"
+  },
+  "B": {
+    "old_C_linear_refracted_identity": "SUPPORTED_FROM_SAVED_RAYS",
+    "boundary_geometry_overlap": "PRESENT",
+    "BOUNDARY_PATH_CONTAMINATION_PRESENT": "NOT_ESTABLISHED_AS_ENERGY",
+    "exclusive_energy_attribution": "EXCLUSIVE_ENERGY_ATTRIBUTION_UNRESOLVED",
+    "PCHIP_energy": "NOT_EVALUATED"
+  },
+  "C": {
+    "invest_coherent_provider_now": "DEFER",
+    "reason": "GLOBAL_GEOMETRY_NUMERICAL_ADMISSION_AND_PATH_ENERGY_ATTRIBUTION_NOT_CLOSED",
+    "Yang_MMAR_depth": "NOT_EVALUATED"
+  },
+  "budget": {
+    "science_wall_s": 106.63801619992591,
+    "sampled_peak_RSS_bytes": 509632512,
+    "new_external_solver_calls": 0,
+    "new_MC": 0,
+    "new_acoustic_fields": 0
+  },
+  "history": {
+    "ENV_CAP": "UNCHANGED",
+    "REC01": "UNCHANGED_ACCEPTED",
+    "T2_FUNC2": "STOP_UNCHANGED",
+    "R4": "0%",
+    "main": "UNCHANGED"
+  },
+  "next_stage_execution_authorized": false
+}

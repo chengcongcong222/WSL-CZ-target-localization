@@ -1,0 +1,16 @@
+{
+  "stage": "ENV_CAP_CZROB02",
+  "status": "STOP",
+  "reason": "CZROB02_NUMERICAL_ADMISSION_NOT_CLOSED_AND_ENERGY_ATTRIBUTION_UNRESOLVED",
+  "cold_audit_FAIL": 6,
+  "cancelled": [
+    "representative ODE under failed full-angle quadrature Gate",
+    "coherent-provider development",
+    "Yang/MMAR ideal/nonoracle depth performance"
+  ],
+  "no_science_retry": true,
+  "history_unchanged": true,
+  "R4": "0%",
+  "next_stage_requires_new_authorization": true,
+  "time_unix": 1792136930.0307798
+}

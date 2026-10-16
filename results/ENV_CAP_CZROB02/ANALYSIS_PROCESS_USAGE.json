@@ -1,0 +1,11 @@
+{
+  "phase": "analysis",
+  "elapsed_s": 70.73961059981957,
+  "tree_peak_RSS_bytes": 309456896,
+  "samples": 319,
+  "new_D_total_bytes": 19651228,
+  "returncode": 0,
+  "hard_limit_failure": null,
+  "new_solver_calls": 0,
+  "new_MC": 0
+}

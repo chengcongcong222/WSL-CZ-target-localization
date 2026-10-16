@@ -1,0 +1,10 @@
+{
+  "completed": true,
+  "cases": 9,
+  "all_9_retained": true,
+  "geometrically_stable_cases": 0,
+  "numeric_failure_cases": 9,
+  "all_energy_attributions_unresolved": true,
+  "new_external_solver_calls": 0,
+  "new_MC": 0
+}

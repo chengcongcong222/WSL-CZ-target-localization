@@ -1,0 +1,13 @@
+{
+  "phase": "STOP",
+  "formal_runs": 1,
+  "cold_runs": 1,
+  "main_execution_exit": 0,
+  "cold_execution_exit": 2,
+  "cold_exit2_is_reported_audit_failure_not_crash": true,
+  "scientific_code_modified_after_A": false,
+  "solver_calls": 0,
+  "new_MC": 0,
+  "ODE_runs": 0,
+  "new_PCHIP_energy": "NOT_EVALUATED"
+}
