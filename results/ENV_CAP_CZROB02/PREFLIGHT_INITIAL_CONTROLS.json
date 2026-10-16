@@ -1,0 +1,136 @@
+{
+  "PASS": true,
+  "controls": [
+    {
+      "check": "C_LINEAR_linear_gradient_exact_range",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "C_LINEAR_independent_adaptive_gradient",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "C_LINEAR_ODE_gradient",
+      "PASS": true,
+      "detail": 5.325074817395643
+    },
+    {
+      "check": "C_LINEAR_flat_no_refracted_return",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "PCHIP_linear_gradient_exact_range",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "PCHIP_independent_adaptive_gradient",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "PCHIP_ODE_gradient",
+      "PASS": true,
+      "detail": 5.325074817395643
+    },
+    {
+      "check": "PCHIP_flat_no_refracted_return",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "C_LINEAR_own_interpolant_dense",
+      "PASS": true,
+      "detail": 0.0
+    },
+    {
+      "check": "C_LINEAR_turn_and_quad_a3.0",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "C_LINEAR_turn_and_quad_a5.0",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "C_LINEAR_turn_and_quad_a8.0",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "C_LINEAR_order_comparison",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "PCHIP_own_interpolant_dense",
+      "PASS": true,
+      "detail": 2.2737367544323206e-13
+    },
+    {
+      "check": "PCHIP_turn_and_quad_a3.0",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "PCHIP_turn_and_quad_a5.0",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "PCHIP_turn_and_quad_a8.0",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "PCHIP_order_comparison",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "PCHIP_no_overshoot_segment0",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "PCHIP_no_overshoot_segment1",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "PCHIP_no_overshoot_segment2",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "PCHIP_C1_jumps",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ODE_piecewise_gradient",
+      "PASS": true,
+      "detail": {
+        "success": true,
+        "returned": true,
+        "range_km": 11.070115523846155,
+        "turn_z_m": 896.1484393274615,
+        "max_relative_Snell_invariant_error": 1.6379275713518382e-10,
+        "rhs_evaluations": 3536,
+        "step_max_m": 50,
+        "message": "A termination event occurred.",
+        "n_points": 255
+      }
+    },
+    {
+      "check": "ray_prefix_not_whole_trace",
+      "PASS": true,
+      "detail": null
+    }
+  ],
+  "actual_nine_case_science_executed": false
+}
