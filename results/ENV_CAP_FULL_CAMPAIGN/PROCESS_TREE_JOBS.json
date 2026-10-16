@@ -1,0 +1,47 @@
+[
+  {
+    "job": "E1_COLD.JOB_EXIT.json",
+    "process_PID": 18536,
+    "wall_s": 31.687000000150874,
+    "peak_tree_RSS_bytes": 386977792,
+    "returncode": 2,
+    "budget_stop": null,
+    "script": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\ENV_CAP_FULL_CAMPAIGN\\scripts\\e1_cold_audit.py"
+  },
+  {
+    "job": "E1_MAIN.JOB_EXIT.json",
+    "process_PID": 38036,
+    "wall_s": 287.43800000008196,
+    "peak_tree_RSS_bytes": 288854016,
+    "returncode": 0,
+    "budget_stop": null,
+    "script": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\ENV_CAP_FULL_CAMPAIGN\\scripts\\e1_campaign.py"
+  },
+  {
+    "job": "E2_E4_COLD.JOB_EXIT.json",
+    "process_PID": 37740,
+    "wall_s": 0.43700000015087426,
+    "peak_tree_RSS_bytes": 30658560,
+    "returncode": 0,
+    "budget_stop": null,
+    "script": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\ENV_CAP_FULL_CAMPAIGN\\scripts\\e2_e4_cold_audit.py"
+  },
+  {
+    "job": "E2_MAIN.JOB_EXIT.json",
+    "process_PID": 40500,
+    "wall_s": 0.875,
+    "peak_tree_RSS_bytes": 72888320,
+    "returncode": 0,
+    "budget_stop": null,
+    "script": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\ENV_CAP_FULL_CAMPAIGN\\scripts\\e2_controls.py"
+  },
+  {
+    "job": "E4_MAIN.JOB_EXIT.json",
+    "process_PID": 29844,
+    "wall_s": 0.8910000000614673,
+    "peak_tree_RSS_bytes": 72232960,
+    "returncode": 0,
+    "budget_stop": null,
+    "script": "D:\\XiaomiMiMoProjects\\WSL系统汇聚区目标定位\\results\\ENV_CAP_FULL_CAMPAIGN\\scripts\\e4_resources.py"
+  }
+]

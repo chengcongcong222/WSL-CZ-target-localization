@@ -1,0 +1,767 @@
+{
+  "readonly_reconstruction_PASS": true,
+  "checks": 126,
+  "FAIL_count": 0,
+  "E2_scientific_implementation_PASS": false,
+  "E1_cold_PASS": false,
+  "new_CZ_scientific_admission": "NOT_ESTABLISHED",
+  "scope": "Confirms preserved negative gates and independent archived-paper/analytic/historical-resource calculations. PASS here never repairs scientific failures.",
+  "rows": [
+    {
+      "check": "E2_UNIT_FREEZE.json_results/R3_C2_Yang_SA_depth/R3_C2_2C/_kraken_paper/yang2014_f350.mod",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    },
+    {
+      "check": "E2_UNIT_FREEZE.json_results/R3_C2_Yang_SA_depth/R3_C2_2C/paper_mode_identification.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    },
+    {
+      "check": "E2_UNIT_FREEZE.json_results/R3_C2_Yang_SA_depth/R3_C2_2C/paper_depth_ambiguity.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    },
+    {
+      "check": "E2_UNIT_FREEZE.json_literature/yang2015.pdf",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    },
+    {
+      "check": "E2_UNIT_FREEZE.json_literature/2018-2.pdf",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    },
+    {
+      "check": "E2_UNIT_FREEZE.json_literature/liang2018_mmar_7824671.pdf",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    },
+    {
+      "check": "E4_UNIT_FREEZE.json_results/R3_C2_Yang_SA_depth/R3_C2_2C/_kraken_paper/yang2014_f350.mod",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    },
+    {
+      "check": "E4_UNIT_FREEZE.json_results/R4_T3_W1_WIDE_BASELINE_DEMO/FOUR_PARAMETER_DEMO_TABLE.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    },
+    {
+      "check": "E4_UNIT_FREEZE.json_results/R4_T3_W1_WIDE_BASELINE_DEMO/RESOURCE_AND_COVERAGE_SUMMARY.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    },
+    {
+      "check": "shallow_depth_4_18_0.05",
+      "PASS": true,
+      "detail": "1.942890293094024e-16",
+      "scope": "stored_shallow_oracle_only"
+    },
+    {
+      "check": "shallow_depth_4_18_0.1",
+      "PASS": true,
+      "detail": "1.6653345369377348e-16",
+      "scope": "stored_shallow_oracle_only"
+    },
+    {
+      "check": "shallow_depth_4_18_0.2",
+      "PASS": true,
+      "detail": "1.1102230246251565e-16",
+      "scope": "stored_shallow_oracle_only"
+    },
+    {
+      "check": "shallow_depth_4_70_0.05",
+      "PASS": true,
+      "detail": "2.220446049250313e-16",
+      "scope": "stored_shallow_oracle_only"
+    },
+    {
+      "check": "shallow_depth_4_70_0.1",
+      "PASS": true,
+      "detail": "1.1102230246251565e-16",
+      "scope": "stored_shallow_oracle_only"
+    },
+    {
+      "check": "shallow_depth_4_70_0.2",
+      "PASS": true,
+      "detail": "1.942890293094024e-16",
+      "scope": "stored_shallow_oracle_only"
+    },
+    {
+      "check": "shallow_depth_50_18_0.05",
+      "PASS": true,
+      "detail": "1.249000902703301e-16",
+      "scope": "stored_shallow_oracle_only"
+    },
+    {
+      "check": "shallow_depth_50_18_0.1",
+      "PASS": true,
+      "detail": "8.326672684688674e-17",
+      "scope": "stored_shallow_oracle_only"
+    },
+    {
+      "check": "shallow_depth_50_18_0.2",
+      "PASS": true,
+      "detail": "3.469446951953614e-17",
+      "scope": "stored_shallow_oracle_only"
+    },
+    {
+      "check": "shallow_depth_50_70_0.05",
+      "PASS": true,
+      "detail": "9.71445146547012e-17",
+      "scope": "stored_shallow_oracle_only"
+    },
+    {
+      "check": "shallow_depth_50_70_0.1",
+      "PASS": true,
+      "detail": "1.3877787807814457e-16",
+      "scope": "stored_shallow_oracle_only"
+    },
+    {
+      "check": "shallow_depth_50_70_0.2",
+      "PASS": true,
+      "detail": "1.942890293094024e-16",
+      "scope": "stored_shallow_oracle_only"
+    },
+    {
+      "check": "int32_overflow_failure_preserved",
+      "PASS": true,
+      "detail": "Exact integer square exceeds2147483647; mirror analytic equality still exact",
+      "scope": "negative_implementation_attribution_not_scientific_gate_repair"
+    },
+    {
+      "check": "E2_25_PASS_1_FAIL_accounting",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    },
+    {
+      "check": "DPI_and_shared_covariance",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_FOURIER_RAYLEIGH_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_SINGLE_COMPONENT_REFERENCE_FREQUENCY_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_SINGLE_COMPONENT_REFERENCE_FREQUENCY_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_SINGLE_COMPONENT_REFERENCE_FREQUENCY_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_SINGLE_COMPONENT_REFERENCE_FREQUENCY_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_SINGLE_COMPONENT_REFERENCE_FREQUENCY_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_SINGLE_COMPONENT_REFERENCE_FREQUENCY_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_SINGLE_COMPONENT_REFERENCE_FREQUENCY_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_SINGLE_COMPONENT_REFERENCE_FREQUENCY_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_SINGLE_COMPONENT_REFERENCE_FREQUENCY_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_CW_PHASE_COHERENCE_DESIGN_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_CW_PHASE_COHERENCE_DESIGN_SCALE",
+      "PASS": true,
+      "detail": "1.3877787807814457e-17",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_CW_PHASE_COHERENCE_DESIGN_SCALE",
+      "PASS": true,
+      "detail": "1.3877787807814457e-17",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_CW_PHASE_COHERENCE_DESIGN_SCALE",
+      "PASS": true,
+      "detail": "1.3877787807814457e-17",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_RELATIVE_MODAL_OFFSET_PHASE_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_RELATIVE_MODAL_OFFSET_PHASE_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_RELATIVE_MODAL_OFFSET_PHASE_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "analytic_scale_RELATIVE_MODAL_OFFSET_PHASE_SCALE",
+      "PASS": true,
+      "detail": "0.0",
+      "scope": "L0_scale_not_achieved_precision"
+    },
+    {
+      "check": "historical_denominators_Q1B0",
+      "PASS": true,
+      "detail": "Historical summaries checked; raw48000 estimations not rerun",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_range_worst_case_P95_percentQ1B0",
+      "PASS": true,
+      "detail": "2.1915827356826156",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_bearing_worst_case_P95_degQ1B0",
+      "PASS": true,
+      "detail": "0.13076379183340237",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_speed_abs_worst_case_P95_mpsQ1B0",
+      "PASS": true,
+      "detail": "0.4896329723468771",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_heading_worst_case_P95_degQ1B0",
+      "PASS": true,
+      "detail": "2.5616974997726345",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_denominators_Q1B1",
+      "PASS": true,
+      "detail": "Historical summaries checked; raw48000 estimations not rerun",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_range_worst_case_P95_percentQ1B1",
+      "PASS": true,
+      "detail": "1.5721945555878116",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_bearing_worst_case_P95_degQ1B1",
+      "PASS": true,
+      "detail": "0.12975111441159015",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_speed_abs_worst_case_P95_mpsQ1B1",
+      "PASS": true,
+      "detail": "0.3506373076296656",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_heading_worst_case_P95_degQ1B1",
+      "PASS": true,
+      "detail": "1.9352187541541923",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_denominators_Q1B2",
+      "PASS": true,
+      "detail": "Historical summaries checked; raw48000 estimations not rerun",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_range_worst_case_P95_percentQ1B2",
+      "PASS": true,
+      "detail": "1.0521346355655365",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_bearing_worst_case_P95_degQ1B2",
+      "PASS": true,
+      "detail": "0.14606710000356316",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_speed_abs_worst_case_P95_mpsQ1B2",
+      "PASS": true,
+      "detail": "0.23513657207745986",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_heading_worst_case_P95_degQ1B2",
+      "PASS": true,
+      "detail": "1.4993533177201925",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_denominators_Q1B3",
+      "PASS": true,
+      "detail": "Historical summaries checked; raw48000 estimations not rerun",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_range_worst_case_P95_percentQ1B3",
+      "PASS": true,
+      "detail": "0.7025851139165038",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_bearing_worst_case_P95_degQ1B3",
+      "PASS": true,
+      "detail": "0.14129207474391592",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_speed_abs_worst_case_P95_mpsQ1B3",
+      "PASS": true,
+      "detail": "0.15174652189515436",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_heading_worst_case_P95_degQ1B3",
+      "PASS": true,
+      "detail": "1.2215295484599835",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_denominators_Q2B0",
+      "PASS": true,
+      "detail": "Historical summaries checked; raw48000 estimations not rerun",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_range_worst_case_P95_percentQ2B0",
+      "PASS": true,
+      "detail": "3.1951925790846776",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_bearing_worst_case_P95_degQ2B0",
+      "PASS": true,
+      "detail": "0.19742656364508093",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_speed_abs_worst_case_P95_mpsQ2B0",
+      "PASS": true,
+      "detail": "0.7083957222187216",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_heading_worst_case_P95_degQ2B0",
+      "PASS": true,
+      "detail": "4.188342770612678",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_denominators_Q2B1",
+      "PASS": true,
+      "detail": "Historical summaries checked; raw48000 estimations not rerun",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_range_worst_case_P95_percentQ2B1",
+      "PASS": true,
+      "detail": "2.3163279806728814",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_bearing_worst_case_P95_degQ2B1",
+      "PASS": true,
+      "detail": "0.19505432809000922",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_speed_abs_worst_case_P95_mpsQ2B1",
+      "PASS": true,
+      "detail": "0.5228492656570516",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_heading_worst_case_P95_degQ2B1",
+      "PASS": true,
+      "detail": "3.0737959905059995",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_denominators_Q2B2",
+      "PASS": true,
+      "detail": "Historical summaries checked; raw48000 estimations not rerun",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_range_worst_case_P95_percentQ2B2",
+      "PASS": true,
+      "detail": "1.5889153120043742",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_bearing_worst_case_P95_degQ2B2",
+      "PASS": true,
+      "detail": "0.2210467291196494",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_speed_abs_worst_case_P95_mpsQ2B2",
+      "PASS": true,
+      "detail": "0.3530937978127162",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_heading_worst_case_P95_degQ2B2",
+      "PASS": true,
+      "detail": "2.207946340360138",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_denominators_Q2B3",
+      "PASS": true,
+      "detail": "Historical summaries checked; raw48000 estimations not rerun",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_range_worst_case_P95_percentQ2B3",
+      "PASS": true,
+      "detail": "1.058360558263747",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_bearing_worst_case_P95_degQ2B3",
+      "PASS": true,
+      "detail": "0.21191369038268704",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_speed_abs_worst_case_P95_mpsQ2B3",
+      "PASS": true,
+      "detail": "0.22833364608202178",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "historical_quantile_max_heading_worst_case_P95_degQ2B3",
+      "PASS": true,
+      "detail": "1.8347687679347189",
+      "scope": "historical_readonly_statistics"
+    },
+    {
+      "check": "finite_resource_Pareto_Q1_B0",
+      "PASS": true,
+      "detail": "No global optimal hardware claim",
+      "scope": "historical_finite8_resource_map"
+    },
+    {
+      "check": "finite_resource_Pareto_Q1_B1",
+      "PASS": true,
+      "detail": "No global optimal hardware claim",
+      "scope": "historical_finite8_resource_map"
+    },
+    {
+      "check": "finite_resource_Pareto_Q1_B2",
+      "PASS": true,
+      "detail": "No global optimal hardware claim",
+      "scope": "historical_finite8_resource_map"
+    },
+    {
+      "check": "finite_resource_Pareto_Q1_B3",
+      "PASS": true,
+      "detail": "No global optimal hardware claim",
+      "scope": "historical_finite8_resource_map"
+    },
+    {
+      "check": "finite_resource_Pareto_Q2_B0",
+      "PASS": true,
+      "detail": "No global optimal hardware claim",
+      "scope": "historical_finite8_resource_map"
+    },
+    {
+      "check": "finite_resource_Pareto_Q2_B1",
+      "PASS": true,
+      "detail": "No global optimal hardware claim",
+      "scope": "historical_finite8_resource_map"
+    },
+    {
+      "check": "finite_resource_Pareto_Q2_B2",
+      "PASS": true,
+      "detail": "No global optimal hardware claim",
+      "scope": "historical_finite8_resource_map"
+    },
+    {
+      "check": "finite_resource_Pareto_Q2_B3",
+      "PASS": true,
+      "detail": "No global optimal hardware claim",
+      "scope": "historical_finite8_resource_map"
+    },
+    {
+      "check": "no_new_CZ_feasibility_claims",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    },
+    {
+      "check": "all30_performance_cells_masked",
+      "PASS": true,
+      "detail": "",
+      "scope": "identity_or_readonly_reconstruction"
+    }
+  ]
+}

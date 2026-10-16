@@ -7,10 +7,10 @@
     "E1": "LIMITED",
     "E2": "FAIL",
     "E3": "NOT_EVALUATED",
-    "E4": "PENDING",
-    "E5": "PENDING"
+    "E4": "LIMITED",
+    "E5": "LIMITED"
   },
-  "STOP": false,
+  "STOP": true,
   "history": [
     {
       "time_utc": "2026-10-16T04:53:11+00:00",
@@ -71,6 +71,45 @@
       "phase": "E3",
       "new_status": "NOT_EVALUATED",
       "note": "30methodcase cells explicitNOT_EVALUATED; no MC/recordings; environmental descriptions only."
+    },
+    {
+      "time_utc": "2026-10-16T05:13:18+00:00",
+      "action": "start",
+      "phase": "E4",
+      "new_status": "RUNNING",
+      "note": "Once-only analytic resource scales and historical evidence map; no new CZ feasibility claims."
+    },
+    {
+      "time_utc": "2026-10-16T05:15:12+00:00",
+      "action": "finish",
+      "phase": "E4",
+      "new_status": "LIMITED",
+      "note": "Independent reconstruction passed; analytic scales and historical finite resource map only; no new testedfeasible CZ rows."
+    },
+    {
+      "time_utc": "2026-10-16T05:15:12+00:00",
+      "action": "start",
+      "phase": "E5",
+      "new_status": "RUNNING",
+      "note": "Assemble full scientific report, figures, all negative gates and source/budget audit; no further scientific experiments."
+    },
+    {
+      "time_utc": "2026-10-16T05:26:40+00:00",
+      "action": "finish",
+      "phase": "E5",
+      "new_status": "LIMITED",
+      "note": "Complete negative-branch report,7figurepairs,sources,independent audits and resource map; scientific gates remain unclosed; STOP."
     }
-  ]
+  ],
+  "science_started": true,
+  "science_wall_s": 321.9433007474727,
+  "solver_calls": 63,
+  "MC_configurations": 0,
+  "checkpoints_pushed": [
+    "CP1",
+    "CP2"
+  ],
+  "next_action": "STOP. Read-only review; final branch push and remote verification only. No new science authorized.",
+  "science_gate_result": "NOT_ESTABLISHED_IMPLEMENTATION_AND_NUMERIC_GATES",
+  "history_R4_percent": 0
 }

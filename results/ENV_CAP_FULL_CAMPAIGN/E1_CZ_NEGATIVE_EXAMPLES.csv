@@ -1,0 +1,10 @@
+case_id,scope,reason,physical_impossibility_inferred,new_solver_retry
+ESTD_IDEAL_z150,CZ_NUMERIC_UNCERTIFIED,One or more preregistered caustic/topology/TL numerical gates not closed,False,False
+ESTD_IDEAL_z200,CZ_NUMERIC_UNCERTIFIED,One or more preregistered caustic/topology/TL numerical gates not closed,False,False
+ESTD_IDEAL_z250,CZ_NUMERIC_UNCERTIFIED,One or more preregistered caustic/topology/TL numerical gates not closed,False,False
+NO_CZ_CONSTANT_z150,CZ_NOT_PRESENT_IN_TESTED_DOMAIN,No bottom-free first deep return in registered 10..120km / downward0.1..20deg family; other paths not claimed absent,False,False
+NO_CZ_CONSTANT_z200,CZ_NOT_PRESENT_IN_TESTED_DOMAIN,No bottom-free first deep return in registered 10..120km / downward0.1..20deg family; other paths not claimed absent,False,False
+NO_CZ_CONSTANT_z250,CZ_NOT_PRESENT_IN_TESTED_DOMAIN,No bottom-free first deep return in registered 10..120km / downward0.1..20deg family; other paths not claimed absent,False,False
+SCS17_ANNUAL_z200,COLD_RECONSTRUCTION_FAIL,Zero-energy11.375km I0 window vs sliding sum/dBfloor; global28.888dB discrepancy. Focus-band difference2.84e-14dB does not retroactively pass global audit.,False,
+ENV_SCS_WOA_18N114E,SOURCE_INCOMPLETE_FOR_NEW_ADMISSION,Cross-study deep endpoint diagnostic and legacy NCSS; no admitted full-depth original-source identity.,,
+ENV_INDEPENDENT_REGIONAL_25N140E,T_S_REQUEST_UNAVAILABLE,"Fixed request HTTP400, bathymetry obtained; no acoustic inference from missing data.",,

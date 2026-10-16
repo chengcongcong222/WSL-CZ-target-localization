@@ -1,0 +1,29 @@
+{
+  "accounted_scientific_wall_s": 321.9433007474727,
+  "limit_scientific_wall_s": 259200,
+  "external_solver_calls": 63,
+  "limit_solver_calls": 240,
+  "by_solver": {
+    "BELLHOP": 63,
+    "KRAKEN": 0,
+    "KRAKENC": 0,
+    "FIELD": 0,
+    "FIELDS": 0,
+    "SCOOTER": 0
+  },
+  "solver_returncode_0": 63,
+  "solver_success_is_not_scientific_gate_PASS": true,
+  "new_MC_configurations": 0,
+  "MC_limit": 20000,
+  "new_pressure_records": 0,
+  "scientific_retries": 0,
+  "observed_peak_tree_RSS_bytes": 386977792,
+  "RSS_limit_bytes": 8589934592,
+  "RSS_scope": "FormalWindowsjobsplusLinuxsourceaudit; E0short analytic solver controls were not separately RSS-sampled, so this is observed peak, not complete instrumentation certificate.",
+  "local_campaign_archive_bytes_at_index": 1105396053,
+  "repository_artifact_bytes_at_index": 3845674,
+  "D_limit_bytes": 32212254720,
+  "Git_limit_bytes": 125829120,
+  "storage_scope": "NewcampaignDarchiveplusnewrepodirectory; excludes byte-for-byte delta of shared system caches and original user-suppliedDownloads package. No projectdata onC.",
+  "measured_caps_exceeded": false
+}

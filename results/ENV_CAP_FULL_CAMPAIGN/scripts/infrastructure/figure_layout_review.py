@@ -1,0 +1,2 @@
+﻿from pathlib import Path
+p=Path('results/ENV_CAP_FULL_CAMPAIGN/scripts/render_figures.py');s=p.read_text(encoding='utf-8-sig');s=s.replace('import matplotlib.pyplot as plt','import matplotlib.pyplot as plt\nimport textwrap');s=s.replace(" fig.text(.01,.005,note,fontsize=8,color='#6b3742');fig.savefig", " fig.get_layout_engine().set(rect=(0,.10,1,.90));fig.text(.01,.012,textwrap.fill(note,140),fontsize=8,color='#6b3742',va='bottom');fig.savefig");p.write_text(s,encoding='utf-8',newline='\n')

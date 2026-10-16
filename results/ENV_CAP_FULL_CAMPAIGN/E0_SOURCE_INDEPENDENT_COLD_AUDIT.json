@@ -1,0 +1,123 @@
+{
+  "PASS": true,
+  "checks": 16,
+  "FAIL_count": 0,
+  "wall_s": 0.29518274699512403,
+  "single_process_peak_RSS_bytes": 111427584,
+  "gsw_version": "3.6.23",
+  "rows": [
+    {
+      "check": "woa23_decav91C0_t01_04_source17N118E.nc_axes",
+      "PASS": true,
+      "error": "",
+      "tolerance": "",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "woa23_decav91C0_s01_04_source17N118E.nc_axes",
+      "PASS": true,
+      "error": "",
+      "tolerance": "",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "paired_depths_01",
+      "PASS": true,
+      "error": "",
+      "tolerance": "",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "woa23_decav91C0_t13_04_source17N118E.nc_axes",
+      "PASS": true,
+      "error": "",
+      "tolerance": "",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "woa23_decav91C0_s13_04_source17N118E.nc_axes",
+      "PASS": true,
+      "error": "",
+      "tolerance": "",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "paired_depths_13",
+      "PASS": true,
+      "error": "",
+      "tolerance": "",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "woa23_decav91C0_t00_04_source17N118E.nc_axes",
+      "PASS": true,
+      "error": "",
+      "tolerance": "",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "woa23_decav91C0_s00_04_source17N118E.nc_axes",
+      "PASS": true,
+      "error": "",
+      "tolerance": "",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "paired_depths_00",
+      "PASS": true,
+      "error": "",
+      "tolerance": "",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "SCS17_JW_TEOS10_profile",
+      "PASS": true,
+      "error": "0.0",
+      "tolerance": "1e-08",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "SCS17_JW_no_deep_extrapolation",
+      "PASS": true,
+      "error": "",
+      "tolerance": "",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "SCS17_JA_TEOS10_profile",
+      "PASS": true,
+      "error": "0.0",
+      "tolerance": "1e-08",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "SCS17_JA_no_deep_extrapolation",
+      "PASS": true,
+      "error": "",
+      "tolerance": "",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "SCS17_ANNUAL_TEOS10_profile",
+      "PASS": true,
+      "error": "0.0",
+      "tolerance": "1e-08",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "SCS17_ANNUAL_no_deep_extrapolation",
+      "PASS": true,
+      "error": "",
+      "tolerance": "",
+      "scope": "source_data_identity_or_reconstruction"
+    },
+    {
+      "check": "ETOPO_four_pixel_source_point",
+      "PASS": true,
+      "error": "-9.094947017729282e-13",
+      "tolerance": "1e-07",
+      "scope": "bathymetry_point_only_not_track_or_sediment"
+    }
+  ],
+  "scope": "Original raw T/S and actualETOPOtile, independent formula reconstruction; not firstCZ or modal admission"
+}

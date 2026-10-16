@@ -1,0 +1,549 @@
+{
+  "artifact_integrity_PASS": true,
+  "checks": 90,
+  "FAIL": 0,
+  "scientific_admission_PASS": false,
+  "scope": "Required outputs, code syntax and frozen identity, sevenPDF/PNG pairs, figure sourceSHA, STOP and negative-gate preservation. No scientific reruns.",
+  "rows": [
+    {
+      "check": "required_E0_BASELINE_AUDIT.md",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E0_FREEZE.json",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E1_ENV_SOURCE_INDEX.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E1_CZ_ENVIRONMENTS.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E1_CZ_GATE.json",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E1_CZ_PHYSICS_EVIDENCE.md",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E1_CZ_RANGE_SHAPE_DIAGNOSTICS.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E1_CZ_NEGATIVE_EXAMPLES.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E2_PAPER_METHOD_IDENTITY.md",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E2_YANG_ERRATUM_FORMULA_AUDIT.md",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E2_YANG_MMAR_COMPARISON.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E2_MODE_DENSITY_AND_APERTURE.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E2_METHOD_GATE.json",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E3_PERFORMANCE_BY_CASE.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E3_OBSERVABLE_EXTRACTION.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E3_NUISANCE_PROFILED_INFORMATION.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E3_ENV_SENSITIVITY.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E3_GATE.json",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E4_RESOURCE_INVERSION.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E4_NEEDS_FROM_CLIENT.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E4_PARETO_RESOURCE_FEASIBILITY.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_E4_GATE.json",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_ENV_CAP_EVIDENCE_LEDGER.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_ENV_CAP_FINAL_DECISION.json",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_ENV_CAP_FINAL_SCIENTIFIC_REPORT.md",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_GPT_SYNC_ENV_CAP_FINAL.md",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_APPLICATION_USABLE_CLAIMS.md",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_APPLICATION_FORBIDDEN_CLAIMS.md",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_REVIEW_ENTRYPOINT.md",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_RUN_STATE.json",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_SESSION_HANDOFF.md",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_INDEPENDENT_AUDIT_SUMMARY.json",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_STOP.json",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "required_raw_local_archive_index.csv",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/archive_and_budget.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/assemble_core_reports.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/assemble_full_report.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/assemble_handoff.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/e0_controls.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/e0_source_cold_audit.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/e1_campaign.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/e1_cold_audit.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/e2_controls.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/e2_e4_cold_audit.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/e4_resources.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/env_provider.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/render_figures.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/validate_delivery.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/watchdog.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/acquire_fixed_site.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/adjudicate_e1.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/bootstrap.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/build_e3_gate_accounting.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/e4_preexecution_claims.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/figure_layout_review.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/freeze_e0.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/git_quote_check.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/inspect_wsl.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/nc_review.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/prepare_cold.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/prepare_profiles.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "syntax_scripts/infrastructure/terminal_state.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "E2_frozen_code_unchanged",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "E4_frozen_code_unchanged",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "E0_frozen_scripts\\e0_controls.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "E0_frozen_scripts\\e1_campaign.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "E0_frozen_scripts\\env_provider.py",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "PDF_F01_ENVIRONMENT_SSP_AND_CZ.pdf",
+      "PASS": true,
+      "detail": "{'pages': 1, 'text_chars': 555}",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "PDF_F02_CZ_GATE_AND_NEGATIVES.pdf",
+      "PASS": true,
+      "detail": "{'pages': 1, 'text_chars': 819}",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "PDF_F03_MODAL_SPACING_APERTURE.pdf",
+      "PASS": true,
+      "detail": "{'pages': 1, 'text_chars': 445}",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "PDF_F04_YANG_MMAR_EVIDENCE_LAYERS.pdf",
+      "PASS": true,
+      "detail": "{'pages': 1, 'text_chars': 580}",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "PDF_F05_SENSITIVITY_BOUNDARIES.pdf",
+      "PASS": true,
+      "detail": "{'pages': 1, 'text_chars': 540}",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "PDF_F06_RESOURCE_PRECISION_PARETO.pdf",
+      "PASS": true,
+      "detail": "{'pages': 1, 'text_chars': 577}",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "PDF_F07_APPLICATION_ROUTE.pdf",
+      "PASS": true,
+      "detail": "{'pages': 1, 'text_chars': 642}",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "seven_PDFs_and_PNGs",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "figure_data_SHA_F01_ENVIRONMENT_SSP_AND_CZ",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "figure_data_SHA_F02_CZ_GATE_AND_NEGATIVES",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "figure_data_SHA_F03_MODAL_SPACING_APERTURE",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "figure_data_SHA_F04_YANG_MMAR_EVIDENCE_LAYERS",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "figure_data_SHA_F05_SENSITIVITY_BOUNDARIES",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "figure_data_SHA_F06_RESOURCE_PRECISION_PARETO",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "figure_data_SHA_F07_APPLICATION_ROUTE",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "STOP_true",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "all_phases_terminal",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "old_ledger_unchanged",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "no_historical_tracked_changes",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "scientific_failures_not_hidden",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "R4_zero",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "storage_budgets_measured_scope",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    },
+    {
+      "check": "all32_original_package_bytes_unchanged",
+      "PASS": true,
+      "detail": "",
+      "scope": "artifact_integrity_only_not_science_gate"
+    }
+  ]
+}

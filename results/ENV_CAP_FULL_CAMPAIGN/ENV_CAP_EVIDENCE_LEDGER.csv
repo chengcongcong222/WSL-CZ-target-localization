@@ -1,0 +1,9 @@
+evidence_id,stage,status,level,source,claim,limit
+ENV_CAP_E0,E0,PASS,SOURCE_IDENTITY_AND_CONTRACT,E0_PRECHECK.json,"32 package identities,28 historical sources; independent source selection fixed",Not science admission
+ENV_CAP_E1_MAIN,E1,PROVISIONAL_NOT_ADMITTED,RAY_ENERGY_DIAGNOSTIC,E1_CZ_ENVIRONMENTS.csv,9 provisionalSCS cases in1 source family,FinalE1 audit hold; flat rigid nominal model
+ENV_CAP_E1_COLD,E1,FAIL_UNCHANGED,RAW_NUMERICAL_RECONSTRUCTION,E1_INDEPENDENT_COLD_AUDIT.json,"274 checks,12FAIL; cancellation/floor sensitivity retained",Not evidence of physicalabsence
+ENV_CAP_E2_PAPER,E2,STORED_CONTROL_RECONFIRMED,HISTORICAL_SHALLOW_ORACLE,E2_PAPER_DEPTH_CONTROL_CURVES.csv,12 archived depth-score comparisons match,Not CZ/nonoracle extraction or new eigenfunction certification
+ENV_CAP_E2_CONTROL,E2,IMPLEMENTATION_INVALID,CONTROL_FAILURE,E2_FINAL_ADJUDICATION.json,int32 mirror overflow caused1FAIL /26,No physicalmechanism failure inferred; no retry
+ENV_CAP_E3,E3,NOT_EVALUATED,NONE,E3_PERFORMANCE_BY_CASE.csv,"30 cells masked with causes,0 attempts",No precision/coverage estimates
+ENV_CAP_E4,E4,LIMITED,L0_AND_HISTORICAL_REFERENCE,E4_RESOURCE_INVERSION.csv,conditional design scales and historical8point resource tradeoffs,No newCZ feasiblecells or minimal hardware
+ENV_CAP_COLD_E2E4,E5,READONLY_RECONSTRUCTION_PASS,SCOPE_LIMITED_AUDIT,E2_E4_INDEPENDENT_COLD_AUDIT.json,126 checks0FAIL,Never repairs E1/E2 failed gates

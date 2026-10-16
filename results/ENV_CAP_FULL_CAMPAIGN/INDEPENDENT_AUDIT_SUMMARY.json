@@ -1,0 +1,32 @@
+{
+  "E0_source": {
+    "PASS": true,
+    "checks": 16,
+    "FAIL": 0,
+    "scope": "OriginalT/SandETOPOpointonly"
+  },
+  "E1_scientific_cold": {
+    "PASS": false,
+    "checks": 274,
+    "FAIL": 12,
+    "scope": "RawRAY/SHD,allregisteredunits; formaladmissionwithheld"
+  },
+  "E2_scientific_controls": {
+    "PASS": false,
+    "checks": 26,
+    "FAIL": 1,
+    "scope": "int32mirroroverflow;25otherchecksandsavedshallow12PASS"
+  },
+  "E2_E4_readonly_cold": {
+    "PASS": true,
+    "checks": 126,
+    "FAIL": 0,
+    "scope": "Storedpaper/analytic/historicalresource; neverrepairsE1/E2"
+  },
+  "campaign_scientific_admission_PASS": false,
+  "historical_scientific_gates_unchanged": true,
+  "independent_code_imported_main_research_functions": false,
+  "new_solver_calls_in_cold": 0,
+  "retries": 0,
+  "note": "Deliverable integrity is checked separately; negative science may be completely archived without PASS."
+}

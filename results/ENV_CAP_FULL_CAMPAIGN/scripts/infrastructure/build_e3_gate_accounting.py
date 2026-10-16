@@ -1,0 +1,15 @@
+﻿from pathlib import Path
+import json,csv,sys
+sys.path.insert(0,str(Path.cwd()/'results/ENV_CAP_FULL_CAMPAIGN/scripts'));from env_provider import O,table,js
+cases=list(csv.DictReader((O/'E1_CZ_ENVIRONMENTS.csv').open()));perf=[];obs=[];nui=[];sens=[]
+for c in cases:
+ for method in ['YANG_SAB','LIANG_MMAR']:
+  perf.append({'env_id':c['env_id'],'target_case':c['case_id'],'source_depth_m':c['source_z_m'],'method':method,'performance_level':'NOT_EVALUATED','n_attempted':0,'n_accepted':'NOT_EVALUATED','n_rejected':'NOT_EVALUATED','n_wrong_side':'NOT_EVALUATED','depth_err_m_median':'NOT_EVALUATED','depth_err_m_P95':'NOT_EVALUATED','depth_interval_coverage':'NOT_EVALUATED','range_err_rel_P95':'NOT_EVALUATED','speed_err_abs_mps_P95':'NOT_EVALUATED','status':'NOT_EVALUATED','why_missing':'E1 final admission withheld; no L3 complete coherent provider; E2 zero control implementation FAIL. No replacement oracle coordinates/sign/frequency injected.'})
+  obs.append({'env_id':c['env_id'],'case_id':c['case_id'],'method':method,'received_pressure_generated':0,'modes_or_features_extracted':'NOT_EVALUATED','source_f0_truth_used_by_estimator':False,'offset_delta_truth_used_by_estimator':False,'actual_extraction_status':'NOT_EVALUATED_GATE_BLOCKED','why_missing':'No admitted coherent pressure provider / E2 control failure','claimed_evidence_level':'NONE'})
+ if c['env_id'].startswith('SCS17'):
+  sens.append({'env_id':c['env_id'],'case_id':c['case_id'],'source_z_m':c['source_z_m'],'receiver_band_m':c['receiver_band_m'],'provisional_peak_km':c['peak_km'],'provisional_width_km':c['width_km'],'provisional_prominence_dB':c['prominence_dB'],'raw_refinement_P95_dB':c['numerical_P95_dB'],'evidence_level':'E1_PROVISIONAL_DIAGNOSTIC_NOT_ADMITTED','factor_scope':'SSPsubcase AND source/receiver-depth-band variation; not isolated source-depth effect','new_performance_runs':0,'status':'DESCRIPTIVE_ONLY_COLD_AUDIT_HOLD'})
+for a in csv.DictReader((O/'E2_ANALYTIC_AND_PAPER_CONTROLS.csv').open()):
+ if a['check'].startswith(('archived','single')):continue
+ nui.append({'control':a['check'],'reported_PASS':a['PASS'],'error_or_information':a.get('error') or a.get('error_m') or a.get('error_Hz') or a.get('difference_information'),'evidence':'L0_CONTROL_IMPLEMENTATION_TEST','full_5D_Fisher_information':'NOT_EVALUATED','rank_deficient_variance_convention':'UNBOUNDED_NOT_ZERO','status':'IMPLEMENTATION_FAILED_NAN' if a['PASS']=='False' else 'FINITE_MODEL_CONTROL_ONLY'})
+table(O/'E3_PERFORMANCE_BY_CASE.csv',perf);table(O/'E3_OBSERVABLE_EXTRACTION.csv',obs);table(O/'E3_NUISANCE_PROFILED_INFORMATION.csv',nui);table(O/'E3_ENV_SENSITIVITY.csv',sens)
+js(O/'E3_GATE.json',{'status':'NOT_EVALUATED_REQUIRED_GATES_NOT_CLOSED','new_MC_configurations':0,'new_received_recordings':0,'performance_rows':len(perf),'all_missing_values_explicit':True,'all_independent_performance_denominators':0,'zero_is_not_error_or_variance':True,'E1_diagnostics_reused_for_description_only':True,'no_new_scientific_sensitivity_sweep':True,'why':'No finalCZ2/L3/L5 and E2 implementation-control FAIL; independent analytic E4 may continue.'})

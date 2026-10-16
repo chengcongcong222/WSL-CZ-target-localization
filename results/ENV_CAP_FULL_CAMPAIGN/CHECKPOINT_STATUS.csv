@@ -1,0 +1,4 @@
+checkpoint,commit,remote_branch,science_scope,requires_approval,STOP
+CP1,9e5db5852c0dc14f61b95a5b938c9bc00a43c83c,research/env-cap-20261016,E1auditfailurepreserved,False,False
+CP2,4dc7429cf7acb061e72d56c7af908397076c4e34,research/env-cap-20261016,E2implementationfailureandE3mask,False,False
+FINAL,COMMIT_CONTAINING_THIS_FILE,research/env-cap-20261016,Fullnegativecloseoutandresourceconditions,False,True

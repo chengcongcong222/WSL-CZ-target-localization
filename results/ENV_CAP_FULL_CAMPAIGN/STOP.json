@@ -1,0 +1,12 @@
+{
+  "campaign": "ENV_CAP_20261016",
+  "STOP": true,
+  "date_utc": "2026-10-16T05:27:38.680343+00:00",
+  "reason": "All permitted negative/analytic closeout completed. E1coldFAILandE2zero-controlFAIL; E3NOT_EVALUATED. Final scoped report delivered.",
+  "branch": "research/env-cap-20261016",
+  "parent_SHA": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "scientific_retries": 0,
+  "automatic_next_science": false,
+  "R4_percent": 0,
+  "historical_T2_FUNC2_STOP_unchanged": true
+}

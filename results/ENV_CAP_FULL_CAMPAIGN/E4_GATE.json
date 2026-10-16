@@ -1,0 +1,10 @@
+{
+  "status": "NECESSARY_SCALES_AND_HISTORICAL_CONDITIONAL_RESOURCE_MAP_ONLY",
+  "new_CZ_tested_feasible_rows": 0,
+  "new_CZ_precision": "NOT_EVALUATED",
+  "minimum_equipment_proven": false,
+  "no_shared_noise_double_count": true,
+  "Pareto_scope": "eight historical kinematic configurations, not new CZ acoustic feasibility",
+  "new_MC": 0,
+  "science_runs": 1
+}

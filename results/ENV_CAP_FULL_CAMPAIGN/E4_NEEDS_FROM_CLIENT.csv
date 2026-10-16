@@ -1,0 +1,13 @@
+item_id,category,needed_evidence,reason,current_limit,hardware_or_data_status,necessity_not_procurement_requirement
+1,AREA_AND_SEASON,"intended basin, coordinates, season, source/receiver depth bounds",FirstCZ location and ray-family topology,Client/site not selected; climatology only,UNKNOWN_OR_NOT_PROVIDED,True
+2,SSP,"full-depth T/S/CTD, pressure/location/time, uncertainty and temporal covariance",admitted CZ and coherent modal prediction,WOA is climate mean; missing deep data must not be silently completed,UNKNOWN_OR_NOT_PROVIDED,True
+3,BATHYMETRY,"track bathymetry and uncertainty, sound-channel depth vs bottom",zero-/bottom-bounce families and detection coverage,ETOPO source-point flat extension is conditional,UNKNOWN_OR_NOT_PROVIDED,True
+4,SEDIMENT,sourced sound speed/density/attenuation/layering/roughness or justified ranges,coherent-field boundary completeness,Unknown; rigid bottom is mathematical control,UNKNOWN_OR_NOT_PROVIDED,True
+5,CW_SOURCE,"available tonal lines, f0 knowledge, coherence, amplitude/phase drift",Yang/MMAR radial-coordinate and phase extraction,Source frequency/gain cannot be handed to estimator as truth,UNKNOWN_OR_NOT_PROVIDED,True
+6,RECORDING,"time-synchronized raw channels, rate, calibration, units, receive bandwidth",actual nonoracle observables and shared covariance,No new CZ pressure records in campaign,UNKNOWN_OR_NOT_PROVIDED,True
+7,ARRAY,"actual element XYZ/depth, attitude/roll, phase/gain vsfrequency",geometry and depth-sensitive relative field,8/14m base; vertical and transverse aperture separately costed,UNKNOWN_OR_NOT_PROVIDED,True
+8,MOTION_NAV,"platform/target prior, navigation covariance and maneuver constraints",available relative radial aperture Lr and horizontal branches,platform speed*time is not Lr,UNKNOWN_OR_NOT_PROVIDED,True
+9,TIME_REFERENCE,clock offset/drift and any independent source-frequency reference,phase / radial feature gauge,Not equipment-validated,UNKNOWN_OR_NOT_PROVIDED,True
+10,SIDE_ASSOCIATION,"signed-bearing provenance, ambiguity handling and same-target association",joint horizontal support,"T3 assumes signed bearings, cannot certify HLA side resolution",UNKNOWN_OR_NOT_PROVIDED,True
+11,AUXILIARY,"node count, maintainable5/7/15.3km geometry, telemetry/nav/time/association",historical T3 design transfer,No automatic actual capability from simulation,UNKNOWN_OR_NOT_PROVIDED,True
+12,PRIORITIES,which parameters and research grades matter; tolerate refusal/intervals,resource Pareto and experiment scope,No universal5%/10% acceptance; depth can remain interval/unknown,UNKNOWN_OR_NOT_PROVIDED,True
