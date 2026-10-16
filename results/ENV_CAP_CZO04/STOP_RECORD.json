@@ -1,0 +1,17 @@
+{
+  "stage": "ENV_CAP_CZO04",
+  "status": "STOP",
+  "analysis_launches": 1,
+  "cold_launches": 1,
+  "forbidden_automatic_continuations": [
+    "receiver performance MC",
+    "new propagation solvers",
+    "NUM03 Snell repair",
+    "T2 FUNC2",
+    "Yang MMAR",
+    "coherent provider",
+    "finer or enlarged candidate grid"
+  ],
+  "history_and_main": "UNCHANGED",
+  "R4": "0%"
+}

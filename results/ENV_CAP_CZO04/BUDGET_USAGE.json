@@ -1,0 +1,12 @@
+{
+  "science_wall_s": 99.59128709998913,
+  "science_peak_tree_RSS_bytes": 968200192,
+  "new_D_snapshot_bytes": 52717460,
+  "new_Git_snapshot_bytes": 29396689,
+  "snapshot_scope": "after reporting, before this budget/manifest finalization; exact final storage also recorded outside Git after push",
+  "new_solver_calls": 0,
+  "new_MC": 0,
+  "new_receiver_records": 0,
+  "all_new_paths": "D:",
+  "science_retry": 0
+}

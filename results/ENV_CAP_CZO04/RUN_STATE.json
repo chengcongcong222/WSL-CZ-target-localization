@@ -1,0 +1,10 @@
+{
+  "stage": "ENV_CAP_CZO04",
+  "state": "STOP",
+  "analysis_completed_once": true,
+  "cold_audit_completed_once": true,
+  "scientific_retry_permitted": false,
+  "commit_A": "eef0bf6221a8eb87254976b19890fffb9c9d3b3a",
+  "next_action": "Commit B push/verify only; do not relaunch analysis or cold",
+  "historical_R4": "0%"
+}

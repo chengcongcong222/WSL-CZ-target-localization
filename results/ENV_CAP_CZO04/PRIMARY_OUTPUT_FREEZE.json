@@ -1,0 +1,269 @@
+{
+  "files": [
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\ACTUAL_DATA_INFORMATION_CONTROLS.csv",
+      "sha256": "2cfb012b118aa77dd36a222981990e0331a0a9b1036e0eabb2eda6ef91540c3e",
+      "bytes": 91362
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\ANALYSIS_EXIT.json",
+      "sha256": "ee47fbfb8d282e6fb0c7044ec7293d810b554fbd01a920db755356486403eda7",
+      "bytes": 797
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\BEARING_FINITE_GRID_BASELINE.csv",
+      "sha256": "3dffe01528055a5809685b8a2a429897f9de744eebe0235cbcbcfe6e6cc28809",
+      "bytes": 1754
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\CZO04_ANALYSIS_SUMMARY.json",
+      "sha256": "8e4202c2d9dceabfabff8d2f8223350d60db5325eb1b1def89e94ee54112de93",
+      "bytes": 775
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\DESIGN_FREEZE.json",
+      "sha256": "64c53e331cc044d4ec94b518bf0b1d4ac90bb0c7d53e527ac10cb6028f0fa5c0",
+      "bytes": 293933
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\FINITE_CANDIDATE_SUPPORT.csv",
+      "sha256": "f55d159b6282c34896fac455e3cbfa9c4b132c154cf19984559feb7058365c04",
+      "bytes": 1239056
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\FULL_RANGE_POINT_RECEIVER_NUMERICS.csv",
+      "sha256": "0f1c8ac29e9230bcca464a3736c2f85c44430b8c5ce4884f61a320a81e1af934",
+      "bytes": 2399
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\IMPLEMENTATION_PREFLIGHT_CONTROLS.json",
+      "sha256": "16119fb17c12e72dc2bdc98f0ba8bb3561cbe0b6cf9b05c6c8e5df19d756aa31",
+      "bytes": 1556
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\INPUT_IDENTITY_PRECHECK.csv",
+      "sha256": "d162199a089283c1acde73ce37547578e8337c7fc10356ca3cb6ee243d957234",
+      "bytes": 179167
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\INPUT_LAYOUT_PREFLIGHT.json",
+      "sha256": "9979a67add96354050f25adaa8c7b0ac61da04ea14ce0cf255f07d2ef40d3746",
+      "bytes": 15834
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\LOCAL_EFFECTIVE_INFORMATION.csv",
+      "sha256": "861f4b9dba3a951420bbb4ac6ff6a47c68821d7705e970ee84b9d4fc7e948887",
+      "bytes": 1266275
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\PREFLIGHT.json",
+      "sha256": "4be3de07b056d11c5c419f9982c1e9061003586fbe084ac1ef06b3c002b8c4f4",
+      "bytes": 292
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\RESOURCE_SEPARATION_SCALES.csv",
+      "sha256": "d36cd727e17aa21cdad6325de73e483fcc650bdc6c800a3006572e01fb8abb57",
+      "bytes": 213153
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\SINGLE_DEPTH_INPUT_LEVELS.csv",
+      "sha256": "282108ae80214ddb4ed4cf395896039129ca880d2a7b3be76ebf472965e08331",
+      "bytes": 705353
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\SOURCE_DRIFT_INFORMATION_LOSS.csv",
+      "sha256": "b150fd5c25c9ff07858fe446a09167c9f5bfdeb75b11fbc167a5f93d08df4590",
+      "bytes": 48401
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_CZO04\\SYNTHETIC_CONTROLS.json",
+      "sha256": "5e85c724da03982f9c9ea1ea7c01a2c464930315ffe257878762eaeaa8c1d029",
+      "bytes": 2568
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\ANALYSIS_LAUNCH.json",
+      "sha256": "88c862a20990f3a829021e4194844ccce72ec6d0d7f8cd95a824e26b430bf329",
+      "bytes": 204
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\G01M_SCORES.npz",
+      "sha256": "fbf196816c3f97f5b8ddb40b75ef7e493081c729aa98e88bdf1df7039ec98a89",
+      "bytes": 920311
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\G01P_SCORES.npz",
+      "sha256": "f2bc545502d8e38a48e28934b8c89b2ca849b4d73766ab85080f9b9fb8f5e7a0",
+      "bytes": 933682
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\G02M_SCORES.npz",
+      "sha256": "1f5d8a9e4ae7349b1838ee508a87468934c1ba6b382aa4d56eacb2093cd47cb2",
+      "bytes": 939078
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\G02P_SCORES.npz",
+      "sha256": "327ec489053cb4896b34ae192ff8ca79797ca0376647b2853568de7341b969d1",
+      "bytes": 898281
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\G03M_SCORES.npz",
+      "sha256": "ee4e5f6634b20aa7040258432ae72b1f8f4f1c50afa1c1b38f09de4b2fc5c378",
+      "bytes": 682931
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\G03P_SCORES.npz",
+      "sha256": "6ece06dc88face12b5fa2eff006b6de531f231910d7004f6afad7d7bcd97c9a8",
+      "bytes": 653319
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\G04M_SCORES.npz",
+      "sha256": "5d0c53a11a57e5d22544e5df98f398d26d2f57e768be9b8280a2e92a5b4321d0",
+      "bytes": 737934
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\G04P_SCORES.npz",
+      "sha256": "2cdbf5d5246004a287129918b7079c107511f681a55cffd140a0a6cd2fc81f3c",
+      "bytes": 801338
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\G05M_SCORES.npz",
+      "sha256": "a2c493cd8c1d9ed82dc291ffe5ecaca679a64f3c3eeb63533ed76328a3f047b1",
+      "bytes": 957652
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\G05P_SCORES.npz",
+      "sha256": "3ff674ac3c28647f20da833d2399723db8730275c51bb00741020930477530ef",
+      "bytes": 954997
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\G06M_SCORES.npz",
+      "sha256": "c2ccc9eb04156285412810faf3849fbf98b5038d7e0429598f6fcff26c5b0f73",
+      "bytes": 806581
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\G06P_SCORES.npz",
+      "sha256": "986fbb8fb6e87ce54cc323878e38104262dd0e4c1a082ff95613d4e50110106b",
+      "bytes": 771631
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H01M_SCORES.npz",
+      "sha256": "ed537bc2e996ba58a7aa0925cac197d1e555e5516e2ba3cc65b4308a1cf9708d",
+      "bytes": 869862
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H01P_SCORES.npz",
+      "sha256": "c7ed4a34a467c4168d2921cf0c2bdb78251c0336736200b9090d38eb6e083930",
+      "bytes": 849782
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H02M_SCORES.npz",
+      "sha256": "cca37ff9755c0d4b7ed21fa5242b139c5352ed907134492b5a3f079b48ef5230",
+      "bytes": 7880
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H02P_SCORES.npz",
+      "sha256": "3608a83cad53e30213d7b642445c12f40a8cb12cf80223d01fae02564054725f",
+      "bytes": 12025
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H03M_SCORES.npz",
+      "sha256": "4604a577cba0a879bd581dfdfacddf32810e9a47830b8b66705624de82418313",
+      "bytes": 853863
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H03P_SCORES.npz",
+      "sha256": "793f16c6bc0861921953abdbdfd3360f4d8cdfe943da7d85461ddaf101950bf3",
+      "bytes": 844781
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H04M_SCORES.npz",
+      "sha256": "61ee3de43c97043fb31925214a415b79b2d34d06be7c4293c3839629583612ab",
+      "bytes": 594113
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H04P_SCORES.npz",
+      "sha256": "2e9eb85a71e90ca9c831fd3c0fc540e87ab52dca1fe96f83869c22f8b0cfa87c",
+      "bytes": 595173
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H05M_SCORES.npz",
+      "sha256": "c57415ed3b45422fb8f8a9119124a40514e8b344506987e5a7c2943c73b5eeb7",
+      "bytes": 24451
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H05P_SCORES.npz",
+      "sha256": "cf58f00f39e3546baf197f2d9b2d0ef15a13754e53a8341402dd3f15b11b9a71",
+      "bytes": 7846
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H06M_SCORES.npz",
+      "sha256": "03950aff918bd2dce931cc9eb6d0c3ea35049815c82c2f81dcdfac997e175cb4",
+      "bytes": 912549
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H06P_SCORES.npz",
+      "sha256": "98ce288e83b4773a68b874568b3c05d8db01caa4e1d5ced7bbd61a4398ae2257",
+      "bytes": 906694
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H07M_SCORES.npz",
+      "sha256": "632815e81eb3ceae1727fcfe9b04f7a296ce838ebc02f0a809514e43771b721d",
+      "bytes": 723458
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H07P_SCORES.npz",
+      "sha256": "d240db23696ca5a4e49a0478003d7d496136a7ab69cd5142a19d9b494a5ba61d",
+      "bytes": 710214
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H08M_SCORES.npz",
+      "sha256": "46af63323ee63f182b80b464e7ca3a02103f17e5fdbdc8b3c1647a99cdaa82c9",
+      "bytes": 39220
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H08P_SCORES.npz",
+      "sha256": "bba849b82de5dd4226dd54af2d4f621fdfb6b9c513fa84839876c744c4499eab",
+      "bytes": 7800
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H09M_SCORES.npz",
+      "sha256": "47c5f95b9e430347100c17f7d88d7cf014feb1823534141c2faebdc8237cbf63",
+      "bytes": 909417
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H09P_SCORES.npz",
+      "sha256": "544b4dbff449fb4f030cf4efadbc7c97ad9d473c86bcf41b362e70ccca21821d",
+      "bytes": 882675
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H10M_SCORES.npz",
+      "sha256": "843e13d6eabe58ae4d48cfd86c3fcf0ae0a06a81a42d475899980bbc56fe3479",
+      "bytes": 828080
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H10P_SCORES.npz",
+      "sha256": "b330aeaabe94af70a9b5314ffdaf92255225a1453b31c26de1c25b5afbadee64",
+      "bytes": 832296
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H11M_SCORES.npz",
+      "sha256": "afa09ed55f53e20c23083e7be2b877a5a34bc54b17b6c5daca68a87ae35afcd4",
+      "bytes": 57603
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H11P_SCORES.npz",
+      "sha256": "d62cae80be2cb143375f57544fe2d50f47e5840c972e8ce8e3d449e2a69202ff",
+      "bytes": 7812
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H12M_SCORES.npz",
+      "sha256": "b3adbce48a46630798aabaf5f9b6da3e18e8135f6c375da004d800885ed353e8",
+      "bytes": 896746
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CZO04\\H12P_SCORES.npz",
+      "sha256": "fbb0ce9bf5298ebd6be7913542dca4129d13433b66f29751c9e15aee490ab849",
+      "bytes": 880974
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "stage": "ENV_CAP_CZO04",
+  "decision": "LIMITED_CONDITIONAL_LEVEL_INFORMATION_GENERAL_RANGE_ANCHOR_NOT_ESTABLISHED",
+  "parent_SHA": "ebdf94c2927bd1b5d4d459befaf96fbdc2bf454a",
+  "design_SHA": "eef0bf6221a8eb87254976b19890fffb9c9d3b3a",
+  "cold_audit_PASS": true,
+  "labels": {
+    "CZ_LEVEL_INFORMATION_PRESENT_CONDITIONALLY": {
+      "supported": true,
+      "scope": "one on-grid historical geometry G02 and its mirror; JA-generated source-depth250m; all nine estimator labels profiled; only two archived incoherent representations and finite distance labels"
+    },
+    "SOURCE_DRIFT_ERODES_INFORMATION": {
+      "supported": true,
+      "scope": "same feature, nested nuisance model; 29 local numerically resolved paired upper-bound entries, not independent experiments",
+      "median_C1_to_C0_information_increment_ratio": 8.090797853806484e-06,
+      "resolved_pairs": 29
+    },
+    "CURRENT_CZ_LEVEL_ROUTE_NOT_SUPPORTED": {
+      "global_physical_negative_claim": false,
+      "current_general_reliable_anchor_established": false,
+      "scope": "limited conditional witness preserved; broad performance and continuous coverage not established"
+    },
+    "OBSERVABLE_EXTRACTION_NOT_ESTABLISHED": true
+  },
+  "primary": {
+    "case_count": 324,
+    "C0": {
+      "rho": "0",
+      "sigma_db": "0.25",
+      "condition": "C0",
+      "cases": 324,
+      "nonempty": 270,
+      "empty": 54,
+      "range_shrink": 79,
+      "identical_I1_I2_candidate_masks": 97,
+      "local_resolved_and_mask_identical_shrink": 2,
+      "nonempty_width_median_km": 15.0,
+      "continuous_domain": "UNRESOLVED"
+    },
+    "C1": {
+      "rho": "0",
+      "sigma_db": "0.25",
+      "condition": "C1",
+      "cases": 324,
+      "nonempty": 281,
+      "empty": 43,
+      "range_shrink": 52,
+      "identical_I1_I2_candidate_masks": 122,
+      "local_resolved_and_mask_identical_shrink": 2,
+      "nonempty_width_median_km": 15.0,
+      "continuous_domain": "UNRESOLVED"
+    },
+    "C2": {
+      "rho": "0",
+      "sigma_db": "0.25",
+      "condition": "C2",
+      "cases": 324,
+      "nonempty": 288,
+      "empty": 36,
+      "range_shrink": 0,
+      "identical_I1_I2_candidate_masks": 324,
+      "local_resolved_and_mask_identical_shrink": 0,
+      "nonempty_width_median_km": 15.0,
+      "continuous_domain": "UNRESOLVED"
+    }
+  },
+  "primary_stable_witnesses": [
+    {
+      "scene": "G02P",
+      "truth_profile": 5,
+      "range_labels_km": [
+        47.0
+      ],
+      "retained_states": 11
+    },
+    {
+      "scene": "G02M",
+      "truth_profile": 5,
+      "range_labels_km": [
+        47.0
+      ],
+      "retained_states": 11
+    }
+  ],
+  "finite_grid_empty_bearing_scenes": [
+    "H02M",
+    "H05P",
+    "H08P",
+    "H11P"
+  ],
+  "unsigned_bearing_nonregular_scenes": [
+    "G01M",
+    "G01P"
+  ],
+  "continuous_depth_and_environment": "NOT_EVALUATED",
+  "true_grid_regression": {
+    "cases": 108,
+    "per_condition_true_point_retained": 108,
+    "statistical_coverage": "NOT_EVALUATED"
+  },
+  "new_external_solvers": 0,
+  "new_MC": 0,
+  "new_receive_records": 0,
+  "science_wall_s": 99.59128709998913,
+  "science_peak_RSS_bytes": 968200192,
+  "R4": "0%",
+  "main_merged": false,
+  "status": "STOP",
+  "next_research": "No automatic continuation. Before any receiver-performance study, independently define/extract the single-frequency incoherent-energy observable and establish source+gain stability and environment support. Do not resume Snell, T2, coherent providers, or candidate densification."
+}

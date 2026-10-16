@@ -1,0 +1,10 @@
+{
+  "PASS": true,
+  "checks": 28321,
+  "FAIL": 0,
+  "max_raw_cost_difference": 5.9117155615240335e-12,
+  "max_effective_info_relative_difference": 2.714391349754845e-07,
+  "full_horizontal_cases_rebuilt": 36,
+  "scope": "independent raw SHD struct + explicit geometry + linear interpolation + least-squares nuisance profile; all finite supports and local matrices",
+  "elapsed_s": 52.75545040005818
+}

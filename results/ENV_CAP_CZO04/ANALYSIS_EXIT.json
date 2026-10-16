@@ -1,0 +1,21 @@
+{
+  "completed": true,
+  "stage": "ENV_CAP_CZO04",
+  "analysis_completed": true,
+  "candidate_scope": "114576 historical finite points; 36 fixed horizontal scenarios x 9 generating labels; no continuous exclusion certificate",
+  "formal_analyses": 1,
+  "new_MC": 0,
+  "new_solvers": 0,
+  "new_receive_records": 0,
+  "primary_C1_sigma025_iid_cases": 324,
+  "primary_nonempty_range_shrink_cases": 52,
+  "primary_local_numerically_resolved": 29,
+  "primary_local_cases": 324,
+  "source_drift_loss_cases": 472,
+  "C2_zero_exact": true,
+  "OBSERVABLE_EXTRACTION_NOT_ESTABLISHED": true,
+  "continuous_source_depth": "NOT_EVALUATED",
+  "environment_scope": "ONE_WOA_FAMILY_THREE_DISCRETE_CLIMATOLOGIES; ideal boundary no absorption",
+  "R4": "0%",
+  "elapsed_s": 44.82341100019403
+}

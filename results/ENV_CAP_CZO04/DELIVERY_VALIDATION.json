@@ -1,0 +1,172 @@
+{
+  "PASS": true,
+  "checks": 41,
+  "FAIL": 0,
+  "scope": "delivery/metadata checks; not a second scientific cold audit",
+  "items": [
+    {
+      "check": "input_identity_1141",
+      "PASS": true
+    },
+    {
+      "check": "primary_scientific_output_seal",
+      "PASS": true
+    },
+    {
+      "check": "cold_PASS",
+      "PASS": true
+    },
+    {
+      "check": "one_analysis_marker",
+      "PASS": true
+    },
+    {
+      "check": "one_cold_marker",
+      "PASS": true
+    },
+    {
+      "check": "ANALYSIS_valid",
+      "PASS": true
+    },
+    {
+      "check": "COLD_valid",
+      "PASS": true
+    },
+    {
+      "check": "wall_budget",
+      "PASS": true
+    },
+    {
+      "check": "memory_budget",
+      "PASS": true
+    },
+    {
+      "check": "zeros_solver_MC_receiver",
+      "PASS": true
+    },
+    {
+      "check": "R4_STOP",
+      "PASS": true
+    },
+    {
+      "check": "deliverable/GPT_SYNC_CZO04.md",
+      "PASS": true
+    },
+    {
+      "check": "deliverable/CZO04_RESEARCH_DECISION.md",
+      "PASS": true
+    },
+    {
+      "check": "deliverable/ZERO_CONTROLS_AND_INFORMATION_DERIVATION.md",
+      "PASS": true
+    },
+    {
+      "check": "deliverable/OBSERVABLE_AND_EXTRACTION_GAPS.md",
+      "PASS": true
+    },
+    {
+      "check": "deliverable/CONDITION_AND_NOISE_SUMMARY.csv",
+      "PASS": true
+    },
+    {
+      "check": "deliverable/LOCAL_EFFECTIVE_INFORMATION.csv",
+      "PASS": true
+    },
+    {
+      "check": "deliverable/FINITE_CANDIDATE_SUPPORT.csv",
+      "PASS": true
+    },
+    {
+      "check": "deliverable/RESOURCE_SEPARATION_SCALES.csv",
+      "PASS": true
+    },
+    {
+      "check": "deliverable/RAW_DATA_INDEX.csv",
+      "PASS": true
+    },
+    {
+      "check": "deliverable/CZO04_INDEPENDENT_COLD_AUDIT.json",
+      "PASS": true
+    },
+    {
+      "check": "syntax/analysis.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/cold.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/finalize.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/freeze.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/implementation_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/model.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/report.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/run_once.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/synthetic_controls.py",
+      "PASS": true
+    },
+    {
+      "check": "figure/FIG_ALL_NINE_NATIVE_POINT_CURVES.png",
+      "PASS": true
+    },
+    {
+      "check": "figure/FIG_DRIFT_INFORMATION_LOSS.png",
+      "PASS": true
+    },
+    {
+      "check": "figure/FIG_LOCAL_JACOBIAN_NUMERICAL_LIMITS.png",
+      "PASS": true
+    },
+    {
+      "check": "figure/FIG_SOURCE_CONDITION_AND_CORRELATION.png",
+      "PASS": true
+    },
+    {
+      "check": "108_grid_controls_per_condition",
+      "PASS": true
+    },
+    {
+      "check": "two_conditional_witnesses_are_one_geometry_mirror",
+      "PASS": true
+    },
+    {
+      "check": "four_offgrid_empty_scenes",
+      "PASS": true
+    },
+    {
+      "check": "36_remote_review_score_copies",
+      "PASS": true
+    },
+    {
+      "check": "all_D_paths",
+      "PASS": true
+    },
+    {
+      "check": "new_D_budget",
+      "PASS": true
+    },
+    {
+      "check": "new_Git_budget",
+      "PASS": true
+    }
+  ]
+}
