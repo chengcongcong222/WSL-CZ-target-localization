@@ -1,0 +1,14 @@
+{
+  "stage": "NUM03",
+  "phase": "STOP",
+  "formal_runs": 1,
+  "cold_runs": 1,
+  "development_versions": [
+    "v001",
+    "v002_parse_failure",
+    "v003",
+    "v004"
+  ],
+  "frozen_code_modified_after_A": false,
+  "science_source_data_reused_not_regenerated": true
+}

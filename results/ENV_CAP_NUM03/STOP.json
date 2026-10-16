@@ -1,0 +1,19 @@
+{
+  "stage": "ENV_CAP_NUM03",
+  "status": "STOP",
+  "decision": "NUM03_REFERENCE_AND_NOMINAL_FIRST_RETURN_GEOMETRY_SUPPORTED",
+  "labels": {
+    "NUMERICAL_REFERENCE_VALIDATED": true,
+    "FIRST_RETURN_GEOMETRY_SUPPORTED": true,
+    "REPRESENTATION_SENSITIVITY_CHARACTERIZED": true,
+    "ENERGY_ATTRIBUTION_UNRESOLVED": true,
+    "YANG_MMAR_PERFORMANCE_NOT_EVALUATED": true
+  },
+  "no_more_automatic_numerical_repair": true,
+  "new_solver_calls": 0,
+  "new_MC": 0,
+  "no_automatic_coherent_or_performance_work": true,
+  "historical_R4": "0%",
+  "next_stage_requires_new_authorization": true,
+  "time_unix": 1792141883.8945186
+}

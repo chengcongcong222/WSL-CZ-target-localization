@@ -1,0 +1,27 @@
+START SCS17_JW_z150
+SCS17_JW_z150 C_LINEAR primary_numeric True folds 5 ODE None
+SCS17_JW_z150 PCHIP primary_numeric True folds 2 ODE None
+START SCS17_JW_z200
+SCS17_JW_z200 C_LINEAR primary_numeric True folds 7 ODE True
+SCS17_JW_z200 PCHIP primary_numeric True folds 2 ODE True
+START SCS17_JW_z250
+SCS17_JW_z250 C_LINEAR primary_numeric True folds 5 ODE True
+SCS17_JW_z250 PCHIP primary_numeric True folds 2 ODE True
+START SCS17_JA_z150
+SCS17_JA_z150 C_LINEAR primary_numeric True folds 4 ODE None
+SCS17_JA_z150 PCHIP primary_numeric True folds 1 ODE None
+START SCS17_JA_z200
+SCS17_JA_z200 C_LINEAR primary_numeric True folds 5 ODE True
+SCS17_JA_z200 PCHIP primary_numeric True folds 1 ODE True
+START SCS17_JA_z250
+SCS17_JA_z250 C_LINEAR primary_numeric True folds 5 ODE True
+SCS17_JA_z250 PCHIP primary_numeric True folds 1 ODE True
+START SCS17_ANNUAL_z150
+SCS17_ANNUAL_z150 C_LINEAR primary_numeric True folds 3 ODE None
+SCS17_ANNUAL_z150 PCHIP primary_numeric True folds 2 ODE None
+START SCS17_ANNUAL_z200
+SCS17_ANNUAL_z200 C_LINEAR primary_numeric True folds 5 ODE True
+SCS17_ANNUAL_z200 PCHIP primary_numeric True folds 1 ODE True
+START SCS17_ANNUAL_z250
+SCS17_ANNUAL_z250 C_LINEAR primary_numeric True folds 5 ODE True
+SCS17_ANNUAL_z250 PCHIP primary_numeric True folds 1 ODE True

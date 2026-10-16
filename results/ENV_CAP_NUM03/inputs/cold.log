@@ -1,0 +1,28 @@
+AUDIT SCS17_JW_z150
+SCS17_JW_z150 C_LINEAR full_domain_done cumulative_FAIL 0
+SCS17_JW_z150 PCHIP full_domain_done cumulative_FAIL 0
+AUDIT SCS17_JW_z200
+SCS17_JW_z200 C_LINEAR full_domain_done cumulative_FAIL 0
+SCS17_JW_z200 PCHIP full_domain_done cumulative_FAIL 0
+AUDIT SCS17_JW_z250
+SCS17_JW_z250 C_LINEAR full_domain_done cumulative_FAIL 0
+SCS17_JW_z250 PCHIP full_domain_done cumulative_FAIL 0
+AUDIT SCS17_JA_z150
+SCS17_JA_z150 C_LINEAR full_domain_done cumulative_FAIL 0
+SCS17_JA_z150 PCHIP full_domain_done cumulative_FAIL 0
+AUDIT SCS17_JA_z200
+SCS17_JA_z200 C_LINEAR full_domain_done cumulative_FAIL 0
+SCS17_JA_z200 PCHIP full_domain_done cumulative_FAIL 0
+AUDIT SCS17_JA_z250
+SCS17_JA_z250 C_LINEAR full_domain_done cumulative_FAIL 0
+SCS17_JA_z250 PCHIP full_domain_done cumulative_FAIL 0
+AUDIT SCS17_ANNUAL_z150
+SCS17_ANNUAL_z150 C_LINEAR full_domain_done cumulative_FAIL 0
+SCS17_ANNUAL_z150 PCHIP full_domain_done cumulative_FAIL 0
+AUDIT SCS17_ANNUAL_z200
+SCS17_ANNUAL_z200 C_LINEAR full_domain_done cumulative_FAIL 0
+SCS17_ANNUAL_z200 PCHIP full_domain_done cumulative_FAIL 0
+AUDIT SCS17_ANNUAL_z250
+SCS17_ANNUAL_z250 C_LINEAR full_domain_done cumulative_FAIL 0
+SCS17_ANNUAL_z250 PCHIP full_domain_done cumulative_FAIL 0
+{"PASS": true, "checks": 73820, "FAIL_count": 0, "scope": "All registered 72018 angular entries independently reconstructed; own Hermite/roots/local transformed adaptive quadrature; independent golden candidate refinement; MP60/80 selected controls; saved differential-ray checks. Finite-domain evidence, not rigorous interval error bounds or ocean/energy/performance certification."}

@@ -1,0 +1,57 @@
+{
+  "stage": "ENV_CAP_NUM03",
+  "parent_SHA": "392710ecaa69e02b6247068cb83d062a0e610995",
+  "design_SHA": "a641df8e72adf7acec4a71e295c06c78b7458079",
+  "branch": "research/env-cap-num03",
+  "status": "STOP",
+  "decision": "NUM03_REFERENCE_AND_NOMINAL_FIRST_RETURN_GEOMETRY_SUPPORTED",
+  "labels": {
+    "NUMERICAL_REFERENCE_VALIDATED": true,
+    "FIRST_RETURN_GEOMETRY_SUPPORTED": true,
+    "REPRESENTATION_SENSITIVITY_CHARACTERIZED": true,
+    "ENERGY_ATTRIBUTION_UNRESOLVED": true,
+    "YANG_MMAR_PERFORMANCE_NOT_EVALUATED": true
+  },
+  "cold_audit": {
+    "PASS": true,
+    "checks": 73820,
+    "FAIL_count": 0
+  },
+  "geometrically_supported_cases": 9,
+  "input_cases": 9,
+  "source_families": 1,
+  "scope": "Same WOA23_17N118E climatological nodes, C-linear/PCHIP, fixed depth and ideal boundaries; source-depth-plane ray return; not reception or full-wave accuracy",
+  "registered_angular_entries": 72018,
+  "precision_evidence": {
+    "max_primary_independent_range_delta_m": 9.553332347422838e-09,
+    "max_fixed_angle_turn_delta_m": 9.094947017729282e-13,
+    "MP_controls": 30,
+    "max_independent_double_MP80_delta_m": 5.350741412257776e-05,
+    "max_MP60_MP80_decimal_delta_m": 4.082941775047549e-48,
+    "max_first_candidate_refinement_range_delta_m": 2.1827872842550278e-11,
+    "max_first_candidate_refinement_turn_delta_m": 4.139046177442651e-05,
+    "ODE_runs": 84,
+    "max_ODE_Snell_delta_m": 0.00547867723798845,
+    "max_ODE_invariant_error": 4.870304159965144e-09
+  },
+  "representation_range_shift_m": [
+    3.94455911838304,
+    32.206725014744734
+  ],
+  "representation_turn_shift_m": [
+    1.7505537629895116,
+    24.563254718823373
+  ],
+  "resource": {
+    "science_wall_s": 468.84867829992436,
+    "sampled_peak_RSS_bytes": 314597376,
+    "new_acoustic_solver_calls": 0,
+    "new_MC": 0,
+    "new_receiver_or_SHD": 0
+  },
+  "next_recommendation": "DESIGN_ONE_BOUNDED_PROPAGATION_OBSERVABLE_STUDY_ONLY",
+  "automatic_coherent_provider_development": false,
+  "automatic_Yang_MMAR_performance": false,
+  "historical_R4": "0%",
+  "all_historical_Gates_STOP_main": "UNCHANGED"
+}

@@ -1,0 +1,4 @@
+figures,input,sha256,scope
+figures/NUM03_return_geometry.png/.pdf,NUM03_RETURN_CURVES.csv; NUM03_CANDIDATE_CATALOGUE.csv,3cad1bb2c211b5628e76183b6de7313f1cbdb9dc3a486fc69ab54464a94727f0 ; caeba56390774df04179bf4c10ddeb577247aae9eb6b2f777d1b54f9320411f5,Nominal zero-boundary branch; receiver field not evaluated
+figures/NUM03_numerical_closure.png/.pdf,NUM03_FULL_DOMAIN_INDEPENDENT_REFERENCE.csv,bb3cc4c9b64bc86ce2fbb04bbde529e34a8795fd420060cb22bf72b305e035f1,All72018 registered rows; display floor only
+figures/NUM03_representation_sensitivity.png/.pdf,NUM03_NINE_CASE_SENSITIVITY.csv,91a38ccb8359d51b38ce86a171ea3058e419d8cf130ae89265c591f8b280d1e9,"Two representations, one source family; finite-grid topology"

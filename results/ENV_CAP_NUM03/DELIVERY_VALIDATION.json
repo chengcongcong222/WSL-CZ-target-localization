@@ -1,0 +1,214 @@
+{
+  "PASS": true,
+  "scope": "Delivery metadata/integrity only; scientific evidence comes from the one frozen analysis and one independent audit",
+  "checks": [
+    {
+      "check": "all1043_frozen_identities",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all_primary_outputs_unchanged_after_cold",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_GPT_SYNC_NUM03.md",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_ANALYTIC_REFERENCE_DERIVATION.md",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_NUM03_NINE_CASE_SENSITIVITY.csv",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_NUM03_HISTORICAL_FAILURE_RECHECK.csv",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_NUM03_INDEPENDENT_COLD_AUDIT.json",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_NUM03_RESEARCH_DECISION.md",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_NUM03_FINAL_DECISION.json",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_RAW_DATA_INDEX.csv",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "required_STOP.json",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "cold73820_all_PASS",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all9_cases_one_family",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all72018_reference_rows",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all_coarse_metadata_matches_independent_saved_grid",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all30_MP_controls",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all84_ODE_outputs_and_limits",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all18_first_candidate_checks",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "all6_historical_failures_rechecked_not_relabelled",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "geometry9_and_layered_limits",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "zero_new_calls_MC_and_no_followup",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "development_failure_v002_retained",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "development16113_PASS",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "integrator.py_unchanged_since_v001",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "independent_reference.py_unchanged_since_v001",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_analysis.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_cold.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_development_full_suite.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_development_harness.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_development_suite.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_independent_reference.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_integrator.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_run_once.py",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Commit_A_before_science",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "only_NUM03_tracked_changes",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "original16_untracked_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "ANALYSIS_single_execution_and_budget",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "COLD_single_execution_and_budget",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "science_wall_under_limit",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "Git_under96MiB",
+      "PASS": true,
+      "detail": 33465478
+    },
+    {
+      "check": "D_under4GiB",
+      "PASS": true,
+      "detail": 37516946
+    }
+  ],
+  "Git_results_bytes_before_manifest": 33465478,
+  "D_work_bytes": 4051468,
+  "scientific_cold_PASS": true
+}

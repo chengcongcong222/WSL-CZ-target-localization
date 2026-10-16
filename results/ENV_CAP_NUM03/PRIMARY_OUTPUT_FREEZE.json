@@ -1,0 +1,649 @@
+{
+  "files": [
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\ANALYSIS_EXIT.json",
+      "sha256": "69deef7a2dd3a595a8278015c796957c19ccb2eff5743d988edc4bf903110963",
+      "bytes": 109
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\DESIGN_FREEZE.json",
+      "sha256": "e3c9767ac558ea9336c10b71abacc68184095513267f2b24a33b28f24a19310b",
+      "bytes": 256288
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\DEVELOPMENT_GATE.json",
+      "sha256": "4f97fb193c7c977c51a56dcc097413d4f9eaff6c064105f6ae946e1969a48768",
+      "bytes": 276
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\NUM03_CANDIDATE_CATALOGUE.csv",
+      "sha256": "caeba56390774df04179bf4c10ddeb577247aae9eb6b2f777d1b54f9320411f5",
+      "bytes": 14078
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\NUM03_COEFFICIENTS.csv",
+      "sha256": "e89c5b113bebb87e1be756ad8ed0026df725ee59438849605e128dfe6cef85e9",
+      "bytes": 163125
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\NUM03_MP_REFERENCE_PLAN.csv",
+      "sha256": "ea5ad1136d5baaa8327bca156169347aa85e3997e037ada5b702bb614e2c5528",
+      "bytes": 2407
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\NUM03_ODE_COMPARISON.csv",
+      "sha256": "6719fa968236b8f7700b1591a6d5de113c9fb909a5a56d67860fd1f589da9cc6",
+      "bytes": 23330
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\NUM03_PRIMARY_RESULTS.json",
+      "sha256": "82628dd4514df37715a1c9f578fc78a7d56d0b7b6c5f8fadab1a2163a6dfd015",
+      "bytes": 103573
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\NUM03_RETURN_CURVES.csv",
+      "sha256": "3cad1bb2c211b5628e76183b6de7313f1cbdb9dc3a486fc69ab54464a94727f0",
+      "bytes": 10897095
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\PRECHECK_IDENTITY.json",
+      "sha256": "69242f18f23030b7d0206498d6ebb40f071019b65e963a369082cf9d36b46447",
+      "bytes": 244934
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\development\\v001\\RESULTS.json",
+      "sha256": "086350009079b01f077c304cd1aa312fe418fb5490bd42ab8991850989bfb38c",
+      "bytes": 26913
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\development\\v001\\START.json",
+      "sha256": "34c755a0f234bd58061f818ae07f89572d29017a451bf2b415bcc97171f35184",
+      "bytes": 542
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\development\\v002\\RESULTS.json",
+      "sha256": "53a13f4a253d5e7b4aabd8d4261884e04d4c200c8439b0cb85cd1c4a879df18f",
+      "bytes": 455
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\development\\v003\\RESULTS.json",
+      "sha256": "a5ffecc81c1650e2d15eeb3f6233b81213fedd27f08bede330178e5571a14aba",
+      "bytes": 2535675
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\development\\v003\\START.json",
+      "sha256": "faf8e4b8555fa2738f0a7ed08ba0383c928e0f7ee966ca8d22decb37a66c2110",
+      "bytes": 222
+    },
+    {
+      "path": "D:\\XiaomiMiMoProjects\\WSL\u7cfb\u7edf\u6c47\u805a\u533a\u76ee\u6807\u5b9a\u4f4d\\results\\ENV_CAP_NUM03\\development\\v004\\RESULTS.json",
+      "sha256": "2e7ff3b0d2885f60b87ff777c74bb3c3eaef16ed1e14cff9405dfce78a644f95",
+      "bytes": 952
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\ANALYSIS_LAUNCH.json",
+      "sha256": "e98604244a2867b2cb39b79e73779d3001efee39a448491452392fcc70d6e79f",
+      "bytes": 203
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\FORMAL_STARTED.json",
+      "sha256": "6fea5a35db057e4ad93a94044761525871344e75ee047ea1b6b576794c90511e",
+      "bytes": 161
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z150_C_LINEAR_EXIT.json",
+      "sha256": "5091fcc094fd173e8244791bb8f6928b0f98863fcb016560d4b0aa5ef14ae00c",
+      "bytes": 4390
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z150_EXIT.json",
+      "sha256": "dd99785dd04ffe95e365fdf8922b9e0e9460647db987cdb22e4278cd8ff0da31",
+      "bytes": 9232
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z150_PCHIP_EXIT.json",
+      "sha256": "18e0f539391df7706ed9dbbe322e68483a41f8186635faa3dc428424e4229ace",
+      "bytes": 3625
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_C_LINEAR_3.103756882_25.npz",
+      "sha256": "9da87923a19e84729f48b380d9cd0b0b3fcc8956e74751ac8190e07be1f7a6e9",
+      "bytes": 65295
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_C_LINEAR_3.103756882_50.npz",
+      "sha256": "ed2ae334f6929569d95a7580b8b56b40d9f67a4d850a31531c52806cf6dc540e",
+      "bytes": 50237
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_C_LINEAR_3.203756882_25.npz",
+      "sha256": "890408d0cf338f9d1befb54d1d6fb8b6f5b856de85310ffe5c101f1d7d8b453e",
+      "bytes": 64236
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_C_LINEAR_3.203756882_50.npz",
+      "sha256": "c5430d2a8141690e100ce285a900b3cdc9c5ed48232de0fbd15263a8596331d2",
+      "bytes": 50248
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_C_LINEAR_3.303756882_25.npz",
+      "sha256": "2d0376ab779c7c608d40ca7df1d4be8ea5f52b4e1c2203885197bf1937d96254",
+      "bytes": 65159
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_C_LINEAR_3.303756882_50.npz",
+      "sha256": "6fb38fb966c89109c69cea74975ef93111facd376351b5322cedfb1badd2bd9c",
+      "bytes": 49596
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_C_LINEAR_EXIT.json",
+      "sha256": "b317bef3d526441adc9c7ecdfeaa0fb8b5bf77439ea60c0a0387f72c94a12e7b",
+      "bytes": 5949
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_EXIT.json",
+      "sha256": "4dd9f0f9a6a2fc12f4bce404b2c718f36ded3cd2c5f3db0fdb9b88c1afbe13f6",
+      "bytes": 10046
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_PCHIP_3.318258258_25.npz",
+      "sha256": "6f2c8da42f456ee5a16758507688d5c0a7da52afb4b5a6d1ef752b57c142c3a9",
+      "bytes": 44383
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_PCHIP_3.318258258_50.npz",
+      "sha256": "a4f7ccc0e8043897705780b22c0ee7b58f171f6e031190765943e9edc10dfdb2",
+      "bytes": 29042
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_PCHIP_3.418258258_25.npz",
+      "sha256": "28f8975f44df11eeec58430193a5adb2be5067987cae9e3c5cc3b3f2388f65d8",
+      "bytes": 44178
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_PCHIP_3.418258258_50.npz",
+      "sha256": "885586ebe67f93b17a87ad58d5a4a71615606a372118e4d6c76118478b67248d",
+      "bytes": 29021
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_PCHIP_3.518258258_25.npz",
+      "sha256": "12557c96fdf192abccd42fa59f5f38f9240867590bb5669cc8cb6b8a54f5e87d",
+      "bytes": 44108
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_PCHIP_3.518258258_50.npz",
+      "sha256": "2e765473fc4b3cdce2af7cbcc59440b2403a2f5912accdbeffd97884f138621a",
+      "bytes": 29042
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z200_PCHIP_EXIT.json",
+      "sha256": "7e4b349bb08e8cfaf5756fa48e35387e8998be5a5897f7a0592d8ff82b17ab57",
+      "bytes": 2791
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_C_LINEAR_2.338750000_25.npz",
+      "sha256": "9bb027784d71d47e23cc64f5434899eda6612e42571840e2e8cc2d0f61cc8f39",
+      "bytes": 60885
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_C_LINEAR_2.338750000_50.npz",
+      "sha256": "3d3c998b2c18841fb221d620970a9e9bd231048598f59365744a45d93cb028e6",
+      "bytes": 46771
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_C_LINEAR_3.533169843_25.npz",
+      "sha256": "a3d1de79df29c04f7dae858825691172f582063cd84f87c6f03e74cd41adbfaf",
+      "bytes": 60680
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_C_LINEAR_3.533169843_50.npz",
+      "sha256": "49647e9afd10650ff606bf282096b8e29e8506fdbfbc834ee6b81565d3c8cc59",
+      "bytes": 47349
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_C_LINEAR_3.633169843_25.npz",
+      "sha256": "d7980356dfa82328386724ce964402632f941e2027a0aa0cb14825529e23e26c",
+      "bytes": 59885
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_C_LINEAR_3.633169843_50.npz",
+      "sha256": "eb2afcc011c00b0cf96a36039ba940ad6ac3fc6c1d46bbea6f043ace946f50d7",
+      "bytes": 46890
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_C_LINEAR_3.733169843_25.npz",
+      "sha256": "1f9efc598632e058732e7dff918e2a8db290059ef667d8a5dcfef6446207cb42",
+      "bytes": 61436
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_C_LINEAR_3.733169843_50.npz",
+      "sha256": "54c88ba9435e1358d3fd33175fb9a551f80c2925eecb0d2d69cae39db1f1ed6e",
+      "bytes": 47226
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_C_LINEAR_EXIT.json",
+      "sha256": "1a92a5a4146775cf46d53e6c29cd880905c2184f679d585410771795bfa82395",
+      "bytes": 5932
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_EXIT.json",
+      "sha256": "af7d90ef442febf77653bf153f485876541fb5fbf4f34ca28cc8aeed5e9e06b1",
+      "bytes": 10087
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_PCHIP_2.338750000_25.npz",
+      "sha256": "27a7c2fa95930a63a2d68604b41e53e70d28dd3be7e1f870664c873ce9909252",
+      "bytes": 41878
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_PCHIP_2.338750000_50.npz",
+      "sha256": "cc0429841b3a05527fb5762809acbbf2987bb987816b353012ddcabd89532616",
+      "bytes": 27524
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_PCHIP_3.264179731_25.npz",
+      "sha256": "e79dee5ed96c2c43f87ab042a020bf5f3f572f43258e521ac268e0c87de509eb",
+      "bytes": 41868
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_PCHIP_3.264179731_50.npz",
+      "sha256": "a1902dab089d951d85d85960f021dad12ec8e2d9dde39ac2e7358fec0a8bf9f2",
+      "bytes": 27749
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_PCHIP_3.364179731_25.npz",
+      "sha256": "03fbe9112217c8cbdf98c2ee206009e31652ef5611ede2ab9a86a864641df3dd",
+      "bytes": 41777
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_PCHIP_3.364179731_50.npz",
+      "sha256": "2eef74e6a4fdbc35a96770051d6a5a4d8fbdb9e29df505d3776571ac6b627171",
+      "bytes": 27518
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_PCHIP_3.464179731_25.npz",
+      "sha256": "071606c96710023e5d8a0861c6faaf5b772e7caa8bffe29723b992ce4a7db3c5",
+      "bytes": 42116
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_PCHIP_3.464179731_50.npz",
+      "sha256": "fe0275306b7768bb7619527d099b69b31bb226841cbcd21f409eeb8cedf1af42",
+      "bytes": 27880
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_ANNUAL_z250_PCHIP_EXIT.json",
+      "sha256": "abf0f91addf829ff01d8b15bc2cb21dbbb2c5e4809218022867505b5a4da6580",
+      "bytes": 2848
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z150_C_LINEAR_EXIT.json",
+      "sha256": "5100a0ffb42792deffa183382761e5a4420af670573680256870dcebe66ad7e5",
+      "bytes": 5120
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z150_EXIT.json",
+      "sha256": "e8622bc95cea199d568df2cb47b153ae7f643b34bd0279930e1fcbd49e62815c",
+      "bytes": 9221
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z150_PCHIP_EXIT.json",
+      "sha256": "2d0fe83b309c643b49667f3e3093cc052b0b30e7f519440565caa1db3f80eb98",
+      "bytes": 2888
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_C_LINEAR_2.687185261_25.npz",
+      "sha256": "f726652e07d6fb242aafe0429e23c4f4eecaa272a447255b022a995ba2653793",
+      "bytes": 62394
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_C_LINEAR_2.687185261_50.npz",
+      "sha256": "a40b46c976d34d18c1799aac1e959d0ad008ab4f9ca7823e1d15e2b743f0e812",
+      "bytes": 49725
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_C_LINEAR_2.787185261_25.npz",
+      "sha256": "e1a02b4743861b8e7ed817eb2131dba8aeb6c5f72e432a10e0218cc731ff7e4a",
+      "bytes": 63062
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_C_LINEAR_2.787185261_50.npz",
+      "sha256": "569a84495cc191d87d789faf21c5564f7a8221fc8fdd88732dad6eabcd89d658",
+      "bytes": 48349
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_C_LINEAR_2.887185261_25.npz",
+      "sha256": "629f8eac8ebb1d9120c4ae60b895551356221dd98b7f17f9a74300abcb512421",
+      "bytes": 63562
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_C_LINEAR_2.887185261_50.npz",
+      "sha256": "0d5bab0355d30518da1021bd4495a178a17d24e5b0de2fe229571c90386b2e56",
+      "bytes": 49685
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_C_LINEAR_EXIT.json",
+      "sha256": "a57b7b6d7ecc90d74d97b50c52b35101cc1e49dc67b808c6670789ad7f6eefed",
+      "bytes": 5881
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_EXIT.json",
+      "sha256": "85448b202b78d7ec4fef2e38744ab22016a5d7806dea3a10c97724d827784fce",
+      "bytes": 10000
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_PCHIP_2.663176374_25.npz",
+      "sha256": "60ac79cfa721e75c08b5e89ce8667c2a38f09461a8bfd74ba96286d6106cdb8a",
+      "bytes": 43858
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_PCHIP_2.663176374_50.npz",
+      "sha256": "a29e2ab33ddeb95d78c88a77bd46bf7a31200d4ef4ebd284457e1ccc7d28c19e",
+      "bytes": 29179
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_PCHIP_2.763176374_25.npz",
+      "sha256": "5933f223952ac5a8899a43787271108527c6cb95711c5cb323a41313618b86cd",
+      "bytes": 43650
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_PCHIP_2.763176374_50.npz",
+      "sha256": "05bb1af7bc615636970f0256aad1658fb488675c962ed42e84d6d56a28e508b3",
+      "bytes": 28650
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_PCHIP_2.863176374_25.npz",
+      "sha256": "d6e2f8afcc599dd1acb144bd547b1be806900b44f96bdedb350b88ed7ed8e6ac",
+      "bytes": 43977
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_PCHIP_2.863176374_50.npz",
+      "sha256": "465d1eb366af02677d5e233f1b7dd28caf34e07b959b66d2786ab89bfa62205b",
+      "bytes": 29127
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z200_PCHIP_EXIT.json",
+      "sha256": "187e7def73e81e93c67992fc0f9e107d2d7f32a289e89c6f746be5473bf8845a",
+      "bytes": 2816
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_C_LINEAR_4.204725257_25.npz",
+      "sha256": "df90c1fe4f029dafe108ca81c69e752cf66edc15a51f87b05752346441888d00",
+      "bytes": 60200
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_C_LINEAR_4.204725257_50.npz",
+      "sha256": "f2dbaf20311560285dd98e01f432c2b77feb3c4c8fad090f31e2f28b334781d0",
+      "bytes": 47669
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_C_LINEAR_4.304725257_25.npz",
+      "sha256": "d8a07f2b53128a37be09f0ce23147606e574fa124092114df153a6e9dc695713",
+      "bytes": 60581
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_C_LINEAR_4.304725257_50.npz",
+      "sha256": "6d5244ac9020189823287d50ba17e9f38a815a4584ab3bdfb2e39efdcb1dfb65",
+      "bytes": 47302
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_C_LINEAR_4.404725257_25.npz",
+      "sha256": "931c421185000dbdd89bf47141d056a5c58408d996abf78ef4316ae7d002d759",
+      "bytes": 61145
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_C_LINEAR_4.404725257_50.npz",
+      "sha256": "452ea327a4f20420e8a8792dbcf44ae60339dead1fc8c5357bd91c9a9f9a3de8",
+      "bytes": 47107
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_C_LINEAR_EXIT.json",
+      "sha256": "e0c8228e9d2a4be35c8396214eab6b9c76f81c80fc12d4bbbd5a2589cbffa84d",
+      "bytes": 5916
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_EXIT.json",
+      "sha256": "15a506f85c96b0d982721b6d395cdb470156b6da8ea610ce992b2dea8f52b2ac",
+      "bytes": 10061
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_PCHIP_4.289733748_25.npz",
+      "sha256": "7c700042dd638410edb7803677c3e63c169be41aff87153c7d5f5e657b8ffd03",
+      "bytes": 42151
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_PCHIP_4.289733748_50.npz",
+      "sha256": "e71ddf1a941500a165f64f6eff7d34d6618c85a6eb350ef206bfe192b4872f0f",
+      "bytes": 28198
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_PCHIP_4.389733748_25.npz",
+      "sha256": "5221877361e0ec4a0f566f00a6f4073a608e6ecac7f2cd1ec42cfa03d921bc48",
+      "bytes": 42535
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_PCHIP_4.389733748_50.npz",
+      "sha256": "15f037835a88478a3832fc4b8345b7a59bdc058fbf2f88f5220eaf6f45f1f541",
+      "bytes": 27877
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_PCHIP_4.489733748_25.npz",
+      "sha256": "6679eb9e23bd3f9ae5fa07f56786afd5c4b4c5d14423a379acadeaa186445e18",
+      "bytes": 42206
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_PCHIP_4.489733748_50.npz",
+      "sha256": "224a67790a15bcc137d1b5e3eb738ca51553da59887e06fa02d371fc7ed0cb12",
+      "bytes": 27887
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JA_z250_PCHIP_EXIT.json",
+      "sha256": "e43e256932e48215e10ab781fed761718931bb7c04286887ad9a5db3b8c12c2c",
+      "bytes": 2843
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z150_C_LINEAR_EXIT.json",
+      "sha256": "ef6446db26c24f5c437b363c2e96483a6e51f673afbea6fd89c099c69b989c03",
+      "bytes": 5832
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z150_EXIT.json",
+      "sha256": "e096a7ab58508ec2cce0d14c64b9b71e49dbfbdeffd5c4dd316ebd477652da2b",
+      "bytes": 10872
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z150_PCHIP_EXIT.json",
+      "sha256": "8e98bbb3506ac1e9ef4ff43c4f016ed3ece4440c5196329c6675334d2577c4a8",
+      "bytes": 3650
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_C_LINEAR_0.408450000_25.npz",
+      "sha256": "8853d692b4f12309a65397aacc8c7bf21fe666c8234dca6233c5826f6c6a057c",
+      "bytes": 63960
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_C_LINEAR_0.408450000_50.npz",
+      "sha256": "06a3182dacce1de3818ccced781e39a8c4329560efd4089f0bc9cf3b62a1e9e5",
+      "bytes": 49366
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_C_LINEAR_2.682358483_25.npz",
+      "sha256": "67360e522362d59958b188a386f7a72c2216a94f3dfb08dd48412c79389d6835",
+      "bytes": 62764
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_C_LINEAR_2.682358483_50.npz",
+      "sha256": "f0b5d53c97dd0b89073f0a75e28d66f7128c49834cfe26b06081258086cce585",
+      "bytes": 47636
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_C_LINEAR_2.782358483_25.npz",
+      "sha256": "5353b5acdd669a5fda15b8a453347930341090e44127967917730febcadc5584",
+      "bytes": 62695
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_C_LINEAR_2.782358483_50.npz",
+      "sha256": "e19c98f5347364a7db83cbfae74c97fe215fd5efda25dc4aae0ff8199ca79ead",
+      "bytes": 49087
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_C_LINEAR_2.882358483_25.npz",
+      "sha256": "5183d487885ea892722aabff981c07cfb2e50189efefbf245b7e5c909fe15666",
+      "bytes": 62997
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_C_LINEAR_2.882358483_50.npz",
+      "sha256": "99612f608451c04f16627f098392dcd78403e87c766fe731fe21630c23a443a2",
+      "bytes": 49778
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_C_LINEAR_EXIT.json",
+      "sha256": "39f437760dfd7ddb5d16eab8b206d41dc6c2a6e688600396e1839818364b3206",
+      "bytes": 7398
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_EXIT.json",
+      "sha256": "145e354b3dc205eb38b372c3e41bcf4226e5fff7591ce185d9db980c26c68f04",
+      "bytes": 12636
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_PCHIP_0.408450000_25.npz",
+      "sha256": "4c8c58bca884a8e14a0c6a2bddd00db53c87d0093506ccfc29fd2fdef1f8eaa5",
+      "bytes": 44437
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_PCHIP_0.408450000_50.npz",
+      "sha256": "ae03f325583b85f337f02530bcc754a9f81d92f0425254b74c9a4acc6fce72c2",
+      "bytes": 29564
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_PCHIP_2.546392979_25.npz",
+      "sha256": "2fd50bc5bd44ce70ac88a93b7cb09ee9899699ac3edfb2ff70eac16dd312782d",
+      "bytes": 43654
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_PCHIP_2.546392979_50.npz",
+      "sha256": "037e9979d8dd5904d6526c22c27b58b23b65059762e2ee034da64ad7d28df689",
+      "bytes": 29093
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_PCHIP_2.646392979_25.npz",
+      "sha256": "46c9278932f05c3942a6bf9ba0c508d081175681426b7a328cc292a01d20d659",
+      "bytes": 43497
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_PCHIP_2.646392979_50.npz",
+      "sha256": "174246b550422459eee5b90eae5ffe959011b231ea04d2a6fbd79d659df6d0cb",
+      "bytes": 29008
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_PCHIP_2.746392979_25.npz",
+      "sha256": "4bee3025bf468c1abdc04c8a2c86fcaec578f0c74fcb2bdb53bdf5123829c2fb",
+      "bytes": 43837
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_PCHIP_2.746392979_50.npz",
+      "sha256": "79361ba147df7bd62c1682f3191823132199a0b38bab20614629e0669d48f695",
+      "bytes": 29237
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z200_PCHIP_EXIT.json",
+      "sha256": "95beb8f447d48b2efe3ff7c6774d7d1b85728db79f95234c672e879831dba57b",
+      "bytes": 3673
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_C_LINEAR_0.726850000_25.npz",
+      "sha256": "f1dbdba295355dc0d75d5a86ea982ea61e82d331c56abf3daac9acf91b1f307a",
+      "bytes": 60644
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_C_LINEAR_0.726850000_50.npz",
+      "sha256": "9c77ac3fe1efc990dff2e6614c59b6f7277747ae8406df80f22b851614288ffe",
+      "bytes": 46450
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_C_LINEAR_3.861406390_25.npz",
+      "sha256": "386db58678fd4dec9dc434ec42c097b6ab35ee031d51d47d921108be5624bdfe",
+      "bytes": 60607
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_C_LINEAR_3.861406390_50.npz",
+      "sha256": "2f65f4a9e267b8cc6312bab730691d505cf96432815e565b7bae885406723aae",
+      "bytes": 46859
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_C_LINEAR_3.961406390_25.npz",
+      "sha256": "32fcdfd799bf0cba6cb6f31ea19e82a844e59c7ac3ab80f27e9dce8cc369a0f6",
+      "bytes": 59967
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_C_LINEAR_3.961406390_50.npz",
+      "sha256": "ff4896971ff903b3ae6f52309de3f09d284dbb86d888e3ae383608c08b940050",
+      "bytes": 46143
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_C_LINEAR_4.061406390_25.npz",
+      "sha256": "e6081807cad113ec15912848fd6549650d4bf9480201aaa3a7825f987700f030",
+      "bytes": 60877
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_C_LINEAR_4.061406390_50.npz",
+      "sha256": "1fdae3ad6a2077026225692519a0fa118ca0d1626303d37afaf3c4bd1b9791cb",
+      "bytes": 46650
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_C_LINEAR_EXIT.json",
+      "sha256": "a221a01da16efc78125560c33b39c04be35b115a43d13a4be9546786b9aed1db",
+      "bytes": 5947
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_EXIT.json",
+      "sha256": "5373249068636d5e703dd08d298f78f2bbccde610a7fec1d5fd24f97d79ee0e6",
+      "bytes": 11034
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_PCHIP_0.726850000_25.npz",
+      "sha256": "146b343ee09b412d385ed4db5cc17a8a8cbeb306e7d18fb58b1ab134eedf0831",
+      "bytes": 42793
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_PCHIP_0.726850000_50.npz",
+      "sha256": "ca001d942b5bd65c3d44e8fad4f7f0e8b9c107b56986d2c6b739d85740f0acbb",
+      "bytes": 28064
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_PCHIP_3.664002197_25.npz",
+      "sha256": "b9ebcfbae10c0d0bda723e826d5e5bd7ed090d8c0dce6f1a34209513264b4c7a",
+      "bytes": 41953
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_PCHIP_3.664002197_50.npz",
+      "sha256": "5b58d76b6cc31dfadff0cc1116fe0ccbb8febaf8a19f1e24136962f7c1f39bba",
+      "bytes": 28013
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_PCHIP_3.764002197_25.npz",
+      "sha256": "c00ed2ecbf0ef54ae95e905b1824a59825af20486b120413bb620ed3edef3ce7",
+      "bytes": 41787
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_PCHIP_3.764002197_50.npz",
+      "sha256": "355077b1eb5f0850955fcd7755a2a1f8a3ef412e1174def99d6df925e80f952b",
+      "bytes": 27502
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_PCHIP_3.864002197_25.npz",
+      "sha256": "c87d6190cabd2379ff8b0a8b4da684164049e5fd8e2db6c311634117d6bd42bb",
+      "bytes": 42290
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_PCHIP_3.864002197_50.npz",
+      "sha256": "ad9592097d097241c968c2b905c7c8dcef5065a1e354b3affc9eadec45acae2b",
+      "bytes": 27812
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_NUM03\\SCS17_JW_z250_PCHIP_EXIT.json",
+      "sha256": "d22bb02fe0487ebf8ed7a411bd88a778cfe2211bb9302bbf3d4e2b10d966f401",
+      "bytes": 3697
+    }
+  ]
+}

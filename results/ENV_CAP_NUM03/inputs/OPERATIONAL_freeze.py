@@ -1,0 +1,15 @@
+﻿from pathlib import Path
+import json,hashlib,time,sys,subprocess,importlib.metadata,py_compile
+O=Path('results/ENV_CAP_NUM03').resolve();R=O.parents[1];W=Path('D:/ProjectStorage/WSL-CZ/ENV_CAP_NUM03')
+def h(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+pre=json.loads((O/'PRECHECK_IDENTITY.json').read_text(encoding='utf-8'));assert pre['PASS'];tests=[json.loads((O/f'development/{v}/RESULTS.json').read_text(encoding='utf-8')) for v in ['v001','v003','v004']];assert all(a['PASS'] for a in tests)
+for name in ['integrator.py','independent_reference.py']:assert h(O/'scripts'/name)==h(O/'development/v001'/name)==h(O/'development/v003'/name)==h(O/'development/v004'/name)
+for p in (O/'scripts').glob('*.py'):py_compile.compile(str(p),cfile=str(W/(p.name+'.pyc')),doraise=True)
+gate={'PASS':True,'numerical_checks_passed':sum(a['checks'] for a in tests),'accepted_versions':['v001','v003','v004'],'development_parse_failure_retained':'v002','integrator_and_reference_unchanged_since_v001':True,'actual_SCS_science_started':False};(O/'DEVELOPMENT_GATE.json').write_text(json.dumps(gate,indent=2)+'\n',encoding='utf-8')
+inputs=[dict(a) for a in pre['inputs']]
+for p in sorted(O.rglob('*')):
+ if p.is_file():inputs.append({'path':str(p),'sha256':h(p),'source':'NUM03_new_frozen_code_development_contract'})
+for a in inputs:assert h(a['path'])==a['sha256'],a['path']
+cmd=['git','-c','safe.directory='+str(R)];parent=subprocess.check_output(cmd+['rev-parse','HEAD'],text=True).strip();assert parent=='392710ecaa69e02b6247068cb83d062a0e610995'
+f={'stage':'ENV_CAP_NUM03','parent_SHA':parent,'branch':'research/env-cap-num03','freeze_unix':time.time(),'actual_science_started':False,'execution_inputs':inputs,'quadrature_estimate_limit_m':.01,'independent_range_tolerance_m':.01,'independent_turn_tolerance_m':.0001,'candidate_refined_range_tolerance_m':.01,'candidate_refined_turn_tolerance_m':.05,'coarse_fine_candidate_limit_m':100.,'MP_range_tolerance_m':.01,'MP_turn_tolerance_m':.0001,'MP_precision_agreement_m':1e-6,'MP_quad_error_limit_m':1e-6,'MP_fixed_cases':['SCS17_JW_z150','SCS17_JA_z250','SCS17_ANNUAL_z200'],'ODE_representative_cases':['SCS17_JW_z200','SCS17_JA_z200','SCS17_ANNUAL_z250','SCS17_JW_z250','SCS17_JA_z250','SCS17_ANNUAL_z200'],'ODE_max_steps_m':[50.,25.],'ODE_range_limit_m':.5,'ODE_step_limit_m':.25,'ODE_invariant_limit':1e-8,'science_wall_max_s':3600,'process_tree_RSS_max_bytes':4*1024**3,'new_D_max_bytes':4*1024**3,'new_git_max_bytes':96*1024**2,'new_solver_calls':0,'new_MC':0,'formal_retry':0,'historical_R4':'0%','old_untracked_preserved':pre['untracked_preserved'],'python':sys.version,'versions':{v:importlib.metadata.version(v) for v in ['numpy','scipy','mpmath','psutil']}}
+(O/'DESIGN_FREEZE.json').write_text(json.dumps(f,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps({'PASS':True,'freeze_inputs':len(inputs),'development_numerical_checks':gate['numerical_checks_passed'],'science':'NOT_STARTED','new_solver_calls':0}))

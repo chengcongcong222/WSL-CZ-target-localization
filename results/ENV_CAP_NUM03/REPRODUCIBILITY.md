@@ -1,0 +1,13 @@
+﻿# NUM03：代码与复核入口
+
+数学实现见scripts/integrator.py；独立参考见scripts/independent_reference.py，冷审计见scripts/cold.py。冷程序不导入主积分器或正式主分析函数。任意精度PCHIP从节点重新建立斜率和根，不读取主程序的多项式系数作为高精度真值。
+
+开发记录按development/v001–v004保存：v002是测试驱动解析失败，原件保留；v001/v003/v004的有效控制共同构成开发门。积分器和独立参考自v001不变。开发只用合成剖面，不能把其16,113项检查算成9个SCS单元的科学结果。
+
+正式输入身份在DESIGN_FREEZE.json与PRECHECK_IDENTITY.json；正式开始时间在D盘FORMAL_STARTED.json，主输出在PRIMARY_OUTPUT_FREEZE.json中锁定后才开放冷程序。每个正式阶段的启动器/标记禁止再次启动；本目录不是自动重试脚本。若未来需要新的科学复算，应另有授权和独立执行身份。
+
+运行依赖、Python版本和精度门在冻结JSON。所有缓存、临时文件、日志和新增数据位于D盘；Python及现有依赖可以从C盘只读运行。原ENV-CAP、REC01、CZROB-02及T2/FUNC2均只读，旧失败和STOP不改。
+
+结果阅读顺序：GPT_SYNC_NUM03.md → NUM03_FINAL_DECISION.json → NUM03_NINE_CASE_SENSITIVITY.csv → NUM03_INDEPENDENT_COLD_AUDIT.json。NUM03_RETURN_CURVES.csv及NUM03_FULL_DOMAIN_INDEPENDENT_REFERENCE.csv覆盖全部登记角条目；NUM03_CANDIDATE_CATALOGUE.csv保留全部登记极小值及细化，NUM03_MP_REFERENCE.csv保留规定的高精度交叉核查，NUM03_ODE_COMPARISON.csv和D盘NPZ保存微分射线证据。
+
+科学结论必须分开阅读：数值参考、名义首回返几何、两种表示敏感性、未解能量归因及未评价的Yang/MMAR性能。任何几何通过都不是传播相位、接收提取或真实海洋准确性认证。完整连续角域无遗漏证明不在本轮有限网格证据内。
