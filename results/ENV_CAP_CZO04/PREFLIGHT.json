@@ -1,0 +1,10 @@
+{
+  "PASS": true,
+  "all_identity_checks": 1127,
+  "historical_tracked_diff": "",
+  "synthetic_controls": 35,
+  "independent_implementation_controls": 19,
+  "new_science_started": false,
+  "parent": "ebdf94c2927bd1b5d4d459befaf96fbdc2bf454a",
+  "branch": "research/env-cap-czo04"
+}

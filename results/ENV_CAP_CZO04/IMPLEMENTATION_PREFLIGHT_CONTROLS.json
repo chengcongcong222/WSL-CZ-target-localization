@@ -1,0 +1,82 @@
+{
+  "PASS": true,
+  "checks": [
+    {
+      "check": "syntax/analysis.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/cold.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/freeze.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/implementation_preflight.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/model.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/run_once.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax/synthetic_controls.py",
+      "PASS": true
+    },
+    {
+      "check": "project-crosscheck/0/C0",
+      "PASS": true
+    },
+    {
+      "check": "project-crosscheck/0/C1",
+      "PASS": true
+    },
+    {
+      "check": "project-crosscheck/0/C2",
+      "PASS": true
+    },
+    {
+      "check": "project-crosscheck/0.9/C0",
+      "PASS": true
+    },
+    {
+      "check": "project-crosscheck/0.9/C1",
+      "PASS": true
+    },
+    {
+      "check": "project-crosscheck/0.9/C2",
+      "PASS": true
+    },
+    {
+      "check": "geometry/[50, 0, 2, 5]",
+      "PASS": true
+    },
+    {
+      "check": "geometry/[47, -1, 1.4, -7]",
+      "PASS": true
+    },
+    {
+      "check": "geometry/[59, -0.5, 1.8, -11]",
+      "PASS": true
+    },
+    {
+      "check": "tensor-0",
+      "PASS": true
+    },
+    {
+      "check": "tensor-3",
+      "PASS": true
+    },
+    {
+      "check": "scenario-count",
+      "PASS": true
+    }
+  ],
+  "scope": "synthetic fields only; historical scenario list is metadata"
+}

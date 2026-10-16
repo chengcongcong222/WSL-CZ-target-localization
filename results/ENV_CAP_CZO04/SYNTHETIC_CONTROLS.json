@@ -1,0 +1,146 @@
+{
+  "scope": "synthetic algebra only; no SHD scientific evaluation",
+  "checks": [
+    {
+      "check": "0/C0/DPI",
+      "PASS": true
+    },
+    {
+      "check": "0/C0/constant",
+      "PASS": true
+    },
+    {
+      "check": "0/C0/flat-range",
+      "PASS": true
+    },
+    {
+      "check": "0/C1/DPI",
+      "PASS": true
+    },
+    {
+      "check": "0/C1/constant",
+      "PASS": true
+    },
+    {
+      "check": "0/C1/flat-range",
+      "PASS": true
+    },
+    {
+      "check": "0/C1/linear",
+      "PASS": true
+    },
+    {
+      "check": "0/C2/DPI",
+      "PASS": true
+    },
+    {
+      "check": "0/C2/constant",
+      "PASS": true
+    },
+    {
+      "check": "0/C2/flat-range",
+      "PASS": true
+    },
+    {
+      "check": "0/C2/linear",
+      "PASS": true
+    },
+    {
+      "check": "0/C2/free",
+      "PASS": true
+    },
+    {
+      "check": "0/nested",
+      "PASS": true
+    },
+    {
+      "check": "0.9/C0/DPI",
+      "PASS": true
+    },
+    {
+      "check": "0.9/C0/constant",
+      "PASS": true
+    },
+    {
+      "check": "0.9/C0/flat-range",
+      "PASS": true
+    },
+    {
+      "check": "0.9/C1/DPI",
+      "PASS": true
+    },
+    {
+      "check": "0.9/C1/constant",
+      "PASS": true
+    },
+    {
+      "check": "0.9/C1/flat-range",
+      "PASS": true
+    },
+    {
+      "check": "0.9/C1/linear",
+      "PASS": true
+    },
+    {
+      "check": "0.9/C2/DPI",
+      "PASS": true
+    },
+    {
+      "check": "0.9/C2/constant",
+      "PASS": true
+    },
+    {
+      "check": "0.9/C2/flat-range",
+      "PASS": true
+    },
+    {
+      "check": "0.9/C2/linear",
+      "PASS": true
+    },
+    {
+      "check": "0.9/C2/free",
+      "PASS": true
+    },
+    {
+      "check": "0.9/nested",
+      "PASS": true
+    },
+    {
+      "check": "[50, 0, 2, 5]/finite",
+      "PASS": true
+    },
+    {
+      "check": "[50, 0, 2, 5]/not-use-side",
+      "PASS": true
+    },
+    {
+      "check": "[47, -1, 1.4, -7]/finite",
+      "PASS": true
+    },
+    {
+      "check": "[47, -1, 1.4, -7]/not-use-side",
+      "PASS": true
+    },
+    {
+      "check": "[59, -0.5, 1.8, -11]/finite",
+      "PASS": true
+    },
+    {
+      "check": "[59, -0.5, 1.8, -11]/not-use-side",
+      "PASS": true
+    },
+    {
+      "check": "synthetic-jac-step",
+      "PASS": true
+    },
+    {
+      "check": "full-grid",
+      "PASS": true
+    },
+    {
+      "check": "rankzero-not-zero-variance",
+      "PASS": true
+    }
+  ],
+  "PASS": true
+}
