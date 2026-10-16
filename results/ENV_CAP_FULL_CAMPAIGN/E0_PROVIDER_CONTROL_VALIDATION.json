@@ -1,0 +1,45 @@
+{
+  "PASS": true,
+  "checks": [
+    {
+      "check": "C_linear_exact_turn_integral",
+      "PASS": true,
+      "relative_error": 2.3314683517128287e-15
+    },
+    {
+      "check": "constant_speed_no_deep_refractive_return",
+      "PASS": true
+    },
+    {
+      "check": "straight_ray_-1.0",
+      "PASS": true,
+      "max_z_error_m": 0.0002583991408755537
+    },
+    {
+      "check": "straight_ray_0.0",
+      "PASS": true,
+      "max_z_error_m": 0.0
+    },
+    {
+      "check": "straight_ray_1.0",
+      "PASS": true,
+      "max_z_error_m": 0.0002583991408755537
+    },
+    {
+      "check": "open_TL_spherical_spreading_801",
+      "PASS": true,
+      "error_dB": 8.881784197001252e-16
+    },
+    {
+      "check": "open_TL_spherical_spreading_1601",
+      "PASS": true,
+      "error_dB": 8.881784197001252e-16
+    },
+    {
+      "check": "beam_control_convergence",
+      "PASS": true,
+      "max_dB": 0.0
+    }
+  ],
+  "external_solver_calls": 3
+}

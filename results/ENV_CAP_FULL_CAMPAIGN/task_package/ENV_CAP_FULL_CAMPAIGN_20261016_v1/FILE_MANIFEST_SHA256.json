@@ -1,0 +1,169 @@
+{
+  "package": "ENV_CAP_FULL_CAMPAIGN_20261016_v1",
+  "parent_main_sha": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "algorithm": "SHA256",
+  "verification_policy": "self-manifest excluded; no corrections or substitutes",
+  "file_count": 32,
+  "files": [
+    {
+      "path": "00_README_先读.md",
+      "bytes": 3898,
+      "sha256": "5fdd5dc7ec0280aac9ab54738c3a6a6f78d3a05b6540ee7fd4cc8d53bbc6085b"
+    },
+    {
+      "path": "01_CODEX_MASTER_PROMPT.md",
+      "bytes": 6330,
+      "sha256": "5000fa342f0c038fa23dfa5a6d27c8a0b394043445e08a611e0e23a247ba0e38"
+    },
+    {
+      "path": "02_SCIENTIFIC_CONTRACT.md",
+      "bytes": 5916,
+      "sha256": "721242cb7849df78bfbbd291f8325205eec3c69303091327daab6c62ad2c1847"
+    },
+    {
+      "path": "03_PHASES_AND_GATES.md",
+      "bytes": 9694,
+      "sha256": "68c59ffdba192852de4a94c76168d2dddfa1c10e02587456b7e76990fd43caf0"
+    },
+    {
+      "path": "04_ENVIRONMENT_PROTOCOL.md",
+      "bytes": 5738,
+      "sha256": "aa58ab24cd5e06711a6b786ff2991d927bfa0070cdee3c60b8808d9bca42ec0f"
+    },
+    {
+      "path": "05_METHOD_TRANSFER_PROTOCOL.md",
+      "bytes": 6412,
+      "sha256": "b0c959d93ba93bc9b1bd50fba45a4b0c80b68e868610b61287a9ead96aad6f28"
+    },
+    {
+      "path": "06_PERFORMANCE_SENSITIVITY.md",
+      "bytes": 5579,
+      "sha256": "37f277da44cf75259c702c8de3d949dc5625f24d889c77c4a18823dc7242eecd"
+    },
+    {
+      "path": "07_RESOURCE_INVERSE_DESIGN.md",
+      "bytes": 5975,
+      "sha256": "83f37be39456d9aea5cf68c957180703f2a974e6ee8003fbd923cb51b5161cda"
+    },
+    {
+      "path": "08_GIT_CHECKPOINT_AUTONOMY.md",
+      "bytes": 5059,
+      "sha256": "bac61bb9309b654bb7cd4bfb1f664bf0b9bc04222603b1a263494fa435132020"
+    },
+    {
+      "path": "09_REPORT_ACCEPTANCE.md",
+      "bytes": 5241,
+      "sha256": "afc597e70bd29412be3fff91b3c565321d31b9cb1fc0d5c783fc94ce2798ca55"
+    },
+    {
+      "path": "10_REFERENCE_SOURCE_INDEX.csv",
+      "bytes": 4244,
+      "sha256": "79f104a942b33d99c52c9abd4b43864e528bdede75d96a9a38e37c2159e3d823"
+    },
+    {
+      "path": "11_PUBLIC_DATA_SOURCES.md",
+      "bytes": 3275,
+      "sha256": "b07a778f6a642aa3348325257b20caa7600d9fa23a197eb71d02c38dce2abb57"
+    },
+    {
+      "path": "12_STAGE_SPEC.json",
+      "bytes": 6536,
+      "sha256": "b605871664f5761afcc9d1972dbf9acc8a42de47764ec086b16f6ba70104a0bd"
+    },
+    {
+      "path": "13_PHASE_DEPENDENCY.mmd",
+      "bytes": 751,
+      "sha256": "df7788b4cc0f601c07752e076be08afa9eb9ee029c983b224432a80fd36f19aa"
+    },
+    {
+      "path": "14_FINAL_REPORT_TEMPLATE.md",
+      "bytes": 2160,
+      "sha256": "388a53c6438891b94bc2d44d0ac69cc43ce97c497a43066308fed38264da4533"
+    },
+    {
+      "path": "15_CODEX_START_复制.txt",
+      "bytes": 1587,
+      "sha256": "4aecfeafe5f766d1b47bd2c8b7dad42aad47cbef9a2555e02b784c9f3208f72c"
+    },
+    {
+      "path": "16_RUN_STATE_TEMPLATE.json",
+      "bytes": 909,
+      "sha256": "db6371b9e4f6c2563cd1273141bf7155922cf553cd0ba3a21b381c7dda30c62b"
+    },
+    {
+      "path": "17_REVIEW_CHECKPOINT_TEMPLATE.md",
+      "bytes": 639,
+      "sha256": "a72e3e86533d70c3272134ee7e20b6092fe2ee03aff33ef84ecb6c466a944246"
+    },
+    {
+      "path": "18_SESSION_HANDOFF_TEMPLATE.md",
+      "bytes": 713,
+      "sha256": "70973a49b9bca2e337d59c230539170106d3b0cad3304e3177c154b693a0f5fb"
+    },
+    {
+      "path": "19_WINDOWS_WSL_RUNBOOK.md",
+      "bytes": 2847,
+      "sha256": "272fb788a4e7a032baf5d1a6aa7ee8372cc408917ea469cfe4b11659bcbf020c"
+    },
+    {
+      "path": "20_APPLICATION_NOVELTY_AUDIT.md",
+      "bytes": 2852,
+      "sha256": "c8378e0a34747497ef1b4196cf3b0d0432e6a330b97c5120c38155944b5f71c9"
+    },
+    {
+      "path": "21_DELIVERABLE_COPY_GUIDE.md",
+      "bytes": 1899,
+      "sha256": "51eb8819a7f0909dca0f5921118b22c75beaff7aeda97f31080df8cacc793570"
+    },
+    {
+      "path": "scripts/repo_preflight.py",
+      "bytes": 3228,
+      "sha256": "2a120bca4c9d18336530c536f093dfd6e8e62e12c2a9de3073d7c9acba871d66"
+    },
+    {
+      "path": "scripts/stage_state.py",
+      "bytes": 3408,
+      "sha256": "12cc72d9486d3981278deb6b3b9eadb5e56757ba7f3f99839808a27eb37f7fa2"
+    },
+    {
+      "path": "scripts/verify_manifest.py",
+      "bytes": 2003,
+      "sha256": "8ba9f3a8c1d3ed75773b92a606c3ef53be6938ccb36583420f2a4cf58b320d2f"
+    },
+    {
+      "path": "templates/CHECKPOINT_STATUS_TEMPLATE.csv",
+      "bytes": 199,
+      "sha256": "77f9ba8f9f10e5eb83339b249f0e766e22b22005639e2b5cf2bb983340cb388c"
+    },
+    {
+      "path": "templates/E1_CZ_ENVIRONMENTS_TEMPLATE.csv",
+      "bytes": 261,
+      "sha256": "8a6634d2bdc8051541d537886df121c057c0974a5d8e6986db069dc408e96f8b"
+    },
+    {
+      "path": "templates/E2_YANG_MMAR_COMPARISON_TEMPLATE.csv",
+      "bytes": 239,
+      "sha256": "bb3494638a4a101b958cd81a503dd86aeb3dd3aab49781068e042ae49095e2fa"
+    },
+    {
+      "path": "templates/E3_PERFORMANCE_BY_CASE_TEMPLATE.csv",
+      "bytes": 301,
+      "sha256": "d2e4ae0335e41f617d5fc7d18fa07e027cc92725482ad5cdb0eea7a100e4f4f7"
+    },
+    {
+      "path": "templates/E4_RESOURCE_INVERSION_TEMPLATE.csv",
+      "bytes": 341,
+      "sha256": "817a7641e5a2ed7f469b6da32317a905aff9d25a8bc28b09a4d97071bdfa3f5c"
+    },
+    {
+      "path": "templates/SOURCE_DATA_IDENTITY_TEMPLATE.csv",
+      "bytes": 147,
+      "sha256": "6733ded6fa336137eeeb054faa2157a38407faf557db9b39c2af7e88f7f1cd30"
+    },
+    {
+      "path": "tests/test_package_tools.py",
+      "bytes": 1986,
+      "sha256": "5e089262af98e8032f15383bb6bed26f65ee5ee087f76b2b8a908430a9f4277c"
+    }
+  ]
+}

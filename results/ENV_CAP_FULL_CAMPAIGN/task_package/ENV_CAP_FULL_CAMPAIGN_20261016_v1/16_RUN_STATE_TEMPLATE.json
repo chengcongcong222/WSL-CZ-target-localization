@@ -1,0 +1,31 @@
+{
+  "stage": "ENV_CAP_20261016",
+  "parent_SHA": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "branch": "research/env-cap-20261016",
+  "phases": {
+    "E0": "PENDING",
+    "E1": "PENDING",
+    "E2": "PENDING",
+    "E3": "PENDING",
+    "E4": "PENDING",
+    "E5": "PENDING"
+  },
+  "CZ2_environment_count": "NOT_EVALUATED",
+  "CZ3_environment_count": "NOT_EVALUATED",
+  "Yang_paper_controls": "NOT_EVALUATED",
+  "CZ_Yang_method": "NOT_EVALUATED",
+  "MMAR_CZ": "NOT_EVALUATED",
+  "extracted_observable": "NOT_EVALUATED",
+  "resource_boundary": "NOT_EVALUATED",
+  "total_wall_s": 0,
+  "solver_calls": 0,
+  "MC_configurations": 0,
+  "new_D_bytes": 0,
+  "git_bytes": 0,
+  "science_started": false,
+  "checkpoints_pushed": [],
+  "human_review_requests": [],
+  "STOP": false,
+  "next_action": "Run integrity verifier and repository preflight; inspect primary-source material before design commit.",
+  "history": []
+}

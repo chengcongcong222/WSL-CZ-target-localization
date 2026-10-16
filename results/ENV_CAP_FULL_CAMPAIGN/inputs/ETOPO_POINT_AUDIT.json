@@ -1,0 +1,37 @@
+{
+  "candidate_id": "C1_LCE_NSCS_17N118E",
+  "lat": 17.0,
+  "lon": 118.0,
+  "product": "ETOPO_2022_v1_15s",
+  "source_url": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/ETOPO_2022_v1_15s.csv?z[(16.9500):(17.0500)][(117.9500):(118.0500)]",
+  "nearest_pixel": {
+    "lat": 17.00208333333333,
+    "lon": 117.99791666666667,
+    "z_elevation_m": -3910.0
+  },
+  "interpolation_pixels": {
+    "y0_x0_z": -3912.0,
+    "y0_x1_z": -3910.0,
+    "y1_x0_z": -3910.0,
+    "y1_x1_z": -3907.0,
+    "lat_bracket": [
+      16.997916666666665,
+      17.00208333333333
+    ],
+    "lon_bracket": [
+      117.99791666666667,
+      118.00208333333333
+    ]
+  },
+  "method": "bilinear",
+  "ty": 0.5000000000004263,
+  "tx": 0.5,
+  "z_unrounded": -3909.749999999999,
+  "z_rounded_2dp": -3909.75,
+  "water_depth_unrounded_m": 3909.749999999999,
+  "water_depth_2dp_m": 3909.75,
+  "is_default_or_clip": false,
+  "not_woa_max_as_bottom": true,
+  "project_site": "TBD",
+  "utc": "2026-09-14T03:49:09.382460+00:00"
+}

@@ -1,0 +1,568 @@
+{
+  "parent_SHA": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "branch": "research/env-cap-20261016",
+  "package_master_SHA256": "5000fa342f0c038fa23dfa5a6d27c8a0b394043445e08a611e0e23a247ba0e38",
+  "source_selection_SHA256": "a7385300e96a7a60fe03f0f117a75089f4dfde60340b65e80bd3ca3d9b298014",
+  "provider": "ENV_CAP_BELLHOP_CLINEAR_RAY_AND_INCOHERENT_ENERGY_V1",
+  "E1_frequency_hz": 200,
+  "range_domain_km": [
+    10,
+    120
+  ],
+  "receiver_depths_m": {
+    "start": 100,
+    "stop": 300,
+    "step": 2.5
+  },
+  "range_step_km": 0.125,
+  "TL_smoothing": "9-point moving mean LINEAR ENERGY; source depth +/-25m receiver mean; not coherent modal pressure",
+  "surface": "pressure release",
+  "bottom": "rigid NOMINAL MATHEMATICAL conditional; only source-site ETOPO depth held flat, no real transect claim",
+  "SSP_interpolation": "C-linear, no extrapolation, all4-corner finite required",
+  "new_solver_max_calls": 78,
+  "new_MC_max_configs": 0,
+  "per_call_timeout_s": 120,
+  "E1_process_timeout_s": 5400,
+  "total_science_max_s": 259200,
+  "tree_RSS_max_GiB": 8,
+  "new_D_max_GiB": 30,
+  "new_Git_max_MiB": 120,
+  "retry_after_science_start": 0,
+  "E1_cases": [
+    {
+      "case_id": "SCS17_JW_z150",
+      "env_id": "SCS17_JW",
+      "source_family": "WOA23_17N118E",
+      "profile": "inputs/SCS17_JW.csv",
+      "profile_sha256": "5bbdeea717b18943cbc600f17d8f4cb78d87449bc3b36fdb3d7182081379599e",
+      "H_m": 3909.75,
+      "source_z_m": 150,
+      "source_kind": "RECONSTRUCTED_CLIMATOLOGY_CONDITIONAL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z150\\R0.env",
+          "sha256": "a3ee54125c8f897328bf38021b2e2fbf7a780626825cb5a0f57ae59742997272"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z150\\R1.env",
+          "sha256": "8cac26044d8fd12724bdc648857ddd8dd8a7e34f9a41a0925a7e96629a31f92d"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z150\\I0.env",
+          "sha256": "3615b4c23251f4ee2e07c0290555eb9428d3192467ea97e481af898c4d022005"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z150\\I1.env",
+          "sha256": "281f9a522611b2dd80a3997e25f05cbc5ee1e7bc6ed1e71b9cdbff80b88b113c"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z150\\I2.env",
+          "sha256": "dd004c8aaea8422650fecf34a09639c3029af28ea5638300a2f549c6f75b67a9"
+        }
+      ]
+    },
+    {
+      "case_id": "SCS17_JW_z200",
+      "env_id": "SCS17_JW",
+      "source_family": "WOA23_17N118E",
+      "profile": "inputs/SCS17_JW.csv",
+      "profile_sha256": "5bbdeea717b18943cbc600f17d8f4cb78d87449bc3b36fdb3d7182081379599e",
+      "H_m": 3909.75,
+      "source_z_m": 200,
+      "source_kind": "RECONSTRUCTED_CLIMATOLOGY_CONDITIONAL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z200\\R0.env",
+          "sha256": "f567daf5fa6af0f427f2a0a4e5dab3d502382a33d9ee86484e248f0cc8007ff8"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z200\\R1.env",
+          "sha256": "362df302dc616a93174c532cb0824fdc0b59c2ce146bc8b31a82daa1e46e1c7e"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z200\\I0.env",
+          "sha256": "ecc670333f11b3405db3e5b4cee158f626c6046d044f3bf01807b4eccec11024"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z200\\I1.env",
+          "sha256": "4dbdadb6bf829799085e16c73c2159d5f9022355e7c375888ffe83e4031504b1"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z200\\I2.env",
+          "sha256": "2091d4ca729c2dbdc03cffc5e062a683dd4ded3715b6bac182cc8e87807f6686"
+        }
+      ]
+    },
+    {
+      "case_id": "SCS17_JW_z250",
+      "env_id": "SCS17_JW",
+      "source_family": "WOA23_17N118E",
+      "profile": "inputs/SCS17_JW.csv",
+      "profile_sha256": "5bbdeea717b18943cbc600f17d8f4cb78d87449bc3b36fdb3d7182081379599e",
+      "H_m": 3909.75,
+      "source_z_m": 250,
+      "source_kind": "RECONSTRUCTED_CLIMATOLOGY_CONDITIONAL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z250\\R0.env",
+          "sha256": "fbf9c7eece2b2fb630cdbe3e51599cf85bc670f8ce86640c02bdfc6ad14a8c9e"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z250\\R1.env",
+          "sha256": "63a6457229316573b905e0468f39976813d89692c425c9b6f8fa19c72c951cce"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z250\\I0.env",
+          "sha256": "3b1fd46cac20b0c1a86517863dd76762f11363463a012ed82606ca957ade9f6e"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z250\\I1.env",
+          "sha256": "4c2d95f91a80d8e09a524128774ad52057f6242a45b36330eeef3a0d435cfb59"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JW_z250\\I2.env",
+          "sha256": "2e1bb6e858b52f21afc5ced8cb8bd590bc1e642d6c9382644834c890712b0371"
+        }
+      ]
+    },
+    {
+      "case_id": "SCS17_JA_z150",
+      "env_id": "SCS17_JA",
+      "source_family": "WOA23_17N118E",
+      "profile": "inputs/SCS17_JA.csv",
+      "profile_sha256": "6e8ecd85a42b7fe4c000bd96d517dc94fa67f7069fc457b1722a9128587a7994",
+      "H_m": 3909.75,
+      "source_z_m": 150,
+      "source_kind": "RECONSTRUCTED_CLIMATOLOGY_CONDITIONAL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z150\\R0.env",
+          "sha256": "f2a2d9b5e6f96e369a07224bd1d64934a8c89a2330542a0ce1b8007509000a5c"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z150\\R1.env",
+          "sha256": "8ed4b30777e760301b2f89169eab9dd8d6ef00144e92a7ab151a12f9aacff769"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z150\\I0.env",
+          "sha256": "3f3eb63a70f5ccac574afdb86d4e735c91f4a58d89fbbd39bde154dabdc5ef7f"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z150\\I1.env",
+          "sha256": "c60225b05a6ef84d26f259afcd3c73221cceb5ae9ac019c8512fa7740a8dfd44"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z150\\I2.env",
+          "sha256": "68a7489a1dfe112aff8741f8eb15871a25ed27b95724a81a8c5b68acc7540c8f"
+        }
+      ]
+    },
+    {
+      "case_id": "SCS17_JA_z200",
+      "env_id": "SCS17_JA",
+      "source_family": "WOA23_17N118E",
+      "profile": "inputs/SCS17_JA.csv",
+      "profile_sha256": "6e8ecd85a42b7fe4c000bd96d517dc94fa67f7069fc457b1722a9128587a7994",
+      "H_m": 3909.75,
+      "source_z_m": 200,
+      "source_kind": "RECONSTRUCTED_CLIMATOLOGY_CONDITIONAL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z200\\R0.env",
+          "sha256": "19e76583720f7b43206ea3240deac98470c8fd67a682f5ee17d0c48025fcdf1f"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z200\\R1.env",
+          "sha256": "bf46d84a734ab0525f135ea7749074fecfa6afcd944323904fcefbdabd2d2cc3"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z200\\I0.env",
+          "sha256": "849c94e422e1253e225396c4c6c1d0e4316d9020e241d41938e17369b50f86e9"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z200\\I1.env",
+          "sha256": "83a4b924442f1aeaaadf92c1fc1ccdeac5e35d28d2f5ca11816bf939ca26e2f1"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z200\\I2.env",
+          "sha256": "feca97e5e75917e6b269d9351d9da8ea1feb6e6e7ea098d0cd50568883fe5244"
+        }
+      ]
+    },
+    {
+      "case_id": "SCS17_JA_z250",
+      "env_id": "SCS17_JA",
+      "source_family": "WOA23_17N118E",
+      "profile": "inputs/SCS17_JA.csv",
+      "profile_sha256": "6e8ecd85a42b7fe4c000bd96d517dc94fa67f7069fc457b1722a9128587a7994",
+      "H_m": 3909.75,
+      "source_z_m": 250,
+      "source_kind": "RECONSTRUCTED_CLIMATOLOGY_CONDITIONAL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z250\\R0.env",
+          "sha256": "8d57c39f989f4a49192182b46cbdd1c564d1565d4793303fb7f155bfd09b87ba"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z250\\R1.env",
+          "sha256": "8d87ee8040b427555cf83d8631dc1d73754b6aae1b82f04dcc539151194cc513"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z250\\I0.env",
+          "sha256": "3b9965b32b4bb0508d06f8fd7a47c1eff0a579125e3a9423994ea4af8580e6a6"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z250\\I1.env",
+          "sha256": "8bcf72e2bdee83dfdd549a57dffa7a12ed714ef4d3c4da9498ce942053122bcb"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_JA_z250\\I2.env",
+          "sha256": "00a505a2654c7bb1e40ab60990396074ced3238a00173a07e02bfc042927b36d"
+        }
+      ]
+    },
+    {
+      "case_id": "SCS17_ANNUAL_z150",
+      "env_id": "SCS17_ANNUAL",
+      "source_family": "WOA23_17N118E",
+      "profile": "inputs/SCS17_ANNUAL.csv",
+      "profile_sha256": "92fcc8f4a63b9a545aca6ea964add54cc11fea45d61d88475db9b1902f4fee7a",
+      "H_m": 3909.75,
+      "source_z_m": 150,
+      "source_kind": "RECONSTRUCTED_CLIMATOLOGY_CONDITIONAL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z150\\R0.env",
+          "sha256": "94fa58bb6335725af9280ab58c442051d4b416b29cdbed395ca7eff4dfef354b"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z150\\R1.env",
+          "sha256": "621d89f0bdc045de57867662b7ac33873cf0999375cecf5453b6a7cac82010df"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z150\\I0.env",
+          "sha256": "0c045237849cc594cd0035f3f8a58f4ca05c4c8e7f18dc163db716164e5d8a1a"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z150\\I1.env",
+          "sha256": "5529f7df47a8e1c602adb52b81d22a7402ec66d88b8c05ce7dc9ddedc3237b20"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z150\\I2.env",
+          "sha256": "1f3b0b1e7f25017b3340c16722cf39b92dfced74eb139c8b5ee98517afc3ba77"
+        }
+      ]
+    },
+    {
+      "case_id": "SCS17_ANNUAL_z200",
+      "env_id": "SCS17_ANNUAL",
+      "source_family": "WOA23_17N118E",
+      "profile": "inputs/SCS17_ANNUAL.csv",
+      "profile_sha256": "92fcc8f4a63b9a545aca6ea964add54cc11fea45d61d88475db9b1902f4fee7a",
+      "H_m": 3909.75,
+      "source_z_m": 200,
+      "source_kind": "RECONSTRUCTED_CLIMATOLOGY_CONDITIONAL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z200\\R0.env",
+          "sha256": "ee5cc81bf3cabd0eda0574da2a0d63db45323fa21ab679111444c27bdd9daa01"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z200\\R1.env",
+          "sha256": "23c32bfecd56e5911e8e3d062abfb85b6cb925ee2351ecc3a893e7ea8eeea649"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z200\\I0.env",
+          "sha256": "b7cff29cc6e9de751af44035bab0979e38f56938804eb52a3e17af37b86d5c51"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z200\\I1.env",
+          "sha256": "19695a8860506341190f592cd881ab7a4df6de1a3a3a59d1ec9471960314edd6"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z200\\I2.env",
+          "sha256": "1b09ca913e11235e15a159aff8682e949400615f40b388806bf7e87f599edd1e"
+        }
+      ]
+    },
+    {
+      "case_id": "SCS17_ANNUAL_z250",
+      "env_id": "SCS17_ANNUAL",
+      "source_family": "WOA23_17N118E",
+      "profile": "inputs/SCS17_ANNUAL.csv",
+      "profile_sha256": "92fcc8f4a63b9a545aca6ea964add54cc11fea45d61d88475db9b1902f4fee7a",
+      "H_m": 3909.75,
+      "source_z_m": 250,
+      "source_kind": "RECONSTRUCTED_CLIMATOLOGY_CONDITIONAL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z250\\R0.env",
+          "sha256": "b6299299adf5fd437852703e4e0f7998d0d5d09b9618250a72a7f85e2d4b3b4a"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z250\\R1.env",
+          "sha256": "79023a2d0440a01ab9e7c6ec0ff8f15fa2ef98623d86c3e6a5ae5a26ba927dae"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z250\\I0.env",
+          "sha256": "bb11e96518781393e1d5a883a8033f258dc6cf56ed9edc3d47559ce86e9a9918"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z250\\I1.env",
+          "sha256": "2673d72a00feab6503c1f51a7e11fb89624e99352c77bed3f39653e53f06dc47"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\SCS17_ANNUAL_z250\\I2.env",
+          "sha256": "b96221a6d4d261a1d87f32120fe254801475d1536c085ee6fac76f277b17f1af"
+        }
+      ]
+    },
+    {
+      "case_id": "ESTD_IDEAL_z150",
+      "env_id": "ESTD_IDEAL",
+      "source_family": "ESTD_IDEAL",
+      "profile": "inputs/ESTD_IDEAL.csv",
+      "profile_sha256": "d1512fa10b3271f647615283ff82b69e1cf1e37110f022e56d13d87b04cdfc7b",
+      "H_m": 5000.0,
+      "source_z_m": 150,
+      "source_kind": "SYNTHETIC_CONTROL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z150\\R0.env",
+          "sha256": "33330a58d570b8ee584f470faabbd237f53d38b7cc53928c5c582422e6d4b11f"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z150\\R1.env",
+          "sha256": "443908bbb3b7b04ca012aa1462622a9097a7c8e8df5dfb3c6f17767ab7011162"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z150\\I0.env",
+          "sha256": "67f275416d8f21cfb5959ba88bd04cf9faf5494fc252f13a181e0c5e20932f09"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z150\\I1.env",
+          "sha256": "e53807f3fdb1e8ecad0d19bb329993ab0b3955ece420891f11020cedb306ef0c"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z150\\I2.env",
+          "sha256": "3355592eda1707500a39045fa8fe830de46dfdd3c69e5b21cb2d59bd205e7500"
+        }
+      ]
+    },
+    {
+      "case_id": "ESTD_IDEAL_z200",
+      "env_id": "ESTD_IDEAL",
+      "source_family": "ESTD_IDEAL",
+      "profile": "inputs/ESTD_IDEAL.csv",
+      "profile_sha256": "d1512fa10b3271f647615283ff82b69e1cf1e37110f022e56d13d87b04cdfc7b",
+      "H_m": 5000.0,
+      "source_z_m": 200,
+      "source_kind": "SYNTHETIC_CONTROL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z200\\R0.env",
+          "sha256": "8d59ca457a9ccb3c8515039f18cd01e0b37c19ab92f8e567ee18597b31c7d1cc"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z200\\R1.env",
+          "sha256": "c841f2d614925575a8aad1d11842f16cbfe71bd5d790dfec04e59ed4042f9307"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z200\\I0.env",
+          "sha256": "3d3252df1296538a72b83284a35c5eca45ed6b8b4c95c84a5765e723936e59e0"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z200\\I1.env",
+          "sha256": "65a92d5632a68f1aa4b52650dcde18b857ebc445f094481bbf83623b5c5e87ed"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z200\\I2.env",
+          "sha256": "87ab029ebec49e8f7d1ec2c3fee0a711aaa3e1ba15c7afa05c5eaf35efcf4af8"
+        }
+      ]
+    },
+    {
+      "case_id": "ESTD_IDEAL_z250",
+      "env_id": "ESTD_IDEAL",
+      "source_family": "ESTD_IDEAL",
+      "profile": "inputs/ESTD_IDEAL.csv",
+      "profile_sha256": "d1512fa10b3271f647615283ff82b69e1cf1e37110f022e56d13d87b04cdfc7b",
+      "H_m": 5000.0,
+      "source_z_m": 250,
+      "source_kind": "SYNTHETIC_CONTROL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z250\\R0.env",
+          "sha256": "211e2f6d770bcaf6b5e643993783b7a0d5bd6c337395c1bfb7da88f131453f3e"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z250\\R1.env",
+          "sha256": "57fd3e01664b205e822a86ab48cdf945d668a4e5d969ada4733d35cc0adf257c"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z250\\I0.env",
+          "sha256": "5e009eb8045f2e78a890f7507acc7887c59f091d0b7fbc39ba9a705730ad3f23"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z250\\I1.env",
+          "sha256": "1f25c618c9cd09588063bcb8e8e1f72a2e53e680409682a616237db2476f70e3"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\ESTD_IDEAL_z250\\I2.env",
+          "sha256": "db9c5116cb1e647679518bb08fa7fb189e02d8a59ca86f254e15336dfe28f368"
+        }
+      ]
+    },
+    {
+      "case_id": "NO_CZ_CONSTANT_z150",
+      "env_id": "NO_CZ_CONSTANT",
+      "source_family": "NO_CZ_CONSTANT",
+      "profile": "inputs/NO_CZ_CONSTANT.csv",
+      "profile_sha256": "a4bdc38449dc21c273308241d4431e012aebbeb28cc1aba67e93cd0cdd7865ae",
+      "H_m": 5000.0,
+      "source_z_m": 150,
+      "source_kind": "SYNTHETIC_CONTROL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z150\\R0.env",
+          "sha256": "eaf2285d3df5d00b3ea0ed5265256e7d8ad5d699323a26f05dec46c58784292b"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z150\\R1.env",
+          "sha256": "02eb504972119f2cf6bc87d4b723ba2cdd0714ac469b6cd79f37ea661f2f1a79"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z150\\I0.env",
+          "sha256": "b0d5f99ea6cb6193ff559b6dd13d6c1d8017defd2ec66dfd6f25babaa2a07d7e"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z150\\I1.env",
+          "sha256": "d313b4db10102925788412e26941fe4c432507f01fab869e6840004d9c948aa7"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z150\\I2.env",
+          "sha256": "59f36ed91703ebf75fa016e1c4701d872c15d75da6230ca7ee5804e94992158d"
+        }
+      ]
+    },
+    {
+      "case_id": "NO_CZ_CONSTANT_z200",
+      "env_id": "NO_CZ_CONSTANT",
+      "source_family": "NO_CZ_CONSTANT",
+      "profile": "inputs/NO_CZ_CONSTANT.csv",
+      "profile_sha256": "a4bdc38449dc21c273308241d4431e012aebbeb28cc1aba67e93cd0cdd7865ae",
+      "H_m": 5000.0,
+      "source_z_m": 200,
+      "source_kind": "SYNTHETIC_CONTROL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z200\\R0.env",
+          "sha256": "2dbe8a0f03abceb0a1c43c13cb6bef7e7edccc143b2eb613d5fe03c6f4699ec4"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z200\\R1.env",
+          "sha256": "9e663cbca3603beafffc56f9892ec1988ccb26b8ac2a468698c8f2cfb741ccff"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z200\\I0.env",
+          "sha256": "40b9c2bb36ecaa497618adc4fac12b8d733b0f3fb4d3dc526a0fc8a1c0bd1f0f"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z200\\I1.env",
+          "sha256": "79e4e26b5abfe3568912c95b4f273e4033b6076a52a454b1c46ecf79128dbdd6"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z200\\I2.env",
+          "sha256": "0d2e0d566718622e3537aa71d6b6659aee0d5226f87947e41a5022ac493c9f2b"
+        }
+      ]
+    },
+    {
+      "case_id": "NO_CZ_CONSTANT_z250",
+      "env_id": "NO_CZ_CONSTANT",
+      "source_family": "NO_CZ_CONSTANT",
+      "profile": "inputs/NO_CZ_CONSTANT.csv",
+      "profile_sha256": "a4bdc38449dc21c273308241d4431e012aebbeb28cc1aba67e93cd0cdd7865ae",
+      "H_m": 5000.0,
+      "source_z_m": 250,
+      "source_kind": "SYNTHETIC_CONTROL",
+      "input_sha": [
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z250\\R0.env",
+          "sha256": "01d6b789113b5d52d863a36e33cf1abcfadb1dedf136eb99238c8ac68e413330"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z250\\R1.env",
+          "sha256": "231e8fbb0c9c3555095575393d4be5930fa1937e8e380dbf98fdcc7aeaa513ef"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z250\\I0.env",
+          "sha256": "3b96cc61271a908ad096b22c5741bc04a6bb37307e38e722e5bb9496811a0443"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z250\\I1.env",
+          "sha256": "65b607ec034b01b81790b1ce88ea81b731b669c04036529308f59dc92589e6b0"
+        },
+        {
+          "path": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP\\E1\\NO_CZ_CONSTANT_z250\\I2.env",
+          "sha256": "7da7d088d26f8b8151685a70522b1da09374c01bd57b2244d0ec20be35015729"
+        }
+      ]
+    }
+  ],
+  "E1_gates": {
+    "A": "First interior local minimum of first bottom/surface-free deep return curve in 0.1..20deg, 2001-angle analytic scan; earliest range candidate within10..120km; no fold -> noCZ2",
+    "B": "Compare 201 Bellhop rays at25m/12.5m integration step to Snell exact C-linear return; >=10 returns, max<=0.1km",
+    "C": "I0/I1/I2 as saved envs; both adjacent comparisons median<=1dB,P95<=2dB over fold+/-5km, peakshift<=1km,widthshift<=2km",
+    "D": "Fine TL local minimum in fold+/-5km interior, prominence over5..10km flank >max(0.5dB,2*largestP95numericdifference). Not a universalCZcontrast rule."
+  },
+  "not_evaluated_sources": {
+    "ENV_SCS_WOA_18N114E": "Cross-study diagnostic deep completion and old NCSS vertical remapping; no new certified full-depth original source SSP; retain diagnostic only",
+    "ENV_INDEPENDENT_REGIONAL_25N140E": "Fixed raw T/S requests HTTP400, ETOPO obtained; no site substitution or invented SSP"
+  },
+  "E2_preregistered_units": [
+    "Archived shallow Yang 4-case control re-evaluation, single-mode integration/Erratum phase/unknown f0/mirror/free modal-gain controls. No new pressure truth from uncertified modes.",
+    "CZ transfer admission requires CZ2 AND L3 certified complete coherent modal provider. This campaign E1 provider is ray/incoherent intensity only: if no existing L3 provider with current source/window/bottom identity, all CZ extraction/depth performance NOT_EVALUATED, complete analytic resource branch.",
+    "MMAR original AR k/Hankel amplitude separation audit; archived p7,20dB peak-identity partial result retained; no replacing missing paper choices with tuned algorithm."
+  ],
+  "E3_preregistered_units": [
+    "Only if E2 L5 exists: separately freeze finite sensitivity matrix BEFORE execution. If no L3/L5, actual performance rows all NOT_EVALUATED with reason; L0 zero controls and analytic coherence/aperture resource sensitivities remain permitted."
+  ],
+  "E4_preregistered_units": [
+    "L0 resource curves for ordinary Fourier delta_k=2pi/Lr; required source/clock frequency error <= f*sigma_q/c; offset phase differential <=0.1rad illustrative across dk. No algorithm-independent bound claim.",
+    "Read-only inversion of T3_W1 complete frozen statistics and resources, labelled historical signed-bearing/Uniform-bias controls; no re-run or depth credit.",
+    "No new feasible CZ accuracy rows without forward/extraction/holdout gates; all unsupported grade/resource entries UNKNOWN_OR_UNTESTED."
+  ],
+  "precision_ladders_NOT_client_requirement": {
+    "depth_m": [
+      5,
+      10,
+      20
+    ],
+    "range_percent": [
+      1,
+      5,
+      10
+    ],
+    "speed_mps": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "bearing_deg": [
+      0.2,
+      0.5,
+      1
+    ],
+    "heading_deg": [
+      0.2,
+      0.5,
+      1
+    ],
+    "coverage": [
+      0.9,
+      0.95
+    ]
+  },
+  "E5": "Independent cold audit once from saved raw inputs/outputs; never import science generator in cold implementation; audit failures preserve scientific status and block affirmative claims. Complete all final outputs and STOP."
+}

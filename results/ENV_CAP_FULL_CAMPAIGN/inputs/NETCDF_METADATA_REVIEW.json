@@ -1,0 +1,215 @@
+{
+  "gsw": "3.6.23",
+  "rows": [
+    {
+      "name": "woa23_decav91C0_s00_04_source17N118E.nc",
+      "sizes": {
+        "time": 1,
+        "depth": 102,
+        "lat": 2,
+        "lon": 2
+      },
+      "depth_firstlast": [
+        0.0,
+        5500.0
+      ],
+      "lat": [
+        16.875,
+        17.125
+      ],
+      "lon": [
+        117.875,
+        118.125
+      ],
+      "title": "World Ocean Atlas 2023 : sea_water_practical_salinity Annual 1991-2020 0.25 degree",
+      "history": null,
+      "time": [
+        1878.0
+      ],
+      "time_attributes": {
+        "standard_name": "time",
+        "long_name": "time",
+        "units": "months since 1991-01-01 00:00:00",
+        "axis": "T",
+        "climatology": "climatology_bounds",
+        "_ChunkSizes": "1"
+      },
+      "valid_depth_max": 4000.0
+    },
+    {
+      "name": "woa23_decav91C0_s01_04_source17N118E.nc",
+      "sizes": {
+        "time": 1,
+        "depth": 57,
+        "lat": 2,
+        "lon": 2,
+        "nbounds": 2
+      },
+      "depth_firstlast": [
+        0.0,
+        1500.0
+      ],
+      "lat": [
+        16.875,
+        17.125
+      ],
+      "lon": [
+        117.875,
+        118.125
+      ],
+      "title": "World Ocean Atlas 2023 : sea_water_practical_salinity January 1991-2020 0.25 degree",
+      "history": null,
+      "time": [
+        168.5
+      ],
+      "time_attributes": {
+        "standard_name": "time",
+        "long_name": "time",
+        "units": "months since 1991-01-01 00:00:00",
+        "axis": "T",
+        "climatology": "climatology_bounds"
+      },
+      "valid_depth_max": 1500.0
+    },
+    {
+      "name": "woa23_decav91C0_s13_04_source17N118E.nc",
+      "sizes": {
+        "time": 1,
+        "depth": 102,
+        "lat": 2,
+        "lon": 2
+      },
+      "depth_firstlast": [
+        0.0,
+        5500.0
+      ],
+      "lat": [
+        16.875,
+        17.125
+      ],
+      "lon": [
+        117.875,
+        118.125
+      ],
+      "title": "World Ocean Atlas 2023 : sea_water_practical_salinity Winter (Jan-Mar) 1991-2020 0.25 degree",
+      "history": null,
+      "time": [
+        169.5
+      ],
+      "time_attributes": {
+        "standard_name": "time",
+        "long_name": "time",
+        "units": "months since 1991-01-01 00:00:00",
+        "axis": "T",
+        "climatology": "climatology_bounds",
+        "_ChunkSizes": "1"
+      },
+      "valid_depth_max": 4000.0
+    },
+    {
+      "name": "woa23_decav91C0_t00_04_source17N118E.nc",
+      "sizes": {
+        "time": 1,
+        "depth": 102,
+        "lat": 2,
+        "lon": 2
+      },
+      "depth_firstlast": [
+        0.0,
+        5500.0
+      ],
+      "lat": [
+        16.875,
+        17.125
+      ],
+      "lon": [
+        117.875,
+        118.125
+      ],
+      "title": "World Ocean Atlas 2023 : sea_water_temperature Annual 1991-2020 0.25 degree",
+      "history": null,
+      "time": [
+        1878.0
+      ],
+      "time_attributes": {
+        "standard_name": "time",
+        "long_name": "time",
+        "units": "months since 1991-01-01 00:00:00",
+        "axis": "T",
+        "climatology": "climatology_bounds",
+        "_ChunkSizes": "1"
+      },
+      "valid_depth_max": 4000.0
+    },
+    {
+      "name": "woa23_decav91C0_t01_04_source17N118E.nc",
+      "sizes": {
+        "time": 1,
+        "depth": 57,
+        "lat": 2,
+        "lon": 2,
+        "nbounds": 2
+      },
+      "depth_firstlast": [
+        0.0,
+        1500.0
+      ],
+      "lat": [
+        16.875,
+        17.125
+      ],
+      "lon": [
+        117.875,
+        118.125
+      ],
+      "title": "World Ocean Atlas 2023 : sea_water_temperature January 1991-2020 0.25 degree",
+      "history": null,
+      "time": [
+        168.5
+      ],
+      "time_attributes": {
+        "standard_name": "time",
+        "long_name": "time",
+        "units": "months since 1991-01-01 00:00:00",
+        "axis": "T",
+        "climatology": "climatology_bounds"
+      },
+      "valid_depth_max": 1500.0
+    },
+    {
+      "name": "woa23_decav91C0_t13_04_source17N118E.nc",
+      "sizes": {
+        "time": 1,
+        "depth": 102,
+        "lat": 2,
+        "lon": 2,
+        "nbounds": 2
+      },
+      "depth_firstlast": [
+        0.0,
+        5500.0
+      ],
+      "lat": [
+        16.875,
+        17.125
+      ],
+      "lon": [
+        117.875,
+        118.125
+      ],
+      "title": "World Ocean Atlas 2023 : sea_water_temperature Winter (Jan-Mar) 1991-2020 0.25 degree",
+      "history": null,
+      "time": [
+        169.5
+      ],
+      "time_attributes": {
+        "standard_name": "time",
+        "long_name": "time",
+        "units": "months since 1991-01-01 00:00:00",
+        "axis": "T",
+        "climatology": "climatology_bounds"
+      },
+      "valid_depth_max": 4000.0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "package_content_verified": 32,
+  "package_content_total": 32,
+  "package_tests_pass": 3,
+  "master_sha256": "5000fa342f0c038fa23dfa5a6d27c8a0b394043445e08a611e0e23a247ba0e38",
+  "zip_sha256": "163f7f03819ddadc0f46c68256156f653447982364172b293e5cc7a46b0b8b2e",
+  "HEAD_and_remote_main": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "tracked_changes_before": false,
+  "historical_sources": 28,
+  "source_normalized_content_match": true,
+  "pre_science_infrastructure_issue": "First WSL cp command rejected by shell quoting before execution; direct cp completed; no science executed.",
+  "C_writes_authorized": false
+}

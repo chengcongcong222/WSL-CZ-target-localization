@@ -1,0 +1,17 @@
+flowchart TD
+    E0["E0 资料/物理合同冻结"] --> E1["E1 首会聚区环境物理准入"]
+    E0 --> CONTROL["浅海Yang论文正控制 非CZ"]
+    E1 --> Q{"至少1个CZ2？"}
+    Q -->|是| E2["E2 Yang/MMAR跨环境方法分层"]
+    Q -->|否| NEG["保留负例 CZ主Demo停
+理论必要条件和甲方资料需求"]
+    E2 --> M{"复场数值及非oracle提取准入？"}
+    M -->|是| E3["E3 有界性能/敏感性/留出"]
+    M -->|否| ORACLE["仅oracle信息/必要性边界
+实际误差NOT_EVALUATED"]
+    E3 --> E4["E4 资源反推:必要/条件可行/未知"]
+    ORACLE --> E4
+    NEG --> E4
+    CONTROL --> E4
+    E4 --> E5["E5 总报告/独立冷审计/申请证据"]
+    E5 --> STOP["FINAL branch推送后STOP 交GPT整体审"]

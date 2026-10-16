@@ -1,0 +1,34 @@
+{
+  "stage": "ENV_CAP_20261016",
+  "parent_SHA": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "research_branch": "research/env-cap-20261016",
+  "phases": {
+    "E0": "PASS",
+    "E1": "PENDING",
+    "E2": "PENDING",
+    "E3": "PENDING",
+    "E4": "PENDING",
+    "E5": "PENDING"
+  },
+  "STOP": false,
+  "history": [
+    {
+      "time_utc": "2026-10-16T04:53:11+00:00",
+      "action": "init"
+    },
+    {
+      "time_utc": "2026-10-16T04:54:46+00:00",
+      "action": "start",
+      "phase": "E0",
+      "new_status": "RUNNING",
+      "note": "Package and remote verified; source provenance and physical contracts under review."
+    },
+    {
+      "time_utc": "2026-10-16T05:02:09+00:00",
+      "action": "finish",
+      "phase": "E0",
+      "new_status": "PASS",
+      "note": "Inputs, contracts, source identities and analytic controls frozen; no new main-CZ science yet."
+    }
+  ]
+}

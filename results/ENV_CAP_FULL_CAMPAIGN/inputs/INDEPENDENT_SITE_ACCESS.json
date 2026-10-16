@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://thredds.rda.ucar.edu/thredds/dodsC/files/d285000/woa23_netcdf/woa23_decav91C0_t00_04.nc.ascii?depth,lat[459:1:460],lon[1279:1:1280],t_an[0:1:0][0:1:101][459:1:460][1279:1:1280]",
+    "status": "UNAVAILABLE",
+    "error": "<HTTPError 400: ''>"
+  },
+  {
+    "url": "https://thredds.rda.ucar.edu/thredds/dodsC/files/d285000/woa23_netcdf/woa23_decav91C0_s00_04.nc.ascii?depth,lat[459:1:460],lon[1279:1:1280],s_an[0:1:0][0:1:101][459:1:460][1279:1:1280]",
+    "status": "UNAVAILABLE",
+    "error": "<HTTPError 400: ''>"
+  },
+  {
+    "url": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/ETOPO_2022_v1_15s.csv?z[(24.99):(25.01)][(139.99):(140.01)]",
+    "status": "DOWNLOADED",
+    "bytes": 1465
+  }
+]

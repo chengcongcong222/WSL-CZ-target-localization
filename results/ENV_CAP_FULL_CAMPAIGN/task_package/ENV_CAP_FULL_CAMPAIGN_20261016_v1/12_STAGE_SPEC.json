@@ -1,0 +1,244 @@
+{
+  "package_id": "ENV_CAP_FULL_CAMPAIGN_20261016_v1",
+  "scientific_scope": "FIRST_CONVERGENCE_ZONE_MANDATORY; MULTI_ENV_METHOD_TRANSFER_PERFORMANCE_BOUNDARIES_RESOURCE_INVERSION",
+  "project": "716 single towed HLA first CZ multi-parameter localization research proposal",
+  "repository_full_name": "chengcongcong222/WSL-CZ-target-localization",
+  "base_main_sha": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "working_branch": "research/env-cap-20261016",
+  "legacy_R4_percent": 0,
+  "legacy_policy": "READ_ONLY_NEVER_MODIFY_PREVIOUS_GATES_OR_STOP",
+  "immutable_background": {
+    "first_convergence_zone_must_exist": true,
+    "single_towed_HLA_is_base_resource": true,
+    "scene_truth_must_not_enter_estimator": true,
+    "Yang_shallow_case": "METHOD_CONTROL_ONLY_NON_CZ"
+  },
+  "nonbinding_reference_conditions": {
+    "bottom_depth_m": 5000,
+    "CZ_reference_range_km": [
+      50,
+      60
+    ],
+    "source_depth_m": 200,
+    "receiver_depth_m": 200,
+    "main_HLA_elements": 8,
+    "main_HLA_aperture_m": 14,
+    "platform_turn_degrees": 15,
+    "observation_s": 1200
+  },
+  "state": [
+    "r_m",
+    "theta_rad",
+    "z_m",
+    "v_mps",
+    "psi_rad"
+  ],
+  "candidate_env_source_pool": [
+    {
+      "id": "ENV_ESTD_IDEAL",
+      "source": "old project Munk-like 5km synthetic",
+      "admitted_CZ": false,
+      "data_level": "IDEAL_ANALYTIC_REFERENCE_UNCERTIFIED"
+    },
+    {
+      "id": "ENV_SCS_WOA_17N118E",
+      "source": "m452/m453/m454 WOA23 sourcegrid and ETOPO",
+      "admitted_CZ": false,
+      "data_level": "CLIMATOLOGY_AND_RECONSTRUCTION_TO_BE_AUDITED"
+    },
+    {
+      "id": "ENV_SCS_WOA_18N114E",
+      "source": "B3D3 WOA23 April and reconstructed deep SSP",
+      "admitted_CZ": false,
+      "data_level": "DIAGNOSTIC_RECONSTRUCTION_NOT_MEASURED"
+    },
+    {
+      "id": "ENV_INDEPENDENT_REGIONAL",
+      "source": "E0 fixed rule; independent provenance or documented site",
+      "admitted_CZ": false,
+      "data_level": "TO_BE_REGISTERED_BEFORE_SCIENCE"
+    },
+    {
+      "id": "ENV_NO_CZ_NEGATIVE",
+      "source": "Yang original shallow positive control/constant speed negative CZ",
+      "admitted_CZ": false,
+      "data_level": "NON_CZ_METHOD_AND_FALSE_POSITIVE_CONTROLS"
+    }
+  ],
+  "E1_screen_example_not_hard_physical_range_km": [
+    10,
+    120
+  ],
+  "E1_illustrative_source_depths_m": [
+    150,
+    200,
+    250
+  ],
+  "E1_illustrative_receiver_depths_m": [
+    150,
+    200,
+    250
+  ],
+  "CZ_classes": [
+    "CZ0_UNJUSTIFIED",
+    "CZ1_REFRACTED_RETURN_DIAGNOSTIC",
+    "CZ2_RAY_TL_STABLE",
+    "CZ3_CROSS_SOLVER_CONDITIONAL",
+    "CZ_NOT_PRESENT_IN_TESTED_DOMAIN",
+    "CZ_NUMERIC_UNCERTIFIED"
+  ],
+  "cz_admission": {
+    "minimum_for_method_conditional": "CZ2_RAY_TL_STABLE",
+    "minimum_distinct_CZ2_env_for_cross_environment_claim": 2,
+    "unknown_or_positive_first_CZ_not_preasserted": true,
+    "no_CZ_NO_method_performance": true
+  },
+  "evidence_levels": [
+    "L0_ANALYTIC",
+    "L1_ENV_SOURCE",
+    "L2_CZ_RAY_NUMERIC",
+    "L3_NUMERIC_FORWARD",
+    "L4_ORACLE_INFORMATION",
+    "L5_EXTRACTED_OBSERVABLE",
+    "L6_ESTIMATOR_PERFORMANCE",
+    "L7_HARDWARE_VALIDATED"
+  ],
+  "method_classes": {
+    "Yang2015": [
+      "PAPER_KNOWN_FREQ_DELTA0_ORACLE",
+      "CZ_ORACLE_MODAL_INFO",
+      "CZ_KNOWN_F0_COHE_EXTRACT",
+      "CZ_UNKNOWN_SOURCE_AND_DELTA",
+      "UNKNOWN_ENVIRONMENT"
+    ],
+    "Liang2018_MMAR": [
+      "PAPER_AR_K_AND_HANKEL_AMPLITUDE_CONTROL",
+      "REGISTERED_MODE_ORDER",
+      "CZ_RECONSTRUCTION_ONLY_IF_NUMERIC_ADMITTED"
+    ]
+  },
+  "demo_reference_precision_ladders_NOT_CLIENT_REQUIREMENTS": {
+    "depth_abs_error_m": [
+      5,
+      10,
+      20
+    ],
+    "range_relative_percent": [
+      1,
+      5,
+      10
+    ],
+    "speed_abs_error_mps": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "bearing_abs_error_deg": [
+      0.2,
+      0.5,
+      1.0
+    ],
+    "heading_abs_error_deg": [
+      0.2,
+      0.5,
+      1.0
+    ],
+    "conditional_coverage_levels": [
+      0.9,
+      0.95
+    ]
+  },
+  "sensitivity_groups": [
+    "SSP_bathymetry",
+    "source_receiver_depths",
+    "modal_density_and_radial_aperture",
+    "SNR_bandwidth_source_spectrum",
+    "source_frequency_drift",
+    "delta_time_nav",
+    "receiver_geometry_calibration"
+  ],
+  "planned_stages": [
+    {
+      "name": "E0",
+      "meaning": "BASELINE_AND_SOURCE_FREEZE",
+      "wall_budget_h": 4
+    },
+    {
+      "name": "E1",
+      "meaning": "PHYSICALLY_ADMITTED_FIRST_CZ_FAMILIES",
+      "wall_budget_h": 16
+    },
+    {
+      "name": "E2",
+      "meaning": "YANG_2015_AND_MMAR_REPRO_AND_MODAL_TRANSFER",
+      "wall_budget_h": 12
+    },
+    {
+      "name": "E3",
+      "meaning": "NUI_PROFILED_SENSITIVITY_AND_CONDITIONAL_PERFORMANCE",
+      "wall_budget_h": 24
+    },
+    {
+      "name": "E4",
+      "meaning": "PRECISION_TARGET_TO_NEEDED_OBSERVATION_RESOURCES",
+      "wall_budget_h": 12
+    },
+    {
+      "name": "E5",
+      "meaning": "CLOSEOUT_INDEPENDENT_AUDIT_APPLICATION_REPORT",
+      "wall_budget_h": 4
+    }
+  ],
+  "maximum_total_scientific_wall_h": 72,
+  "limits": {
+    "RSS_GiB": 8,
+    "new_D_GiB": 30,
+    "new_git_MiB": 120,
+    "max_single_git_binary_MiB": 20,
+    "external_acoustics_solver_calls_total": 240,
+    "new_MC_configurations_total": 20000,
+    "science_retries_after_frozen_hard_gate": 0
+  },
+  "human_checkpoints": [
+    {
+      "stage": "E1",
+      "name": "CP1_CZ",
+      "push_branch": true,
+      "ask_approval_only_if_contract_change": true
+    },
+    {
+      "stage": "E3",
+      "name": "CP2_METHOD",
+      "push_branch": true,
+      "ask_approval_only_if_contract_change": true
+    },
+    {
+      "stage": "E5",
+      "name": "FINAL",
+      "push_branch": true,
+      "stop_and_submit_full_audit": true
+    }
+  ],
+  "automatic_autonomy": "ROLL_STAGES_WITHIN_PREREGISTERED_GATES; NO_R4_CREDIT_NO_FORCE_PUSH_NO_AUTO_MERGE_MAIN",
+  "mandatory_missing_entry_value": "NOT_EVALUATED_REASON_REQUIRED",
+  "not_authorized": [
+    "original_T2_repair_pipeline",
+    "retroactively_change_PREC3_FUNC2",
+    "source_true_state_as_initial_or_narrow_prior",
+    "claim_physical hardware accuracy",
+    "no_first_CZ_demo",
+    "ad_hoc_noisy_test_sweeps_to_find_positive_result"
+  ],
+  "final_files": [
+    "GPT_SYNC_ENV_CAP_FINAL.md",
+    "ENV_CAP_FINAL_SCIENTIFIC_REPORT.md",
+    "ENV_CAP_FINAL_DECISION.json",
+    "E1_CZ_ENVIRONMENTS.csv",
+    "E2_YANG_MMAR_COMPARISON.csv",
+    "E3_PERFORMANCE_BY_CASE.csv",
+    "E4_RESOURCE_INVERSION.csv",
+    "INDEPENDENT_AUDIT_SUMMARY.json",
+    "REVIEW_ENTRYPOINT.md",
+    "STOP.json"
+  ]
+}

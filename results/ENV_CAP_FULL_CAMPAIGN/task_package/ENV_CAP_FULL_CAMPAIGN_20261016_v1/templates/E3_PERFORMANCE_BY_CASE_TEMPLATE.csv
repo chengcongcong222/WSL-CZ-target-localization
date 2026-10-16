@@ -1,0 +1,1 @@
+env_id,method,source_depth_m,receiver_depth_m,target_case,scene_mirror,SNR_dB,Lr_m,delta_m,unknown_f0,nuisance_scope,performance_level,n_attempted,n_accepted,n_rejected,n_wrong_side,depth_err_m_median,depth_err_m_P95,depth_interval_coverage,range_err_rel_P95,speed_err_abs_mps_P95,status,why_missing

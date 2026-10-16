@@ -1,0 +1,29 @@
+phase,evidence_alias,repository_relative_path,must_exist,scope_and_warning
+E0,R4 T3 W1 conditional demo,results/R4_T3_W1_WIDE_BASELINE_DEMO/GPT_SYNC_T3_W1.md,YES,signed-bearing B3 demo; bias-bound limit; not physical HLA direct-bearing certificate
+E0,T2 numerical route closeout,results/R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE/T2_NUMERICAL_ROUTE_GO_NO_GO.md,YES,old T2 numerical route closed; new provider needs separate identity
+E0,E-STD modal numeric warning,results/R4_T2_N2_INDEPENDENT_FORWARD_NUMERIC_BRACKET/GPT_SYNC.md,YES,CHIGH truncation and rigid bottom sensitivity unresolved
+E0,Yang paper reproduction,results/R3_C2_Yang_SA_depth/R3_C2_2C/R3_C2_2C_REPORT.md,YES,oracle mode-ID and delta0 shallow reproduction
+E0,Yang first CZ-like E-STD transfer,results/R3_C2_Yang_SA_depth/R3_C2_3A/R3_C2_3A_REPORT.md,YES,"oracle depth signature, Fourier mode ID failed under 2.4km"
+E0,Yang primary source lock,results/R3_C2_Yang_SA_depth/R3_C2_2C/PRIMARY_SOURCE_SET.md,YES,primary paper source and erratum identity
+E0,Yang primary source note,results/R3_C2_Yang_SA_depth/R3_C2_2B/YANG2015_PRIMARY_PDF_NOTE.md,NO,check archived full text availability and original equation identity
+E0,Liang MMAR spectrum limits,results/R3_C2_AR_MMAR/R3_C2_4B_2F_SPECTRUM_INTEGRITY/R3_C2_4B_2F_REPORT.md,YES,noisy peak recovery incomplete; not full depth estimator
+E0,Liang MMAR Hankel bridge,results/R3_C2_AR_MMAR/R3_C2_4B_3A_HANKEL_AMPLITUDE/R3_C2_4B_3A_REPORT.md,YES,"mode k from AR, amplitude from Hankel; D(z) not complete"
+E0,Observability research reset,results/R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/TOP3_RESEARCH_HYPOTHESES.md,YES,"nuisance-profiled frequency, interferometric and vertical hypotheses"
+E0,Existing research protocol,results/R4_OBSERVABILITY_FRONTIER_RESEARCH_RESET/TOP2_MINIMAL_EXPERIMENT_DESIGNS.md,YES,old design; no automatic permission to repeat failed execution
+E1,WOA23 sourcegrid code,m454_closure.py,YES,"17N118E sourcegrid SSP candidate, code is not accepted environment"
+E1,WOA23 interim code,m453_pipeline.py,NO,"17N118E WOA extraction and CZ BELLHOP, inspect old data"
+E1,ETOPO WOA first CZ code,m452_build_and_cz.py,NO,"17N118E reconstruction, bathy transects and Bellhop gate"
+E1,SCS shallow/deep reconstruction and CZ Snell control,B3D3_M4_pack_extracted/README_B3D3_ENVBUILD_PREFLIGHT.md,YES,18N114E regional diagnostic; not observed SSP
+E1,B3D3 path association bottleneck,B3D3_M4_pack_extracted/B3D3_GATE_BOTTLENECK_AUDIT.md,YES,environment path family 0 admitted; full SSP required
+E1,BELLHOP BOX warning,results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX2/BELLHOP_NUMERICAL_INTEGRITY.md,YES,historical depth/range BOX unit error corrected
+E1,BELLHOP old CZ source audit,results/RANGE_UB/CZ_TDOA_SINGLE_DEPTH_ORACLE_FIX/BELLHOP_ESTD_ENV_INTEGRITY.md,NO,environment integrity caution
+E2,R3 C2 Yang oracle vs extracted gap,results/R3_C2_Yang_SA_depth/R3_C2_3A/R3_C2_3A_DECISION.json,NO,historical method gate
+E2,R4 H3 source-depth conditional mechanism,results/R4_H3_G0_FINITE_VERTICAL_RESPONSE/GPT_SYNC.md,YES,oracle/local depth; not actual estimator
+E2,R4 H3 method review,results/R4_H3_DEPTH_OBSERVABLE_REVIEW/GPT_SYNC.md,YES,short vertical resource and broad horizontal support gap
+E2,E2 old spatial autoproduct numerical gate,results/R4_E2_G0_HLA_DIFFERENCE_INFORMATION/GPT_SYNC.md,YES,old forward not admitted; do not inherit as certified
+E3,R4 RC2 support and mirrors,results/R4_RC2_OBSERVATION_SUPPORT/GPT_SYNC.md,YES,"left-right branch union, not active disambiguation"
+E3,R4 E1 frequency nuisance,results/R4_E1_G0_FREQUENCY_INFORMATION/GPT_SYNC.md,YES,unknown f0 and receiver reference degrade speed info
+E4,Single HLA stage closeout,results/R4_SINGLE_HLA_CLOSEOUT_AND_THREE_TIER_PLAN/SINGLE_HLA_STAGE_CLOSEOUT.md,YES,limited range and depth evidence; device gaps
+E4,T3 W1 final adjudication,results/R4_T3_W1_WIDE_BASELINE_DEMO/FINAL_ADJUDICATION.json,YES,B3 15km geometry is conditional and bias bounded
+E4,Aux hardware confirmation,results/R4_AUX_CLIENT_CONFIRMATION/AUX_CLIENT_CONFIRMATION_MATRIX.csv,YES,real hardware fields all need explicit evidence
+E5,Application old master ledger,results/R4_MASTER/R4_EVIDENCE_LEDGER.csv,YES,"read only, no extra legacy progress credit"

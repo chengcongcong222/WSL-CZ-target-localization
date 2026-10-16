@@ -1,0 +1,22 @@
+{
+  "independent_site": {
+    "lat": 25.0,
+    "lon": 140.0,
+    "period": "annual",
+    "product": "WOA23 decav91C0 0.25 deg",
+    "reason": "fixed northwestern Pacific comparison; not selected on acoustic outputs",
+    "sal_temp_indices": {
+      "lat": [
+        459,
+        460
+      ],
+      "lon": [
+        1279,
+        1280
+      ]
+    },
+    "mirror": "https://thredds.rda.ucar.edu/thredds/dodsC/files/d285000/woa23_netcdf/",
+    "bathymetry_source": "ETOPO2022 NOAA CoastWatch ERDDAP at registered site"
+  },
+  "rule": "Attempt fixed site once per T/S/bathy request; no acoustic screening or site substitution if access/mask fails. WOA source-grid 17N118E monthly January over seasonal winter/annual are preregistered composite subcases of ONE provenance family. 18N114E diagnostic reconstruction cannot be counted as an independently sourced full-depth observed SSP."
+}

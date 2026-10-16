@@ -1,0 +1,51 @@
+{
+  "gsw": "3.6.23",
+  "source_rows": [
+    {
+      "path": "/mnt/d/ProjectStorage/WSL-CZ/ENV_CAP/sources/subsets/woa23_decav91C0_t01_04_source17N118E.nc",
+      "sha256": "922e9fa0b4ff23e7da410532b8eb8a9b9d710e814762180820f169faaaf87cd7",
+      "title": "World Ocean Atlas 2023 : sea_water_temperature January 1991-2020 0.25 degree",
+      "valid_all4_depth_max": 1500.0,
+      "bounds": "NOT_SAVED"
+    },
+    {
+      "path": "/mnt/d/ProjectStorage/WSL-CZ/ENV_CAP/sources/subsets/woa23_decav91C0_s01_04_source17N118E.nc",
+      "sha256": "4aef893d6a2c40755d141b1fb688a34787bc0b7bedfc578e8dd8e89297201288",
+      "title": "World Ocean Atlas 2023 : sea_water_practical_salinity January 1991-2020 0.25 degree",
+      "valid_all4_depth_max": 1500.0,
+      "bounds": "NOT_SAVED"
+    },
+    {
+      "path": "/mnt/d/ProjectStorage/WSL-CZ/ENV_CAP/sources/subsets/woa23_decav91C0_t13_04_source17N118E.nc",
+      "sha256": "c202b3ddf065b0e39f1c5ed0061d2243485c69343b1ffcc7608c688484fcaef9",
+      "title": "World Ocean Atlas 2023 : sea_water_temperature Winter (Jan-Mar) 1991-2020 0.25 degree",
+      "valid_all4_depth_max": 4000.0,
+      "bounds": "NOT_SAVED"
+    },
+    {
+      "path": "/mnt/d/ProjectStorage/WSL-CZ/ENV_CAP/sources/subsets/woa23_decav91C0_s13_04_source17N118E.nc",
+      "sha256": "024f53775c2d77bb255e434b309437815559808a91ef103e33d37350fdd21868",
+      "title": "World Ocean Atlas 2023 : sea_water_practical_salinity Winter (Jan-Mar) 1991-2020 0.25 degree",
+      "valid_all4_depth_max": 4000.0,
+      "bounds": "NOT_SAVED"
+    },
+    {
+      "path": "/mnt/d/ProjectStorage/WSL-CZ/ENV_CAP/sources/subsets/woa23_decav91C0_t00_04_source17N118E.nc",
+      "sha256": "63ecad3c2ec35651d176d819986c9ebb6be5bc1e2c283c7faca17a6e1be6e1c1",
+      "title": "World Ocean Atlas 2023 : sea_water_temperature Annual 1991-2020 0.25 degree",
+      "valid_all4_depth_max": 4000.0,
+      "bounds": "NOT_SAVED"
+    },
+    {
+      "path": "/mnt/d/ProjectStorage/WSL-CZ/ENV_CAP/sources/subsets/woa23_decav91C0_s00_04_source17N118E.nc",
+      "sha256": "686057a08f8fb7c851fd9a219eba91494d7897cfde635f868bc8b2600a5dd5d7",
+      "title": "World Ocean Atlas 2023 : sea_water_practical_salinity Annual 1991-2020 0.25 degree",
+      "valid_all4_depth_max": 4000.0,
+      "bounds": "NOT_SAVED"
+    }
+  ],
+  "no_missing_corner_renormalization": true,
+  "seasons": "Winter=Jan-Mar per NetCDF title; legacy woa_core seasonal DJF shorthand not used",
+  "bathymetry_m": 3909.75,
+  "bottom_interpolation": "C-linear within valid 4000m T/S range; no extrapolation"
+}
