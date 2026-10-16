@@ -1,0 +1,66 @@
+{
+  "PASS": true,
+  "checks": [
+    {
+      "check": "constant_nonnegative_mean",
+      "PASS": true
+    },
+    {
+      "check": "exact_zero_no_floor_energy",
+      "PASS": true
+    },
+    {
+      "check": "isolated_impulse_9point",
+      "PASS": true
+    },
+    {
+      "check": "weak_positive_after_bright",
+      "PASS": true
+    },
+    {
+      "check": "flat_C_linear_integral",
+      "PASS": true
+    },
+    {
+      "check": "constant_speed_no_turn",
+      "PASS": true
+    },
+    {
+      "check": "gradient_turn_integral",
+      "PASS": true
+    },
+    {
+      "check": "HLA8_float64_int32_input",
+      "PASS": true
+    },
+    {
+      "check": "TILT_POS8_float64_int32_input",
+      "PASS": true
+    },
+    {
+      "check": "TILT_NEG8_float64_int32_input",
+      "PASS": true
+    },
+    {
+      "check": "HLA8_V4_float64_int32_input",
+      "PASS": true
+    },
+    {
+      "check": "invalid_coordinate_guard",
+      "PASS": true
+    },
+    {
+      "check": "invalid_coordinate_guard",
+      "PASS": true
+    },
+    {
+      "check": "invalid_coordinate_guard",
+      "PASS": true
+    },
+    {
+      "check": "decimal_reference",
+      "PASS": true
+    }
+  ],
+  "actual_archived_case_scientific_evaluation": false
+}
