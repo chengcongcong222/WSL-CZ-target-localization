@@ -1,6 +1,6 @@
 {
   "unit": "E4_L0_AND_HISTORICAL_RESOURCE_MAP",
-  "code_sha256": "d2646d7d17d8ec80f47ab10e814ba832f440203c278f891548626914ab3c1b79",
+  "code_sha256": "65cd3a7dc50eb28985f117eca0c52590a4e712f2a1e4c3e1368e0f7150a8127b",
   "inputs": [
     {
       "path": "results/R3_C2_Yang_SA_depth/R3_C2_2C/_kraken_paper/yang2014_f350.mod",
@@ -41,5 +41,6 @@
   "budget_s": 600,
   "scientific_retries": 0,
   "new_MC": 0,
-  "new_solvers": 0
+  "new_solvers": 0,
+  "classification_rule": "Historical T3 empirical grade may be met, but TESTED_CONDITIONAL_FEASIBLE prohibited without all ENV-CAP receiver/full-branch/holdout gates. All such ENV-CAP feasibility cells UNKNOWN_OR_UNTESTED."
 }

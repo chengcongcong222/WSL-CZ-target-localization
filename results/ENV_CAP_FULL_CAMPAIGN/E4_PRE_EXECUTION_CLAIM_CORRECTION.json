@@ -1,0 +1,9 @@
+{
+  "stage_started": false,
+  "reason": "Enforce master scientific contract: historical point-quantile threshold crossing cannot establish ENV-CAP conditional feasibility. No performance data, solver, noise, grade thresholds or kernels changed.",
+  "old_code_sha256": "d2646d7d17d8ec80f47ab10e814ba832f440203c278f891548626914ab3c1b79",
+  "new_code_sha256": "65cd3a7dc50eb28985f117eca0c52590a4e712f2a1e4c3e1368e0f7150a8127b",
+  "old_freeze_sha256": "280d2431dbf9851b64be5817a0706d645eedd6153fbe80399b893d3cef4f3d12",
+  "new_freeze_sha256": "5350900ba429584dc4cd5e57b50ab5c135219d065d0334e179642c7da902a8e7",
+  "originals_preserved": true
+}

@@ -1,0 +1,17 @@
+{
+  "analytic_and_stored_control_PASS": false,
+  "checks": 26,
+  "Yang_shallow_control": "RECONFIRMED_STORED_ORACLE_4_CASES",
+  "MMAR_identity": "PAPER_IMPLEMENTATION_PARTIAL_HISTORICAL",
+  "CZ_L3_coherent_provider": "NOT_ADMITTED",
+  "CZ_L5_nonoracle_extraction": "NOT_EVALUATED",
+  "CZ_L6_estimator_performance": "NOT_EVALUATED",
+  "allow_E3_CZ_performance": false,
+  "reasons": [
+    "New E1 provider computes rays and incoherent band energy only",
+    "No complete verified complex eigenfunctions/wavenumbers plus finite boundary/mode-completeness certificate at new SSP identity",
+    "Prior R3/E-STD oracle outputs and T2 failures cannot certify new environmental modal truth"
+  ],
+  "new_solver_calls": 0,
+  "new_MC": 0
+}

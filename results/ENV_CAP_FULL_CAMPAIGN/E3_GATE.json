@@ -1,0 +1,12 @@
+{
+  "status": "NOT_EVALUATED_REQUIRED_GATES_NOT_CLOSED",
+  "new_MC_configurations": 0,
+  "new_received_recordings": 0,
+  "performance_rows": 30,
+  "all_missing_values_explicit": true,
+  "all_independent_performance_denominators": 0,
+  "zero_is_not_error_or_variance": true,
+  "E1_diagnostics_reused_for_description_only": true,
+  "no_new_scientific_sensitivity_sweep": true,
+  "why": "No finalCZ2/L3/L5 and E2 implementation-control FAIL; independent analytic E4 may continue."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "E2_IMPLEMENTATION_ZERO_CONTROL_FAILED",
+  "failing_control": "HLA_left_right_mirror_zero",
+  "reason": "Windows NumPy integer array x=int32; (50000-x)^2 exceeds int32 range, negative argument to sqrt, yields NaN. Implementation failure, not physical failure of reflection equality.",
+  "scientific_checks": 26,
+  "PASS": 25,
+  "FAIL": 1,
+  "stored_shallow_depth_checks": 12,
+  "stored_shallow_depth_checks_PASS": 12,
+  "historical_Gates_unchanged": true,
+  "new_CZ_method_or_performance": "NOT_EVALUATED",
+  "no_code_repair_or_rerun": true
+}

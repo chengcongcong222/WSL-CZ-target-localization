@@ -1,4 +1,4 @@
-﻿"""Registered E4 analytic design scales and read-only historical resource inversion."""
+"""Registered E4 analytic design scales and read-only historical resource inversion."""
 from env_provider import *
 import struct
 
@@ -35,7 +35,7 @@ def main():
   pareto.append(row)
   for param,(levels,key,unit) in grade.items():
    for level in levels:
-    val=float(s[key]);inv.append({'cz_env_id':'NO_ACOUSTIC_ENV_T3_KINEMATIC_MODEL','desired_ability':param,'illustrative_error_level':level,'unit':unit,'required_percentile':.95,'observed_worst_case_P95':val,'condition':'HISTORICAL_SIGNED_BEARING_Uniform_bias_support_kinematic_model_and_bounded_estimator','status':'TESTED_CONDITIONAL_FEASIBLE' if val<=level else 'TESTED_INFEASIBLE_FOR_METHOD','tested_config_reference':'T3_W1_'+q+'_'+s['geometry'],'additional_nodes':1,'receiver_elements':'UNKNOWN','baseline_km':r['node_separation_km'],'time_s':1200,'why_not_new_CZ_precision':'No new signal extraction or CZ detectability validation; empirical error quantile is not candidate-set coverage or performance guarantee','engineering_unknowns':'DOA extraction; calibration; navigation; side; synchronization; target association; communication','evidence':'HISTORICAL_CONDITIONAL_MC_REPORTED_NOT_RERUN'})
+    val=float(s[key]);inv.append({'cz_env_id':'NO_ACOUSTIC_ENV_T3_KINEMATIC_MODEL','desired_ability':param,'illustrative_error_level':level,'unit':unit,'required_percentile':.95,'observed_worst_case_P95':val,'condition':'HISTORICAL_SIGNED_BEARING_Uniform_bias_support_kinematic_model_and_bounded_estimator','status':'UNKNOWN_OR_UNTESTED','historical_empirical_error_grade':'MET_IN_ARCHIVED_POINT_ESTIMATES' if val<=level else 'NOT_MET_IN_ARCHIVED_POINT_ESTIMATES','missing_feasibility_gates':'nonoracle physical receiver extraction; full branch certificate; independent geographic holdout','tested_config_reference':'T3_W1_'+q+'_'+s['geometry'],'additional_nodes':1,'receiver_elements':'UNKNOWN','baseline_km':r['node_separation_km'],'time_s':1200,'why_not_new_CZ_precision':'No new signal extraction or CZ detectability validation; empirical error quantile is not candidate-set coverage or performance guarantee','engineering_unknowns':'DOA extraction; calibration; navigation; side; synchronization; target association; communication','evidence':'HISTORICAL_CONDITIONAL_MC_REPORTED_NOT_RERUN'})
  # Non-dominance includes performance AND unweighted physical resource coordinates; quality requirement is a cost.
  for a in pareto:
   av=np.array([a['node_separation_km'],1/a['bearing_sigma_deg'],1/a['nav_sigma_axis_m'],1/a['common_bias_bound_deg']]+[a[p+'_worst_case_P95'] for p in grade]);dominators=[]
