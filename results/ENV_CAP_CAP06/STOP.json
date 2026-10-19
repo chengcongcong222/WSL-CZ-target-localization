@@ -1,0 +1,12 @@
+{
+  "stage": "CAP06",
+  "status": "STOP",
+  "reason": "NO_GO_FUSION_UNDER_FROZEN_RECEIVER_CONTRACT",
+  "no_automatic_next_stage": true,
+  "main_preserved": true,
+  "R4_percent": 0,
+  "scientific_retries": 0,
+  "external_solver_calls": 0,
+  "P3": "NOT_EVALUATED",
+  "final_push_verification": "returned separately after final commit"
+}

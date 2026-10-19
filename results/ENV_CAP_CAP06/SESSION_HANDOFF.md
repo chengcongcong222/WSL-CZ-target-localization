@@ -1,1 +1,1 @@
-CP2 ready: P3 not evaluated because both admission branches unmet. No further scientific run. Run report-only descriptive_tables.py, build_final.py, audit_reporting.py once; complete FINAL and push. Do not alter scientific files.
+FINAL scientific and reporting work complete; STOP. Do not run any started unit again. No P3 localization happened. Final Git commit/push/remote verification remains the administrative last step. All history and main unchanged.

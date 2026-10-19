@@ -1,16 +1,18 @@
 {
   "stage": "CAP06",
-  "status": "CP2_READY",
-  "current_phase": "P3",
+  "status": "STOP",
+  "current_phase": "FINAL",
   "phases": {
     "P0": "FROZEN",
     "P1": "EXECUTED_TOY; CZ_FORWARD_NOT_ADMITTED",
     "P2": "EXECUTED; MAIN_EXTRACTION_GATE_NOT_MET",
     "P3": "NOT_EVALUATED; NO_ADMITTED_INPUT",
-    "P4": "NOT_STARTED"
+    "P4": "COMPLETE; NECESSARY_RESOURCES_AND_NEGATIVE_BRANCH"
   },
   "main_unchanged": true,
   "R4_percent": 0,
   "Commit_A": "000ac28f43b8689c45a22a5e1ce72263be7b70d3",
-  "CP1": "5a5cfeea7c6ccf2acf930e0a05f3516ff97670d4"
+  "CP1": "5a5cfeea7c6ccf2acf930e0a05f3516ff97670d4",
+  "CP2": "b3506c51329522515bbe20bcd39685eef8e2cc7e",
+  "final_sha": "Resolve final branch HEAD; remote verified after final commit outside this self-referential file"
 }

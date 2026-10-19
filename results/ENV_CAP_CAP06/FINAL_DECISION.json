@@ -1,0 +1,44 @@
+{
+  "stage": "CAP06",
+  "status": "FINAL_STOP",
+  "P1": "O2_FIRST_CZ_FORWARD_NOT_ADMITTED",
+  "P2": "P2_NOT_ADMITTED",
+  "P3": "NOT_EVALUATED",
+  "first_CZ_new_L3_provider": "NOT_ESTABLISHED",
+  "first_CZ_depth": "NOT_EVALUATED",
+  "first_CZ_5D_performance": "NOT_EVALUATED",
+  "hardware": "UNKNOWN",
+  "R4_percent": 0,
+  "main_unchanged": true,
+  "history_unchanged": true,
+  "new_stage_not_automatic": true,
+  "independent_audits": {
+    "P1": {
+      "PASS": true,
+      "checks": 1947,
+      "FAIL": 0
+    },
+    "P2": {
+      "PASS": true,
+      "checks": 35975,
+      "FAIL": 0
+    },
+    "P3": {
+      "PASS": true,
+      "checks": 1,
+      "FAIL": 0
+    },
+    "P4": {
+      "PASS": true,
+      "checks": 34,
+      "FAIL": 0
+    }
+  },
+  "overall": "NO_GO_FUSION_UNDER_FROZEN_RECEIVER_CONTRACT",
+  "workflow": "COMPLETED_AUTHORIZED_NEGATIVE_BRANCH",
+  "scientific_goals": "PARTIALLY_ACHIEVED; NO_CZ_5D_PERFORMANCE",
+  "P2_failure_scope": "CAL20_MAIN_ANGULAR_COVERAGE_BELOW_0.95; extraction implementation audit passed",
+  "Commit_A": "000ac28f43b8689c45a22a5e1ce72263be7b70d3",
+  "CP1": "5a5cfeea7c6ccf2acf930e0a05f3516ff97670d4",
+  "CP2": "b3506c51329522515bbe20bcd39685eef8e2cc7e"
+}

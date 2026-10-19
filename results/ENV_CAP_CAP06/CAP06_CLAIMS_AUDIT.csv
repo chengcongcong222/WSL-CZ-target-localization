@@ -1,0 +1,7 @@
+claim,supported,scope
+Actual synthetic complex samples were processed,True,toy O2 and matched plane-wave O6
+Unknown channel calibration has no cost,False,4 known-angle40dB transmissions per node
+Plane-wave extraction is real CZ accuracy,False,same-CZ multipath provider missing
+Finite center search certifies a continuous optimum,False,1023 boxes maximum; unresolved retained
+Auxiliary bearing supplies target depth,False,horizontal response z derivative zero
+Finite frontier proves minimum equipment,False,limited matched configurations

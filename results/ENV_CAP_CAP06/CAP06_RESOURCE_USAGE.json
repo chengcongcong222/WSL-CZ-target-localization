@@ -1,0 +1,12 @@
+{
+  "scientific_wall_s": 1405.9989999989048,
+  "peak_process_tree_RSS": 393736192,
+  "D_campaign_bytes": 5659578476,
+  "raw_bytes": 3722275151,
+  "git_result_bytes": 51567909,
+  "external_solver_calls": 0,
+  "generated_science_records": 5376,
+  "MC_unique_main_trajectories": 320,
+  "receiver_processor_outputs": 8832,
+  "independent_calibration_realizations": 1472
+}

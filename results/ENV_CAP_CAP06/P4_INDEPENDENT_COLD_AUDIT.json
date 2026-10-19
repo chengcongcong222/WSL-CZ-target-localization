@@ -1,0 +1,144 @@
+{
+  "PASS": true,
+  "checks": 34,
+  "FAIL": 0,
+  "records": [
+    {
+      "check_id": "frozen_code:code/audit_p1.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/audit_p2.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/audit_p3.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/common.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/development_tests.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/evaluate_p2.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/evaluate_p3.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/extract_p2.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/frontend.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/generate_p2.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/information_p2.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/p1_toy.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/run_phase.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:code/support_p3.py",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:CAP06_FROZEN_SPEC.json",
+      "PASS": true
+    },
+    {
+      "check_id": "frozen_code:P0_FROZEN_PANEL.json",
+      "PASS": true
+    },
+    {
+      "check_id": "P1:audit_internal_count",
+      "PASS": true
+    },
+    {
+      "check_id": "P2:audit_internal_count",
+      "PASS": true
+    },
+    {
+      "check_id": "P3:audit_internal_count",
+      "PASS": true
+    },
+    {
+      "check_id": "S0:not_evaluated",
+      "PASS": true
+    },
+    {
+      "check_id": "S2_B0:not_evaluated",
+      "PASS": true
+    },
+    {
+      "check_id": "S2_B3:not_evaluated",
+      "PASS": true
+    },
+    {
+      "check_id": "claim_source:first_return_geometry",
+      "PASS": true
+    },
+    {
+      "check_id": "claim_source:O2_power_ratios",
+      "PASS": true
+    },
+    {
+      "check_id": "claim_source:O6_nonoracle_receiver",
+      "PASS": true
+    },
+    {
+      "check_id": "claim_source:horizontal_support",
+      "PASS": true
+    },
+    {
+      "check_id": "claim_source:resource_tradeoff",
+      "PASS": true
+    },
+    {
+      "check_id": "claim_source:depth_and_5D",
+      "PASS": true
+    },
+    {
+      "check_id": "raw_denominator",
+      "PASS": true
+    },
+    {
+      "check_id": "main_records",
+      "PASS": true
+    },
+    {
+      "check_id": "stress_records",
+      "PASS": true
+    },
+    {
+      "check_id": "development_and_holdout_separate",
+      "PASS": true
+    },
+    {
+      "check_id": "budgets",
+      "PASS": true
+    },
+    {
+      "check_id": "scope",
+      "PASS": true
+    }
+  ],
+  "scope": "Independent report arithmetic and provenance; no repeated scientific execution"
+}
