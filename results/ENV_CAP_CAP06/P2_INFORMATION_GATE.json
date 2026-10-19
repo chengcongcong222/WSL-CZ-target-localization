@@ -1,0 +1,7 @@
+{
+  "PASS": true,
+  "jacobian_relative_max": 1.6179759207804137e-10,
+  "threshold": 1e-06,
+  "depth_zero": true,
+  "scope": "No pseudoinverse covariance or zero variance claim; ideal calibrated local design only"
+}

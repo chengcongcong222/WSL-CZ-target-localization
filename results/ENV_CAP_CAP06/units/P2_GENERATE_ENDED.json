@@ -1,0 +1,10 @@
+{
+  "unit": "P2_GENERATE",
+  "elapsed_s": 245.96799999987707,
+  "peak_process_tree_RSS": 45477888,
+  "exit_code": 0,
+  "status": "COMPLETE",
+  "reason": null,
+  "log": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CAP06\\logs\\P2_GENERATE.log",
+  "log_SHA": "7d623d600ce9cdf6ae83e5dc24b6687e2f646a110e67d6cc45964477d1f2e41a"
+}

@@ -1,0 +1,10 @@
+{
+  "unit": "P2_EVALUATE",
+  "elapsed_s": 71.78099999995902,
+  "peak_process_tree_RSS": 248762368,
+  "exit_code": 0,
+  "status": "COMPLETE",
+  "reason": null,
+  "log": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CAP06\\logs\\P2_EVALUATE.log",
+  "log_SHA": "2169e8519a0b2f881571cbf76d6af6778dbd6179d36f529ccd0f156e1aaf0a29"
+}

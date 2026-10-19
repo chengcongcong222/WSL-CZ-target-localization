@@ -1,0 +1,10 @@
+{
+  "unit": "P2_EXTRACT",
+  "elapsed_s": 977.5150000001304,
+  "peak_process_tree_RSS": 62283776,
+  "exit_code": 0,
+  "status": "COMPLETE",
+  "reason": null,
+  "log": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CAP06\\logs\\P2_EXTRACT.log",
+  "log_SHA": "be3a0401a95d108a18d7aa9b7b71307d4158a430bbf69cb5fe7c63767bb1015e"
+}

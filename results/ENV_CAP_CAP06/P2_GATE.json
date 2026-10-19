@@ -1,0 +1,14 @@
+{
+  "G2a_nonoracle": false,
+  "G2b_scope": "all branches/associations retained; independent calibration required; uncalibrated orientation unbounded",
+  "G2c": "ARRAY_FRONTEND_CONDITIONAL_NOT_CZ_MULTIPATH",
+  "PHYSICAL_CZ_LINK": "UNVERIFIED",
+  "calibration_within_design_fraction": 1.0,
+  "positive_main_gate": false,
+  "noise_false_alarm_gate": true,
+  "P3_eligible": [],
+  "unqualified_stress_kept": true,
+  "z": "NOT_EVALUATED",
+  "source_truth_read_by_frontend": false,
+  "independent_information_control": true
+}

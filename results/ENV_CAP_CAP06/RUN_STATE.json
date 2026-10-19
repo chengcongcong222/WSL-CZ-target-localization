@@ -1,14 +1,15 @@
 {
   "stage": "CAP06",
-  "status": "PRE_FREEZE",
-  "current_phase": "P0",
+  "status": "CP1_READY",
+  "current_phase": "P2",
   "phases": {
-    "P0": "DEVELOPMENT_CONTROLS_PASS",
-    "P1": "NOT_STARTED",
-    "P2": "NOT_STARTED",
+    "P0": "FROZEN",
+    "P1": "EXECUTED_TOY; CZ_FORWARD_NOT_ADMITTED",
+    "P2": "EXECUTED; MAIN_EXTRACTION_GATE_NOT_MET",
     "P3": "NOT_STARTED",
     "P4": "NOT_STARTED"
   },
   "main_unchanged": true,
-  "R4_percent": 0
+  "R4_percent": 0,
+  "Commit_A": "000ac28f43b8689c45a22a5e1ce72263be7b70d3"
 }

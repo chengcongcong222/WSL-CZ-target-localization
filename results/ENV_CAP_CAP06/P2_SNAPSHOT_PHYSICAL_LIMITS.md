@@ -1,0 +1,7 @@
+﻿# Snapshot waveform and cross-node scope
+
+P2 generates independent finite plane-wave receiver snapshots at each reported acquisition epoch. A nodewise unknown local carrier offset and source coefficient are profiled/estimated independently. No continuous cross-window emission phase, common cross-node coherent source reference, or physically coupled Doppler law is simulated. Independent local waveform controls use the same geometric target trajectory; they are not a jointly certified moving-source acoustic field. Node availability is a receiver-side missing-record assumption, not an authenticated source on/off process.
+
+This distinction matters: P3 uses only axial spatial intervals and reported navigation from those products. It does not equate frequency offsets between nodes, infer radial velocity, coherently combine node voltages or use phase continuity. Thus cross-node coherent propagation is not silently added as an observation. Source association remains a union of candidate spectral components. Common-target identity is a hypothetical test construction, with unassigned distractor alternatives in the estimator; no claim of real target association is made.
+
+The local wavelength uses the measured frequency in the synthetic plane-wave model. Transfer to independently drifting physical receiver oscillators or real propagation Doppler needs a new model check. It is not established by the current conditional snapshot benchmark.

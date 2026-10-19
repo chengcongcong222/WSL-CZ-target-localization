@@ -1,0 +1,1 @@
+CP1 ready. P1/P2 executed and audited once; both scientific admission gates unmet. No retry. Run P3 once to record NOT_EVALUATED and independent eligibility audit, then CP2 and P4. Frozen science unchanged.

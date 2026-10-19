@@ -1,0 +1,7 @@
+{
+  "records": 4416,
+  "unique_trajectories": 2880,
+  "stress_records": 1536,
+  "model": "PLANE_WAVE_CONDITIONAL_NOT_CZ",
+  "solver_calls": 0
+}

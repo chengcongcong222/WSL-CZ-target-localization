@@ -1,0 +1,11 @@
+{
+  "G1a": "MATHEMATICAL_POWER_AND_GAIN_CONTROL_SUPPORTED",
+  "G1b": "O2_FIRST_CZ_FORWARD_NOT_ADMITTED",
+  "reason": "Archived SCS I-class energy lacks independently certified matched CW or defined stochastic-path receiver power; no qualified new provider adopted; old T2 closed",
+  "O2_CZ_EXTRACTED_OBSERVABLE": "NOT_EVALUATED",
+  "CZ_depth_performance": "NOT_EVALUATED",
+  "toy_configurations": 960,
+  "G3_free_gain_zero": true,
+  "scope": "No inference from toy to CZ; no H3 complex-information transfer",
+  "external_solver_calls": 0
+}

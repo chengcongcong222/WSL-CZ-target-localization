@@ -1,0 +1,10 @@
+{
+  "unit": "P2_INFORMATION",
+  "elapsed_s": 0.5159999998286366,
+  "peak_process_tree_RSS": 5042176,
+  "exit_code": 0,
+  "status": "COMPLETE",
+  "reason": null,
+  "log": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CAP06\\logs\\P2_INFORMATION.log",
+  "log_SHA": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

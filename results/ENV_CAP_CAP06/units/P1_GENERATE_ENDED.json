@@ -1,0 +1,10 @@
+{
+  "unit": "P1_GENERATE",
+  "elapsed_s": 5.139999999664724,
+  "peak_process_tree_RSS": 31354880,
+  "exit_code": 0,
+  "status": "COMPLETE",
+  "reason": null,
+  "log": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CAP06\\logs\\P1_GENERATE.log",
+  "log_SHA": "d9f1c413c17e81b5b10e0a6c3b75ee5c4bdbf68e0cdc78d4e2727ce17e68ec11"
+}

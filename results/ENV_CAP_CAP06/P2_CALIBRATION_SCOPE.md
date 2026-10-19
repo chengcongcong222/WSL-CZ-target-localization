@@ -1,0 +1,4 @@
+# Calibration scope and algorithm limits
+The CAL processor fits a local mounting solution from independent known-angle signals. It uses the principal arcsine and phase branches in the small-mounting-error synthetic contract; it is not a globally ambiguous attitude-calibration proof. Four transmitted directions and200 Hz calibration frequency are known only for these separate calibration transmissions. Target phase/frequency/side are unknown. Gain is assumed frequency-flat over the narrow target band. The uncalibrated branch does not receive a true bias or a Uniform support prior.
+
+A1001-point axial-cosine grid has nonuniform angular spacing, particularly near endfire. Peak leakage and unassigned extra spectral candidates are retained. Narrow candidate angle variance or information under ideal calibration must not be interpreted as arbitrary attitude or multipath robustness. These algorithmic and model restrictions remain even if the positive-control gate passes.

@@ -1,0 +1,67 @@
+[
+  {
+    "gain": "G0",
+    "rank": 5,
+    "profiled_state_information": [
+      23.501732430296265,
+      36.997962576495944,
+      36.60464043070486,
+      12.999395750507622,
+      20.33988320807721
+    ],
+    "scope": "DIMENSIONLESS_TOY_MECHANISM_ONLY",
+    "all_state_and_environment_nuisance": true
+  },
+  {
+    "gain": "G1",
+    "rank": 5,
+    "profiled_state_information": [
+      5.284808529808622,
+      36.99796257649594,
+      36.60464043070486,
+      1.300558349132589,
+      20.33988320807721
+    ],
+    "scope": "DIMENSIONLESS_TOY_MECHANISM_ONLY",
+    "all_state_and_environment_nuisance": true
+  },
+  {
+    "gain": "G2",
+    "rank": 5,
+    "profiled_state_information": [
+      5.28480852980862,
+      2.2163389045202093,
+      0.034130146693170355,
+      1.3005583491325894,
+      0.005065871110246355
+    ],
+    "scope": "DIMENSIONLESS_TOY_MECHANISM_ONLY",
+    "all_state_and_environment_nuisance": true
+  },
+  {
+    "gain": "G3",
+    "rank": 0,
+    "profiled_state_information": [
+      4.8824991361082933e-29,
+      1.4879531679080329e-29,
+      2.284490982195516e-29,
+      8.267295027525258e-30,
+      6.704402877655016e-30
+    ],
+    "scope": "DIMENSIONLESS_TOY_MECHANISM_ONLY",
+    "all_state_and_environment_nuisance": true
+  },
+  {
+    "gain": "G4",
+    "rank": 5,
+    "profiled_state_information": [
+      5.284808529808622,
+      36.99796257649594,
+      36.60464043070486,
+      1.300558349132589,
+      20.33988320807721
+    ],
+    "scope": "DIMENSIONLESS_TOY_MECHANISM_ONLY",
+    "all_state_and_environment_nuisance": true
+  }
+]
