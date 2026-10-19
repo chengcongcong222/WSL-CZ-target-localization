@@ -1,0 +1,10 @@
+{
+  "unit": "P3_COLD",
+  "elapsed_s": 0.5320000001229346,
+  "peak_process_tree_RSS": 5488640,
+  "exit_code": 0,
+  "status": "COMPLETE",
+  "reason": null,
+  "log": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CAP06\\logs\\P3_COLD.log",
+  "log_SHA": "082f6ea52b3191db88d2729bf1eabec32d9ecfba16f48ded382e74c4d1502dd8"
+}

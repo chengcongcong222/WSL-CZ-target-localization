@@ -1,0 +1,34 @@
+{
+  "unit": "P3_SEARCH",
+  "code_SHA": {
+    "code/audit_p1.py": "0f94a81d3ba6e5920e33c32659c96bf0f343cd81bd87234836e6e1ed4c2d4da1",
+    "code/audit_p2.py": "d9f0bd3581e6442ef891f38977e9bb45790271cdceb2f6b2ba299c29b8f14bd0",
+    "code/audit_p3.py": "6fa26fb1cf518c2c352b183ebb1d4ae9c019c24bba7f816061f9e3b4e4f5926c",
+    "code/common.py": "976abac22c725d9a9fd006f16d2bd6376923bf504d1fea07f7e855069100c9b9",
+    "code/development_tests.py": "1cf2f4c5e283c4429313b4f6d700a3690dc9f1cfe34e646b725c22cbedef10b7",
+    "code/evaluate_p2.py": "c9fc1fc560b249c75d001f3078c0e58330a007a6de3c449278109b4753126200",
+    "code/evaluate_p3.py": "3886f4ecdf8858ad89d383e10e57da93c9358bc8777b44f46a07bafe46c0c301",
+    "code/extract_p2.py": "5d907120e1322798e052a7eb9a752991a19c6f8003c42d3add38555dadcb46ee",
+    "code/frontend.py": "cb600e9b3cb51b88906ffd9ceeac44bbf9245bf7c26964ce5497094e661788b9",
+    "code/generate_p2.py": "d2e76def13f75d39e902a87e89025d0f27626f9ea73f8acc18df2842de90bc0c",
+    "code/information_p2.py": "c270186ade89ea8dbe7ba4bb9c04270efd02668893d7bcdd89fd1bdab7fd75a0",
+    "code/p1_toy.py": "15f4e60b230f1ad39878af0673c02f6ce99352451621a8ed889249e408c66005",
+    "code/run_phase.py": "e946528dd0d9f66d2d6e3271c44d0af8555af7211583eb045c7af8f74af2f460",
+    "code/support_p3.py": "b047be1fba5df40c36d9980689c1b8b6367658599b88837e82d523f6b384a01c",
+    "CAP06_FROZEN_SPEC.json": "b213ccca90a3d1a27a74c5b939230fd581a16e6c61111137771da9efe6be273a",
+    "P0_FROZEN_PANEL.json": "d6f233fa23a71f5f3e0017cb67d7d6dabeb34a37ed4240c3bb7a24a628870fe8"
+  },
+  "config_SHA": "b213ccca90a3d1a27a74c5b939230fd581a16e6c61111137771da9efe6be273a",
+  "input_SHA": "f2805c71052780f79f6fff915518185592c10e78ad13e528415669b01ebed36e",
+  "seed_contract": "P1 2026101901+rep; holdout state 2026101902; P2 states seed_base+rep*1000; node/quality paired as frozen code; stress2026101950+family*10000+angle*100+rep",
+  "start_UTC": "2026-10-19T04:09:40.259374+00:00",
+  "budget": {
+    "scientific_wall_s": 10800,
+    "memory_bytes": 8589934592,
+    "D_bytes": 12884901888,
+    "Git_bytes": 125829120,
+    "external_solver_calls": 0,
+    "MC_generated_configuration_max": 12000
+  },
+  "model_level": "O2 toy, O6 plane-wave matched synthetic; physical CZ link unverified"
+}

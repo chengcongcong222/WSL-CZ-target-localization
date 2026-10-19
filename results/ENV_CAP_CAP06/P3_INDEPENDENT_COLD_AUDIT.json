@@ -1,0 +1,13 @@
+{
+  "PASS": true,
+  "checks": 1,
+  "FAIL": 0,
+  "records": [
+    {
+      "check_id": "legitimate_not_evaluated",
+      "PASS": true,
+      "error": 0.0
+    }
+  ],
+  "scope": "Conditional interval geometry and saved distributions; not global optimum or real coverage"
+}

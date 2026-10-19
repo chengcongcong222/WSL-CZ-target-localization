@@ -1,0 +1,10 @@
+{
+  "unit": "P3_EVALUATE",
+  "elapsed_s": 0.5309999999590218,
+  "peak_process_tree_RSS": 3670016,
+  "exit_code": 0,
+  "status": "COMPLETE",
+  "reason": null,
+  "log": "D:\\ProjectStorage\\WSL-CZ\\ENV_CAP_CAP06\\logs\\P3_EVALUATE.log",
+  "log_SHA": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

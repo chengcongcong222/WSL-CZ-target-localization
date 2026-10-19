@@ -1,1 +1,1 @@
-CP1 ready. P1/P2 executed and audited once; both scientific admission gates unmet. No retry. Run P3 once to record NOT_EVALUATED and independent eligibility audit, then CP2 and P4. Frozen science unchanged.
+CP2 ready: P3 not evaluated because both admission branches unmet. No further scientific run. Run report-only descriptive_tables.py, build_final.py, audit_reporting.py once; complete FINAL and push. Do not alter scientific files.
