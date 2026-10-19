@@ -1,0 +1,935 @@
+{
+  "state": [
+    "r",
+    "theta",
+    "z",
+    "v",
+    "psi"
+  ],
+  "units": "DIMENSIONLESS_SYNTHETIC_JACOBIANS_ONLY",
+  "svd_absolute_tolerance": 1e-10,
+  "matrix_tolerance": 1e-09,
+  "fd_tolerance": 1e-07,
+  "controls": [
+    {
+      "id": "LEVEL_CONSTANT",
+      "J": [
+        [
+          -2,
+          0,
+          4,
+          1,
+          -8
+        ],
+        [
+          -1,
+          0,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          4,
+          1,
+          8
+        ]
+      ],
+      "N": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "expected_rank": 3,
+      "interpretation": "constant nuisance removes constant state direction; synthetic polynomial only"
+    },
+    {
+      "id": "LEVEL_LINEAR",
+      "J": [
+        [
+          -2,
+          0,
+          4,
+          1,
+          -8
+        ],
+        [
+          -1,
+          0,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          4,
+          1,
+          8
+        ]
+      ],
+      "N": [
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "expected_rank": 2,
+      "interpretation": "range-column linear trend absorbed; no CZ numerical claim"
+    },
+    {
+      "id": "LEVEL_FREE",
+      "J": [
+        [
+          -2,
+          0,
+          4,
+          1,
+          -8
+        ],
+        [
+          -1,
+          0,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          4,
+          1,
+          8
+        ]
+      ],
+      "N": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "expected_rank": 0,
+      "interpretation": "arbitrary per-epoch source plus gain absorbs every state column"
+    },
+    {
+      "id": "LEVEL_FLAT",
+      "J": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "N": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "expected_rank": 0,
+      "interpretation": "no range-dependent propagation"
+    },
+    {
+      "id": "RELATIVE_KNOWN_GAIN",
+      "J": [
+        [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          2,
+          0,
+          0
+        ]
+      ],
+      "N": [
+        [],
+        [],
+        []
+      ],
+      "expected_rank": 2,
+      "interpretation": "two independent range/depth signatures possible, hypothetical"
+    },
+    {
+      "id": "RELATIVE_CONSTANT_GAIN",
+      "J": [
+        [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          2,
+          0,
+          0
+        ]
+      ],
+      "N": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "expected_rank": 2,
+      "interpretation": "fixed differential gain over time need not absorb all changing shape"
+    },
+    {
+      "id": "RELATIVE_FREE_GAIN",
+      "J": [
+        [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          2,
+          0,
+          0
+        ]
+      ],
+      "N": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "expected_rank": 0,
+      "interpretation": "arbitrary per-epoch differential gain destroys contrast information"
+    },
+    {
+      "id": "RELATIVE_STATIC_GAIN",
+      "J": [
+        [
+          1,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          0
+        ]
+      ],
+      "N": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "expected_rank": 0,
+      "interpretation": "static unknown gain absorbs static ratio"
+    },
+    {
+      "id": "RELATIVE_COUPLED",
+      "J": [
+        [
+          1,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          4,
+          0,
+          0
+        ]
+      ],
+      "N": [
+        [],
+        []
+      ],
+      "expected_rank": 1,
+      "interpretation": "range-depth tradeoff remains despite nonzero sensitivity"
+    },
+    {
+      "id": "PHASE_PLANE_WAVE",
+      "J": [
+        [
+          0,
+          -3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "N": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "expected_rank": 1,
+      "interpretation": "horizontal plane wave has bearing only after source-scale removal"
+    },
+    {
+      "id": "PHASE_FREE_CHANNEL",
+      "J": [
+        [
+          0,
+          -3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "N": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "expected_rank": 0,
+      "interpretation": "arbitrary channel phases absorb spatial phase"
+    },
+    {
+      "id": "DELAY_COMMON_TIME",
+      "J": [
+        [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          9,
+          0,
+          0
+        ]
+      ],
+      "N": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "expected_rank": 2,
+      "interpretation": "relative delay cancels emission time; conditional independent paths"
+    },
+    {
+      "id": "DELAY_FREE_PATH",
+      "J": [
+        [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          9,
+          0,
+          0
+        ]
+      ],
+      "N": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "expected_rank": 0,
+      "interpretation": "unknown independent path delays absorb states"
+    },
+    {
+      "id": "FREQUENCY_UNKNOWN_OFFSET",
+      "J": [
+        [
+          1,
+          0,
+          0,
+          -2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "N": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "expected_rank": 1,
+      "interpretation": "constant shift lost; changing signature may survive"
+    },
+    {
+      "id": "FREQUENCY_UNKNOWN_DRIFT",
+      "J": [
+        [
+          1,
+          0,
+          0,
+          -2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "N": [
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "expected_rank": 0,
+      "interpretation": "affine motion signature lost to affine reference/source drift"
+    },
+    {
+      "id": "APERTURE_FREE_SOURCE_PHASE",
+      "J": [
+        [
+          1,
+          0,
+          4,
+          -2,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          2,
+          0
+        ]
+      ],
+      "N": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "expected_rank": 0,
+      "interpretation": "unconstrained temporal source phase absorbs coherent phase trajectory"
+    },
+    {
+      "id": "AUX_HORIZONTAL_UPPER_BOUND",
+      "J": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "N": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "expected_rank": 4,
+      "interpretation": "abstract independent horizontal signatures, not actual bearing FIM"
+    },
+    {
+      "id": "AUX_FREE_EPOCH_BIAS",
+      "J": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "N": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "expected_rank": 0,
+      "interpretation": "per-observation free angle bias absorbs every horizontal signature"
+    }
+  ]
+}

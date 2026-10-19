@@ -1,0 +1,77 @@
+{
+  "stage": "ENV_CAP_REQ05",
+  "parent_SHA": "d658f660d6bd6c9b3a585f0e5b8812c49ee8b0c4",
+  "branch": "research/env-cap-req05",
+  "freeze_UTC": "2026-10-19T01:39:03Z",
+  "formal_analysis_runs": 1,
+  "cold_audit_runs": 1,
+  "budget": {
+    "wall_seconds_total": 600,
+    "process_tree_GiB": 4,
+    "D_data_MiB": 128,
+    "git_MiB": 16,
+    "acoustic_solver_calls": 0,
+    "MC": 0,
+    "new_recordings": 0
+  },
+  "code_and_spec": [
+    {
+      "path": ".gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "ALGEBRA_SPEC.json",
+      "sha256": "f24d2291383d0f717ea535bb1d9911197a48932ea33377c8241451b0542d786e"
+    },
+    {
+      "path": "code/analyze.py",
+      "sha256": "3c9afb508042f5f7d488de826d971e1818ef754a811fc04a01196038a30a436a"
+    },
+    {
+      "path": "code/cold_audit.py",
+      "sha256": "4e0cbe4316f1c9e2b7b55795982fb1c7d31c2961514aace2ea5c65c383bf546a"
+    },
+    {
+      "path": "code/development_prepare.py",
+      "sha256": "974f849fa88b31f3907fa3fc66562ed8e1f991897553c246d764aeb0f8646613"
+    },
+    {
+      "path": "code/development_prepare_review.py",
+      "sha256": "1db395452e1e79c4349a15875775b0d8e530ca47d1b7329bcc46cbe2e317ddc1"
+    },
+    {
+      "path": "code/run_once.py",
+      "sha256": "1e97ca5d1b35aa15d7dfa132be9c38963b301e5fe77ff17aa0e29c3040e0f0ee"
+    },
+    {
+      "path": "DESIGN_CONTRACT.md",
+      "sha256": "780f17708b66fea67581d318abb04518121bb95c353bc6dbe087bf1601545ae0"
+    },
+    {
+      "path": "DEVELOPMENT_PRECHECK.json",
+      "sha256": "6a76f53850cebc3292878f77f333b4dc861f01485d9cd164304f625b1338f20a"
+    },
+    {
+      "path": "EVIDENCE_INDEX.csv",
+      "sha256": "9d36f3b22409639aac2cd6e019c268ee1c1de17b19eda9094be2264fe3a4b65f"
+    },
+    {
+      "path": "EVIDENCE_README.md",
+      "sha256": "447b72106376bfb1c3a1518a98d4641a8a5f46c2ebbbd3dc15e3c9deff8e9c33"
+    },
+    {
+      "path": "OBSERVATION_MODELS_AND_NULLSPACES.md",
+      "sha256": "fc02c5e0038e561d96dbeb18f3aa8cf381b9efefa585105009beaeaa1472e503"
+    }
+  ],
+  "paper_online_status": "DOI access failed; archived primary PDFs and prior audited identity used",
+  "state_order": [
+    "r",
+    "theta",
+    "z",
+    "v",
+    "psi"
+  ],
+  "performance_gate": "NOT_DEFINED_NOT_A_PERFORMANCE_STAGE",
+  "next_candidate_limit": 2
+}

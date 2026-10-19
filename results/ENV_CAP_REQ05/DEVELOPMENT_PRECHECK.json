@@ -1,0 +1,144 @@
+{
+  "scope": "PRE_FREEZE_SYNTHETIC_CODE_TEST_ONLY",
+  "checks": [
+    {
+      "id": "LEVEL_CONSTANT",
+      "expected": 3,
+      "exact_rank": 3,
+      "numerical_rank": 3,
+      "PASS": true
+    },
+    {
+      "id": "LEVEL_LINEAR",
+      "expected": 2,
+      "exact_rank": 2,
+      "numerical_rank": 2,
+      "PASS": true
+    },
+    {
+      "id": "LEVEL_FREE",
+      "expected": 0,
+      "exact_rank": 0,
+      "numerical_rank": 0,
+      "PASS": true
+    },
+    {
+      "id": "LEVEL_FLAT",
+      "expected": 0,
+      "exact_rank": 0,
+      "numerical_rank": 0,
+      "PASS": true
+    },
+    {
+      "id": "RELATIVE_KNOWN_GAIN",
+      "expected": 2,
+      "exact_rank": 2,
+      "numerical_rank": 2,
+      "PASS": true
+    },
+    {
+      "id": "RELATIVE_CONSTANT_GAIN",
+      "expected": 2,
+      "exact_rank": 2,
+      "numerical_rank": 2,
+      "PASS": true
+    },
+    {
+      "id": "RELATIVE_FREE_GAIN",
+      "expected": 0,
+      "exact_rank": 0,
+      "numerical_rank": 0,
+      "PASS": true
+    },
+    {
+      "id": "RELATIVE_STATIC_GAIN",
+      "expected": 0,
+      "exact_rank": 0,
+      "numerical_rank": 0,
+      "PASS": true
+    },
+    {
+      "id": "RELATIVE_COUPLED",
+      "expected": 1,
+      "exact_rank": 1,
+      "numerical_rank": 1,
+      "PASS": true
+    },
+    {
+      "id": "PHASE_PLANE_WAVE",
+      "expected": 1,
+      "exact_rank": 1,
+      "numerical_rank": 1,
+      "PASS": true
+    },
+    {
+      "id": "PHASE_FREE_CHANNEL",
+      "expected": 0,
+      "exact_rank": 0,
+      "numerical_rank": 0,
+      "PASS": true
+    },
+    {
+      "id": "DELAY_COMMON_TIME",
+      "expected": 2,
+      "exact_rank": 2,
+      "numerical_rank": 2,
+      "PASS": true
+    },
+    {
+      "id": "DELAY_FREE_PATH",
+      "expected": 0,
+      "exact_rank": 0,
+      "numerical_rank": 0,
+      "PASS": true
+    },
+    {
+      "id": "FREQUENCY_UNKNOWN_OFFSET",
+      "expected": 1,
+      "exact_rank": 1,
+      "numerical_rank": 1,
+      "PASS": true
+    },
+    {
+      "id": "FREQUENCY_UNKNOWN_DRIFT",
+      "expected": 0,
+      "exact_rank": 0,
+      "numerical_rank": 0,
+      "PASS": true
+    },
+    {
+      "id": "APERTURE_FREE_SOURCE_PHASE",
+      "expected": 0,
+      "exact_rank": 0,
+      "numerical_rank": 0,
+      "PASS": true
+    },
+    {
+      "id": "AUX_HORIZONTAL_UPPER_BOUND",
+      "expected": 4,
+      "exact_rank": 4,
+      "numerical_rank": 4,
+      "PASS": true
+    },
+    {
+      "id": "AUX_FREE_EPOCH_BIAS",
+      "expected": 0,
+      "exact_rank": 0,
+      "numerical_rank": 0,
+      "PASS": true
+    }
+  ],
+  "PASS": true,
+  "formal_runs": 0,
+  "historical_science_rerun": false,
+  "development_events": [
+    {
+      "event": "input check rejected CRLF checkout against LF Git blob",
+      "resolution": "record both SHA256 identities; require exact equality modulo newline encoding only; no source modification"
+    },
+    {
+      "event": "Chinese document reader used Windows default GBK",
+      "resolution": "PYTHONUTF8=1, UTF-8 output; no scientific code or thresholds changed"
+    }
+  ]
+}
