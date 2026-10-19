@@ -1,0 +1,111 @@
+{
+  "stage": "CAP06",
+  "parent": "dddad1f66e6d61668ecd5af38cad3e3af9fc9245",
+  "seed": "62f29845a786d3911d55076a81193c01152c55c8",
+  "branch": "research/env-cap-cap06",
+  "repetitions": {
+    "development": 8,
+    "holdout": 32
+  },
+  "times_s": [
+    0,
+    40,
+    80,
+    120,
+    160,
+    200,
+    240,
+    280,
+    320,
+    360,
+    400,
+    440,
+    480,
+    520,
+    560,
+    600,
+    640,
+    680,
+    720,
+    760,
+    800,
+    840,
+    880,
+    920,
+    960,
+    1000,
+    1040,
+    1080,
+    1120,
+    1160,
+    1200
+  ],
+  "snr_db": [
+    0,
+    10,
+    20
+  ],
+  "stress_cases": [
+    "SINGLE",
+    "COHERENT_ECHO",
+    "NOISE_ONLY",
+    "WEAK",
+    "BAD_CHANNEL",
+    "BENT_ARRAY",
+    "PHASE_DRIFT",
+    "CLOCK"
+  ],
+  "P3_box_budget": 1023,
+  "seed_contract": "P1 2026101901+rep; holdout state 2026101902; P2 states seed_base+rep*1000; node/quality paired as frozen code; stress2026101950+family*10000+angle*100+rep",
+  "evidence_scope": "O2 toy, O6 plane-wave matched synthetic; physical CZ link unverified",
+  "budgets": {
+    "scientific_wall_s": 10800,
+    "memory_bytes": 8589934592,
+    "D_bytes": 12884901888,
+    "Git_bytes": 125829120,
+    "external_solver_calls": 0,
+    "MC_generated_configuration_max": 12000
+  },
+  "counts": {
+    "P1": 960,
+    "P2_main_node_records": 2880,
+    "P2_stress_records": 1536,
+    "P2_processor_configurations": 8832,
+    "P3_reuses_same_data_max": 960,
+    "independent_main_base_trajectories": 320,
+    "development": 64,
+    "holdout": 256
+  },
+  "P2_gate": {
+    "main_CAL20_detection_min": 0.9,
+    "main_CAL20_coverage_min": 0.95,
+    "main_axis_median_max_deg": 10,
+    "noise_false_alarm_max": 0.05,
+    "calibration_fraction_min": 0.99,
+    "calibration_beta_limit_deg": 0.1,
+    "calibration_relative_fit_max": 0.02,
+    "information_J_relative_error_max": 1e-06
+  },
+  "P3_gate": {
+    "required": "P2 extractor and information controls plus independent cold PASS",
+    "interval_condition": "all actual angular components and navigation within their registered sets; no unconditional coverage theorem",
+    "navigation_bound_axis_m": 150,
+    "clock_bound_s": 0.25,
+    "orientation_bound_deg": 0.1,
+    "unresolved": "always retained",
+    "best_center_score_max": 1,
+    "global_optimality": "NOT_CERTIFIED",
+    "depth": "NOT_EVALUATED"
+  },
+  "P1_gate": {
+    "CZ_L3": "not met by archive",
+    "toy_free_gain_rank": 0
+  },
+  "final_classification": {
+    "CZ5D": "NOT_ESTABLISHED",
+    "P2_if_pass": "ARRAY_FRONTEND_CONDITIONAL_NOT_CZ_MULTIPATH",
+    "P3_if_broad": "VALID_CONDITIONAL_OUTER_SUPPORT_BUT_BROAD",
+    "P3_audit_fail": "SUPPORT_UNCERTIFIED",
+    "physical_limit": "No genuine first CZ power/coherent receiver provider"
+  }
+}

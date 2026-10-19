@@ -1,0 +1,118 @@
+{
+  "PASS": true,
+  "sources": [
+    {
+      "id": "REQ05_MODEL",
+      "PASS": true
+    },
+    {
+      "id": "REQ05_DECISION",
+      "PASS": true
+    },
+    {
+      "id": "REQ05_NEXT",
+      "PASS": true
+    },
+    {
+      "id": "REQ05_AUDIT",
+      "PASS": true
+    },
+    {
+      "id": "CZO04_SYNC",
+      "PASS": true
+    },
+    {
+      "id": "CZO04_ZERO",
+      "PASS": true
+    },
+    {
+      "id": "NUM03_SYNC",
+      "PASS": true
+    },
+    {
+      "id": "NUM03_DECISION",
+      "PASS": true
+    },
+    {
+      "id": "REC01_FORWARD",
+      "PASS": true
+    },
+    {
+      "id": "REC01_PHYSICS",
+      "PASS": true
+    },
+    {
+      "id": "T3_W1",
+      "PASS": true
+    },
+    {
+      "id": "H3_LIMIT",
+      "PASS": true
+    },
+    {
+      "id": "RX_INFO",
+      "PASS": true
+    },
+    {
+      "id": "R4_MASTER",
+      "PASS": true
+    },
+    {
+      "id": "R3_ENVELOPE",
+      "PASS": true
+    },
+    {
+      "id": "SINGLE_HLA",
+      "PASS": true
+    },
+    {
+      "id": "CZ_SEARCH",
+      "PASS": true
+    },
+    {
+      "id": "BELLHOP_UNIT",
+      "PASS": true
+    },
+    {
+      "id": "ARCHIVED_I2_0",
+      "PASS": true
+    },
+    {
+      "id": "ARCHIVED_I2_1",
+      "PASS": true
+    },
+    {
+      "id": "ARCHIVED_I2_2",
+      "PASS": true
+    },
+    {
+      "id": "ARCHIVED_I2_3",
+      "PASS": true
+    },
+    {
+      "id": "ARCHIVED_I2_4",
+      "PASS": true
+    },
+    {
+      "id": "ARCHIVED_I2_5",
+      "PASS": true
+    },
+    {
+      "id": "ARCHIVED_I2_6",
+      "PASS": true
+    },
+    {
+      "id": "ARCHIVED_I2_7",
+      "PASS": true
+    },
+    {
+      "id": "ARCHIVED_I2_8",
+      "PASS": true
+    }
+  ],
+  "development": true,
+  "campaign_initial_bytes": 1885937919,
+  "D_free_bytes": 208606859264,
+  "scientific_started": false,
+  "syntax_files": 14
+}

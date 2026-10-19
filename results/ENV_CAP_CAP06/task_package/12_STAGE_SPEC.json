@@ -1,0 +1,75 @@
+{
+  "campaign": "ENV_CAP_CAP06",
+  "plan_version": "20261019_v1",
+  "plan_status": "DESIGN_SEED_NOT_SCIENTIFIC_EXECUTION",
+  "repository": "chengcongcong222/WSL-CZ-target-localization",
+  "parent_sha": "dddad1f66e6d61668ecd5af38cad3e3af9fc9245",
+  "research_branch": "research/env-cap-cap06",
+  "results_dir": "results/ENV_CAP_CAP06/",
+  "hard_constraints": {
+    "first_CZ_required": true,
+    "baseline_single_platform_HLA": true,
+    "no_partner_staff_or_new_proprietary_data": true,
+    "no_external_partner_contact": true,
+    "main_and_historical_gates_read_only": true,
+    "original_R4_management_percent": 0,
+    "no_old_T2_FUNC2_repair": true,
+    "negative_results_retained": true
+  },
+  "evidence_levels": ["L0_ANALYTIC", "L1_ENVIRONMENT_SOURCE", "L2_NOMINAL_CZ_RAY", "L3_CERTIFIED_FORWARD", "L4_ORACLE_INFORMATION", "L5_NONORACLE_EXTRACTED_OBSERVABLE", "L6_CONDITIONAL_ESTIMATOR_HOLDOUT", "L7_HARDWARE_NOT_EVALUATED"],
+  "phases": [
+    {"id":"P0","name":"Single-HLA baseline and receiver contract","deps":[],"status":"NOT_STARTED","pass_gate":"G0_IDENTITY_AND_ZERO_CONTROLS","next_on_fail":"ISOLATE_INVALID_INPUT_AND_KEEP_LEGAL_ANALYTIC_TASKS"},
+    {"id":"P1","name":"O2 simultaneous vertical-level ratio","deps":["P0"],"status":"NOT_STARTED","pass_gate":"G1_PHYSICS_AND_EXTRACTED_OBSERVABLE","next_on_fail":"O2_NOT_EVALUATED_AND_CONTINUE_P2"},
+    {"id":"P2","name":"O6 auxiliary bearing signal-to-product chain","deps":["P0"],"status":"NOT_STARTED","pass_gate":"G2_NONORACLE_BEARING_AND_BIAS_ASSOCIATION","next_on_fail":"O6_MECHANISM_ONLY_AND_CONTINUE_P1"},
+    {"id":"P3","name":"Qualified multi-branch candidate fusion and holdout","deps":["P1","P2"],"status":"NOT_STARTED","pass_gate":"G3_ONLY_VALID_CONFIGS_AND_TRUTH_BRANCH_RETENTION","next_on_fail":"NO_UNSUPPORTED_5D_PRECISION_AND_CONTINUE_P4"},
+    {"id":"P4","name":"Resource boundary and scientific final report","deps":["P3"],"status":"NOT_STARTED","pass_gate":"G4_EVIDENCE_CLAIM_AUDIT","next_on_fail":"COMPLETE_NEGATIVE_OR_NECESSITY_ONLY_REPORT"}
+  ],
+  "resource_configs": [
+    {"id":"S0","receivers":1,"main_hla":8,"vertical_extra":0,"aux_hla":0,"total_channels":8},
+    {"id":"S1","receivers":1,"main_hla":8,"vertical_extra":4,"aux_hla":0,"total_channels":12},
+    {"id":"S2","receivers":2,"main_hla":8,"vertical_extra":0,"aux_hla":8,"total_channels":16},
+    {"id":"S3","receivers":2,"main_hla":8,"vertical_extra":4,"aux_hla":8,"total_channels":20}
+  ],
+  "design_illustrative_axes_to_freeze_at_Commit_A": {
+    "frequency_hz_nominal": 200,
+    "main_array_element_x_m": [-7,-5,-3,-1,1,3,5,7],
+    "main_array_depth_m_nominal": 200,
+    "vertical_extra_depths_m_candidate": [196,198,202,204],
+    "source_depth_m_candidate": [150,200,250],
+    "SSP_cases_same_source_family": ["SCS17_JW","SCS17_JA","SCS17_ANNUAL"],
+    "platform_speed_mps": 2,
+    "target_speed_mps_design_range": [1,3],
+    "track_duration_s_candidates": [300,600,1200],
+    "small_turn_deg_design": [0,15],
+    "bearing_node_geometries": ["B0_5km","B3_15.2970585km"],
+    "O2_gain_conditions": ["INDEPENDENT_CALIBRATED", "UNKNOWN_CONSTANT", "UNKNOWN_LINEAR_DRIFT", "FREE_PER_EPOCH", "COMMON_AGC_ONLY"],
+    "O2_level_sigma_db_hypotheses": [0.25,0.5],
+    "O2_level_AR1_rho_hypotheses": [0,0.9],
+    "O6_array_SNR_db_hypotheses": [0,10,20],
+    "O6_nav_sigma_axis_m_hypotheses": [25,37.5],
+    "O6_bias_deg_hypotheses": [0,0.05,0.075],
+    "hypothesis_warning": "These are autonomous simulation design axes, not received hardware guarantees. Codex must preregister a bounded non-factorial subset before any scientific run."
+  },
+  "frozen_panel_recommendation": {
+    "development_seed": 2026101901,
+    "holdout_seed": 2026101902,
+    "panel_status": "P0_MUST_REGISTER_BEFORE_SCIENCE",
+    "historical_G_H_T3_panels_are_development_only": true,
+    "holdout_independent_environment": false,
+    "pair_common_random_numbers_across_configs": true,
+    "MC_required_for_claimed_P95": true,
+    "two_independent_state_or_seed_splits_min": true
+  },
+  "global_budgets": {
+    "science_wall_s": 259200,
+    "process_tree_RSS_bytes": 8589934592,
+    "new_D_data_bytes": 32212254720,
+    "new_Git_bytes": 125829120,
+    "external_acoustic_solver_calls": 48,
+    "MC_configurations": 20000,
+    "no_budget_maximizing": true
+  },
+  "suggested_solver_call_allocation_to_prefreeze": {"P0_preflight":6,"P1_O2":18,"P2_O6_if_full_CZ":12,"independent_numeric_crosscheck_reserve":12,"P3":0,"P4":0},
+  "git": {"first_frozen_science_commit":"Commit_A_AFTER_P0","autonomous_checkpoints":["CP1_AFTER_P1_P2","CP2_AFTER_CONDITIONAL_P3","FINAL_AFTER_P4"],"STOP_at_final":true,"auto_merge_main":false},
+  "required_final_files": ["GPT_SYNC_CAP06_FINAL.md","CAP06_FINAL_SCIENTIFIC_REPORT.md","CAP06_RESOURCE_PARETO.csv","CAP06_PRECISION_RESOURCE_MATRIX.csv","EVIDENCE_LEVEL_MATRIX.csv","P1_POWER_FORWARD_GATE.json","P2_RECEIVER_BEARING_CASES.csv","P3_GLOBAL_SUPPORT_STATUS.csv","CAP06_APPLICATION_USABLE_CLAIMS.md","CAP06_FORBIDDEN_CLAIMS.md","FINAL_DECISION.json","RUN_STATE.json","STOP.json"]
+}

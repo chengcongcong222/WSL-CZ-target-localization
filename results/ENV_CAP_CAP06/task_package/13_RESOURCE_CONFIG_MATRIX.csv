@@ -1,0 +1,5 @@
+config,platforms,main_hla_channels,extra_vertical_channels,aux_hla_channels,independent_nodes,illustrative_vertical_depths_m,aux_geometry,claim_level_without_physical_cz_frontend,primary_goal,missing_condition
+S0,1,8,0,0,1,NA,NONE,RESEARCH_BASELINE_ONLY,单阵基础方位与候选,目标录音及主阵信号/波束标定未知
+S1,1,8,4,0,1,196/198/202/204,NONE,O2_MECHANISM_ONLY_UNTIL_CZ_FORWARD,同步深度比r/z,差分增益AGC功率定义及首CZ功率前向
+S2,1_plus_aux,8,0,8,2,NA,B0_5km_OR_B3_15.297km,O6_PRODUCT_CONDITIONAL_ONLY,水平r/theta/v/psi,阵列测向前端与符号导航偏置关联及CZ接收机会
+S3,1_plus_aux,8,4,8,2,196/198/202/204,B0_5km_OR_B3_15.297km,CONDITIONAL_ONLY_AFTER_BOTH_GATES,五维互补性,两支独立Gate及联合干扰协方差

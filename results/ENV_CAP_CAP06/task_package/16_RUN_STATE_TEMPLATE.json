@@ -1,0 +1,18 @@
+{
+  "campaign":"ENV_CAP_CAP06",
+  "parent_sha":"dddad1f66e6d61668ecd5af38cad3e3af9fc9245",
+  "branch":"research/env-cap-cap06",
+  "plan_seed_status":"DESIGN_SEED_ONLY",
+  "frozen_design_sha":null,
+  "latest_git_sha":null,
+  "phases":{"P0":"NOT_STARTED","P1":"NOT_STARTED","P2":"NOT_STARTED","P3":"NOT_STARTED","P4":"NOT_STARTED"},
+  "P1_GATE":"NOT_EVALUATED",
+  "P2_GATE":"NOT_EVALUATED",
+  "P3_ELIGIBLE_CONFIGS":[],
+  "SCIENCE_STARTED_units":[],
+  "budget":{"science_wall_s":0,"external_acoustic_solver_calls":0,"new_MC_configurations":0,"new_D_bytes":0},
+  "checkpoints_pushed":[],
+  "STOP":false,
+  "next_action":"P0_REPOSITORY_AND_DATA_PREFLIGHT",
+  "history":[]
+}

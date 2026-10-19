@@ -1,0 +1,14 @@
+flowchart TD
+    Z[历史REQ05冻结证据] --> P0[P0 来源身份与单阵/增强资源合同]
+    P0 --> A[Commit A 冻结参数和留出]
+    A --> O2[P1 O2 同步垂向功率比]
+    A --> O6[P2 O6 辅助方位接收链]
+    O2 --> CP1[CP1 双支冷审计/负例归档]
+    O6 --> CP1
+    CP1 --> G{是否存在合法非oracle观测?}
+    G -->|至少一支通过| P3[P3 合格配置局部及全局候选/留出]
+    G -->|无支通过| NO[性能NOT_EVALUATED与机制边界]
+    P3 --> CP2[CP2 条件性能审核]
+    CP2 --> P4[P4 资源必要条件与Pareto/申报证据]
+    NO --> P4
+    P4 --> F[FINAL Commit + PUSH + STOP]

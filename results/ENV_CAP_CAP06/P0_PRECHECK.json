@@ -1,0 +1,27 @@
+{
+  "seed": "62f29845a786d3911d55076a81193c01152c55c8",
+  "package_files": 27,
+  "package_PASS": true,
+  "package_tests_PASS": 3,
+  "historical_sources": 27,
+  "archived_I2_files": 9,
+  "clean_isolated_worktree_before_copy": true,
+  "main": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "package_master_section_coverage": {
+    "00_README_\u5148\u8bfb.md": 1.0,
+    "01_CODEX_MASTER_PROMPT.md": 1.0,
+    "02_SCIENTIFIC_CONTRACT.md": 1.0,
+    "03_PHASES_AND_GATES.md": 1.0,
+    "04_P0_BASELINE_RECEIVER.md": 1.0,
+    "05_P1_O2_VERTICAL.md": 1.0,
+    "06_P2_O6_AUX_BEARING.md": 1.0,
+    "07_P3_FUSION_VALIDATION.md": 1.0,
+    "08_P4_RESOURCE_APPLICATION.md": 1.0,
+    "09_AUDIT_STATISTICS.md": 1.0,
+    "10_GIT_AND_AUTONOMY.md": 1.0
+  },
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "runtime_script_changes_cwd": "Explicit Set-Location to isolated worktree after runtime",
+  "new_solver_calls": 0
+}

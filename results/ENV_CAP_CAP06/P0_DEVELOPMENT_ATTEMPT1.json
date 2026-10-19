@@ -1,0 +1,86 @@
+{
+  "PASS": false,
+  "checks": [
+    {
+      "check": "known calibration orientation",
+      "PASS": true,
+      "error": 5.804183294373698e-06
+    },
+    {
+      "check": "known calibration response",
+      "PASS": true,
+      "error": 0.00015716308734443332
+    },
+    {
+      "check": "signal detected -50.0",
+      "PASS": false,
+      "error": 0.0
+    },
+    {
+      "check": "signal detected -12.0",
+      "PASS": false,
+      "error": 0.0
+    },
+    {
+      "check": "signal detected 0.0",
+      "PASS": false,
+      "error": 0.0
+    },
+    {
+      "check": "signal detected 12.0",
+      "PASS": false,
+      "error": 0.0
+    },
+    {
+      "check": "signal detected 50.0",
+      "PASS": false,
+      "error": 0.0
+    },
+    {
+      "check": "zero signal rejected",
+      "PASS": true,
+      "error": 0.0
+    },
+    {
+      "check": "far field mirror",
+      "PASS": true,
+      "error": 0.0
+    },
+    {
+      "check": "free nuisance null",
+      "PASS": true,
+      "error": 0.0
+    },
+    {
+      "check": "common source removed",
+      "PASS": true,
+      "error": 0.0
+    },
+    {
+      "check": "shared reference covariance",
+      "PASS": true,
+      "error": 0.0
+    },
+    {
+      "check": "unresolved domain preserved",
+      "PASS": true,
+      "error": 0.0
+    },
+    {
+      "check": "constant level zero derivative",
+      "PASS": true,
+      "error": 0.0
+    },
+    {
+      "check": "zero relative motion frequency change",
+      "PASS": true,
+      "error": 0.0
+    }
+  ],
+  "scope": "PRE_FREEZE_SYNTHETIC_DEVELOPMENT_ONLY",
+  "repairs": [
+    "fixed timestamp orientation straddling 600s",
+    "preserve unresolved Cartesian boxes",
+    "independent cold raw sums double precision"
+  ]
+}

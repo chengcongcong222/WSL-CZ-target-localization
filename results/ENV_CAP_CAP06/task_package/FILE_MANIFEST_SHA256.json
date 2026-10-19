@@ -1,0 +1,143 @@
+{
+  "campaign": "ENV_CAP_CAP06",
+  "parent_sha": "dddad1f66e6d61668ecd5af38cad3e3af9fc9245",
+  "research_branch_seed_sha": "62f29845a786d3911d55076a81193c01152c55c8",
+  "purpose": "RESEARCH_CONTRACT_NOT_EXECUTED",
+  "files": [
+    {
+      "path": "00_README_先读.md",
+      "bytes": 2926,
+      "sha256": "79bf9382d659315a7075bcbf65060fcac0d95d8c90900162a1b03e4b6707e802"
+    },
+    {
+      "path": "01_CODEX_MASTER_PROMPT.md",
+      "bytes": 5057,
+      "sha256": "5ebcec94e5ef7df7d447d914c1b2a39f9257da7178f04af9773f4b4978a63b40"
+    },
+    {
+      "path": "02_SCIENTIFIC_CONTRACT.md",
+      "bytes": 4415,
+      "sha256": "e5ad029c46b859ef5ff651aabeaeccd69a94a096037301f6d8991177f5b08091"
+    },
+    {
+      "path": "03_PHASES_AND_GATES.md",
+      "bytes": 4910,
+      "sha256": "acd0800425072cc3de90b26e51610a81b2148fcec07a3764e1dc22e7182e384c"
+    },
+    {
+      "path": "04_P0_BASELINE_RECEIVER.md",
+      "bytes": 4344,
+      "sha256": "a6de7fd25e057f34922d979737657ba658bfd3ffd2080c1dd158719a87ed1d9b"
+    },
+    {
+      "path": "05_P1_O2_VERTICAL.md",
+      "bytes": 4191,
+      "sha256": "34e9ce6dda42e7d2ed141eee2527213419ac388a16e70ef4ab990713de17c18d"
+    },
+    {
+      "path": "06_P2_O6_AUX_BEARING.md",
+      "bytes": 4614,
+      "sha256": "c43ac0d84247dca5681261028afe86571a48816a6b05d6bf55718cf28a6a2566"
+    },
+    {
+      "path": "07_P3_FUSION_VALIDATION.md",
+      "bytes": 3741,
+      "sha256": "36570f20f780e23da8aa50108fc5b2856c956362d15e9ccb87379dfb43f98485"
+    },
+    {
+      "path": "08_P4_RESOURCE_APPLICATION.md",
+      "bytes": 2846,
+      "sha256": "75697c41c5931b2e69bf94fe6868aec482c4a7259d25b1148382b90b885fe128"
+    },
+    {
+      "path": "09_AUDIT_STATISTICS.md",
+      "bytes": 3670,
+      "sha256": "ebd12d898bf08f38893badceee7119de4e621e935a8c65b2131bfd3958c33ef3"
+    },
+    {
+      "path": "10_GIT_AND_AUTONOMY.md",
+      "bytes": 3283,
+      "sha256": "0816d58b5bec8d7da42ba461b8c7aa771183ce82c40635e06980d8895d94167d"
+    },
+    {
+      "path": "11_HISTORICAL_EVIDENCE_INDEX.csv",
+      "bytes": 2484,
+      "sha256": "1b72507c0c08157fdc3d89890ad8163328cc8e5397a19dd1071f49f8c06d478d"
+    },
+    {
+      "path": "12_STAGE_SPEC.json",
+      "bytes": 5024,
+      "sha256": "56cf1db9683d6479d04f6d0091c5cd90852beb7d3a55f77a64dcbc80dacab022"
+    },
+    {
+      "path": "13_RESOURCE_CONFIG_MATRIX.csv",
+      "bytes": 774,
+      "sha256": "9181e518b6cb83434bbcb78a33ae04d308cc305a48a399113208b4c62c7f2643"
+    },
+    {
+      "path": "14_FINAL_REPORT_TEMPLATE.md",
+      "bytes": 2458,
+      "sha256": "dbd474ef341c5a04336110d79582246aa84f9eb6dc4015e0b6340ab1a9f50b40"
+    },
+    {
+      "path": "15_CODEX_START_复制.md",
+      "bytes": 2234,
+      "sha256": "7d30f20d99612c7cd411006de2d6d91911129eb42b4af57c18ab871ca73c5edb"
+    },
+    {
+      "path": "16_RUN_STATE_TEMPLATE.json",
+      "bytes": 669,
+      "sha256": "775fba2c0373e62308c27c7ea41fff8e7b6694ab8ca4ef0c2f6045d5fffc513f"
+    },
+    {
+      "path": "17_CHECKPOINT_TEMPLATE.md",
+      "bytes": 641,
+      "sha256": "1070d76f5d85da720d27afd1dacb065d3cc827be85c3130dd6dce3a7475d0cc4"
+    },
+    {
+      "path": "18_DEPENDENCY.mmd",
+      "bytes": 634,
+      "sha256": "0d41fe5386038aea6209f2cf53d2ca6e77880ee7bb86f4903527fb69ed2ca904"
+    },
+    {
+      "path": "19_WINDOWS_WSL_AND_RAW_DATA.md",
+      "bytes": 1531,
+      "sha256": "96ec7a852c5ae820e57241e9b02c79adbcc9eedf78d34d49e699b3c69cc9ab49"
+    },
+    {
+      "path": "20_GIT_SEED_STATUS.md",
+      "bytes": 1463,
+      "sha256": "4c624d17855869ddceff246d825857a5b2f2786f0bd300c82a71d8da188ffdac"
+    },
+    {
+      "path": "CAP06_MASTER_PROTOCOL.md",
+      "bytes": 46298,
+      "sha256": "e5bef9e961f64086bbecb57387b8cda0edadb3672fa4b79d590c8f668a28a706"
+    },
+    {
+      "path": "scripts/repo_preflight.py",
+      "bytes": 1634,
+      "sha256": "77b4f1ca0a2543019e582edb5d7c2ba891a7d3e923258e5f51725810bea87c3c"
+    },
+    {
+      "path": "scripts/stage_state.py",
+      "bytes": 4022,
+      "sha256": "ff390a94cb329e935b2b6f74ad57cd5e15827922fc4cca36548f7d500d3580b6"
+    },
+    {
+      "path": "scripts/validate_plan.py",
+      "bytes": 1869,
+      "sha256": "0da5de4977aa83b88c2e0826db313da8fab4784eaff5753337b24a8f415b97e1"
+    },
+    {
+      "path": "scripts/verify_manifest.py",
+      "bytes": 1263,
+      "sha256": "d12cf84e14c1349a04a1d2e83df370584f2f74acf47fa5634860793d0fc44585"
+    },
+    {
+      "path": "tests/test_package_tools.py",
+      "bytes": 2342,
+      "sha256": "6aad15d58cd1ae8556e3441638e804282fd2ff6aa5e240c7299314867d9c2a0b"
+    }
+  ]
+}

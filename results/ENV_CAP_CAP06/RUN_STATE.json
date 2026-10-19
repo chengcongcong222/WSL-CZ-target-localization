@@ -1,0 +1,14 @@
+{
+  "stage": "CAP06",
+  "status": "PRE_FREEZE",
+  "current_phase": "P0",
+  "phases": {
+    "P0": "DEVELOPMENT_CONTROLS_PASS",
+    "P1": "NOT_STARTED",
+    "P2": "NOT_STARTED",
+    "P3": "NOT_STARTED",
+    "P4": "NOT_STARTED"
+  },
+  "main_unchanged": true,
+  "R4_percent": 0
+}
