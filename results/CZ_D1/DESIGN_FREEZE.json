@@ -1,0 +1,27 @@
+{
+  "stage": "CZ-D1",
+  "parent": "ca86d324afc1689af6c96cd35145e03625086bae",
+  "remote_main_at_entry": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "branch": "research/cz-d1",
+  "authorization": "User explicitly authorized CZ-D1 despite attachment DRAFT label; CZ-D2/D3 not authorized",
+  "task_sha256": "4b6cae9a6423ce944b2b22aed4b4ce1ee6261da6656386bb38bcbdc6cc6b5a15",
+  "scope": "Historical evidence inventory and deterministic read-only statistics; writes only results/CZ_D1",
+  "primary_recomputations": [
+    "R3 turn catalogue",
+    "R4-A1 27 pilot errors",
+    "H2 2816 configuration errors",
+    "H3 saved information ratios",
+    "AUX-D1 3072 errors",
+    "T3-W1 48000 errors",
+    "CAP06 raw archive SHA and extracted epoch metrics"
+  ],
+  "statistics": "Preserve source nearest-rank for H2/AUX/T3; linear percentile for A1. Conditional and rejected-as-INF separate. Supplementary P99 explicitly retrospective descriptive. No sample/threshold selection. Summaries equal-scene mean P50 and worst-scene P95, never pooled unless labelled.",
+  "inventory": "All tracked result files and terminal source entrypoints; source text labels not interpreted as independent scientific approval. Incomplete individual metric audit disclosed.",
+  "claim_limit": "No five-dimensional accuracy or hardware certification. CAP06 cold-audited, lead review pending. Source manifests validated where accessible; missing files explicitly reported.",
+  "new_solver_calls": 0,
+  "new_MC": 0,
+  "new_estimation": 0,
+  "output_policy": "Blank unverified metric cells with status; finite support and Fisher information never converted into accuracy",
+  "resource_limit": "Read-only no scientific calculation budget; streaming file hashes, no raw data copies; D disk only",
+  "stop": "Commit B/push/remote verification and STOP; independent review before CZ-D2"
+}
