@@ -1,0 +1,36 @@
+{
+  "stage": "CZ-D1",
+  "decision": "EVIDENCE_CONSOLIDATED_CONDITIONAL_FOUR_STATE_REFERENCE_NO_SINGLE_HLA_FIVE_STATE_ADMISSION",
+  "parent": "ca86d324afc1689af6c96cd35145e03625086bae",
+  "design_SHA": "6ff0d07fca848d8022fad2facd5a107a920f8136",
+  "result_SHA": "CONTAINING_COMMIT",
+  "branch": "research/cz-d1",
+  "gates": {
+    "EVIDENCE_INVENTORY_COMPLETE": {
+      "status": "PASS",
+      "scope": "14540 tracked project files at fixed parent;14151 result files;137stage entries;171design artifacts. Not a claim all unindexed D-disk data searched."
+    },
+    "METRIC_DEFINITIONS_RECONCILED": {
+      "status": "PASS_SCOPED",
+      "scope": "Reported metrics separated by type, unit, quantile, conditioning, rejection and paired denominator. Unrecomputed historical metrics retain NOT_RECALCULATED_SUMMARY_ONLY, not a blanket scientific revalidation."
+    },
+    "SOURCE_GAPS_DISCLOSED": {
+      "status": "PASS",
+      "scope": "CAP06 availability updated; remaining receiver/environment/archive/old coverage gaps explicitly retained."
+    },
+    "CZ_D2_CANDIDATE_RANKING_READY": {
+      "status": "PASS_WITH_NO_CANDIDATE_ADMITTED",
+      "scope": "Objective-specific comparison delivered; no unsupported scalar rank or unique experiment chosen."
+    }
+  },
+  "master_rows": 558,
+  "new_solver_calls": 0,
+  "new_MC": 0,
+  "new_optimizer": 0,
+  "new_receiver_records": 0,
+  "R4_percent": 0,
+  "CZ_D2": "NOT_AUTHORIZED; await independent review",
+  "CZ_D3": "NOT_AUTHORIZED",
+  "main_expected": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "STOP": true
+}

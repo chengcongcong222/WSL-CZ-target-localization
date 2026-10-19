@@ -1,0 +1,7 @@
+﻿stage,subset,source_depth_m,count,r_labels_km,theta_labels_deg,v_labels_mps,psi_labels_deg,scope
+S7,201+235+283,180.0,2,[50.0],[0.0],[2.0],"[4.0, 5.0]",Frozen discrete surviving set; no continuous confidence or P95
+S7,201+235+283,200.0,2,[50.0],[0.0],[2.0],"[4.0, 5.0]",Frozen discrete surviving set; no continuous confidence or P95
+S7,201+235+283,220.0,2,[50.0],[0.0],[2.0],"[4.0, 5.0]",Frozen discrete surviving set; no continuous confidence or P95
+S8,201+235+283+338,180.0,2,[50.0],[0.0],[2.0],"[4.0, 5.0]",Frozen discrete surviving set; no continuous confidence or P95
+S8,201+235+283+338,200.0,2,[50.0],[0.0],[2.0],"[4.0, 5.0]",Frozen discrete surviving set; no continuous confidence or P95
+S8,201+235+283+338,220.0,2,[50.0],[0.0],[2.0],"[4.0, 5.0]",Frozen discrete surviving set; no continuous confidence or P95

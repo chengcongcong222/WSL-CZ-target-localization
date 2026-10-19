@@ -1,0 +1,11 @@
+{
+  "checks": 5974,
+  "failed": 0,
+  "source_files": 347,
+  "master_rows": 525,
+  "inventory_files": 14151,
+  "stage_entries": 137,
+  "new_solver": 0,
+  "new_MC": 0,
+  "new_optimizer": 0
+}

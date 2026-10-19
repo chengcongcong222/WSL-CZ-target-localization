@@ -1,0 +1,14 @@
+{
+  "PASS": true,
+  "checks": 13295,
+  "FAIL": 0,
+  "scope": "Independent code by same executing agent, not research-lead acceptance; numpy inverted-CDF from raw saved case errors, report invariants, source identities, CAP0664file spot check in addition to full main SHA check; no history science rerun",
+  "prior_source_summary_checks": 5974,
+  "saved_estimate_error_checks": 215268,
+  "additional_public_private_archive_files": 110,
+  "CAP06_allraw_files": 20545,
+  "new_solver_calls": 0,
+  "new_MC": 0,
+  "new_optimizer": 0,
+  "new_signal_generation": 0
+}

@@ -1,0 +1,8 @@
+{
+  "stage": "CZ-D1",
+  "status": "STOP_AFTER_RESULT_PUBLICATION",
+  "science_finished": true,
+  "next_stage_execution_authorized": false,
+  "historical_gates_unchanged": true,
+  "R4_percent": 0
+}
