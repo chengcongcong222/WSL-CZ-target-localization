@@ -1,0 +1,66 @@
+{
+  "scope": "all Commit A files except this manifest; Git commit seals manifest",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "AUDIT_DESIGN.md",
+      "bytes": 4100,
+      "sha256": "fec75a4a9de93eae3995db53597e5ac361dc248817dcc3c78fbcc13834048acf"
+    },
+    {
+      "path": "DESIGN_CHECKS.json",
+      "bytes": 404,
+      "sha256": "a2631977255bcf45750f61fdf9571f57fc8f75cb5e38d1227e3952c56f9ff9d0"
+    },
+    {
+      "path": "DESIGN_FREEZE.json",
+      "bytes": 8859,
+      "sha256": "acb84479e8128959484a109473e7412c1eee74ee386d12fec4e2f2d277f4065f"
+    },
+    {
+      "path": "DESIGN_PRECHECK.json",
+      "bytes": 1279,
+      "sha256": "42da904e63a758f7791d456f6c05cee07143bafbe2b7a4e0f9ee2cfaae5ccfaf"
+    },
+    {
+      "path": "EXPERIMENT_CONTRACT.md",
+      "bytes": 6568,
+      "sha256": "40726c21e5a42db1c41da3e512de9fe24f956db6899a8e2cea09d47afd9941c9"
+    },
+    {
+      "path": "GATE_AND_STATISTICS.md",
+      "bytes": 4883,
+      "sha256": "4f21dd3dbfaab2cdf06049d2dc4052d9154827f996d615909c131da56fc464c0"
+    },
+    {
+      "path": "GPT_SYNC_CZ_D2_A.md",
+      "bytes": 2548,
+      "sha256": "c63aacc61506fe9c731626ed8d83be435202b9329132bc664e19501de8b1613d"
+    },
+    {
+      "path": "HISTORICAL_STATE_EXCLUSIONS.csv",
+      "bytes": 32232,
+      "sha256": "10d04886a483f18e2f973718dda701d7d7e8decb665bea3502b63d243b99c76f"
+    },
+    {
+      "path": "PANEL_AND_HOLDOUT_POLICY.md",
+      "bytes": 4143,
+      "sha256": "a5945c9a815801ec7e85d944a5d78bfd1411a18803ed79067b5883e6f2540d75"
+    },
+    {
+      "path": "SOURCE_IDENTITIES.json",
+      "bytes": 10579,
+      "sha256": "5af33d28871d51f30e11b8eea706b87b67af6689a547801c1d5a049ac8693dea"
+    },
+    {
+      "path": "test_design_controls.py",
+      "bytes": 8071,
+      "sha256": "2dbc5c474071dfb45b72165db4a678526d33b657b3f765efd4511da73e919b3a"
+    }
+  ],
+  "total_bytes_excluding_manifest": 83675
+}

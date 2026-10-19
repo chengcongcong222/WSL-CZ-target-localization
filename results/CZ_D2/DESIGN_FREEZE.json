@@ -1,0 +1,253 @@
+{
+  "stage": "CZ-D2",
+  "status": "DESIGN_FROZEN_PENDING_INDEPENDENT_REVIEW",
+  "parent_SHA": "a580499475cc4148f1195e6256c4813c6e225726",
+  "branch": "research/cz-d2",
+  "main_preserved": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "authorization": {
+    "Commit_A_design_only": true,
+    "new_scientific_samples": false,
+    "formal_execution": false,
+    "Commit_B": false,
+    "requires_explicit_approval_of_design_SHA": true
+  },
+  "research": "unseen_geometry_generalization_and_bias_support_sensitivity_of_conditional_dual_node_horizontal_demo",
+  "geometry": {
+    "B0": {
+      "forward_km": 0.0,
+      "lateral_km": 5.0
+    },
+    "B3": {
+      "forward_km": 3.0,
+      "lateral_km": 15.0
+    }
+  },
+  "quality": {
+    "Q1": {
+      "bearing_sigma_deg": 0.05,
+      "nav_sigma_m": 25.0,
+      "common_bound_deg": 0.05,
+      "half_diff_bound_deg": 0.025
+    },
+    "Q2": {
+      "bearing_sigma_deg": 0.075,
+      "nav_sigma_m": 37.5,
+      "common_bound_deg": 0.075,
+      "half_diff_bound_deg": 0.0375
+    }
+  },
+  "bias_support_multiplier": {
+    "P0": 1,
+    "P1": 2
+  },
+  "state_domain": {
+    "r_km": [
+      45,
+      60
+    ],
+    "theta_deg": [
+      -5,
+      5
+    ],
+    "speed_mps": [
+      1,
+      3
+    ],
+    "heading_deg": [
+      -15,
+      15
+    ]
+  },
+  "platform": "2m/s;600s15degturn;fixedglobalauxoffsetmaintained;121epochs10s;noadditionaldeploymentanglejitter",
+  "coordinate": "globalmissionx,y m;atan2 CCWrad;directedbearing;relativeestimateoriginreportedMAINt0;truecaseorigintrueMAINt0",
+  "navigation": "independentnode/epoch/axisGaussian;reported=true+nav_sigma*normal;first-orderGaussianangularlikelihoodvar=sigma_bearing^2+sigma_nav^2/rho^2;NLLincludeslogvariance",
+  "bias_parameterization": "bMAIN=c-d,bAUX=c+d;constantperrecord;independentUniformbounds;jointboundedflatpriorMLE;noextragaussianprior;biasinitial0",
+  "panel": {
+    "materialized": false,
+    "n": 12,
+    "IDs": "D01..D12",
+    "units": [
+      "km",
+      "degree",
+      "m/s",
+      "degree"
+    ],
+    "seed_text": "CZ-D2/PANEL/20261019/01",
+    "engine": "SHA256_counter_52bit_open_uniform",
+    "encoding": "ASCII(seed_text+\"/\"+str(stratum_index)+\"/\"+str(attempt_index))",
+    "indices": "stratum_index=0..11;attempt_index=0..9999;first_acceptable_each_stratum",
+    "uniform": "digest split into four 8-byte big-endian words; n=word>>12; u=(n+0.5)/2**52",
+    "lower": [
+      45.1,
+      -4.9,
+      1.02,
+      -14.8
+    ],
+    "upper": [
+      59.9,
+      4.9,
+      2.98,
+      14.8
+    ],
+    "range": "45.1+(stratum_index+u[0])*(59.9-45.1)/12",
+    "others": "lower[j]+u[j]*(upper[j]-lower[j]),j=1..3",
+    "max_attempts_per_stratum": 10000,
+    "grid_origin": [
+      45,
+      -5,
+      1,
+      -15
+    ],
+    "grid_step": [
+      1,
+      0.5,
+      0.2,
+      1
+    ],
+    "grid_fraction_guard": 1e-06,
+    "old_and_new_four_state_neighborhood_half_width": [
+      0.1,
+      0.02,
+      0.01,
+      0.05
+    ],
+    "static_position_guard": [
+      0.01,
+      0.005
+    ],
+    "include_historical_reflections": true,
+    "exclusion_registry": "HISTORICAL_STATE_EXCLUSIONS.csv",
+    "excluded_for_performance": false,
+    "coverage_scope": "new finite geometry panel within same assumed physical domain;not equipment/environment holdout"
+  },
+  "random": {
+    "seed": 202610190201,
+    "engine": "numpy1.26.4 PCG64(SeedSequence([202610190201,case_index]))",
+    "order": "case_index=0..11;uniforms(500,2),then standard_normal(500,121,6),float64 C-order",
+    "side_rule": "replicate0..249=-1;250..499=+1;target state and main turn NOT reflected",
+    "trials_per_side": 250,
+    "trials_per_case": 500,
+    "base_innovations": 6000,
+    "public_records": 24000,
+    "method_configurations": 48000,
+    "generation_order": "D01..D12;Q1,Q2;B0,B3",
+    "estimation_order": "Q1,Q2;B0,B3;D01..D12;rep0..499;P0,P1",
+    "pair_key": [
+      "case_id",
+      "replicate"
+    ],
+    "record_key": [
+      "quality",
+      "geometry",
+      "case_id",
+      "replicate"
+    ],
+    "main_bytes": "times,reportedMAIN,observedMAIN identical across B at same Q/case/rep",
+    "P0_P1_bytes": "identical entire public record;no duplicate generation"
+  },
+  "estimator": {
+    "method": "oneobservedrayintersection+5IRLSinitializer;singleboundedTRFjoint6parameterfit",
+    "fallback": "physicaldomaincenter52.5km,0deg,2m/s,0deg;bias0;clippedstrictinsideunitbox",
+    "loss": "linear;exactfirstorderGaussianNAVequivalentNLLviaresidualpluslogvariance",
+    "max_nfev": 160,
+    "ftol": 1e-10,
+    "xtol": 1e-10,
+    "gtol": 1e-10,
+    "bounds": "unitcube;biasboundsdependQ",
+    "accept": "solver_success&finite;noaccuracythresholdorresidualtuning",
+    "boundary_flag_unit": 1e-06,
+    "failures": "INFforallerrors;retainreason;neverredraw,retry,orselecttruthbettercandidate",
+    "global_candidates": "NOT_CERTIFIED;singlelocalterminalnotcontinuoussupport",
+    "reference": "results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_model.py",
+    "permitted_change": "P1 passes a copy of Q with common_bound_deg and half_diff_bound_deg multiplied by 2; all other arguments and code identical",
+    "P0_P1_independent_initialization": true,
+    "warm_start": false,
+    "bias_normalization": "span changes with support as in original code;scaled Jacobian follows same formula",
+    "boundary_comparability": "unit tolerance retained;also save physical distance to both original and active bounds",
+    "new_loss_or_extra_start": false
+  },
+  "information": {
+    "reference": "results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_information.py",
+    "control": "data_only_free_common_and_halfdiff_bias;known_bias_ideal_upper_control",
+    "scale": [
+      50000.0,
+      50000.0,
+      2.0,
+      2.0,
+      0.0017453292519943296,
+      0.0008726646259971648
+    ],
+    "nominal_geometries": 96,
+    "rows_with_known_bias_control": 192,
+    "rank_relative": 1e-10,
+    "velocity_eigen_relative": 1e-12,
+    "Jacobian_crosscheck": {
+      "scaled_mean_abs": 1e-07,
+      "relative_variance_abs": 1e-06,
+      "step_scaled": 1e-05
+    },
+    "P0_P1": "identical data-only Fisher;no Uniform variance-as-prior term",
+    "truth_use": "evaluation-only nominal design;never estimator initialization"
+  },
+  "statistics": {
+    "quantiles": "nearest-rank ceil(q*n)-1;P50/P90/P95/P99;no interpolation",
+    "error_metrics": [
+      "range_abs_km",
+      "range_rel",
+      "bearing_circular_deg",
+      "speed_abs_mps",
+      "speed_rel",
+      "heading_circular_deg"
+    ],
+    "failure_error": "positive_infinity",
+    "unexecuted": "NOT_EVALUATED,not silently removed or counted as solver failure;no complete-panel claim",
+    "conditional_empty": "NOT_EVALUATED",
+    "scene_equal_weight_median": "arithmetic mean of the 12 scene P50, distinct from pooled P50; also report median of 12 P50 with nearest-rank",
+    "worst_scene": "max of 12 unconditional scene P95",
+    "sides": "250 each;BOTH500;aux placement side not resolved target side",
+    "paired": "B3-B0 and P1-P0;better,worse,equal,both-failed,one-failed;avoid INF-INF",
+    "scientific_gate": "integrity and reproducibility only;no 5%/10% engineering cutoff",
+    "labels": "per-parameter descriptive rules in GATE_AND_STATISTICS.md;may coexist"
+  },
+  "budget": {
+    "science_wall_s": 7200,
+    "main_wall_s": 5400,
+    "cold_wall_s": 1800,
+    "tree_RSS_bytes": 4294967296,
+    "D_data_bytes": 2147483648,
+    "Git_results_bytes": 67108864,
+    "main_calls": 1,
+    "cold_calls": 1,
+    "retries": 0,
+    "BLAS_threads": 1
+  },
+  "execution_gate": "explicit research-lead approval of this Commit A AND all preflight checks;otherwise STOP",
+  "forbidden_calls": {
+    "KRAKEN": 0,
+    "KRAKENC": 0,
+    "FIELD": 0,
+    "FIELDS": 0,
+    "SCOOTER": 0,
+    "T2_recompute": 0,
+    "Doppler_feature": 0,
+    "depth": 0,
+    "waveform": 0,
+    "parameter_scan_after_freeze": 0
+  },
+  "historical_Gates": "UNCHANGED",
+  "depth": "NOT_EVALUATED",
+  "received_acoustic_chain": "NOT_ESTABLISHED",
+  "hardware": "UNKNOWN",
+  "R4_percent": 0,
+  "STOP": true,
+  "scientific_method_deviations": [
+    "new algorithmically committed geometry panel",
+    "new paired innovation seed",
+    "P1 estimator bias support doubled",
+    "only B0/B3;P0/P1 replaces old B1/B2 configuration budget",
+    "additional absolute range error and boundary-distance reporting;no fit change"
+  ],
+  "source_identities": "SOURCE_IDENTITIES.json",
+  "formal_runner_status": "NOT_IMPLEMENTED_NOT_AUTHORIZED_IN_COMMIT_A;future implementation must conform without scientific changes",
+  "design_unit_tests": "synthetic arithmetic fixtures only;no panel/observations/fits/Fisher evaluated"
+}

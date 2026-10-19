@@ -1,0 +1,27 @@
+{
+  "stage": "CZ-D2_COMMIT_A_ONLY",
+  "task_source": "D:\\Downloads\\CZ_D1_E7_8B_AC_E7_AB_8B_E5_AE_A1_E8_AE_A1_E4_B8_8ECZ_D2_E8_AE_BE_E8_AE_A1_E5_86_BB_E7_BB_93_E4_BB_BB_E5_8A_A1_E4_B9_A6.md",
+  "task_sha256": "457597d0fcfede1fe4c07db2e4b800b3ed8115b5ce8b5f3668ffb83a8d520429",
+  "task_bytes": 8044,
+  "parent_SHA": "a580499475cc4148f1195e6256c4813c6e225726",
+  "worktree_branch": "research/cz-d2",
+  "remote_precommit": {
+    "main": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+    "research/cz-d1": "a580499475cc4148f1195e6256c4813c6e225726",
+    "research/cz-d2": "ABSENT"
+  },
+  "prior_worktree_clean": true,
+  "new_paths_restricted_to": "results/CZ_D2/",
+  "scope": "design documents, historical source identity and exclusion registry, arithmetic unit controls only",
+  "required_source_review": "all 8 requested documents/tables consumed; paired360rows summarized from archive",
+  "historical_input_hashes_verified": 25,
+  "historical_state_records_reconstructed": 216,
+  "no_new_panel_or_observations": true,
+  "formal_main_calls": 0,
+  "formal_cold_calls": 0,
+  "new_solver_calls": 0,
+  "historical_branch_changes": false,
+  "R4_percent": 0,
+  "pending": "research-lead review and explicit authorization of Commit A before B",
+  "STOP": true
+}

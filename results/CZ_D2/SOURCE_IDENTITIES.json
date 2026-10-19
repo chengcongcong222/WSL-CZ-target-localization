@@ -1,0 +1,208 @@
+{
+  "parent_SHA": "a580499475cc4148f1195e6256c4813c6e225726",
+  "identity_basis": "working_tree_bytes_at_exact_parent;CRLF_not_normalized",
+  "sources": [
+    {
+      "path": "results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_TRUTH_PANEL.csv",
+      "sha256": "b65dec9b7f594c092b374c12d7f30909f22291e35bacf27825e547e471844cfb",
+      "bytes": 882,
+      "role": "historical_generating_truth_exclusion",
+      "parent_git_blob_sha256": "32827787058b6ef2b28c791cc9d403850c1d64f3da7d98bb4accf5ac821482c6",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_A1_OFFGRID_BEARING_BOUNDARY/OFFGRID_TRUTH_PANEL.csv",
+      "sha256": "ba46243968e7b8123620b3976376fda9201d424e9d628777facb28a3e0ac09c7",
+      "bytes": 596,
+      "role": "historical_generating_truth_exclusion",
+      "parent_git_blob_sha256": "ba46243968e7b8123620b3976376fda9201d424e9d628777facb28a3e0ac09c7",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_A1_FIX_CONTINUOUS_SEARCH/HOLDOUT_TRUTH_PANEL.csv",
+      "sha256": "5b94a60e7dd7e7cf34902344d5f83ce92055c06954a873f76848a0a04c891607",
+      "bytes": 561,
+      "role": "historical_generating_truth_exclusion",
+      "parent_git_blob_sha256": "5b94a60e7dd7e7cf34902344d5f83ce92055c06954a873f76848a0a04c891607",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_A1_FIX_CONTINUOUS_SEARCH/INITIAL_IMPLEMENTATION/HOLDOUT_TRUTH_PANEL.csv",
+      "sha256": "ca167427cf7d3059fe548f635651cf816a5c1013cc6930355739dddd81811a26",
+      "bytes": 565,
+      "role": "historical_generating_truth_exclusion",
+      "parent_git_blob_sha256": "ca167427cf7d3059fe548f635651cf816a5c1013cc6930355739dddd81811a26",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_A1_FIX2_ACOUSTIC_COVERAGE/FRESH_HOLDOUT_PANEL.csv",
+      "sha256": "223193eefec9c8b666fed23315e4514e6edf972813665cd937198ca064bcb14f",
+      "bytes": 733,
+      "role": "historical_generating_truth_exclusion",
+      "parent_git_blob_sha256": "223193eefec9c8b666fed23315e4514e6edf972813665cd937198ca064bcb14f",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/MAIN_TRUTH_EVALUATION_ONLY.csv",
+      "sha256": "f14f300404ab1ad29a14d0fcccb6f15887ea23995d613014e416e264f40b1552",
+      "bytes": 238,
+      "role": "historical_generating_truth_exclusion",
+      "parent_git_blob_sha256": "c6872632ae052d72b876c3a6ff56bcb84bdff60432306fdde6af09fcf9a661eb",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/OFFGRID_TRUTH_EVALUATION_ONLY.csv",
+      "sha256": "1655fc525983c1a5d57be57a8e14325a3618c214d44fd6ab11f0c096e7da8d4e",
+      "bytes": 721,
+      "role": "historical_generating_truth_exclusion",
+      "parent_git_blob_sha256": "b9c1b3cf0d0a47a5a50d924d46b75553cb10373cf241a38a7d514d4344a92b81",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/P2_RC2_kinematic_boundary/offgrid_trials.csv",
+      "sha256": "914c3b43bfb8517cea2121fccb41a9920120876de93654cca445ea1acc19d1c5",
+      "bytes": 47217,
+      "role": "historical_generating_truth_exclusion",
+      "parent_git_blob_sha256": "e70a60e1baf0294bb97a5571bd1b0d7a61ed08bd2bb84561981ec8d80707e815",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/P4_5_parameter_accuracy/parameter_accuracy_trials.csv",
+      "sha256": "03db0f7ea5e460e343bbeb960dddf5a6fedd7d79922369b94034fad050d8b567",
+      "bytes": 2093565,
+      "role": "historical_generating_truth_exclusion",
+      "parent_git_blob_sha256": "4d779dbd2a38cf3e4b17d7f8334c9a7b111207b0cff9a7c64f3ecf218211e011",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/CALIBRATION_PANEL.csv",
+      "sha256": "fb3b375070fba7678455fd977e728967af3d86e10bc306ed0fdac05980281011",
+      "bytes": 779,
+      "role": "historical_generating_truth_exclusion",
+      "parent_git_blob_sha256": "fb3b375070fba7678455fd977e728967af3d86e10bc306ed0fdac05980281011",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/ENV_CAP_CAP06/P0_FROZEN_PANEL.json",
+      "sha256": "d6f233fa23a71f5f3e0017cb67d7d6dabeb34a37ed4240c3bb7a24a628870fe8",
+      "bytes": 4391,
+      "role": "historical_generating_truth_exclusion",
+      "parent_git_blob_sha256": "d6f233fa23a71f5f3e0017cb67d7d6dabeb34a37ed4240c3bb7a24a628870fe8",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/ENV_CAP_CZO04/DESIGN_FREEZE.json",
+      "sha256": "64c53e331cc044d4ec94b518bf0b1d4ac90bb0c7d53e527ac10cb6028f0fa5c0",
+      "bytes": 293933,
+      "role": "historical_generating_truth_exclusion",
+      "parent_git_blob_sha256": "64c53e331cc044d4ec94b518bf0b1d4ac90bb0c7d53e527ac10cb6028f0fa5c0",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/CZ_D1/CZ_D2_SELECTION_CANDIDATES.md",
+      "sha256": "ed46faeeed879b4297219066db486658ba16793ef3b6c3a44c074d25219a685d",
+      "bytes": 3231,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "ed46faeeed879b4297219066db486658ba16793ef3b6c3a44c074d25219a685d",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/CZ_D1/CZ_D1_ARCHITECTURE_METRICS.md",
+      "sha256": "19a5f6e5e707fec35732917c8749df7e11b1f311bbe65ee29837371d018fcf73",
+      "bytes": 6615,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "19a5f6e5e707fec35732917c8749df7e11b1f311bbe65ee29837371d018fcf73",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/CZ_D1/CZ_D1_NEGATIVE_GATES_AND_GAPS.md",
+      "sha256": "5fc1c675ceafbd032bfafa88a05eb2ef002bafc27da7462b460b922a21451efb",
+      "bytes": 3877,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "5fc1c675ceafbd032bfafa88a05eb2ef002bafc27da7462b460b922a21451efb",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/T3_W1_DESIGN_FREEZE.json",
+      "sha256": "438326fc6cba43fc0bcbb739ce6173e11fe9f20c31a3dea444f12acc7c6bf2ec",
+      "bytes": 21092,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "438326fc6cba43fc0bcbb739ce6173e11fe9f20c31a3dea444f12acc7c6bf2ec",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/GPT_SYNC_T3_W1.md",
+      "sha256": "6e377fae87aa158642fb1a2140bfbef728557ccd177cc8a638fde8d6933849b3",
+      "bytes": 8156,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "6e377fae87aa158642fb1a2140bfbef728557ccd177cc8a638fde8d6933849b3",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/FINAL_ADJUDICATION.json",
+      "sha256": "b4fb45dfe17af722b423f075f3f3eda4f6eb86d0157136c30da7143e51a57a99",
+      "bytes": 1597,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "b4fb45dfe17af722b423f075f3f3eda4f6eb86d0157136c30da7143e51a57a99",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/INFORMATION_SUMMARY.csv",
+      "sha256": "1cfe91a73632fb3c66ef3b5f626581a2d1878e1623aa12381a7d11a912f75d45",
+      "bytes": 1190,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "1cfe91a73632fb3c66ef3b5f626581a2d1878e1623aa12381a7d11a912f75d45",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/PAIRED_CHANGES.csv",
+      "sha256": "288e80c5e39a0c59db43506663e91dca98423a3b95da3e13c155a9654919a613",
+      "bytes": 23052,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "288e80c5e39a0c59db43506663e91dca98423a3b95da3e13c155a9654919a613",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_model.py",
+      "sha256": "d9cdf7c81dd0cabd0bc71abf3cb4c8d0ce81515a080acdc5fb4279438464f0ee",
+      "bytes": 4565,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "d9cdf7c81dd0cabd0bc71abf3cb4c8d0ce81515a080acdc5fb4279438464f0ee",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_generate.py",
+      "sha256": "5c3dabeb60f99b120670f024a5a9fdd61396daf6dd9e7658a6233f36a5b92899",
+      "bytes": 1481,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "5c3dabeb60f99b120670f024a5a9fdd61396daf6dd9e7658a6233f36a5b92899",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_information.py",
+      "sha256": "a0622c8c5211ffca01a4750621b8c255df1d0a3d57edcff59079bc344645ad48",
+      "bytes": 4056,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "a0622c8c5211ffca01a4750621b8c255df1d0a3d57edcff59079bc344645ad48",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_statistics.py",
+      "sha256": "fca348cda34af266b4d0148df7ffe791354c32d7f55e60de81346d8b19adebaa",
+      "bytes": 6102,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "fca348cda34af266b4d0148df7ffe791354c32d7f55e60de81346d8b19adebaa",
+      "working_bytes_match_parent_modulo_CRLF": true
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_execute.py",
+      "sha256": "3b85cf30fab851bd9da8ae72e7c5ecebdadf91bb3402ea66fcaa58b244dbc88b",
+      "bytes": 4130,
+      "role": "inherited_contract_or_reviewed_evidence",
+      "parent_git_blob_sha256": "3b85cf30fab851bd9da8ae72e7c5ecebdadf91bb3402ea66fcaa58b244dbc88b",
+      "working_bytes_match_parent_modulo_CRLF": true
+    }
+  ],
+  "historical_registry_rows": 216,
+  "historical_registry_sha256": "10d04886a483f18e2f973718dda701d7d7e8decb665bea3502b63d243b99c76f"
+}

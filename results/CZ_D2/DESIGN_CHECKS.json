@@ -1,0 +1,16 @@
+{
+  "scope": "COMMIT_A_DESIGN_AND_ARITHMETIC_ONLY_NOT_SCIENTIFIC_COLD_AUDIT",
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "PASS": true,
+  "new_panel_samples": 0,
+  "MC": 0,
+  "optimizer_calls": 0,
+  "Fisher_evaluations": 0,
+  "propagation_calls": 0,
+  "source_identity_records": 25,
+  "historical_exclusion_records": 216,
+  "formal_execution_authorized": false,
+  "STOP": true
+}
