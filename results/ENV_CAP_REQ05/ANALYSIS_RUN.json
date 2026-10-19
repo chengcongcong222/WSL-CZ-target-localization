@@ -1,0 +1,9 @@
+{
+  "phase": "analysis",
+  "wall_s": 0.26599999982863665,
+  "peak_sampled_tree_RSS": 23879680,
+  "exit_code": 0,
+  "stop_reason": null,
+  "acoustic_calls": 0,
+  "MC": 0
+}

@@ -1,0 +1,7 @@
+id,name,mathematical,archive,extractable,conditional,hardware,evidence,next
+O1,单频声级时间包络,受约束源/增益下可能有独立距离方向；逐时自由时严格为零,CZO04存档I类200Hz模板及有限目录；仅一几何及镜像保留完整条件证据,NOT_ESTABLISHED；没有UUV功率/AGC/统计相关性验证,需要源级/增益时间约束、功率统计与环境导数证据,原HLA可采功率；处理不能创造源级约束,CZO04;NUM03,STOP_SAME_MODEL_SCAN
+O2,同时不同接收深度的相对强度,共同源级可消去；差分增益、r-z与环境耦合仍在,新CZ仅有条件期望能量背景；H3复响应局部增益不能视为功率比增益,NOT_ESTABLISHED；无真实同步垂向功率比提取证据,共同激励、差分增益/AGC及噪声底受约束、深度/姿态和环境模型,名义同深HLA缺垂向采样；需实际已知非共深阵元或额外同步垂向接收,H3G0;H3G1;H3G2E;REC01;CZO04,CONDITIONAL_CANDIDATE_DEPTH_NOT_EXECUTABLE_YET
+O3,同频互谱/相对相位,公共相位可消去；未知逐元复响应及平面波控制限制独立r-z信息,H3名义局部正信息；SP1全距离集合未收紧；G2E压缩提取不可靠,SYNTHETIC_STATIC_CONTROL_ONLY；真实/动态CZ提取NOT_ESTABLISHED,同步逐元复数据、标定、噪声协方差、认证前向与完整候选,原8通道可具采集能力；只交方位/功率则无法恢复复信息；处理不能增加实际孔径,H3G0;H3G1;H3G2E;SP1;FUNC2,DEFER_NO_REOPEN_SP1_OR_T2
+O4,多途相对时延,公共发射时刻可消去；路径独立导数可能增加r-z信息,NUM03几何及文献条件；无本项目已分离宽带到达与路径能量证书,NOT_ESTABLISHED；单CW周期模糊及路径混叠保留,有效带宽/时间标记、相关峰与路径身份、环境/底质约束,是否需新硬件取决于现有带宽和数据；软件不能生成不存在的信号带宽,H3_COVERAGE;NUM03;REC01,DEFER_NO_BROADBAND_RECEIVER_EVIDENCE
+O5,运动频率与相干孔径,相干/频率变化可承载运动和模式信息；未知频率/漂移/相位规范可吞噬,Yang浅海机制与MMAR部分链；E1增量很小；RX1Z相对运动映射未支持,NOT_ESTABLISHED_IN_CZ；不能将生成k/速度/源频当输入,受控源/时频参考、径向采样/相干窗、模式身份与可靠复场,记录本身可能用原HLA；稳定参考、足够径向孔径无法由重处理保证,PAPER_YANG;PAPER_ERRATUM;PAPER_MMAR;METHOD_ID;E1;RX1Z;FUNC2,DEFER_NO_RENAMED_DOPPLER_OR_MMAR_PERFORMANCE
+O6,辅助节点独立方位,非共线几何与持续运动可增加水平信息；此模型无z列,AUXD1配对档案和T3W1有界偏置下水平Demo,HYPOTHETICAL_BEARINGS_ONLY；真实有符号方位/同步/关联UNKNOWN,双节点观测与报告轨迹、偏置依据、无符号多支、导航协方差与关联,需第二测向节点及部署/通信/时间资源；不要求跨节点载波相干,RC2;SUPPORT;AUXD1;T3W1;CLIENT,CONDITIONAL_CANDIDATE_HORIZONTAL_CHAIN_ONLY

@@ -1,0 +1,7 @@
+{
+  "design_SHA": "80516e049cafdf10dc65896f1cd78276286c390e",
+  "analysis_started_unix": 1792373967.0147388,
+  "audit_started_unix": 1792373977.325427,
+  "development_precheck": "DEVELOPMENT_PRECHECK.json",
+  "outputs": "ALGEBRA_RESULTS.json and INDEPENDENT_COLD_AUDIT.json"
+}

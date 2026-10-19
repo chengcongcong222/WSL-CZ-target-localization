@@ -1,0 +1,14 @@
+id,target,observation,condition,evidence_kind,current_config,needed_data,forbidden_inference
+R01,r,O1,源级+增益不可逐时完全自由,MATHEMATICAL_NECESSARY,常数或受约束漂移是假设；CZO04仅有限目录条件成立,功率/AGC时序、噪声相关、源稳定资料,不能反推出设备最低0.25dB
+R02,"r,z",O2,差分响应至少一方向不落入增益/状态/环境未知量空间,MATHEMATICAL_NECESSARY,同步不同深度；稳定差分增益是假设,逐元深度、校准及同窗功率统计,不存在已验证最少阵元数/垂向孔径
+R03,"r,z",O2,不能用共同源消除替代差分增益标定,MATHEMATICAL_NECESSARY,恒定增益多时可能保留变化；静态比例可能全被吸收,跨通道AGC、温漂、幅频响应时序,H3复场2.34-4.47倍不是功率比收益
+R04,"theta,r,z",O3,公共源剖面后需保留非平面波或几何差异,MATHEMATICAL_NECESSARY,原8元同步复数据已有资源潜力；真实接口未知,逐元复基带、共钟、相位响应、阵形,更换处理器不能增加14m真实孔径
+R05,"r,z",O3,增益/模式幅度不能全自由；前向和数值需独立可信,MATHEMATICAL_NECESSARY,H3名义局部；T2停止；SP1集合未收紧,环境不确定性与独立复场参考,不再开发旧数值修补链
+R06,"r,z",O4,可分辨相对延迟和可解释路径身份,MATHEMATICAL_NECESSARY,宽带/多频提供延迟尺度属假设,源自相关、可用带宽、同步原始记录、路径证据,1/B不是通用最小带宽或测距精度
+R07,"v,psi,z",O5,源频/源相位/时频参考需受约束；径向采样可确定,MATHEMATICAL_NECESSARY,已知源频或其它径向参考均为额外信息,频率稳定资料、时钟、相干时间和运动资料,不能将H2注入径向特征当接收输出
+R08,z,O5,模态身份、复幅度、深度函数及offset可辨,MATHEMATICAL_NECESSARY,浅海正控制与部分MMAR链；新CZ未建立,认证复场或独立实测模式参考,2pi/L只是Fourier尺度，不是普适资源下界
+R09,"r,theta,v,psi",O6,独立非共线观测与受控偏置/导航、关联,MATHEMATICAL_NECESSARY,AUXD1/T3W1条件仿真，不是实装,同目标双节点方位、报告轨迹、侧向分支、偏置校准,节点数量2不是所有方法最低数量
+R10,"r,v,psi",O6,宽基线收益需接收可用性与相对布放证据,HYPOTHETICAL_CONFIGURATION,"T3W1 B3=(3,±15)km条件结果；不继续扫描",部署范围/成本、持续探测及通信记录,几何45-60km不证明第一CZ可检测
+R11,z,O6,水平方位不提供z观测，需另一深度敏感机制,STRUCTURAL_LIMIT,该水平观测模型严格z零列,如需深度，独立垂向或传播观测合同,不能填写零深度误差或五维通过
+R12,all,all,共享噪声与共同源导致派生量相关,MATHEMATICAL_NECESSARY,先保留完整联合数据/协方差,同步窗口、噪声样本、丢包和处理元数据,不得把同一录音派生特征Fisher直接相加
+R13,"r,z",all_acoustic,首CZ存在与传播可提取性分别认证,EVIDENCE_BOUNDARY,NUM03同一WOA族名义几何支持,可追溯SSP时空范围、海深/底质及不确定性,不能以9单元宣称9独立海域验证

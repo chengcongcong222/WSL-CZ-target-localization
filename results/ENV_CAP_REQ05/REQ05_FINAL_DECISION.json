@@ -1,0 +1,40 @@
+{
+  "stage": "ENV_CAP_REQ05",
+  "decision": "OBSERVATION_RESOURCE_CONDITIONS_ESTABLISHED_NO_NEW_PERFORMANCE_ADMISSION",
+  "design_SHA": "80516e049cafdf10dc65896f1cd78276286c390e",
+  "parent_SHA": "d658f660d6bd6c9b3a585f0e5b8812c49ee8b0c4",
+  "result_SHA": "CONTAINING_COMMIT",
+  "branch": "research/env-cap-req05",
+  "observables": 6,
+  "state_rows": 30,
+  "resource_conditions": 13,
+  "partner_questions": 19,
+  "conditional_candidates": [
+    "C_DEPTH",
+    "C_HORIZONTAL"
+  ],
+  "candidate_ranking": "PARALLEL_DIFFERENT_OBJECTIVES_NO_TOTAL_ORDER",
+  "algebra_controls": 18,
+  "cold_audit_PASS": true,
+  "cold_checks": 124,
+  "external_scientific_review": "PENDING",
+  "new_performance": "NOT_EVALUATED",
+  "hardware_status": "UNKNOWN",
+  "coherent_CZ_provider": "NOT_ESTABLISHED",
+  "R4_percent": 0,
+  "main_unchanged": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "historical_gates_unchanged": true,
+  "formal_runs": {
+    "analysis": 1,
+    "cold_audit": 1
+  },
+  "budget": {
+    "scientific_wall_s": 0.4059999994933605,
+    "peak_sampled_process_tree_RSS_bytes": 23879680,
+    "external_acoustic_calls": 0,
+    "MC": 0,
+    "received_data_generated": 0
+  },
+  "status": "STOP_AFTER_DELIVERY",
+  "next_execution": "NOT_AUTHORIZED"
+}

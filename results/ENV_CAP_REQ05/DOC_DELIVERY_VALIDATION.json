@@ -1,0 +1,629 @@
+{
+  "scope": "DOCUMENT_DELIVERY_AND_IDENTITY_CHECK_NOT_SCIENCE_RERUN",
+  "PASS": true,
+  "checks": [
+    {
+      "name": "frozen:.gitattributes",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen:ALGEBRA_SPEC.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen:code/analyze.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen:code/cold_audit.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen:code/development_prepare.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen:code/development_prepare_review.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen:code/run_once.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen:DESIGN_CONTRACT.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen:DEVELOPMENT_PRECHECK.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen:EVIDENCE_INDEX.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen:EVIDENCE_README.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen:OBSERVATION_MODELS_AND_NULLSPACES.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:RC2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:RC2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:SUPPORT",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:SUPPORT",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:RC3",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:RC3",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:RC3_DEPTH",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:RC3_DEPTH",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:YANG_DIAG",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:YANG_DIAG",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:YANG_ID",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:YANG_ID",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:MMAR_PAPER",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:MMAR_PAPER",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:MMAR_PEAK",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:MMAR_PEAK",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:MMAR_HANKEL",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:MMAR_HANKEL",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:METHOD_ID",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:METHOD_ID",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:ERRATUM",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:ERRATUM",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:PAPER_YANG",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:PAPER_YANG",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:PAPER_ERRATUM",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:PAPER_ERRATUM",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:PAPER_MMAR",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:PAPER_MMAR",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:H3_COVERAGE",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:H3_COVERAGE",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:H3_NUISANCE",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:H3_NUISANCE",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:H3G0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:H3G0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:H3G1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:H3G1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:RX_CONTRACT",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:RX_CONTRACT",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:H3G2E",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:H3G2E",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:E1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:E1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:RX1Z",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:RX1Z",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:SP1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:SP1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:AUXD1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:AUXD1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:T3W1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:T3W1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:CLIENT",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:CLIENT",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:NUM03",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:NUM03",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:REC01",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:REC01",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:CZO04",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:CZO04",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:CZO04_SYNC",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:CZO04_SYNC",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_current:FUNC2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_parent:FUNC2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "six_observations",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "evidence_ids:O1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "evidence_ids:O2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "evidence_ids:O3",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "evidence_ids:O4",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "evidence_ids:O5",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "evidence_ids:O6",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "all_30_state_pairs",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "19_requests_no_threshold",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "two_conditional_candidates",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "candidate_prerequisites:C_DEPTH",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "candidate_prerequisites:C_HORIZONTAL",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "no_new_depth_accuracy",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "cold_audit_pass",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze_then_analysis_then_audit",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "git_design_precedes_science",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/P2_RC2_kinematic_boundary/P2_RC2_GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_RC2_OBSERVATION_SUPPORT/GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R3_FINAL_CLOSEOUT/R3_FINAL_DECISION.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R3_RC3_REANCHOR/R3_RC3_DEPTH_ROLE_AUDIT/GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R3_C2_Yang_SA_depth/R3_C2_2D/R3_C2_2D_GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R3_C2_Yang_SA_depth/R3_C2_3A/R3_C2_3A_GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R3_C2_AR_MMAR/R3_C2_4B_2_PAPER_SPECTRUM/GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R3_C2_AR_MMAR/R3_C2_4B_2H_AR_ORDER_DIAGNOSTIC/GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R3_C2_AR_MMAR/R3_C2_4B_3A_HANKEL_AMPLITUDE/GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/ENV_CAP_FULL_CAMPAIGN/E2_PAPER_METHOD_IDENTITY.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/ENV_CAP_FULL_CAMPAIGN/E2_YANG_ERRATUM_FORMULA_AUDIT.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../literature/yang2015.pdf",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../literature/2018-2.pdf",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../literature/liang2018_mmar_7824671.pdf",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_H3_DEPTH_OBSERVABLE_REVIEW/H3_PRIMARY_METHOD_COVERAGE.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_H3_DEPTH_OBSERVABLE_REVIEW/H3_OBSERVABLE_AND_NUISANCE_MATRIX.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_H3_G0_FINITE_VERTICAL_RESPONSE/GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_H3_G1_EXTRACTION_SUPPORT_REVIEW/GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_H3_G1_EXTRACTION_SUPPORT_REVIEW/RECEIVED_SIGNAL_REQUIREMENTS.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_H3_G2E_CONDITIONAL_EXTRACTION/GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_E1_G0_FREQUENCY_INFORMATION/GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_SINGLE_HLA_CARRIER_REFERENCE_CONTRAST_PILOT/GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/GPT_SYNC.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_T3_W1_WIDE_BASELINE_DEMO/GPT_SYNC_T3_W1.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_AUX_CLIENT_CONFIRMATION/AUX_CLIENT_CONFIRMATION_MATRIX.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/ENV_CAP_NUM03/NUM03_RESEARCH_DECISION.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/ENV_CAP_REC01/GPT_SYNC_ENV_CAP_REC01.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/ENV_CAP_CZO04/CZO04_RESEARCH_DECISION.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/ENV_CAP_CZO04/GPT_SYNC_CZO04.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "link:EVIDENCE_README.md:../../results/R4_T2_PREC3_FUNC2_CONTINUOUS_MODAL_REFERENCE/GPT_SYNC_FUNC2.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "storage_budget",
+      "PASS": true,
+      "detail": "283442"
+    },
+    {
+      "name": "only_req05_tracked_changes",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "main_unchanged",
+      "PASS": true,
+      "detail": "a9a80191ee4d0f0cecd9db296198606b63a68080"
+    }
+  ],
+  "failed": 0,
+  "new_repo_bytes_before_manifest": 207949,
+  "new_D_total_bytes_before_manifest": 283442
+}

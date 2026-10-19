@@ -1,0 +1,69 @@
+[
+  {
+    "id": "C_DEPTH",
+    "observation": "O2",
+    "name": "同步不同接收深度相对强度：差分增益条件下的机制验证",
+    "objective": "z/r独立敏感性，不预设测深精度",
+    "priority": "PARALLEL_CONDITIONAL_NOT_RANKED",
+    "reason": "直接回应CZO04公共源级退化；不要求源绝对相位；H3说明垂向几何值得保留但不证明功率比有效",
+    "required": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D06",
+      "D07",
+      "D09",
+      "D15",
+      "D16",
+      "D17"
+    ],
+    "go_requirements": [
+      "源在同步深度通道间可建共同激励模型",
+      "差分增益和噪声背景有可登记约束",
+      "有可解释期望功率/观测对应关系且r-z/e同时作为未知",
+      "前向可信度或独立数据参考足以分辨候选变化与误差"
+    ],
+    "no_go": [
+      "逐时差分AGC/增益完全未知",
+      "仅同深单波束数据且没有新增垂向资源",
+      "将I类平均能量直接冒充窄带CW接收功率",
+      "仅oracle深度/环境或局部Fisher证明全域可测深"
+    ],
+    "new_hardware": "可能需同步不同深度接收；最少阵元/孔径NOT_ESTABLISHED",
+    "status": "PROPOSED_NOT_FROZEN_NUMERICAL_EXECUTION_NOT_AUTHORIZED"
+  },
+  {
+    "id": "C_HORIZONTAL",
+    "observation": "O6",
+    "name": "辅助节点方位链：偏置、同步、目标关联和侧向多分支验证",
+    "objective": "r/theta/v/psi条件增量能否落到真实或明确非oracle观测链；z不评",
+    "priority": "PARALLEL_CONDITIONAL_NOT_RANKED",
+    "reason": "AUXD1和T3W1已有配对条件Demo；下一不确定性在测量链与偏置先验而非继续扩大基线",
+    "required": [
+      "D01",
+      "D07",
+      "D09",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D18",
+      "D19"
+    ],
+    "go_requirements": [
+      "可审查的主辅方位/报告轨迹/时间戳和同目标关联",
+      "有向方位有证据或完整无符号候选分支",
+      "固定偏置与导航相关性的独立依据或显式未知量范围",
+      "实测数据或明确的非oracle提取合同；与既有合成方位结果区分"
+    ],
+    "no_go": [
+      "用真值位置/舷侧/偏置补齐估计输入",
+      "只有不含原始观测与误差定义的精度宣传数值",
+      "用未知接收覆盖支持更远布放扫描",
+      "将既有Uniform边界约束当作实际校准"
+    ],
+    "new_hardware": "第二被动测向节点；实际可用性/部署成本UNKNOWN；无最小基线认证",
+    "status": "PROPOSED_NOT_FROZEN_NUMERICAL_EXECUTION_NOT_AUTHORIZED"
+  }
+]

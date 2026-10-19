@@ -1,0 +1,8 @@
+{
+  "stage": "ENV_CAP_REQ05",
+  "status": "STOP",
+  "reason": "AUTHORIZED_REVIEW_COMPLETE; NO_NEXT_NUMERICAL_STAGE_AUTHORIZED",
+  "historical_STOPs": "PRESERVED",
+  "R4_percent": 0,
+  "next_allowed_action": "RESEARCH_LEAD_REVIEW"
+}

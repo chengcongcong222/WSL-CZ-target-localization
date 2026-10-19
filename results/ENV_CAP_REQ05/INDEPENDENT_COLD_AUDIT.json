@@ -1,0 +1,631 @@
+{
+  "PASS": true,
+  "checks": 124,
+  "failed": 0,
+  "records": [
+    {
+      "name": "LEVEL_CONSTANT:exact_rank",
+      "PASS": true,
+      "detail": "3"
+    },
+    {
+      "name": "LEVEL_CONSTANT:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "LEVEL_CONSTANT:rational_information",
+      "PASS": true,
+      "detail": "1.7763568394002505e-15"
+    },
+    {
+      "name": "LEVEL_CONSTANT:null_residual",
+      "PASS": true,
+      "detail": "1.3088078468485207e-17"
+    },
+    {
+      "name": "LEVEL_LINEAR:exact_rank",
+      "PASS": true,
+      "detail": "2"
+    },
+    {
+      "name": "LEVEL_LINEAR:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "LEVEL_LINEAR:rational_information",
+      "PASS": true,
+      "detail": "1.0658141036401503e-14"
+    },
+    {
+      "name": "LEVEL_LINEAR:null_residual",
+      "PASS": true,
+      "detail": "4.440892098500626e-16"
+    },
+    {
+      "name": "LEVEL_FREE:exact_rank",
+      "PASS": true,
+      "detail": "0"
+    },
+    {
+      "name": "LEVEL_FREE:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "LEVEL_FREE:rational_information",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "LEVEL_FREE:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "LEVEL_FLAT:exact_rank",
+      "PASS": true,
+      "detail": "0"
+    },
+    {
+      "name": "LEVEL_FLAT:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "LEVEL_FLAT:rational_information",
+      "PASS": true,
+      "detail": "3.697785493223493e-32"
+    },
+    {
+      "name": "LEVEL_FLAT:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "RELATIVE_KNOWN_GAIN:exact_rank",
+      "PASS": true,
+      "detail": "2"
+    },
+    {
+      "name": "RELATIVE_KNOWN_GAIN:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "RELATIVE_KNOWN_GAIN:rational_information",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "RELATIVE_KNOWN_GAIN:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "RELATIVE_CONSTANT_GAIN:exact_rank",
+      "PASS": true,
+      "detail": "2"
+    },
+    {
+      "name": "RELATIVE_CONSTANT_GAIN:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "RELATIVE_CONSTANT_GAIN:rational_information",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "RELATIVE_CONSTANT_GAIN:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "RELATIVE_FREE_GAIN:exact_rank",
+      "PASS": true,
+      "detail": "0"
+    },
+    {
+      "name": "RELATIVE_FREE_GAIN:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "RELATIVE_FREE_GAIN:rational_information",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "RELATIVE_FREE_GAIN:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "RELATIVE_STATIC_GAIN:exact_rank",
+      "PASS": true,
+      "detail": "0"
+    },
+    {
+      "name": "RELATIVE_STATIC_GAIN:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "RELATIVE_STATIC_GAIN:rational_information",
+      "PASS": true,
+      "detail": "1.4791141972893971e-31"
+    },
+    {
+      "name": "RELATIVE_STATIC_GAIN:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "RELATIVE_COUPLED:exact_rank",
+      "PASS": true,
+      "detail": "1"
+    },
+    {
+      "name": "RELATIVE_COUPLED:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "RELATIVE_COUPLED:rational_information",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "RELATIVE_COUPLED:null_residual",
+      "PASS": true,
+      "detail": "6.661338147750939e-16"
+    },
+    {
+      "name": "PHASE_PLANE_WAVE:exact_rank",
+      "PASS": true,
+      "detail": "1"
+    },
+    {
+      "name": "PHASE_PLANE_WAVE:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "PHASE_PLANE_WAVE:rational_information",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "PHASE_PLANE_WAVE:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "PHASE_FREE_CHANNEL:exact_rank",
+      "PASS": true,
+      "detail": "0"
+    },
+    {
+      "name": "PHASE_FREE_CHANNEL:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "PHASE_FREE_CHANNEL:rational_information",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "PHASE_FREE_CHANNEL:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "DELAY_COMMON_TIME:exact_rank",
+      "PASS": true,
+      "detail": "2"
+    },
+    {
+      "name": "DELAY_COMMON_TIME:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "DELAY_COMMON_TIME:rational_information",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "DELAY_COMMON_TIME:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "DELAY_FREE_PATH:exact_rank",
+      "PASS": true,
+      "detail": "0"
+    },
+    {
+      "name": "DELAY_FREE_PATH:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "DELAY_FREE_PATH:rational_information",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "DELAY_FREE_PATH:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "FREQUENCY_UNKNOWN_OFFSET:exact_rank",
+      "PASS": true,
+      "detail": "1"
+    },
+    {
+      "name": "FREQUENCY_UNKNOWN_OFFSET:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "FREQUENCY_UNKNOWN_OFFSET:rational_information",
+      "PASS": true,
+      "detail": "5.546678239835239e-31"
+    },
+    {
+      "name": "FREQUENCY_UNKNOWN_OFFSET:null_residual",
+      "PASS": true,
+      "detail": "3.307399891624127e-32"
+    },
+    {
+      "name": "FREQUENCY_UNKNOWN_DRIFT:exact_rank",
+      "PASS": true,
+      "detail": "0"
+    },
+    {
+      "name": "FREQUENCY_UNKNOWN_DRIFT:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "FREQUENCY_UNKNOWN_DRIFT:rational_information",
+      "PASS": true,
+      "detail": "7.518830502887769e-31"
+    },
+    {
+      "name": "FREQUENCY_UNKNOWN_DRIFT:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "APERTURE_FREE_SOURCE_PHASE:exact_rank",
+      "PASS": true,
+      "detail": "0"
+    },
+    {
+      "name": "APERTURE_FREE_SOURCE_PHASE:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "APERTURE_FREE_SOURCE_PHASE:rational_information",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "APERTURE_FREE_SOURCE_PHASE:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "AUX_HORIZONTAL_UPPER_BOUND:exact_rank",
+      "PASS": true,
+      "detail": "4"
+    },
+    {
+      "name": "AUX_HORIZONTAL_UPPER_BOUND:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "AUX_HORIZONTAL_UPPER_BOUND:rational_information",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "AUX_HORIZONTAL_UPPER_BOUND:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "AUX_FREE_EPOCH_BIAS:exact_rank",
+      "PASS": true,
+      "detail": "0"
+    },
+    {
+      "name": "AUX_FREE_EPOCH_BIAS:nuisance_rank",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "AUX_FREE_EPOCH_BIAS:rational_information",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "AUX_FREE_EPOCH_BIAS:null_residual",
+      "PASS": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "shared_covariance_exact",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "contrast_exact",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "source_profile_equal",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "data_processing_exact_PSD",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "csd_phase_cancel",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "plane_wave_fd",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "bearing_independent_fd",
+      "PASS": true,
+      "detail": "1.1710632463746151e-11"
+    },
+    {
+      "name": "bearing_depth_zero",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:RC2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:SUPPORT",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:RC3",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:RC3_DEPTH",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:YANG_DIAG",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:YANG_ID",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:MMAR_PAPER",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:MMAR_PEAK",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:MMAR_HANKEL",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:METHOD_ID",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:ERRATUM",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:PAPER_YANG",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:PAPER_ERRATUM",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:PAPER_MMAR",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:H3_COVERAGE",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:H3_NUISANCE",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:H3G0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:H3G1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:RX_CONTRACT",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:H3G2E",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:E1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:RX1Z",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:SP1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:AUXD1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:T3W1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:CLIENT",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:NUM03",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:REC01",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:CZO04",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:CZO04_SYNC",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "input:FUNC2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze:.gitattributes",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze:ALGEBRA_SPEC.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze:code/analyze.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze:code/cold_audit.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze:code/development_prepare.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze:code/development_prepare_review.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze:code/run_once.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze:DESIGN_CONTRACT.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze:DEVELOPMENT_PRECHECK.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze:EVIDENCE_INDEX.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze:EVIDENCE_README.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze:OBSERVATION_MODELS_AND_NULLSPACES.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "name": "level_drift_nested_PSD",
+      "PASS": true,
+      "detail": ""
+    }
+  ],
+  "elapsed_s": 0.04700000025331974,
+  "scope": "EXACT_ALGEBRA_AND_SOURCE_IDENTITY_NOT_PHYSICAL_PERFORMANCE",
+  "independent_implementation": "Fraction Gaussian elimination; no import of production evaluator",
+  "independent_researcher": false
+}
