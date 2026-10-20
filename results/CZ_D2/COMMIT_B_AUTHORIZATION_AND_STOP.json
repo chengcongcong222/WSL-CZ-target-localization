@@ -1,0 +1,17 @@
+{
+  "client_date": "2026-10-20",
+  "accepted_design_SHA": "dc91982e67921eeb7a6aac4e12c482a980d5ad89",
+  "research_lead_decision": "DESIGN_ACCEPTED_WITH_PREFLIGHT_GATES",
+  "authorization": "Commit B conditional execution; approved design not amended",
+  "explicit_stop_condition": "historical source omission, identity conflict or unapproved implementation change requires immediate STOP;no self-correction",
+  "trigger": "AUX-D1 historical calibration_private.npz h_truth[512,4] omitted from frozen registry",
+  "action": "no panel/observations/optimization/Fisher;archive preflight evidence and push STOP",
+  "registry_changes": 0,
+  "new_seed": false,
+  "production_scientific_code": "NOT_IMPLEMENTED_AFTER_PREFLIGHT_STOP",
+  "scope_order": "historical inventory prerequisite checked before production implementation; no new panel read or generated",
+  "main_execution_lock": "NOT_CREATED_NOT_STARTED",
+  "formal_cold_lock": "NOT_CREATED_NOT_STARTED",
+  "R4_percent": 0,
+  "STOP": true
+}

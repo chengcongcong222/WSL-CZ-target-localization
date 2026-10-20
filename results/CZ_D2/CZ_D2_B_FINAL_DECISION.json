@@ -1,0 +1,33 @@
+{
+  "stage": "CZ-D2_COMMIT_B_PREFLIGHT_STOP",
+  "design_SHA": "dc91982e67921eeb7a6aac4e12c482a980d5ad89",
+  "result": "CZ_D2_PREFLIGHT_STOP_HISTORICAL_EXCLUSION_REGISTRY_INCOMPLETE",
+  "performance_adjudication": "NOT_EVALUATED",
+  "scientific_reason": "input registry completeness failure;not physical/statistical negative evidence",
+  "planned_configurations": 48000,
+  "executed_configurations": 0,
+  "unexecuted_configurations": 48000,
+  "new_panel_count": 0,
+  "formal_main_calls": 0,
+  "formal_cold_calls": 0,
+  "new_solvers": 0,
+  "new_MC": 0,
+  "new_Fisher": 0,
+  "new_optimizer_calls": 0,
+  "independent_evidence_review": {
+    "scope": "historical_seals_and_independent_standard_library_NPY_decode;not_formal_scientific_cold_audit",
+    "checks": 55,
+    "FAIL": 0,
+    "independent_uncovered_count": 512,
+    "status": "OMITTED_ARCHIVE_CONFIRMED",
+    "formal_cold_calls": 0
+  },
+  "full_production_preflight": "NOT_EVALUATED_AFTER_HISTORY_GATE_FAIL",
+  "new_geometry_conflict": "NOT_EVALUATED_PANEL_NOT_GENERATED",
+  "depth": "NOT_EVALUATED",
+  "main_and_CZ_D1": "UNCHANGED",
+  "R4_percent": 0,
+  "next_stage_authorized": false,
+  "resume_requires": "explicit approval of historical-exclusion correction and renewed preflight;no automatic restart",
+  "STOP": true
+}

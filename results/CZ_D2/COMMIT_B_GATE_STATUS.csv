@@ -1,0 +1,10 @@
+gate,status,scope
+DESIGN_AUTHORIZATION,PASS,User approved exact Commit A with preflight gates
+FROZEN_A_AND_REGISTERED_SOURCE_IDENTITY,PASS,Archived hashes unchanged
+HISTORICAL_REGISTRY_COMPLETENESS,FAIL,512 archived AUX-D1 calibration truths not registered or covered by existing guards
+PRODUCTION_MODEL_AND_JACOBIAN,NOT_EVALUATED,Production implementation stopped
+PUBLIC_INPUT_ACCESS_AND_PAIRING,NOT_EVALUATED,No new public inputs
+NEW_PANEL_IDENTITY,NOT_EVALUATED,No materialization
+FORMAL_MAIN,NOT_EVALUATED,Not started
+FORMAL_INDEPENDENT_COLD_AUDIT,NOT_EVALUATED,Not started
+P50_P95_P99_AND_SUPPORT_SENSITIVITY,NOT_EVALUATED,0 of 48000 configurations executed

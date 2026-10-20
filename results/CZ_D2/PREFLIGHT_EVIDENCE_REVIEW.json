@@ -1,0 +1,8 @@
+{
+  "scope": "historical_seals_and_independent_standard_library_NPY_decode;not_formal_scientific_cold_audit",
+  "checks": 55,
+  "FAIL": 0,
+  "independent_uncovered_count": 512,
+  "status": "OMITTED_ARCHIVE_CONFIRMED",
+  "formal_cold_calls": 0
+}

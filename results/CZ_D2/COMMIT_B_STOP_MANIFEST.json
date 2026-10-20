@@ -1,0 +1,61 @@
+{
+  "scope": "B preflight STOP artifacts only;not production science freeze",
+  "files": [
+    {
+      "path": "COMMIT_B_AUTHORIZATION_AND_STOP.json",
+      "bytes": 1008,
+      "sha256": "514739135fd58ec946b6292c40b409474286db664bf8d0a1f4c594bb2722a1bc"
+    },
+    {
+      "path": "COMMIT_B_GATE_STATUS.csv",
+      "bytes": 663,
+      "sha256": "eedf66e82a6b2324c84cca88a57b707e3f6e752936f3250c99cd03cc520fe6f8"
+    },
+    {
+      "path": "CONFIGURATION_EXECUTION_STATUS.csv",
+      "bytes": 3565527,
+      "sha256": "f73fe64835458d18c6e5f9c7974df0f3da07fe21c256063ab18339f0b00df5e7"
+    },
+    {
+      "path": "CZ_D2_B_FINAL_DECISION.json",
+      "bytes": 1311,
+      "sha256": "491a4adab8fd772a6718af1f8b97313fbf3d30b9fb8f2114d3b19d2ec1ec265f"
+    },
+    {
+      "path": "GPT_SYNC_CZ_D2_B.md",
+      "bytes": 4021,
+      "sha256": "99ad5670f1e9d613089376a9fc810f8d9b4141a0eec85fbc7ca74cc184ac9e62"
+    },
+    {
+      "path": "HISTORY_COMPLETENESS_PREFLIGHT.json",
+      "bytes": 10319,
+      "sha256": "de0fa1cc80a5b6b5ab45ff437d303a6bbcee7ce7b8117aa695c747d6acdd430d"
+    },
+    {
+      "path": "PREFLIGHT_EVIDENCE_REVIEW.json",
+      "bytes": 253,
+      "sha256": "dd1328a30c0b0c1bbe11f5b27fccca8e138dafc38cb33e226d4472f11a773f38"
+    },
+    {
+      "path": "PREFLIGHT_HISTORY_CHECK_STARTED.json",
+      "bytes": 104,
+      "sha256": "e3ab1797ad100f7c127d48952bdbd9bf770cb366d1225e7a601cc26a60cd5a6d"
+    },
+    {
+      "path": "preflight_history_completeness.py",
+      "bytes": 7550,
+      "sha256": "22ab975ae755d5c176ef6f8d484a031b94273372209b34460ba7e1d346276467"
+    },
+    {
+      "path": "UNEXECUTED_CONFIGURATION_SUMMARY.csv",
+      "bytes": 817,
+      "sha256": "1f4a8b13524de41b7365092d387e1b3f8f04b3ac66c72b66f29b3c5bbc4b5096"
+    },
+    {
+      "path": "UNREGISTERED_HISTORICAL_CALIBRATION_STATES.csv",
+      "bytes": 75274,
+      "sha256": "29d52f8e8584b8328b77b4a59fcd7d1601b1c55384941f4030d3de77df99c5e8"
+    }
+  ],
+  "total_bytes": 3666847
+}

@@ -1,0 +1,346 @@
+{
+  "stage": "CZ-D2_COMMIT_B_PREFLIGHT",
+  "design_SHA": "dc91982e67921eeb7a6aac4e12c482a980d5ad89",
+  "status": "HISTORICAL_EXCLUSION_REGISTRY_INCOMPLETE",
+  "scientific_execution_admitted": false,
+  "historical_registry_rows": 216,
+  "historical_registry_source_count": 12,
+  "discovered_archive_rows": 512,
+  "unique_discovered_states": 512,
+  "exact_matches": 0,
+  "covered_by_existing_neighborhood": 0,
+  "covered_by_grid_guard": 0,
+  "uncovered_by_both_rules": 512,
+  "sources": [
+    {
+      "path": "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/evaluation_only/calibration_private.npz",
+      "sha256": "7e44a018300fb066b1e331aea80a05c1a5fa57d525d7043185ff9d9ef05341b1",
+      "bytes": 3602027,
+      "parent_git_blob_sha256": "7e44a018300fb066b1e331aea80a05c1a5fa57d525d7043185ff9d9ef05341b1"
+    },
+    {
+      "path": "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/THRESHOLD_FREEZE.json",
+      "sha256": "310331715971cda9fff3301ff71fdadddd60e3fcd190d84ec8ae1d9d679ee694",
+      "bytes": 1045,
+      "parent_git_blob_sha256": "310331715971cda9fff3301ff71fdadddd60e3fcd190d84ec8ae1d9d679ee694"
+    },
+    {
+      "path": "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/PRIVATE_GENERATOR_MANIFEST.json",
+      "sha256": "9120194b266c395b9c6fa065e9c9d261cb6de987c84c0c527d9ef80c16e7f14f",
+      "bytes": 771,
+      "parent_git_blob_sha256": "9120194b266c395b9c6fa065e9c9d261cb6de987c84c0c527d9ef80c16e7f14f"
+    },
+    {
+      "path": "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/CALIBRATION_SCORES.csv",
+      "sha256": "73fbf5e52841cde0c1ae4218430cb4d267673686ad04fc060a46ad42bf371fd9",
+      "bytes": 31591,
+      "parent_git_blob_sha256": "73fbf5e52841cde0c1ae4218430cb4d267673686ad04fc060a46ad42bf371fd9"
+    },
+    {
+      "path": "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/AUX_D1_TASK_SPEC_20261012_v1.json",
+      "sha256": "c60fa2d06b60fa560aed5fa2c950d18851ac986c957564f416dbaade4ceb9f53",
+      "bytes": 6274,
+      "parent_git_blob_sha256": "c60fa2d06b60fa560aed5fa2c950d18851ac986c957564f416dbaade4ceb9f53"
+    },
+    {
+      "path": "aux_d1_generate.py",
+      "sha256": "40878c2273401d511343934fe5693148b71dfdf7a9eeb4b539f8fbeffaf23cad",
+      "bytes": 7067,
+      "parent_git_blob_sha256": "371e2ccede09d3d4484222fab146ac624b1c9e5f4d8e597e15989f08ec244473"
+    },
+    {
+      "path": "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/DESIGN_FREEZE.json",
+      "sha256": "a3aad3c7f5057a1be5d528d07df01020f174fd39021e34a282995d09c4b56bd9",
+      "bytes": 3169,
+      "parent_git_blob_sha256": "a3aad3c7f5057a1be5d528d07df01020f174fd39021e34a282995d09c4b56bd9"
+    }
+  ],
+  "evidence_checks": [
+    {
+      "check": "HEAD_is_approved_A",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "A_identity:.gitattributes",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "A_identity:AUDIT_DESIGN.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "A_identity:DESIGN_CHECKS.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "A_identity:DESIGN_FREEZE.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "A_identity:DESIGN_PRECHECK.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "A_identity:EXPERIMENT_CONTRACT.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "A_identity:GATE_AND_STATISTICS.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "A_identity:GPT_SYNC_CZ_D2_A.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "A_identity:HISTORICAL_STATE_EXCLUSIONS.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "A_identity:PANEL_AND_HOLDOUT_POLICY.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "A_identity:SOURCE_IDENTITIES.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "A_identity:test_design_controls.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_A1_NEW_AUGMENTED_OFFGRID_DYNAMIC/A1_NEW_TRUTH_PANEL.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_A1_OFFGRID_BEARING_BOUNDARY/OFFGRID_TRUTH_PANEL.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_A1_FIX_CONTINUOUS_SEARCH/HOLDOUT_TRUTH_PANEL.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_A1_FIX_CONTINUOUS_SEARCH/INITIAL_IMPLEMENTATION/HOLDOUT_TRUTH_PANEL.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_A1_FIX2_ACOUSTIC_COVERAGE/FRESH_HOLDOUT_PANEL.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/MAIN_TRUTH_EVALUATION_ONLY.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_SINGLE_HLA_SOURCE_PROFILED_HORIZONTAL_PILOT/OFFGRID_TRUTH_EVALUATION_ONLY.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/P2_RC2_kinematic_boundary/offgrid_trials.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/P4_5_parameter_accuracy/parameter_accuracy_trials.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/CALIBRATION_PANEL.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/ENV_CAP_CAP06/P0_FROZEN_PANEL.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/ENV_CAP_CZO04/DESIGN_FREEZE.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/CZ_D1/CZ_D2_SELECTION_CANDIDATES.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/CZ_D1/CZ_D1_ARCHITECTURE_METRICS.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/CZ_D1/CZ_D1_NEGATIVE_GATES_AND_GAPS.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_T3_W1_WIDE_BASELINE_DEMO/T3_W1_DESIGN_FREEZE.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_T3_W1_WIDE_BASELINE_DEMO/GPT_SYNC_T3_W1.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_T3_W1_WIDE_BASELINE_DEMO/FINAL_ADJUDICATION.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_T3_W1_WIDE_BASELINE_DEMO/INFORMATION_SUMMARY.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_T3_W1_WIDE_BASELINE_DEMO/PAIRED_CHANGES.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_model.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_generate.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_information.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_statistics.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_identity:results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_execute.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "archive_in_A:results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/evaluation_only/calibration_private.npz",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "archive_in_A:results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/THRESHOLD_FREEZE.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "archive_in_A:results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/PRIVATE_GENERATOR_MANIFEST.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "archive_in_A:results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/CALIBRATION_SCORES.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "archive_in_A:results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/AUX_D1_TASK_SPEC_20261012_v1.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "archive_in_A:aux_d1_generate.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "archive_in_A:results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/DESIGN_FREEZE.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "historical_seal:THRESHOLD_FREEZE.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "historical_seal:PRIVATE_GENERATOR_MANIFEST.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "archive_truth_shape_and_finite",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NPY_magic",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "NPY_layout",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "independent_NPY_values",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "registry_216",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "source_not_in_registered_12",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "independent_uncovered_count",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "historical_calibration_used_512_both_resources",
+      "PASS": true,
+      "detail": ""
+    }
+  ],
+  "read_only_elapsed_s": 1.2470565000548959,
+  "formal_main_calls": 0,
+  "formal_cold_calls": 0,
+  "new_panel_samples": 0,
+  "new_observations": 0,
+  "new_MC": 0,
+  "optimizer_calls": 0,
+  "propagation_calls": 0,
+  "scan_scope": "stopped_at_first_confirmed_omitted_source;not_exhaustive_historical_catalog_certification",
+  "no_registry_or_seed_change": true,
+  "STOP": true
+}
