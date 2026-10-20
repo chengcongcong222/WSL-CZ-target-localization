@@ -1,0 +1,14 @@
+﻿claim_id,statement,source_ids,mandatory_qualification,release_status
+C01,原单HLA五维联合精度尚未建立,S01/S03,模型、候选、经验误差和局部信息分栏，不合成系统指标,INTERNAL_PENDING_LEAD_REVIEW
+C02,H2 U_0.05速度场景等权中位0.7538%；最坏几何无条件P95为INF,S02/S03,假设径向量；250/256输出；不是实际提取性能,INTERNAL_PENDING_LEAD_REVIEW
+C03,H3局部深度信息比2.3407–4.4743,S03,条件局部信息，不换算米或误差倍数,INTERNAL_PENDING_LEAD_REVIEW
+C04,CAP06 CAL20覆盖21378/22648=94.3924%，冻结门95%未过,S03/S06,目标存在历元角度候选覆盖，不是目标四维精度或独立航迹覆盖,INTERNAL_PENDING_LEAD_REVIEW
+C05,D2 Q1/P0 B3速度最坏场景P95约11.557%，B0约30.932%,S08/S09,新12几何条件仿真，完整性FAIL；非全部连续域保证,INTERNAL_PENDING_LEAD_REVIEW
+C06,D2 Q1/P0 B3方位尾部略差,S08/S09,0.143109°对0.133745°；不存在四参数统一改善,INTERNAL_PENDING_LEAD_REVIEW
+C07,B3各配置6000/6000至少一个偏置触界,S10,接受表示收敛有限；不表示正确或校准恢复,INTERNAL_PENDING_LEAD_REVIEW
+C08,P1仅扩大估计支持，仍有硬先验，生成偏置不变,S18/S19,不称超界失配、无先验或纯物理信息变化,INTERNAL_PENDING_LEAD_REVIEW
+C09,539763 PASS、1 FAIL保持；没有整体科学PASS,S13/S14/S15,日志未观察到成功私有读取，不是OS隔离认证,INTERNAL_PENDING_LEAD_REVIEW
+C10,旧Q1/B3速度8.5659%与新11.557%不同,S02/S08,不同目标面板的泛化差异，不能作配对改进/退化实验,INTERNAL_PENDING_LEAD_REVIEW
+C11,NUM03名义首折返几何，不是实海域探测覆盖,S05,单一WOA来源族；相干提供器与能量归因限制仍在,INTERNAL_PENDING_LEAD_REVIEW
+C12,R3最终双候选只差4°/5°航向,S03/S04,114576→2仅机制，不是连续零误差,INTERNAL_PENDING_LEAD_REVIEW
+C13,新增资源对应的是条件证据，未形成工程最低配置或价格,S03/S04/S18,不提供未验证的硬件能力或成本数字,INTERNAL_PENDING_LEAD_REVIEW

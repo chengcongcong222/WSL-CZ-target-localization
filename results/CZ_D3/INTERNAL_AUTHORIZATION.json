@@ -1,0 +1,13 @@
+{
+  "stage": "CZ-D3_INTERNAL_REPORT",
+  "parent": "8147352b50168ce0f747aa2e42801bf7a2d13b35",
+  "branch": "research/cz-d3",
+  "authority": "Latest research lead review in conversation; source is user-supplied audit, not a new Codex full audit",
+  "external_release_authorized": false,
+  "new_scientific_execution_authorized": false,
+  "original_integrity_pass": false,
+  "accepted_interpretation": "NO_SUCCESSFUL_PRIVATE_READ_OBSERVED_IN_RECORDED_TRACE",
+  "not_certified": "PRIVATE_DATA_ISOLATION_FULLY_CERTIFIED",
+  "historical_gate_changes": false,
+  "R4_percent": 0
+}

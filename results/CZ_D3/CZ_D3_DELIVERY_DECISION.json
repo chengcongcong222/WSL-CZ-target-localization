@@ -1,0 +1,25 @@
+{
+  "stage": "CZ-D3",
+  "status": "INTERNAL_REPORT_COMPLETE_PENDING_LEAD_RELEASE_REVIEW",
+  "external_release_authorized": false,
+  "branch": "research/cz-d3",
+  "parent": "8147352b50168ce0f747aa2e42801bf7a2d13b35",
+  "old_main": "a9a80191ee4d0f0cecd9db296198606b63a68080",
+  "new_acoustic_solver_calls": 0,
+  "new_optimization_calls": 0,
+  "new_MC": 0,
+  "new_Fisher_calls": 0,
+  "new_scientific_cold_audits": 0,
+  "historical_gate_modified": false,
+  "CZ_D2_integrity_pass": false,
+  "depth_empirical_performance": "NOT_EVALUATED",
+  "single_HLA_joint_five_state_performance": "NOT_ESTABLISHED",
+  "R4_percent": 0,
+  "after_commit": "STOP_WAIT_FOR_RESEARCH_LEAD_REVIEW",
+  "document_dependencies": {
+    "python-pptx": "1.0.2",
+    "python-docx": "1.2.0",
+    "matplotlib": "3.10.9",
+    "Pillow": "12.3.0"
+  }
+}

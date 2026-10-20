@@ -1,0 +1,696 @@
+{
+  "scope": "EDITORIAL_TABLE_AND_FILE_VALIDATION_NOT_SCIENTIFIC_AUDIT",
+  "pass": true,
+  "checks": [
+    {
+      "check": "source_identity_S01",
+      "pass": true,
+      "detail": "results/CZ_D1/CZ_D1_EVIDENCE_MASTER.csv"
+    },
+    {
+      "check": "source_identity_S02",
+      "pass": true,
+      "detail": "results/CZ_D1/CZ_D1_RECOMPUTED_CONFIG_SUMMARY.csv"
+    },
+    {
+      "check": "source_identity_S03",
+      "pass": true,
+      "detail": "results/CZ_D1/CZ_D1_ARCHITECTURE_METRICS.md"
+    },
+    {
+      "check": "source_identity_S04",
+      "pass": true,
+      "detail": "results/CZ_D1/CZ_D1_MANEUVERS_AND_AUGMENTATIONS.md"
+    },
+    {
+      "check": "source_identity_S05",
+      "pass": true,
+      "detail": "results/CZ_D1/CZ_D1_NEGATIVE_GATES_AND_GAPS.md"
+    },
+    {
+      "check": "source_identity_S06",
+      "pass": true,
+      "detail": "results/CZ_D1/CZ_D1_CAP06_RECALCULATED.csv"
+    },
+    {
+      "check": "source_identity_S07",
+      "pass": true,
+      "detail": "results/CZ_D1/CZ_D1_INPUT_CONTRACTS.json"
+    },
+    {
+      "check": "source_identity_S08",
+      "pass": true,
+      "detail": "results/CZ_D2/COMMIT_B_RESUME_01/AGGREGATES.csv"
+    },
+    {
+      "check": "source_identity_S09",
+      "pass": true,
+      "detail": "results/CZ_D2/COMMIT_B_RESUME_01/STATISTICS.csv"
+    },
+    {
+      "check": "source_identity_S10",
+      "pass": true,
+      "detail": "results/CZ_D2/COMMIT_B_RESUME_01/OUTPUT_AND_BOUNDARY_DIAGNOSTICS.csv"
+    },
+    {
+      "check": "source_identity_S11",
+      "pass": true,
+      "detail": "results/CZ_D2/COMMIT_B_RESUME_01/PAIRED_COMPARISONS.csv"
+    },
+    {
+      "check": "source_identity_S12",
+      "pass": true,
+      "detail": "results/CZ_D2/COMMIT_B_RESUME_01/RESOURCE_GEOMETRY.csv"
+    },
+    {
+      "check": "source_identity_S13",
+      "pass": true,
+      "detail": "results/CZ_D2/COMMIT_B_RESUME_01/COLD_AUDIT.json"
+    },
+    {
+      "check": "source_identity_S14",
+      "pass": true,
+      "detail": "results/CZ_D2/COMMIT_B_RESUME_01/AUDIT_FAILURE_SCOPE_NOTE.json"
+    },
+    {
+      "check": "source_identity_S15",
+      "pass": true,
+      "detail": "results/CZ_D2/COMMIT_B_RESUME_01/CZ_D2_FINAL_DECISION.json"
+    },
+    {
+      "check": "source_identity_S16",
+      "pass": true,
+      "detail": "results/CZ_D2/COMMIT_B_RESUME_01/PRODUCTION_PREFLIGHT.json"
+    },
+    {
+      "check": "source_identity_S17",
+      "pass": true,
+      "detail": "results/CZ_D2/COMMIT_B_RESUME_01/EXECUTION_BUDGET.json"
+    },
+    {
+      "check": "source_identity_S18",
+      "pass": true,
+      "detail": "results/CZ_D2/EXPERIMENT_CONTRACT.md"
+    },
+    {
+      "check": "source_identity_S19",
+      "pass": true,
+      "detail": "results/CZ_D2/GATE_AND_STATISTICS.md"
+    },
+    {
+      "check": "original_cold_failure_retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "parent_unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "tracked_history_unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "saved_table_max_identity_32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_15_slides",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_10",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_13",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_14",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_footer_15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_bounds_15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "slide_sources_15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B0_P0_range_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B0_P0_bearing_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B0_P0_speed_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B0_P0_heading_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B0_P1_range_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B0_P1_bearing_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B0_P1_speed_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B0_P1_heading_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B3_P0_range_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B3_P0_bearing_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B3_P0_speed_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B3_P0_heading_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B3_P1_range_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B3_P1_bearing_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B3_P1_speed_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q1_B3_P1_heading_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B0_P0_range_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B0_P0_bearing_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B0_P0_speed_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B0_P0_heading_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B0_P1_range_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B0_P1_bearing_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B0_P1_speed_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B0_P1_heading_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B3_P0_range_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B3_P0_bearing_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B3_P0_speed_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B3_P0_heading_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B3_P1_range_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B3_P1_bearing_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B3_P1_speed_rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_numeric_Q2_B3_P1_heading_circular_deg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "figures/F01_D2_FOUR_PARAMETER_P95.png"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "figures/F03_SPEED_MEDIAN_AND_TAIL.png"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "figures/F04_PAIRED_CHANGES.png"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "figures/F02_BIAS_SUPPORT_SENSITIVITY.png"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D1/CZ_D1_EVIDENCE_MASTER.csv"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D1/CZ_D1_RECOMPUTED_CONFIG_SUMMARY.csv"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D1/CZ_D1_ARCHITECTURE_METRICS.md"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D1/CZ_D1_MANEUVERS_AND_AUGMENTATIONS.md"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D1/CZ_D1_NEGATIVE_GATES_AND_GAPS.md"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D1/CZ_D1_CAP06_RECALCULATED.csv"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D1/CZ_D1_INPUT_CONTRACTS.json"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D2/COMMIT_B_RESUME_01/AGGREGATES.csv"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D2/COMMIT_B_RESUME_01/STATISTICS.csv"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D2/COMMIT_B_RESUME_01/OUTPUT_AND_BOUNDARY_DIAGNOSTICS.csv"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D2/COMMIT_B_RESUME_01/PAIRED_COMPARISONS.csv"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D2/COMMIT_B_RESUME_01/RESOURCE_GEOMETRY.csv"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D2/COMMIT_B_RESUME_01/COLD_AUDIT.json"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D2/COMMIT_B_RESUME_01/AUDIT_FAILURE_SCOPE_NOTE.json"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D2/COMMIT_B_RESUME_01/CZ_D2_FINAL_DECISION.json"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D2/COMMIT_B_RESUME_01/PRODUCTION_PREFLIGHT.json"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D2/COMMIT_B_RESUME_01/EXECUTION_BUDGET.json"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D2/EXPERIMENT_CONTRACT.md"
+    },
+    {
+      "check": "report_link",
+      "pass": true,
+      "detail": "../CZ_D2/GATE_AND_STATISTICS.md"
+    },
+    {
+      "check": "mandatory_qualification",
+      "pass": true,
+      "detail": "539,763 PASS、1 FAIL"
+    },
+    {
+      "check": "mandatory_qualification",
+      "pass": true,
+      "detail": "integrity_pass=false"
+    },
+    {
+      "check": "mandatory_qualification",
+      "pass": true,
+      "detail": "NOT_EVALUATED"
+    },
+    {
+      "check": "mandatory_qualification",
+      "pass": true,
+      "detail": "不是操作系统级沙箱"
+    },
+    {
+      "check": "mandatory_qualification",
+      "pass": true,
+      "detail": "不予授予"
+    },
+    {
+      "check": "mandatory_qualification",
+      "pass": true,
+      "detail": "不是实际超界偏置失配试验"
+    },
+    {
+      "check": "docx_readable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "docx_internal_header",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "precision_rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "depth_not_evaluated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ppt_rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ooxml_zip_CZ_D3_INTERNAL_BRIEFING_DRAFT.pptx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ooxml_zip_CZ_D3_INTERNAL_TECHNICAL_REPORT.docx",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "new_scientific_runs": 0,
+  "original_integrity_pass": false,
+  "external_release_authorized": false,
+  "visual_review": "15-slide PowerPoint rendered contact sheet reviewed; corrected two image overflows; final slide bounds checked",
+  "word_pdf": "NOT_DELIVERED_BACKGROUND_EXPORT_DID_NOT_COMPLETE; DOCX structure checked, not page-render certified"
+}

@@ -1,0 +1,3 @@
+﻿geometry,unique_case_side_trajectories,baseline_km,main_min_km,main_max_km,aux_min_km,aux_max_km,main_outside45_60_epochs,aux_outside45_60_epochs,epochs_denominator,scope,source
+B0,24,5.0,44.97625842310339,59.063854792201724,45.12434444571095,59.440929984581125,10,0,2904,GEOMETRY_NOT_DETECTION; Q1/Q2 identical nominal tracks counted once,results/CZ_D2/COMMIT_B_RESUME_01/RESOURCE_GEOMETRY.csv
+B3,24,15.297058540778355,44.97625842310339,59.063854792201724,44.18285696991709,58.5440717509531,10,129,2904,GEOMETRY_NOT_DETECTION; Q1/Q2 identical nominal tracks counted once,results/CZ_D2/COMMIT_B_RESUME_01/RESOURCE_GEOMETRY.csv
