@@ -1,0 +1,26 @@
+{
+  "scope": "read-only history repair and independent preflight only",
+  "formal_science_authorized": false,
+  "files": [
+    {
+      "path": "results/CZ_D2/HISTORY_REPAIR_01/repair_registry.py",
+      "sha256": "96cef9a5b9e75b38fd9be77568c1103c43dc913e981b6c60ef6ea57af447cf69",
+      "bytes": 12945
+    },
+    {
+      "path": "results/CZ_D2/HISTORY_REPAIR_01/independent_repreflight.py",
+      "sha256": "c780b17bfcf2b0d5c183e274c3f761789d63a1343e73b75876bb875ea45d7824",
+      "bytes": 9185
+    },
+    {
+      "path": "results/CZ_D2/HISTORY_REPAIR_01/discover_history.py",
+      "sha256": "1e9e53755b432a857bcc1d8622a0321f87f3557444e7174f87bd1be092bef8b9",
+      "bytes": 4476
+    },
+    {
+      "path": "results/CZ_D2/DESIGN_FREEZE.json",
+      "sha256": "acb84479e8128959484a109473e7412c1eee74ee386d12fec4e2f2d277f4065f",
+      "bytes": 8859
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "check": "AUX512_shape_unique_finite",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "T2_static16_unique",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "CAP06_all4416_private_seals_and_state_roles",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SP1_CALIBRATION_labels_to_known_panel",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SP1_TEST_labels_to_known_panel",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "H2_eight_existing_truths",
+      "PASS": false,
+      "detail": ""
+    },
+    {
+      "check": "AUX_test_existing12_tiled128",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "all_external_checked_identities",
+      "PASS": true,
+      "detail": ""
+    }
+  ],
+  "PASS": false,
+  "external_files": 4818,
+  "elapsed_s": 23.673928099684417
+}

@@ -1,0 +1,9 @@
+{
+  "withdrawn_output": "H2_REPRESENTATION_DIAGNOSTIC.json",
+  "reason": "First supplemental diagnostic incorrectly treated Fortran-ordered NPY as row-major. Its 62.74 discrepancy is a reader error, not a historical state discrepancy.",
+  "replacement": "H2_REPRESENTATION_DIAGNOSTIC_V2.json",
+  "original_preserved": true,
+  "production_repair_and_independent_preflight_not_rerun": true,
+  "repair_registry_reader": "numpy.load correctly handled layout",
+  "formal_science_calls": 0
+}

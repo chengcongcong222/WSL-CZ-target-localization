@@ -1,0 +1,21 @@
+{
+  "old_rows": 216,
+  "new_rows": 744,
+  "preserved_rows": 216,
+  "additions": [
+    {
+      "source": "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/evaluation_only/calibration_private.npz",
+      "rows": 512,
+      "kind": "horizontal_four_state"
+    },
+    {
+      "source": "results/R4_T2_TILT_VS_SHORT_VERTICAL_G0/CALIBRATION_GEOMETRIES.csv",
+      "rows": 16,
+      "kind": "static_position_projection"
+    }
+  ],
+  "old_sha256": "10d04886a483f18e2f973718dda701d7d7e8decb665bea3502b63d243b99c76f",
+  "new_sha256": "eaddf3eb2e661c55d21f50ee7be95d094cebb498fde7f3a038acdf4c3e2c9c6d",
+  "no_dedup_of_original_provenance_rows": true,
+  "no_new_panel": true
+}

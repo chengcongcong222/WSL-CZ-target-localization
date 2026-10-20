@@ -1,0 +1,181 @@
+{
+  "scope": "All repair deliverables except this manifest itself; original and external source identities in snapshot/private manifests",
+  "files": [
+    {
+      "path": "ARCHIVE_ARRAY_HEADERS.csv",
+      "bytes": 4560825,
+      "sha256": "b94447469855a74fb0e04018c8773073d1d17ef89215e3ed5865d93431a1fe46"
+    },
+    {
+      "path": "assemble_reports.py",
+      "bytes": 11353,
+      "sha256": "ec3c4711e2d74703745a48836fc9285da81e44783712c507b8bc994aa2e7dacf"
+    },
+    {
+      "path": "CSV_SCHEMA_DISCOVERY.csv",
+      "bytes": 1439780,
+      "sha256": "e6162064e58d71b2c6702fb92d67844ec5a7e4b26ab294d697d5efd16dff5a90"
+    },
+    {
+      "path": "diagnose_h2_representation.py",
+      "bytes": 2333,
+      "sha256": "ed0427829cd6bf979ceaffcf861d10b2311051730f82c0e5454344b3b7c754c8"
+    },
+    {
+      "path": "diagnose_h2_representation_v2.py",
+      "bytes": 3429,
+      "sha256": "8acd2b3f8d856a8ed49448be830975d7861bdb6c748689c5af051a204e472a02"
+    },
+    {
+      "path": "DIAGNOSTIC_READER_ERRATUM.json",
+      "bytes": 495,
+      "sha256": "59cf81658c712bf0c5b618d4850493136ebc97cc29b9aceda53afb929c16fff8"
+    },
+    {
+      "path": "discover_history.py",
+      "bytes": 4476,
+      "sha256": "1e9e53755b432a857bcc1d8622a0321f87f3557444e7174f87bd1be092bef8b9"
+    },
+    {
+      "path": "DISCOVERY_ERRORS.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "DISCOVERY_STARTED.json",
+      "bytes": 89,
+      "sha256": "583df8dcd7cb106bc87c22997d1a4e25c9b70e6c3ef20bfb24e3fd532e9e1113"
+    },
+    {
+      "path": "DISCOVERY_SUMMARY.json",
+      "bytes": 251,
+      "sha256": "08556bdfaf54fb8e06d10cd4b66055ad867e1abaf18223833e26dbbc57161da2"
+    },
+    {
+      "path": "EXTERNAL_ARCHIVE_REFERENCES.json",
+      "bytes": 1342204,
+      "sha256": "e6e822835e02090b5631dd244a5a618578ae60a7294bb4e5506c2f2a128fee27"
+    },
+    {
+      "path": "FULL_DISCOVERY_COVERAGE_STATUS.csv",
+      "bytes": 5659936,
+      "sha256": "3f05bd68124e4c2495876bcb4b443153ba8cca5b98e27604cd57afa2f0541179"
+    },
+    {
+      "path": "GENERATOR_USAGE_DISCOVERY.csv",
+      "bytes": 383248,
+      "sha256": "24e57dcebcef44c6d1534199a14cb2d9083da9032cca5a9ae6c1008a1951d127"
+    },
+    {
+      "path": "GPT_SYNC_CZ_D2_REPAIR_01.md",
+      "bytes": 2230,
+      "sha256": "3fe35af802b01fa52c952c6af8fb813cf69eb0ce53eafe4fa573b8d574e0f385"
+    },
+    {
+      "path": "H2_REPRESENTATION_DIAGNOSTIC.json",
+      "bytes": 11613,
+      "sha256": "100af8beacff6f31cf18b575e61c010b800bc2862392c9295668ce21c73a3689"
+    },
+    {
+      "path": "H2_REPRESENTATION_DIAGNOSTIC_V2.json",
+      "bytes": 10897,
+      "sha256": "a3bcc21b515387fa7992939f6708b1daeb60aefc9b17d33ed3fab9ffe22f4f7d"
+    },
+    {
+      "path": "HISTORICAL_STATE_EXCLUSIONS_V2.csv",
+      "bytes": 130030,
+      "sha256": "eaddf3eb2e661c55d21f50ee7be95d094cebb498fde7f3a038acdf4c3e2c9c6d"
+    },
+    {
+      "path": "HISTORY_REPAIR_INPUT_BINDING.json",
+      "bytes": 906,
+      "sha256": "1553aef3676ab874b718916840710623c920a3fb88c14a02b6c20531eec6df99"
+    },
+    {
+      "path": "independent_repreflight.py",
+      "bytes": 9185,
+      "sha256": "c780b17bfcf2b0d5c183e274c3f761789d63a1343e73b75876bb875ea45d7824"
+    },
+    {
+      "path": "INDEPENDENT_REPREFLIGHT_RESULT.json",
+      "bytes": 75193,
+      "sha256": "05b1e88065a1eef02a45287126313f9eaf7e1072ee000cae2a35bf87c1d55d66"
+    },
+    {
+      "path": "INDEPENDENT_REPREFLIGHT_STARTED.json",
+      "bytes": 139,
+      "sha256": "1a3d1749c143c296ba10b44eefbbb68e9609b68e96be0c9caf5e8574140d8abd"
+    },
+    {
+      "path": "JSON_STATE_KEY_DISCOVERY.csv",
+      "bytes": 1457818,
+      "sha256": "9248502a7e064fd06b0d5d1a83e3676a7f06447733339c9e176e38d6912abb32"
+    },
+    {
+      "path": "PRIVATE_ARCHIVE_IDENTITY_CHECKS.csv",
+      "bytes": 1283099,
+      "sha256": "1cf503d9d4939c3bc50c63e2a9a96a2e59174732e18da3d0c424d0d697168eee"
+    },
+    {
+      "path": "REPAIR_BUILD_CHECKS.json",
+      "bytes": 905,
+      "sha256": "180adc3ebcfc67417611c6345ed3a64dd93ebf73249ae76a6375f56f248e24e7"
+    },
+    {
+      "path": "REPAIR_CHANGE_AND_EXCEPTION_RECORD.md",
+      "bytes": 1456,
+      "sha256": "991b51cca97d14d26e3cf3a35a6737df7b946497c598e0da475aa588306b3936"
+    },
+    {
+      "path": "REPAIR_CODE_FREEZE.json",
+      "bytes": 884,
+      "sha256": "b9fbe4b9c0a681f99b11d2f3e2df88d3e85f0bddb46e4a4556be4bb05c059031"
+    },
+    {
+      "path": "REPAIR_FINAL_DECISION.json",
+      "bytes": 1721,
+      "sha256": "5c3aade83ab3e2f2d555be1d220ce19aae739599a32693c44dc4205f5205b67c"
+    },
+    {
+      "path": "repair_registry.py",
+      "bytes": 12945,
+      "sha256": "96cef9a5b9e75b38fd9be77568c1103c43dc913e981b6c60ef6ea57af447cf69"
+    },
+    {
+      "path": "REPAIR_STARTED.json",
+      "bytes": 176,
+      "sha256": "7387ca752ab16414765dfdc53a2b8cfac5c400b753253def5af5d38bed9d344a"
+    },
+    {
+      "path": "REPAIR_STOP_RECORD.json",
+      "bytes": 393,
+      "sha256": "234dd0f31d6a556bb27000366ad764155ad73e0b3e37d05e95c9a99bf2f2912b"
+    },
+    {
+      "path": "SNAPSHOT_INVENTORY.csv",
+      "bytes": 3085250,
+      "sha256": "d32ed553f036a444f1d98f2a713e17bea4375775e4e752c4ccea24026be0bc18"
+    },
+    {
+      "path": "SOURCE_COMPLETENESS_GAPS.json",
+      "bytes": 846,
+      "sha256": "0ea750a1c1d9b0b030960ff4dc5c5efe46325d50dec4619f4320c446aa6a4fe4"
+    },
+    {
+      "path": "SOURCE_COVERAGE_ADJUDICATION.csv",
+      "bytes": 9683,
+      "sha256": "709bd326df7c70235c2ee6a9ad8eb4391568f508d14c35b55352c78f3cb7e25b"
+    },
+    {
+      "path": "SOURCE_DISCOVERY_AND_COVERAGE.md",
+      "bytes": 3958,
+      "sha256": "fd26e3e1ff278fdfdf9cc3c1ec6af67cb8cb1b3c8e82ac0101d0bebac0a846d8"
+    },
+    {
+      "path": "V1_V2_DIFF.json",
+      "bytes": 662,
+      "sha256": "6a1058a57c0a0aecf66b862ffb4fb3fc09a35e69d537e6e9282ba3ecadfb75e5"
+    }
+  ],
+  "total_bytes_excluding_manifest": 19508410
+}

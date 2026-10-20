@@ -1,0 +1,12 @@
+{
+  "reason": "CZ_D2_HISTORY_REPAIR_PARTIAL_SOURCE_MAPPING_UNRESOLVED",
+  "all_new_science_prohibited": true,
+  "old_locks_untouched": true,
+  "new_read_only_locks": [
+    "DISCOVERY_STARTED.json",
+    "REPAIR_STARTED.json",
+    "INDEPENDENT_REPREFLIGHT_STARTED.json"
+  ],
+  "execution_of_existing_lock_reset": false,
+  "formal_execution_resume_requires_new_authorization": true
+}

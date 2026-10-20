@@ -1,0 +1,343 @@
+{
+  "status": "STRICT_FLOAT_EQUALITY_FAIL_RETAINED;EXCLUSION_COVERAGE_UNAFFECTED",
+  "original_check_not_overwritten": true,
+  "NPY_header": {
+    "descr": "<f8",
+    "fortran_order": true,
+    "shape": [
+      8,
+      4
+    ]
+  },
+  "reader_layout_controls": 2,
+  "archived_values_source": "H2 generator uses pandas.read_csv then to_numpy; diagnostic uses csv+float and independent standard-library NPY decoding",
+  "max_absolute_difference": 7.105427357601002e-15,
+  "max_ULP_difference": 2.0,
+  "all32_within_original_neighborhood": true,
+  "source_panel_historical_SHA_match": true,
+  "archive_historical_SHA_match": true,
+  "no_new_tolerance_or_state": true,
+  "formal_execution": false,
+  "entries": [
+    {
+      "row": 0,
+      "coordinate": "r_km",
+      "archive_float_hex": "0x1.be62604e19b8fp+5",
+      "csv_float_hex": "0x1.be62604e19b90p+5",
+      "absolute_difference": 7.105427357601002e-15,
+      "difference_ULP": 1.0,
+      "original_neighborhood_width": 0.1,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 0,
+      "coordinate": "theta_deg",
+      "archive_float_hex": "0x1.ce2d29b2b58f8p-1",
+      "csv_float_hex": "0x1.ce2d29b2b58f8p-1",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.02,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 0,
+      "coordinate": "v_mps",
+      "archive_float_hex": "0x1.d2f7259343661p+0",
+      "csv_float_hex": "0x1.d2f7259343662p+0",
+      "absolute_difference": 2.220446049250313e-16,
+      "difference_ULP": 1.0,
+      "original_neighborhood_width": 0.01,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 0,
+      "coordinate": "psi_deg",
+      "archive_float_hex": "-0x1.5c3295a6fe404p+1",
+      "csv_float_hex": "-0x1.5c3295a6fe404p+1",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.05,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 1,
+      "coordinate": "r_km",
+      "archive_float_hex": "0x1.7d32f28e3082dp+5",
+      "csv_float_hex": "0x1.7d32f28e3082cp+5",
+      "absolute_difference": 7.105427357601002e-15,
+      "difference_ULP": 1.0,
+      "original_neighborhood_width": 0.1,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 1,
+      "coordinate": "theta_deg",
+      "archive_float_hex": "0x1.4ba754fbbd9bcp-1",
+      "csv_float_hex": "0x1.4ba754fbbd9bcp-1",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.02,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 1,
+      "coordinate": "v_mps",
+      "archive_float_hex": "0x1.35029799c3a66p+1",
+      "csv_float_hex": "0x1.35029799c3a66p+1",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.01,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 1,
+      "coordinate": "psi_deg",
+      "archive_float_hex": "-0x1.4ff309a454d00p+0",
+      "csv_float_hex": "-0x1.4ff309a454d00p+0",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.05,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 2,
+      "coordinate": "r_km",
+      "archive_float_hex": "0x1.807f0a3b04f95p+5",
+      "csv_float_hex": "0x1.807f0a3b04f95p+5",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.1,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 2,
+      "coordinate": "theta_deg",
+      "archive_float_hex": "0x1.886fe87f41b1fp-4",
+      "csv_float_hex": "0x1.886fe87f41b20p-4",
+      "absolute_difference": 1.3877787807814457e-17,
+      "difference_ULP": 1.0,
+      "original_neighborhood_width": 0.02,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 2,
+      "coordinate": "v_mps",
+      "archive_float_hex": "0x1.6fa2339474a25p+0",
+      "csv_float_hex": "0x1.6fa2339474a25p+0",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.01,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 2,
+      "coordinate": "psi_deg",
+      "archive_float_hex": "0x1.1770421ddad6ap+3",
+      "csv_float_hex": "0x1.1770421ddad6ap+3",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.05,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 3,
+      "coordinate": "r_km",
+      "archive_float_hex": "0x1.7a5c39d80632cp+5",
+      "csv_float_hex": "0x1.7a5c39d80632cp+5",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.1,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 3,
+      "coordinate": "theta_deg",
+      "archive_float_hex": "0x1.3733aff9e6a8ap+0",
+      "csv_float_hex": "0x1.3733aff9e6a8ap+0",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.02,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 3,
+      "coordinate": "v_mps",
+      "archive_float_hex": "0x1.0615b2dc4d413p+1",
+      "csv_float_hex": "0x1.0615b2dc4d413p+1",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.01,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 3,
+      "coordinate": "psi_deg",
+      "archive_float_hex": "0x1.1cbd7889b4514p+2",
+      "csv_float_hex": "0x1.1cbd7889b4514p+2",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.05,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 4,
+      "coordinate": "r_km",
+      "archive_float_hex": "0x1.95e869c585dbap+5",
+      "csv_float_hex": "0x1.95e869c585dbap+5",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.1,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 4,
+      "coordinate": "theta_deg",
+      "archive_float_hex": "0x1.328addf9721d8p+0",
+      "csv_float_hex": "0x1.328addf9721d8p+0",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.02,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 4,
+      "coordinate": "v_mps",
+      "archive_float_hex": "0x1.847a25256b49ep+0",
+      "csv_float_hex": "0x1.847a25256b49ep+0",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.01,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 4,
+      "coordinate": "psi_deg",
+      "archive_float_hex": "-0x1.3dcc9e9d0c62ep+2",
+      "csv_float_hex": "-0x1.3dcc9e9d0c62ep+2",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.05,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 5,
+      "coordinate": "r_km",
+      "archive_float_hex": "0x1.b3068b36aaa49p+5",
+      "csv_float_hex": "0x1.b3068b36aaa48p+5",
+      "absolute_difference": 7.105427357601002e-15,
+      "difference_ULP": 1.0,
+      "original_neighborhood_width": 0.1,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 5,
+      "coordinate": "theta_deg",
+      "archive_float_hex": "-0x1.773cc0a1a9172p+0",
+      "csv_float_hex": "-0x1.773cc0a1a9172p+0",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.02,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 5,
+      "coordinate": "v_mps",
+      "archive_float_hex": "0x1.51d21870816d5p+1",
+      "csv_float_hex": "0x1.51d21870816d5p+1",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.01,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 5,
+      "coordinate": "psi_deg",
+      "archive_float_hex": "-0x1.85e91e016a528p+1",
+      "csv_float_hex": "-0x1.85e91e016a528p+1",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.05,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 6,
+      "coordinate": "r_km",
+      "archive_float_hex": "0x1.cbcf42cb12f30p+5",
+      "csv_float_hex": "0x1.cbcf42cb12f30p+5",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.1,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 6,
+      "coordinate": "theta_deg",
+      "archive_float_hex": "-0x1.56020b3097127p+0",
+      "csv_float_hex": "-0x1.56020b3097127p+0",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.02,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 6,
+      "coordinate": "v_mps",
+      "archive_float_hex": "0x1.29c1a6225d4e6p+1",
+      "csv_float_hex": "0x1.29c1a6225d4e7p+1",
+      "absolute_difference": 4.440892098500626e-16,
+      "difference_ULP": 1.0,
+      "original_neighborhood_width": 0.01,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 6,
+      "coordinate": "psi_deg",
+      "archive_float_hex": "0x1.a7cfc0711a920p+2",
+      "csv_float_hex": "0x1.a7cfc0711a920p+2",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.05,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 7,
+      "coordinate": "r_km",
+      "archive_float_hex": "0x1.ce371be75c230p+5",
+      "csv_float_hex": "0x1.ce371be75c230p+5",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.1,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 7,
+      "coordinate": "theta_deg",
+      "archive_float_hex": "-0x1.d6a4debd74352p-2",
+      "csv_float_hex": "-0x1.d6a4debd74354p-2",
+      "absolute_difference": 1.1102230246251565e-16,
+      "difference_ULP": 2.0,
+      "original_neighborhood_width": 0.02,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 7,
+      "coordinate": "v_mps",
+      "archive_float_hex": "0x1.3b5e68e5b3968p+1",
+      "csv_float_hex": "0x1.3b5e68e5b3968p+1",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.01,
+      "within_original_exclusion": true
+    },
+    {
+      "row": 7,
+      "coordinate": "psi_deg",
+      "archive_float_hex": "-0x1.19f94fca41a37p+3",
+      "csv_float_hex": "-0x1.19f94fca41a37p+3",
+      "absolute_difference": 0.0,
+      "difference_ULP": 0.0,
+      "original_neighborhood_width": 0.05,
+      "within_original_exclusion": true
+    }
+  ]
+}

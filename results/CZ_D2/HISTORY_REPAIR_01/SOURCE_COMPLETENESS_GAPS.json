@@ -1,0 +1,23 @@
+{
+  "status": "UNRESOLVED",
+  "reason": "Historical radial-only generating truths cannot be assigned an inclusion/exclusion mapping under frozen 4D/2D rule without a policy decision.",
+  "source": "results/R3_RC3_method_recovery/MFP_UPPER_BOUND_summary.csv",
+  "unique_radial_truths": [
+    [
+      47.6,
+      187.0
+    ],
+    [
+      50.0,
+      200.0
+    ],
+    [
+      52.3,
+      213.0
+    ]
+  ],
+  "not_new_experiment": true,
+  "action": "STOP; preserve verified V2 additions; no automatic release",
+  "scope": "Discovery completed across snapshot; semantic adjudication stops at unresolved source. Remaining discovered hits are retained for coverage review, not silently marked PASS.",
+  "unclassified_discovery_hits": "See full metadata and source usage inventories; these are discovery evidence, not certified source classifications."
+}

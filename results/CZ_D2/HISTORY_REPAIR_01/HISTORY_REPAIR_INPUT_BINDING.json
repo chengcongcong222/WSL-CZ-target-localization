@@ -1,0 +1,16 @@
+{
+  "original_A": "dc91982e67921eeb7a6aac4e12c482a980d5ad89",
+  "stop_parent": "3c7291bd6d4683796deccb352d1e8c105db63d87",
+  "old_registry": "results/CZ_D2/HISTORICAL_STATE_EXCLUSIONS.csv",
+  "proposed_registry": "results/CZ_D2/HISTORY_REPAIR_01/HISTORICAL_STATE_EXCLUSIONS_V2.csv",
+  "old_registry_sha256": "10d04886a483f18e2f973718dda701d7d7e8decb665bea3502b63d243b99c76f",
+  "V2_sha256": "eaddf3eb2e661c55d21f50ee7be95d094cebb498fde7f3a038acdf4c3e2c9c6d",
+  "status": "PROPOSED_V2_SOURCE_COMPLETENESS_UNRESOLVED",
+  "formal_execution_authorized": false,
+  "panel_materialization_authorized": false,
+  "unchanged_scientific_contract_sha256": "acb84479e8128959484a109473e7412c1eee74ee386d12fec4e2f2d277f4065f",
+  "rules": "Original 4D neighborhood, static2D projection, joint theta/psi mirror and coarse guard unchanged; no new range-only rule",
+  "new_panel": 0,
+  "new_observations": 0,
+  "new_MC": 0
+}
