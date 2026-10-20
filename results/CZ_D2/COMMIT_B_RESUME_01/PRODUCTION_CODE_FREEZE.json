@@ -1,0 +1,63 @@
+{
+  "files": [
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\bind_authorization.py",
+      "sha256": "60591d9c287e3f7825efc52041092fb8801a595cd1bf04623dd4b943e394c7a7"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\cold_audit.py",
+      "sha256": "289261ab24548e2dfd9889c2635f7139d373fba5161badd94a127354f0494f78"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\common.py",
+      "sha256": "f3eab9032555ae2a366e4b2a1645029b15ca78e8ca247ffbabf6b70e2b6c86e5"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\estimate_public.py",
+      "sha256": "839497396fb67bcca1d1823532178bd52dbb4e4db8c88778a71c89c1fcff614c"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\finalize_report.py",
+      "sha256": "893b4f95577e1c555f3b97977737757ec1ed3ab74bf562fcd12e769d34a72b35"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\generate.py",
+      "sha256": "b4fc526d8668401c0e4a528d0182613340efa134e7c35a5b6466cae134a2bffe"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\independent_math.py",
+      "sha256": "9a3923b65fa8e1fabe04c8944f3f4b90c8f7c4ce7e787c8ea4b00e67f5c35c47"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\main_run.py",
+      "sha256": "f7d206f2fd84fad74d07a890a011f0eadc58fd16a6b6f3ef573a20c2a5ff9c53"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\preflight.py",
+      "sha256": "b81717e2756dc3247fca53d2ee80f91e161c939cc55f156233905712782b0d98"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\statistics_main.py",
+      "sha256": "f4cb4f1642f2524b50cbcf726005d1710749d60fa0d565ceae19c2dce006e297"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\supervise.py",
+      "sha256": "a4b8d666a1e8a94fdaf85dba240173fec1de2fa42461ce6ee592184f50bda72b"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_model.py",
+      "sha256": "d9cdf7c81dd0cabd0bc71abf3cb4c8d0ce81515a080acdc5fb4279438464f0ee"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_generate.py",
+      "sha256": "5c3dabeb60f99b120670f024a5a9fdd61396daf6dd9e7658a6233f36a5b92899"
+    },
+    {
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_information.py",
+      "sha256": "a0622c8c5211ffca01a4750621b8c255df1d0a3d57edcff59079bc344645ad48"
+    }
+  ],
+  "binding_sha256": "4ebd822a0b837f38913397c0ff907df922a1d4fbb35ca83b513cabc4d4ca0409",
+  "before_panel": true,
+  "zero_scientific_retries": true
+}

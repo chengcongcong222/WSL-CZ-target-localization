@@ -1,0 +1,478 @@
+{
+  "scope": "DELIVERY_FILE_IDENTITY_ONLY_NOT_SECOND_SCIENTIFIC_AUDIT",
+  "pass": true,
+  "checks": [
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\bind_authorization.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\cold_audit.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\common.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\estimate_public.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\finalize_report.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\generate.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\independent_math.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\main_run.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\preflight.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\statistics_main.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\supervise.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_model.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_generate.py",
+      "pass": true
+    },
+    {
+      "manifest": "PRODUCTION_CODE_FREEZE.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\R4_T3_W1_WIDE_BASELINE_DEMO\\t3_w1_information.py",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D01_innovations.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D02_innovations.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D03_innovations.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D04_innovations.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D05_innovations.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D06_innovations.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D07_innovations.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D08_innovations.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D09_innovations.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D10_innovations.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D11_innovations.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D12_innovations.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\PANEL_AND_REJECTIONS.json",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B0_D01.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B0_D02.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B0_D03.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B0_D04.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B0_D05.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B0_D06.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B0_D07.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B0_D08.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B0_D09.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B0_D10.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B0_D11.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B0_D12.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B3_D01.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B3_D02.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B3_D03.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B3_D04.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B3_D05.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B3_D06.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B3_D07.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B3_D08.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B3_D09.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B3_D10.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B3_D11.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q1_B3_D12.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B0_D01.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B0_D02.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B0_D03.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B0_D04.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B0_D05.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B0_D06.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B0_D07.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B0_D08.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B0_D09.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B0_D10.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B0_D11.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B0_D12.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B3_D01.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B3_D02.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B3_D03.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B3_D04.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B3_D05.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B3_D06.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B3_D07.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B3_D08.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B3_D09.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B3_D10.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B3_D11.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\public\\Q2_B3_D12.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\terminals.npy",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\worker_progress.json",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\AGGREGATES.csv",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\CONFIGURATION_EXECUTION_STATUS.csv",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\EVALUATION_ARRAYS.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\INFORMATION.csv",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\INFORMATION_MATRICES.npz",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\OUTPUT_AND_BOUNDARY_DIAGNOSTICS.csv",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\PAIRED_COMPARISONS.csv",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\PANEL_EVALUATION_ONLY.csv",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\PUBLIC_RECORD_IDENTITIES.csv",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\RESOURCE_GEOMETRY.csv",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\STATISTICS.csv",
+      "pass": true
+    },
+    {
+      "manifest": "MAIN_OUTPUT_SEAL.json",
+      "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\TERMINALS_ARCHIVE.npz",
+      "pass": true
+    },
+    {
+      "check": "binding_unchanged",
+      "pass": true
+    },
+    {
+      "check": "tracked_history_unchanged",
+      "pass": true
+    },
+    {
+      "check": "parent",
+      "pass": true
+    },
+    {
+      "check": "git_under_64MiB",
+      "pass": true
+    },
+    {
+      "check": "data_under_2GiB",
+      "pass": true
+    }
+  ],
+  "production_file_count": 14,
+  "git_bytes_before_manifest": 16303536,
+  "data_bytes": 183289857,
+  "scientific_integrity_pass": false,
+  "cold_audit_pass": 539763,
+  "cold_audit_fail": 1,
+  "retries": 0
+}

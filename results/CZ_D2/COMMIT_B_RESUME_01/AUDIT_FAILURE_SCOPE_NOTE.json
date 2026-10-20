@@ -1,0 +1,27 @@
+{
+  "status": "FAIL_RETAINED_PENDING_RESEARCH_LEAD_REVIEW",
+  "cold_audit_sha256": "b8eaf32ad3ffe521a340e53e57f871d93605dc9d0976e32966ca140e6b471622",
+  "access_log_sha256": "81bb7de61f850ee03d27c9108cf5e791b2bb2491e477cf8de4edf7e54dee1857",
+  "frozen_cold_code_sha256": "289261ab24548e2dfd9889c2635f7139d373fba5161badd94a127354f0494f78",
+  "original_check": "private_read_isolation: denied == [] AND no successful read path contains private/panel",
+  "cold_PASS_count": 539763,
+  "cold_FAIL_count": 1,
+  "failed_groups": [
+    {
+      "group": "private_read_isolation",
+      "detail": ""
+    }
+  ],
+  "denied_paths": [
+    "D:\\Caches\\python\\Users\\ccc\\AppData\\Local\\Programs\\Python\\Python310\\lib\\zipfile.cpython-310.pyc",
+    "D:\\Caches\\python\\Users\\ccc\\AppData\\Local\\Programs\\Python\\Python310\\lib\\encodings\\cp437.cpython-310.pyc"
+  ],
+  "successful_private_or_panel_paths": [],
+  "interpretation": "Both rejected paths are CPython standard-library .pyc cache paths. Successful source-code reads of zipfile.py/cp437.py are logged. This is consistent with blocked cache probing and import fallback, not evidence of a successful private-data read. The frozen check treated any denied access as failure.",
+  "audit_record_limitation": "Denied entries record path only, not full open mode/flags; do not upgrade this note to a new complete isolation certification.",
+  "scientific_retries": 0,
+  "audit_retries": 0,
+  "production_code_changed": false,
+  "original_FAIL_reclassified": false,
+  "positive_science_labels_withheld": true
+}

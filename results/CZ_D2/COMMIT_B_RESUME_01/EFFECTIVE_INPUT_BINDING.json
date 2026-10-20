@@ -1,0 +1,65 @@
+{
+  "design_SHA": "dc91982e67921eeb7a6aac4e12c482a980d5ad89",
+  "repair02_SHA": "eab37fe96383951bbbf57ba6b30726644b423bae",
+  "registry": {
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\HISTORY_REPAIR_02\\HISTORICAL_STATE_EXCLUSIONS_V3.csv",
+    "sha256": "d70e441b8c2b743555eed9e8102d2bc75d628ad34aa0640747a493877434ba9e",
+    "rows": 762
+  },
+  "only_replaced_input": "historical exclusion registry V1 -> V3 by research lead authorization",
+  "inputs": [
+    {
+      "path": "results/CZ_D2/EXPERIMENT_CONTRACT.md",
+      "sha256": "40726c21e5a42db1c41da3e512de9fe24f956db6899a8e2cea09d47afd9941c9"
+    },
+    {
+      "path": "results/CZ_D2/DESIGN_FREEZE.json",
+      "sha256": "acb84479e8128959484a109473e7412c1eee74ee386d12fec4e2f2d277f4065f"
+    },
+    {
+      "path": "results/CZ_D2/PANEL_AND_HOLDOUT_POLICY.md",
+      "sha256": "a5945c9a815801ec7e85d944a5d78bfd1411a18803ed79067b5883e6f2540d75"
+    },
+    {
+      "path": "results/CZ_D2/GATE_AND_STATISTICS.md",
+      "sha256": "4f21dd3dbfaab2cdf06049d2dc4052d9154827f996d615909c131da56fc464c0"
+    },
+    {
+      "path": "results/CZ_D2/AUDIT_DESIGN.md",
+      "sha256": "fec75a4a9de93eae3995db53597e5ac361dc248817dcc3c78fbcc13834048acf"
+    },
+    {
+      "path": "results/CZ_D2/DESIGN_FILE_MANIFEST.json",
+      "sha256": "933ac4246e13fd457cde9acaa973f10483458ae3c2099e9c6bb6977a74ebbb31"
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_model.py",
+      "sha256": "d9cdf7c81dd0cabd0bc71abf3cb4c8d0ce81515a080acdc5fb4279438464f0ee"
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_generate.py",
+      "sha256": "5c3dabeb60f99b120670f024a5a9fdd61396daf6dd9e7658a6233f36a5b92899"
+    },
+    {
+      "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_information.py",
+      "sha256": "a0622c8c5211ffca01a4750621b8c255df1d0a3d57edcff59079bc344645ad48"
+    },
+    {
+      "path": "results/CZ_D2/HISTORY_REPAIR_02/HISTORICAL_STATE_EXCLUSIONS_V3.csv",
+      "sha256": "d70e441b8c2b743555eed9e8102d2bc75d628ad34aa0640747a493877434ba9e"
+    },
+    {
+      "path": "results/CZ_D2/HISTORY_REPAIR_02/SOURCE_COMPLETENESS_FINAL.json",
+      "sha256": "25feb50fabea07fbfd3aba91cd257d95eed0a443f70ef3bbdc4e5db86c92248c"
+    },
+    {
+      "path": "results/CZ_D2/HISTORY_REPAIR_02/MFP_PARTIAL_HISTORY.csv",
+      "sha256": "efd493339f3cdab3f908ef4ffba060ffcac6aeb3e1dff41fec590095c8f512cd"
+    }
+  ],
+  "original_panel_and_statistics_unchanged": true,
+  "history_scope": "FIXED_SNAPSHOT_AND_BOUND_ARCHIVES",
+  "MFP": "PARTIAL_RZ_RECORDED_NOT_4D_EXCLUSION",
+  "H2": "STRICT_FLOAT_EQUALITY_FAIL_RETAINED",
+  "production_allowed_after_preflight": true
+}

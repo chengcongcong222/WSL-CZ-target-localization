@@ -1,0 +1,161 @@
+{
+  "PASS": true,
+  "checks": [
+    {
+      "check": "single_BLAS_thread_environment",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "numpy_version",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "scipy_version",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q1P0_physical_objective_invariant",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q1P0_Jacobian_chain_rule",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q1P0_independent_residual",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q1P0_independent_derivative",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q1P0_only_bias_support_changed",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q1P1_physical_objective_invariant",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q1P1_Jacobian_chain_rule",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q1P1_independent_residual",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q1P1_independent_derivative",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q1P1_only_bias_support_changed",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q2P0_physical_objective_invariant",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q2P0_Jacobian_chain_rule",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q2P0_independent_residual",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q2P0_independent_derivative",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q2P0_only_bias_support_changed",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q2P1_physical_objective_invariant",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q2P1_Jacobian_chain_rule",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q2P1_independent_residual",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q2P1_independent_derivative",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "Q2P1_only_bias_support_changed",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "public_initializer_independent",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "private_path_denied",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "single_original_estimate_call",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "no_private_import_or_load",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "no_science_yet",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "nearest_rank_INF_fixture",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "storage_available",
+      "PASS": true,
+      "detail": ""
+    }
+  ],
+  "new_panel": 0,
+  "new_innovations": 0,
+  "new_observations": 0,
+  "optimizer_calls": 0,
+  "Fisher_calls": 0,
+  "scope": "SYNTHETIC_FORMULA_AND_PERMISSION_CONTROLS_ONLY"
+}

@@ -1,0 +1,29 @@
+{
+  "stage": "CZ-D2_COMMIT_B_RESUME_01",
+  "design_SHA": "dc91982e67921eeb7a6aac4e12c482a980d5ad89",
+  "authorization_SHA": "eab37fe96383951bbbf57ba6b30726644b423bae",
+  "registry_SHA256": "d70e441b8c2b743555eed9e8102d2bc75d628ad34aa0640747a493877434ba9e",
+  "integrity_pass": false,
+  "complete_panel": true,
+  "completion": {
+    "planned": 48000,
+    "executed": 48000,
+    "accepted": 48000,
+    "not_evaluated": 0,
+    "statistics_rows": 3744,
+    "paired_rows": 1872,
+    "scope": "DUAL_NODE_FOUR_PARAMETER_CONDITIONAL_DEMO",
+    "depth": "NOT_EVALUATED"
+  },
+  "scope": "FROZEN_ESTIMATOR_BIAS_SUPPORT_SENSITIVITY;DUAL_NODE_SIGNED_BEARING_CONDITIONAL_FOUR_PARAMETER_DEMO",
+  "labels_file": "RESEARCH_LABELS.csv",
+  "P1": "ESTIMATOR_SUPPORT_DOUBLED;GENERATION_BIAS_REMAINS_P0;NOT_OUT_OF_SUPPORT_MISMATCH",
+  "new_panel": "PREREGISTERED_NOT_SECRET_EXTERNAL_BLIND_PANEL",
+  "continuous_branch_coverage": "NOT_ESTABLISHED",
+  "received_chain": "NOT_VALIDATED",
+  "hardware": "UNKNOWN",
+  "depth": "NOT_EVALUATED",
+  "R4_percent": 0,
+  "CZ_D3_authorized": false,
+  "STOP": true
+}

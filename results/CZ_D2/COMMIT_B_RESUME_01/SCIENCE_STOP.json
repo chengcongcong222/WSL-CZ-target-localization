@@ -1,0 +1,9 @@
+{
+  "STOP": true,
+  "formal_calls_ended": true,
+  "subsequent_science_authorized": false,
+  "CZ_D3_authorized": false,
+  "depth": "NOT_EVALUATED",
+  "R4_percent": 0,
+  "failure": "SCIENTIFIC_PROCESS_FAILED_NO_RETRY"
+}

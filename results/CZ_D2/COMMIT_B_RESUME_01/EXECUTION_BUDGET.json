@@ -1,0 +1,32 @@
+{
+  "main_calls": 1,
+  "cold_calls": 1,
+  "retries": 0,
+  "total_wall_s": 368.530999999959,
+  "peak_tree_RSS_bytes_sampled": 171687936,
+  "monitor_sleep_s": 0.2,
+  "peak_is_sampled_not_continuous_guarantee": true,
+  "D_bytes": 183289857,
+  "Git_bytes": 16286548,
+  "stages": [
+    {
+      "program": "main_run.py",
+      "wall_s": 318.28200000012293,
+      "cap_s": 5400,
+      "returncode": 0,
+      "termination": null,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\runtime_logs\\main_run.py.log",
+      "log_sha256": "f85919ca7f6350698229873cba5391af3a5bae7bacdb210e97c5d692d4031a76"
+    },
+    {
+      "program": "cold_audit.py",
+      "wall_s": 50.20300000021234,
+      "cap_s": 1800,
+      "returncode": 2,
+      "termination": null,
+      "log": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\worktree\\results\\CZ_D2\\COMMIT_B_RESUME_01\\runtime_logs\\cold_audit.py.log",
+      "log_sha256": "797ba51e129757711082fc7cfc28dd20de097f8b0dd9db7e2ecf84bc43249785"
+    }
+  ],
+  "failure": "SCIENTIFIC_PROCESS_FAILED_NO_RETRY"
+}

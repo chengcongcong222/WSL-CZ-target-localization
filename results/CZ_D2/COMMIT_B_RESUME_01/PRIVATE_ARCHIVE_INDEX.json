@@ -1,0 +1,74 @@
+[
+  {
+    "case": 0,
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D01_innovations.npz",
+    "sha256": "4fe388c5f7610ad032d35d5e935511e27edc1c976097da380838b7fa134dfe42",
+    "array_sha256": "c250e39d339d05d461044b23a1ac95c7ac37d7db82c4e9fafb080dd3f089aa82"
+  },
+  {
+    "case": 1,
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D02_innovations.npz",
+    "sha256": "8984cfdaac20ce15e2d6c91afa1b7ee8799fdde9c47e08e6aae5a2bd0a6c21ba",
+    "array_sha256": "9f7ba0cd8596976cecacb1f7adb1aa9d99f0936f3c00ed61a8dd037eeb8f8171"
+  },
+  {
+    "case": 2,
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D03_innovations.npz",
+    "sha256": "7097c2daaaa80670bc42e305d5024ec5859363fa0b5773e16b07f7796150adf1",
+    "array_sha256": "d574ca96e3233fb2153d89f63c6b25740950c6c224e821434bdf6595090d46c4"
+  },
+  {
+    "case": 3,
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D04_innovations.npz",
+    "sha256": "696a2d5b3aa0772f3c2019fa3aabcab068b3968bc7d24f586896b0ec1b3ae90c",
+    "array_sha256": "4962991f24063e10e78ed2092e8ea3ba466c63b31c4f8cdf97b71fbedec3ea87"
+  },
+  {
+    "case": 4,
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D05_innovations.npz",
+    "sha256": "f22239ded594405b38af825cae3602886f7a1dcfad6c0a39bed435d3cfe602c9",
+    "array_sha256": "88f7bde3af6d83f83933cacc4bc0d5b6615281c1a811b4dcd59ca9d35aa70eac"
+  },
+  {
+    "case": 5,
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D06_innovations.npz",
+    "sha256": "18dde6c5a0a4affadfbf89096593bde7efab5ba05bbadb73cc90afa25076abb0",
+    "array_sha256": "b94ddb883ea35af39c15090c0ca5d86ff1acca5683b3614d9ef328978cd300b2"
+  },
+  {
+    "case": 6,
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D07_innovations.npz",
+    "sha256": "4066cdf4a2198e2e9f8b3ae66c69dd8a6412a2ab3fb02115cb1d25e4ac02a1a7",
+    "array_sha256": "489d2712cc2d31647c42d23e0f5baf773c10bc2230fc2b6ddcee0051e46936f0"
+  },
+  {
+    "case": 7,
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D08_innovations.npz",
+    "sha256": "0e496655d23412d835cb60d59a043a6632b9e48937337f0d0016390f62a86f16",
+    "array_sha256": "4e80ea02abfe94d8521ec138b067b4f7c2cc417a4708a71fb8097e65affdd4c5"
+  },
+  {
+    "case": 8,
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D09_innovations.npz",
+    "sha256": "d52c861ee464408f1ef10f097435255280dfb6ee34e56dd4ea71240efdf32fa4",
+    "array_sha256": "756bde573e4bf81c315fe1c2142beb7f523573aebeabffb4ce05863feb3262d3"
+  },
+  {
+    "case": 9,
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D10_innovations.npz",
+    "sha256": "eb558869e1d288402ac3fcc0d189e214d2ef9465f61c5dfb5b34e5d109f2a45e",
+    "array_sha256": "698d1652485ff8755ec2bb02bc9c91dbcea4808587c2cc2510246653f9d8e2e5"
+  },
+  {
+    "case": 10,
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D11_innovations.npz",
+    "sha256": "5e3bbbba46ef655e468aebf26e046ef26e1b20ea5504d9a40d7110e052a49116",
+    "array_sha256": "93f192ac5fd5281aedead9854cc344e90c8337ca0083d1cad4f829e324f88bfe"
+  },
+  {
+    "case": 11,
+    "path": "D:\\ProjectStorage\\WSL-CZ\\CZ_D2\\RESUME_01_DATA\\private\\D12_innovations.npz",
+    "sha256": "4538867bc5c647ad01221ca961ea0927e1993ecad3df9f48e45418a13c1df0b4",
+    "array_sha256": "08b16af8cd81ad7446fb2a3313946f8be1fab422352285c347507ac55c6e2bc5"
+  }
+]

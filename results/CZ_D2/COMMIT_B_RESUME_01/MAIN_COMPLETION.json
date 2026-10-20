@@ -1,0 +1,10 @@
+{
+  "planned": 48000,
+  "executed": 48000,
+  "accepted": 48000,
+  "not_evaluated": 0,
+  "statistics_rows": 3744,
+  "paired_rows": 1872,
+  "scope": "DUAL_NODE_FOUR_PARAMETER_CONDITIONAL_DEMO",
+  "depth": "NOT_EVALUATED"
+}
