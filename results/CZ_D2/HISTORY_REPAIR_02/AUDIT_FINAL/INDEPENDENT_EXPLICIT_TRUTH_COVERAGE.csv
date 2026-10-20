@@ -1,0 +1,3 @@
+source,rows,role,covered
+results/P2_RC2_kinematic_boundary/offgrid_trials.csv,216,EXPLICIT_COMPLETE_GENERATING_TRUTH,True
+results/P4_5_parameter_accuracy/parameter_accuracy_trials.csv,5400,EXPLICIT_COMPLETE_GENERATING_TRUTH,True

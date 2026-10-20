@@ -1,0 +1,29 @@
+{
+  "SOURCE_SEMANTIC_COMPLETENESS": "PASS_FIXED_SNAPSHOT_AND_BOUND_ARCHIVES",
+  "REGISTRY_IDENTITY_AND_COVERAGE": "PASS",
+  "MFP_PARTIAL_STATE_POLICY": "PARTIAL_RZ_GENERATING_TRUTH_RECORDED_NOT_4D_EXCLUSION",
+  "DESIGN_CONTRACT_UNCHANGED": true,
+  "FORMAL_EXECUTION_AUTHORIZED": false,
+  "effective_registry": "HISTORICAL_STATE_EXCLUSIONS_V3.csv",
+  "registry_sha256": "d70e441b8c2b743555eed9e8102d2bc75d628ad34aa0640747a493877434ba9e",
+  "registry_rows": 762,
+  "original216_preserved": true,
+  "V2_744_preserved": true,
+  "added18": {
+    "full_horizontal": 7,
+    "static_position": 11,
+    "already_coarse_guarded": true
+  },
+  "source_files_classified": 3802,
+  "scope": "fixed a580499 history and provenance-bound available archives; not an assertion about unavailable sources or every scalar coordinate value",
+  "unresolved": [],
+  "independent_audit": "AUDIT_FINAL/INDEPENDENT_SOURCE_COMPLETENESS_AUDIT.json + INDEPENDENT_DISCOVERY_GAP_CLOSURE.json",
+  "H2": "STRICT_FLOAT_EQUALITY_FAIL_RETAINED; <=2ULP within unchanged neighborhood",
+  "private4818": "accepted REPAIR01 evidence inherited, not rehashed in this round",
+  "formal_configurations": {
+    "planned": 48000,
+    "evaluated": 0,
+    "NOT_EVALUATED": 48000
+  },
+  "STOP": true
+}

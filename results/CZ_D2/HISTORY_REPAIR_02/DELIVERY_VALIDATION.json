@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "syntax:close_independent_findings.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax:close_sources.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax:independent_source_audit.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax:independent_source_audit_v2.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax:independent_source_audit_v3.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax:seal_delivery.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax:semantic_scan.py",
+      "PASS": true
+    },
+    {
+      "check": "syntax:write_delivery.py",
+      "PASS": true
+    },
+    {
+      "check": "full_audit_not_rewritten",
+      "PASS": true
+    },
+    {
+      "check": "supplement_all14_pass",
+      "PASS": true
+    },
+    {
+      "check": "semantic_table_complete",
+      "PASS": true
+    },
+    {
+      "check": "registry_binding",
+      "PASS": true
+    },
+    {
+      "check": "formal_authorization_false",
+      "PASS": true
+    },
+    {
+      "check": "original_tracked_files_unchanged",
+      "PASS": true
+    },
+    {
+      "check": "parent",
+      "PASS": true
+    },
+    {
+      "check": "only_authorized_untracked_directory",
+      "PASS": true
+    },
+    {
+      "check": "no_binary_science_outputs",
+      "PASS": true
+    }
+  ],
+  "scope": "Artifact consistency only; independent science audit and formal MC not run",
+  "formal_execution_authorized": false,
+  "remote_before_commit": {
+    "research/cz-d2": "65f9cec61c05e43b3a628f91b078bfdcc4b5318b",
+    "main": "a9a80191ee4d0f0cecd9db296198606b63a68080"
+  }
+}

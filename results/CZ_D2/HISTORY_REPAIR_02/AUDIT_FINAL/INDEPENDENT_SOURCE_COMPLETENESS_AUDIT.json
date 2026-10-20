@@ -1,0 +1,3401 @@
+{
+  "status": "FAIL",
+  "SOURCE_SEMANTIC_COMPLETENESS": "UNRESOLVED",
+  "REGISTRY_IDENTITY_AND_COVERAGE": "FAIL",
+  "MFP_PARTIAL_STATE_POLICY": "PARTIAL_RZ_GENERATING_TRUTH_RECORDED_NOT_4D_EXCLUSION",
+  "DESIGN_CONTRACT_UNCHANGED": true,
+  "FORMAL_EXECUTION_AUTHORIZED": false,
+  "checks": [
+    {
+      "check": "parent",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "branch",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "no_existing_tracked_changes",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "historical_snapshot_unchanged",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:.gitattributes",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:AUDIT_DESIGN.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:DESIGN_CHECKS.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:DESIGN_FREEZE.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:DESIGN_PRECHECK.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:EXPERIMENT_CONTRACT.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:GATE_AND_STATISTICS.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:GPT_SYNC_CZ_D2_A.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:HISTORICAL_STATE_EXCLUSIONS.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:PANEL_AND_HOLDOUT_POLICY.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:SOURCE_IDENTITIES.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:test_design_controls.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:COMMIT_B_AUTHORIZATION_AND_STOP.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:COMMIT_B_GATE_STATUS.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:CONFIGURATION_EXECUTION_STATUS.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:CZ_D2_B_FINAL_DECISION.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:GPT_SYNC_CZ_D2_B.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:HISTORY_COMPLETENESS_PREFLIGHT.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:PREFLIGHT_EVIDENCE_REVIEW.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:PREFLIGHT_HISTORY_CHECK_STARTED.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:preflight_history_completeness.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:UNEXECUTED_CONFIGURATION_SUMMARY.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve:UNREGISTERED_HISTORICAL_CALIBRATION_STATES.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "original216_preserved",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "V2_744_prefix_preserved",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "diff_identity",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:3",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:4",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:5",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:6",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:7",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:8",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:9",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:10",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:11",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:12",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:13",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:14",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:15",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:16",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "addition_source_identity:17",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "new_distinct_truths",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "new18_already_coarse_grid_guarded",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512_shape",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:0",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:1",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:2",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:3",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:4",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:5",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:6",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:7",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:8",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:9",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:10",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:11",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:12",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:13",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:14",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:15",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:16",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:17",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:18",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:19",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:20",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:21",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:22",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:23",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:24",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:25",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:26",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:27",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:28",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:29",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:30",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:31",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:32",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:33",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:34",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:35",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:36",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:37",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:38",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:39",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:40",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:41",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:42",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:43",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:44",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:45",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:46",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:47",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:48",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:49",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:50",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:51",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:52",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:53",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:54",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:55",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:56",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:57",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:58",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:59",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:60",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:61",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:62",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:63",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:64",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:65",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:66",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:67",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:68",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:69",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:70",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:71",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:72",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:73",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:74",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:75",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:76",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:77",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:78",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:79",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:80",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:81",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:82",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:83",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:84",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:85",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:86",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:87",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:88",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:89",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:90",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:91",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:92",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:93",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:94",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:95",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:96",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:97",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:98",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:99",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:100",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:101",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:102",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:103",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:104",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:105",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:106",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:107",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:108",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:109",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:110",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:111",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:112",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:113",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:114",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:115",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:116",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:117",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:118",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:119",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:120",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:121",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:122",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:123",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:124",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:125",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:126",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:127",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:128",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:129",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:130",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:131",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:132",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:133",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:134",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:135",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:136",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:137",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:138",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:139",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:140",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:141",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:142",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:143",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:144",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:145",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:146",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:147",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:148",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:149",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:150",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:151",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:152",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:153",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:154",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:155",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:156",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:157",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:158",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:159",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:160",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:161",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:162",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:163",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:164",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:165",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:166",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:167",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:168",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:169",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:170",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:171",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:172",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:173",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:174",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:175",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:176",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:177",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:178",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:179",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:180",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:181",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:182",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:183",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:184",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:185",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:186",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:187",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:188",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:189",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:190",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:191",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:192",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:193",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:194",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:195",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:196",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:197",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:198",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:199",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:200",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:201",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:202",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:203",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:204",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:205",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:206",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:207",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:208",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:209",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:210",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:211",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:212",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:213",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:214",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:215",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:216",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:217",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:218",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:219",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:220",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:221",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:222",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:223",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:224",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:225",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:226",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:227",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:228",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:229",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:230",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:231",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:232",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:233",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:234",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:235",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:236",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:237",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:238",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:239",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:240",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:241",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:242",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:243",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:244",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:245",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:246",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:247",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:248",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:249",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:250",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:251",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:252",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:253",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:254",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:255",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:256",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:257",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:258",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:259",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:260",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:261",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:262",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:263",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:264",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:265",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:266",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:267",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:268",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:269",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:270",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:271",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:272",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:273",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:274",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:275",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:276",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:277",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:278",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:279",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:280",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:281",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:282",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:283",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:284",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:285",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:286",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:287",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:288",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:289",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:290",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:291",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:292",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:293",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:294",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:295",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:296",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:297",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:298",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:299",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:300",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:301",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:302",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:303",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:304",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:305",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:306",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:307",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:308",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:309",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:310",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:311",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:312",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:313",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:314",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:315",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:316",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:317",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:318",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:319",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:320",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:321",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:322",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:323",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:324",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:325",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:326",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:327",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:328",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:329",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:330",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:331",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:332",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:333",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:334",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:335",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:336",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:337",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:338",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:339",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:340",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:341",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:342",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:343",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:344",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:345",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:346",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:347",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:348",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:349",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:350",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:351",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:352",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:353",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:354",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:355",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:356",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:357",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:358",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:359",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:360",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:361",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:362",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:363",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:364",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:365",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:366",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:367",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:368",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:369",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:370",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:371",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:372",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:373",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:374",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:375",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:376",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:377",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:378",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:379",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:380",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:381",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:382",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:383",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:384",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:385",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:386",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:387",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:388",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:389",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:390",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:391",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:392",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:393",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:394",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:395",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:396",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:397",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:398",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:399",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:400",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:401",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:402",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:403",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:404",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:405",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:406",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:407",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:408",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:409",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:410",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:411",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:412",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:413",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:414",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:415",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:416",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:417",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:418",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:419",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:420",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:421",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:422",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:423",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:424",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:425",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:426",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:427",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:428",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:429",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:430",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:431",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:432",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:433",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:434",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:435",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:436",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:437",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:438",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:439",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:440",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:441",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:442",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:443",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:444",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:445",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:446",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:447",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:448",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:449",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:450",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:451",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:452",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:453",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:454",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:455",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:456",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:457",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:458",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:459",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:460",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:461",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:462",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:463",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:464",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:465",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:466",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:467",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:468",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:469",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:470",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:471",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:472",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:473",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:474",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:475",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:476",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:477",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:478",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:479",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:480",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:481",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:482",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:483",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:484",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:485",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:486",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:487",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:488",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:489",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:490",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:491",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:492",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:493",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:494",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:495",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:496",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:497",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:498",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:499",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:500",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:501",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:502",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:503",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:504",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:505",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:506",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:507",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:508",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:509",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:510",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX512:511",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "independent_truth_schema:results/P2_RC2_kinematic_boundary/offgrid_trials.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "independent_truth_schema:results/P4_5_parameter_accuracy/parameter_accuracy_trials.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "P3_observation_reference:selected_hard_pairs.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "P3_observation_reference:rc2_vs_rc3_summary.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "P3_observation_reference:line_doppler_increment.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "P3_observation_reference:propagation_increment.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "all_P2_heading_generators_covered",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "SP1_private_labels:CALIBRATION_PRIVATE_ARCHIVE_MANIFEST.json",
+      "PASS": true,
+      "detail": "1024"
+    },
+    {
+      "check": "SP1_private_labels:TEST_PRIVATE_ARCHIVE_MANIFEST.json",
+      "PASS": true,
+      "detail": "512"
+    },
+    {
+      "check": "T2_all16_positions",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "H2_archive_neighborhood_coverage",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "H2_STRICT_FAIL_preserved",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "H2_original_erratum_retained",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "MFP_original_model_partial",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "MFP9_rows3_unique",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "MFP_partial_table_identity",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "MFP_no_fabricated_dimensions",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "independent_generator_discovery_no_unmapped",
+      "PASS": false,
+      "detail": [
+        "r3_c1_1_fidelity.py",
+        "r3_c1_2_final_finish.py",
+        "r3_c1_2_final_integrity.py",
+        "r3_c1_2_qm_adaptation.py",
+        "r3_c1_2_steering_correction.py",
+        "r3_c1_depth_motion.py",
+        "r3_c2_4b_2g_impl_ambiguity.py",
+        "r3_c2_4b_2h_ar_order_diag.py",
+        "r3_c2_4b_3a_hankel_bridge.py",
+        "t2_n1_analyze.py",
+        "t2_n1_report.py"
+      ]
+    },
+    {
+      "check": "candidate_sources_current_bytes",
+      "PASS": true,
+      "detail": "3791"
+    },
+    {
+      "check": "reviewed_code_identity:p2_rc2_kinematic_boundary.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/P2_RC2_kinematic_boundary/P2_RC2_CONFIG.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:p3_rc3_increment.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/P3_RC3_increment/selected_hard_pairs.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:p4_5_parameter_accuracy.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:p4_g4_performance_boundary.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:p4_g4_revision.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_0_method_recovery.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_a1_fidelity.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_b1_mmac_observability.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_c1_depth_motion.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_c2_2c_paper_repro.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_c2_4b_2_paper_spectrum.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_range_ub_1b_tdoa_oracle.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_rc3_reanchor_2_profiled_discrim.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_closedloop_1a_set_contraction.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_closedloop_1b_two_window.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_closedloop_1c_single_turn.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_closedloop_1d_freq_subset.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_closedloop_1e_a_amplitude.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_closedloop_1e_b_tracked_freq.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_closedloop_1e_c_ssp.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r3_final_parameter_contraction_fix.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_a1_offgrid_bearing.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_a1_fix_continuous.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_a1_fix2_coverage.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_a1_new_dynamic.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_a1_search_tractability_development.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_speed_diagnostic.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_speed_information.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_aux_gate0_geometry.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_aux_gate1_crosstrack.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_aux_gate2a.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_aux_gate2b.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:aux_d1_generate.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:aux_d1_model.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/PRIVATE_GENERATOR_MANIFEST.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_b1_execute.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_b1a_execute.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_b1b_analyze.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_e1_g0.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_e2_g0.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_e2_nine_pair_pilot.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_h3_g0.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_h3_g2e.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_h3_p0.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_h3_p1.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/R4_E1_G0_FREQUENCY_INFORMATION/E1_G0_SCENE_BINDINGS.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_rc2_support.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_rc2_interval.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_cz_envelope_development.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_cz_envelope_model.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:r4_cz_envelope_closure_audit.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:hla_h1_execute.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:hla_h1_core.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:hla_h2_generate.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:hla_rx1_execute.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:hla_rx1_generate.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:hla_rx1z_evaluate.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:hla_sp1_preflight.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:hla_sp1_generate.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/CALIBRATION_PRIVATE_ARCHIVE_MANIFEST.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/TEST_PRIVATE_ARCHIVE_MANIFEST.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:t2_tilt_g0_prepare.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:t2_tilt_g0_forward.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:t2_tilt_g0_generate.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:t2_n1_analyze.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:t2_n2_evaluate.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:t2_n3_run.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_generate.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/R4_T3_W1_WIDE_BASELINE_DEMO/T3_W1_DESIGN_FREEZE.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/ENV_CAP_CZO04/scripts/analysis.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/ENV_CAP_CZO04/DESIGN_FREEZE.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/ENV_CAP_CAP06/code/generate_p2.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/ENV_CAP_CAP06/code/p1_toy.py",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/ENV_CAP_CAP06/P0_FROZEN_PANEL.json",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/ENV_CAP_CAP06/P2_RAW_DATA_INDEX.csv",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/ENV_CAP_NUM03/GPT_SYNC_NUM03.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/ENV_CAP_REC01/GPT_SYNC_ENV_CAP_REC01.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/ENV_CAP_FULL_CAMPAIGN/GPT_SYNC_ENV_CAP_FINAL.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "reviewed_code_identity:results/CZ_D1/GPT_SYNC_CZ_D1.md",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "classification_no_unresolved",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "private4818_identity_evidence_inherited",
+      "PASS": true,
+      "detail": "Inherited accepted REPAIR01; NOT rehashed4818 files in REPAIR02"
+    },
+    {
+      "check": "P3_ref_observation_code",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "B1_reference_code",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX_calibration_population_code",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "H2_control_not_new_performance",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "AUX_control_not_performance",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "formal_artifacts_absent",
+      "PASS": true,
+      "detail": ""
+    },
+    {
+      "check": "authorization_false",
+      "PASS": true,
+      "detail": ""
+    }
+  ],
+  "PASS_count": 671,
+  "FAIL_count": 1,
+  "scope": "Source-code semantic review, independent generator/schema search, direct archived truth reconstruction; not a proof about unavailable archives or every individual coordinate ever used",
+  "candidate_sources": 3791,
+  "python_files_scanned": 499,
+  "AST_incompatible": 11,
+  "lexical_hits": 61,
+  "V3_rows": 762,
+  "private_archive_hashes_rechecked_this_round": 0,
+  "accepted_private_hash_checks_inherited": 4818,
+  "new_panel": 0,
+  "new_innovations": 0,
+  "new_observations": 0,
+  "MC": 0,
+  "Fisher": 0,
+  "optimizer": 0,
+  "formal_science_cold_audit": 0,
+  "elapsed_s": 6.464920800179243,
+  "STOP": true
+}

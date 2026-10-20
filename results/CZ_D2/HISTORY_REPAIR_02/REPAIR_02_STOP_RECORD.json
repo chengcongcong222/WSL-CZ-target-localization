@@ -1,0 +1,20 @@
+{
+  "status": "STOP_AWAIT_RESEARCH_LEAD_AUDIT",
+  "SOURCE_SEMANTIC_COMPLETENESS": "PASS_FIXED_SNAPSHOT_AND_BOUND_ARCHIVES",
+  "FORMAL_EXECUTION_AUTHORIZED": false,
+  "utc": "2026-10-20T03:41:22.113484+00:00",
+  "formal_configurations": 48000,
+  "evaluated": 0,
+  "NOT_EVALUATED": 48000,
+  "new_panel": 0,
+  "new_innovations": 0,
+  "new_observations": 0,
+  "optimizer_calls": 0,
+  "Fisher_calls": 0,
+  "MC_calls": 0,
+  "formal_cold_audit_calls": 0,
+  "science_threshold_changes": 0,
+  "CZ_D3": "NOT_STARTED",
+  "R4": "0%",
+  "previous_STOP_records_preserved": true
+}

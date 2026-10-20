@@ -1,0 +1,16 @@
+{
+  "authority": "Research lead current REPAIR-02 instruction",
+  "original_A_unchanged": true,
+  "full_r_theta_v_psi": "original4D+jointmirror",
+  "static_r_theta": "original2D+azimuthmirror",
+  "partial_r_z": "PARTIAL_RZ_GENERATING_TRUTH_RECORDED_NOT_4D_EXCLUSION",
+  "candidate_grid": "NOT_GENERATING_TRUTH",
+  "numeric_reference_perturbations": "NOT_GENERATING_TRUTH_UNLESS_ACTUALLY_USED_AS_OBSERVATION_GENERATOR",
+  "noise": "NOT_TARGET_STATE",
+  "dimensionless_math_control": "NOT_PHYSICAL_TARGET_STATE",
+  "equipment_direction_calibration": "NO_FABRICATED_RANGE_OR_VELOCITY",
+  "uncertain_identity": "UNRESOLVED_AND_STOP",
+  "no_new_range_only_guard": true,
+  "does_not_claim_individually_unseen_coordinate_values": true,
+  "formal_execution_authorized": false
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "65f9cec61c05e43b3a628f91b078bfdcc4b5318b",
+  "historical_snapshot": "a580499475cc4148f1195e6256c4813c6e225726",
+  "original_A": "dc91982e67921eeb7a6aac4e12c482a980d5ad89",
+  "effective_registry": {
+    "path": "HISTORICAL_STATE_EXCLUSIONS_V3.csv",
+    "rows": 762,
+    "sha256": "d70e441b8c2b743555eed9e8102d2bc75d628ad34aa0640747a493877434ba9e",
+    "kinds": {
+      "horizontal_four_state": 719,
+      "static_position_projection": 43
+    }
+  },
+  "supersedes_only_registry_input_after_future_authorization": true,
+  "design_manifest_sha256": "933ac4246e13fd457cde9acaa973f10483458ae3c2099e9c6bb6977a74ebbb31",
+  "old_registry_v2_sha256": "eaddf3eb2e661c55d21f50ee7be95d094cebb498fde7f3a038acdf4c3e2c9c6d",
+  "source_table_sha256": "4eaa8eb5985b3e1fff2397b106ca96440ad52dbdc9e5e7b8e638b2631df30711",
+  "original_exclusion_thresholds_unchanged": true,
+  "FORMAL_EXECUTION_AUTHORIZED": false
+}

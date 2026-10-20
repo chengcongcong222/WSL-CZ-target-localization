@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "source": "r3_c1_depth_motion.py",
+      "PASS": true,
+      "required_source_anchors": [
+        "def estd_track_intensity",
+        "r0 = 45e3",
+        "r1 = r0 + U * T",
+        "def paper_geometry"
+      ]
+    },
+    {
+      "source": "r3_c1_1_fidelity.py",
+      "PASS": true,
+      "required_source_anchors": [
+        "Source/target moves along x",
+        "r = np.linspace(r0, r1, n_r)",
+        "r0 = E_STD[\"r0_km\"]"
+      ]
+    },
+    {
+      "source": "r3_c1_2_final_finish.py",
+      "PASS": true,
+      "required_source_anchors": [
+        "R0, R1 = 45e3, 60e3",
+        "U_REL = 2.0",
+        "def track_r",
+        "return np.linspace(R0, r1,"
+      ]
+    },
+    {
+      "source": "r3_c1_2_final_integrity.py",
+      "PASS": true,
+      "required_source_anchors": [
+        "R0, R1 = 45e3, 60e3",
+        "U_REL = 2.0",
+        "def track_r",
+        "return np.linspace(R0, r1,"
+      ]
+    },
+    {
+      "source": "r3_c1_2_qm_adaptation.py",
+      "PASS": true,
+      "required_source_anchors": [
+        "R0, R1 = 45e3, 60e3",
+        "U_REL = 2.0",
+        "def track_r",
+        "return np.linspace(R0, r1,"
+      ]
+    },
+    {
+      "source": "r3_c1_2_steering_correction.py",
+      "PASS": true,
+      "required_source_anchors": [
+        "R0, R1 = 45e3, 60e3",
+        "U_REL = 2.0",
+        "def track_r",
+        "return np.linspace(R0, r1,"
+      ]
+    },
+    {
+      "source": "r3_c2_4b_2g_impl_ambiguity.py",
+      "PASS": true,
+      "required_source_anchors": [
+        "R0 = 5010.0",
+        "DR = 2.5",
+        "ZS_LIST = [4.0, 50.0]",
+        "def gen_hla"
+      ]
+    },
+    {
+      "source": "r3_c2_4b_2h_ar_order_diag.py",
+      "PASS": true,
+      "required_source_anchors": [
+        "R0 = 5010.0",
+        "DR = 2.5",
+        "ZS_LIST = [4.0, 50.0]",
+        "def gen_hla"
+      ]
+    },
+    {
+      "source": "r3_c2_4b_3a_hankel_bridge.py",
+      "PASS": true,
+      "required_source_anchors": [
+        "R0 = 5010.0",
+        "DR = 2.5",
+        "ZS_LIST = [4.0, 50.0]",
+        "def gen_hla"
+      ]
+    },
+    {
+      "source": "t2_n1_analyze.py",
+      "PASS": true,
+      "required_source_anchors": [
+        "states=catalog(cat)",
+        "source_template_NOT_received_data",
+        "w=uh[p].copy()"
+      ]
+    },
+    {
+      "source": "t2_n1_report.py",
+      "PASS": true,
+      "required_source_anchors": [
+        "def main():",
+        "ax.errorbar",
+        "np.arange(5)+dy"
+      ]
+    },
+    {
+      "source": "exact_finding_coverage",
+      "PASS": true,
+      "required_source_anchors": [
+        "r3_c1_1_fidelity.py",
+        "r3_c1_2_final_finish.py",
+        "r3_c1_2_final_integrity.py",
+        "r3_c1_2_qm_adaptation.py",
+        "r3_c1_2_steering_correction.py",
+        "r3_c1_depth_motion.py",
+        "r3_c2_4b_2g_impl_ambiguity.py",
+        "r3_c2_4b_2h_ar_order_diag.py",
+        "r3_c2_4b_3a_hankel_bridge.py",
+        "t2_n1_analyze.py",
+        "t2_n1_report.py"
+      ]
+    },
+    {
+      "source": "original_grid_guard_covers45km_and0degree",
+      "PASS": true,
+      "required_source_anchors": [
+        "original any-coordinate coarse-grid rule; no new threshold"
+      ]
+    },
+    {
+      "source": "shallow_controls_outside_domain",
+      "PASS": true,
+      "required_source_anchors": [
+        "5.010+4.990 km <45 km"
+      ]
+    }
+  ],
+  "original_audit_status_preserved": "FAIL",
+  "original_audit_PASS": 671,
+  "original_audit_FAIL": 1,
+  "original_finding": "eleven newly detected source scripts lacked explicit mapping; no numeric registry identity check failed",
+  "supplement_checks": 14,
+  "scope": "Close enumerated semantic mapping finding only; no repeated full audit or science execution",
+  "new_registry_rows": 0,
+  "formal_execution_authorized": false
+}

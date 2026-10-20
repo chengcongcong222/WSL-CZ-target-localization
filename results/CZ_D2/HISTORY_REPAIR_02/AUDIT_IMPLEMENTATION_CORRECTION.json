@@ -1,0 +1,14 @@
+{
+  "type": "READ_ONLY_AUDITOR_FORMAT_COMPATIBILITY",
+  "original_script_sha256": "557d5e48d174d1ce2144eba75e345a3d830989294e20e14e3655726dc24f6267",
+  "original_attempt": "INDEPENDENT_SOURCE_AUDIT_STARTED.json; aborted ValueError before completion",
+  "reason": "1040/1400 P3 summary rows omit v/psi. Join all rows to frozen selected_hard_pairs by pair_id; verify every present coordinate, never fill zero or discard rows.",
+  "original_preserved": true,
+  "new_output_directory": "AUDIT_COMPLETED",
+  "new_script_sha256": "602799cac796c6ba2998f83284763dd69e78a2451d8e987b09175fa958ffec50",
+  "historical_python_AST_read_probe": "Earlier read-only AST probe stopped on historical Python3.10-incompatible f-string. Audit uses lexical discovery for all499 Python files and records AST status separately; no historical code edited or imported.",
+  "initial_launch_note": "runtime-environment.ps1 changed cwd; first relative-path launch could not open script, no audit executed. Subsequent launches use absolute paths.",
+  "scientific_execution_calls": 0,
+  "new_targets": 0,
+  "design_changes": 0
+}

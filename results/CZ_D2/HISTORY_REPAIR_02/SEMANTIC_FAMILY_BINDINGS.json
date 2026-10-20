@@ -1,0 +1,554 @@
+[
+  {
+    "id": "P2",
+    "prefixes": [
+      "P2_RC2_"
+    ],
+    "role": "mixed actual truth vs replica grid",
+    "origin": "V2 P2 offgrid; V3 P2 actual heading/bearing truths",
+    "proof": [
+      {
+        "path": "p2_rc2_kinematic_boundary.py",
+        "sha256": "e8363259a6798070c536868cd89953791f488e207c759ee1ed20ffa5324e4627"
+      },
+      {
+        "path": "results/P2_RC2_kinematic_boundary/P2_RC2_CONFIG.json",
+        "sha256": "22bbbf539d520494cb7d071a4ed6b489441e95b6fd441414a89108e47444d963"
+      }
+    ]
+  },
+  {
+    "id": "P3",
+    "prefixes": [
+      "P3_RC3_"
+    ],
+    "role": "ref generates observations; alt is candidate",
+    "origin": "V3 selected_hard_pairs ref rows only",
+    "proof": [
+      {
+        "path": "p3_rc3_increment.py",
+        "sha256": "a6129e0705a8990fda9584976da35ebfe75691685ef87b59d1beb4f65b953582"
+      },
+      {
+        "path": "results/P3_RC3_increment/selected_hard_pairs.csv",
+        "sha256": "81a074db62c046afc1f7780ae2a267f55d33d75ebd9ed1c151e39237793a2258"
+      }
+    ]
+  },
+  {
+    "id": "P4",
+    "prefixes": [
+      "P4_"
+    ],
+    "role": "random performance truth and fixed nominal truth",
+    "origin": "V2 P4 trials90; V3 P4_G4 nominal; candidate grids excluded",
+    "proof": [
+      {
+        "path": "p4_5_parameter_accuracy.py",
+        "sha256": "9215cd10bf2bb35a8550f75115b9a2f074b9b4ab17aa659283abea73e0cc6ec1"
+      },
+      {
+        "path": "p4_g4_performance_boundary.py",
+        "sha256": "b396c98dcbc6e52abd6a1f18966edf52f5ef74bfcf85afabae6d544742a3e6e9"
+      },
+      {
+        "path": "p4_g4_revision.py",
+        "sha256": "50ce3bffbfd25d562e40a49638664f25b8db3f621c90b17b70af6334fe77eb45"
+      }
+    ]
+  },
+  {
+    "id": "R3_PARTIAL",
+    "prefixes": [
+      "R3_A1_",
+      "R3_B1_",
+      "R3_C1_",
+      "R3_C2_",
+      "R3_RC3_",
+      "RANGE_UB"
+    ],
+    "role": "radial-depth/source-frequency/mode references, no full horizontal trajectory identity",
+    "origin": "Partial radial/depth history retained; no fabricated bearing/heading; search and numerical field grids not generating4Dtruth",
+    "proof": [
+      {
+        "path": "r3_0_method_recovery.py",
+        "sha256": "15d057ec5bb2652157293d6ad14b70519882c28388626752f7bd87114dae617c"
+      },
+      {
+        "path": "r3_a1_fidelity.py",
+        "sha256": "358997ed26252408188c5d6547b478e649bc3c352a546b55025de1d04290cdb0"
+      },
+      {
+        "path": "r3_b1_mmac_observability.py",
+        "sha256": "7d57729ef917a4a9261d89b6ba12c9546eb34f82d250987781068c8dab66c6ae"
+      },
+      {
+        "path": "r3_c1_depth_motion.py",
+        "sha256": "2a75a3eb2b143bd21eb362d32769948a5314c7a3c75f4295d3da877e23022528"
+      },
+      {
+        "path": "r3_c2_2c_paper_repro.py",
+        "sha256": "fdcca66bbf268cff7826a417cb6b993d483db2e328a68e2620ca26d548262555"
+      },
+      {
+        "path": "r3_c2_4b_2_paper_spectrum.py",
+        "sha256": "95899472c4e4d8380edb0e39e57e1495e1aa1070275f4550adfb024f0d900584"
+      },
+      {
+        "path": "r3_range_ub_1b_tdoa_oracle.py",
+        "sha256": "c6a59cc2c2fe1303882f17dfb569e6e822aaf1ab871a5522f39e9d5bb3db6cfe"
+      },
+      {
+        "path": "r3_rc3_reanchor_2_profiled_discrim.py",
+        "sha256": "7ad877286b0f1a2fc6f6ba8906ed9c2b137756918b60331e35637d4cc985c570"
+      }
+    ]
+  },
+  {
+    "id": "R3_CLOSED",
+    "prefixes": [
+      "R3_RC23_",
+      "R3_FINAL_"
+    ],
+    "role": "full nominal trajectory and downstream candidate sets",
+    "origin": "[50,0,2,5] from frozen truth; heading4 survivor is not a new generating truth",
+    "proof": [
+      {
+        "path": "r3_closedloop_1a_set_contraction.py",
+        "sha256": "462aa095c4f8af0385224cb52b0f508f5668ab6da60d2d17fa53a3ef3265bdef"
+      },
+      {
+        "path": "r3_closedloop_1b_two_window.py",
+        "sha256": "c09bdc0d2dd397edd44470fd644c8d01733be03a1af2f55493c6b85372263eb0"
+      },
+      {
+        "path": "r3_closedloop_1c_single_turn.py",
+        "sha256": "ced931d416eb369d24d86bbd4646acdcbeab1027623c2c7bd5aa5941c8997c7f"
+      },
+      {
+        "path": "r3_closedloop_1d_freq_subset.py",
+        "sha256": "b6fe768d82666ce9a4540b3924e8cf34e2507f328b006e7cd833c84a6d25c6ad"
+      },
+      {
+        "path": "r3_closedloop_1e_a_amplitude.py",
+        "sha256": "7655e8ea3ff0ee85c3a9c5878e2e313edf920fd5b653a2c754ff813e8fe30087"
+      },
+      {
+        "path": "r3_closedloop_1e_b_tracked_freq.py",
+        "sha256": "51c0a34dd013218fb07c031d7c0f79cc5f340a38d16c070144802091b7d6997b"
+      },
+      {
+        "path": "r3_closedloop_1e_c_ssp.py",
+        "sha256": "756adb64a8216e261d63a48cbc06a8a61e9b2eb6bbbf02450255a3567eebdb8b"
+      },
+      {
+        "path": "r3_final_parameter_contraction_fix.py",
+        "sha256": "6c5a874067209ae3be5ff39d31c5bedd1d83a6a486a39660647ab50636d8d8eb"
+      }
+    ]
+  },
+  {
+    "id": "A1",
+    "prefixes": [
+      "R4_A1_"
+    ],
+    "role": "P/Q/F/H generators, fit endpoints and caches",
+    "origin": "V2 both Q implementations, P9,F8,H12; A1-new and speed reuse H12; unused starts/candidate cells excluded",
+    "proof": [
+      {
+        "path": "r4_a1_offgrid_bearing.py",
+        "sha256": "978a24b692e597218706ba1cb3a0ca5b310d59f2e28cd76e07d849c2f8042c4c"
+      },
+      {
+        "path": "r4_a1_fix_continuous.py",
+        "sha256": "1977fdb8f5232fd521003cf4f8b1b60fa354672b85731308198140d00b9380fc"
+      },
+      {
+        "path": "r4_a1_fix2_coverage.py",
+        "sha256": "2802e9e163767f2aa2a907080416348e293e847799d35369c0750053669d60e9"
+      },
+      {
+        "path": "r4_a1_new_dynamic.py",
+        "sha256": "4a31239a086e401ff091fdd7a157bb03d4d201b7cdd0fc140ea1582c43088a1d"
+      },
+      {
+        "path": "r4_a1_search_tractability_development.py",
+        "sha256": "9ceb0b0b4e5aae9462e3d2999b3566921a58d0839550b0aa7676f3ee70632a34"
+      },
+      {
+        "path": "r4_speed_diagnostic.py",
+        "sha256": "43eb00ac696cec0505f143d2956d9754b283c85e8544c1ab7ad7ac0af863fead"
+      },
+      {
+        "path": "r4_speed_information.py",
+        "sha256": "40c1351254fb3194872f83f9f49a752819769a40f873c5ff8b7d006712f8bbfb"
+      }
+    ]
+  },
+  {
+    "id": "AUX_STATIC",
+    "prefixes": [
+      "R4_ROUTE_RESET_AUXILIARY",
+      "R4_AUX_GATE"
+    ],
+    "role": "actual static bearing observations at target(R,0)",
+    "origin": "V3 observed ranges50..60,theta0; normal draws and node-position perturbations are not target state",
+    "proof": [
+      {
+        "path": "r4_aux_gate0_geometry.py",
+        "sha256": "b0dbbb6d92b0b636c272c5fb98cd00c7c5984404402dfc2da4f1bad815864fff"
+      },
+      {
+        "path": "r4_aux_gate1_crosstrack.py",
+        "sha256": "19c669995e0fcc28e9a0112718dd494d43ec9bf8fc1e668384bf93bb31935b73"
+      },
+      {
+        "path": "r4_aux_gate2a.py",
+        "sha256": "8f790d4b4e8a371b315d097d88db6fcd5a3ad34d3bbf53c82db475bfe0d97f83"
+      },
+      {
+        "path": "r4_aux_gate2b.py",
+        "sha256": "2f705e95288b26d15608c6673751ad8ad9d4c338c764f028e9e6be777f5e3563"
+      }
+    ]
+  },
+  {
+    "id": "AUX_D1",
+    "prefixes": [
+      "R4_AUX_D1_"
+    ],
+    "role": "new historical random calibration and H12 test reuse",
+    "origin": "V2 AUX512, H12 repeated128; starts/endpoints are not truths",
+    "proof": [
+      {
+        "path": "aux_d1_generate.py",
+        "sha256": "40878c2273401d511343934fe5693148b71dfdf7a9eeb4b539f8fbeffaf23cad"
+      },
+      {
+        "path": "aux_d1_model.py",
+        "sha256": "8fad140591049b40a844372e32b1d4965844e46a9e47c310bb94ae86ad6e1462"
+      },
+      {
+        "path": "results/R4_AUX_D1_PAIRED_HORIZONTAL_INCREMENT/PRIVATE_GENERATOR_MANIFEST.json",
+        "sha256": "9120194b266c395b9c6fa065e9c9d261cb6de987c84c0c527d9ef80c16e7f14f"
+      }
+    ]
+  },
+  {
+    "id": "B1",
+    "prefixes": [
+      "R4_B1"
+    ],
+    "role": "nominal truth plus conditioning candidates",
+    "origin": "V3 B1 horizontal_reference=[50,0,2,5]; altered r/v grid is a candidate used against fixed observation",
+    "proof": [
+      {
+        "path": "r4_b1_execute.py",
+        "sha256": "377a1d08d96769ea850f8d753ab8d054117701a1c2cbd98c475c74be55bc4627"
+      },
+      {
+        "path": "r4_b1a_execute.py",
+        "sha256": "5175d3791abfeb43e3a7e5d0bb6d12a3735cbef93b6cfe50c28761013767ad48"
+      },
+      {
+        "path": "r4_b1b_analyze.py",
+        "sha256": "fddc030f1eedd93c0b01cf5a4b183e369bd2bddf2cc4ac6b034c3df1f87082bb"
+      }
+    ]
+  },
+  {
+    "id": "E_H3",
+    "prefixes": [
+      "R4_E1_",
+      "R4_E2_",
+      "R4_H3_"
+    ],
+    "role": "H12/mirrors fixed scene inputs; finite differences and modal arrays",
+    "origin": "V2 H12 and joint mirrors. H3-G2E selected H01/H06/H12 reuse G0; perturbed candidate/Jacobian values not independent truth",
+    "proof": [
+      {
+        "path": "r4_e1_g0.py",
+        "sha256": "d641f447c8894c61860bfc683bdef8ddf869ef732e5cd75d435d3de6eceeb638"
+      },
+      {
+        "path": "r4_e2_g0.py",
+        "sha256": "0e716a96fa041a325305b4849b2650bd45cb95edf043b1434445c9199053da3c"
+      },
+      {
+        "path": "r4_e2_nine_pair_pilot.py",
+        "sha256": "3c14e56610065a57cb5e83af897300cbb6e39118b022052470edd960615ec8a8"
+      },
+      {
+        "path": "r4_h3_g0.py",
+        "sha256": "249b836e83324dbf5ee8003e6f531721626491dafd0f461bfb6af6f158f7cfd1"
+      },
+      {
+        "path": "r4_h3_g2e.py",
+        "sha256": "9a1beafc632329e5b400f4748c61d246681ddd4e9918263d4325987217dff49d"
+      },
+      {
+        "path": "r4_h3_p0.py",
+        "sha256": "27c5b77ebe1ad5bc01ee02d7b5777a263569dbd054375d97598484fbb1813d3a"
+      },
+      {
+        "path": "r4_h3_p1.py",
+        "sha256": "bcb988b4b0c38dbc9b761599bed392768e0464df427ebd0f95bc18855860ee38"
+      },
+      {
+        "path": "results/R4_E1_G0_FREQUENCY_INFORMATION/E1_G0_SCENE_BINDINGS.json",
+        "sha256": "0b2f70f7c0fd015d582e7ec77871c3b4f003a2514116cee58311c38ed9c1b928"
+      }
+    ]
+  },
+  {
+    "id": "RC2",
+    "prefixes": [
+      "R4_RC2_"
+    ],
+    "role": "archived single-node P observations; dual-node input unavailable",
+    "origin": "V2 P-panel; interval boxes are candidate supports; no replacement synthetic truths",
+    "proof": [
+      {
+        "path": "r4_rc2_support.py",
+        "sha256": "1d41f33da5e83743ccfb489f98fdde4f97be9d247586d533048009cee65f4b4a"
+      },
+      {
+        "path": "r4_rc2_interval.py",
+        "sha256": "422fbea98d90f6815a1e4c4b2153dfe4237d46d5de0a5b872bacdcff4757befd"
+      }
+    ]
+  },
+  {
+    "id": "ENVELOPE",
+    "prefixes": [
+      "R4_ROUTE_REDESIGN_"
+    ],
+    "role": "design/pre-run interval controls; development locked",
+    "origin": "No registered new scientific panel execution; arithmetic cells and model argument points not test truths",
+    "proof": [
+      {
+        "path": "r4_cz_envelope_development.py",
+        "sha256": "495cc15972d3ff7ee75fefc9cc19866c0ae5318d55e6434ec924a01d660cfd0c"
+      },
+      {
+        "path": "r4_cz_envelope_model.py",
+        "sha256": "14f893a9f0a7f0509150b7aa427c59f08f8e7a6e8e64036fadb522ede164d090"
+      },
+      {
+        "path": "r4_cz_envelope_closure_audit.py",
+        "sha256": "b074dcdd506735d929a9672c11478fd9def095e3199b657003b7436d432ca62e"
+      }
+    ]
+  },
+  {
+    "id": "H1",
+    "prefixes": [
+      "R4_SINGLE_HLA_SOURCE_"
+    ],
+    "role": "main6 and offgrid8 actual generated observations",
+    "origin": "V2 H1 MAIN and OFFGRID CSV; full grid and multistarts are candidates",
+    "proof": [
+      {
+        "path": "hla_h1_execute.py",
+        "sha256": "b4553d5083f21419ffe75ac5b3c39980b225afca61c7a1d1cf4e210b4d5c3404"
+      },
+      {
+        "path": "hla_h1_core.py",
+        "sha256": "6ac3821c2bb2937434e9a25d5fe1374baf82b375ed77ced39987eb47a832cae0"
+      }
+    ]
+  },
+  {
+    "id": "H2_RX",
+    "prefixes": [
+      "R4_SINGLE_HLA_RADIAL_",
+      "R4_SINGLE_HLA_CARRIER_"
+    ],
+    "role": "H1 offgrid8 reuse and noises/source parameters",
+    "origin": "V2 H1 offgrid; accepted H2<=2ULP representation exception retained; RX1Z uses saved records",
+    "proof": [
+      {
+        "path": "hla_h2_generate.py",
+        "sha256": "3dc5972b7744076477c82e734f659e1a3e972e6414e35948074c8aa0c845467d"
+      },
+      {
+        "path": "hla_rx1_execute.py",
+        "sha256": "2dd51799cfdc0a1dc5cf0ff7b221fcdda401ba30cdffe4305d8ad979f7bff7a4"
+      },
+      {
+        "path": "hla_rx1_generate.py",
+        "sha256": "fb27d8d07ca85e50b7ee764750681ce902e3fa8b8477a344657efdd8a48d0626"
+      },
+      {
+        "path": "hla_rx1z_evaluate.py",
+        "sha256": "bae30b2dfb31aa8ba99c3d16902b66d147f869dd51eb0af1c15ec696d41c8007"
+      }
+    ]
+  },
+  {
+    "id": "SP1",
+    "prefixes": [
+      "R4_SINGLE_HLA_STATIC_"
+    ],
+    "role": "16 random static calibration plus H1 offgrid8 test",
+    "origin": "V2 SP1 calibration16 and H1offgrid; private manifests accepted4818check chain",
+    "proof": [
+      {
+        "path": "hla_sp1_preflight.py",
+        "sha256": "8a6bff7e8a1dac18286b6d29e5693e55c74ed2dfba165b62f9aea9904c0f88db"
+      },
+      {
+        "path": "hla_sp1_generate.py",
+        "sha256": "a545cc882878903e935dc386073625a4bec3ebf64274e2dc54964e253ce83c73"
+      },
+      {
+        "path": "results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/CALIBRATION_PRIVATE_ARCHIVE_MANIFEST.json",
+        "sha256": "c610993df889aa4a5917305381b1a195cac1d5179c17283126543cec71bc1a9e"
+      },
+      {
+        "path": "results/R4_SINGLE_HLA_STATIC_SPATIAL_RANGE_PILOT/TEST_PRIVATE_ARCHIVE_MANIFEST.json",
+        "sha256": "7e89c36c17356cb9c17378075647dd1b75b15da22a2350516a15ff2ff01cdb79"
+      }
+    ]
+  },
+  {
+    "id": "T2",
+    "prefixes": [
+      "R4_T2_"
+    ],
+    "role": "static calibration/reference fields; performance stopped",
+    "origin": "V2 T2 CAL16; H12 selected scenes; N1/N2 probes and precision sentinels are numerical references, not generated performance observations",
+    "proof": [
+      {
+        "path": "t2_tilt_g0_prepare.py",
+        "sha256": "58edf51d93669312b5c4ae1deede44bc74dcc945b8507b900d53d4dbadd0b8fc"
+      },
+      {
+        "path": "t2_tilt_g0_forward.py",
+        "sha256": "b70d6bf7dc9537bc224d8442065303c6a186c6f4baa035ff18aac35519ec0f3b"
+      },
+      {
+        "path": "t2_tilt_g0_generate.py",
+        "sha256": "fb88132ab47b0dc74d6db37d51b5a73f2f7dc51e06a225cecea0fb6d2700581e"
+      },
+      {
+        "path": "t2_n1_analyze.py",
+        "sha256": "208a28134641864633c0e556878058184bebd673c59331528c154306b01a1823"
+      },
+      {
+        "path": "t2_n2_evaluate.py",
+        "sha256": "2243263f3ecc55eefcc2d39078b000c00bb80be80fe1fe3e28869a3811bc48e3"
+      },
+      {
+        "path": "t2_n3_run.py",
+        "sha256": "5ca262522fd94228c01cab1c7b0d4118560f521d3b1eaaa92558381cd8cf8e1a"
+      }
+    ]
+  },
+  {
+    "id": "T3",
+    "prefixes": [
+      "R4_T3_"
+    ],
+    "role": "H12 reused across dual-node schemes",
+    "origin": "V2 H12; new noise/config does not create unseen target state",
+    "proof": [
+      {
+        "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/t3_w1_generate.py",
+        "sha256": "5c3dabeb60f99b120670f024a5a9fdd61396daf6dd9e7658a6233f36a5b92899"
+      },
+      {
+        "path": "results/R4_T3_W1_WIDE_BASELINE_DEMO/T3_W1_DESIGN_FREEZE.json",
+        "sha256": "438326fc6cba43fc0bcbb739ce6173e11fe9f20c31a3dea444f12acc7c6bf2ec"
+      }
+    ]
+  },
+  {
+    "id": "CZO",
+    "prefixes": [
+      "ENV_CAP_CZO04"
+    ],
+    "role": "36 actual generating cases, depth/environment labels separate",
+    "origin": "V2 DESIGN_FREEZE.generating_cases; per-case state arrays share these labels",
+    "proof": [
+      {
+        "path": "results/ENV_CAP_CZO04/scripts/analysis.py",
+        "sha256": "256af6d6ab33d001ef5417941dcaf52c399e2658118e7dd4c936d2b009ecde72"
+      },
+      {
+        "path": "results/ENV_CAP_CZO04/DESIGN_FREEZE.json",
+        "sha256": "64c53e331cc044d4ec94b518bf0b1d4ac90bb0c7d53e527ac10cb6028f0fa5c0"
+      }
+    ]
+  },
+  {
+    "id": "CAP",
+    "prefixes": [
+      "ENV_CAP_CAP06"
+    ],
+    "role": "development/holdout16+mirrors; P1 mathtoy; directional stress",
+    "origin": "V2 P0 panel16 and mirrors; stress zeros placeholders not target; calibration angles lack range. Accepted private archive mapping retained",
+    "proof": [
+      {
+        "path": "results/ENV_CAP_CAP06/code/generate_p2.py",
+        "sha256": "d2e76def13f75d39e902a87e89025d0f27626f9ea73f8acc18df2842de90bc0c"
+      },
+      {
+        "path": "results/ENV_CAP_CAP06/code/p1_toy.py",
+        "sha256": "15f4e60b230f1ad39878af0673c02f6ce99352451621a8ed889249e408c66005"
+      },
+      {
+        "path": "results/ENV_CAP_CAP06/P0_FROZEN_PANEL.json",
+        "sha256": "d6f233fa23a71f5f3e0017cb67d7d6dabeb34a37ed4240c3bb7a24a628870fe8"
+      },
+      {
+        "path": "results/ENV_CAP_CAP06/P2_RAW_DATA_INDEX.csv",
+        "sha256": "12185983ea530c4ada55fd4c818dac3653f66175cc15f2d27f83a67035e3f2a6"
+      }
+    ]
+  },
+  {
+    "id": "ENV_GEOMETRY",
+    "prefixes": [
+      "ENV_CAP_FULL_",
+      "ENV_CAP_REC01",
+      "ENV_CAP_CZROB02",
+      "ENV_CAP_NUM03"
+    ],
+    "role": "SSP/ray/energy reference and shallow paper controls",
+    "origin": "Partial radial/depth observations or numerical references; no 4D target generator or static r/theta performance panel",
+    "proof": [
+      {
+        "path": "results/ENV_CAP_NUM03/GPT_SYNC_NUM03.md",
+        "sha256": "2c501c5cd040a400d340839d132f14dc78e85cd32be1a3aae32d3a1de3ab4da4"
+      },
+      {
+        "path": "results/ENV_CAP_REC01/GPT_SYNC_ENV_CAP_REC01.md",
+        "sha256": "cc1d6da353abd401644f9e727e91fb8810e59e1492b6474132ac212761239e49"
+      },
+      {
+        "path": "results/ENV_CAP_FULL_CAMPAIGN/GPT_SYNC_ENV_CAP_FINAL.md",
+        "sha256": "7961b21d2b927a8d381ea9348aef34778971eb7c51a0ac2a839b354ab775a2f7"
+      }
+    ]
+  },
+  {
+    "id": "DOC_REVIEW",
+    "prefixes": [
+      "CZ_D1",
+      "ENV_CAP_REQ05",
+      "R4_MASTER",
+      "R4_OBSERVABILITY_",
+      "R4_AUX_CLIENT_",
+      "R4_SINGLE_HLA_CLOSEOUT_"
+    ],
+    "role": "historical aggregation/review, no new target observations",
+    "origin": "Follow canonical upstream origin; evidence row count is not number of new truths",
+    "proof": [
+      {
+        "path": "results/CZ_D1/GPT_SYNC_CZ_D1.md",
+        "sha256": "326723334f1e467d070fd659351cc299ce7710e23b2e7342a73377bb581b4714"
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "V1_rows": 216,
+  "V2_rows": 744,
+  "V3_rows": 762,
+  "added_rows": 18,
+  "V2_prefix_exact": true,
+  "V2_sha256": "eaddf3eb2e661c55d21f50ee7be95d094cebb498fde7f3a038acdf4c3e2c9c6d",
+  "V3_sha256": "d70e441b8c2b743555eed9e8102d2bc75d628ad34aa0640747a493877434ba9e",
+  "policy": "No new threshold; explicitly register additional actual grid-aligned truths already blocked by old coordinate-grid guard",
+  "generation_calls": 0
+}

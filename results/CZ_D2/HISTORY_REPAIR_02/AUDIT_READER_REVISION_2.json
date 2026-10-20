@@ -1,0 +1,8 @@
+{
+  "original_v2_preserved": true,
+  "reason": "Text replacement also matched truth_checks initializer and attempted second directory creation. Corrected exact initializer only; no scientific calculations affected.",
+  "v2_sha256": "602799cac796c6ba2998f83284763dd69e78a2451d8e987b09175fa958ffec50",
+  "v3_sha256": "64dbdd534be1881a8cbbae8a62e56ce1789dee7e67cc79393882417851eed583",
+  "output": "AUDIT_FINAL",
+  "formal_execution_calls": 0
+}
